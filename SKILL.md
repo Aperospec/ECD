@@ -70,6 +70,38 @@ Acceptance of the Development projection does not accept the later visual execut
 
 Use `shared/STAGE_SCOPED_INPUT_REGISTER.md` as the controlling protocol.
 
+### Creative Treatment must lead with the creative idea
+
+The ECD-facing Creative Treatment is a proposal, not a dump of the studio's internal Development record.
+
+Its mandatory visible order is:
+
+```text
+One-Sentence Creative Core
+→ Complete Creative Treatment narrative
+→ Supplemental Development information
+→ Deferred Input Notice when useful
+→ Greenlight Scope and Request
+```
+
+The first substantive sentence must positively state what the work fundamentally does. It is an internal creative proposition, not a final cover headline or slogan.
+
+Immediately after it, Creative Producer must explain the idea in connected prose: what happens, how the central material is transformed or reframed, why the idea matters, and what the audience ultimately understands or feels.
+
+Do not require the ECD to reconstruct the idea from separate fields such as premise, Agent role, authenticity, audience takeaway, guardrails, reference boundaries, stage state, and Greenlight mechanics.
+
+Boundaries and process notes protect the creative idea; they must not replace or visually dominate it. State what the work **is** before emphasizing what it is not.
+
+Internal evidence, rights, state, reference, and Stage-Scoped Input records may remain detailed backstage. Surface only the information needed for the ECD to understand and decide the creative premise.
+
+A Treatment is not ready for Greenlight when the ECD could reasonably ask:
+
+> “你真正想表达的内容到底在哪里？”
+
+When that happens, revise the entire Treatment as a new version, place the missing creative core and narrative first, mark the deficient version Superseded, and resubmit for Greenlight. Do not leave the actual idea as an informal follow-up summary.
+
+Use `shared/CREATIVE_TREATMENT_PRESENTATION.md` and `shared/CREATIVE_TREATMENT_TEMPLATE.md` as controlling protocols.
+
 ### Greenlight is an object-and-turn gate
 
 Greenlight must attach to an identifiable **Creative Treatment**, not merely to a request verb.
@@ -206,7 +238,7 @@ Use for one to three screens, a simple cover-plus-body post, a single key visual
 
 Keep the professional logic but compress paperwork. A Compact Creative Script may be a concise page-by-page table. Storyboard and Representative Design Comp may be combined into one visual proof when that proof is sufficient to lock the direction.
 
-Compact status does not permit the studio to skip Greenlight or activate later-stage inputs early.
+Compact status does not permit the studio to skip Greenlight, activate later-stage inputs early, or omit the One-Sentence Creative Core and Creative Treatment narrative.
 
 ### Standard
 
@@ -215,6 +247,8 @@ Use for ordinary multi-screen Social Editorial work. Produce the normal artifact
 ### Extended
 
 Use for research-heavy, evidence-sensitive, commercial, multi-format, campaign, or high-consequence work. Use the full state, evidence, rights, approval, and artifact records.
+
+Extended complexity may increase supplemental detail. It does not permit the creative idea to be buried.
 
 Do not confuse professional rigor with maximum document length.
 
@@ -234,6 +268,13 @@ Use only the capabilities required:
 
 The primary Development artifact is the **Creative Treatment**. It establishes what the project is, why it matters, what it says, what the audience should take away, and the relevant factual, speculative, rights, and reference boundaries.
 
+The user-visible Treatment must first communicate the creative idea through:
+
+1. a One-Sentence Creative Core;
+2. a complete Creative Treatment narrative in connected prose.
+
+Only then should it present supporting Development notes, guardrails, Deferred inputs, and Greenlight scope.
+
 The Treatment may contain the Development projection of a cross-stage input, but it must not execute the downstream projection.
 
 Examples:
@@ -250,6 +291,7 @@ Use:
 - `shared/RESEARCH_FUNCTION.md`
 - `shared/REFERENCE_POLICY.md`
 - `shared/STAGE_SCOPED_INPUT_REGISTER.md`
+- `shared/CREATIVE_TREATMENT_PRESENTATION.md`
 - `shared/CREATIVE_TREATMENT_TEMPLATE.md`
 
 ## Greenlight
@@ -365,7 +407,9 @@ Use:
 ```text
 Raw Brief
 → Stage-Scoped Input Register
-→ Creative Treatment
+→ One-Sentence Creative Core
+→ Creative Treatment narrative
+→ Supplemental Development information
 → ECD Greenlight
 → Activate Editorial Inputs
 → Creative Script
@@ -380,7 +424,7 @@ Raw Brief
 → ECD Final Acceptance
 ```
 
-Artifacts may be compressed or combined according to complexity, but professional questions, stage-local input activation, and the Greenlight gate must still be resolved.
+Artifacts may be compressed or combined according to complexity, but professional questions, stage-local input activation, the Creative Treatment presentation hierarchy, and the Greenlight gate must still be resolved.
 
 ## ECD Gates
 
@@ -420,7 +464,11 @@ Use `shared/ACCEPTANCE_RECORD.md`, `shared/STAGE_SCOPED_INPUT_REGISTER.md`, and 
 - `shared/PRODUCTION_MODEL.md`
 - `shared/GREENLIGHT_RECORD.md`
 - `shared/STAGE_SCOPED_INPUT_REGISTER.md`
+- `shared/CREATIVE_TREATMENT_PRESENTATION.md`
+- `shared/CREATIVE_TREATMENT_TEMPLATE.md`
 - `shared/HANDOFF_CONTRACT.md`
 - `shared/ARTIFACT_STATES.md`
 - `shared/LOCK_AND_REWORK_PROTOCOL.md`
 - `TESTS.md`
+- `tests/STAGE_SCOPED_INPUT_REGRESSION.md`
+- `tests/CREATIVE_TREATMENT_PRESENTATION_REGRESSION.md`
