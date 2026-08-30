@@ -8,6 +8,8 @@ It is a backstage professional capability coordinated by Creative Producer rathe
 
 Development may receive a brief containing later-stage material. It must use only the **Active Development projections** from `STAGE_SCOPED_INPUT_REGISTER.md` and preserve later-stage projections as Deferred.
 
+Its internal analysis may be detailed. Its ECD-facing output must be a clear creative proposal governed by `CREATIVE_TREATMENT_PRESENTATION.md`.
+
 ## Core Question
 
 > Is there a project worth making here, and if so, what exactly is it?
@@ -37,7 +39,7 @@ Development receives:
 
 - global Deliverable Contract inputs required to understand the project;
 - Active Development projections;
-- evidence / rights / reference-boundary questions needed for Treatment formation.
+- evidence, rights, and reference-boundary questions needed for Treatment formation.
 
 Development does **not** receive later-stage projections as executable instructions.
 
@@ -93,7 +95,7 @@ During Development, clarify:
 - what reference class applies;
 - why the ECD supplied it;
 - whether direct use is authorized;
-- rights / attribution / license conditions;
+- rights, attribution, and license conditions;
 - prohibited transfer;
 - any Development-level semantic consequence.
 
@@ -134,10 +136,13 @@ Stage-Scoped Input Register
 ↓
 Development functions as required
 ↓
-Creative Producer synthesis
+Internal Development record
 ↓
-Creative Treatment
-+ optional Deferred Input Notice
+Creative Producer synthesis
+├─ One-Sentence Creative Core
+├─ Creative Treatment narrative
+├─ Supplemental Development information
+└─ optional Deferred Input Notice
 ↓
 ECD Greenlight request
 ↓
@@ -146,24 +151,78 @@ Hard stop awaiting decision
 
 Development may loop without becoming Production.
 
+## Internal Development Record
+
+The internal record may contain:
+
+- premise diagnosis and alternatives;
+- evidence, uncertainty, and validation notes;
+- reference classification and rights analysis;
+- complete stage-scoped input projections;
+- rejected framings;
+- risk and boundary analysis;
+- state and handoff metadata.
+
+This record supports the work but is not automatically the ECD-facing Creative Treatment.
+
+Creative Producer must synthesize it rather than expose every analytical field at equal weight.
+
 ## Primary Artifact — Creative Treatment
 
-Use `CREATIVE_TREATMENT_TEMPLATE.md`.
+Use:
 
-The Treatment should establish:
+- `CREATIVE_TREATMENT_PRESENTATION.md`;
+- `CREATIVE_TREATMENT_TEMPLATE.md`.
 
-- what the project is;
-- the creative / editorial premise;
+The user-visible Treatment must begin with two mandatory sections.
+
+### 1. One-Sentence Creative Core
+
+One complete sentence that positively states what the work fundamentally does.
+
+It is a creative proposition, not a final headline, slogan, or disclaimer.
+
+### 2. Creative Treatment / Creative Narrative
+
+Connected prose explaining:
+
+- what is happening;
+- how the central material is transformed or reframed;
+- the role of the principal human, object, AI, product, or system;
+- why the idea is meaningful;
+- what the audience ultimately understands, feels, notices, imagines, or reconsiders.
+
+The ECD should not need later guardrails or state notes to discover the idea.
+
+After these sections, the Treatment may add:
+
 - why it deserves to exist;
 - selected angle and core proposition;
 - audience relevance and intended experience;
 - relevant facts and uncertainty;
-- reality / imagination boundary;
+- reality and imagination boundary;
 - material public-claim limit;
 - reference-use, rights, attribution, and asset boundaries at Development level;
-- what the project must preserve semantically and must not falsely imply or become.
+- what the project must preserve semantically and must not falsely imply or become;
+- unresolved Development decisions;
+- recommendation.
 
 The Treatment should not pretend that later-stage user instructions are already final professional decisions.
+
+## Positive Definition Before Defensive Boundary
+
+The normal order is:
+
+```text
+What the project is
+→ What happens
+→ Why it matters
+→ What must be protected
+```
+
+Do not lead with a long catalogue of what the project is not.
+
+A material safety, legal, or factual warning may require early prominence, but ordinary creative guardrails belong after the core and narrative.
 
 ## Deferred Input Notice
 
@@ -178,20 +237,22 @@ Deferred inputs recorded, not part of this Greenlight:
 
 This notice exists to prove the information was captured, not to interpret or approve it prematurely.
 
+It must appear after the Creative Treatment narrative and supplemental Development information, not before the idea.
+
 ## Development Boundary
 
 Development must not prematurely produce:
 
-- final page / card sequence;
+- final page or card sequence;
 - final audience-facing on-screen or companion copy;
 - actual Storyboard / Visual Sequence Board;
-- detailed reference palette / lighting / camera / typography / composition extraction;
+- detailed reference palette, lighting, camera, typography, or composition extraction;
 - Representative Design Comp;
 - final visual composition or typography system;
 - Art Direction Package;
 - production assets.
 
-A Treatment may note likely communication behavior or material deliverable consequences without becoming the Creative Script.
+A Treatment may explain the governing situation and likely communication behavior without becoming the Creative Script.
 
 ### Tool boundary
 
@@ -204,6 +265,8 @@ It must not invoke image generation, image editing, rendering, layout, Figma pro
 Development may recommend Greenlight when:
 
 - the premise is coherent and non-generic enough to guide Production;
+- the One-Sentence Creative Core accurately compresses the proposal;
+- the Creative Narrative makes the project understandable without analytical reconstruction;
 - ECD intent and the proposed project are aligned at the Development level;
 - evidence obligation has been satisfied to the required depth;
 - material reference, rights, and attribution boundaries are known;
@@ -217,36 +280,51 @@ For raw or unresolved input, Creative Producer must present the Treatment, state
 
 Complexity, detailed source material, and generic production instructions do not replace this decision.
 
-A direct transition without a new presentation turn is valid only for a traceable prior Greenlight or an explicit stage-aware instruction identifying supplied material as the final / approved Treatment and authorizing Production from it. Apply `GREENLIGHT_RECORD.md`.
+A direct transition without a new presentation turn is valid only for a traceable prior Greenlight or an explicit stage-aware instruction identifying supplied material as the final or approved Treatment and authorizing Production from it. Apply `GREENLIGHT_RECORD.md`.
 
 ## Treatment Presentation Contract
 
-The user-visible Development result should contain, at the depth appropriate to the project:
+The user-visible Development result should contain, in this order:
 
-- the proposed Creative Treatment;
-- principal Development-level reference-use and rights boundaries;
-- material factual, speculative, or claim boundaries;
-- optionally, a source-faithful Deferred Input Notice;
-- the recommendation;
-- what Greenlight will make authoritative;
-- **authorized next stage if accepted: Creative Script development**;
-- what remains unaccepted after Greenlight;
-- one concise Greenlight request.
+1. **One-Sentence Creative Core**;
+2. **Creative Treatment narrative**;
+3. necessary supplemental Development information;
+4. optionally, a source-faithful Deferred Input Notice;
+5. the recommendation;
+6. what Greenlight will make authoritative;
+7. authorized next stage if accepted: Creative Script development;
+8. what remains unaccepted after Greenlight;
+9. one concise Greenlight request.
 
 End the response there. Do not append a Creative Script, page-by-page sequence, Storyboard proposal, detailed visual reference extraction, image prompt, visual mockup, or generated asset.
 
-## Quality Gate
+## Creative Treatment Narrative Gate
 
-Before presenting the Treatment:
+Before presenting the Treatment, confirm:
 
-- separate verified fact, source claim, inference, and speculation;
-- make the angle and proposition explicit;
-- state the audience consequence rather than generic relevance;
-- identify what is original about the Treatment;
-- record what the work must not become;
-- confirm all material raw inputs are registered;
-- confirm later-stage inputs remain Deferred;
-- confirm Assistant Inference is not masquerading as user authority;
-- remove premature page plans, copy, palette, lighting, composition, or layout;
-- recommend a direction rather than presenting undifferentiated options when professional judgment can resolve them;
-- confirm that the next action is an ECD Greenlight decision, not visual Production.
+- the first substantive line is a one-sentence creative core;
+- the next section is a complete creative narrative in connected prose;
+- the ECD can state what the project is and what happens from those sections alone;
+- positive definition precedes ordinary negative boundaries;
+- the central idea is not scattered across analytical labels;
+- internal state, evidence, reference, and risk records remain subordinate;
+- the narrative does not become a final Script or visual plan;
+- all material raw inputs are registered;
+- later-stage inputs remain Deferred;
+- Assistant Inference is not masquerading as user authority;
+- the next action is an ECD Greenlight decision, not visual Production.
+
+A Treatment fails when the ECD reasonably asks:
+
+> “你写了这么多字，我没有看出来你真正表述的内容在哪里？”
+
+Recovery:
+
+1. identify the missing creative core and narrative;
+2. rewrite the complete Treatment as a new version;
+3. mark the prior version Superseded;
+4. place the corrected explanation first;
+5. preserve still-valid supplemental notes and Deferred inputs;
+6. request Greenlight again.
+
+Do not answer with a detached summary while leaving the deficient Treatment as the active proposal.
