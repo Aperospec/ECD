@@ -2,20 +2,20 @@
 
 ## Purpose
 
-Visual Beats translate sequence logic into written, frame-level communication intent before any Storyboard is drawn.
+Visual Beats translate sequence logic into written, frame-level communication intent before any Storyboard is created.
 
-A Visual Beat is not a visual artifact. It is the Editorial Director's semantic instruction for what a screen must communicate or make perceptible.
+A Visual Beat is not a visual artifact. It is Editorial Director's semantic instruction for what a screen must communicate or make perceptible.
 
-## Visual Beat Responsibility
+## Responsibilities
 
 For each beat, specify only what is necessary to preserve editorial meaning:
 
-- the editorial job;
-- what the audience must newly understand, feel, notice, or reconsider;
-- what event, state, transformation, comparison, evidence, object, action, or relationship must be perceptible;
-- what information must be visible in the eventual frame;
+- primary editorial job;
+- audience change;
+- event, state, transformation, comparison, evidence, object, action, absence, scale, or relationship that must be perceptible;
+- information that must remain visible;
 - what remains open for the next beat;
-- what visual meaning must not be lost downstream.
+- visual meaning that downstream work must not lose.
 
 ## Useful Dimensions
 
@@ -24,63 +24,67 @@ When relevant, describe:
 - subject or object required by our content;
 - action or state change;
 - relationship between required elements;
-- before / after or cause / effect relationship;
-- spatial or temporal condition when meaningful;
-- evidence that must be shown rather than merely described;
-- emotional or cognitive pressure the screen must carry.
+- before / after or cause / effect equivalence;
+- spatial or temporal condition when semantically necessary;
+- evidence that must be shown rather than described;
+- cognitive or emotional pressure the screen must carry.
 
-## Do Not Cross Into Storyboard or Art Direction
+## Boundary: Do Not Become Storyboard or Art Direction
 
-Do not specify routine visual execution such as:
+Do not specify routine execution such as:
 
 - actual drawn panels or generated frames;
 - exact placement percentages;
-- final camera angle unless the angle itself is semantically necessary;
+- final camera angle unless the angle itself carries meaning;
 - font family, weight, point size, or line spacing;
 - final palette;
 - exact crop coordinates;
-- decorative texture;
+- decorative texture or effect;
 - layout geometry;
-- aesthetic effects.
+- image treatment style.
 
 Those belong to Art Director or Production Artist.
 
-## When Visual Specificity Is Editorially Necessary
+## Necessary Visual Specificity
 
-Some visual conditions are part of meaning and may be locked in the Creative Script.
+Some visual conditions are part of editorial meaning and may be locked in the Script.
 
 Examples:
 
-- the same object must appear in both physical and digital form so the transformation is unmistakable;
-- a failure state must remain visible rather than be replaced by a generic success illustration;
+- the same object must appear in physical and digital form so a transformation is unmistakable;
+- a failure state must remain visible rather than be replaced by generic success imagery;
 - a before / after comparison must use equivalent evidence;
-- the audience must perceive scale, absence, accumulation, isolation, or transformation for the concept to work.
+- the audience must perceive scale, absence, accumulation, isolation, or transformation;
+- a source screenshot must remain recognizable enough to carry proof.
 
-Describe the semantic requirement, not the final composition.
+Describe the semantic condition, not the final composition.
 
 ## Reference Boundary
 
-A visual reference is not a source for our Visual Beat content unless its depicted content has separately been approved as usable content.
+Follow `../../shared/REFERENCE_POLICY.md`.
 
-If the ECD likes a reference for mood, atmosphere, aesthetic, lighting, materiality, scale, or visual temperament:
+A creative reference is not a source for original Visual Beat content unless its depicted content is separately authorized and intentionally belongs to the project.
 
-- preserve those qualities as reference intent;
-- derive our subjects, objects, scenes, and events from the Greenlit Creative Treatment;
-- do not copy the reference's person, building, pose, prop, story event, or exact composition merely because it is visible there.
+Derive subjects, objects, scenes, and events from the Greenlit Treatment. Record only the approved reference qualities that Art Director may later apply.
 
 ## Evidence-Led Beats
 
-When screenshots, test outputs, source material, diagrams, or comparisons carry the proof, state that explicitly in the Visual Beat.
+When screenshots, test outputs, source material, diagrams, documents, charts, or comparisons carry proof:
 
-Do not replace evidence with decorative imagery merely to make the sequence more cinematic.
+- state the required evidence explicitly;
+- preserve context needed for correct interpretation;
+- locate material limitation with the evidence;
+- distinguish actual output, reconstruction, simulation, and speculation;
+- do not replace proof with decorative imagery for cinematic effect.
 
 ## QA
 
-For each beat verify:
+For every beat confirm:
 
 - it has a necessary content function;
 - it is not repeating another beat's semantic job;
-- the written intent comes from our content, not from a style reference;
-- Art Director can create multiple valid visual interpretations from it;
-- all required facts, limitations, comparisons, or evidence remain visible;
-- the instruction is specific enough to preserve meaning but not so prescriptive that it becomes a Storyboard.
+- intent comes from our project rather than a style reference;
+- Art Director can create more than one valid visual interpretation;
+- required facts, comparisons, evidence, and limitations remain visible;
+- instruction is specific enough to preserve meaning but open enough to permit Art Direction;
+- no actual Storyboard decision has been hidden in the wording.

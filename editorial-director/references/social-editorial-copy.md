@@ -2,108 +2,124 @@
 
 ## Purpose
 
-Social Editorial copy converts the approved sequence into language that can be read quickly on screen without becoming generic platform bait or verbose document prose.
+Social Editorial copy converts an accepted editorial sequence into language that works at feed speed and mobile viewing distance without becoming generic platform bait or reduced document prose.
 
-Copy serves the editorial job of each beat. It does not replace weak structure.
+Copy serves the declared job of each beat. It cannot repair weak architecture.
 
-## Copy Roles
+## Functional Copy Roles
 
-Distinguish these roles:
+Use only the roles a screen needs:
 
-- **Platform / Post Title** — full discoverable proposition when the channel requires one;
+- **Platform / Post Title** — the complete discoverable proposition outside or alongside the visual sequence;
 - **Cover / First-Frame Line** — the fastest expression of the opening promise;
-- **Deck / Supporting Line** — optional clarification, never a second competing headline;
-- **Beat / Page Title** — the current screen's advancement;
-- **Narrative Sentence** — the sentence that carries the cognitive or emotional move;
-- **Supporting Copy** — only the explanation necessary to complete the beat;
-- **Caption / Source Line** — attribution or evidence context where required;
-- **Companion / Body Copy** — the publication text outside the image sequence.
+- **Deck / Supporting Line** — concise clarification, never a second competing headline;
+- **Beat / Page Title** — the advancement specific to the current screen;
+- **Core Line / Beat Statement** — the sentence or proposition carrying the beat's primary cognitive or emotional move;
+- **Narrative Sentence** — used only when the active beat is genuinely narrative;
+- **Supporting Copy** — the minimum explanation required to complete the beat;
+- **Evidence / Caption / Source Line** — attribution, proof context, date, version, or observed limitation;
+- **Required Limitation** — qualification that must remain visible for correct interpretation;
+- **Companion / Body Copy** — publication text outside the image sequence.
+
+Do not populate every role mechanically.
 
 ## Human Entry Point
 
-Prefer concrete people, objects, actions, transformations, consequences, tensions, or decisions over abstract taxonomy when both can express the same truth.
+Prefer concrete people, objects, actions, transformations, consequences, tensions, evidence, and decisions over abstract taxonomy when both can express the same truth.
 
-Do not flatten a precise idea into generic emotional language.
+Do not flatten a precise idea into generic emotional language merely to sound accessible.
 
 ## Title Discipline
 
-A title should either:
+A useful title should do at least one of the following:
 
 - state a meaningful change;
-- surface a useful contrast;
+- surface a relevant contrast;
 - create a question the sequence actually answers;
 - name a concrete consequence;
-- frame a concept in language the audience can enter quickly.
+- frame a concept in language the audience can enter quickly;
+- make a capability or evidence perceptible.
 
 Avoid:
 
 - empty superlatives;
 - fake urgency;
 - unsupported absolutes;
-- clickbait that the sequence cannot fulfill;
+- clickbait without payoff;
 - decorative English or pseudo-editorial labels with no function;
-- titles that merely name an internal chapter such as "Background" or "Introduction" when a meaningful statement can be used instead.
+- generic chapter labels such as “Background” or “Introduction” when a meaningful statement can be used;
+- repeating the same proposition on cover, page title, and body copy.
 
-## On-Screen Copy
+## Screen Copy Hierarchy
 
-For each beat:
+For each beat decide:
 
-- write to the declared editorial job;
-- keep the most important statement easiest to find;
-- use fewer words on high-impact beats;
-- allow explanation beats to carry more text when necessary;
-- preserve names, numbers, negation, qualifications, and claim boundaries;
-- do not repeat the same proposition across consecutive screens;
-- do not fill intentional visual space with filler copy.
+1. what must be found first;
+2. what completes that understanding;
+3. what may be read only by an interested viewer;
+4. what belongs in companion copy instead.
+
+High-impact beats normally use fewer words. Explanation and evidence beats may use more, but the primary message must remain visually discoverable at the intended size.
+
+Do not preserve text merely because it existed in source notes.
 
 ## Semantic Compression
 
-When text needs shortening, preserve meaning before brevity.
+A shorter variant is acceptable only when it preserves:
 
-A shortened variant is acceptable only if it keeps:
-
-- the same promise;
-- the same factual boundary;
 - the same subject and action;
-- required limitation or uncertainty;
-- exact names or numbers that cannot change.
+- the same promise;
+- the same factual or speculative boundary;
+- material negation and qualification;
+- required names, numbers, dates, versions, and limitations.
 
-If compression changes meaning, return to Editorial Director rather than asking Art Director or Production to solve it typographically.
+If compression changes meaning, Editorial Director must rewrite it deliberately. Art Director or Production Artist must not solve it through omission.
 
 ## Cross-Screen Language Rhythm
 
-Vary sentence length and density according to sequence energy.
+Vary sentence length and density according to editorial energy:
 
-A strong sequence may move among:
+- concise cover promise;
+- precise definition or explanation;
+- evidence-led caption;
+- deliberate pause;
+- concise consequence or payoff.
 
-- a short cover line;
-- a precise explanatory statement;
-- an evidence-led caption;
-- a sparse pause;
-- a concise payoff.
-
-Consistency is voice coherence, not identical copy length.
+Voice coherence does not require identical copy length or syntax on every screen.
 
 ## Companion / Body Copy
 
 When required, companion copy should:
 
-- fulfill the same Greenlit premise as the visual sequence;
-- add context that is useful outside the cards;
-- avoid merely transcribing every screen;
-- preserve factual / speculative boundaries;
-- include attribution, limitations, or disclosure where needed;
-- not introduce a new editorial position after the Creative Script has been approved.
+- fulfill the same Greenlit premise;
+- add context useful outside the cards;
+- avoid transcribing every screen;
+- preserve evidence and speculative boundaries;
+- include attribution, limitation, disclosure, or version context where required;
+- avoid introducing a new editorial position after Script acceptance;
+- remain appropriate to the publication surface and search / discovery behavior.
+
+## Mobile Copy Review
+
+Before handoff to Art Director:
+
+- identify the line that must survive thumbnail or fast-feed viewing;
+- distinguish exact text from compressible support;
+- avoid long unbroken clauses that force tiny type;
+- define semantic line-break opportunities when wording makes them important;
+- keep source and limitation lines concise but not invisible;
+- move secondary detail to companion copy when the image sequence does not need it;
+- do not use density as proof of sophistication.
 
 ## Copy QA
 
-Before handoff confirm:
+Confirm:
 
 - every visible line has a function;
 - cover promise is fulfilled later;
-- page titles advance rather than label sections generically;
-- the sequence does not repeat the same claim in different wording;
+- page titles advance rather than label sections;
+- Core Lines do not repeat the same proposition;
 - claims remain inside the Greenlit evidence / imagination boundary;
-- important limitations are not hidden for aesthetics;
-- companion copy and visual sequence express the same project rather than two competing angles;
-- Art Director can lay out the copy without needing to rewrite it.
+- required limitations are visible where they affect interpretation;
+- companion copy and visual sequence express one project;
+- Art Director can compose the copy without changing meaning.

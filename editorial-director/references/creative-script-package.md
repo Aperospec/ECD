@@ -2,46 +2,101 @@
 
 ## Purpose
 
-The Creative Script Package is the formal post-Greenlight artifact owned by Editorial Director.
+The Creative Script is the Editorial Director's formal post-Greenlight artifact.
 
-It converts an ECD-approved Creative Treatment into a complete communication blueprint for Art Director.
+It converts the Greenlit Creative Treatment into a complete audience-facing communication blueprint for Art Director. It must be specific enough that Art Director does not invent missing editorial structure or copy, while remaining visually open enough for original Storyboard and Art Direction work.
 
-The package must be specific enough that Art Director does not need to invent missing editorial structure, Visual Beat meaning, or audience-facing copy, while leaving genuine visual interpretation open for Storyboard and Art Direction.
+## Input Gate
 
-## Required Input Gate
+Before scripting, identify:
 
-Before formal scripting, confirm:
+- Greenlit Creative Treatment and version;
+- Greenlight Record or clear Compact-project authorization;
+- relevant Deliverable Contract;
+- complexity profile;
+- factual, speculative, claim, rights, and reference boundaries;
+- locked names, wording, evidence, limitations, and assets;
+- valid existing sequence or copy work.
 
-- the project is Greenlit;
-- the authoritative Creative Treatment is identified;
-- factual / speculative / claim boundaries are available when relevant;
-- locked names, wording, assets, or required limitations are known;
-- deliverable / surface constraints are known to the degree that they affect scripting.
+If the premise itself is materially broken, return through Creative Producer and reopen Development.
 
-If the Greenlit premise itself is materially unclear or broken, return to Creative Producer and reopen Development.
+## Choose the Smallest Sufficient Package
 
-## Required Output
+### Compact Script
+
+Use for one to three screens, a single key visual, or simple cover-plus-body work.
+
+```markdown
+# Creative Script — Compact
+
+Project:
+Greenlit premise:
+Core proposition:
+Audience takeaway:
+Deliverable:
+Dominant communication mode:
+Sequence logic:
+
+## Screen 1
+Role / editorial job:
+Audience change:
+Written Visual Beat:
+On-screen copy:
+- display title:
+- optional deck:
+- Core Line / Beat Statement:
+- support / evidence / limitation:
+Must preserve:
+Transition:
+
+## Screen 2
+[repeat only for required screens]
+
+## Companion / Body Copy
+Purpose:
+Final draft:
+Attribution / limitation:
+
+## Handoff State
+Material ECD Script Alignment required: [yes / no]
+Locks:
+Open issue:
+```
+
+Do not inflate Compact work with empty fields. A concise table is acceptable when it preserves the same information.
+
+### Standard Script
+
+Use the formal template below, omitting fields that genuinely do not apply.
+
+### Extended Script
+
+Use all relevant fields, detailed evidence placement, claim boundaries, alternative compression, and alignment records for evidence-sensitive, commercial, campaign, or multi-format work.
+
+## Standard / Extended Template
 
 ```markdown
 # Creative Script
 
-## 0. Greenlight Source
+## 0. Source and State
 
-Creative Treatment:
-[identify the Greenlit Treatment]
+Project:
+Complexity profile:
+Creative Treatment version:
+Greenlight state:
+Deliverable Contract reference:
+Artifact state: [Working / Proposed / Accepted for Handoff / ECD-Aligned / Locked]
 
 Core proposition preserved:
-[one sentence]
-
 Audience takeaway preserved:
-[what the audience should ultimately understand / feel / reconsider]
 
-Boundaries to preserve:
+Active boundaries:
 - factual / speculative:
 - claim / promise:
 - exact names / wording:
-- required limitations:
-- reference-use boundary:
+- evidence / limitations:
+- reference / rights:
+- deliverable constraints:
 
 ## 1. Communication Strategy
 
@@ -49,148 +104,130 @@ Dominant content mode:
 [Narrative / Explanatory / Demonstrative / Comparative / Procedural / Persuasive / Evidentiary / Speculative / Mixed]
 
 Supporting modes:
-[when relevant]
-
-Why this mode fits the Greenlit Treatment:
-[brief professional rationale]
-
+Why this behavior fits the Treatment:
 Opening promise:
-[what the first screen makes the audience expect]
-
 Payoff location:
-[where and how that promise is fulfilled]
-
 Sequence logic:
-[describe the progression in one concise chain]
+Minimum viable beat count:
 
 ## 2. Editorial Architecture
 
-Beat count:
-[number determined by content, subject to deliverable constraints]
+For each beat:
 
-For each beat list:
 - Beat number:
-- Editorial job:
-- New understanding / state introduced:
+- Primary editorial job:
+- New audience understanding / state:
 - Relationship to previous beat:
-- What remains open for the next beat:
+- Legitimate unresolved need for next beat:
 - Density intention: [sparse / light / medium / dense]
+- Required evidence / limitation:
 
-## 3. Beat-by-Beat Creative Script
+## 3. Beat-by-Beat Script
 
 ### Beat [number]
 
 Role:
 [cover / hook / orient / define / explain / demonstrate / prove / apply / contrast / limit / reframe / reflect / payoff / close / other]
 
-Editorial objective:
-[one primary job]
-
+Primary editorial objective:
 Audience change:
-[what becomes newly understood, felt, demonstrated, proven, or reconsidered]
+Communication mode for this beat:
 
-Visual Beat:
-[written semantic intent: what must happen, be visible, or be perceptible in our original content]
+Written Visual Beat:
+[What must happen, be visible, or become perceptible in our original content.]
 
-Required subject / object / action / relationship:
-[only when semantically necessary]
+Semantically required subject / object / action / state / relationship:
+[Only what meaning requires.]
 
 Evidence / comparison / limitation required in the eventual frame:
-[when relevant]
 
 Must preserve visually:
-[semantic requirement only, not visual execution]
+[Semantic requirement, not camera, typography, palette, or layout.]
 
 On-screen copy:
-- Display title:
-- Optional supporting line:
-- Narrative sentence:
+- Display / page title:
+- Optional deck:
+- Core Line / Beat Statement:
 - Supporting copy:
-- Caption / source line:
+- Evidence / caption / source line:
 - Required limitation:
 
-Approved compression, if needed:
-[only meaning-preserving short variant]
+Narrative sentence:
+[Use only when this beat is genuinely narrative; otherwise omit.]
 
+Approved meaning-preserving compression:
 Do not compress / alter:
-[exact content that downstream must preserve]
 
 Transition to next beat:
-[why the next screen is necessary]
-
 Forbidden editorial drift:
-[what downstream visual interpretation must not reinterpret or replace]
 
 ## 4. Companion / Body Copy
 
-Include only when the deliverable requires it.
+Include only when required by the Deliverable Contract.
 
-Purpose:
-[what the companion text contributes beyond the image sequence]
-
-Draft:
-[final audience-facing companion / body copy]
-
-Required attribution / limitation:
-[when relevant]
-
+Purpose beyond the image sequence:
+Final audience-facing draft:
+Required attribution / limitation / disclosure:
 Relationship to visual sequence:
-[how it fulfills the same premise without merely transcribing the cards]
 
 ## 5. Sequence QA
 
 Confirm:
 
-- every beat has one primary editorial job;
-- every beat advances;
+- every beat has one primary job;
+- every beat creates real progression;
 - adjacent beats do not repeat the same claim or semantic visual task;
 - the opening promise has a real payoff;
-- evidence appears where conclusions depend on it;
+- evidence appears before conclusions that depend on it;
+- limitations appear where they affect interpretation;
 - speculative material remains distinguishable from current fact;
-- visual references did not dictate our subjects, scene events, or exact compositions;
-- Visual Beats specify semantic content rather than Storyboard or Art Direction execution;
-- on-screen copy is final enough for Art Director to compose without rewriting;
-- required limitations and exact wording remain visible;
-- the ending adds consequence, judgment, implication, action, or aftertaste rather than repeating the opening;
-- the script still expresses the Greenlit Creative Treatment.
+- written Visual Beats derive from the Treatment rather than a copied reference scene;
+- on-screen copy is complete enough for composition;
+- copy roles are functional rather than mechanically filled;
+- no actual Storyboard, generated frame, typography system, or final composition has been produced;
+- the Script still expresses the Greenlit Treatment.
 
 ## 6. ECD Script Alignment State
 
-Material ECD alignment required:
-[yes / no]
+Material ECD alignment required: [yes / no]
 
 If yes:
 - unresolved communication choice:
 - Editorial Director recommendation:
 - consequence of the choice:
-- what becomes locked after ECD alignment:
+- decision requested from ECD:
+- decision-level lock after alignment:
 
 If no:
-[confirm routine editorial choices were resolved professionally]
+- confirm routine editorial choices were resolved professionally.
 
 ## 7. Art Director Handoff
 
-Art Director receives:
-
-- this approved Creative Script;
-- Greenlit Creative Treatment reference;
-- reference-intent / rights boundaries when relevant;
-- locked copy / names / evidence / limitations;
-- known surface constraints.
-
-Art Director owns Storyboard development and visual interpretation but may not silently change the Creative Script's editorial meaning.
+Authoritative Script version:
+Artifact state:
+Locked copy / names / evidence / limitations:
+Open visual variables:
+Reference intent and prohibited transfer:
+Known surface and viewing conditions:
+High-risk screen or relationship likely to require a Design Comp:
 ```
+
+## Copy Completeness Rule
+
+Art Director should not have to invent a headline, shorten a claim, remove a limitation, or write companion copy merely to make a design work.
+
+When visual layout exposes a genuine copy problem, return it to Editorial Director through Creative Producer rather than allowing downstream silent rewriting.
 
 ## Validation Rules
 
-The Creative Script is ready for Art Direction only when:
+The Script is ready for Art Director only when:
 
-- no material premise problem remains hidden inside the script;
+- the authoritative Treatment and deliverable are identifiable;
+- no material premise problem is hidden inside wording;
 - sequence progression is coherent;
-- Visual Beats are original and content-derived;
-- audience-facing copy exists rather than placeholders;
-- Art Director can distinguish semantic requirements from visual freedom;
-- no actual Storyboard or final Art Direction has been prematurely created inside Editorial Director;
-- the package identifies anything that still requires ECD Script Alignment.
-
-Do not hand off an incomplete script expecting Art Director to finish the editorial work.
+- written Visual Beats are original, semantic, and visually open;
+- all audience-facing copy needed by the deliverable exists;
+- exact wording and compressible wording are distinguished;
+- evidence and limitations have explicit locations;
+- any material ECD Script choice is recorded;
+- the artifact state is unambiguous.
