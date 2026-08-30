@@ -2,27 +2,54 @@
 
 ## Purpose
 
-This workflow turns an accepted Art Direction Package into final Social Editorial assets without allowing technical convenience to redefine the work.
+This workflow turns an Art Direction Package Accepted for Handoff plus **Activated Production inputs** into final Social Editorial assets without allowing technical convenience to redefine the work.
 
-Production Artist owns exact realization, deterministic typography, variants, export, and technical finish. It does not own the premise, Script meaning, or visual direction.
+Production Artist owns exact realization, deterministic typography, variants, export, and technical finish. It does not own the premise, Script meaning, visual direction, or activation of user instructions.
 
 ## Stage 0 — Production Input Gate
 
 Do not begin broad production until the following are identifiable:
 
 - Deliverable Contract;
-- accepted Creative Script;
+- Stage-Scoped Input Register;
+- Activated Production input IDs with original source and authority class;
+- Creative Script Accepted for Handoff;
 - Storyboard / Visual Sequence Board when relevant;
 - accepted Representative Design Comp or explicit reason it is unnecessary;
-- Art Direction Package;
+- Art Direction Package Accepted for Handoff;
+- any required ECD Visual Alignment resolved;
 - exact audience-facing copy;
 - source assets and provenance / transformation permissions;
-- locked decisions, tolerances, and approved fallbacks;
+- locked decisions, tolerances, and accepted fallbacks;
 - target dimensions, variants, language, and safe-area conditions.
 
-Return to Creative Producer when execution would require inventing an unresolved visual premise.
+Return to Creative Producer when:
 
-## Stage 1 — Asset Inventory
+- Production inputs are still Deferred;
+- the Art Direction Package is not Accepted for Handoff;
+- execution would require inventing an unresolved visual premise;
+- a Production input conflicts with an accepted upstream decision.
+
+A technical requirement mentioned in the original raw brief does not by itself authorize production before this gate. It may have informed the Deliverable Contract earlier while its implementation projection remained Deferred.
+
+## Stage 1 — Activated Production Input Review
+
+Before asset work, record:
+
+```markdown
+| Input ID | Original ECD source | Authority class | Production consequence | Conflict / risk | Planned resolution |
+|---|---|---|---|---|---|
+```
+
+Confirm:
+
+- Hard Constraints are technically feasible or escalated;
+- User Preferences are distinguished from fixed requirements;
+- Assistant Inference is not treated as ECD authority;
+- no already supplied technical requirement is being needlessly re-requested;
+- all required variants / export conditions are visible.
+
+## Stage 2 — Asset Inventory
 
 Create an inventory at the depth required by complexity:
 
@@ -44,11 +71,12 @@ Classify assets as:
 
 Do not reconstruct real evidence merely because a fictional version is visually easier.
 
-## Stage 2 — Implementation Plan
+## Stage 3 — Implementation Plan
 
 For each screen define:
 
 - final dimensions and safe areas;
+- Activated Production input IDs served;
 - background / environment layer;
 - typography / graphic-structure layer;
 - hero / evidence layer;
@@ -61,13 +89,14 @@ For each screen define:
 
 Preserve editable separation between imagery, typography, masks, and evidence whenever the toolchain permits.
 
-## Stage 3 — Image and Asset Realization
+## Stage 4 — Image and Asset Realization
 
 ### Original Imagery
 
 When generating imagery:
 
 - generate subjects, environments, lighting, texture, materiality, and visual effects without final publication text by default;
+- work from the accepted Art Direction Package and Design Comp, not directly from the raw reference image;
 - leave intentional quiet zones or masking space defined by the Design Comp;
 - preserve required depth planes;
 - verify subject identity, count, pose, object state, action, and physical relationships;
@@ -107,7 +136,7 @@ Check:
 - subject volume and perspective;
 - no sticker-like halo unless intentionally designed.
 
-## Stage 4 — Deterministic Typography
+## Stage 5 — Deterministic Typography
 
 Final audience-facing copy should normally be composed with a deterministic renderer capable of exact text, line breaks, alignment, font selection, and export.
 
@@ -115,7 +144,7 @@ Final audience-facing copy should normally be composed with a deterministic rend
 
 - exact Unicode text and punctuation;
 - correct language glyph coverage;
-- approved font or permitted fallback;
+- accepted font or permitted fallback;
 - weight, width, size, tracking, leading, and alignment;
 - semantic line breaks;
 - text wrapping and overflow;
@@ -127,7 +156,7 @@ Final audience-facing copy should normally be composed with a deterministic rend
 
 When the preferred font is unavailable:
 
-1. use the approved fallback in the Art Direction Package;
+1. use the accepted fallback in the Art Direction Package;
 2. compare width, weight, x-height, CJK metrics, punctuation behavior, and hierarchy;
 3. reflow inside permitted tolerances;
 4. return to Art Director when the fallback changes the visual premise.
@@ -136,7 +165,7 @@ Do not substitute a materially different typography personality silently.
 
 ### Exact Copy Check
 
-Compare every composed line against the accepted Creative Script. Verify:
+Compare every composed line against the Accepted Creative Script. Verify:
 
 - characters and punctuation;
 - capitalization;
@@ -146,7 +175,7 @@ Compare every composed line against the accepted Creative Script. Verify:
 - required limitation;
 - line breaks that carry meaning.
 
-## Stage 5 — Layout Assembly
+## Stage 6 — Layout Assembly
 
 Assemble each screen against the accepted Design Comp and Art Direction Package.
 
@@ -161,20 +190,21 @@ Check:
 - evidence visibility;
 - subject volume and grounding;
 - safe areas and platform overlays;
-- cross-page shared grammar and intentional variation.
+- cross-page shared grammar and intentional variation;
+- Activated Production Hard Constraints.
 
 A layout is not complete merely because all elements fit inside the canvas.
 
-## Stage 6 — Overflow and Fit Repair
+## Stage 7 — Overflow and Fit Repair
 
 Use the smallest authorized change.
 
 Repair order:
 
 1. apply accepted line breaks and text widths;
-2. use approved alternate copy compression already supplied by Editorial Director;
+2. use accepted alternate copy compression already supplied by Editorial Director;
 3. adjust spacing or geometry inside Art Direction tolerances;
-4. use an approved font fallback;
+4. use an accepted font fallback;
 5. return to Art Director if hierarchy or composition must change;
 6. return to Editorial Director if wording must change.
 
@@ -186,20 +216,22 @@ Forbidden repairs:
 - covering evidence;
 - adding generic text boxes without Art Direction support;
 - flattening or shrinking the hero to avoid masking;
-- changing the title to something easier to typeset.
+- changing the title to something easier to typeset;
+- violating an Activated user Hard Constraint to simplify implementation.
 
-## Stage 7 — Variants and Surface Adaptation
+## Stage 8 — Variants and Surface Adaptation
 
 For each variant:
 
 - begin from the accepted visual premise, not a blind crop;
 - preserve dominant hierarchy and meaning;
+- apply Activated variant / export requirements;
 - re-evaluate safe areas and UI overlays;
 - adjust composition when aspect-ratio change materially alters relationships;
 - route to Art Director when adaptation becomes a redesign;
 - verify exact copy and evidence independently.
 
-## Stage 8 — Mobile and Technical QA
+## Stage 9 — Mobile and Technical QA
 
 Run `mobile-qa.md` on representative proofs and final exports.
 
@@ -211,7 +243,8 @@ Critical failures block delivery regardless of overall visual score:
 - invalid dimensions or broken files;
 - unauthorized reference or asset use;
 - material drift from accepted Design Comp;
-- unapproved change to Script meaning.
+- unaccepted change to Script meaning;
+- violation or silent omission of an Activated Production Hard Constraint.
 
 ## File and Export Rules
 
@@ -242,12 +275,17 @@ Project:
 Art Direction Package version:
 Representative Design Comp version:
 Deliverable Contract reference:
+Stage-Scoped Input Register reference:
+Activated Production input IDs:
 
 Final assets:
 - filename / dimensions / format / role
 
 Variants:
 - 
+
+Production input resolution:
+- ID / Resolved / Conflict / authorized deviation
 
 Asset provenance and attribution state:
 Exact-copy verification: [pass / fail / note]
@@ -265,10 +303,12 @@ Ready for Creative Producer Final Review: [yes / no]
 Production is complete only when:
 
 - every requested asset and variant exists;
+- all Activated Production inputs have a resolution state;
 - exact copy is correct;
 - accepted visual relationships survive;
 - files pass mobile and technical QA;
 - evidence, limitations, and attribution remain visible;
+- user Hard Constraints were not silently dropped;
 - unauthorized deviations are absent;
 - known limitations are recorded;
 - Creative Producer can review the package without reconstructing production history.
