@@ -8,14 +8,27 @@ Editorial Director receives the authoritative Greenlit Creative Treatment and de
 
 It owns the complete editorial structure and audience-facing language while leaving genuine visual interpretation to Art Director.
 
-## Required Input
+## Required Input Gate
 
-- Greenlit Creative Treatment;
+Before any formal scripting, require:
+
+- identified Creative Treatment and version;
+- valid Greenlight Record tied to that Treatment;
+- traceable ECD authorization under `../shared/GREENLIGHT_RECORD.md`;
 - relevant Deliverable Contract;
 - factual, speculative, claim, rights, and reference boundaries;
 - exact names or wording that must survive;
 - ECD decisions already made;
 - valid existing copy or sequence work, if any.
+
+Do not accept “the user asked us to make a post”, “this is Compact”, “the brief is detailed”, or equivalent as a substitute for the Greenlight Record.
+
+When Greenlight is absent or invalid:
+
+1. do not create the Creative Script, final page sequence, or final audience-facing production copy;
+2. return the project through Creative Producer;
+3. identify the authoritative Treatment or request its presentation;
+4. set the next action to ECD Greenlight.
 
 Do not reopen the premise merely because another idea would be easier to script. Return a material premise failure through Creative Producer.
 
@@ -99,6 +112,8 @@ For one to three screens, output a concise strategy plus a page-by-page script c
 - companion copy when required;
 - locked evidence or limitations.
 
+Compact changes the Script format, not the Greenlight requirement.
+
 ### Standard
 
 Use the normal Creative Script fields needed for a reliable handoff.
@@ -111,6 +126,7 @@ Use the full formal package, evidence placement, alternative compression, alignm
 
 Before handoff, confirm:
 
+- the Greenlight Record is valid and points to the Treatment being scripted;
 - every beat advances;
 - the opening promise has a real payoff;
 - evidence precedes dependent conclusions;
@@ -120,6 +136,8 @@ Before handoff, confirm:
 - no actual Storyboard or final Art Direction was prematurely locked;
 - the Script still expresses the Greenlit Treatment.
 
+A Script produced before valid Greenlight is `Unauthorized / Invalid` and must not be handed to Art Director.
+
 ## References
 
 - `references/editorial-architecture.md`
@@ -128,5 +146,6 @@ Before handoff, confirm:
 - `references/visual-beats.md`
 - `references/social-editorial-copy.md`
 - `references/creative-script-package.md`
+- `../shared/GREENLIGHT_RECORD.md`
 - `../shared/REFERENCE_POLICY.md`
 - `../shared/HANDOFF_CONTRACT.md`
