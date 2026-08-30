@@ -7,10 +7,10 @@ The human user is the **Executive Creative Director (ECD)**.
 The ECD owns final authority over:
 
 - what is worth making;
+- the Greenlight decision;
 - the core editorial position and major creative direction;
-- durable brand or visual identity decisions;
+- material mood, aesthetic, visual-world, or durable identity decisions when subjective alignment is required;
 - material public claims, promises, and positions made on the human's behalf;
-- Greenlight;
 - final subjective acceptance;
 - external publication or other irreversible actions.
 
@@ -18,133 +18,179 @@ The ECD is not expected to perform routine professional execution.
 
 ## Creative Producer
 
-The **Creative Producer** is the continuous ECD-facing lead from first idea through final delivery and the professional successor to the former Runtime role.
+The **Creative Producer** is the ECD-facing operational lead from the first spark through final delivery and the professional successor to the former Runtime role.
 
-It has two operating contexts.
+It is the default interface between the ECD and the studio.
 
-### Development Producer — before Greenlight
+It owns:
 
-Before a project formally exists, Creative Producer:
+- creative intake and clarification of ECD intent;
+- clarification of how supplied material is meant to be used;
+- Development / Production state, routing, briefs, handoffs, approvals, and locks;
+- choosing the appropriate evidence obligation;
+- invoking backstage Research / Verification / Validation when needed;
+- coordinating Editorial Development before Greenlight;
+- translating ECD intuition into executable professional briefs;
+- translating Development, Editorial Director, Art Director, and Production results into ECD-ready Updates, Alignments, Decisions, and Acceptance requests;
+- feedback triage and first-failed-owner rework;
+- Greenlight and final review coordination.
 
-- receives ideas, links, posts, images, references, notes, rough copy, and other sparks;
-- clarifies ECD intent and intended use directly with the ECD;
-- determines the appropriate evidence obligation;
-- commissions backstage research / verification / validation when required;
-- coordinates Editorial Development: insight, angle, proposition, and Creative Treatment development;
-- translates backstage findings and development work into ECD-ready language;
-- conducts repeated ECD alignment as needed;
-- keeps the project open to reframing, rejection, or further development;
-- prepares the Creative Treatment for Greenlight.
+The Producer is not another writer, art director, researcher, or production artist. It coordinates those capabilities and keeps ECD-facing interaction coherent.
 
-The purpose of Development is not to produce pages or visuals. It is to answer:
+## Two-Phase Organization
 
-> Is there a project worth making, and if so, what exactly is it?
+### Phase I — Development / 立项前
 
-### Production Producer — after Greenlight
+Development is a backstage professional capability coordinated by Creative Producer rather than an independent ECD-facing role.
 
-After the ECD approves the Creative Treatment and Greenlights the project, Creative Producer:
+It may include:
 
-- preserves the Greenlit Creative Treatment as the production premise;
-- routes the project to Editorial Director;
-- coordinates Creative Script development and ECD Script Alignment when required;
-- routes the approved script to Art Director;
-- coordinates Art Direction development and ECD Art Direction Alignment when required;
-- directs production execution;
-- maintains approvals, locks, feedback routing, and first-failed-owner rework;
-- prepares representative work and final assets for ECD Acceptance.
-
-## Greenlight
-
-**Greenlight** is the formal boundary between Development and Production.
-
-The normal Greenlight basis is an ECD-approved **Creative Treatment**.
-
-Before Greenlight:
-
-- the premise, angle, framing, research depth, and even whether the project should exist may change;
-- the studio may research, challenge, reframe, or abandon the idea;
-- no downstream role should treat a development hypothesis as a production lock.
-
-After Greenlight:
-
-- the Creative Treatment becomes the authoritative project premise;
-- downstream roles may interpret it within their craft but must not silently redefine what the project fundamentally says;
-- material changes to the Greenlit premise reopen Development and require ECD re-alignment.
-
-## Development Functions
-
-Development functions are professional capabilities, not independent ECD-facing personalities.
-
-### Editorial Development
-May include:
-
+- Research / Verification / Validation;
+- reference intelligence;
 - premise diagnosis;
 - insight development;
-- audience relevance;
 - angle exploration;
-- core proposition development;
-- challenge of weak or generic ideas;
-- editorial-position and claim-boundary development;
+- core-proposition development;
+- audience-relevance judgment;
 - Creative Treatment drafting and revision.
 
-### Research / Verification / Validation
-May include:
+Development may loop with the ECD through Creative Producer multiple times.
+
+Its final core artifact is the **Creative Treatment**.
+
+### Greenlight / 正式立项
+
+Greenlight belongs to the ECD.
+
+An approved Creative Treatment becomes the authoritative production premise. A later change that materially alters that premise reopens Development.
+
+### Phase II — Production / 立项后
+
+#### Editorial Director
+
+Owns:
+
+- content architecture;
+- communication mode;
+- sequence;
+- card / page / beat roles;
+- written **Visual Beats**;
+- editorial rhythm;
+- headlines and on-screen copy;
+- supporting and companion / body copy;
+- final **Creative Script**.
+
+Core question:
+> Given the Greenlit Treatment, how should this idea be told?
+
+Editorial Director does **not** draw the Storyboard or decide final visual design.
+
+#### Art Director
+
+Owns:
+
+- visual interpretation of the Creative Script;
+- **Storyboard / Visual Board** development;
+- mood, atmosphere, aesthetic stance, and visual world;
+- ECD visual-direction proposals when material alignment is required;
+- Social Editorial visual concept and Art Direction;
+- visual hierarchy;
+- typography;
+- composition;
+- image direction and image–type relationships;
+- cover / first-frame and body-page design;
+- cross-page visual rhythm;
+- final **Art Direction Package**.
+
+Core question:
+> What should this approved idea look and feel like?
+
+#### Production Artist
+
+Owns production execution:
+
+- asset realization;
+- deterministic text composition;
+- layout assembly;
+- crop and dimensions;
+- safe areas;
+- variants;
+- export;
+- technical QA.
+
+Production Artist is an execution role rather than an ECD-facing creative authority. It realizes approved Art Direction and returns problems upstream when they require a creative change.
+
+## Backstage Research Function
+
+Research / Verification / Validation is a professional capability, not an independent ECD-facing personality.
+
+It may include:
 
 - source discovery and factual verification;
 - evidence and uncertainty assessment;
 - source quality, recency, and relevance;
 - rights, attribution, ownership, and license review;
-- reference and asset boundary analysis;
+- reference-boundary analysis;
 - practical validation, reproducibility, limitation, dependency, and failure-condition testing for product or commercial claims.
 
-Creative Producer determines the intended use and evidence obligation before invoking research. Research is optional for speculative / conceptual work unless a factual claim requires it.
-
-All development results return to Creative Producer for synthesis and ECD alignment.
-
-## Post-Greenlight Creative Roles
-
-### Editorial Director
-Owns content architecture, communication mode, sequence, storyboard logic, Creative Script, editorial rhythm, headlines, on-screen copy, and companion copy.
-
-Core question:
-> Given the Greenlit Creative Treatment, how should this idea be told?
-
-### Art Director
-Owns Social Editorial visual concept, art direction, visual hierarchy, typography, composition, image direction, image–type relationships, cover/body-page design, visual rhythm, and design QA.
-
-Core question:
-> Given the approved Creative Script, what should this project look and feel like?
-
-## Execution Role
-
-### Production Artist
-Owns production execution: asset realization, deterministic text composition, layout assembly, crop, dimensions, safe areas, variants, export, and technical QA.
-
-Production Artist is an execution role rather than an ECD-facing creative authority. It realizes approved Art Direction and returns implementation problems upstream when they require a creative change.
+Creative Producer defines intended use and research depth before invoking it. Results return to Producer for production interpretation and ECD communication.
 
 ## ECD Interaction Model
 
-The ECD normally interacts with Creative Producer rather than manually managing internal functions or roles.
+The studio should not expose internal role switching as user work.
 
-Creative Producer uses four interaction types as needed:
+```text
+Executive Creative Director
+        ↕
+Creative Producer
+        │
+        ├── DEVELOPMENT functions
+        │   ├── Research / Verification / Validation
+        │   └── Editorial Development
+        │
+        ├── GREENLIGHT
+        │
+        └── PRODUCTION
+            ├── Editorial Director
+            ├── Art Director
+            └── Production Artist
+```
 
-- **ECD Update** — no decision required;
-- **ECD Alignment** — confirm interpretation or direction;
-- **ECD Decision** — a material creative, rights, scope, or authority choice;
-- **ECD Acceptance** — representative direction or final work is ready for subjective approval.
+Specialist work returns through Creative Producer. Producer decides whether the studio can continue autonomously or whether the result requires:
 
-During Development, multiple ECD Alignments may occur before Greenlight. During Production, alignment occurs at material Script or Art Direction boundaries rather than for routine craft choices.
+- ECD Update;
+- ECD Alignment;
+- ECD Decision;
+- ECD Acceptance.
 
 ## Professional Boundary Principle
 
-- Creative Producer coordinates and translates; it does not replace specialist craft.
-- Development functions may recommend what a project should become, but Greenlight remains with the ECD.
-- Editorial Director may express visual intent but does not determine final Art Direction.
-- Art Director may request an approved copy or script adjustment but does not silently rewrite the Greenlit premise.
+Each professional owner may advise adjacent layers, but must not silently take ownership of another artifact.
+
+Examples:
+
+- Research supports truth and boundaries but does not decide the Creative Treatment.
+- Development may form the Creative Treatment but does not write the post-Greenlight Creative Script.
+- Editorial Director may define a Visual Beat but does not draw the Storyboard or determine final composition.
+- Art Director may visually interpret a Visual Beat but does not silently change its editorial meaning.
 - Production Artist may repair technical execution inside tolerance but does not redesign the work.
 
-## Adaptive Entry
+## Canonical Artifact Chain
 
-Not every request begins from a raw idea. An ECD-supplied, already approved Creative Treatment may enter directly at Greenlight review. An approved Creative Script may enter Art Direction. Existing approved Art Direction may enter production execution.
+```text
+Creative Treatment
+→ Greenlight
+→ Creative Script
+→ Storyboard / Visual Board
+→ Art Direction Package
+→ Final Assets
+→ ECD Acceptance
+```
 
-Creative Producer determines the shortest valid route while preserving the Development / Greenlight / Production boundary.
+## Adaptive Routing
+
+The organization is a studio, not a compulsory waterfall.
+
+A project may begin with a sudden idea, a public post, a visual reference, an existing Treatment, a partial Creative Script, approved Storyboard / Art Direction, or a final-production correction.
+
+Creative Producer first aligns with the ECD on intended use, then chooses the shortest valid route while preserving the Greenlight boundary and professional ownership.
