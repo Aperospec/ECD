@@ -2,81 +2,122 @@
 
 ## Purpose
 
-Locks protect approved professional decisions from silent downstream drift. They are not intended to make the studio rigid; they make targeted rework possible.
+Locks protect approved decisions from silent downstream drift while preserving the ability to reopen the first affected layer.
+
+ECD uses a two-phase model:
+
+- **Development** before Greenlight;
+- **Production** after Greenlight.
+
+Greenlight is the main boundary between revisable project development and authoritative production premise.
 
 ## Working States
 
 A professional artifact may be:
 
 - `Working` — actively being developed;
-- `Proposed` — ready for professional or ECD review;
+- `Proposed` — ready for review;
 - `Approved` — accepted as the current direction;
 - `Locked` — downstream work must preserve it unless explicitly reopened.
 
-Creative Producer records the relevant state. Do not turn ordinary draft text into a formal lock without a reason.
+Creative Producer records the relevant state. Do not turn ordinary exploration into a formal lock without a production reason.
 
-## Typical Locks
+## Development State
 
-Locks may protect:
+Before Greenlight, research findings, insight hypotheses, angle options, and treatment drafts are development material rather than production locks.
 
-- ECD intent, intended use, and deliverable constraints;
-- verified facts, dates, names, evidence, rights, attribution, license conditions, and validation limits;
-- the Creative Treatment's core premise, selected angle, public promise, and claim boundary;
+They may be revised, reframed, rejected, or abandoned.
+
+The ECD may align multiple times before the project is Greenlit.
+
+## Greenlight Lock
+
+The normal Greenlight lock is the ECD-approved **Creative Treatment** plus any material factual, rights, claim, reference, or commercial boundaries required for faithful production.
+
+After Greenlight, downstream roles may interpret the treatment within their craft but may not silently alter:
+
+- the project premise;
+- selected angle and core proposition;
+- material public position or promise;
+- reality / imagination boundary;
+- material claim or evidence limitations;
+- material rights or reference restrictions.
+
+A change to those elements reopens Development.
+
+## Production Locks
+
+Locks may additionally protect:
+
 - Creative Script sequence, page/card purpose, exact required wording, and editorial meaning;
-- Art Direction, durable visual identity, visual relationship, atmosphere, hierarchy, and approved assets;
+- Art Direction, durable visual identity, visual relationship, hierarchy, and approved assets;
 - final production specifications and accepted outputs.
 
 ## First-Failed-Owner Rule
 
-When quality fails, identify the first professional artifact or evidence state where the failure appears.
+When quality fails, identify the first professional object where the failure appears.
 
-Default routing:
+Default ownership:
 
-- source / fact / evidence / rights / license / validation failure → Creative Producer reopens evidence state and invokes the required Research / Verification / Validation function;
-- weak premise / insight / angle / audience relevance → Editorial Strategist;
-- weak sequence / storyboard / copy / content progression → Editorial Director;
-- weak visual concept / mood / hierarchy / typography / composition → Art Director;
-- crop / overflow / dimensions / export / implementation defect → Production Artist;
-- intake / routing / decision-state / lock / unresolved authority problem → Creative Producer.
+- research / fact / evidence / validation / rights / reference-boundary failure → **Development Research Function**, coordinated by Creative Producer;
+- premise / insight / angle / proposition / Creative Treatment failure → **Development**, coordinated by Creative Producer and re-aligned with ECD when material;
+- sequence / storyboard / copy / content-progression failure → **Editorial Director**;
+- visual concept / mood / hierarchy / typography / composition failure → **Art Director**;
+- crop / overflow / dimensions / export / implementation defect → **Production Artist**;
+- state / Greenlight / routing / unresolved-authority problem → **Creative Producer**.
 
-Reopen only the affected state and downstream artifacts that depend on it.
+Reopen only that object and the downstream work affected by the change.
 
-## Reference Failure Routing
+## Reopening Development
 
-Visual or editorial references must not silently become copied content.
+A post-Greenlight issue must reopen Development when the proposed fix materially changes what the project fundamentally is or says.
 
-- wrong understanding of what the ECD intended to reference → Creative Producer reopens ECD Alignment;
-- uncertain rights, ownership, attribution, or reference boundary → Creative Producer invokes Research Function;
-- storyboard content copied from a visual reference rather than derived from our own Creative Treatment → Editorial Director;
-- visual style or composition imitates a reference too literally → Art Director;
-- implementation introduces unapproved copied material → Production Artist / Creative Producer depending on origin.
+Examples:
+
+- research disproves a claim central to the Creative Treatment;
+- a commercial validation result makes the promised proposition untenable;
+- ECD changes the core premise or selected angle;
+- a reference or rights problem invalidates a concept essential to the Treatment;
+- scripting reveals that the project has no coherent content unless the premise changes.
+
+Creative Producer returns the issue to Development, synthesizes the consequence, and obtains ECD re-alignment before re-Greenlighting the changed project.
 
 ## ECD Gates
 
-Return a decision to the Executive Creative Director when a proposed change materially alters:
+Return to the Executive Creative Director when a proposed change materially alters:
 
-- the intended use of supplied material;
-- what the piece is fundamentally saying;
-- a public claim, promise, or position made on the human's behalf;
-- the boundary between speculative imagination and factual assertion;
-- durable brand, mood, aesthetic, visual world, or Art Direction;
-- ownership, rights, attribution, license, or commercial authority;
+- what the project fundamentally says;
+- whether the project should exist;
+- the Greenlight premise;
+- a public claim, promise, or position made on the ECD's behalf;
+- durable brand or visual identity;
+- ownership, rights, or attribution authority;
 - material scope, cost, or external action;
-- final subjective acceptance when required.
+- final subjective acceptance.
 
-Routine specialist and technical choices remain with the responsible professional owner.
+Routine professional choices remain with the responsible craft owner.
 
 ## No Downstream Repair by Distortion
 
 A downstream role must not repair its own difficulty by:
 
-- weakening or rewriting a locked editorial promise;
-- turning imagination into present fact;
+- weakening or rewriting the Greenlit premise;
 - hiding a required limitation;
-- changing a locked name or verified fact;
+- changing a locked name or fact;
 - replacing evidence with decoration;
-- copying a reference's subject, object, scene, event, or exact composition when only mood / aesthetic qualities were approved;
-- redesigning an approved visual relationship for technical convenience;
+- changing reference boundaries for convenience;
+- redesigning an approved visual relationship merely because implementation is difficult;
 - shrinking essential information below the intended viewing condition.
 
-Return the issue to Creative Producer for targeted rerouting instead.
+Return the issue to the first affected owner instead.
+
+## Production Feedback Routing
+
+Typical feedback examples:
+
+- “This fact is wrong.” → Development Research Function.
+- “This is no longer what I wanted to say.” → reopen Development.
+- “Page 2 and Page 3 say the same thing.” → Editorial Director.
+- “The whole piece feels too technological / commercial / cold.” → Art Director if the premise is still right; Development if the meaning itself is wrong.
+- “The approved title is too small in export.” → Production Artist if execution is wrong; Art Director if hierarchy was wrong.
+- “The final output drifted from the approved direction.” → Creative Producer locates the first failed lock and routes targeted rework.
