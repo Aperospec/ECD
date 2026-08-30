@@ -2,9 +2,9 @@
 
 ## Purpose
 
-Development is the pre-Greenlight professional capability for turning an ECD spark into a clear, testable, and potentially Greenlightable Social Editorial project.
+Development turns a raw or unresolved ECD input into a clear, testable, and potentially Greenlightable Social Editorial project.
 
-It is not an independent ECD-facing role. Creative Producer owns the relationship with the Executive Creative Director and coordinates all development work.
+It is a backstage professional capability coordinated by Creative Producer rather than an independent user-facing personality.
 
 ## Core Question
 
@@ -15,134 +15,136 @@ It is not an independent ECD-facing role. Creative Producer owns the relationshi
 Development may begin from:
 
 - a sudden idea or sentence;
-- a public post, article, repository, product, paper, or news item;
-- an image or visual reference;
+- a public post, article, repository, product, paper, news item, or data point;
+- an image, screenshot, or visual reference;
 - rough notes or partial copy;
-- an existing concept or treatment;
+- an existing concept or Treatment;
 - a product or commercial opportunity;
-- a correction or reframing of an earlier idea.
+- a correction that changes the premise of earlier work.
 
-Creative Producer should first align with the ECD on intended use before commissioning development work.
+Creative Producer first determines intended use, valid existing work, complexity profile, and evidence obligation.
 
 ## Development Capabilities
 
 Use only what the project requires.
 
-### 1. Research / Verification / Validation
+### 1. Premise Diagnosis
 
-See `RESEARCH_FUNCTION.md`.
+Determine:
 
-Research depth follows the evidence obligation set by Creative Producer:
+- what is actually being proposed;
+- whether the input is a topic, source, visual impulse, product claim, or project premise;
+- what is interesting, weak, generic, derivative, unsupported, or unresolved;
+- what must be true for a project to deserve Production.
 
-- speculative / conceptual;
-- evidence-based editorial;
-- product / commercial validation.
+### 2. Research / Verification / Validation
 
-### 2. Reference Intelligence
+Use `RESEARCH_FUNCTION.md` according to the selected evidence obligation.
 
-When reference material is supplied, distinguish what may inform the work from what must not be transferred.
+Research constrains truth, rights, and promise. It does not choose the creative premise by itself.
 
-Possible reference intent includes:
+### 3. Reference Intelligence
 
-- mood;
-- atmosphere;
-- emotional temperature;
-- light and color relationships;
-- materiality and texture;
-- spatial scale and depth;
-- composition temperament;
-- photographic / illustrative feeling;
-- typography compatibility;
-- editorial rhythm.
+Use the single policy in `REFERENCE_POLICY.md`.
 
-Reference material does not automatically authorize transfer of:
+Clarify whether a reference is:
 
-- subject;
-- character;
-- building;
-- object;
-- product;
-- pose;
-- narrative event;
-- exact composition;
-- exact crop;
-- logo or symbol;
-- distinctive branded treatment.
+- evidence;
+- authorized content;
+- creative-attribute reference;
+- structural / interaction reference;
+- quality benchmark;
+- negative example.
 
-Our content determines what appears in our storyboard. Reference material may influence how that original content should feel or behave visually later.
+Do not let a supplied image dictate the original subject, event, scene, or exact composition unless that content is separately authorized and intentionally part of the project.
 
-### 3. Editorial Development
+### 4. Editorial Development
 
-Editorial Development may:
+May:
 
-- diagnose what is genuinely interesting in the idea;
-- distinguish topic from editorial angle;
-- identify weak, generic, or derivative framing;
+- distinguish topic from angle;
 - develop insight;
 - test audience relevance;
 - explore materially different angles;
 - develop the core proposition;
 - challenge unsupported assumptions;
-- preserve the reality / imagination boundary;
-- develop claim and position boundaries;
+- define reality, imagination, evidence, and claim boundaries;
+- define what the work must not imply or become;
 - draft and revise the Creative Treatment.
 
-It may recommend that an idea should not proceed.
+Development may recommend Greenlight, reframing, further validation, pause, or rejection.
 
-## ECD Alignment Loop
+## Development Loop
 
-Development work returns to Creative Producer rather than speaking to the ECD as a separate personality.
+```text
+ECD input
+↓
+Creative Producer intake and intended-use alignment
+↓
+Development functions as required
+↓
+Creative Producer synthesis
+↓
+ECD Update / Alignment / Decision when material
+↺ revise, deepen, reframe, validate, pause, or reject
+↓
+Creative Treatment
+```
 
-Producer synthesizes the development result into ECD-ready language and may use:
-
-- ECD Update;
-- ECD Alignment;
-- ECD Decision.
-
-The Development loop may repeat multiple times until the project is clear enough for Greenlight or is intentionally abandoned.
+Development may loop without becoming Production.
 
 ## Primary Artifact — Creative Treatment
 
-The Creative Treatment is the final development artifact.
+Use `CREATIVE_TREATMENT_TEMPLATE.md`.
 
-At the depth appropriate to the project it should establish:
+The Treatment should establish:
 
-- what the project is about;
-- the core creative / editorial premise;
+- what the project is;
+- the creative / editorial premise;
 - why it deserves to exist;
-- the selected angle;
-- the core proposition;
-- audience relevance;
-- what the audience should understand, feel, notice, imagine, or reconsider;
-- relevant facts and uncertainty when reality-based;
-- reality / imagination boundary when speculative;
-- reference intent and boundaries when references matter;
-- material rights / license / commercial limitations when relevant;
-- what the project must not falsely imply or become.
+- selected angle and core proposition;
+- audience relevance and intended experience;
+- relevant facts and uncertainty;
+- reality / imagination boundary;
+- material public-claim limit;
+- reference, rights, attribution, and asset boundaries;
+- what the project must preserve and must not falsely imply or become.
 
 ## Development Boundary
 
 Development must not prematurely produce:
 
-- final card / page sequence;
-- final storyboard;
-- final on-screen copy;
-- final companion copy;
-- final visual composition;
-- typography system;
-- Art Direction;
+- final page / card sequence;
+- final audience-facing on-screen or companion copy;
+- actual Storyboard / Visual Sequence Board;
+- Representative Design Comp;
+- final visual composition or typography system;
+- Art Direction Package;
 - production assets.
 
-Those belong to post-Greenlight Production.
+A Treatment may note likely communication behavior or material deliverable consequences without becoming the Creative Script.
 
 ## Greenlight Readiness
 
 Development may recommend Greenlight when:
 
-- the Creative Treatment is coherent enough to guide downstream production;
-- the ECD's intent and the proposed project premise are aligned;
-- the evidence obligation has been satisfied to the required depth;
-- important reference / rights boundaries are understood;
-- no unresolved question would materially change what the project fundamentally is.
+- the premise is coherent and non-generic enough to guide Production;
+- ECD intent and the proposed project are aligned;
+- evidence obligation has been satisfied to the required depth;
+- material reference, rights, and attribution boundaries are known;
+- no unresolved issue would fundamentally change what the project is;
+- the Deliverable Contract is compatible with the premise.
 
-Only the ECD can Greenlight the project.
+Only the ECD can Greenlight the project, though a clear direct instruction may constitute Compact-project authorization without additional ceremony.
+
+## Quality Gate
+
+Before presenting the Treatment:
+
+- separate verified fact, source claim, inference, and speculation;
+- make the angle and proposition explicit;
+- state the audience consequence rather than generic relevance;
+- identify what is original about the treatment;
+- record what the work must not become;
+- remove premature page plans, copy, or layout;
+- recommend a direction rather than presenting undifferentiated options when professional judgment can resolve them.

@@ -2,149 +2,247 @@
 
 ## Principle
 
-Creative Producer coordinates all authoritative handoffs and maintains Development / Production state.
+Creative Producer coordinates all authoritative transfers between internal professional modes and maintains Project State.
 
-The studio distinguishes two kinds of transfer:
+A receiving owner may interpret the accepted upstream artifact inside its craft, but may not silently rewrite its meaning.
 
-1. **Development inputs and results** before Greenlight — hypotheses, research, reference boundaries, editorial-development recommendations, and Creative Treatment revisions return to Creative Producer for ECD alignment.
-2. **Production artifacts** after Greenlight — each receiving role may interpret the approved upstream artifact inside its own craft but must not silently rewrite its meaning.
+Every handoff must answer:
 
-## Phase I — Development Handoffs
+- what artifact and version is authoritative;
+- what the receiving owner is being asked to produce;
+- what is locked;
+- what remains open to professional interpretation;
+- what evidence, rights, reference, surface, and technical conditions apply;
+- what issue requires return rather than improvisation.
+
+## Common Handoff Envelope
+
+Use at the depth required by project complexity:
+
+```markdown
+From:
+To:
+Project / state reference:
+Authoritative input artifact and version:
+Requested output artifact:
+Deliverable Contract fields that matter:
+Active locks:
+Open variables:
+Evidence / limitation requirements:
+Reference intent and prohibited transfer:
+Assets and provenance state:
+Production tolerances:
+Known risks / blockers:
+ECD gate expected:
+Return conditions:
+```
+
+## Development Handoffs
 
 ### ECD → Creative Producer
 
-May provide any spark or existing material:
+May provide any spark or existing artifact:
 
-- idea;
-- sentence;
-- link;
-- public post;
-- image or visual reference;
-- product;
-- notes;
-- rough copy;
-- existing professional artifact;
+- idea, sentence, link, or public post;
+- image, screenshot, visual reference, or product;
+- notes, rough copy, research, or data;
+- existing Treatment, Script, Board, Design Comp, or final asset;
 - feedback or correction.
 
-Producer first establishes intended use and only the context required to begin Development.
+Creative Producer identifies intended use, valid existing work, and the shortest route. It asks only when an unknown materially affects the outcome.
 
 ### Creative Producer → Research / Verification / Validation
 
-Used only when the evidence obligation requires it.
+Provide:
 
-The Producer provides:
+- intended use and evidence obligation;
+- specific publication or commercial claims at issue;
+- source material;
+- required date, version, region, or availability context;
+- relevant rights, attribution, license, or asset questions;
+- practical validation scope when applicable.
 
-- intended use;
-- evidence-obligation mode;
-- specific questions to verify or validate;
-- known ECD constraints;
-- relevant source or asset material.
-
-Research must not choose the editorial premise merely because it discovers facts.
+Research does not choose the editorial premise or create Script / Storyboard content.
 
 ### Research Function → Creative Producer
 
-Returns a concise **Research Result** containing only findings that change or constrain Development.
+Return a concise Research Result containing only findings that change or constrain Development or Production:
+
+- verified facts and confidence;
+- unresolved claims;
+- source and recency notes;
+- version / date / region limits;
+- rights, attribution, and license conditions;
+- validation results and failure conditions;
+- claim limits and recommended consequences.
 
 ### Creative Producer → Editorial Development
 
-The Producer provides aligned ECD intent, intended use, relevant research, reality / imagination boundaries, reference intent, existing development decisions, and the creative question still needing development.
+Provide:
+
+- aligned intended use;
+- relevant research result;
+- reality / imagination / claim boundaries;
+- reference intent and rights boundaries;
+- existing ECD decisions;
+- the precise creative question needing development.
 
 ### Editorial Development → Creative Producer
 
-May return premise diagnosis, insight, angle alternatives, recommendation, core proposition, audience-relevance judgment, risk warning, Creative Treatment draft / revision, or a recommendation not to proceed.
+May return:
 
-Producer translates this into ECD-ready language and manages iterative alignment.
+- premise diagnosis;
+- insight and audience-relevance assessment;
+- materially different angle options;
+- recommendation and core proposition;
+- Creative Treatment draft or revision;
+- recommendation to validate, pause, reframe, or reject.
+
+Creative Producer synthesizes this for ECD alignment rather than exposing raw internal role switching.
 
 ## Greenlight Handoff
 
 ### Creative Producer → ECD
 
-When Development is ready, Producer presents the Creative Treatment and only the material unresolved issues required for Greenlight.
+Present:
+
+- the recommended Creative Treatment;
+- material claim, rights, and reference boundaries;
+- only unresolved decisions requiring ECD authority;
+- what Production will be authorized to do.
 
 ### ECD → Creative Producer
 
-Greenlight means the ECD accepts the Creative Treatment as the production premise and authorizes the project to enter Production.
+Greenlight means the ECD accepts the identified Treatment as the production premise. Creative Producer records the Greenlight and material locks.
 
-Producer records the Greenlight state and freezes the authoritative Treatment to the degree required for downstream work.
+It does not mean later Script, Storyboard, Design Comp, Art Direction, or final assets are automatically accepted.
 
-## Phase II — Production Handoffs
+## Production Handoffs
 
 ### Creative Producer → Editorial Director
 
-Transfers the **Greenlit Creative Treatment**, plus:
+Transfer:
 
-- required factual / claim boundaries;
-- exact names or wording that must survive;
-- active reference boundaries relevant to content;
-- deliverable / surface constraints already known;
-- ECD decisions that materially constrain the script.
+- Greenlit Creative Treatment and Greenlight Record;
+- relevant Deliverable Contract;
+- exact names, wording, claims, evidence, and limitations;
+- content-relevant reference boundaries;
+- ECD decisions that constrain communication;
+- valid existing sequence or copy work.
 
-Editorial Director decides how the Greenlit project should be told. It may not reopen the premise merely to make scripting easier.
+Requested output: an accepted-for-handoff **Creative Script**.
 
 ### Editorial Director → Creative Producer
 
-Returns the proposed or approved **Creative Script** containing:
+Return:
 
-- content structure;
-- sequence;
-- card / page / beat roles;
-- written **Visual Beats**;
-- approved audience-facing copy;
-- information / evidence requirements;
-- transitions and payoff logic.
+- communication strategy;
+- minimum viable sequence;
+- page / card / beat roles;
+- written Visual Beats;
+- final or approved audience-facing copy;
+- evidence, attribution, and limitation placement;
+- transitions and payoff logic;
+- Script-alignment issue, if material.
 
-No actual Storyboard is expected at this stage.
-
-Producer decides whether the script may continue, needs Editorial Director revision, or requires ECD Script Alignment.
+No actual Storyboard, generated frame, layout, typography system, or final composition is expected.
 
 ### Creative Producer → Art Director
 
-Transfers the approved Creative Script plus:
+Transfer:
 
-- Greenlit Creative Treatment reference;
-- approved visual-reference intent and boundaries;
-- locked assets / names / claims;
-- surface and viewing conditions;
-- any ECD visual preferences already established.
+- accepted Creative Script;
+- Greenlit Treatment reference;
+- relevant Deliverable Contract and viewing conditions;
+- reference intent and prohibited transfer;
+- locked copy, assets, names, evidence, and limitations;
+- established ECD visual preferences;
+- expected visual alignment gate.
 
-### Art Director → Creative Producer — Storyboard / Visual Direction Proposal
+Requested outputs:
 
-Art Director first returns a **Storyboard / Visual Board** when visual direction needs to be made visible before full production.
+1. Storyboard / Visual Sequence Board;
+2. Representative Design Comp when required;
+3. Art Direction Package.
 
-It may include rough sketches, low-fidelity frames, composition proofs, wireframes, or visual boards sufficient to evaluate:
+### Art Director → Creative Producer — Storyboard / Visual Sequence Board
 
-- interpretation of each Visual Beat;
-- mood / atmosphere / visual-world direction;
-- screen-to-screen visual differentiation;
-- image–type relationship;
-- reference-DNA application without copying source content.
+Return enough low-cost visual material to evaluate:
 
-Producer decides whether the Storyboard may proceed autonomously or requires **ECD Visual Alignment / Acceptance**.
+- fidelity to every Visual Beat;
+- visual differentiation and sequence coherence;
+- evidence treatment;
+- subject, scale, depth, and image–type relationships;
+- reference abstraction;
+- high-risk visual questions needing a Design Comp.
 
-### Art Director → Creative Producer — Art Direction
+### Art Director → Creative Producer — Representative Design Comp
 
-After the visual direction is sufficiently resolved, Art Director returns proposed or approved **Art Direction**: visual thesis, mood, atmosphere, hierarchy, composition logic, typography system, image direction, image–type relationships, cover/body-page grammar, crop/safe-zone intent, cross-page rhythm, asset plan, and production tolerances.
+Return one or more high-fidelity representative screens using real copy and target geometry.
 
-Producer records the state and decides whether any material ECD alignment remains.
+The Comp must make actual hierarchy, typography, spacing, image–type relationship, body-page readability, and visual-world direction inspectable.
+
+Creative Producer decides whether the Comp can be accepted for handoff professionally or requires ECD Visual Alignment.
+
+### Art Director → Creative Producer — Art Direction Package
+
+Return:
+
+- accepted visual premise and Comp reference;
+- shared visual system;
+- screen-by-screen direction;
+- asset plan;
+- crop, safe-area, and small-size intent;
+- production tolerances and forbidden drift;
+- technical risks and approved fallbacks.
 
 ### Creative Producer → Production Artist
 
-Transfers approved Art Direction, approved Creative Script, required assets, technical output conditions, and all relevant locks / tolerances.
+Transfer:
+
+- accepted Creative Script;
+- relevant Board and accepted Design Comp;
+- Art Direction Package;
+- Deliverable Contract;
+- assets, provenance, and transformation permissions;
+- exact locked text, evidence, and limitations;
+- technical specifications, variants, tolerances, and fallbacks.
+
+Requested output: final assets plus mobile and technical QA record.
 
 ### Production Artist → Creative Producer
 
-Returns final assets plus technical QA state, variants, known limitations, and implementation issues requiring upstream resolution or ECD Acceptance.
+Return:
+
+- final assets and variants;
+- dimensions, formats, and filenames;
+- QA results;
+- known limitations;
+- any authorized deviations;
+- unresolved issue requiring upstream action.
 
 ## Return Path
 
 When work cannot continue without changing an upstream decision:
 
-- factual / evidence / validation problem → Development Research Function through Creative Producer;
-- Greenlit premise problem → reopen Development through Creative Producer and ECD;
-- sequence / Visual Beat / copy / content-progression problem → Editorial Director;
-- Storyboard / visual concept / mood / hierarchy / typography / composition problem → Art Director;
-- crop / overflow / dimensions / export / implementation problem → Production Artist;
-- state / authority / Greenlight / routing problem → Creative Producer.
+- fact, evidence, validation, rights, or reference-boundary failure → Development Research Function;
+- premise, angle, proposition, or public-promise failure → reopen Development;
+- sequence, written Visual Beat, copy, or content-progression failure → Editorial Director;
+- Storyboard, Design Comp, visual concept, mood, hierarchy, typography, or composition failure → Art Director;
+- crop, overflow, exact dimensions, font implementation, export, or file defect → Production Artist;
+- state, authority, Greenlight, routing, or lock problem → Creative Producer.
 
-Do not solve upstream problems by downstream improvisation.
+Do not solve upstream problems through downstream distortion.
+
+## Handoff QA
+
+Reject a handoff when:
+
+- the input artifact has no version or authority state;
+- required copy is still placeholder text;
+- the Art Director must invent missing editorial content;
+- Production Artist must invent the visual system;
+- evidence or limitation obligations are not located;
+- reference use is ambiguous;
+- output geometry is unknown when it affects design;
+- an unresolved ECD decision is hidden as a craft choice.

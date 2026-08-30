@@ -2,181 +2,258 @@
 
 ## Purpose
 
-ECD uses a two-phase studio model separated by **Greenlight**.
+ECD is one user-facing Skill operating an adaptive Social Editorial studio. The human ECD communicates through Creative Producer; Editorial Director, Art Director, and Production Artist are internal professional modes.
 
-The studio does not assume that every idea is already a project. Before Greenlight, the job is to discover whether a project is worth making and what it actually is. After Greenlight, the job is to make it.
+The studio uses two phases separated by **Greenlight**:
 
-## Phase I — Development / 立项前
+- Development decides whether there is a project worth making and what it actually is.
+- Production turns the Greenlit premise into a complete, visually resolved, technically correct deliverable.
 
-Canonical development flow:
+The model is not a compulsory waterfall. It protects professional ownership while choosing the shortest valid route.
+
+## Project Initialization
+
+Before substantive work, Creative Producer establishes at the appropriate depth:
 
 ```text
-Raw ECD Input
-  ↓
-Creative Intake & Intent Alignment
-  ↓
-Development Work
-  ├── Research / Verification / Validation when required
-  ├── Reference Intelligence
-  └── Editorial Development
-        ├── Insight
-        ├── Angle
-        ├── Proposition
-        └── Creative Treatment
-  ↓
-ECD Alignment / Decision
-  ↺ as needed
-  ↓
-Creative Treatment
+Entry Point
++ Deliverable Contract
++ Complexity Profile
++ Evidence Obligation
++ Project State
+→ Valid Route
 ```
 
-Development may loop, reframe, pause, or terminate without Greenlight.
+Use:
 
-### Development Principle
+- `DELIVERABLE_CONTRACT.md`
+- `PROJECT_STATE.md`
+- `ARTIFACT_STATES.md`
 
-Before Greenlight:
+### Complexity Profiles
 
-- the idea is not yet a production lock;
-- research depth is determined by intended use and evidence obligation;
-- speculative concepts do not require unnecessary feasibility research;
-- reality-based editorial claims receive proportionate verification;
-- product / commercial promises require practical validation appropriate to the promise;
-- visual references inform reference intent and boundaries rather than dictating our content;
-- Editorial Development may challenge the premise or conclude that the idea is not editorially ready.
+- **Compact** — one to three screens, one key visual, simple cover-plus-body work, or a narrow correction. Combine artifacts when one object can resolve adjacent professional questions.
+- **Standard** — ordinary multi-screen Social Editorial work with normal handoff objects.
+- **Extended** — evidence-sensitive, commercial, multi-format, campaign, research-heavy, or high-consequence work requiring detailed records.
+
+Artifact compression is allowed. Unresolved professional questions are not.
+
+## Phase I — Development
+
+Canonical Development logic:
+
+```text
+Raw or unresolved ECD input
+↓
+Creative Producer intake and intended-use alignment
+↓
+Development work as required
+├─ Research / Verification / Validation
+├─ Reference Intelligence
+└─ Editorial Development
+   ├─ premise diagnosis
+   ├─ insight
+   ├─ angle
+   ├─ proposition
+   ├─ audience relevance
+   └─ Creative Treatment
+↓
+ECD alignment / decision as needed
+↺ revise, deepen, reframe, pause, or reject
+↓
+Creative Treatment ready for Greenlight
+```
+
+### Evidence Obligations
+
+Creative Producer selects the appropriate obligation:
+
+1. **Speculative / Conceptual** — preserve the distinction between imagination and present fact; do not demand unnecessary feasibility proof.
+2. **Evidence-based Editorial** — verify the public facts and claims on which the publication relies.
+3. **Product / Commercial Validation** — test reproducibility, dependencies, limits, rights, and failure conditions to the depth required by the promise.
+
+Research depth must match the promise being made.
 
 ## Creative Treatment
 
-The **Creative Treatment** is the primary final artifact of Development.
+The Creative Treatment is Development's authoritative proposal for what the project is.
 
-It defines, at the depth required by the project:
+It establishes, at the required depth:
 
-- project premise;
+- premise;
 - core creative / editorial idea;
-- why it is worth making;
 - selected angle;
 - core proposition;
-- audience relevance;
-- intended audience takeaway or experience;
-- reality / imagination boundary;
-- material claim, rights, evidence, and reference boundaries;
-- what the project must not falsely imply or become.
+- why the project deserves to exist;
+- audience relevance and intended takeaway;
+- reality, imagination, evidence, and claim boundaries;
+- reference, rights, attribution, and asset boundaries;
+- what the project must preserve and must not falsely imply or become.
 
-It should not contain the final page sequence, Creative Script, Storyboard, audience-facing copy, layout, or Art Direction.
+It does not contain the final page sequence, final audience-facing copy, Storyboard, layout, typography system, or Art Direction.
 
-## Greenlight / 正式立项
+Use `CREATIVE_TREATMENT_TEMPLATE.md`.
+
+## Greenlight
 
 Greenlight is owned by the Executive Creative Director.
 
-A Greenlit project normally has:
+A Greenlit project has:
 
-- an ECD-approved Creative Treatment;
-- sufficient evidence / validation for the intended public or commercial promise;
-- known material rights and reference boundaries where relevant;
-- explicit authorization to enter Production.
+- an identified Creative Treatment;
+- sufficient evidence, validation, rights, and reference resolution for the intended promise;
+- material boundaries recorded;
+- authorization to enter Production.
 
-After Greenlight, the Creative Treatment becomes the authoritative project premise.
+After Greenlight, the Treatment becomes the authoritative premise. A later change to premise, angle, proposition, public promise, audience takeaway, or essential rights foundation reopens Development.
 
-A later change that materially alters what the project fundamentally says reopens Development.
+A clear Compact-project instruction may serve as Greenlight when the premise and authorization are already unambiguous. Record the accepted premise; do not make the user repeat it.
 
-## Phase II — Production / 立项后
+Use `GREENLIGHT_RECORD.md`.
 
-Canonical production flow:
+## Phase II — Production
+
+Canonical Production logic:
 
 ```text
 Greenlit Creative Treatment
-  ↓
+↓
 Editorial Director
-  ↓
+↓
 Creative Script
-  ├── Content Architecture
-  ├── Sequence
-  ├── Visual Beats
-  └── Audience-facing Copy
-  ↓
+├─ communication mode
+├─ content architecture
+├─ sequence and beat roles
+├─ written Visual Beats
+└─ audience-facing copy
+↓
 Art Director
-  ↓
-Storyboard / Visual Board
-  ↕
-ECD Visual Alignment when materially required
-  ↓
-Art Direction
-  ↓
+├─ Storyboard / Visual Sequence Board
+├─ Representative Design Comp
+└─ Art Direction Package
+↓
 Production Artist
-  ↓
-Final Assets
-  ↓
-Creative Producer Review
-  ↓
-ECD Acceptance
+├─ image and asset realization
+├─ deterministic text composition
+├─ layout, crop, variants, and export
+└─ mobile and technical QA
+↓
+Creative Producer Final Review
+↓
+ECD Final Acceptance
 ```
-
-These are professional handoff objects, not mandatory paperwork at maximum depth. Use only the detail needed for faithful downstream work.
-
-## Production Artifact Ownership
-
-- **Creative Treatment** — Development artifact coordinated by Creative Producer and approved by ECD at Greenlight.
-- **Creative Script** — Editorial Director.
-- **Storyboard / Visual Board** — Art Director intermediate visual artifact.
-- **Art Direction** — Art Director.
-- **Final Production Assets** — Production Artist.
-- **Development State / Production State / Decision State / Greenlight Record / Acceptance Record** — Creative Producer.
 
 ## Creative Script
 
 The Creative Script defines how the Greenlit project communicates.
 
-Depending on format it may include:
+It may include:
 
-- communication structure;
-- sequence;
-- card / page / beat roles;
-- **Visual Beats** describing in words what each screen must communicate or make perceptible;
-- on-screen copy;
-- supporting copy;
+- dominant and supporting communication modes;
+- page / card / beat sequence;
+- one primary editorial job per beat;
+- written **Visual Beats** defining semantic visual requirements;
+- on-screen copy and functional hierarchy;
 - companion / body copy;
-- transitions and payoff logic;
-- evidence or limitation notes that must remain visible.
+- evidence, attribution, and limitation placement;
+- transitions, payoff, and ending logic.
 
-The Creative Script does not contain the actual Storyboard. It preserves editorial meaning while leaving visual interpretation to Art Director.
+The Creative Script does not contain the actual Storyboard. A Visual Beat is a written communication instruction, not a visual artifact.
 
-## Storyboard / Visual Board
+## Storyboard / Visual Sequence Board
 
-Storyboard is the first true visual translation of the approved Creative Script and is owned by Art Director.
+The Board is Art Director's low-cost visual translation of the complete Script.
 
-It may take the form of rough sketches, low-fidelity generated frames, composition proofs, wireframes, visual boards, or other low-cost visual representations sufficient to evaluate direction.
+It tests:
 
-Its purpose is to test:
+- fidelity to each Visual Beat;
+- visual distinction between adjacent screens;
+- sequence coherence;
+- subject, evidence, scale, depth, and image–type relationships;
+- reference-DNA abstraction rather than scene copying;
+- whether a representative high-fidelity proof is needed.
 
-- whether the Visual Beats have been interpreted correctly;
-- whether adjacent screens are visually distinct enough while remaining coherent;
-- whether mood, atmosphere, scale, imagery, and image–type relationships support the script;
-- whether reference qualities have been abstracted rather than copied;
-- whether the visual direction deserves ECD alignment before full production.
+## Representative Design Comp
 
-Storyboard is not final production art.
+The Design Comp is the visual lock missing from a text-only Art Direction handoff.
 
-## Art Direction
+It uses real or approved copy, target geometry, credible imagery, and intended hierarchy to prove:
 
-Art Direction defines how the approved Creative Script and accepted Storyboard direction become a coherent Social Editorial visual experience: visual thesis, mood, atmosphere, hierarchy, typography, composition, image direction, image–type relationships, cover/body-page grammar, visual rhythm, surface behavior, and production intent.
+- actual title and body-copy scale;
+- typography personality and line breaks;
+- image–type depth and overlap;
+- grid, negative space, and reading path;
+- cover and body-page grammar;
+- mobile readability;
+- overall aesthetic direction.
 
-Major mood, aesthetic, visual-world, style, or Storyboard choices may require ECD Art Direction Alignment through Creative Producer.
+A typical multi-page project should prove at least one cover and one representative body page. A Compact project may combine Board and Comp.
+
+## Art Direction Package
+
+The Art Direction Package translates the accepted Board and Design Comp into an executable visual system:
+
+- visual thesis, mood, atmosphere, and aesthetic stance;
+- hierarchy and visual grammar;
+- typography direction;
+- image direction and asset roles;
+- composition and image–type relationships;
+- screen-by-screen intent;
+- cross-page rhythm;
+- surface and small-size behavior;
+- production tolerances and forbidden drift;
+- asset plan and technical risks.
 
 ## Production Execution
 
-Production execution realizes approved Art Direction faithfully and deterministically. It handles technical implementation and QA without becoming a new creative authority.
+Production Artist realizes accepted Art Direction faithfully.
+
+Final imagery and final typography are separated by default:
+
+```text
+Generated / edited image assets
++
+Deterministic text composition and layout
+→ Final deliverables
+```
+
+Production execution handles exact geometry, crop, safe areas, fonts, variants, export, and QA without becoming a new creative authority.
+
+## Artifact Ownership
+
+- Deliverable Contract, Project State, Greenlight Record, lock state, Acceptance Record — Creative Producer;
+- Creative Treatment — Development, coordinated by Creative Producer and Greenlit by ECD;
+- Creative Script — Editorial Director;
+- Storyboard / Visual Sequence Board — Art Director;
+- Representative Design Comp — Art Director;
+- Art Direction Package — Art Director;
+- Final Assets and technical completion record — Production Artist;
+- final subjective acceptance — ECD.
 
 ## Adaptive Entry
 
-The two-phase model does not require redoing valid existing work.
-
 Examples:
 
-- a raw idea enters Development;
-- an ECD-supplied public post may enter Development with evidence-based research;
-- an ECD-supplied visual reference enters Development reference analysis but does not determine Visual Beat or Storyboard content;
-- an already approved Creative Treatment may enter Greenlight review directly;
-- an approved Creative Script may enter Art Director Storyboard development;
-- an approved Storyboard / Art Direction may enter production execution at the appropriate point;
-- a technical correction may enter Production Artist directly.
+- raw idea → Development;
+- real public post → Development plus proportionate verification;
+- visual reference → intended-use and reference-boundary analysis before visual application;
+- Greenlit Treatment → Editorial Director;
+- accepted Creative Script → Art Director;
+- accepted Design Comp and Art Direction Package → Production Artist;
+- copy correction → Editorial Director;
+- visual correction → Art Director;
+- technical correction → Production Artist.
 
-Creative Producer chooses the shortest valid route while protecting the Greenlight boundary.
+Creative Producer records the entry point and avoids recreating valid existing work.
+
+## Final Review
+
+Before ECD Final Acceptance, confirm:
+
+- the Deliverable Contract is complete;
+- Greenlit meaning survived all downstream interpretation;
+- required evidence, limitations, names, and wording remain visible;
+- the accepted visual premise survived production;
+- all variants exist;
+- mobile and technical QA passed or limitations are explicit;
+- deviations were authorized by the correct owner.
