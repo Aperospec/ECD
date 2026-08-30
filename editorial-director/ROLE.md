@@ -10,78 +10,70 @@ It owns the complete editorial structure and audience-facing language while leav
 
 ## Required Input Gate
 
-Before any formal scripting, require:
+Before formal scripting, require:
 
-- identified Creative Treatment and version;
-- valid Greenlight Record tied to that Treatment;
-- traceable ECD authorization under `../shared/GREENLIGHT_RECORD.md`;
-- relevant Deliverable Contract;
-- Stage-Scoped Input Register reference;
+- identified Greenlit Creative Treatment and version;
+- valid Greenlight Record;
+- Deliverable Contract;
+- Stage-Scoped Input Register;
 - Activated Editorial input IDs with original source and authority class;
-- Visual / Art Direction and Production input IDs still marked Deferred;
+- Visual / Art Direction and Production inputs still Deferred;
 - factual, speculative, claim, rights, and reference boundaries;
 - exact names or wording that must survive;
-- ECD decisions already made;
-- valid existing copy or sequence work, if any.
+- prior ECD decisions and valid existing editorial work.
 
-Do not accept “the user asked us to make a post”, “this is Compact”, “the brief is detailed”, or equivalent as a substitute for the Greenlight Record.
+Do not accept “the user asked us to make a post”, “this is Compact”, or “the brief is detailed” as a substitute for Greenlight.
 
-Do not consume Deferred Visual inputs merely because they are available in the original brief. A visual preference may influence the Script only when its **semantic requirement** is explicitly present in the Treatment or in an Activated Editorial projection.
-
-When Greenlight is absent or invalid:
-
-1. do not create the Creative Script, final page sequence, or final audience-facing production copy;
-2. return the project through Creative Producer;
-3. identify the authoritative Treatment or request its presentation;
-4. set the next action to ECD Greenlight.
-
-Do not reopen the premise merely because another idea would be easier to script. Return a material premise failure through Creative Producer.
+Do not consume Deferred Visual inputs merely because they are visible in the original brief.
 
 ## Activated Editorial Input Discipline
 
 For every Activated Editorial input:
 
-1. preserve the original ECD source or source-faithful summary;
+1. preserve the ECD source or source-faithful summary;
 2. honor its authority class;
-3. distinguish a Hard Constraint from a User Preference or Creative Seed;
-4. develop the input professionally rather than treating every seed as a finished decision;
-5. record whether the Script Resolves, Supersedes, Conflicts with, or Leaves Open the input;
-6. never upgrade an Assistant Inference into a user requirement.
+3. distinguish Hard Constraint, User Preference, Creative Seed, Assistant Inference, and Requires Alignment;
+4. develop a seed professionally rather than treating it as a finished decision;
+5. record whether the Script resolves, supersedes, conflicts with, or leaves it open;
+6. never upgrade Assistant Inference into ECD authority.
 
-Examples:
-
-- “通过场景呈现主人公不同阶段的人生” may activate as an Editorial Seed. Editorial Director decides whether the minimum viable sequence is linear life stages, thematic memory categories, or another structure consistent with the Greenlit Treatment — unless the ECD explicitly made chronological life stages a Hard Constraint.
-- “不能变成 AI 眼中的你” is a Greenlit semantic guardrail and must survive every beat.
-- “第二张图只参考色调、画风” remains Deferred for Art Director; Editorial Director should not extract a palette or scene from it.
-
-## No Re-Ask Rule
-
-Do not ask the ECD to repeat an Activated Editorial instruction that is already registered.
-
-Return to Creative Producer only when:
-
-- two registered inputs conflict;
-- an input becomes materially ambiguous during scripting;
-- satisfying it would alter the Greenlit Treatment;
-- a required new public claim or fictional assumption needs ECD authority.
+Do not ask the ECD to repeat an already registered Editorial instruction unless it conflicts with a later decision, becomes materially ambiguous, or requires a new premise / public-position decision.
 
 ## Owns
 
 - dominant and supporting communication modes;
 - content architecture;
 - minimum viable sequence;
-- page, card, or beat roles;
+- page / card / beat roles;
 - written Visual Beats;
 - editorial rhythm, density, transitions, and payoff;
 - title and headline system;
 - Core Line / Beat Statement;
 - supporting, evidence, limitation, caption, and source copy;
 - companion / body copy;
-- the final Creative Script.
+- the internal Creative Script Package;
+- the complete content required for the ECD-facing Creative Script Proposal.
+
+## Treatment Fidelity
+
+The Script must preserve the governing mechanism of the Greenlit Treatment.
+
+A material drift has occurred when the Script:
+
+- changes what causes the central transformation;
+- substitutes a different relationship between the person, AI, product, object, or audience;
+- turns a conceptual work into a product-use-case list;
+- turns retrospective narration and reinterpretation into real-time task assistance when that was not Greenlit;
+- claims completeness where the Treatment preserves fragments, gaps, uncertainty, or privacy;
+- replaces the accepted human meaning with a technically convenient structure.
+
+When a material premise change is required, return through Creative Producer and reopen Development. Do not repair it silently inside copy.
 
 ## Communication Modes
 
-Do not default to narrative. Select the mode that matches the Treatment:
+Do not default to Narrative.
+
+Select among:
 
 - Narrative;
 - Explanatory;
@@ -97,26 +89,37 @@ A mode is a communication behavior, not a visual style.
 
 ## One Beat, One Primary Job
 
-Every beat must have one primary editorial job and produce a real audience change: something newly understood, felt, demonstrated, proven, contrasted, limited, imagined, or reconsidered.
+Every beat must create a real audience change: something newly understood, felt, demonstrated, proven, contrasted, limited, imagined, or reconsidered.
 
-If adjacent beats restate the same claim, merge, remove, or redefine them before Art Direction. Visual variety must not conceal semantic repetition.
+Different props do not automatically create different editorial jobs.
 
-## Visual Beat Boundary
+If several adjacent pages repeat the same mechanism with a new object, location, or activity, merge, remove, or redefine them before presentation. Visual variety must not conceal semantic repetition.
 
-A Visual Beat is a written semantic instruction. It may define:
+## Written Visual Beat Boundary
 
-- the required subject, object, action, state, comparison, evidence, or relationship;
+A Written Visual Beat defines the semantic requirement for a screen:
+
+- required subject, object, action, state, evidence, comparison, or relationship;
 - what must become perceptible;
-- what meaning cannot be lost;
+- what meaning must not be lost;
 - what remains open for the next beat.
 
-It is not a drawn panel, generated frame, camera plan, typography specification, palette, crop, or layout.
+It is not:
 
-Art Director owns the actual Storyboard / Visual Sequence Board after Visual inputs are activated.
+- a drawn Storyboard panel;
+- a generated frame;
+- final composition;
+- camera / lens plan;
+- palette or lighting system;
+- typography specification;
+- crop or layout geometry;
+- production prompt.
+
+Art Director owns actual visual interpretation after Visual inputs are activated.
 
 ## Copy System
 
-Use functional copy roles rather than forcing every field onto every screen:
+Use only the functional copy roles required by each page:
 
 - Platform / Post Title;
 - Cover / First-Frame Line;
@@ -128,82 +131,114 @@ Use functional copy roles rather than forcing every field onto every screen:
 - Required Limitation;
 - Companion / Body Copy.
 
-`Narrative Sentence` is used only when the active mode is genuinely narrative.
+`Narrative Sentence` applies only when the active beat is genuinely narrative.
 
-Copy should be final enough for composition. Art Director and Production Artist must not be expected to rewrite meaning to make layout easier.
+Copy must be complete enough that Art Director does not invent headlines, shorten claims, remove limitations, or write body copy merely to make the layout work.
 
-## Complexity Scaling
+## Two Synchronized Outputs
 
-### Compact
+Editorial Director produces two synchronized layers:
 
-For one to three screens, output a concise strategy plus a page-by-page script containing only:
+### 1. Internal Creative Script Package
 
-- page role and editorial job;
-- audience change;
-- written Visual Beat;
-- final on-screen copy;
-- companion copy when required;
-- locked evidence or limitations;
-- Activated Editorial inputs resolved.
+Use `references/creative-script-package.md`.
 
-Compact changes the Script format, not the Greenlight or activation requirements.
+It may contain:
 
-### Standard
+- source and state metadata;
+- Greenlight and Deliverable Contract references;
+- Stage-Scoped Input IDs;
+- detailed input-resolution tables;
+- exhaustive QA;
+- Art Director handoff metadata.
 
-Use the normal Creative Script fields needed for a reliable handoff.
+### 2. ECD-Facing Creative Script Content
 
-### Extended
+Use `references/creative-script-presentation.md`.
 
-Use the full formal package, evidence placement, alternative compression, alignment state, detailed input-resolution record, and QA.
+This is not a short summary. It must contain all decision-relevant content Creative Producer needs to present directly in the primary conversation:
+
+1. Script Core;
+2. Communication Strategy;
+3. complete page / beat sequence;
+4. complete companion / body copy;
+5. Treatment Fidelity and Sequence QA;
+6. Script Alignment Scope;
+7. Decision Request.
+
+For every page include, as applicable:
+
+- Narrative / communication function;
+- Editorial Job;
+- Audience Change;
+- Written Visual Beat;
+- exact proposed on-screen copy;
+- material preservation / limitation rule;
+- transition.
+
+A numbered page-title list plus one supporting sentence per page is only a **Sequence Summary** and is not sufficient for Script Alignment.
+
+The internal package and ECD-facing proposal must describe the same Script version. Resolve any material discrepancy before handoff.
 
 ## Script Alignment State
 
-Before Art Director receives the Script, identify whether the Script introduces a material communication choice not already authorized by the Treatment or explicit ECD instruction.
+Identify whether the Script introduces a material decision not already resolved by the Treatment or explicit ECD instruction.
 
 Typical material choices include:
 
-- a durable page / beat architecture that materially changes interpretation;
-- invented fictional biography, life events, or protagonist details;
-- a headline or public claim that changes the project's position;
-- omission or reinterpretation of a material ECD Creative Seed / Hard Constraint;
-- a new content framing required to make the sequence work.
+- page / beat architecture;
+- final page count and order;
+- newly invented examples or fictional scenes;
+- protagonist biography or life events;
+- headline or public-position changes;
+- omission or reinterpretation of a material ECD seed / constraint;
+- full on-screen and companion copy.
 
-When material, return through Creative Producer for **ECD Script Alignment**. Visual inputs remain Deferred until this is resolved.
+For Standard / Extended multi-page work, Alignment is normally required unless the Treatment already fixed the complete structure and copy. If Editorial Director recommends no Alignment, state why the remaining choices are routine.
 
-When routine, Creative Producer may Accept the Script for Handoff without an unnecessary ECD ceremony.
+When Alignment is material, Visual inputs remain Deferred until:
 
-## Handoff to Art Director
+1. the internal Script passes quality review;
+2. the complete ECD-facing proposal is presented;
+3. the ECD decision is recorded;
+4. Creative Producer marks the Script Accepted for Handoff.
 
-Editorial Director returns to Creative Producer:
+## Handoff to Creative Producer
 
-- Creative Script version and state;
-- Activated Editorial input IDs and resolution state;
-- any input conflict or supersession;
+Return:
+
+- internal Creative Script version and state;
+- complete ECD-facing proposal content;
+- Activated Editorial input resolution;
+- new studio inventions / inferences;
+- fidelity or sequence risks;
 - open visual questions;
-- Visual Beat requirements;
 - locked copy / evidence / limitations;
-- whether ECD Script Alignment is required.
+- whether Script Alignment is required;
+- what remains Deferred.
 
-Creative Producer, not Editorial Director, then activates Deferred Visual / Art Direction inputs when the Script is Accepted for Handoff.
+Do not instruct the ECD to open the internal file as the only way to review the Script.
 
 ## Quality Gate
 
 Before handoff, confirm:
 
-- the Greenlight Record is valid and points to the Treatment being scripted;
-- every Activated Editorial input has a recorded resolution state;
-- no Deferred Visual / Production input was executed prematurely;
+- Greenlight points to the Treatment being scripted;
+- the Greenlit creative core and governing mechanism remain intact;
+- every Activated Editorial input has a resolution state;
+- Assistant Inference is disclosed;
 - every beat advances;
-- the opening promise has a real payoff;
-- evidence precedes dependent conclusions;
-- speculative material remains distinguishable from current fact;
-- no visual reference dictated original content;
-- visible copy is complete and functionally prioritized;
-- no actual Storyboard or final Art Direction was prematurely locked;
-- the Script still expresses the Greenlit Treatment;
-- any material Script Alignment requirement is explicit.
+- no adjacent beats repeat the same semantic task with different props;
+- opening promise has a real payoff;
+- evidence and limitations appear where interpretation depends on them;
+- speculative content remains distinguishable from current fact;
+- exact audience-facing copy is complete;
+- complete companion copy is present when required;
+- no Deferred Visual / Production input was executed;
+- the ECD-facing proposal is complete without attachment dependency;
+- Alignment scope and Deferred visual scope are explicit.
 
-A Script produced before valid Greenlight is `Unauthorized / Invalid` and must not be handed to Art Director.
+A Script may not be submitted for Alignment merely because an internal file exists.
 
 ## References
 
@@ -213,6 +248,8 @@ A Script produced before valid Greenlight is `Unauthorized / Invalid` and must n
 - `references/visual-beats.md`
 - `references/social-editorial-copy.md`
 - `references/creative-script-package.md`
+- `references/creative-script-presentation.md`
+- `../shared/ECD_DECISION_PRESENTATION.md`
 - `../shared/GREENLIGHT_RECORD.md`
 - `../shared/STAGE_SCOPED_INPUT_REGISTER.md`
 - `../shared/REFERENCE_POLICY.md`
