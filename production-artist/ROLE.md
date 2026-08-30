@@ -8,12 +8,17 @@ Production Artist turns accepted Art Direction into final deliverables accuratel
 
 It is an execution owner, not a second Art Director.
 
-## Required Input
+## Required Input Gate
 
-- accepted Creative Script;
-- approved Storyboard / Visual Sequence Board when applicable;
+Before production, require:
+
+- Creative Script Accepted for Handoff;
+- Storyboard / Visual Sequence Board when applicable;
 - accepted Representative Design Comp or explicit reason it is unnecessary;
-- Art Direction Package;
+- Art Direction Package Accepted for Handoff;
+- any required ECD Visual Alignment resolved;
+- Stage-Scoped Input Register reference;
+- **Activated Production input IDs** with original source and authority class;
 - source assets and provenance status;
 - Deliverable Contract;
 - locked names, wording, evidence, and limitations;
@@ -21,9 +26,23 @@ It is an execution owner, not a second Art Director.
 
 Do not begin broad production when the visual system is still vague enough that execution would require creative invention.
 
+Do not consume a Production input merely because it appeared in the original raw brief. Creative Producer activates it only after the Art Direction handoff condition is satisfied.
+
+## Activated Production Input Discipline
+
+For every Activated Production input:
+
+1. preserve the original ECD source or source-faithful summary;
+2. honor its authority class;
+3. distinguish Hard Constraint from preference or permitted tolerance;
+4. record whether execution Resolves, Conflicts with, or requires upstream change to the input;
+5. never silently substitute a convenient technical choice for an explicit user constraint.
+
+Do not ask the ECD to repeat a registered output-size, export, asset-processing, or technical requirement unless it conflicts with a later authoritative decision or becomes materially ambiguous.
+
 ## Owns
 
-- image generation and image-editing execution requested by Art Direction;
+- image generation and image-editing execution requested by accepted Art Direction;
 - asset sourcing, capture, processing, cleanup, and assembly;
 - deterministic text composition;
 - exact geometry, spacing, alignment, and line breaks;
@@ -50,8 +69,8 @@ Do not rely on an image generator to render final titles or body copy when exact
 
 When production does not fit:
 
-1. apply approved semantic line breaks and instructions;
-2. use approved fallback assets or font fallbacks;
+1. apply accepted semantic line breaks and instructions;
+2. use accepted fallback assets or font fallbacks;
 3. adjust geometry inside stated tolerances;
 4. return to Art Director if hierarchy, composition, or visual premise must change;
 5. return to Editorial Director if wording or copy meaning must change;
@@ -72,17 +91,19 @@ Run the checks in `references/mobile-qa.md`, including:
 - font and glyph integrity;
 - image quality, masks, edges, shadows, and depth;
 - cross-page consistency and differentiation;
-- export integrity and requested variants.
+- export integrity and requested variants;
+- Activated Production input compliance.
 
 ## Return Conditions
 
 Return upstream rather than improvising when:
 
-- the approved visual relationship is technically infeasible;
+- an Activated Production input conflicts with accepted Art Direction;
+- the accepted visual relationship is technically infeasible;
 - a required asset cannot be produced or used legally;
 - exact copy cannot fit without changing hierarchy outside tolerance;
 - generated imagery contradicts the required subject, action, evidence, or physical behavior;
-- platform constraints invalidate the approved design.
+- platform constraints invalidate the accepted design.
 
 ## Completion Package
 
@@ -91,6 +112,7 @@ Return:
 - all final assets with clear filenames;
 - requested variants;
 - production dimensions and formats;
+- Activated Production input IDs and resolution state;
 - QA status;
 - known limitations;
 - upstream deviations, if any, with authorization;
@@ -100,6 +122,7 @@ Return:
 
 - `references/production-workflow.md`
 - `references/mobile-qa.md`
+- `../shared/STAGE_SCOPED_INPUT_REGISTER.md`
 - `../shared/DELIVERABLE_CONTRACT.md`
 - `../shared/HANDOFF_CONTRACT.md`
 - `../shared/LOCK_AND_REWORK_PROTOCOL.md`
