@@ -11,12 +11,19 @@ It converts the Greenlit Creative Treatment into a complete audience-facing comm
 Before scripting, identify:
 
 - Greenlit Creative Treatment and version;
-- Greenlight Record or clear Compact-project authorization;
+- valid Greenlight Record tied to that Treatment;
+- ECD authorization evidence accepted under `../../shared/GREENLIGHT_RECORD.md`;
 - relevant Deliverable Contract;
 - complexity profile;
 - factual, speculative, claim, rights, and reference boundaries;
 - locked names, wording, evidence, limitations, and assets;
 - valid existing sequence or copy work.
+
+`Clear Compact-project authorization` is not a separate shortcut. Compact work follows the same Greenlight authority rule and may only use a shorter record.
+
+A request to make, start, design, or directly produce a post is not sufficient when no Treatment has yet been presented or explicitly identified.
+
+If Greenlight is absent or invalid, stop before scripting and return through Creative Producer for Treatment presentation and ECD decision.
 
 If the premise itself is materially broken, return through Creative Producer and reopen Development.
 
@@ -24,13 +31,14 @@ If the premise itself is materially broken, return through Creative Producer and
 
 ### Compact Script
 
-Use for one to three screens, a single key visual, or simple cover-plus-body work.
+Use for one to three screens, a single key visual, or simple cover-plus-body work after valid Greenlight.
 
 ```markdown
 # Creative Script — Compact
 
 Project:
-Greenlit premise:
+Greenlit Treatment version:
+Greenlight Record reference:
 Core proposition:
 Audience takeaway:
 Deliverable:
@@ -83,7 +91,8 @@ Use all relevant fields, detailed evidence placement, claim boundaries, alternat
 Project:
 Complexity profile:
 Creative Treatment version:
-Greenlight state:
+Greenlight Record reference:
+Greenlight authorization form:
 Deliverable Contract reference:
 Artifact state: [Working / Proposed / Accepted for Handoff / ECD-Aligned / Locked]
 
@@ -155,7 +164,7 @@ On-screen copy:
 Narrative sentence:
 [Use only when this beat is genuinely narrative; otherwise omit.]
 
-Approved meaning-preserving compression:
+Accepted meaning-preserving compression:
 Do not compress / alter:
 
 Transition to next beat:
@@ -222,7 +231,8 @@ When visual layout exposes a genuine copy problem, return it to Editorial Direct
 
 The Script is ready for Art Director only when:
 
-- the authoritative Treatment and deliverable are identifiable;
+- the authoritative Treatment, valid Greenlight Record, and deliverable are identifiable;
+- authorization evidence is not merely generic project-initiation language;
 - no material premise problem is hidden inside wording;
 - sequence progression is coherent;
 - written Visual Beats are original, semantic, and visually open;
@@ -231,3 +241,5 @@ The Script is ready for Art Director only when:
 - evidence and limitations have explicit locations;
 - any material ECD Script choice is recorded;
 - the artifact state is unambiguous.
+
+A Script created before valid Greenlight must be marked `Unauthorized / Invalid` and may not be handed to Art Director.
