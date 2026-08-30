@@ -2,68 +2,108 @@
 
 ## Principle
 
-A handoff transfers an approved professional artifact to the next responsible role. The receiving role may interpret the artifact inside its own craft, but must not silently rewrite its upstream meaning.
+A handoff transfers the current approved professional artifact and its constraints to the next responsible owner. The receiving role may interpret the artifact inside its own craft, but must not silently rewrite upstream meaning.
 
-Creative Producer coordinates handoffs and maintains the authoritative production state. Specialist roles own the professional content of their artifacts.
+Creative Producer coordinates all handoffs and maintains the authoritative production state.
 
 ## Required Handoff State
 
-Each handoff should make clear:
+Each handoff should make clear, only to the degree relevant:
 
 - source artifact and owner;
 - current approval state;
+- ECD intent or use condition that must be preserved;
 - facts, names, claims, assets, or wording that are locked;
 - open questions that remain intentionally unresolved;
 - what the receiving role is expected to decide;
 - what the receiving role is not authorized to change.
 
-## Producer / Research Boundary
+## Producer ↔ Backstage Research Function
 
-A new material event normally follows this control pattern when professional material assessment is required:
+Research is not a separate creative role or ECD-facing personality.
+
+When evidence, rights, reference, or validation work is required:
 
 ```text
 ECD input
   ↓
-Creative Producer identifies the production event
+Creative Producer aligns intended use with ECD
   ↓
-Research Editor classifies / verifies / analyzes the material
+Producer defines evidence obligation
   ↓
-Research / Material Brief
+Research / Verification / Validation function
   ↓
-Creative Producer updates state and selects the next professional owner
+Research Result
+  ↓
+Creative Producer interprets production consequence
+  ↓
+ECD Update / Alignment / Decision if needed
+  ↓
+next professional owner
 ```
 
-Research Editor does not decide the production route merely because it analyzed the material. Creative Producer does not perform material analysis merely because it received the ECD input first.
+### Creative Producer → Research Function
+Transfers a bounded request specifying:
 
-Not every production event requires Research Editor.
+- intended use;
+- verification / validation depth;
+- claims, sources, assets, references, rights, or product behavior that actually require examination;
+- what is deliberately outside scope.
 
-## Standard Handoffs
+### Research Function → Creative Producer
+Returns evidence and constraints, which may include:
 
-### Creative Producer → Research Editor
-Transfers the material requiring professional assessment plus the production context needed to understand why the assessment is required. Producer should state the assessment need without pre-deciding the material's factual, evidentiary, rights, or reference status.
+- verified and unresolved claims;
+- source quality, recency, and limitations;
+- rights / attribution / license conditions;
+- reference boundaries;
+- practical validation or reproducibility results;
+- dependencies, failure conditions, and other material limitations.
 
-### Research Editor → Creative Producer
-Returns the **Research / Material Brief**: material classification, verified context, evidence state, rights/attribution constraints, reference boundaries, asset identity, detected existing professional artifacts, and unresolved factual or material limits.
+The function does not recommend the Editorial Angle or Art Direction.
 
-Creative Producer then determines whether the next owner is Editorial Strategist, Editorial Director, Art Director, Production Artist, or no further production role.
+## Standard Creative Handoffs
 
 ### Creative Producer → Editorial Strategist
-Transfers the research/material state required for strategy, plus project objective and any ECD-owned decisions that constrain the brief. The Producer must not pre-select the editorial angle unless the ECD has already explicitly done so.
+Transfers:
 
-### Editorial Strategist → Creative Producer / Editorial Director
-Transfers the approved Creative Treatment: subject, editorial premise, audience relevance, selected angle, intended understanding, claim boundaries, and any non-negotiable language or facts. Creative Producer records state and routes the approved artifact onward.
+- ECD-aligned Production Brief;
+- relevant source material;
+- any research / validation result actually needed for strategy;
+- existing approved decisions and locks;
+- the current evidence obligation and claim boundaries.
 
-### Editorial Director → Creative Producer / Art Director
-Transfers the approved Creative Script: content structure, sequence, card/page roles, storyboard intent, final or approved copy, information hierarchy requirements, and any visual meaning that must be preserved. Creative Producer records state and routes the approved artifact onward.
+Producer must not pre-select the final Editorial Insight or angle unless the ECD has already explicitly locked it.
 
-### Art Director → Creative Producer / Production Artist
-Transfers approved Art Direction: visual concept, hierarchy, composition intent, typography system, image direction, image–type relationships, crop/safe-zone intent, cross-page visual grammar, and production tolerances. Creative Producer records state and routes the approved artifact onward.
+### Editorial Strategist → Creative Producer
+Returns a proposed or approved **Creative Treatment**: editorial premise, insight, audience relevance, selected angle, intended understanding, claim boundaries, and important unresolved strategic questions.
+
+Creative Producer determines whether the result can continue, needs ECD Creative Alignment, or requires revision.
+
+### Creative Producer → Editorial Director
+Transfers the approved Creative Treatment plus the relevant evidence, exact wording, assets, deliverable constraints, and ECD decisions that the Creative Script must preserve.
+
+### Editorial Director → Creative Producer
+Returns the proposed or approved **Creative Script**: communication structure, sequence, card/page roles, storyboard intent, copy, information requirements, and any visual meaning that must survive Art Direction.
+
+Creative Producer determines whether the result can continue, needs ECD Script Alignment, or requires revision.
+
+### Creative Producer → Art Director
+Transfers the approved Creative Script plus visual references, reference intent / boundaries, approved assets, surface constraints, and existing visual locks.
+
+### Art Director → Creative Producer
+Returns proposed or approved **Art Direction**: visual concept, mood / atmosphere, hierarchy, composition intent, typography, image direction, image–type relationships, cross-page grammar, production tolerances, and representative proofs when required.
+
+Creative Producer determines whether the result can continue, needs ECD Art Direction Alignment / Acceptance, or requires revision.
+
+### Creative Producer → Production Artist
+Transfers approved Art Direction, final copy payloads, approved assets, production tolerances, output specifications, and locked constraints.
 
 ### Production Artist → Creative Producer
-Transfers final assets plus technical QA state, variants, known limitations, and anything requiring ECD acceptance.
+Returns final assets plus technical QA state, variants, known limitations, and any implementation issue that requires upstream repair or ECD acceptance.
 
 ## Return Path
 
-When a receiving role cannot complete its work without changing an upstream decision, it must return the issue through Creative Producer to the owner of the first affected artifact.
+When a receiving role or backstage function cannot complete its work without changing an upstream decision, it returns the issue to Creative Producer.
 
-Do not solve upstream problems by downstream improvisation.
+Creative Producer identifies the first affected professional owner or reopens the relevant evidence state. Do not solve upstream problems by downstream improvisation.
