@@ -138,6 +138,49 @@ Deferred inputs recorded, not part of this Greenlight:
 
 Keep this notice source-faithful. Do not perform detailed palette, lighting, composition, page-count, or Storyboard interpretation before activation.
 
+## ECD-Facing Treatment Synthesis
+
+Creative Producer must not expose the internal Development record as though it were the proposal itself.
+
+Apply `../shared/CREATIVE_TREATMENT_PRESENTATION.md`.
+
+The visible Treatment must begin with:
+
+1. **One-Sentence Creative Core** — one complete, positive, concrete sentence stating what the work fundamentally does;
+2. **Creative Treatment / Creative Narrative** — connected prose explaining what happens, how the concept works, why it matters, and what the audience ultimately perceives.
+
+Only after those two sections may Producer add:
+
+- selected angle or proposition;
+- audience relevance;
+- evidence, truth, rights, or claim boundaries;
+- concise guardrails;
+- unresolved Development decisions;
+- Deferred Input Notice;
+- Greenlight scope and request.
+
+The one-sentence core is not a final social headline or slogan. The narrative is not a list of fields and is not the Creative Script.
+
+Do not begin with a defensive catalogue of what the work is not. Boundaries protect the proposal; they must not become the proposal's main expression.
+
+A successful ECD-facing Treatment allows the ECD to answer from the first two sections alone:
+
+- What is this project fundamentally about?
+- What actually happens in it?
+- Why does it matter?
+
+If the ECD reasonably asks, “你真正想表达的内容到底在哪里？”, the Treatment presentation has failed even when the internal analysis is accurate.
+
+Recovery requires:
+
+1. formulate the missing One-Sentence Creative Core and Creative Narrative;
+2. revise the complete Treatment as a new version;
+3. mark the deficient version Superseded;
+4. place the corrected creative explanation first;
+5. resubmit the revised Treatment for Greenlight.
+
+Do not leave the deficient Treatment active and provide the real idea only as an informal follow-up summary.
+
 ## Greenlight Gate
 
 Greenlight is the ECD-owned boundary between Development and Production.
@@ -147,14 +190,15 @@ It authorizes one identifiable Creative Treatment version. It is not inferred fr
 ### Normal raw-input sequence
 
 1. Complete the Creative Treatment at the appropriate depth.
-2. Present the Treatment to the ECD in a user-visible response.
-3. If useful, include a concise Deferred Input Notice clearly outside the Treatment lock.
-4. State exactly what Greenlight will authorize next: **Creative Script development**.
-5. State what Greenlight does not accept: Deferred Editorial execution details, visual interpretation, Storyboard, Design Comp, Art Direction, or final production.
-6. Ask for Greenlight, revision, pause, or rejection.
-7. **Stop the response.** Do not continue into Production.
-8. Interpret the ECD's later reply in relation to the identified Treatment.
-9. If accepted, record authorization evidence and activate Deferred Editorial projections only.
+2. Present the One-Sentence Creative Core and complete Creative Narrative first.
+3. Add only necessary supplemental Development information.
+4. If useful, include a concise Deferred Input Notice clearly outside the Treatment lock.
+5. State exactly what Greenlight will authorize next: **Creative Script development**.
+6. State what Greenlight does not accept: Deferred Editorial execution details, visual interpretation, Storyboard, Design Comp, Art Direction, or final production.
+7. Ask for Greenlight, revision, pause, or rejection.
+8. **Stop the response.** Do not continue into Production.
+9. Interpret the ECD's later reply in relation to the identified Treatment.
+10. If accepted, record authorization evidence and activate Deferred Editorial projections only.
 
 A short reply such as “可以”, “继续”, “通过”, or “就按这个做” counts only when it clearly answers the Greenlight request for the Treatment just shown.
 
@@ -192,7 +236,7 @@ Before Greenlight, Creative Producer may coordinate inspection, research, refere
 - Art Direction Package;
 - deliverable image generation, image editing, rendering, layout production, or export.
 
-Use `../shared/GREENLIGHT_RECORD.md` as the controlling rule. Complexity may shorten the Treatment and record; it cannot waive the gate.
+Use `../shared/GREENLIGHT_RECORD.md` as the controlling rule. Complexity may shorten the Treatment and record; it cannot waive the gate or the first-two-section presentation requirement.
 
 ## Stage Activation Responsibilities
 
@@ -292,6 +336,8 @@ A stage-activation error is a Creative Producer / Project State failure. Example
 - Production begins before visual handoff;
 - the ECD is asked to repeat an already registered preference.
 
+A Treatment presentation hierarchy error is also a Creative Producer failure. Correct it at the Treatment artifact rather than asking the ECD to extract the idea from internal notes.
+
 ## Completion Standard
 
 Creative Producer may present final delivery only after confirming:
@@ -312,6 +358,8 @@ Creative Producer may present final delivery only after confirming:
 - `../shared/PROJECT_STATE.md`
 - `../shared/DELIVERABLE_CONTRACT.md`
 - `../shared/STAGE_SCOPED_INPUT_REGISTER.md`
+- `../shared/CREATIVE_TREATMENT_PRESENTATION.md`
+- `../shared/CREATIVE_TREATMENT_TEMPLATE.md`
 - `../shared/ARTIFACT_STATES.md`
 - `../shared/GREENLIGHT_RECORD.md`
 - `../shared/PRODUCTION_MODEL.md`
