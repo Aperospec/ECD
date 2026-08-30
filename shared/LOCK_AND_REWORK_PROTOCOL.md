@@ -24,17 +24,15 @@ Creative Producer records the relevant state. Do not turn ordinary exploration i
 
 ## Development State
 
-Before Greenlight, research findings, insight hypotheses, angle options, and treatment drafts are development material rather than production locks.
+Before Greenlight, research findings, insight hypotheses, angle options, and Treatment drafts are development material rather than production locks.
 
-They may be revised, reframed, rejected, or abandoned.
-
-The ECD may align multiple times before the project is Greenlit.
+They may be revised, reframed, rejected, or abandoned. The ECD may align multiple times before the project is Greenlit.
 
 ## Greenlight Lock
 
 The normal Greenlight lock is the ECD-approved **Creative Treatment** plus any material factual, rights, claim, reference, or commercial boundaries required for faithful production.
 
-After Greenlight, downstream roles may interpret the treatment within their craft but may not silently alter:
+After Greenlight, downstream roles may interpret the Treatment within their craft but may not silently alter:
 
 - the project premise;
 - selected angle and core proposition;
@@ -49,7 +47,8 @@ A change to those elements reopens Development.
 
 Locks may additionally protect:
 
-- Creative Script sequence, page/card purpose, exact required wording, and editorial meaning;
+- Creative Script sequence, beat purpose, Visual Beat meaning, exact required wording, and editorial meaning;
+- accepted Storyboard / Visual Board direction when ECD or Producer has explicitly approved it;
 - Art Direction, durable visual identity, visual relationship, hierarchy, and approved assets;
 - final production specifications and accepted outputs.
 
@@ -61,8 +60,8 @@ Default ownership:
 
 - research / fact / evidence / validation / rights / reference-boundary failure → **Development Research Function**, coordinated by Creative Producer;
 - premise / insight / angle / proposition / Creative Treatment failure → **Development**, coordinated by Creative Producer and re-aligned with ECD when material;
-- sequence / storyboard / copy / content-progression failure → **Editorial Director**;
-- visual concept / mood / hierarchy / typography / composition failure → **Art Director**;
+- sequence / Visual Beat / copy / content-progression failure → **Editorial Director**;
+- Storyboard / visual concept / mood / hierarchy / typography / composition failure → **Art Director**;
 - crop / overflow / dimensions / export / implementation defect → **Production Artist**;
 - state / Greenlight / routing / unresolved-authority problem → **Creative Producer**.
 
@@ -91,6 +90,7 @@ Return to the Executive Creative Director when a proposed change materially alte
 - the Greenlight premise;
 - a public claim, promise, or position made on the ECD's behalf;
 - durable brand or visual identity;
+- material mood, aesthetic, visual world, or Storyboard direction when subjective ECD alignment is required;
 - ownership, rights, or attribution authority;
 - material scope, cost, or external action;
 - final subjective acceptance.
@@ -106,7 +106,7 @@ A downstream role must not repair its own difficulty by:
 - changing a locked name or fact;
 - replacing evidence with decoration;
 - changing reference boundaries for convenience;
-- redesigning an approved visual relationship merely because implementation is difficult;
+- changing an accepted Storyboard or visual relationship merely because implementation is difficult;
 - shrinking essential information below the intended viewing condition.
 
 Return the issue to the first affected owner instead.
@@ -118,6 +118,8 @@ Typical feedback examples:
 - “This fact is wrong.” → Development Research Function.
 - “This is no longer what I wanted to say.” → reopen Development.
 - “Page 2 and Page 3 say the same thing.” → Editorial Director.
+- “The written Visual Beat is wrong.” → Editorial Director.
+- “The content is right, but the drawn Storyboard / image idea is wrong.” → Art Director.
 - “The whole piece feels too technological / commercial / cold.” → Art Director if the premise is still right; Development if the meaning itself is wrong.
 - “The approved title is too small in export.” → Production Artist if execution is wrong; Art Director if hierarchy was wrong.
 - “The final output drifted from the approved direction.” → Creative Producer locates the first failed lock and routes targeted rework.
