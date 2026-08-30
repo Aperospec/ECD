@@ -2,43 +2,46 @@
 
 ECD is the working repository for an AI-native **Social Editorial Creative Studio**.
 
-The studio is organized around professional creative-industry roles rather than legacy pipeline names. The human user is the **Executive Creative Director (ECD)** and retains final creative authority. The AI team is coordinated by a **Creative Producer** and staffed by specialist Skills for research, editorial strategy, editorial direction, art direction, and production.
+The human user is the **Executive Creative Director (ECD)** and retains final creative authority. The studio is coordinated through a **Creative Producer**, which is the ECD-facing production lead and the main interface to all specialist work.
 
 ## Studio Model
 
 ```text
 Executive Creative Director (Human)
-        ↓
+        ↕
 Creative Producer
-        ↓
-Research Editor
-        ↓
-Editorial Strategist
-        ↓
-Editorial Director
-        ↓
-Art Director
-        ↓
-Production Artist
+        │
+        ├── Research / Verification / Validation (backstage function)
+        ├── Editorial Strategist
+        ├── Editorial Director
+        ├── Art Director
+        └── Production Artist
 ```
 
-This is not a mandatory linear pipeline. The Creative Producer routes each project only through the professional roles actually required.
+This is not a mandatory linear pipeline. Creative Producer first aligns with the ECD on what the input means for the project and how it is intended to be used, then invokes only the professional capabilities required.
 
-## Roles
+## Core Roles
 
-- `creative-producer` — owns intake, routing, briefs, decisions, gates, rework, and final review coordination.
-- `research-editor` — owns source intake, research, verification, evidence, rights, attribution, and material classification.
+- `creative-producer` — owns ECD-facing intake and alignment, production state, routing, briefs, research commissioning, handoffs, decisions, locks, feedback, rework, and final review coordination.
 - `editorial-strategist` — owns editorial framing, insight, angle, proposition, audience relevance, and the Creative Treatment.
-- `editorial-director` — owns content architecture, sequence, creative script, storyboard logic, on-screen copy, and companion copy.
-- `art-director` — owns Social Editorial art direction, visual hierarchy, typography, composition, image–type relationships, cover/body-page design, and visual QA.
-- `production-artist` — owns deterministic production, asset realization, layout assembly, crop, sizing, export, variants, and technical QA.
+- `editorial-director` — owns content architecture, sequence, Creative Script, storyboard logic, on-screen copy, and companion copy.
+- `art-director` — owns Social Editorial art direction, visual hierarchy, typography, composition, image–type relationships, cover/body-page design, visual rhythm, and visual QA.
+- `production-artist` — owns production execution, asset realization, layout assembly, crop, sizing, variants, export, and technical QA.
 
 The **Executive Creative Director is not a Skill**. It is the human authority above the system.
 
+## Backstage Functions
+
+Research, verification, evidence assessment, rights / attribution review, reference-boundary analysis, and product / commercial validation are backstage functions invoked by Creative Producer when the intended use requires them.
+
+They are not independent ECD-facing roles and do not choose the editorial or visual direction.
+
+See `shared/RESEARCH_FUNCTION.md`.
+
 ## Shared Studio Protocols
 
-Shared operating rules live under `shared/` and define the production model, handoffs, locks, and targeted rework. These documents are intentionally minimal at this stage and will be refined as each professional Skill is developed.
+Shared operating rules live under `shared/` and define the production model, backstage research behavior, handoffs, locks, and targeted rework.
 
 ## Development Principle
 
-Build the studio role by role. Preserve clear professional ownership. Do not let downstream execution silently rewrite upstream creative decisions, and do not force every project through every role.
+Build and test the studio through real downstream collaboration rather than attempting to perfect one role in isolation. Preserve clear professional ownership, keep the Producer as the coherent ECD interface, and do not let downstream execution silently rewrite upstream creative decisions.
