@@ -1,84 +1,99 @@
 # ECD
 
-ECD is the working repository for an AI-native **Social Editorial Creative Studio**.
+ECD is a single-entry, AI-native **Social Editorial Creative Studio**.
 
-The human user is the **Executive Creative Director (ECD)** and retains final creative authority. The studio is coordinated through a **Creative Producer**, which remains the ECD-facing lead from the first spark of an idea through final delivery.
+The human user is the **Executive Creative Director (ECD)** and retains final creative authority. One root `SKILL.md` acts as the user-facing studio entrance. Internally, the Skill uses four professional role manuals rather than exposing four independent Skills:
 
-## Two-Phase Studio Model
+- Creative Producer — intent, routing, state, Greenlight, handoffs, rework, and acceptance;
+- Editorial Director — content architecture, sequence, written Visual Beats, on-screen copy, and companion copy;
+- Art Director — Storyboard / Visual Sequence Board, Representative Design Comp, and Art Direction Package;
+- Production Artist — asset realization, deterministic typography, layout, export, and technical QA.
+
+## Canonical Workflow
 
 ```text
-Executive Creative Director (Human)
-        ↕
+ECD Input
+↓
 Creative Producer
-        │
-        ├── DEVELOPMENT / 立项前
-        │   ├── Intent & Use Alignment
-        │   ├── Research / Verification / Validation (when needed)
-        │   ├── Reference Intelligence
-        │   ├── Editorial Development
-        │   ├── Insight / Angle / Proposition Development
-        │   └── Creative Treatment
-        │
-        ├── GREENLIGHT / 正式立项
-        │
-        └── PRODUCTION / 立项后
-            ├── Editorial Director → Creative Script
-            │   ├── Content Architecture
-            │   ├── Sequence
-            │   ├── Visual Beats (written)
-            │   └── On-screen / Body Copy
-            │
-            ├── Art Director
-            │   ├── Storyboard / Visual Board
-            │   ├── ECD Visual Alignment when needed
-            │   └── Art Direction Package
-            │
-            └── Production Artist → Final Assets
+├─ Deliverable Contract
+├─ Project State
+├─ complexity and evidence routing
+└─ shortest valid entry point
+↓
+Development when required
+├─ Research / Verification / Validation
+├─ Reference Intelligence
+└─ Editorial Development
+↓
+Creative Treatment
+↓
+ECD Greenlight
+↓
+Editorial Director
+↓
+Creative Script
+├─ Content Architecture
+├─ Sequence
+├─ written Visual Beats
+└─ audience-facing copy
+↓
+Art Director
+├─ Storyboard / Visual Sequence Board
+├─ Representative Design Comp
+└─ Art Direction Package
+↓
+Production Artist
+├─ image and asset production
+├─ deterministic text composition
+├─ layout, crop, variants, and export
+└─ mobile and technical QA
+↓
+Creative Producer Final Review
+↓
+ECD Final Acceptance
 ```
 
-The central boundary is **Greenlight**.
+The model is adaptive rather than a compulsory waterfall. Approved intermediate artifacts enter at the latest valid stage. Compact projects may combine documents or visual proofs, but may not leave material professional questions unresolved.
 
-Before Greenlight, the studio is deciding whether there is a project worth making and what that project actually is. The final Development artifact is the **Creative Treatment**.
+## Repository Structure
 
-After the ECD approves the Creative Treatment, the project is Greenlit and enters Production.
+```text
+SKILL.md                         # only user-facing Skill entry
+ORGANIZATION.md                  # authority and role model
+creative-producer/ROLE.md        # internal role manual
+editorial-director/ROLE.md       # internal role manual
+art-director/ROLE.md             # internal role manual
+production-artist/ROLE.md        # internal role manual
+shared/                          # state, evidence, handoff, approval, and rework protocols
+*/references/                    # craft methods and formal artifact contracts
+TESTS.md                         # trigger, routing, artifact, visual, and regression tests
+```
 
-## Core Roles
+## Core Boundary
 
-- `creative-producer` — the continuous ECD-facing studio lead across Development and Production; owns alignment, state, orchestration, research commissioning, Greenlight, handoffs, locks, rework, and final review coordination.
-- `editorial-director` — post-Greenlight owner of content architecture, sequence, written Visual Beats, Creative Script, on-screen copy, and companion / body copy. It does **not** own the actual Storyboard.
-- `art-director` — post-Greenlight visual owner; translates Visual Beats into Storyboards / Visual Boards, manages ECD visual alignment when materially required, and owns Social Editorial Art Direction and editorial design.
-- `production-artist` — execution role for asset realization, layout assembly, crop, sizing, variants, export, and technical QA.
+A written **Visual Beat** is not a Storyboard.
 
-The **Executive Creative Director is not a Skill**. It is the human authority above the system.
+- Editorial Director defines what each screen must communicate in words.
+- Art Director creates the first true visual translation.
+- Production Artist realizes the approved visual direction technically.
 
-## Development Functions
+Generated imagery and final typography are also separated by default. Image generation produces visual assets; exact audience-facing text is composed deterministically so wording, hierarchy, line breaks, and mobile readability remain controllable.
 
-Development is not represented as a separate ECD-facing personality. It is a backstage professional capability coordinated by Creative Producer.
-
-It may use research, verification, product validation, reference analysis, editorial insight development, angle exploration, proposition development, and Creative Treatment drafting. Producer repeatedly translates this work into ECD-ready alignment until the project is ready for Greenlight.
-
-See:
-
-- `shared/DEVELOPMENT_FUNCTION.md`
-- `shared/RESEARCH_FUNCTION.md`
-
-## Shared Studio Protocols
-
-Shared operating rules live under `shared/` and define the two-phase production model, development behavior, research behavior, handoffs, Greenlight, locks, and targeted rework.
-
-## Current Production Artifacts
+## Artifact Chain
 
 ```text
 Creative Treatment
 → Greenlight
 → Creative Script
-→ Storyboard / Visual Board
+→ Storyboard / Visual Sequence Board
+→ Representative Design Comp
 → Art Direction Package
 → Final Assets
+→ ECD Final Acceptance
 ```
 
-Each artifact has one professional owner and downstream work may not silently rewrite upstream meaning.
+## Default Behavior
 
-## Development Principle
+The user may provide only a sentence, link, screenshot, photograph, product asset, rough copy, or partial professional artifact. ECD should infer routine decisions, choose the shortest valid route, and ask only when missing information materially affects the premise, factual promise, deliverable, rights, scope, or irreversible action.
 
-Build and test the studio through real downstream collaboration rather than attempting to perfect one role in isolation. Preserve clear professional ownership, keep Creative Producer as the coherent ECD interface, and do not let downstream production silently redefine a Greenlit Creative Treatment or approved Creative Script.
+User direction overrides automatic routing.
