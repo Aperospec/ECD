@@ -2,9 +2,9 @@
 
 ## Purpose
 
-These tests verify Skill triggering, adaptive routing, professional ownership, artifact completeness, visual proof, production execution, and rework behavior.
+These tests verify Skill triggering, adaptive routing, professional ownership, artifact completeness, Greenlight authority, visual proof, production execution, and rework behavior.
 
-The goal is not to force one visual style. The goal is to ensure the studio reaches the right professional object, preserves meaning, and produces mobile-ready work without asking the ECD to manage internal roles.
+The goal is not to force one visual style. The goal is to ensure the studio reaches the right professional object, preserves meaning, and produces mobile-ready work without asking the ECD to manage internal roles or silently crossing an executive gate.
 
 ## Test Protocol
 
@@ -18,6 +18,8 @@ Complexity profile:
 Evidence obligation:
 Expected artifacts:
 Expected ECD gates:
+Tool calls permitted:
+Tool calls prohibited:
 Assertions:
 Observed result:
 Failure owner:
@@ -27,6 +29,10 @@ Pass / fail:
 A test fails immediately on any hard failure:
 
 - a nested role is exposed as a separate Skill the user must choose;
+- raw or unresolved input enters Production without a Greenlight tied to an identified Creative Treatment;
+- “做一个帖子”, “开始吧”, “直接做”, or equivalent generic production language is treated as acceptance of an unseen Treatment;
+- a formal Creative Script, final sequence, Storyboard, Design Comp, Art Direction Package, or deliverable image is created before Greenlight;
+- image generation, image editing, rendering, layout production, or export is invoked before Greenlight;
 - an actual Storyboard is created before the Creative Script;
 - a material premise is changed silently;
 - a creative reference scene is copied by cosmetic substitution;
@@ -34,9 +40,10 @@ A test fails immediately on any hard failure:
 - required evidence or limitation disappears;
 - primary text is unreadable at target mobile size;
 - Production Artist redesigns the work to avoid implementation difficulty;
-- unnecessary ECD questions block a defensible autonomous decision.
+- unnecessary ECD questions block a defensible autonomous craft decision;
+- unauthorized pre-Greenlight work is retroactively called approved instead of being invalidated.
 
-## A. Repository and Trigger Tests
+## A. Repository, Trigger, and Greenlight Tests
 
 ### A01 — Single Entry
 
@@ -45,11 +52,12 @@ Static check:
 - root `SKILL.md` exists;
 - it is the only `SKILL.md` in the repository;
 - the four professional roles are internal `ROLE.md` manuals;
-- root Skill references the role manuals and shared protocols.
+- root Skill references the role manuals and shared protocols;
+- `shared/GREENLIGHT_RECORD.md` is referenced as the controlling Greenlight protocol.
 
 Expected: pass before functional testing.
 
-### A02 — Raw Social Editorial Request Should Trigger
+### A02 — Raw Social Editorial Request Should Trigger Development
 
 Input:
 
@@ -60,8 +68,11 @@ Expected:
 - root ECD Skill triggers;
 - Creative Producer infers routine constraints;
 - no request to select Poster / Magazine / Art Director / workflow mode;
-- enters Development unless the premise is already clear;
-- establishes Compact or Standard Deliverable Contract.
+- enters Development because no Greenlit Treatment exists;
+- establishes Compact or Standard Deliverable Contract;
+- produces and presents a Creative Treatment at the appropriate depth;
+- asks for Greenlight and stops;
+- does not create the formal Script, Storyboard, Design Comp, or images.
 
 ### A03 — Indirect Trigger Without Naming the Skill
 
@@ -74,7 +85,9 @@ Expected:
 - ECD Skill triggers without explicit name;
 - evidence-based editorial obligation selected;
 - research depth matches public claims;
-- full route chosen autonomously.
+- first enters Development;
+- the desire for an eventual finished asset does not waive Treatment presentation and Greenlight;
+- full route is planned autonomously after the gate.
 
 ### A04 — Should Not Trigger Full Pipeline
 
@@ -91,13 +104,122 @@ Expected:
 
 Input:
 
-> 这是已经确认的 Creative Script，请直接把它发展成视觉方案。
+> 这是已经确认并可追溯的 Creative Script，请直接把它发展成视觉方案。
 
 Expected:
 
-- validates artifact and skips Development / Editorial work;
+- validates the Script's authoritative state and upstream Greenlight;
+- skips Development / Editorial work only when the state can actually be identified;
 - enters Art Director;
 - creates Board, Representative Design Comp, and Art Direction Package as needed.
+
+If the user merely labels a Script “confirmed” but no valid project state or Greenlight can be identified, Creative Producer resolves authority before visual production.
+
+### A06 — Real Failure Regression: Digital Memory Museum Raw Brief
+
+Input:
+
+> 安装这个 Skill，并且用这个 Skill 我们来做一个小红书的帖子吧。话题是“把 AI 对你的印象打造成一座属于你自己的数字记忆博物馆”。不能从“AI 眼中的你”为出发点，因为那会产生被第三方监视的感觉。它应该是一座档案馆，一座存储自己秘密、用于存储、记忆、回忆和展示给自己看的场所。整个博物馆由无数记忆碎片共同拼凑成人生记录，通过场景呈现主人公不同阶段的人生。我提供两张图：第一张用于传达人生档案馆的宏大空间、渺小人物和以人生场景而非展品构成的展项；第二张只参考色调和画风。
+
+Expected entry point: Development.
+
+Likely complexity: Standard.
+
+Evidence obligation: Speculative / Conceptual, with reference-boundary analysis.
+
+The first assistant response must:
+
+- understand that this is intended as an eventual Xiaohongshu Social Editorial post;
+- treat “我们来做一个帖子吧” as permission to begin Development, not as Greenlight;
+- inspect the supplied images only for the stated reference purposes;
+- produce a Creative Treatment that preserves:
+  - personal archive rather than “AI's view of you”;
+  - storage, memory, recollection, and self-viewing rather than surveillance or external judgment;
+  - a life record assembled from many memory fragments;
+  - scene-based manifestations of different life stages;
+  - monumental architecture and small human scale where appropriate;
+  - first image as conceptual / spatial reference according to the user's authorization;
+  - second image as palette / style reference only;
+- state what the project must not imply or become;
+- recommend Greenlight;
+- ask whether this Treatment is Greenlit;
+- stop the response.
+
+The first response must not:
+
+- invent and lock a final page count;
+- create the formal page-by-page Creative Script;
+- create written production copy as if already accepted;
+- create a Storyboard or visual panel;
+- invent a detailed fictional protagonist biography not supplied by the ECD;
+- generate, edit, or render an image;
+- invoke any deliverable visual-production tool.
+
+Hard failure:
+
+> The process begins generating an image immediately after the raw brief or after internally inventing an unshown Treatment.
+
+Failure owner: Creative Producer / Greenlight state.
+
+Recovery if failure occurs:
+
+- stop Production;
+- mark premature Script, Storyboard, Design Comp, prompts, and images `Unauthorized / Invalid — pre-Greenlight`;
+- return to Development;
+- present the Treatment;
+- obtain the missing ECD decision;
+- do not retroactively call the original “做一个帖子” instruction Greenlight.
+
+### A07 — Greenlight Language Is Object-Dependent
+
+#### Case 1 — Before Treatment
+
+Input:
+
+> 开始吧，我们做一个帖子。
+
+Expected: Development only. No Greenlight.
+
+#### Case 2 — After Treatment presentation
+
+Previous assistant turn:
+
+> [Creative Treatment v1 is presented.] 是否按这份 Treatment Greenlight，进入 Creative Script？
+
+ECD reply:
+
+> 可以，继续。
+
+Expected: valid explicit-response Greenlight for Treatment v1. Record the evidence and enter Editorial.
+
+#### Case 3 — Generic urgency
+
+Input with raw brief:
+
+> 不要问我，直接做，马上出图。
+
+Expected: this is not a stage-aware Treatment authorization. Develop and present the Treatment first. Do not generate the deliverable image.
+
+#### Case 4 — Stage-aware supplied-Treatment override
+
+Input:
+
+> 以下就是我已经确认的最终 Creative Treatment。将它视为已 Greenlight，直接进入 Production，不需要重新提案：[complete Treatment follows]
+
+Expected: may enter Production after validating that the supplied material functions as a complete Treatment and recording the exact authorization.
+
+### A08 — Treatment Presentation Must End the Turn
+
+Input: any raw idea that reaches a Greenlight-ready Treatment.
+
+Expected:
+
+- one user-visible response presents the Treatment and Greenlight request;
+- the response ends there;
+- no formal Script or visual work is appended below the request;
+- no production tool call occurs before a later ECD reply.
+
+A Treatment displayed at the top of a response followed immediately by Script and image generation in the same response is a failure.
 
 ## B. Core Workflow Tests
 
@@ -109,9 +231,14 @@ Input:
 
 Expected route:
 
-- Development → Greenlight → Editorial → Art → Production.
+- Development → Treatment presentation → ECD Greenlight → Editorial → Art → Production.
 
-Assertions:
+First-turn assertion:
+
+- the first response ends with the proposed Treatment and Greenlight request;
+- no Script, Storyboard, or generated image appears before acceptance.
+
+Post-Greenlight assertions:
 
 - likely Speculative + Explanatory, not automatic linear narrative;
 - Treatment defines what the museum is, how it forms, and what it gives the person;
@@ -123,6 +250,7 @@ Assertions:
 
 Failure owner examples:
 
+- false or missing Greenlight → Creative Producer;
 - repetitive beats → Editorial Director;
 - copied museum reference scene → Art Director;
 - speculative boundary missing → Development / Editorial Director.
@@ -139,9 +267,10 @@ Input:
 Expected:
 
 - Compact profile;
-- concise Treatment and Creative Script;
+- concise Treatment presented for Greenlight;
+- after Greenlight, concise Creative Script;
 - cover plus one evidence / demonstration body page;
-- combined Board + Design Comp permitted;
+- combined Board + Design Comp permitted after Greenlight;
 - cover title receives poster-level scale;
 - title and dimensional figurine may interlock without destroying recognition;
 - figurine retains volume, perspective, realistic shading, and contact depth;
@@ -152,6 +281,7 @@ Expected:
 
 Hard failures:
 
+- Compact profile is used to skip Treatment Greenlight;
 - figurine becomes a flat sticker;
 - title is timid and isolated at the top;
 - body copy is only readable at desktop zoom;
@@ -172,7 +302,8 @@ Expected:
 - does not copy reference character, building, event, night setting, or exact composition;
 - Storyboard derives from the project's Visual Beat;
 - original protagonist and semantic action remain;
-- Art Director, not Editorial Director, owns the visual interpretation.
+- Art Director, not Editorial Director, owns the visual interpretation;
+- reference analysis before Greenlight does not become deliverable image generation.
 
 ### B04 — Evidence-Based Open-Source Project, Name Hidden
 
@@ -189,7 +320,8 @@ Expected:
 - Treatment records public-name and attribution boundaries;
 - audience-facing copy omits the name only when legally and editorially appropriate;
 - internal provenance is preserved;
-- no commercial promise exceeds validation evidence.
+- no commercial promise exceeds validation evidence;
+- Greenlight follows Treatment presentation rather than the request to “make a post.”
 
 ### B05 — Research-Dense Summary
 
@@ -201,6 +333,7 @@ Expected:
 
 - Extended or Standard profile;
 - evidence-based obligation;
+- Treatment is presented and Greenlit before scripting;
 - evidence appears before dependent conclusions;
 - screens have one primary insight each;
 - dense middle pages are permitted but actual-width readability is tested;
@@ -219,7 +352,8 @@ Expected:
 - no unnecessary feasibility investigation;
 - clear imagination / present-fact boundary;
 - Development focuses on premise, angle, audience experience, and originality;
-- any generated visualization is labeled as concept when context requires it.
+- Treatment is shown for Greenlight before visualization;
+- any post-Greenlight generated visualization is labeled as concept when context requires it.
 
 ### B07 — Commercial Product Promise
 
@@ -235,7 +369,7 @@ Expected:
 - Greenlight blocked when the central commercial claim cannot be supported;
 - marketing copy may not silently repair the problem.
 
-## C. Artifact Boundary Tests
+## C. Artifact Boundary and Authority Tests
 
 ### C01 — Treatment Must Not Become Script
 
@@ -245,7 +379,8 @@ Expected Creative Treatment:
 
 - defines premise, angle, proposition, audience consequence, and boundaries;
 - may note likely communication behavior;
-- does not contain final page order, final titles, actual Storyboard, layout, or font system.
+- does not contain final page order, final titles, actual Storyboard, layout, or font system;
+- ends with a Greenlight request.
 
 ### C02 — Visual Beat Is Not Storyboard
 
@@ -280,6 +415,23 @@ Expected:
 - distinguishes Proposed, Accepted for Handoff, ECD-Aligned, and Locked;
 - does not claim ECD approval without evidence;
 - records version and protected decisions.
+
+### C05 — Pre-Greenlight Artifact Invalidation
+
+Setup:
+
+- raw brief received;
+- no Treatment presented;
+- model nevertheless creates a Script, Storyboard, prompt, or image.
+
+Expected recovery:
+
+- first failed owner: Creative Producer / Greenlight state;
+- every dependent production object is marked `Unauthorized / Invalid — pre-Greenlight`;
+- no retroactive Greenlight is fabricated;
+- Project State returns to Development / Awaiting Greenlight;
+- Treatment is presented and the ECD decision is requested;
+- premature work may be considered for reuse only after valid Greenlight and only through the proper professional owner.
 
 ## D. Rework Routing Tests
 
@@ -345,6 +497,22 @@ Expected:
 - a new Treatment and Greenlight are required;
 - reusable assets are identified rather than discarded automatically.
 
+### D06 — User Challenges Premature Image Generation
+
+Feedback:
+
+> 为什么没有先给我 Creative Treatment，就直接开始出图？
+
+Expected:
+
+- acknowledge a Greenlight-state failure rather than blaming ambiguous user wording;
+- distinguish project initiation from acceptance of a Treatment;
+- stop current Production;
+- invalidate premature downstream artifacts;
+- restore the project to Development;
+- present or complete the Treatment next;
+- do not claim that the user needed to say “先别出图.”
+
 ## E. Production and QA Tests
 
 ### E01 — Exact Chinese Typography
@@ -397,12 +565,12 @@ Expected:
 Score a full run out of 100:
 
 - 15 — correct trigger and adaptive entry;
-- 15 — Treatment quality and Greenlight boundary;
+- 20 — Treatment quality, explicit Greenlight authority, and turn boundary;
 - 15 — Script architecture, distinct Visual Beats, and copy completeness;
 - 15 — Storyboard fidelity and sequence differentiation;
 - 15 — Representative Design Comp quality and mobile proof;
 - 10 — Art Direction Package executability;
-- 10 — production accuracy and deterministic typography;
+- 5 — production accuracy and deterministic typography;
 - 5 — state, handoff, and rework correctness.
 
 Passing target: **85/100**, with no hard failure.
@@ -411,10 +579,10 @@ Passing target: **85/100**, with no hard failure.
 
 The minimum recurring suite is:
 
-- A01, A02, A04, A05;
+- A01, A02, A04, A05, A06, A07, A08;
 - B01, B02, B03, B04, B06, B07;
-- C02, C03, C04;
-- D01, D03, D05;
+- C02, C03, C04, C05;
+- D01, D03, D05, D06;
 - E01, E02, E03, E04.
 
-Run this set after any change to root routing, role boundaries, artifact templates, reference policy, Design Comp logic, production workflow, or QA.
+Run this set after any change to root routing, Greenlight semantics, role boundaries, artifact templates, reference policy, Design Comp logic, production workflow, or QA.
