@@ -24,6 +24,8 @@ Development may begin from:
 
 Creative Producer first determines intended use, valid existing work, complexity profile, and evidence obligation.
 
+A request to make or begin a deliverable is still a Development input when no Creative Treatment has yet been presented or explicitly identified as already approved.
+
 ## Development Capabilities
 
 Use only what the project requires.
@@ -88,7 +90,9 @@ Creative Producer synthesis
 ECD Update / Alignment / Decision when material
 ↺ revise, deepen, reframe, validate, pause, or reject
 ↓
-Creative Treatment
+Creative Treatment proposed to the ECD
+↓
+Hard stop awaiting Greenlight decision
 ```
 
 Development may loop without becoming Production.
@@ -124,6 +128,12 @@ Development must not prematurely produce:
 
 A Treatment may note likely communication behavior or material deliverable consequences without becoming the Creative Script.
 
+### Tool boundary
+
+Before Greenlight, Development may inspect supplied images and references, perform research, and create text-based Development artifacts.
+
+It must not invoke image generation, image editing, rendering, layout, Figma production, export, or other visual-production tools for the deliverable. Research-oriented image discovery or inspection is allowed only as evidence or reference analysis.
+
 ## Greenlight Readiness
 
 Development may recommend Greenlight when:
@@ -135,7 +145,24 @@ Development may recommend Greenlight when:
 - no unresolved issue would fundamentally change what the project is;
 - the Deliverable Contract is compatible with the premise.
 
-Only the ECD can Greenlight the project, though a clear direct instruction may constitute Compact-project authorization without additional ceremony.
+Only the ECD can Greenlight the project.
+
+For raw or unresolved input, Creative Producer must present the Treatment, request the decision, and stop. Complexity, detailed source material, and generic production instructions do not replace this decision.
+
+A direct transition without a new presentation turn is valid only for a traceable prior Greenlight or an explicit stage-aware instruction identifying supplied material as the final / approved Treatment and authorizing Production from it. Apply `GREENLIGHT_RECORD.md`.
+
+## Treatment Presentation Contract
+
+The user-visible Development result should contain, at the depth appropriate to the project:
+
+- the proposed Creative Treatment;
+- the principal reference-use boundary when references were supplied;
+- material factual, speculative, rights, or claim boundaries;
+- the recommendation;
+- what Greenlight would authorize;
+- one concise Greenlight request.
+
+End the response there. Do not append a Creative Script, page-by-page sequence, Storyboard proposal, image prompt, visual mockup, or generated asset.
 
 ## Quality Gate
 
@@ -147,4 +174,5 @@ Before presenting the Treatment:
 - identify what is original about the treatment;
 - record what the work must not become;
 - remove premature page plans, copy, or layout;
-- recommend a direction rather than presenting undifferentiated options when professional judgment can resolve them.
+- recommend a direction rather than presenting undifferentiated options when professional judgment can resolve them;
+- confirm that the next action is an ECD Greenlight decision, not Production.
