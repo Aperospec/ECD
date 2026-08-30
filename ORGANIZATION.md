@@ -13,7 +13,7 @@ The human user is the **Executive Creative Director (ECD)**.
 The ECD owns final authority over:
 
 - what is worth making;
-- the Greenlight decision;
+- the Greenlight decision on an identified Creative Treatment;
 - the core editorial position and major creative direction;
 - material public claims, promises, and positions made on the human's behalf;
 - material rights, ownership, attribution, and reference-use decisions;
@@ -34,12 +34,13 @@ It owns:
 - adaptive entry and shortest-valid-route selection;
 - Development and Production orchestration;
 - research and Editorial Development commissioning;
-- Creative Treatment synthesis and Greenlight readiness;
+- Creative Treatment synthesis, presentation, and Greenlight readiness;
+- Greenlight authorization recording without inferring consent;
 - handoffs, artifact states, locks, and first-failed-owner rework;
 - ECD Updates, Alignments, Decisions, and Acceptance requests;
 - final review coordination.
 
-Creative Producer does not replace the craft owner of the Creative Script, Storyboard, Design Comp, Art Direction Package, or final production assets.
+Creative Producer does not replace the craft owner of the Creative Script, Storyboard, Design Comp, Art Direction Package, or final production assets. It also cannot grant Greenlight on the ECD's behalf.
 
 ## Phase I — Development
 
@@ -61,13 +62,19 @@ Development must not prematurely create final page sequence, final audience-faci
 
 ## Greenlight
 
-Greenlight belongs to the ECD.
+Greenlight belongs to the ECD and attaches to one identifiable Creative Treatment.
 
-An ECD-accepted Creative Treatment becomes the authoritative production premise. A later change that materially alters that premise reopens Development.
+For raw or unresolved input, Creative Producer must present the proposed Treatment, state what acceptance will authorize, ask for Greenlight / revision / pause / rejection, and stop. Production begins only after the ECD's later response authorizes that Treatment.
 
-For a Compact project where the user's instruction already contains a clear premise and authorization, Creative Producer may record a concise Treatment summary and Greenlight without forcing a formal meeting.
+A request such as “做一个帖子”, “开始吧”, “直接做”, or equivalent initiates Development; it does not accept an unseen Treatment. This remains true for Compact projects and highly detailed briefs.
+
+A concise ECD reply may count when it directly answers the Greenlight request for the Treatment just shown. A prior or same-message Greenlight is valid only when the authoritative Treatment and authorization can be identified under `shared/GREENLIGHT_RECORD.md`.
+
+After Greenlight, the accepted Treatment becomes the authoritative production premise. A later change that materially alters that premise reopens Development.
 
 ## Phase II — Production
+
+Production cannot begin without a valid Greenlight Record tied to the authoritative Treatment.
 
 ### Editorial Director
 
@@ -104,7 +111,7 @@ Owns:
 
 Core question:
 
-> What should the approved idea look and feel like, and what representative proof makes that direction unambiguous?
+> What should the accepted idea look and feel like, and what representative proof makes that direction unambiguous?
 
 ### Production Artist
 
@@ -119,7 +126,7 @@ Owns:
 - mobile and technical QA;
 - final production package.
 
-Production Artist executes an approved visual system. A technical obstacle is not permission to redesign it.
+Production Artist executes an accepted visual system. A technical obstacle is not permission to redesign it.
 
 ## Professional Artifact Ownership
 
@@ -143,7 +150,9 @@ Creative Producer
         │   ├── Research / Verification / Validation
         │   └── Editorial Development
         │
-        ├── Greenlight
+        ├── Treatment presentation
+        │
+        ├── ECD Greenlight
         │
         └── Production modes
             ├── Editorial Director
@@ -155,7 +164,7 @@ Creative Producer decides whether work may continue autonomously or requires:
 
 - **ECD Update** — no decision required;
 - **ECD Alignment** — confirm a material interpretation or direction;
-- **ECD Decision** — choose an option that changes what the work says, promises, owns, costs, or becomes;
+- **ECD Decision** — choose an option that changes what the work says, promises, owns, costs, or becomes; Greenlight is an ECD Decision;
 - **ECD Final Acceptance** — accept final work or a representative visual premise that requires subjective authority.
 
 Routine wording, composition, crop, and technical decisions remain with the responsible professional mode.
@@ -168,13 +177,14 @@ Each owner may advise adjacent layers but must not silently take ownership of an
 - Development defines the premise but does not write the post-Greenlight Creative Script.
 - Editorial Director defines written Visual Beats but does not draw the Storyboard.
 - Art Director visually interprets the Script but does not silently change its meaning.
-- Production Artist repairs execution inside approved tolerances but does not redesign the work.
+- Production Artist repairs execution inside accepted tolerances but does not redesign the work.
+- No internal role may convert project initiation into ECD Greenlight.
 
 ## Canonical Artifact Chain
 
 ```text
 Creative Treatment
-→ Greenlight
+→ ECD Greenlight
 → Creative Script
 → Storyboard / Visual Sequence Board
 → Representative Design Comp
@@ -183,10 +193,12 @@ Creative Treatment
 → ECD Final Acceptance
 ```
 
-Compact work may combine adjacent artifacts when one object can answer both professional questions. Combining artifacts is not permission to skip unresolved decisions.
+Compact work may combine adjacent post-Greenlight artifacts when one object can answer both professional questions. Combining artifacts is not permission to skip unresolved decisions or Greenlight.
 
 ## Adaptive Routing
 
-A project may begin from a sudden idea, a public post, a visual reference, an existing Treatment, a partial Creative Script, an accepted Design Comp, approved Art Direction, or a final-production correction.
+A project may begin from a sudden idea, a public post, a visual reference, an existing Treatment, a partial Creative Script, an accepted Design Comp, accepted Art Direction, or a final-production correction.
 
 Creative Producer chooses the shortest valid route, records assumptions and locks, and avoids asking the ECD to manage the studio's internal organization.
+
+Adaptive routing may skip completed professional work. It may not skip authority: any claimed Greenlight must identify the Treatment and evidence of ECD authorization.
