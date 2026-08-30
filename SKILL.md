@@ -32,18 +32,63 @@ Ask the ECD only when the missing answer would materially change:
 
 Do not ask the user to choose internal modes, templates, roles, or routine craft decisions.
 
+The Greenlight decision is not an avoidable clarification question. It is the ECD's authorization of a specific production premise.
+
+### Greenlight is an object-and-turn gate
+
+Greenlight must attach to an identifiable **Creative Treatment**, not merely to a request verb.
+
+A raw idea, topic, brief, link, set of references, or instruction such as “做一个帖子”, “开始吧”, “帮我设计”, “直接做”, or “做成一组图” authorizes the studio to begin **Development**. It does not accept a Creative Treatment that has not yet been presented or explicitly identified.
+
+For a normal raw-input project, the gate is:
+
+```text
+Creative Producer presents a specific Creative Treatment
+↓
+Creative Producer asks for Greenlight and stops
+↓
+ECD responds in a later turn with acceptance, revision, pause, or rejection
+↓
+Only an accepted Treatment enters Production
+```
+
+A brief response such as “可以”, “继续”, or “就按这个做” may count as Greenlight only when its direct conversational referent is the specific Treatment just presented for that decision.
+
+The only same-message bypass is a **stage-aware explicit override** in which the ECD identifies supplied material as the final Creative Treatment and explicitly authorizes Production from it, for example:
+
+> “以下内容就是我已经确认的最终 Creative Treatment；将它视为已 Greenlight，直接进入 Production。”
+
+Generic urgency or production language is not a stage-aware override.
+
+Complexity does not waive Greenlight. Compact projects may use a shorter Treatment and shorter record, but may not infer acceptance of an unseen premise.
+
+Before Greenlight, the studio may inspect supplied images, analyze references, research facts, clarify material ambiguity, and draft or revise the Treatment. It must not:
+
+- create the formal Creative Script or final page sequence;
+- write final audience-facing copy as a production artifact;
+- create a Storyboard / Visual Sequence Board;
+- create a Representative Design Comp or Art Direction Package;
+- generate, edit, render, compose, or export production imagery or layouts;
+- invoke image-generation or other visual-production tools for the deliverable.
+
+When the Treatment is ready, present it, request the Greenlight decision, and end the turn. Do not continue into Production in the same response.
+
+Use `shared/GREENLIGHT_RECORD.md` as the controlling protocol.
+
 ### Use the shortest valid route
 
 A raw idea normally enters Development. Valid existing professional work must not be recreated merely to satisfy a waterfall.
 
 - raw idea, link, reference, or rough material → Development;
-- approved Creative Treatment → Greenlight check or Editorial Director;
-- approved Creative Script → Art Director;
-- approved Storyboard, Design Comp, or Art Direction Package → Production Artist;
+- ECD-Greenlit Creative Treatment → Editorial Director;
+- Creative Script accepted for handoff → Art Director;
+- accepted Storyboard, Design Comp, or Art Direction Package → Production Artist;
 - technical correction → Production Artist;
 - copy-only correction → Editorial Director;
 - visual-only correction → Art Director;
 - factual or premise failure → the first affected Development function.
+
+An alleged prior approval is valid only when the authoritative artifact and its approval state can be identified. Do not infer Greenlight from the existence of detailed raw material alone.
 
 ### Preserve professional ownership
 
@@ -65,7 +110,7 @@ Creative Producer must establish, explicitly or internally:
 2. **Deliverable Contract** — platform, surface, format, count or limits, language, required assets, required copy, publication context, and hard constraints;
 3. **Complexity profile** — Compact, Standard, or Extended;
 4. **Evidence obligation** — Speculative / Conceptual, Evidence-based Editorial, or Product / Commercial Validation;
-5. **Project State** — current artifact, owner, status, locks, unresolved issues, and next valid action.
+5. **Project State** — current artifact, owner, status, locks, unresolved issues, Greenlight evidence, and next valid action.
 
 Use:
 
@@ -80,6 +125,8 @@ Use:
 Use for one to three screens, a simple cover-plus-body post, a single key visual, or a narrow correction.
 
 Keep the professional logic but compress paperwork. A Compact Creative Script may be a concise page-by-page table. Storyboard and Representative Design Comp may be combined into one visual proof when that proof is sufficient to lock the direction.
+
+Compact status does not permit the studio to skip an ungranted Greenlight.
 
 ### Standard
 
@@ -120,13 +167,15 @@ Use:
 
 Greenlight belongs to the ECD.
 
-A project is Greenlit when the ECD accepts the Creative Treatment as the authoritative production premise and authorizes Production. Record only the material decisions and locks needed downstream.
+A project is Greenlit only when the ECD accepts an identified Creative Treatment as the authoritative production premise and authorizes Production. Creative Producer must record the Treatment version, the authorization evidence, and the material boundaries that become authoritative.
 
-For a simple request where the user has already supplied and clearly authorized the premise, Creative Producer may present a concise Treatment summary and treat the instruction as Greenlight unless a material ambiguity remains. Never manufacture an unnecessary approval ceremony.
+For raw or unresolved input, the Treatment must first be shown to the ECD. The response presenting it is a hard stop. A general request to create a post or begin work is not Greenlight, regardless of how detailed the original brief is or how small the proposed deliverable may be.
 
-Use `shared/GREENLIGHT_RECORD.md`.
+A pre-existing or same-message Greenlight is valid only under the explicit conditions defined in `shared/GREENLIGHT_RECORD.md`.
 
 ## Phase II — Production
+
+Production may begin only when Project State contains a valid Greenlight Record tied to the authoritative Creative Treatment.
 
 ### Editorial Director → Creative Script
 
@@ -150,7 +199,7 @@ Use:
 
 ### Art Director → Visual Sequence Board, Design Comp, Art Direction Package
 
-Art Director converts the approved Creative Script into an original visual system.
+Art Director converts the Creative Script accepted for handoff into an original visual system.
 
 Normal order:
 
@@ -170,7 +219,7 @@ Use:
 
 ### Production Artist → Final Assets
 
-Production Artist realizes the approved visual direction without becoming another creative director.
+Production Artist realizes the accepted visual direction without becoming another creative director.
 
 It owns:
 
@@ -182,7 +231,7 @@ It owns:
 - export;
 - mobile and technical QA.
 
-It must return upstream when faithful execution would require changing the approved meaning, hierarchy, visual premise, or copy.
+It must return upstream when faithful execution would require changing the accepted meaning, hierarchy, visual premise, or copy.
 
 Use:
 
@@ -194,7 +243,7 @@ Use:
 
 ```text
 Creative Treatment
-→ Greenlight
+→ ECD Greenlight
 → Creative Script
 → Storyboard / Visual Sequence Board
 → Representative Design Comp
@@ -203,13 +252,13 @@ Creative Treatment
 → ECD Final Acceptance
 ```
 
-Artifacts may be compressed or combined according to complexity, but their professional questions must still be resolved.
+Artifacts may be compressed or combined according to complexity, but their professional questions and the Greenlight gate must still be resolved.
 
 ## ECD Gates
 
-Return to the ECD only for a material:
+Return to the ECD for a material:
 
-- premise or Greenlight decision;
+- Creative Treatment and Greenlight decision;
 - public claim, promise, or position;
 - rights, ownership, attribution, or reference decision;
 - Script choice that changes how the accepted premise is communicated;
@@ -217,7 +266,7 @@ Return to the ECD only for a material:
 - final subjective acceptance;
 - irreversible publication or external action.
 
-Routine professional decisions remain with the responsible role.
+Routine professional decisions remain with the responsible role. Greenlight is always an ECD gate for raw or unresolved input and cannot be waived by an internal role.
 
 ## Final Review
 
@@ -225,7 +274,7 @@ Before delivery, Creative Producer must verify:
 
 - the final work still expresses the Greenlit Treatment;
 - the Creative Script was not visually rewritten;
-- the approved visual premise survived production;
+- the accepted visual premise survived production;
 - no required evidence, limitation, name, or wording disappeared;
 - mobile readability and platform viewing conditions were tested;
 - all requested assets and variants exist;
@@ -238,6 +287,7 @@ Use `shared/ACCEPTANCE_RECORD.md` and the first-failed-owner rules in `shared/LO
 
 - `ORGANIZATION.md`
 - `shared/PRODUCTION_MODEL.md`
+- `shared/GREENLIGHT_RECORD.md`
 - `shared/HANDOFF_CONTRACT.md`
 - `shared/ARTIFACT_STATES.md`
 - `shared/LOCK_AND_REWORK_PROTOCOL.md`
