@@ -36,7 +36,7 @@ Use:
 - **Standard** — ordinary multi-screen Social Editorial work with normal handoff objects.
 - **Extended** — evidence-sensitive, commercial, multi-format, campaign, research-heavy, or high-consequence work requiring detailed records.
 
-Artifact compression is allowed. Unresolved professional questions are not.
+Artifact compression is allowed. Unresolved professional questions and ungranted Greenlight are not.
 
 ## Phase I — Development
 
@@ -58,10 +58,12 @@ Development work as required
    ├─ audience relevance
    └─ Creative Treatment
 ↓
-ECD alignment / decision as needed
-↺ revise, deepen, reframe, pause, or reject
+Creative Producer presents the Treatment to the ECD
 ↓
-Creative Treatment ready for Greenlight
+ECD Greenlight decision in a later turn
+↺ revise, deepen, reframe, pause, or reject as needed
+↓
+Greenlit Creative Treatment
 ```
 
 ### Evidence Obligations
@@ -96,22 +98,28 @@ Use `CREATIVE_TREATMENT_TEMPLATE.md`.
 
 ## Greenlight
 
-Greenlight is owned by the Executive Creative Director.
+Greenlight is owned by the Executive Creative Director and governed by `GREENLIGHT_RECORD.md`.
 
 A Greenlit project has:
 
-- an identified Creative Treatment;
+- an identified Creative Treatment or explicitly supplied professional equivalent;
 - sufficient evidence, validation, rights, and reference resolution for the intended promise;
 - material boundaries recorded;
-- authorization to enter Production.
+- traceable ECD authorization to enter Production.
+
+For raw or unresolved input, the Treatment must be presented to the ECD before Production. The response that presents it is a hard stop. The ECD's later response may accept, revise, pause, or reject it.
+
+A request to make, start, design, or directly produce a post is Development authorization only when no Treatment has yet been presented or explicitly identified. This remains true for Compact projects and detailed briefs.
+
+The only bypass is an explicit stage-aware instruction identifying supplied material as the final / approved Creative Treatment and authorizing Production from that exact premise, or a traceable prior Greenlight.
+
+Before Greenlight, no formal Creative Script, final sequence, Storyboard, Design Comp, Art Direction Package, deliverable image generation, image editing, rendering, layout production, or export may begin.
 
 After Greenlight, the Treatment becomes the authoritative premise. A later change to premise, angle, proposition, public promise, audience takeaway, or essential rights foundation reopens Development.
 
-A clear Compact-project instruction may serve as Greenlight when the premise and authorization are already unambiguous. Record the accepted premise; do not make the user repeat it.
-
-Use `GREENLIGHT_RECORD.md`.
-
 ## Phase II — Production
+
+Production begins only when Project State contains a valid Greenlight Record tied to the authoritative Treatment.
 
 Canonical Production logic:
 
@@ -187,7 +195,7 @@ It uses real or approved copy, target geometry, credible imagery, and intended h
 - mobile readability;
 - overall aesthetic direction.
 
-A typical multi-page project should prove at least one cover and one representative body page. A Compact project may combine Board and Comp.
+A typical multi-page project should prove at least one cover and one representative body page. A Compact project may combine Board and Comp after Greenlight.
 
 ## Art Direction Package
 
@@ -237,14 +245,14 @@ Examples:
 - raw idea → Development;
 - real public post → Development plus proportionate verification;
 - visual reference → intended-use and reference-boundary analysis before visual application;
-- Greenlit Treatment → Editorial Director;
-- accepted Creative Script → Art Director;
+- identified Greenlit Treatment → Editorial Director;
+- Creative Script accepted for handoff → Art Director;
 - accepted Design Comp and Art Direction Package → Production Artist;
 - copy correction → Editorial Director;
 - visual correction → Art Director;
 - technical correction → Production Artist.
 
-Creative Producer records the entry point and avoids recreating valid existing work.
+Creative Producer records the entry point and avoids recreating valid existing work. An unsupported claim that an artifact is approved does not establish a valid entry point.
 
 ## Final Review
 
