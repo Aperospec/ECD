@@ -2,9 +2,11 @@
 
 ## Purpose
 
-Greenlight identifies the exact **Creative Treatment** the Executive Creative Director has authorized for Production and records the evidence of that authorization.
+Greenlight identifies the exact **Creative Treatment** the Executive Creative Director has authorized and records the evidence of that authorization.
 
 Greenlight is an executive decision about a specific production premise. It is not a generic signal that the user wants something made, and it is not generic approval of later Script, Storyboard, Design Comp, Art Direction, or final assets.
+
+For a raw project, Greenlight opens only the **next professional stage: Creative Script development**. Later-stage inputs and artifacts remain governed by their own activation and handoff conditions.
 
 This file is the controlling Greenlight rule for the ECD Skill.
 
@@ -21,6 +23,33 @@ The studio may not Greenlight:
 
 A detailed brief can make Development faster, but detail alone does not convert raw input into an accepted Treatment.
 
+## Cross-Stage Brief Rule
+
+A raw brief may contain information intended for Editorial Director, Art Director, or Production Artist before those stages begin.
+
+Creative Producer must capture those instructions in `STAGE_SCOPED_INPUT_REGISTER.md` and keep their downstream projections Deferred.
+
+Greenlight accepts only:
+
+- the Development-level premise;
+- selected angle and core proposition;
+- audience takeaway;
+- Development-level semantic guardrails;
+- factual, speculative, rights, claim, and reference-use boundaries required to authorize the premise.
+
+Greenlight does **not** accept or activate merely because they appeared in the same original brief:
+
+- final page count or sequence;
+- final titles or body copy;
+- user-supplied Editorial Seeds as a finished Script;
+- a Storyboard or concrete scene design;
+- palette, lighting, camera, style, typography, or composition interpretation;
+- a Representative Design Comp;
+- Art Direction;
+- deliverable image generation or production execution.
+
+A user-supplied downstream **Hard Constraint** remains authoritative as a future-stage instruction, but it is not the same thing as approval of the downstream artifact that will later implement it.
+
 ## Normal Turn Boundary
 
 For raw or unresolved input, Greenlight normally requires two separate conversational steps:
@@ -28,8 +57,10 @@ For raw or unresolved input, Greenlight normally requires two separate conversat
 ```text
 Assistant turn
 - present the proposed Creative Treatment;
-- identify material boundaries and unresolved conditions;
-- state what Greenlight will authorize;
+- identify material Development boundaries and unresolved conditions;
+- optionally state which downstream inputs were preserved as Deferred;
+- state that Greenlight will authorize Creative Script development next;
+- state what remains unaccepted after Greenlight;
 - ask for Greenlight / revision / pause / rejection;
 - stop.
 
@@ -99,9 +130,11 @@ Example:
 
 This exception preserves ECD authority over workflow. Generic “直接做”, “开始”, or “不用问我” language does not satisfy it because it does not identify the authoritative Treatment being accepted.
 
+Even under this override, later-stage inputs are activated in order unless the ECD separately supplies and authorizes an already accepted downstream artifact.
+
 ## Complexity Rule
 
-Compact, Standard, and Extended projects use the same Greenlight authority rule.
+Compact, Standard, and Extended projects use the same Greenlight authority and stage-scope rules.
 
 Complexity changes only:
 
@@ -110,7 +143,7 @@ Complexity changes only:
 - whether adjacent post-Greenlight artifacts may be combined;
 - how much evidence and state documentation is required.
 
-Complexity never authorizes acceptance of an unseen premise.
+Complexity never authorizes acceptance of an unseen premise or activation of a later professional stage before its handoff condition.
 
 ## Pre-Greenlight Hard Prohibition
 
@@ -118,6 +151,7 @@ Before Greenlight, allowed work includes:
 
 - intake and consequential assumption recording;
 - Deliverable Contract drafting;
+- Stage-Scoped Input Register creation;
 - research, verification, and validation;
 - supplied-image inspection;
 - reference-intent and rights analysis;
@@ -139,6 +173,24 @@ Research image discovery or inspection is permitted when needed, but it must not
 
 Any Production artifact created before Greenlight is unauthorized. Mark it invalid, preserve it only as failure evidence if useful, and return Project State to Development / Awaiting Greenlight.
 
+## Post-Greenlight Activation Rule
+
+After valid Greenlight:
+
+1. mark the accepted Treatment decisions and Greenlight boundaries authoritative;
+2. activate Deferred **Editorial** projections in the Stage-Scoped Input Register;
+3. keep Visual / Art Direction and Production projections Deferred;
+4. set the authorized next stage to `Editorial Director → Creative Script`;
+5. do not start Storyboard, Design Comp, image generation, or visual production until the Creative Script is Accepted for Handoff and any required Script Alignment is resolved.
+
+The correct Greenlight consequence is:
+
+> “This Treatment is now authoritative. Next, develop the Creative Script using the Activated Editorial inputs.”
+
+An incorrect consequence is:
+
+> “This authorizes the Creative Script and visual production.”
+
 ## Greenlight Record Template
 
 ```markdown
@@ -152,8 +204,9 @@ Greenlight authority: Executive Creative Director
 Greenlight form: [explicit response to presented Treatment / identified prior Greenlight / stage-aware supplied-Treatment override]
 Authorization evidence:
 Conditions or corrections attached to authorization:
+Stage-Scoped Input Register reference:
 
-## Accepted Production Premise
+## Accepted Development Premise
 
 Core premise:
 Selected angle:
@@ -161,53 +214,63 @@ Core proposition:
 Audience takeaway:
 Why the project is proceeding:
 
-## Authoritative Boundaries
+## Authoritative Development Boundaries
 
 - factual / speculative boundary:
 - public claim / promise boundary:
 - required evidence / limitation:
-- exact names / wording:
-- reference-use boundary:
-- rights / attribution condition:
-- deliverable / scope condition:
-- must preserve:
+- reference-use / rights boundary:
+- must preserve semantically:
 - must not imply or become:
+
+## Deferred Inputs Not Accepted by This Greenlight
+
+Editorial input IDs awaiting activation:
+Visual / Art Direction input IDs remaining Deferred:
+Production input IDs remaining Deferred:
+User-supplied downstream Hard Constraints preserved for later activation:
 
 ## Open but Non-Blocking Questions
 
 - 
 
-## Production Authorization
+## Stage Authorization
 
-Authorized next stage:
-Material ECD alignment expected later:
+Authorized next stage: Editorial Director / Creative Script
+Editorial inputs activated:
+Visual inputs remain Deferred: [yes]
+Production inputs remain Deferred: [yes]
+Material ECD Script Alignment expected later:
+Material ECD Visual Alignment expected later:
 What is not yet accepted:
 
 ## State
 
 Greenlight state: [Greenlit / conditional Greenlight / reopened / superseded]
 Recorded by Creative Producer:
-Production may begin: [yes / no]
+Editorial Production may begin: [yes / no]
+Visual Production may begin: [no unless a separately accepted Script / downstream artifact authorizes entry]
 ```
 
 ## Compact Record
 
-For a simple project, shorten the record without weakening the evidence rule:
+For a simple project, shorten the record without weakening evidence or stage scope:
 
 ```markdown
 Greenlit Treatment summary and version:
-Treatment presentation or supplied-Treatment reference:
 Authorization evidence:
-Material locks:
-Open non-blocking issue:
-Authorized next stage:
+Stage Input Register:
+Material Development locks:
+Editorial input IDs activated:
+Visual / Production input IDs still Deferred:
+Authorized next stage: Creative Script
 ```
 
-A concise record is valid. An inferred decision is not.
+A concise record is valid. An inferred decision or all-stage authorization is not.
 
 ## Conditional Greenlight
 
-Use only when a non-premise condition can be resolved during Production without changing what the project fundamentally is.
+Use only when a non-premise condition can be resolved during Editorial Production without changing what the project fundamentally is.
 
 Do not use conditional Greenlight to hide:
 
@@ -216,6 +279,8 @@ Do not use conditional Greenlight to hide:
 - a disputed core proposition;
 - uncertainty about what the project is actually saying;
 - an absent ECD decision on the Treatment.
+
+Conditional Greenlight does not waive later stage activation conditions.
 
 ## Reopening Greenlight
 
@@ -229,7 +294,7 @@ Reopen Development when a proposed change materially alters:
 - essential rights or reference foundation;
 - audience takeaway.
 
-Record which downstream artifacts become invalid and which remain reusable.
+When reopening, re-project affected source inputs in the Stage-Scoped Input Register and record which downstream artifacts become invalid and which remain reusable.
 
 ## Gate QA
 
@@ -241,4 +306,7 @@ Reject a claimed Greenlight when:
 - the studio treated silence as consent;
 - Compact complexity was used as the reason to bypass the decision;
 - Production artifacts were created before the gate;
-- an internal professional role granted Greenlight on the ECD's behalf.
+- an internal professional role granted Greenlight on the ECD's behalf;
+- the Greenlight record says it authorizes immediate visual production from a raw brief;
+- Deferred Editorial or Visual instructions are recorded as already accepted downstream artifacts;
+- the Stage-Scoped Input Register is absent for a material cross-stage brief.
