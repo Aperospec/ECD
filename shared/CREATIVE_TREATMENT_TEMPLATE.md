@@ -2,13 +2,17 @@
 
 ## Purpose
 
-The Creative Treatment is the authoritative Development artifact that defines what the project is and why it deserves to enter Production.
+The Creative Treatment is the authoritative Development proposal that defines what the project is and why it deserves to enter Production.
 
 It establishes the creative and editorial premise without prematurely deciding the final page sequence, audience-facing copy, Storyboard, layout, or Art Direction.
 
+For raw or unresolved input, the Treatment must be presented to the ECD and accepted before Production. The response presenting it ends at the Greenlight request.
+
 ## Compact Treatment
 
-Use for a clear one-to-three-screen project or a user instruction that already contains the essential premise.
+Use for a clear one-to-three-screen project or a user instruction that already contains much of the essential premise.
+
+A concise Treatment is still a proposed object. It is not automatically Greenlit by the request to make the deliverable.
 
 ```markdown
 # Creative Treatment
@@ -22,9 +26,20 @@ Why it matters to the audience:
 Audience should ultimately understand / feel / notice / reconsider:
 Reality / imagination / evidence boundary:
 Reference and rights boundary:
+Must preserve:
 Must not imply or become:
 Recommended production direction:
+
+## Greenlight Request
+
+Treatment version:
+Recommendation: [Greenlight / revise / validate further / pause / reject]
+What Greenlight will authorize next:
+Material condition, if any:
+Decision requested from ECD: [Greenlight / revision / pause / rejection]
 ```
+
+After presenting this request, stop. Do not append the Creative Script, final page sequence, Storyboard, visual proposal, image prompt, or generated asset.
 
 ## Standard / Extended Treatment
 
@@ -105,7 +120,35 @@ Questions that still require ECD authority before Greenlight:
 Recommendation: [Greenlight / revise / validate further / pause / reject]
 Rationale:
 Material conditions of Greenlight:
+
+## 9. ECD Greenlight Request
+
+Treatment version / reference:
+What acceptance will make authoritative:
+Authorized next stage if accepted:
+What remains unaccepted after Greenlight:
+Decision requested: [Greenlight / revision / pause / rejection]
 ```
+
+## Presentation Rule
+
+For raw or unresolved input:
+
+1. present the complete Treatment at the appropriate depth;
+2. state the recommendation and Greenlight consequence;
+3. ask one concise decision question;
+4. end the response.
+
+Do not continue into formal scripting or visual production in the same response.
+
+A later ECD reply may be concise when it clearly refers to this Treatment. Record the authorization under `GREENLIGHT_RECORD.md`.
+
+The only exceptions to a new presentation turn are:
+
+- an identifiable prior Greenlight;
+- a stage-aware ECD instruction explicitly identifying supplied material as the final / approved Treatment and authorizing Production from it.
+
+Generic requests to make, start, design, or directly produce the deliverable are not exceptions.
 
 ## Treatment QA
 
@@ -116,6 +159,8 @@ Before Greenlight, confirm:
 - audience relevance is concrete rather than generic;
 - reality, speculation, evidence, and claim limits are clear;
 - reference intent does not dictate an unoriginal scene;
-- the Treatment states what the work must not imply or become;
+- the Treatment states what the work must preserve and must not imply or become;
 - no unresolved issue would fundamentally change the project;
-- the document has not drifted into final sequence, copy deck, Storyboard, or layout.
+- the document has not drifted into final sequence, copy deck, Storyboard, or layout;
+- the Treatment has a version or reference that can receive Greenlight;
+- the response ends at the ECD decision rather than silently crossing into Production.
