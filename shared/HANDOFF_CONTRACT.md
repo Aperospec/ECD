@@ -44,44 +44,17 @@ Research must not choose the editorial premise merely because it discovers facts
 
 ### Research Function → Creative Producer
 
-Returns a concise **Research Result** containing only findings that change or constrain Development, including as relevant:
-
-- verified facts;
-- unresolved claims;
-- evidence confidence;
-- version / date / region limits;
-- rights / license / attribution conditions;
-- reference boundaries;
-- product validation results;
-- dependencies, failure conditions, and claim limits.
+Returns a concise **Research Result** containing only findings that change or constrain Development.
 
 ### Creative Producer → Editorial Development
 
-The Producer provides:
-
-- aligned ECD intent;
-- intended use;
-- relevant Research Result, if any;
-- known reality / imagination boundary;
-- reference intent and restrictions;
-- existing development decisions;
-- the creative question that still needs professional development.
+The Producer provides aligned ECD intent, intended use, relevant research, reality / imagination boundaries, reference intent, existing development decisions, and the creative question still needing development.
 
 ### Editorial Development → Creative Producer
 
-May return:
+May return premise diagnosis, insight, angle alternatives, recommendation, core proposition, audience-relevance judgment, risk warning, Creative Treatment draft / revision, or a recommendation not to proceed.
 
-- premise diagnosis;
-- insight;
-- angle alternatives;
-- recommendation;
-- core proposition;
-- audience-relevance judgment;
-- risk / misunderstanding warning;
-- Creative Treatment draft or revision;
-- recommendation not to proceed.
-
-Producer synthesizes this into ECD-ready language and decides whether Development can continue autonomously or requires ECD Update / Alignment / Decision.
+Producer translates this into ECD-ready language and manages iterative alignment.
 
 ## Greenlight Handoff
 
@@ -93,7 +66,7 @@ When Development is ready, Producer presents the Creative Treatment and only the
 
 Greenlight means the ECD accepts the Creative Treatment as the production premise and authorizes the project to enter Production.
 
-Producer records the Greenlight state and freezes the authoritative treatment to the degree required for downstream work.
+Producer records the Greenlight state and freezes the authoritative Treatment to the degree required for downstream work.
 
 ## Phase II — Production Handoffs
 
@@ -105,15 +78,25 @@ Transfers the **Greenlit Creative Treatment**, plus:
 - exact names or wording that must survive;
 - active reference boundaries relevant to content;
 - deliverable / surface constraints already known;
-- any ECD decisions that materially constrain the script.
+- ECD decisions that materially constrain the script.
 
-Editorial Director is expected to decide how the Greenlit project should be told. It may not reopen the premise merely to make scripting easier.
+Editorial Director decides how the Greenlit project should be told. It may not reopen the premise merely to make scripting easier.
 
 ### Editorial Director → Creative Producer
 
-Returns the proposed or approved **Creative Script**: content structure, sequence, card/page/beat roles, storyboard intent, approved copy, information requirements, transitions, and payoff logic.
+Returns the proposed or approved **Creative Script** containing:
 
-Producer decides whether the script may continue, needs specialist revision, or requires ECD Script Alignment.
+- content structure;
+- sequence;
+- card / page / beat roles;
+- written **Visual Beats**;
+- approved audience-facing copy;
+- information / evidence requirements;
+- transitions and payoff logic.
+
+No actual Storyboard is expected at this stage.
+
+Producer decides whether the script may continue, needs Editorial Director revision, or requires ECD Script Alignment.
 
 ### Creative Producer → Art Director
 
@@ -125,11 +108,25 @@ Transfers the approved Creative Script plus:
 - surface and viewing conditions;
 - any ECD visual preferences already established.
 
-### Art Director → Creative Producer
+### Art Director → Creative Producer — Storyboard / Visual Direction Proposal
 
-Returns proposed or approved **Art Direction**: visual thesis, mood, atmosphere, hierarchy, composition intent, typography system, image direction, image–type relationships, cover/body-page grammar, crop/safe-zone intent, cross-page visual rhythm, and production tolerances.
+Art Director first returns a **Storyboard / Visual Board** when visual direction needs to be made visible before full production.
 
-Producer decides whether the direction may continue, needs revision, or requires ECD Art Direction Alignment / Acceptance.
+It may include rough sketches, low-fidelity frames, composition proofs, wireframes, or visual boards sufficient to evaluate:
+
+- interpretation of each Visual Beat;
+- mood / atmosphere / visual-world direction;
+- screen-to-screen visual differentiation;
+- image–type relationship;
+- reference-DNA application without copying source content.
+
+Producer decides whether the Storyboard may proceed autonomously or requires **ECD Visual Alignment / Acceptance**.
+
+### Art Director → Creative Producer — Art Direction
+
+After the visual direction is sufficiently resolved, Art Director returns proposed or approved **Art Direction**: visual thesis, mood, atmosphere, hierarchy, composition logic, typography system, image direction, image–type relationships, cover/body-page grammar, crop/safe-zone intent, cross-page rhythm, asset plan, and production tolerances.
+
+Producer records the state and decides whether any material ECD alignment remains.
 
 ### Creative Producer → Production Artist
 
@@ -143,11 +140,11 @@ Returns final assets plus technical QA state, variants, known limitations, and i
 
 When work cannot continue without changing an upstream decision:
 
-- a factual / evidence / validation problem → Development Research Function through Creative Producer;
-- a Greenlit premise problem → reopen Development through Creative Producer and ECD;
-- a sequence / storyboard / copy problem → Editorial Director;
-- a visual-concept / hierarchy / typography / composition problem → Art Director;
-- a technical execution problem → Production Artist;
-- a state / authority / Greenlight / routing problem → Creative Producer.
+- factual / evidence / validation problem → Development Research Function through Creative Producer;
+- Greenlit premise problem → reopen Development through Creative Producer and ECD;
+- sequence / Visual Beat / copy / content-progression problem → Editorial Director;
+- Storyboard / visual concept / mood / hierarchy / typography / composition problem → Art Director;
+- crop / overflow / dimensions / export / implementation problem → Production Artist;
+- state / authority / Greenlight / routing problem → Creative Producer.
 
 Do not solve upstream problems by downstream improvisation.
