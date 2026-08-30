@@ -6,7 +6,7 @@ The Creative Script Package is the formal post-Greenlight artifact owned by Edit
 
 It converts an ECD-approved Creative Treatment into a complete communication blueprint for Art Director.
 
-The package must be specific enough that Art Director does not need to invent missing editorial structure, storyboard meaning, or audience-facing copy.
+The package must be specific enough that Art Director does not need to invent missing editorial structure, Visual Beat meaning, or audience-facing copy, while leaving genuine visual interpretation open for Storyboard and Art Direction.
 
 ## Required Input Gate
 
@@ -55,7 +55,7 @@ Why this mode fits the Greenlit Treatment:
 [brief professional rationale]
 
 Opening promise:
-[what the first frame makes the audience expect]
+[what the first screen makes the audience expect]
 
 Payoff location:
 [where and how that promise is fulfilled]
@@ -89,17 +89,17 @@ Editorial objective:
 Audience change:
 [what becomes newly understood, felt, demonstrated, proven, or reconsidered]
 
-Storyboard / frame intent:
-[what must happen, be visible, or be perceptible in our original content]
+Visual Beat:
+[written semantic intent: what must happen, be visible, or be perceptible in our original content]
 
 Required subject / object / action / relationship:
 [only when semantically necessary]
 
-Evidence / comparison / limitation required in frame:
+Evidence / comparison / limitation required in the eventual frame:
 [when relevant]
 
 Must preserve visually:
-[semantic requirement only, not layout execution]
+[semantic requirement only, not visual execution]
 
 On-screen copy:
 - Display title:
@@ -118,8 +118,8 @@ Do not compress / alter:
 Transition to next beat:
 [why the next screen is necessary]
 
-Forbidden drift:
-[what Art Direction must not reinterpret or replace]
+Forbidden editorial drift:
+[what downstream visual interpretation must not reinterpret or replace]
 
 ## 4. Companion / Body Copy
 
@@ -148,7 +148,7 @@ Confirm:
 - evidence appears where conclusions depend on it;
 - speculative material remains distinguishable from current fact;
 - visual references did not dictate our subjects, scene events, or exact compositions;
-- storyboard descriptions specify semantic content rather than final Art Direction;
+- Visual Beats specify semantic content rather than Storyboard or Art Direction execution;
 - on-screen copy is final enough for Art Director to compose without rewriting;
 - required limitations and exact wording remain visible;
 - the ending adds consequence, judgment, implication, action, or aftertaste rather than repeating the opening;
@@ -178,7 +178,7 @@ Art Director receives:
 - locked copy / names / evidence / limitations;
 - known surface constraints.
 
-Art Director owns visual interpretation but may not silently change the Creative Script's editorial meaning.
+Art Director owns Storyboard development and visual interpretation but may not silently change the Creative Script's editorial meaning.
 ```
 
 ## Validation Rules
@@ -187,9 +187,10 @@ The Creative Script is ready for Art Direction only when:
 
 - no material premise problem remains hidden inside the script;
 - sequence progression is coherent;
-- the storyboard is original and content-derived;
+- Visual Beats are original and content-derived;
 - audience-facing copy exists rather than placeholders;
 - Art Director can distinguish semantic requirements from visual freedom;
+- no actual Storyboard or final Art Direction has been prematurely created inside Editorial Director;
 - the package identifies anything that still requires ECD Script Alignment.
 
 Do not hand off an incomplete script expecting Art Director to finish the editorial work.
