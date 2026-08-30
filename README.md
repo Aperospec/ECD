@@ -23,21 +23,30 @@ Creative Producer
         │
         └── PRODUCTION / 立项后
             ├── Editorial Director → Creative Script
-            ├── Art Director → Art Direction
+            │   ├── Content Architecture
+            │   ├── Sequence
+            │   ├── Visual Beats (written)
+            │   └── On-screen / Body Copy
+            │
+            ├── Art Director
+            │   ├── Storyboard / Visual Board
+            │   ├── ECD Visual Alignment when needed
+            │   └── Art Direction Package
+            │
             └── Production Artist → Final Assets
 ```
 
 The central boundary is **Greenlight**.
 
-Before Greenlight, the studio is deciding whether there is a project worth making and what that project actually is. The final development artifact is the **Creative Treatment**.
+Before Greenlight, the studio is deciding whether there is a project worth making and what that project actually is. The final Development artifact is the **Creative Treatment**.
 
 After the ECD approves the Creative Treatment, the project is Greenlit and enters Production.
 
 ## Core Roles
 
 - `creative-producer` — the continuous ECD-facing studio lead across Development and Production; owns alignment, state, orchestration, research commissioning, Greenlight, handoffs, locks, rework, and final review coordination.
-- `editorial-director` — post-Greenlight owner of content architecture, sequence, Creative Script, storyboard logic, on-screen copy, and companion copy.
-- `art-director` — post-Greenlight owner of Social Editorial art direction, visual hierarchy, typography, composition, image–type relationships, cover/body-page design, visual rhythm, and visual QA.
+- `editorial-director` — post-Greenlight owner of content architecture, sequence, written Visual Beats, Creative Script, on-screen copy, and companion / body copy. It does **not** own the actual Storyboard.
+- `art-director` — post-Greenlight visual owner; translates Visual Beats into Storyboards / Visual Boards, manages ECD visual alignment when materially required, and owns Social Editorial Art Direction and editorial design.
 - `production-artist` — execution role for asset realization, layout assembly, crop, sizing, variants, export, and technical QA.
 
 The **Executive Creative Director is not a Skill**. It is the human authority above the system.
@@ -57,6 +66,19 @@ See:
 
 Shared operating rules live under `shared/` and define the two-phase production model, development behavior, research behavior, handoffs, Greenlight, locks, and targeted rework.
 
+## Current Production Artifacts
+
+```text
+Creative Treatment
+→ Greenlight
+→ Creative Script
+→ Storyboard / Visual Board
+→ Art Direction Package
+→ Final Assets
+```
+
+Each artifact has one professional owner and downstream work may not silently rewrite upstream meaning.
+
 ## Development Principle
 
-Build and test the studio through real downstream collaboration rather than attempting to perfect one role in isolation. Preserve clear professional ownership, keep Creative Producer as the coherent ECD interface, and do not let downstream production silently redefine a Greenlit Creative Treatment.
+Build and test the studio through real downstream collaboration rather than attempting to perfect one role in isolation. Preserve clear professional ownership, keep Creative Producer as the coherent ECD interface, and do not let downstream production silently redefine a Greenlit Creative Treatment or approved Creative Script.
