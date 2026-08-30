@@ -61,7 +61,7 @@ It defines, at the depth required by the project:
 - material claim, rights, evidence, and reference boundaries;
 - what the project must not falsely imply or become.
 
-It should not contain the final page sequence, storyboard, audience-facing copy, layout, or Art Direction.
+It should not contain the final page sequence, Creative Script, Storyboard, audience-facing copy, layout, or Art Direction.
 
 ## Greenlight / 正式立项
 
@@ -88,8 +88,16 @@ Greenlit Creative Treatment
 Editorial Director
   ↓
 Creative Script
+  ├── Content Architecture
+  ├── Sequence
+  ├── Visual Beats
+  └── Audience-facing Copy
   ↓
 Art Director
+  ↓
+Storyboard / Visual Board
+  ↕
+ECD Visual Alignment when materially required
   ↓
 Art Direction
   ↓
@@ -108,6 +116,7 @@ These are professional handoff objects, not mandatory paperwork at maximum depth
 
 - **Creative Treatment** — Development artifact coordinated by Creative Producer and approved by ECD at Greenlight.
 - **Creative Script** — Editorial Director.
+- **Storyboard / Visual Board** — Art Director intermediate visual artifact.
 - **Art Direction** — Art Director.
 - **Final Production Assets** — Production Artist.
 - **Development State / Production State / Decision State / Greenlight Record / Acceptance Record** — Creative Producer.
@@ -121,21 +130,36 @@ Depending on format it may include:
 - communication structure;
 - sequence;
 - card / page / beat roles;
-- storyboard descriptions;
-- storyboard script;
+- **Visual Beats** describing in words what each screen must communicate or make perceptible;
 - on-screen copy;
 - supporting copy;
 - companion / body copy;
 - transitions and payoff logic;
 - evidence or limitation notes that must remain visible.
 
-The script may describe visual intent when necessary to preserve meaning, but final Art Direction remains with Art Director.
+The Creative Script does not contain the actual Storyboard. It preserves editorial meaning while leaving visual interpretation to Art Director.
+
+## Storyboard / Visual Board
+
+Storyboard is the first true visual translation of the approved Creative Script and is owned by Art Director.
+
+It may take the form of rough sketches, low-fidelity generated frames, composition proofs, wireframes, visual boards, or other low-cost visual representations sufficient to evaluate direction.
+
+Its purpose is to test:
+
+- whether the Visual Beats have been interpreted correctly;
+- whether adjacent screens are visually distinct enough while remaining coherent;
+- whether mood, atmosphere, scale, imagery, and image–type relationships support the script;
+- whether reference qualities have been abstracted rather than copied;
+- whether the visual direction deserves ECD alignment before full production.
+
+Storyboard is not final production art.
 
 ## Art Direction
 
-Art Direction defines how the approved Creative Script becomes a coherent Social Editorial visual experience: visual thesis, mood, atmosphere, hierarchy, typography, composition, image direction, image–type relationships, cover/body-page grammar, visual rhythm, surface behavior, and production intent.
+Art Direction defines how the approved Creative Script and accepted Storyboard direction become a coherent Social Editorial visual experience: visual thesis, mood, atmosphere, hierarchy, typography, composition, image direction, image–type relationships, cover/body-page grammar, visual rhythm, surface behavior, and production intent.
 
-Major mood, aesthetic, visual-world, or style choices may require ECD Art Direction Alignment through Creative Producer.
+Major mood, aesthetic, visual-world, style, or Storyboard choices may require ECD Art Direction Alignment through Creative Producer.
 
 ## Production Execution
 
@@ -149,10 +173,10 @@ Examples:
 
 - a raw idea enters Development;
 - an ECD-supplied public post may enter Development with evidence-based research;
-- an ECD-supplied visual reference enters Development reference analysis but does not determine storyboard content;
+- an ECD-supplied visual reference enters Development reference analysis but does not determine Visual Beat or Storyboard content;
 - an already approved Creative Treatment may enter Greenlight review directly;
-- an approved Creative Script may enter Art Direction;
-- approved Art Direction may enter production execution;
+- an approved Creative Script may enter Art Director Storyboard development;
+- an approved Storyboard / Art Direction may enter production execution at the appropriate point;
 - a technical correction may enter Production Artist directly.
 
 Creative Producer chooses the shortest valid route while protecting the Greenlight boundary.
