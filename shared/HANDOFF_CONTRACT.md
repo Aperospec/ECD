@@ -51,6 +51,8 @@ May provide any spark or existing artifact:
 
 Creative Producer identifies intended use, valid existing work, and the shortest route. It asks only when an unknown materially affects the outcome.
 
+A general request to create the final deliverable is not itself a handoff into Production when the authoritative Treatment and Greenlight are absent.
+
 ### Creative Producer → Research / Verification / Validation
 
 Provide:
@@ -102,20 +104,50 @@ Creative Producer synthesizes this for ECD alignment rather than exposing raw in
 
 ## Greenlight Handoff
 
+Apply `GREENLIGHT_RECORD.md`.
+
 ### Creative Producer → ECD
 
-Present:
+For raw or unresolved input, present in a user-visible response:
 
-- the recommended Creative Treatment;
+- the identified proposed Creative Treatment and version;
 - material claim, rights, and reference boundaries;
 - only unresolved decisions requiring ECD authority;
-- what Production will be authorized to do.
+- the recommended Greenlight decision;
+- what Production will be authorized to do if accepted.
+
+Then request Greenlight / revision / pause / rejection and **end the response**.
+
+Do not append a formal Creative Script, final page sequence, Storyboard, Design Comp, visual prompt, generated image, or other Production artifact. Do not invoke deliverable visual-production tools before the ECD responds.
 
 ### ECD → Creative Producer
 
-Greenlight means the ECD accepts the identified Treatment as the production premise. Creative Producer records the Greenlight and material locks.
+Greenlight means the ECD accepts the identified Treatment as the production premise and authorizes Production.
 
-It does not mean later Script, Storyboard, Design Comp, Art Direction, or final assets are automatically accepted.
+The response must be interpretable in relation to that Treatment. A concise “可以”, “继续”, or equivalent is sufficient when it directly answers the Greenlight request. The same words do not establish Greenlight when uttered before any Treatment has been presented or identified.
+
+Creative Producer records:
+
+- Treatment version;
+- presentation or prior-artifact reference;
+- authorization evidence;
+- attached conditions or corrections;
+- material locks;
+- authorized next stage.
+
+A stage-aware supplied-Treatment override or identifiable prior Greenlight may enter Production without a new presentation turn only under the conditions in `GREENLIGHT_RECORD.md`.
+
+Greenlight does not mean later Script, Storyboard, Design Comp, Art Direction, or final assets are automatically accepted.
+
+### Invalid Greenlight Handoff
+
+Reject the transition when:
+
+- the only evidence is “做一个帖子”, “开始吧”, “直接做”, or equivalent generic production language;
+- the Treatment had not yet been shown or explicitly identified;
+- Creative Producer or another internal role granted authorization on the ECD's behalf;
+- Compact complexity is the reason given for bypass;
+- Production work already happened and the studio is attempting to legitimize it retroactively.
 
 ## Production Handoffs
 
@@ -123,7 +155,7 @@ It does not mean later Script, Storyboard, Design Comp, Art Direction, or final 
 
 Transfer:
 
-- Greenlit Creative Treatment and Greenlight Record;
+- Greenlit Creative Treatment and valid Greenlight Record;
 - relevant Deliverable Contract;
 - exact names, wording, claims, evidence, and limitations;
 - content-relevant reference boundaries;
@@ -131,6 +163,8 @@ Transfer:
 - valid existing sequence or copy work.
 
 Requested output: an accepted-for-handoff **Creative Script**.
+
+Without a valid Greenlight Record, Editorial Director must return the project rather than start scripting.
 
 ### Editorial Director → Creative Producer
 
@@ -140,7 +174,7 @@ Return:
 - minimum viable sequence;
 - page / card / beat roles;
 - written Visual Beats;
-- final or approved audience-facing copy;
+- final or accepted audience-facing copy;
 - evidence, attribution, and limitation placement;
 - transitions and payoff logic;
 - Script-alignment issue, if material.
@@ -151,7 +185,7 @@ No actual Storyboard, generated frame, layout, typography system, or final compo
 
 Transfer:
 
-- accepted Creative Script;
+- Creative Script accepted for handoff;
 - Greenlit Treatment reference;
 - relevant Deliverable Contract and viewing conditions;
 - reference intent and prohibited transfer;
@@ -194,13 +228,13 @@ Return:
 - asset plan;
 - crop, safe-area, and small-size intent;
 - production tolerances and forbidden drift;
-- technical risks and approved fallbacks.
+- technical risks and accepted fallbacks.
 
 ### Creative Producer → Production Artist
 
 Transfer:
 
-- accepted Creative Script;
+- Creative Script accepted for handoff;
 - relevant Board and accepted Design Comp;
 - Art Direction Package;
 - Deliverable Contract;
@@ -227,6 +261,7 @@ When work cannot continue without changing an upstream decision:
 
 - fact, evidence, validation, rights, or reference-boundary failure → Development Research Function;
 - premise, angle, proposition, or public-promise failure → reopen Development;
+- absent or invalid Greenlight → Creative Producer returns to Treatment presentation / ECD decision;
 - sequence, written Visual Beat, copy, or content-progression failure → Editorial Director;
 - Storyboard, Design Comp, visual concept, mood, hierarchy, typography, or composition failure → Art Director;
 - crop, overflow, exact dimensions, font implementation, export, or file defect → Production Artist;
@@ -239,10 +274,12 @@ Do not solve upstream problems through downstream distortion.
 Reject a handoff when:
 
 - the input artifact has no version or authority state;
+- Editorial Director is asked to begin without a valid Greenlight Record;
 - required copy is still placeholder text;
 - the Art Director must invent missing editorial content;
 - Production Artist must invent the visual system;
 - evidence or limitation obligations are not located;
 - reference use is ambiguous;
 - output geometry is unknown when it affects design;
-- an unresolved ECD decision is hidden as a craft choice.
+- an unresolved ECD decision is hidden as a craft choice;
+- an unauthorized pre-Greenlight artifact is presented as authoritative.
