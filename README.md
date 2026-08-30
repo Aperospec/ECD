@@ -4,28 +4,10 @@ ECD is a single-entry, AI-native **Social Editorial Creative Studio**.
 
 The human user is the **Executive Creative Director (ECD)** and retains final creative authority. One root `SKILL.md` acts as the user-facing studio entrance. Internally, the Skill uses four professional role manuals rather than exposing four independent Skills:
 
-- Creative Producer — intent, routing, staged input activation, state, Greenlight, handoffs, rework, and acceptance;
-- Editorial Director — content architecture, sequence, written Visual Beats, on-screen copy, and companion copy;
+- Creative Producer — intent, routing, state, staged input activation, ECD-facing proposals, Greenlight, handoffs, rework, and acceptance;
+- Editorial Director — content architecture, sequence, written Visual Beats, on-screen copy, companion copy, and Creative Script;
 - Art Director — Storyboard / Visual Sequence Board, Representative Design Comp, and Art Direction Package;
 - Production Artist — asset realization, deterministic typography, layout, export, and technical QA.
-
-## Cross-Stage Brief Principle
-
-A real user brief may contain Development, editorial, visual, reference, and production information in one message.
-
-The user does **not** need to separate that information according to the studio workflow.
-
-Creative Producer creates a `Stage-Scoped Input Register` that:
-
-- preserves the original user instruction;
-- projects it into every professional stage it materially affects;
-- records whether it is a Hard Constraint, User Preference, Creative Seed, Reference Intent, Existing Artifact, Assistant Inference, or Requires Alignment;
-- activates only the current-stage projection;
-- keeps later-stage projections Deferred;
-- automatically carries Deferred inputs forward when their stage activates;
-- does not ask the user to repeat an already stored instruction unless it becomes materially ambiguous or contradictory.
-
-Information may arrive early. Execution remains stage-scoped.
 
 ## Canonical Workflow
 
@@ -36,151 +18,101 @@ Creative Producer
 ├─ Deliverable Contract
 ├─ Stage-Scoped Input Register
 ├─ Project State
-├─ complexity and evidence routing
-└─ shortest valid entry point
+└─ shortest valid route
 ↓
-Development
-├─ Active: Development inputs
-├─ Deferred: Editorial inputs
-├─ Deferred: Visual inputs
-└─ Deferred: Production inputs
+Development when required
 ↓
-Creative Treatment presented to ECD
+ECD-facing Creative Treatment
 ↓
-ECD Greenlight in a later turn
-↓
-Activate Editorial inputs only
+ECD Greenlight
 ↓
 Editorial Director
 ↓
-Creative Script
-├─ Content Architecture
-├─ Sequence
-├─ written Visual Beats
-└─ audience-facing copy
+Internal Creative Script Package
 ↓
-Script Accepted for Handoff
-+ ECD Script Alignment when material
+Complete ECD-facing Creative Script Proposal
 ↓
-Activate Visual / Art Direction inputs
+ECD Script Alignment when material
 ↓
 Art Director
 ├─ Storyboard / Visual Sequence Board
 ├─ Representative Design Comp
 └─ Art Direction Package
 ↓
-Art Direction Package Accepted for Handoff
-+ ECD Visual Alignment when material
-↓
-Activate Production inputs
+ECD Visual Alignment when material
 ↓
 Production Artist
-├─ image and asset production
-├─ deterministic text composition
-├─ layout, crop, variants, and export
-└─ mobile and technical QA
 ↓
-Creative Producer Final Review
+Final Assets and QA
 ↓
 ECD Final Acceptance
 ```
 
-The model is adaptive rather than a compulsory waterfall. Valid intermediate artifacts enter at the latest legitimate stage. Compact projects may combine documents or visual proofs, but may not leave material professional questions unresolved, infer Greenlight from project size, or activate later-stage inputs early.
+## Decision-Object Rule
 
-## Greenlight Boundary
+Every ECD decision must be attached to a complete, visible, identifiable decision object in the primary conversation.
 
-For raw or unresolved input, “做一个帖子”, “开始吧”, “直接做”, and equivalent production requests authorize Development only.
+A file or attachment may preserve the internal record, state tables, input IDs, detailed QA, or downstream handoff metadata. It may not be the only place containing information the ECD needs to decide.
 
-Creative Producer must first present an identifiable Creative Treatment, state what acceptance will authorize, request Greenlight, and stop.
+This applies to:
 
-For a raw project, Greenlight accepts the Treatment and authorizes **Creative Script development next**. It does not automatically authorize Storyboard, Design Comp, image generation, or visual production.
+- Creative Treatment / Greenlight;
+- Creative Script / Script Alignment;
+- Storyboard or Representative Design Comp / Visual Alignment;
+- Final Assets / Final Acceptance.
 
-A prior or same-message Greenlight is valid only when the authoritative Treatment and ECD authorization are explicitly identifiable.
+A page-title list plus one sentence per page is a sequence summary, not a complete Creative Script Proposal. Before Script Alignment, the primary conversation must show the Communication Strategy, complete page-by-page structure, Written Visual Beats, exact on-screen copy, complete body copy, fidelity and sequence QA, Alignment scope, and what remains Deferred for Art Director.
 
 See:
 
-- `shared/GREENLIGHT_RECORD.md`
-- `shared/STAGE_SCOPED_INPUT_REGISTER.md`
+- `shared/ECD_DECISION_PRESENTATION.md`;
+- `editorial-director/references/creative-script-presentation.md`.
 
-## Example of Cross-Stage Projection
+## Core Boundaries
 
-User says:
+A written **Visual Beat** is not a Storyboard.
 
-> “建筑非常宏大，人很小。”
+- Editorial Director defines what each screen must communicate in words.
+- Art Director creates the first true visual translation.
+- Production Artist realizes the accepted visual direction technically.
 
-The same statement may be recorded as:
+Generated imagery and final typography are separated by default. Image generation produces visual assets; exact audience-facing text is composed deterministically so wording, hierarchy, line breaks, and mobile readability remain controllable.
 
-```text
-Development projection — Active:
-The work should make the scale and breadth of a person's life perceptible.
-
-Art Direction projection — Deferred:
-Monumental architecture with a small human figure.
-```
-
-Greenlighting the Development meaning does not mean the future exact composition has already been accepted.
-
-Likewise, if the user says a reference image is liked for its “色调、画风”, Development records that reference intent and boundary. Detailed palette / lighting / material / composition extraction is deferred to Art Director after the Creative Script is Accepted for Handoff.
+A natural brief may span multiple stages. The Stage-Scoped Input Register preserves all material instructions while activating only the inputs belonging to the current professional stage.
 
 ## Repository Structure
 
 ```text
-SKILL.md                                  # only user-facing Skill entry
-ORGANIZATION.md                           # authority and role model
-creative-producer/ROLE.md                 # internal role manual
-editorial-director/ROLE.md                # internal role manual
-art-director/ROLE.md                      # internal role manual
-production-artist/ROLE.md                 # internal role manual
-shared/STAGE_SCOPED_INPUT_REGISTER.md     # cross-stage input authority and activation
-shared/                                   # state, evidence, handoff, Greenlight, approval, and rework protocols
-*/references/                             # craft methods and formal artifact contracts
-TESTS.md                                  # core trigger / workflow regression tests
-tests/STAGE_SCOPED_INPUT_REGRESSION.md    # cross-stage brief regression suite
+SKILL.md
+ORGANIZATION.md
+creative-producer/ROLE.md
+editorial-director/ROLE.md
+editorial-director/references/creative-script-package.md
+editorial-director/references/creative-script-presentation.md
+art-director/ROLE.md
+production-artist/ROLE.md
+shared/ECD_DECISION_PRESENTATION.md
+shared/STAGE_SCOPED_INPUT_REGISTER.md
+shared/CREATIVE_TREATMENT_PRESENTATION.md
+shared/GREENLIGHT_RECORD.md
+shared/HANDOFF_CONTRACT.md
+shared/ARTIFACT_STATES.md
+tests/CREATIVE_SCRIPT_PRESENTATION_REGRESSION.md
 ```
 
-## Core Boundaries
-
-### Visual Beat is not Storyboard
-
-- Editorial Director defines what each screen must communicate in words.
-- Art Director creates the first true visual translation after visual activation.
-- Production Artist realizes the accepted visual direction technically.
-
-### Early information is not early approval
-
-- a Deferred user Hard Constraint remains binding when its stage later activates;
-- a Deferred User Preference guides that stage but is not an already accepted artifact;
-- an Assistant Inference never becomes user authority silently;
-- Greenlight of Treatment does not approve later-stage projections from the same raw statement.
-
-### Generated imagery and final typography are separate
-
-Image generation produces visual assets; exact audience-facing text is composed deterministically so wording, hierarchy, line breaks, and mobile readability remain controllable.
-
-## Artifact and Activation Chain
+## Artifact Chain
 
 ```text
-Raw Brief
-→ Stage-Scoped Input Register
-→ Creative Treatment
+Creative Treatment
 → ECD Greenlight
-→ Activate Editorial Inputs
 → Creative Script
-→ Activate Visual Inputs
+→ ECD Script Alignment when material
 → Storyboard / Visual Sequence Board
 → Representative Design Comp
+→ ECD Visual Alignment when material
 → Art Direction Package
-→ Activate Production Inputs
 → Final Assets
 → ECD Final Acceptance
 ```
 
-## Default Behavior
-
-The user may provide only a sentence, link, screenshot, photograph, product asset, rough copy, visual preference, reference, or partial professional artifact. ECD should infer routine decisions, choose the shortest valid route, preserve all material user inputs, and ask only when missing information materially affects the premise, factual promise, deliverable, rights, scope, or irreversible action.
-
-The Greenlight request is not routine clarification. It is the mandatory executive decision on a proposed Treatment when the project begins from raw or unresolved material.
-
-Previously supplied downstream information should be carried forward automatically instead of requested again.
-
-User direction overrides automatic routing only when it is explicit about the professional stage or authoritative artifact being accepted.
+The studio is adaptive rather than a compulsory waterfall. Valid existing professional artifacts enter at the latest legitimate stage, but no ECD gate may be replaced by an incomplete summary or attachment-only handoff.
