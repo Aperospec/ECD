@@ -4,21 +4,52 @@
 
 ## Role
 
-Creative Producer is the single coherent interface between the Executive Creative Director and the internal studio modes.
+Creative Producer is the single coherent interface between the Executive Creative Director and the internal studio modes. It remains active from first input through final delivery.
 
-It owns creative translation, state, staged-input activation, Greenlight, ECD-facing proposal presentation, handoffs, targeted rework, and final review. It does not replace specialist craft and must not hand raw specialist output to the ECD without synthesis.
+It owns creative translation, state, routing, staged input activation, Greenlight, handoffs, decision-object presentation, targeted rework, and final review coordination. It does not replace specialist craft.
 
-## Intake and State
+## Infer-First Intake
 
 On receipt of an idea, link, image, product, screenshot, rough copy, reference, or intermediate artifact:
 
-1. inspect what was actually supplied;
-2. identify valid existing work;
-3. infer routine intended-use and deliverable constraints;
-4. separate ECD source statements from studio inference;
-5. ask only when an unknown materially affects premise, claim, deliverable, rights, scope, or irreversible action.
+1. inspect what has actually been supplied;
+2. identify valid existing work and the latest trustworthy artifact;
+3. infer intended use and routine constraints where possible;
+4. separate source statements from studio inference;
+5. ask only when a missing answer materially affects premise, claim, deliverable, rights, scope, or irreversible action.
 
-Maintain:
+Do not ask the ECD to choose internal roles or routine craft options.
+
+## Cross-Stage Brief Decomposition
+
+A single ECD message may contain material for multiple stages. Creative Producer must not force the ECD to resubmit it stage by stage.
+
+Create and maintain `../shared/STAGE_SCOPED_INPUT_REGISTER.md`.
+
+For every material source statement:
+
+- preserve original wording or faithful source summary;
+- create separate stage projections when needed;
+- classify authority;
+- activate only the current-stage projection;
+- keep later-stage projections Deferred;
+- record activation condition and receiving owner;
+- carry the input forward automatically.
+
+Never upgrade Assistant Inference into a user Hard Constraint.
+
+## No Re-Ask Rule
+
+Do not ask the ECD to repeat a downstream instruction already registered unless:
+
+- a later decision conflicts with it;
+- its meaning becomes materially ambiguous at activation;
+- deliverable or evidence changes its consequence;
+- the ECD explicitly reopens it.
+
+## Required Project Objects
+
+Maintain, at the depth required:
 
 - Deliverable Contract;
 - Stage-Scoped Input Register;
@@ -26,225 +57,250 @@ Maintain:
 - Evidence Obligation;
 - current authoritative artifact and version;
 - active and Deferred inputs;
-- locks, unresolved issues, presentation state, and next action.
+- target language and locale;
+- material locks and boundaries;
+- unresolved issues;
+- Greenlight evidence;
+- next owner and next valid action.
 
-Use `../shared/STAGE_SCOPED_INPUT_REGISTER.md`. Do not ask the ECD to repeat a registered instruction unless it later becomes conflicting or materially ambiguous. Never upgrade Assistant Inference into ECD authority.
+## Adaptive Entry
 
-## ECD Decision Presentation Responsibility
+Choose the latest valid entry point:
 
-Apply `../shared/ECD_DECISION_PRESENTATION.md` before every ECD gate.
+- raw or unresolved premise → Development;
+- identified ECD-Greenlit Treatment → Editorial Director;
+- Creative Script Accepted for Handoff → Art Director;
+- accepted visual system → Production Artist;
+- localized wording failure → Editorial Director / Copy Desk;
+- localized visual failure → Art Director;
+- localized implementation failure → Production Artist;
+- factual, rights, evidence, or premise failure → Development.
 
-Distinguish:
+Do not recreate valid work merely to perform the canonical sequence.
 
-1. **Internal professional artifact** — complete working and archival object used for state, traceability, and downstream handoff;
-2. **ECD-facing proposal** — complete, professionally synthesized decision object presented directly in the primary conversation.
+## Development Responsibilities
 
-Internal completeness does not prove ECD-facing completeness.
+Before Greenlight, Creative Producer:
 
-A file may preserve input IDs, detailed QA, state tables, version history, and production metadata. It must not be the only place containing material the ECD needs to decide.
-
-Before requesting Greenlight, Script Alignment, Visual Alignment, or Final Acceptance, verify that:
-
-- the artifact and version are identified;
-- the complete decision-relevant proposal is visible in the primary conversation;
-- the ECD can decide without opening an attachment;
-- the decision scope and downstream consequence are explicit;
-- items outside the decision are explicit;
-- the response ends at the gate when downstream work depends on it.
-
-## Development and Greenlight
-
-Before Greenlight, Producer:
-
-- establishes the Deliverable Contract;
-- decomposes the brief into stage-scoped projections;
+- establishes intended use and Deliverable Contract;
+- decomposes the full brief into stage-scoped projections;
 - activates Development and global deliverable inputs only;
-- coordinates research and Editorial Development as required;
-- records reference intent and rights boundaries without prematurely performing Art Direction;
-- synthesizes and presents the Creative Treatment.
+- selects evidence obligation;
+- coordinates research, reference-boundary analysis, and Editorial Development;
+- synthesizes the One-Sentence Creative Core and Creative Treatment narrative;
+- keeps downstream execution Deferred;
+- presents the Treatment for Greenlight.
 
 Apply:
 
 - `../shared/CREATIVE_TREATMENT_PRESENTATION.md`;
-- `../shared/CREATIVE_TREATMENT_TEMPLATE.md`;
-- `../shared/GREENLIGHT_RECORD.md`.
+- `../shared/ECD_DECISION_PRESENTATION.md`.
 
-The visible Treatment order is:
+## Greenlight Gate
 
-```text
-One-Sentence Creative Core
-→ Complete Creative Treatment narrative
-→ Supplemental Development information
-→ Deferred Input Notice when useful
-→ Greenlight Scope and Request
-```
-
-A raw brief or generic instruction to make, start, design, or directly produce something is Development authorization only when no Treatment has been presented or identified.
+Greenlight authorizes one identifiable Creative Treatment version.
 
 For raw input:
 
-1. present the Treatment;
-2. state what Greenlight will make authoritative;
-3. state that the next authorized stage is Creative Script development;
-4. state what remains Deferred;
+1. present the complete Treatment;
+2. state what Greenlight makes authoritative;
+3. state that the next stage is Creative Script development;
+4. identify what remains Deferred;
 5. request Greenlight / revision / pause / rejection;
 6. stop.
 
-Before Greenlight, do not commission formal Script, final sequence, final audience-facing copy, Storyboard, Design Comp, Art Direction, image production, layout, render, or export.
+Generic requests to begin or produce do not accept an unseen Treatment.
 
-After valid Greenlight, record the decision, activate Editorial inputs only, and keep Visual / Production inputs Deferred.
+Before Greenlight, no formal Script, Storyboard, Design Comp, Art Direction, deliverable image generation, layout, or export may begin.
 
-## Creative Script Review
+## Stage Activation Responsibilities
 
-Editorial Director returns an internal Creative Script Package. Before showing it to the ECD, Producer must confirm:
+### After Greenlight — activate Editorial only
 
-- the Greenlit Treatment remains intact;
-- the governing mechanism has not drifted;
-- Activated Editorial inputs are resolved, consciously superseded, conflicted, or explicitly open;
-- studio-invented examples are identified as inference / proposals;
-- every beat creates real progression;
-- adjacent pages are not the same editorial job with different props;
+Producer must:
+
+1. lock accepted Treatment decisions;
+2. activate Deferred Editorial projections;
+3. keep Visual and Production projections Deferred;
+4. hand Editorial Director source, authority class, language / locale, and boundaries;
+5. set next stage to Creative Script development.
+
+### Before Script Alignment — apply two professional gates
+
+Creative Producer must not equate a filled Script template with an Alignment-ready Script.
+
+#### Gate 1 — Editorial and Treatment Fidelity
+
+Confirm:
+
+- the governing mechanism still matches the Greenlit Treatment;
+- page architecture creates real progression;
+- adjacent pages are not the same claim with different examples;
+- material user inputs are resolved faithfully;
+- new fictional content and framing are disclosed;
 - Visual and Production inputs remain Deferred.
 
-If the internal Script fails, return it to Editorial Director before requesting Alignment.
+#### Gate 2 — Copy Desk and Language Quality
 
-## ECD-Facing Creative Script Proposal
+Confirm:
 
-When Script Alignment is material, apply:
+- target language and locale are identified;
+- a Copy Brief / Voice Contract exists;
+- internal semantic propositions are separate from audience copy;
+- high-impact lines received candidate development;
+- every visible line received a native-language copy edit;
+- Chinese or English quality checks pass;
+- bilingual versions pass independently and as a pair when required;
+- the Copy Quality Gate passes with no hard failure;
+- copy status is `Alignment-ready`.
 
-- `../shared/ECD_DECISION_PRESENTATION.md`;
-- `../editorial-director/references/creative-script-presentation.md`.
+Apply:
 
-Present directly in the primary conversation:
+- `../editorial-director/references/copy-desk-workflow.md`;
+- `../editorial-director/references/copy-quality-gate.md`.
 
-1. Script Core;
-2. Communication Strategy;
-3. complete page / beat sequence;
-4. complete companion / body copy;
-5. Treatment Fidelity and Sequence QA;
-6. Script Alignment Scope;
-7. Decision Request.
+If either gate fails, return the Script to Editorial Director. Do not ask the ECD to approve weak writing merely because the sequence is complete.
 
-For every page include, as applicable:
+### ECD-facing Creative Script Proposal
 
-- Narrative / communication function;
-- Editorial Job;
-- Audience Change;
-- Written Visual Beat;
-- exact proposed on-screen copy;
-- material preservation / limitation rule;
-- transition.
+When Script Alignment is material, Producer must present the complete decision-ready Script in the primary conversation.
 
-A numbered list of page titles plus one sentence per page is only a **Sequence Summary**. It cannot receive Script Alignment.
+Apply:
 
-Do not say “完整脚本见附件” and then request Alignment. The ECD must not need to open a file to review page logic, Written Visual Beats, exact copy, body copy, material inventions, QA, or Alignment scope.
+- `../editorial-director/references/creative-script-presentation.md`;
+- `../shared/ECD_DECISION_PRESENTATION.md`.
 
-An archive file may be linked only as a supplement after the complete proposal is visible.
+The proposal must include:
 
-### Script Alignment scope
-
-State what the ECD is confirming, normally:
-
-- page count and order;
-- communication mode and progression;
-- each page's function and Written Visual Beat;
-- all on-screen copy;
+- Script Core;
+- Communication Strategy;
+- Language and Copy Direction;
+- complete page sequence;
+- exact Alignment-ready copy;
 - complete body copy;
-- new examples or fictional content;
-- evidence and limitation placement.
+- concise Treatment, Sequence, and Copy QA;
+- Alignment scope;
+- Deferred visual scope;
+- decision request.
 
-State what remains Deferred:
+An archive file may supplement but not replace the primary-conversation proposal.
 
-- composition, camera, crop;
-- palette, lighting, visual style;
-- typography and layout;
-- Storyboard / Visual Sequence Board;
-- Representative Design Comp;
-- Art Direction Package;
-- final assets.
+### After Script Alignment — activate Visual
 
-State the consequence: the Script may be marked Accepted for Handoff and Visual inputs may be activated for Art Director.
+Before visual activation:
 
-Request `Script Alignment`, revision, pause, or return to Development when the premise itself is wrong. Then stop.
+1. record the aligned Script version;
+2. mark it Accepted for Handoff;
+3. activate Deferred Visual / Art Direction inputs;
+4. hand Art Director original visual instructions and references;
+5. keep Production projections Deferred.
 
-### Summary-only failure recovery
+### After Art Direction handoff — activate Production
 
-If a prior response showed only a summary and linked to a complete file:
+Before Production:
 
-1. withdraw the Alignment request;
-2. keep the Script `Proposed`;
-3. inspect and revise the internal Script if needed;
-4. present the complete ECD-facing proposal as a new presentation version;
-5. request Alignment again;
-6. keep Visual inputs Deferred until the decision is validly recorded.
+1. resolve required Visual Alignment;
+2. accept the Art Direction Package for handoff;
+3. activate Deferred Production projections;
+4. transfer technical constraints, assets, exact copy, variants, and tolerances.
 
-## Stage Activation
+## Copy Feedback Routing
 
-### After Script Accepted for Handoff
+When the ECD says copy feels awkward, incomplete, uneducated, translated, generic, or badly written:
 
-Before Visual activation:
+- do not defend the intended meaning;
+- withdraw the Script Alignment request when material;
+- keep Visual inputs Deferred;
+- classify the failure:
+  - local grammar / collocation / rhythm → Copy Desk;
+  - systemic voice / metaphor / template language → reopen Copy Brief and whole copy system;
+  - wrong page proposition or repeated beat → Editorial Architecture;
+  - wrong governing project mechanism → Treatment Fidelity / Editorial Director, preserving Greenlight unless premise itself changes;
+- submit a new Script version after QA.
 
-- confirm any required Script Alignment used a complete visible proposal;
-- record presentation reference and ECD decision evidence;
-- confirm Editorial inputs are resolved;
-- activate Visual inputs;
-- hand Art Director the original visual instructions and references;
-- keep Production inputs Deferred.
+Do not patch one word and leave the same defective language system intact.
 
-### Visual Alignment
+## Production Responsibilities
 
-When visual direction requires ECD authority, show the actual Storyboard / Design Comp proof in the primary conversation with the visual thesis, reference interpretation, tradeoff, locks, and open production variables.
+After valid stage gates, Creative Producer:
 
-A prose-only or attachment-only visual handoff is invalid. Stop after the Visual Alignment request.
-
-### Production Activation
-
-After Art Direction is Accepted for Handoff and required Visual Alignment is resolved, activate Production inputs and transfer exact assets, variants, restrictions, and tolerances.
+- routes accepted artifacts and Activated inputs;
+- coordinates Storyboard, Design Comp, and visual alignment;
+- records Art Direction handoff;
+- routes production work;
+- reviews final assets against Treatment, Script, copy, visual premise, Deliverable Contract, and Stage-Scoped Input Register;
+- routes defects to the first failed owner;
+- prepares ECD Final Acceptance.
 
 ## ECD Communication Modes
 
-- **ECD Update** — no decision; report consequence and next action.
-- **ECD Alignment** — confirm a complete material proposal before it becomes authoritative.
-- **ECD Decision** — choose what the work says, promises, owns, costs, or becomes; Greenlight is an ECD Decision.
-- **ECD Final Acceptance** — accept final assets after the complete final object and QA state are visible.
+### ECD Update
 
-## Handoff and Rework
+No decision required. Report consequence and next action.
 
-An internal handoff includes authoritative artifact/version, Activated inputs and source authority, Deferred inputs, locks, evidence, references, assets, open variables, tolerances, expected ECD gate, and return conditions.
+### ECD Alignment
 
-An ECD-facing handoff contains the complete decision object without requiring reconstruction from the internal envelope.
+Confirm a material interpretation or proposed direction before it becomes authoritative.
 
-Use the first-failed-owner rule:
+### ECD Decision
 
-- fact, evidence, rights, validation, or premise → Development;
-- Greenlight, staged activation, or ECD-facing presentation → Creative Producer;
-- sequence, copy, Written Visual Beat, or progression → Editorial Director;
-- Storyboard, Design Comp, visual concept, hierarchy, typography direction, or composition → Art Director;
-- crop, font implementation, export, or production defect → Production Artist.
+Use when alternatives materially change what the work says, promises, represents, owns, costs, or becomes. Greenlight is an ECD Decision.
+
+### ECD Final Acceptance
+
+Use for final subjective acceptance. Do not call routine professional review an ECD acceptance.
+
+## Handoff Standard
+
+A receiving owner must receive:
+
+- authoritative upstream artifact;
+- relevant Deliverable Contract fields;
+- Activated input IDs, source, and authority;
+- exact locked names, wording, evidence, and limitations;
+- language / locale and copy status;
+- reference intent and prohibited transfer;
+- assets and provenance;
+- tolerances and open issues;
+- Deferred inputs that remain inactive;
+- output and review gate.
+
+## First-Failed-Owner Rule
+
+Locate the earliest object where the defect appears and reopen only affected work.
+
+Examples:
+
+- malformed or unnatural sentence → Copy Desk;
+- several pages share the same semantic proposition → Editorial Architecture;
+- English translation changes agency → Bilingual Editor / Copy Desk;
+- visual hierarchy fails while copy is correct → Art Director;
+- export corrupts exact copy → Production Artist.
 
 ## Completion Standard
 
-Before final delivery, confirm:
+Creative Producer may present final delivery only after confirming:
 
 - requested outputs exist;
-- the Greenlit Treatment, accepted Script, and visual premise survived;
-- material ECD inputs are resolved, superseded, rejected, or explicitly open;
-- no Deferred Hard Constraint was silently dropped;
 - mobile and technical QA passed or limitations are explicit;
-- the final acceptance object is complete and visible;
-- artifact, activation, presentation, and decision states are clear.
+- Greenlit premise, Script meaning, Alignment-ready copy, and visual premise survived;
+- every registered ECD input has a final state;
+- no Deferred Hard Constraint was dropped;
+- Assistant Inference was not promoted to user authority;
+- required evidence and limitations remain visible;
+- artifact state, input-activation state, and final acceptance request are clear.
 
 ## References
 
 - `../SKILL.md`
-- `../shared/ECD_DECISION_PRESENTATION.md`
 - `../shared/PROJECT_STATE.md`
 - `../shared/DELIVERABLE_CONTRACT.md`
 - `../shared/STAGE_SCOPED_INPUT_REGISTER.md`
 - `../shared/ARTIFACT_STATES.md`
 - `../shared/GREENLIGHT_RECORD.md`
-- `../shared/CREATIVE_TREATMENT_PRESENTATION.md`
-- `../editorial-director/references/creative-script-presentation.md`
-- `../shared/PRODUCTION_MODEL.md`
+- `../shared/ECD_DECISION_PRESENTATION.md`
 - `../shared/HANDOFF_CONTRACT.md`
 - `../shared/LOCK_AND_REWORK_PROTOCOL.md`
+- `../editorial-director/references/copy-desk-workflow.md`
+- `../editorial-director/references/copy-quality-gate.md`
+- `../editorial-director/references/creative-script-presentation.md`
