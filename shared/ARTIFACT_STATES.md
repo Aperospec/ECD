@@ -2,207 +2,89 @@
 
 ## Purpose
 
-This document defines canonical artifact states, who may assign them, and what downstream work may assume.
+This document defines canonical artifact states and the authority attached to them.
 
-Do not use `approved` without naming the object, authority, version, and decision scope.
-
-## Canonical States
+## Canonical states
 
 ### Working
 
-The professional owner is developing the artifact. It may change without formal rework.
-
-### Needs Interpretation
-
-A valid source input or aesthetic judgment is active as research but has not yet been translated into an executable professional direction.
-
-Typical examples:
-
-- “这张图很对”;
-- “人生档案馆就是人生游乐场”;
-- “这组图很难看.”
-
-This state authorizes analysis and elicitation, not batch production.
+The professional owner is developing the artifact. It is not a downstream input.
 
 ### Proposed
 
-The owner considers the artifact ready for professional or ECD review. It is not yet authoritative downstream input.
+The owner considers the artifact ready for review. It is not yet authoritative.
 
 ### Accepted for Handoff
 
-Creative Producer confirms the artifact is sufficiently complete, coherent, and within scope for the next professional owner.
+Creative Producer has confirmed that the artifact passes its professional quality gate, resolves required active inputs, and is sufficiently complete for the next owner.
 
-This is a production-management decision. It does not substitute for ECD authority over material creative choices.
+This state does not replace ECD authority over material decisions.
 
 ### ECD-Aligned
 
-The ECD has confirmed a material interpretation or direction shown through an identifiable decision object.
+The ECD has accepted a named material interpretation or direction after reviewing a complete decision object.
 
-Examples:
+### Greenlit
 
-- Script architecture;
-- selected visual Concept Route;
-- reference interpretation;
-- visual metaphor;
-- World / Cover and Body anchors;
-- Representative Design Comp.
-
-Alignment is limited to the decisions explicitly presented.
+The ECD has accepted an identified Creative Treatment and authorized Editorial development from that premise.
 
 ### Locked
 
-Creative Producer records that named decisions in an artifact version must be preserved unless reopened.
-
-A lock must identify what is protected. Do not make the whole artifact immutable when only selected relationships are authoritative.
+Creative Producer has recorded specific dimensions that downstream work must preserve. A lock identifies artifact, version, authority, protected decision, and tolerance.
 
 ### Final Accepted
 
-The ECD has accepted the final deliverable for intended use, subject to recorded limitations and publication state.
+The ECD has accepted the final deliverable package for the stated use, subject to recorded conditions.
 
 ### Superseded
 
-A later authoritative version replaced this artifact.
+A later authoritative version has replaced the artifact.
 
 ### Reopened
 
-A previously accepted or locked object returned to its professional owner because feedback or change identified a material defect.
-
-### Non-Authoritative Exploration
-
-The artifact may be useful as study, failed evidence, or discarded direction, but cannot drive downstream production.
-
-Examples:
-
-- low-fidelity route studies;
-- rejected thumbnails;
-- visual experiments;
-- a polished but unaligned generation.
+An accepted or locked object has returned to its professional owner for authorized revision.
 
 ### Unauthorized / Invalid
 
-The artifact was produced outside the valid authority sequence, such as:
+The artifact was created outside the valid state sequence or without required authority. It is non-authoritative until the missing gate is restored and the correct owner accepts any reusable material.
 
-- Script before Greenlight;
-- broad visual batch before Anchor Gate;
-- Production before Art Direction handoff;
-- ECD alignment recorded for an object not shown.
+## Authority matrix
 
-It is not authoritative merely because it exists or is visually polished.
-
-## Authority Matrix
-
-| Object | Professional owner | ECD authority normally required when | Downstream authority condition |
+| Object | Professional owner | Handoff authority | ECD authority when material |
 |---|---|---|---|
-| Deliverable Contract | Creative Producer | material scope, rights, publication, or cost | accepted contract |
-| Creative Treatment | Development / Producer | always for raw project Greenlight | ECD Greenlight |
-| Creative Script | Editorial Director | material sequence, copy, framing, or fictional content | Accepted for Handoff after any required Script Alignment |
-| Copy system | Copy Desk / Editorial Director | material voice / public-position choice | copy status Alignment-ready and Script accepted |
-| Visual Problem Statement | Art Director | interpretation materially defines what the work visually is | professionally accepted or ECD-Aligned |
-| Visual Intent Record | Art Director | user intuition has consequential alternative readings | interpretation recorded / aligned |
-| Reference Reading / Transfer | Art Director | reference meaning or allowed transfer is subjective / material | transfer rules accepted |
-| Visual Metaphor Map | Art Director | metaphor defines the world or audience understanding | route may develop after acceptance |
-| Concept Routes | Art Director | new world, style, viewer relation, or durable visual identity | selected route accepted / ECD-Aligned |
-| Formal Studies | Art Director | rarely; routine unless they reveal material route change | sufficient for Storyboard |
-| Storyboard | Art Director | sequence interpretation materially changes visual meaning | accepted for anchor development |
-| Anchor Keyframes | Art Director | materially new image world or representative scene language | Anchor Gate passed after required alignment |
-| Representative Design Comp | Art Director | hierarchy, typography, or page system requires subjective authority | passed / ECD-Aligned |
-| Color Script | Art Director | material emotional / world progression choice | accepted inside Art Direction |
-| Art Direction Package | Art Director | unresolved material visual direction remains | Accepted for Handoff |
-| Final Assets | Production Artist | final subjective quality / publication | ECD Final Acceptance |
+| Deliverable Contract | Creative Producer | Creative Producer | scope or external action |
+| Creative Treatment | Development via Creative Producer | proposal only | Greenlight |
+| Creative Script | Editorial Director | Creative Producer | Script Alignment |
+| Visual Problem / Concept Route | Art Director | Creative Producer | Visual Direction Alignment |
+| Storyboard / Anchor / Design Comp | Art Director | Creative Producer | Visual Alignment |
+| Art Direction Package | Art Director | Creative Producer | unresolved material visual decision |
+| Final Assets | Production Artist | Creative Producer final review | Final Acceptance |
+| State, activation, locks, handoffs | Creative Producer | Creative Producer | records, but cannot invent, ECD decisions |
 
-## Greenlight Is Stage-Local
+## Decision evidence
 
-Greenlight accepts the Creative Treatment and opens Editorial Production.
+An ECD decision record identifies:
 
-It does not accept:
+- decision object and version;
+- ECD-facing presentation reference;
+- decision scope;
+- items outside the decision;
+- ECD response or authorization evidence;
+- resulting state and locks.
 
-- page count or final copy;
-- visual problem interpretation;
-- reference transfer;
-- Concept Route;
-- palette, camera, composition, or typography;
-- Storyboard, anchors, Design Comp, or final assets.
+An archive file alone is not decision evidence unless the ECD explicitly selected it as the review surface.
 
-## Script Alignment Is Stage-Local
+## Compact work
 
-Script Alignment accepts named editorial decisions and allows Visual Research / Intent activation.
-
-It does not approve visual execution.
-
-## Visual Direction Alignment Is Stage-Local
-
-Visual Direction Alignment accepts named choices such as:
-
-- what the visual problem is;
-- selected Concept Route;
-- world / character hierarchy;
-- reference principles;
-- visual metaphor;
-- intended audience relationship.
-
-It does not approve final images or broad production.
-
-## Anchor / Design Alignment Is Stage-Local
-
-This alignment accepts representative image and page-design relationships shown through actual proofs.
-
-It does not automatically accept every later frame. Art Direction must specify how the accepted system extends and what Production may vary.
-
-## Anchor Gate State
-
-Use:
-
-- `Not Started`;
-- `Working`;
-- `Proposed`;
-- `Passed`;
-- `Failed / Reopened`;
-- `Bypassed — reason recorded`.
-
-A multi-image batch may not become authoritative while the gate is Not Started, Working, Proposed, or Failed.
-
-## Compact Rule
-
-Compact work may combine adjacent artifacts when one object genuinely resolves their questions.
-
-Example:
-
-```text
-Two-screen project:
-- one combined Storyboard + World / Cover Anchor;
-- one Representative Body Anchor + Design Comp;
-- one ECD Anchor / Design Alignment.
-```
-
-Compact does not permit:
-
-- unaligned reference transfer;
-- skipping representative proof;
-- batch production before the proof;
-- inferred ECD authority.
-
-## Lock Granularity Examples
-
-- world-led composition locked;
-- people remain secondary scale / use evidence;
-- reference contributes layered navigability, not literal rides;
-- exact source composition prohibited;
-- cover title scale locked;
-- body-page minimum readable size locked;
-- Color Script progression locked;
-- specific texture or crop remains flexible.
+Compact work may combine adjacent records when authority remains explicit. It may not merge a proposal and its acceptance into an inferred state.
 
 ## State QA
 
-Reject or repair records such as:
+A valid state record provides:
 
-- `approved` with no authority;
-- `this image feels right → Production Activated`;
-- `Reference accepted` without role or transfer boundary;
-- `Visual Direction aligned` without visible route proposal;
-- `Anchor Gate passed` without representative anchors;
-- `final-looking batch` treated as proof of direction;
-- `Production ready` while Art Direction Package is only Proposed;
-- `ECD accepted` when only Creative Producer reviewed;
-- an unauthorized batch promoted because it is expensive or detailed;
-- a source judgment and Art Director inference stored as the same statement.
+- one authoritative version per active artifact;
+- traceable dependencies;
+- explicit active and Deferred inputs;
+- named authority for every acceptance or lock;
+- clear next action;
+- explicit invalidation after upstream change.

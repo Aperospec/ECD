@@ -1,193 +1,116 @@
-# Reference Reading and Transfer
+# Reference Reading and Controlled Transfer
 
 ## Purpose
 
-This protocol converts a supplied image, artwork, design, screenshot, or visual example into a controlled reference contribution.
+This protocol turns a supplied visual reference into an explicit, bounded contribution to the current project.
 
-A reference is not a style token and not a production prompt. Art Director must determine what the ECD values, how the reference produces that effect, which properties can transfer, and which specific content must remain behind.
+## Required context
 
-Apply `../../shared/REFERENCE_POLICY.md` and `visual-intent-elicitation.md`.
+- accepted project meaning and Script;
+- original reference asset;
+- ECD source statement about its intended use;
+- authority class;
+- rights, provenance, and attribution state;
+- target surface and current visual problem.
 
-## Reference Role Classification
+## Assign reference roles
 
-A single reference may serve several roles. Record each role separately:
+A reference may contribute to one or more of:
 
-- **Concept Reference** — supplies a governing idea or way of organizing meaning;
-- **World-Structure Reference** — supplies spatial hierarchy, topology, scale, or navigability;
-- **Mood Reference** — supplies emotional temperature and audience relationship;
-- **Style Reference** — supplies formal qualities such as edge, material, detail, or rendering behavior;
-- **Color / Light Reference** — supplies color relationships or lighting logic;
-- **Composition Reference** — supplies staging, balance, depth, or reading path;
-- **Content Reference** — supplies an authorized subject, object, event, or asset;
-- **Quality Benchmark** — establishes finish or craft expectation;
-- **Negative Reference** — identifies what must not happen.
+- concept;
+- world structure;
+- mood / atmosphere;
+- style / material;
+- color / light;
+- composition;
+- typography or image–type relationship;
+- content authorized for direct use;
+- evidence;
+- quality benchmark;
+- negative comparison.
 
-Do not merge these roles into “make it like this.”
+Only assigned roles are active.
 
-## Four-Pass Reading
+## Four-pass reading
 
-### Pass 1 — Description
+### Description
 
-Record only observable facts:
+Record observable subjects, structures, spatial layers, visual masses, light conditions, materials, actions, and information without interpreting their meaning.
 
-- subjects and objects;
-- spatial layers;
-- scale relationships;
-- viewpoint;
-- paths and boundaries;
-- visible actions;
-- major light sources;
-- dominant value and color regions;
-- text, logos, and branded elements;
-- density and empty areas.
+### Formal analysis
 
-Do not yet write what these elements symbolize.
+Analyze:
 
-### Pass 2 — Formal Analysis
+- dominant shape and silhouette;
+- composition and framing;
+- scale and depth;
+- line and movement;
+- value grouping;
+- color and light relationships;
+- salience and reading path;
+- rhythm and density;
+- viewer position and distance;
+- subject–environment relationship.
 
-Explain how the image is organized:
+### Interpretation
 
-- dominant silhouette and large shapes;
-- center of gravity;
-- first-, second-, and third-glance salience;
-- line direction and visual movement;
-- symmetry, asymmetry, framing, and balance;
-- depth, overlap, scale, and perspective;
-- value grouping and contrast;
-- color relationships;
-- repetition, variation, density, and rhythm;
-- viewer position and psychological distance;
-- relation between people, environment, and text.
+State the perception, emotion, behavior, or meaning created by those formal relationships.
 
-### Pass 3 — Interpretation
+### Controlled transfer
 
-Explain what those formal choices cause the viewer to perceive or feel:
+Classify findings as:
 
-- inviting versus forbidding;
-- complete world versus collection of objects;
-- public spectacle versus private experience;
-- calm versus kinetic;
-- monumental versus intimate;
-- living system versus static display;
-- exploratory versus observational;
-- commercial, institutional, cinematic, documentary, or conceptual associations.
+- accepted principle to transfer;
+- source-specific content authorized for direct use;
+- attribute open to professional interpretation;
+- element outside the reference mandate;
+- rights or similarity risk;
+- question requiring ECD alignment.
 
-Keep interpretation distinguishable from observation.
-
-### Pass 4 — Transfer
-
-Create a controlled transfer matrix:
+## Reference reading record
 
 ```markdown
-| Reference quality | Evidence in source | Project meaning served | Transfer status | Intended transformation | Risk |
-|---|---|---|---|---|---|
-| | | | Required / Preferred / Exploratory / Prohibited | | |
-```
+# Reference Reading and Transfer
 
-Separate:
-
-- structural principles to preserve;
-- formal qualities to explore;
-- specific content authorized for direct use;
-- source-specific content that must not transfer;
-- qualities that conflict with the Treatment or Script.
-
-## Reference Reading Record
-
-```markdown
-# Reference Reading Record
-
-Reference ID / asset:
+Reference:
+Source / owner:
 ECD source statement:
-Reference roles:
+Assigned roles:
 Authority class:
-Rights / attribution state:
+Rights / attribution:
 
 ## Description
-
 - 
 
 ## Formal Analysis
-
 - 
 
-## Interpretation Hypothesis
-
+## Interpretation
 - 
 
-## Project Transfer
-
-Must preserve as principle:
-May explore:
-Direct-use content authorized:
-Must not transfer:
-Potential misread:
-ECD alignment required:
-
-## Distance Test
-
-Would a reasonable viewer recognize the source's distinctive scene, object arrangement, branded device, or exact composition?
-Does the project still work if the source image is removed?
-Are we transferring relations or merely replacing surface details?
+## Controlled Transfer
+Accepted principles:
+Authorized direct-use content:
+Open attributes:
+Outside the mandate:
+Similarity / rights risk:
+Project consequence:
+Alignment required:
 ```
 
-## Structural Transfer vs Surface Copy
+## Transfer standard
 
-A strong transfer preserves a generative relationship.
+A transferred principle must support the accepted project and be expressible in the project's own system. The presence of a visually prominent source element does not make it part of the mandate.
 
-Example:
+When several references are supplied, keep their roles separate and record how conflicts are resolved.
 
-```text
-Reference surface:
-mountain, roller coaster, cable cars, shops, waterfall, sunset.
+## Quality gate
 
-Reference structure:
-one coherent world; layered routes; multiple active regions; vertical and horizontal movement; macro wonder plus micro life; navigability; warm nodes inside a vast environment.
-```
+The reading passes when:
 
-For a “life archive as life amusement world” project, the second list is normally more valuable than the first.
-
-Copying the first list without the second produces theme-park decoration rather than a life-world.
-
-## Mood, Style, Concept, and Composition Must Stay Distinct
-
-A reference liked for mood does not authorize its composition.
-
-A reference liked for world structure does not authorize its buildings, rides, or character scenes.
-
-A reference liked for style does not automatically define the project concept.
-
-When the ECD says only “I like this,” Art Director must form and test a hypothesis rather than consume the whole reference.
-
-## Multi-Reference Synthesis
-
-When several references are supplied:
-
-1. classify each role;
-2. identify compatible and conflicting contributions;
-3. prevent one strong image from dominating every decision;
-4. create a new project-specific visual thesis;
-5. record which source contributes which property;
-6. reject combinations that become an unprincipled collage.
-
-## Reference Fixation Check
-
-Before accepting a route or frame, ask:
-
-- Is the same subject arrangement still present?
-- Are we using the source's most recognizable objects because they are easy to prompt?
-- Would changing the palette reveal that the composition is still copied?
-- Did the source dictate the event, character relation, or camera without Script support?
-- Has the reference become the solution instead of evidence for a solution?
-
-If yes, return to concept development.
-
-## Gate
-
-A material reference may not enter Storyboard or anchor production until its Reference Reading Record is sufficient to distinguish:
-
-- why the ECD supplied it;
-- what the studio believes is valuable;
-- what is allowed to transfer;
-- what is prohibited;
-- what interpretation still requires ECD confirmation.
+- source observation, interpretation, and ECD authority are distinguishable;
+- assigned roles are explicit;
+- transfer principles are specific enough to guide design;
+- direct-use rights and attribution are known;
+- source-specific expression remains outside the project unless separately authorized;
+- Art Director can develop original concept routes from the record.

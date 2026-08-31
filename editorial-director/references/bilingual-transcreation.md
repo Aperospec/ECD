@@ -2,236 +2,129 @@
 
 ## Purpose
 
-This protocol governs projects that require Chinese and English versions of the same Social Editorial work.
+Bilingual work preserves project meaning and audience function across languages without forcing literal translation, identical syntax, or identical line length.
 
-The objective is **semantic and creative equivalence**, not sentence-by-sentence sameness.
+Each language is written and edited natively from a shared semantic invariant.
 
-Chinese and English should feel as though each was originally written for its own readers while preserving the same Greenlit premise, page function, factual boundary, and emotional temperature.
+## Shared semantic invariant
 
-## Core Principle
+Before drafting, record for each beat:
 
-> Share the idea. Rebuild the language.
+- page function;
+- internal semantic proposition;
+- subject and agency;
+- action, relation, or claim;
+- certainty and factual / speculative boundary;
+- emotional temperature;
+- governing metaphor or vocabulary;
+- required evidence, names, numbers, and limitations;
+- intended audience change.
 
-Do not treat either language as a bag of words to be converted into the other.
+This invariant is the parity source. Neither language's first draft is automatically the master.
 
-A literal translation can preserve vocabulary while losing voice, syntax, emphasis, rhythm, cultural entry point, or even meaning.
+## Language-specific briefs
 
-## Required Locale Decision
+Create a separate Copy Brief for each language and locale:
 
-Identify for every version:
+- audience relationship;
+- person and point of view;
+- formality;
+- sentence and headline conventions;
+- degree of compression;
+- punctuation and capitalization;
+- culturally natural examples or references;
+- layout implications.
 
-- language;
-- locale: `zh-CN`, `zh-TW`, `en-US`, `en-GB`, or another specified locale;
-- intended audience and cultural context;
-- spelling, punctuation, quotation, and capitalization convention;
-- platform and viewing condition;
-- whether both languages appear together or as separate deliverables.
+## Workflow
 
-`Chinese` and `English` are not sufficient locale definitions when the distinction materially affects copy.
-
-## Semantic Invariant
-
-Before drafting either version, create a language-neutral meaning map:
-
-```markdown
-Project creative core:
-Page function:
-Primary audience change:
-Non-negotiable proposition:
-Required subject / action / relationship:
-Factual or speculative boundary:
-Emotional temperature:
-Governing metaphor:
-What must not be implied:
+```text
+Shared Semantic Invariant
+→ Native Draft A
+→ Native Copy Edit A
+→ Native Draft B
+→ Native Copy Edit B
+→ Functional and Semantic Parity Review
+→ Layout Consequence Review
+→ Final Native QA for Each Version
 ```
 
-This is the shared source. The wording in either language is not automatically the invariant.
-
-## Independent Drafting
-
-For each language:
-
-1. use the semantic invariant;
-2. create a language-specific Copy Brief;
-3. draft natively;
-4. run the language-specific Copy Editor pass;
-5. compare against the invariant;
-6. revise for parity without importing unnatural syntax.
-
-Do not permanently draft Chinese first and translate into English, or vice versa, unless the project specifically requires a source-language hierarchy.
-
-## Equivalence Dimensions
+## Parity dimensions
 
 The versions should preserve:
 
-- project premise;
-- page role and editorial job;
-- central claim or question;
-- factual, legal, rights, and speculative limits;
-- relationship among people, AI, objects, and actions;
+- page function;
+- subject and agency;
+- governing idea;
+- promise and payoff;
+- certainty and limitation;
+- evidence and attribution;
 - emotional temperature;
-- degree of certainty;
-- call to action or final question;
-- key proper names and numbers.
+- call to action or final question, when required.
 
 They do not need to preserve:
 
-- identical word order;
-- identical sentence count;
-- identical metaphor when the metaphor is unnatural in the target language;
-- identical line length;
-- identical rhetorical device;
-- identical punctuation;
-- identical title capitalization.
+- word count;
+- clause order;
+- sentence count;
+- punctuation;
+- rhetorical device;
+- title capitalization;
+- line geometry.
 
-## Transcreation Procedure
+## Transcreation decisions
 
-### 1. Function before wording
+When direct translation sounds unnatural or changes emphasis:
 
-Ask what the source line does:
+1. return to the semantic invariant;
+2. identify the function of the source expression;
+3. create a native target-language solution with the same function and boundary;
+4. record any material shift in tone, certainty, or cultural implication;
+5. rerun parity and native-language QA.
 
-- opens a question;
-- creates a visual image;
-- states a judgment;
-- reverses an assumption;
-- provides a limitation;
-- lands an emotional payoff.
+## Compression and layout
 
-Reproduce the function in the target language.
+A shorter target-language version may reorganize syntax or divide meaning across title, Core Line, and support. It may not remove necessary subject, qualification, evidence, or limitation merely to match line count.
 
-### 2. Rebuild the sentence
+Art Director receives language-specific line-break and density consequences after both versions are accepted.
 
-Choose the natural syntax, subject, verb, and emphasis for the target language.
+## Proper nouns and terminology
 
-Do not preserve source-language omissions, parallel structures, or abstractions when they sound unnatural.
+Establish a terminology record for:
 
-### 3. Restore local rhythm
+- product and brand names;
+- technical terms;
+- places and personal names;
+- recurring concepts;
+- capitalization and transliteration;
+- approved localized names;
+- terms that remain untranslated.
 
-Chinese may use compact topic–comment movement, paired phrases, or controlled omission. English often needs an explicit subject and verb.
-
-English may use contractions, phrasal verbs, and stress at the sentence ending. Chinese may require a different division between title and Core Line.
-
-Use these affordances without changing the idea.
-
-### 4. Recheck metaphor
-
-A metaphor may be clear in one language but bookish, childish, technical, or clichéd in the other.
-
-Keep the governing conceptual system, but change the expression when necessary.
-
-### 5. Recheck social context
-
-A question, level of intimacy, first-person voice, or direct address may feel different across languages. Preserve the intended relationship to the reader, not merely the pronoun.
-
-## Example of Functional Equivalence
-
-Semantic invariant:
-
-> Ordinary days that nearly disappeared from memory make up much of a life.
-
-Possible Chinese:
-
-> 那些差点被忘记的日子，后来组成了大半个人生。
-
-Possible English:
-
-> The days you almost forgot may have made up most of your life.
-
-The versions are not structurally identical, but they preserve the same page function and judgment.
-
-Do not treat these examples as mandatory final copy.
-
-## Back-Translation
-
-Back-translation is a diagnostic tool, not a drafting method.
-
-Use it to detect:
-
-- missing claims;
-- added certainty;
-- changed subject or agency;
-- lost limitation;
-- emotional drift;
-- metaphor drift.
-
-Do not force the target copy to resemble the back-translation if the target version is already accurate and idiomatic.
-
-## Bilingual Layout Consequences
-
-Copy Desk must inform Art Director of:
-
-- relative title length;
-- likely line breaks;
-- differences in information density;
-- punctuation width;
-- capitalization behavior;
-- words or names that must not split;
-- whether paired-language layout is viable at the target mobile size.
-
-Art Director owns layout. Copy Desk owns meaning-preserving compression.
-
-Do not shrink one language into illegibility to preserve identical geometry.
-
-## Mixed-Language Copy
-
-When Chinese and English appear in the same asset:
-
-- identify which language is primary;
-- use English only when it has a real semantic, brand, or cultural function;
-- avoid decorative English that repeats the Chinese without adding value;
-- preserve correct spacing and punctuation at language boundaries;
-- do not use machine-like title case for short decorative English fragments;
-- verify every Latin product name, acronym, and capitalization.
-
-## Bilingual Quality Gate
-
-Each version must independently pass:
-
-- Treatment Fidelity Gate;
-- native grammar and usage;
-- idiomaticity and collocation;
-- voice and metaphor consistency;
-- read-aloud test;
-- platform readability;
-- cliché and translation-smell test.
-
-Then run parity checks:
+## Bilingual QA record
 
 ```markdown
-| Dimension | Chinese | English | Equivalent? | Revision needed |
-|---|---|---|---|---|
-| Page function | | | | |
-| Core proposition | | | | |
-| Agency / subject | | | | |
-| Certainty | | | | |
-| Emotional temperature | | | | |
-| Limitation | | | | |
-| Call to action | | | | |
+Beat / section:
+Semantic invariant:
+Version A:
+Version B:
+Function parity:
+Agency parity:
+Certainty parity:
+Evidence / limitation parity:
+Emotional-temperature parity:
+Native-language QA A:
+Native-language QA B:
+Layout consequence:
+Revision:
+Status:
 ```
 
-One strong language version cannot compensate for a weak one.
+## Alignment-ready criteria
 
-## Alignment Presentation
+A bilingual pair is Alignment-ready when:
 
-When both languages require ECD Script Alignment:
-
-- identify the recommended primary language, if any;
-- show both complete final versions for every decision-relevant line;
-- do not hide one version in an attachment;
-- disclose material transcreation differences;
-- state whether the ECD is aligning both versions or only the semantic system;
-- keep internal candidate translations backstage.
-
-## Hard Failures
-
-A bilingual Script fails when:
-
-- one version is a literal calque that native readers would not choose;
-- agency changes between languages;
-- a limitation, negation, number, or claim disappears;
-- emotional temperature materially changes without intent;
-- one language introduces a new metaphor or promise;
-- English reads like Chinese syntax with English words;
-- Chinese reads like English syntax with Chinese words;
-- one version is shortened by deleting necessary meaning;
-- both languages are forced into identical line geometry at the cost of readability.
+- each version independently passes its native-language craft gate;
+- page function, agency, claim, and limitation match;
+- neither version reads as a calque;
+- terminology is consistent;
+- differences in length or rhetoric are intentional;
+- layout feasibility is recorded without sacrificing meaning.

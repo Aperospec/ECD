@@ -2,264 +2,110 @@
 
 ## Purpose
 
-Social Editorial copy converts an accepted editorial sequence into language that works at feed speed and mobile viewing distance without becoming generic platform bait, translated prose, internal strategy language, or reduced document copy.
+Social Editorial copy turns an accepted sequence into language that works at feed speed and mobile viewing distance while preserving the project's full meaning.
 
-Copy serves the declared job of each beat. It cannot repair weak architecture, and correct architecture does not guarantee publishable writing.
+Copy serves the declared job of each beat. It cannot repair weak architecture or replace missing visual development.
 
-## Copy Desk Requirement
-
-All material audience-facing copy must pass the internal Copy Desk workflow before Script Alignment.
-
-Apply:
-
-- `writing-reference-canon.md`;
-- `copy-desk-workflow.md`;
-- `chinese-copy-craft.md` for Chinese;
-- `english-copy-craft.md` for English;
-- `bilingual-transcreation.md` for paired versions;
-- `copy-quality-gate.md`.
-
-Do not draft one line per template field and label the first phrasing final.
-
-## Two-Layer Rule
-
-For every beat, distinguish:
-
-1. **Internal Semantic Proposition** — the plain statement of what the page must mean;
-2. **Audience-Facing Copy** — the language a reader should actually see.
-
-Internal language such as “define the archive unit,” “complete the emotional reframe,” or “make ordinary life visible” must not leak into public copy merely because it accurately describes the Editorial Job.
-
-Meaning comes first. Writing is a separate craft pass.
-
-## Functional Copy Roles
+## Functional copy roles
 
 Use only the roles a screen needs:
 
-- **Platform / Post Title** — the complete discoverable proposition outside or alongside the visual sequence;
-- **Cover / First-Frame Line** — the fastest expression of the opening promise;
-- **Deck / Supporting Line** — concise clarification, never a second competing headline;
-- **Beat / Page Title** — the advancement specific to the current screen;
-- **Core Line / Beat Statement** — the sentence or proposition carrying the beat's primary cognitive or emotional move;
-- **Narrative Sentence** — used only when the active beat is genuinely narrative;
-- **Supporting Copy** — the minimum explanation required to complete the beat;
-- **Evidence / Caption / Source Line** — attribution, proof context, date, version, or observed limitation;
-- **Required Limitation** — qualification that must remain visible for correct interpretation;
-- **Companion / Body Copy** — publication text outside the image sequence.
+- Platform / Post Title
+- Cover / First-Frame Line
+- Deck / Supporting Line
+- Beat / Page Title
+- Core Line / Beat Statement
+- Narrative Sentence, when the beat is genuinely narrative
+- Supporting Copy
+- Evidence / Caption / Source Line
+- Required Limitation
+- Companion / Body Copy
 
-Do not populate every role mechanically.
+## Reader entry
 
-## Language and Locale
+Prefer the most direct human or evidentiary entry point available: a person, action, object in use, transformation, consequence, tension, comparison, or observable proof.
 
-Before drafting, identify:
+Abstract language remains appropriate when the concept itself is the subject, but it should not obscure the page's primary movement.
 
-- target language;
-- locale;
-- audience;
-- voice and degree of formality;
-- poetic density;
-- governing metaphor;
-- punctuation, capitalization, and spelling convention;
-- exact text versus compressible text.
+## Title discipline
 
-For bilingual work, each language receives its own Copy Brief and native-language edit.
+A useful title performs a specific function:
 
-## Human Entry Point
+- states a meaningful change;
+- opens a question the sequence answers;
+- establishes a tension or contrast;
+- names a concrete consequence;
+- frames a concept the reader can enter quickly;
+- makes evidence or capability perceptible.
 
-Prefer concrete people, objects, actions, transformations, consequences, tensions, evidence, and decisions over abstract taxonomy when both can express the same truth.
+The title is judged together with the Core Line, support, image, and page role. It does not need to contain the entire explanation.
 
-Do not flatten a precise idea into generic emotional language merely to sound accessible or “poetic.”
-
-A useful line should reveal something this project in particular can say.
-
-## Title Discipline
-
-A useful title should do at least one of the following:
-
-- state a meaningful change;
-- surface a relevant contrast;
-- create a question the sequence actually answers;
-- name a concrete consequence;
-- frame a concept in language the audience can enter quickly;
-- make a capability, scene, or evidence perceptible.
-
-A title is not automatically good because it is short, abstract, or grammatically possible.
-
-Avoid:
-
-- incomplete conditions or comparisons;
-- page descriptions with weak endings;
-- internal chapter labels;
-- empty superlatives;
-- fake urgency;
-- unsupported absolutes;
-- generic advertising language;
-- decorative English with no function;
-- repeating the same proposition on cover, page title, and body copy;
-- forced symmetry across paired pages;
-- titles that require the ECD to supply the missing noun, relation, or main clause.
-
-## Title / Core Line / Support Division
-
-Decide:
-
-1. what the title opens;
-2. what the Core Line completes;
-3. what support must clarify;
-4. what belongs only in companion copy.
-
-Do not make the title carry the entire page explanation.
-
-Do not use supporting copy to explain what an unnatural title was “trying to mean.” Repair the title.
-
-## Candidate Development
-
-For cover lines, page titles, Core Lines, payoff lines, platform titles, and body-copy openings / closings, create materially different candidates internally:
-
-- Direct;
-- Image-led;
-- Judgment / Reframe.
-
-Editorial Director selects one coherent recommendation after native-language editing.
-
-Do not show synonym piles to the ECD. Show alternatives only when they represent different creative directions.
-
-## Screen Copy Hierarchy
+## Copy hierarchy
 
 For each beat decide:
 
-1. what must be found first;
+1. what the viewer must find first;
 2. what completes that understanding;
-3. what may be read only by an interested viewer;
-4. what belongs in companion copy instead.
+3. what an interested reader may discover next;
+4. what belongs outside the image sequence.
 
-High-impact beats normally use fewer words. Explanation and evidence beats may use more, but the primary message must remain discoverable at the intended size.
+High-impact pages normally carry less text. Explanatory and evidentiary pages may carry more, while keeping the primary meaning immediately discoverable.
 
-## Semantic Compression
+## Semantic compression
 
-A shorter variant is acceptable only when it preserves:
+A shorter variant preserves:
 
-- the same subject and agency;
-- the same promise;
-- the same factual or speculative boundary;
-- material negation and qualification;
-- required names, numbers, dates, versions, and limitations.
+- subject and action;
+- claim and promise;
+- certainty and qualification;
+- names, numbers, dates, versions, and limitations;
+- the beat's audience change.
 
-If compression changes meaning, Editorial Director must rewrite it deliberately. Art Director or Production Artist must not solve it through omission or illegible type.
+Meaning-changing compression returns to Editorial Director / Copy Desk.
 
-## Voice and Metaphor
+## Cross-screen rhythm
 
-Establish one governing voice and metaphor system for the sequence.
+Vary sentence length, density, and rhetorical behavior according to the sequence:
 
-Check:
+- opening promise;
+- definition or orientation;
+- evidence or demonstration;
+- pause or reflection;
+- consequence or payoff.
 
-- emotional temperature;
-- relationship to the reader;
-- first / second / third person;
-- concrete versus abstract language;
-- repeated keywords and rhetorical frames;
-- whether “archive,” “museum,” “memoir,” “database,” “map,” “room,” or other metaphors are being mixed intentionally.
+Voice coherence does not require identical syntax or copy length on every page.
 
-A sequence of individually clever lines fails when the lines belong to different voices.
+## Companion copy
 
-## Cross-Screen Language Rhythm
+Companion copy should:
 
-Vary sentence length, syntax, and density according to editorial energy:
+- fulfil the same Greenlit premise;
+- add context the cards cannot carry efficiently;
+- preserve evidence and limitations;
+- avoid transcribing the entire sequence;
+- remain appropriate to platform discovery and audience behavior;
+- avoid introducing a new editorial position after Script acceptance.
 
-- concise cover promise;
-- precise definition or explanation;
-- scene-led sentence;
-- deliberate pause;
-- concise consequence or payoff.
+## Mobile review
 
-Voice coherence does not require identical copy length, grammatical structure, or repeated antithesis on every page.
+Before handoff:
 
-Run a pattern scan for repeated openings, “not X but Y” structures, parallel triplets, abstract nouns, and generic AI vocabulary.
-
-## Companion / Body Copy
-
-When required, companion copy should:
-
-- fulfill the same Greenlit premise;
-- add context useful outside the cards;
-- avoid transcribing every screen;
-- preserve evidence and speculative boundaries;
-- include attribution, limitation, disclosure, or version context where required;
-- avoid introducing a new editorial position after Script acceptance;
-- maintain the same voice and language quality as high-visibility screen copy;
-- remain appropriate to the publication surface and search / discovery behavior.
-
-The body copy is not a lower-quality storage area for all information removed from the cards.
-
-## Native-Language Review
-
-Chinese copy must pass:
-
-- sentence closure;
-- semantic category and collocation;
-- reference and word order;
-- concrete-language and metaphor checks;
-- model-pattern and read-aloud tests;
-- locale-appropriate punctuation.
-
-English copy must pass:
-
-- sentence completeness;
-- idiom, collocation, subject–verb, reference, and modifier checks;
-- concrete-agent and action checks;
-- parallelism, rhythm, cliché, and translation-smell tests;
-- locale-consistent mechanics.
-
-## Bilingual Work
-
-Do not translate line by line.
-
-Create a shared semantic invariant, then draft each language independently. Preserve page function, agency, certainty, boundary, and emotional temperature without forcing identical syntax or length.
-
-Each language must pass its own quality gate. Then run parity review.
-
-## Mobile Copy Review
-
-Before handoff to Art Director:
-
-- identify the line that must survive thumbnail or fast-feed viewing;
-- distinguish exact text from compressible support;
-- avoid long unbroken clauses that force tiny type;
-- define semantic line-break opportunities when wording makes them important;
-- keep source and limitation lines concise but not invisible;
-- move secondary detail to companion copy when the image sequence does not need it;
-- do not use density as proof of sophistication.
-
-## Copy Status and Gate
-
-Use:
-
-- `Semantic Draft`;
-- `Candidate Drafts`;
-- `Selected Draft`;
-- `Copyedited`;
-- `Alignment-ready`;
-- `Reopened`.
-
-Only `Alignment-ready` copy may appear as the final recommendation in a Script Alignment request.
-
-Apply `copy-quality-gate.md`. A passing score never overrides a hard failure.
+- identify the line that must survive feed preview;
+- distinguish exact copy from compressible support;
+- define meaningful line-break opportunities;
+- move secondary detail out of the image when appropriate;
+- verify that essential copy remains comfortably readable at target width;
+- confirm that source and limitation lines remain legible enough to perform their function.
 
 ## Copy QA
 
 Confirm:
 
-- the copy still expresses the Greenlit Treatment;
 - every visible line has a function;
-- every high-impact line has received a native-language copy edit;
-- sentence meaning is complete and stable;
-- collocation and idiom are natural;
-- titles advance rather than label sections;
+- page titles advance rather than merely label sections;
 - title, Core Line, and support divide the work;
-- Core Lines do not repeat the same proposition;
-- voice and governing metaphor remain coherent;
-- claims stay inside the evidence / imagination boundary;
-- required limitations remain visible;
-- companion copy adds rather than transcribes;
-- bilingual versions are functionally equivalent when required;
-- Art Director can compose the copy without changing meaning.
+- copy preserves the accepted Script and evidence boundary;
+- cross-page language progresses without mechanical repetition;
+- companion copy and image sequence remain one project;
+- Art Director can compose the copy without changing meaning;
+- target-language Copy Quality Gate has passed.

@@ -2,201 +2,119 @@
 
 ## Purpose
 
-The Representative Design Comp is Art Director's high-fidelity proof of the **page design system** before broad production.
+The Representative Design Comp is Art Director's high-fidelity proof of the page-design system before broad production.
 
-It closes the gap between image-world development and final composition. Production Artist should not have to guess typography scale, copy hierarchy, image–type depth, grid behavior, evidence treatment, or mobile readability from prose alone.
+It uses target geometry, real accepted copy, credible imagery, and intended hierarchy so Production Artist does not have to infer design decisions from prose.
 
-The Design Comp does not replace the Anchor Keyframe Gate. Anchor Keyframes prove the representative image world; Design Comps prove how accepted imagery and exact copy become publishable pages.
+## Required inputs
 
-## Entry Gate
+- selected Concept Route;
+- accepted Storyboard direction;
+- accepted Anchor Keyframes;
+- Deliverable Contract and target geometry;
+- exact Alignment-ready copy;
+- active visual inputs;
+- reference and rights boundaries;
+- identified high-risk page classes.
 
-Before a Design Comp, require:
+## Coverage
 
-- selected / accepted Concept Route;
-- required Visual Direction Alignment resolved;
-- Storyboard or equivalent sequence staging;
-- World / Cover Anchor and Representative Body Anchor, or a recorded reason why image anchors are unnecessary;
-- Accepted Creative Script and Alignment-ready copy;
-- target aspect ratio, safe areas, and viewing condition;
-- reference-transfer and world-logic rules;
-- material visual Hard Constraints.
+Choose the smallest set that proves the system. A typical multi-page project includes:
 
-Do not create a polished Design Comp to disguise an unresolved concept route or failed anchor.
+1. cover / first-frame Comp;
+2. representative body-page Comp;
+3. another page class only when its hierarchy or evidence behavior cannot be inferred.
 
-## Anchor and Comp Relationship
-
-### Anchor Keyframe
-
-Proves:
-
-- world / scene language;
-- metaphor fidelity;
-- reference distance;
-- subject–environment hierarchy;
-- representative light, material, scale, and spatial logic.
-
-### Representative Design Comp
-
-Proves:
-
-- actual title and body-copy hierarchy;
-- line breaks;
-- grid and margin behavior;
-- image crop and page geometry;
-- image–type overlap and masking;
-- first-, second-, and third-glance reading;
-- mobile readability;
-- platform UI survival.
-
-A single artifact may serve as both when it uses accepted imagery, real copy, target geometry, and sufficient fidelity. Record the combined role explicitly.
-
-## Required Coverage
-
-Select the smallest set of screens that proves the system.
-
-Normally:
-
-1. **Cover / first-frame Comp** — proves feed impact, title scale, world or hero relationship, opening promise, and visual identity.
-2. **Representative body-page Comp** — proves actual reading conditions, scene / evidence integration, hierarchy, density, and continuity with the cover.
-
-Add another Comp only when a materially different page class cannot be inferred, such as:
-
-- evidence-heavy screenshot;
-- comparison;
-- process or diagram;
-- dense data page;
-- distinct closing frame.
-
-Do not compose the whole sequence merely to call it a Comp.
-
-## Design Comp Record
+## Comp record
 
 ```markdown
 # Representative Design Comp
 
 Project:
-Creative Script version:
-Concept Route:
-Storyboard version:
-Anchor Keyframe references:
-Deliverable and target geometry:
-Comp screens:
-Why representative:
-High-risk questions:
+Script / Board / Anchor references:
+Target geometry:
+Screens represented:
+Questions being resolved:
 
 ## Visual Premise
-
+Selected route:
 Visual thesis:
-World / scene logic:
-Mood / atmosphere:
-Reference principles applied:
-Prohibited transfer:
+Viewer relationship:
+Reference principles:
+Active visual inputs:
 
 ## Proven Decisions
+First-glance perception:
+Second-glance explanation:
+Third-glance support / evidence:
+Typography personality and scale:
+Line breaks:
+Grid and margin behavior:
+Image–type relationship:
+Depth and masking:
+Body-page density:
+Small-size behavior:
+Reusable visual grammar:
 
-- first-glance perception:
-- second-glance title / explanation:
-- third-glance support / evidence / limitation:
-- typography personality and scale hierarchy:
-- semantic line breaks:
-- grid and margin behavior:
-- image crop and subject scale:
-- image–type relationship:
-- depth and masking:
-- body-page density and readability:
-- continuity with Anchor Keyframes:
-- small-size survival:
-- reusable visual grammar:
-
-## Still Open
-
-- provisional assets:
-- production refinements:
-- variables Art Direction may define:
-- technical risk:
+## Open Variables
+Provisional assets:
+Production refinement:
+Technical risks:
+Permitted tolerances:
 
 ## Alignment State
-
-State: [Working / Proposed / ECD-Aligned / Accepted / Reopened]
-ECD Anchor / Design Alignment required: [yes / no]
+State:
+ECD alignment required:
+ECD-facing presentation reference:
 Decision-level locks:
-Production tolerances implied:
 ```
 
-## Cover Comp Tests
+## Cover tests
 
 Confirm:
 
-- the project's governing world or hero is identifiable at feed-thumbnail size;
-- the title has enough scale and confidence;
-- image–type overlap is intentional and preserves recognition;
-- the cover does not collapse into generic tourism, game-key-art, movie-poster, or theme-park advertising unless explicitly intended;
-- the subject retains required volume, scale, and spatial presence;
-- no automatic text rectangle substitutes for composition;
-- UI overlays and safe areas do not destroy the focal structure;
-- the cover promise is fulfilled by the sequence.
+- the opening promise and dominant visual relationship are legible at feed-preview scale;
+- title, image, and negative space form one system;
+- subject recognition and intended depth survive overlap;
+- the design expresses the accepted visual route;
+- platform overlays do not remove essential meaning.
 
-## Body Comp Tests
+## Body-page tests
 
 Confirm:
 
-- the page's distinct editorial job is visible;
-- the environment or world logic still matters and is not generic background;
-- supporting copy is readable at intended mobile width;
+- the primary message is immediately discoverable;
+- supporting copy is comfortably readable at target width;
 - evidence remains inspectable;
-- the page is not a reduced print-magazine layout;
-- hierarchy does not depend on tiny decorative microtype;
-- body grammar belongs to the same system without repeating the cover;
-- character emotion does not unintentionally replace the accepted world / scene hierarchy;
-- density leaves enough space for comprehension.
+- page density supports comprehension;
+- body grammar belongs to the same system without repeating the cover template;
+- the representative body image remains consistent with the accepted Anchor Keyframe.
 
-## Formal Tests
+## Viewing tests
 
 Run:
 
-- **Thumbnail test** — hero / world, primary line, and page meaning remain identifiable;
-- **Blur / squint test** — dominant hierarchy remains obvious when detail is suppressed;
-- **Actual-width test** — required text is comfortably readable at approximate mobile display size;
-- **Reference-distance test** — accepted principles survive without copying source-specific composition or content;
-- **Anchor-continuity test** — the page design still belongs to the accepted image world;
-- **UI-overlay test** — platform controls do not collide with critical content.
+- thumbnail test;
+- blur / squint hierarchy test;
+- actual-width mobile test;
+- UI-overlay and safe-area test;
+- exact-copy and line-break test.
 
-## ECD-facing Alignment
+## Alignment and lock effect
 
-Show the actual Design Comp in the primary conversation with:
+A material Design Comp alignment may lock:
 
-- what it proves;
-- how it relates to the anchors and selected route;
-- what was taken from references at the level of principle;
-- the main tradeoff or risk;
-- what becomes locked;
-- what remains open for Production.
-
-Do not request visual alignment from a prose-only description.
-
-## Lock Effect
-
-An ECD-Aligned or accepted Design Comp may lock:
-
-- title scale relationship;
+- title-scale relationship;
 - typography personality;
-- semantic line breaks;
-- image–type depth behavior;
 - grid and margin behavior;
+- image–type depth;
 - cover and body grammar;
 - evidence treatment;
 - small-size priorities;
-- subject scale and grounding;
-- reference interpretation;
-- permitted production variables.
+- permitted production tolerances.
 
-It does not lock provisional defects explicitly left for production refinement.
+It does not lock explicitly provisional asset defects or refinements left open in the record.
 
-## Failure and Return
+## Quality gate
 
-- failed world / image language → return to Anchor Keyframe or earlier Concept Route;
-- failed composition / scale visible before typography → return to formal studies or Storyboard;
-- failed hierarchy / typography / page grammar → remain in Design Comp;
-- correct Comp but incorrect final assembly → Production Artist.
-
-Do not ask Production Artist to repair an Art Direction failure through shrinking, cropping, generic text boxes, or flattening the accepted image relationship.
+The Comp passes when it proves the identified page-design questions at actual target conditions and remains faithful to the selected route, anchors, Script, and active visual inputs.

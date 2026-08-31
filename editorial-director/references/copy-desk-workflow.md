@@ -2,83 +2,49 @@
 
 ## Purpose
 
-The Copy Desk converts an accepted editorial architecture into original, natural, precise, audience-facing language in the required language and locale.
+The Copy Desk converts an accepted editorial architecture into original, precise, idiomatic audience-facing language. It is an internal capability inside Editorial Director.
 
-It is an internal capability inside Editorial Director, not a fifth user-facing role.
+## Internal craft modes
 
-The Copy Desk exists because deciding **what a page must communicate** and writing **a sentence worth publishing** are different professional tasks.
+- **Copy Strategist** — defines voice, reader relationship, register, metaphor, and language constraints.
+- **Copywriter** — develops candidate lines and body copy.
+- **Copy Editor** — revises grammar, usage, collocation, reference, rhythm, and consistency.
+- **Bilingual Editor** — creates semantic parity through transcreation.
+- **Editorial Director** — selects, integrates, and owns the final Script.
 
-## Internal Modes
+These modes remain backstage.
 
-Editorial Director may internally use:
-
-- **Copy Strategist** — establishes voice, audience distance, metaphor, and language constraints;
-- **Copywriter** — generates and develops candidate lines;
-- **Copy Editor** — checks grammar, usage, collocation, reference, rhythm, and consistency;
-- **Bilingual Editor** — creates semantic parity without literal translation;
-- **Editorial Director** — selects, integrates, and owns the final Creative Script.
-
-Do not expose these as roles the ECD must manage.
-
-## Non-Negotiable Sequence
+## Required sequence
 
 ```text
-Greenlit Treatment
-+ Accepted Editorial Architecture
-↓
 Treatment Fidelity Gate
-↓
-Copy Brief / Voice Contract
-↓
-Internal Semantic Proposition for each beat
-↓
-Candidate Development
-↓
-Target-Language Drafting
-↓
-Native-Language Copy Edit
-↓
-Cross-Page Voice and Metaphor Audit
-↓
-Bilingual Transcreation when required
-↓
-Copy Quality Gate
-↓
-Final recommended copy enters the ECD-facing Creative Script Proposal
+→ Copy Brief / Voice Contract
+→ Internal Semantic Proposition per beat
+→ Candidate Development
+→ Target-Language Drafting
+→ Native-Language Copy Edit
+→ Cross-Page Voice and Metaphor Audit
+→ Bilingual Transcreation when required
+→ Copy Quality Gate
+→ Alignment-ready Copy
 ```
 
-Do not write final copy directly from the page label or Editorial Job and submit the first phrasing for alignment.
+## Treatment Fidelity Gate
 
-## Stage 0 — Treatment Fidelity Gate
+Before writing, restate the accepted project mechanism in plain internal language and verify:
 
-Before copy development, restate the Greenlit creative mechanism in one or two internal sentences.
+- subject and agency;
+- causal or conceptual relationship;
+- audience takeaway;
+- factual or speculative boundary;
+- role of examples and scenes;
+- semantic guardrails.
 
-Check:
+If the architecture has become a different project, return to Editorial Director before polishing.
 
-- what happens first;
-- who initiates the action;
-- what is transformed or reinterpreted;
-- what the audience should finally understand;
-- what the work must not become.
-
-Reject the copy route if the Script has already shifted into another project.
-
-Examples of failure:
-
-- a memory project becomes a list of AI product use cases;
-- a private archive becomes a complete biography;
-- a speculative concept becomes a claim about current product capability;
-- a user-owned story becomes "AI's view of the user."
-
-Copy polish cannot repair premise drift.
-
-## Stage 1 — Copy Brief / Voice Contract
-
-Before writing titles, establish:
+## Copy Brief / Voice Contract
 
 ```markdown
-# Copy Brief
-
 Target language:
 Target locale:
 Audience:
@@ -87,223 +53,127 @@ Narrative person:
 Relationship to reader:
 Voice:
 Emotional temperature:
-Degree of formality:
-Poetic density: [low / medium / high]
-Concreteness target: [low / medium / high]
-Dominant metaphor or conceptual vocabulary:
-Words / patterns to prefer:
-Words / patterns to avoid:
-Punctuation and capitalization convention:
-What must remain exact:
-What may be compressed:
+Formality:
+Poetic density:
+Concreteness target:
+Governing vocabulary or metaphor:
+House punctuation / capitalization:
+Terms that must remain exact:
+Meaning that may be compressed:
+Material language risks:
 ```
 
-A voice contract is not a mood-word pile. Every field must change a writing decision.
+Each field must change a writing decision.
 
-Example:
+## Internal Semantic Proposition
 
-```text
-Voice: private, observant, restrained
-Consequence: use first-person concrete recollection; avoid institutional labels and promotional excitement.
+For each beat, write one plain internal sentence stating the meaning that must survive. This sentence is not audience copy.
 
-Poetic density: medium
-Consequence: permit one governing image per page; reject stacked abstractions and ornamental synonym chains.
-```
+The proposition separates semantic correctness from rhetorical execution and allows several valid language solutions.
 
-## Stage 2 — Internal Semantic Proposition
+## Candidate Development
 
-For each beat, write one plain internal sentence stating the exact meaning that must survive.
+For high-impact lines, develop materially distinct approaches, such as:
 
-This sentence is not audience copy.
+- direct statement;
+- image-led expression;
+- judgment or reframe;
+- question or tension;
+- compressed consequence.
 
-Example:
+Alternatives differ in rhetorical behavior, not only synonyms. Editorial Director selects one coherent system and surfaces alternatives only when they represent a material ECD choice.
 
-```text
-Internal proposition:
-Ordinary days, not only major events, make up most of a life and deserve to remain visible in the archive.
-```
+## Target-Language Drafting
 
-Only after the proposition is correct should Copywriter create audience-facing language.
+Write natively in the requested language and locale. Apply:
 
-Do not publish internal phrases such as:
+- `chinese-copy-craft.md`;
+- `english-copy-craft.md`;
+- `bilingual-transcreation.md` when paired versions are required.
 
-- "establish the archive unit";
-- "complete the cognitive reframe";
-- "make ordinary life visible";
-- "create emotional payoff";
-- "expand the semantic field."
+## Native-Language Copy Edit
 
-## Stage 3 — Candidate Development
+Review every visible line for:
 
-For high-impact lines, create at least three materially different approaches internally:
-
-1. **Direct** — clearest natural statement;
-2. **Image-led** — concrete scene or governing image;
-3. **Judgment / Reframe** — a precise claim, contrast, or reversal.
-
-High-impact lines include:
-
-- cover / first-frame line;
-- page title;
-- Core Line / Beat Statement;
-- payoff or closing line;
-- platform title;
-- first and final paragraph of companion copy.
-
-Supporting lines normally need at least two alternatives when the first draft is not clearly superior.
-
-Alternatives must differ in idea or rhetorical behavior, not only synonyms.
-
-Do not show all candidates to the ECD by default. Editorial Director selects one recommended system. Present alternatives only when they represent a material creative choice.
-
-## Stage 4 — Target-Language Drafting
-
-Write natively in the requested language.
-
-Do not draft in one language and mechanically translate unless the ECD explicitly asks for a literal translation.
-
-Apply:
-
-- `chinese-copy-craft.md` for Chinese;
-- `english-copy-craft.md` for English;
-- `bilingual-transcreation.md` for paired language versions.
-
-A sentence that is understandable but sounds translated fails.
-
-## Stage 5 — Copy Editor Pass
-
-Copy Editor reviews every visible line for:
-
-- grammatical completeness;
-- natural collocation;
-- subject, verb, object, modifier, and referent clarity;
-- semantic category compatibility;
-- punctuation and capitalization;
-- unnecessary words;
+- sentence completeness;
+- syntax and word order;
+- idiom and collocation;
+- stable subject and reference;
+- semantic precision;
+- punctuation and mechanics;
 - concrete versus abstract language;
-- rhythm and read-aloud behavior;
-- cliché and model-pattern saturation;
+- voice and register;
 - metaphor consistency;
+- rhythm and read-aloud behavior;
 - title / Core Line / support division of labor;
 - exact names, numbers, claims, and limitations.
 
-Copy Editor is allowed to rewrite, not merely flag.
+Copy Editor revises the line rather than merely flagging it.
 
-When a line cannot be repaired without changing page meaning, return to Editorial Director.
+## Cross-Page Audit
 
-## Stage 6 — Cross-Page Audit
+Review the sequence as one language system:
 
-Review the copy as one system.
-
-Check:
-
-- repeated sentence openings;
-- repeated grammatical frames;
-- overused keywords;
-- repeated contrast structures;
+- repeated openings and grammatical frames;
+- keyword saturation;
 - accidental tonal shifts;
-- metaphor collisions;
-- several pages making the same claim with different nouns;
-- cover promise and final payoff;
-- progression in language density and energy;
-- whether the companion copy adds rather than transcribes.
+- metaphor drift;
+- duplicated propositions;
+- cover promise and payoff;
+- density and energy progression;
+- relationship between cards and companion copy.
 
-A set of individually acceptable lines can still fail as a sequence.
+Individually acceptable lines can still fail as a set.
 
-## Stage 7 — Read-Aloud and Comprehension Tests
+## Comprehension tests
 
-For each high-impact line:
+### Read-aloud
 
-### Read-aloud test
+Read high-impact lines at natural speed and note false pauses, unclear stress, awkward clusters, or delayed meaning.
 
-Read at natural speaking speed.
+### Reverse paraphrase
 
-Check:
+Restate the line plainly. A changed meaning indicates instability.
 
-- where the breath and stress fall;
-- whether punctuation matches actual syntax;
-- whether the line sounds like a person rather than a translated brief;
-- whether the listener understands it once.
+### Project-specificity
 
-### Reverse-paraphrase test
+Check whether the line depends on this project's actual mechanism, people, actions, evidence, or judgment rather than generic emotional language.
 
-Restate the line in plain language.
+### Completion
 
-If the paraphrase reveals a different meaning, the line is unstable.
+Check whether the reader is unintentionally waiting for a missing grammatical or semantic relation.
 
-### Substitution test
+## Copy states
 
-Replace the project's key nouns with another topic.
+- Semantic Draft
+- Candidate Drafts
+- Selected Draft
+- Copyedited
+- Alignment-ready
+- Reopened
 
-If the sentence still works unchanged for almost any memory, travel, technology, or growth post, it is probably generic.
+Only Alignment-ready copy enters the recommended ECD-facing Script proposal.
 
-### Completion test
+## ECD-facing output
 
-Ask whether the line leaves the reader waiting for a missing grammatical or semantic completion.
+Present:
 
-Intentional suspense is allowed. Accidental incompleteness is not.
-
-## Stage 8 — Bilingual Transcreation
-
-When Chinese and English are both required:
-
-1. create a language-neutral semantic invariant;
-2. define locale and voice for each language;
-3. write each version independently;
-4. compare promise, factual boundary, emotional temperature, and page function;
-5. revise for parity without forcing identical syntax or length;
-6. run native-language QA separately;
-7. record layout consequences for Art Director.
-
-Do not make one language the permanent master unless the project requires it.
-
-## Stage 9 — Copy Quality Gate
-
-Apply `copy-quality-gate.md`.
-
-The Script cannot be marked `Alignment-ready` when:
-
-- any high-impact line has not received a native-language copy edit;
-- the copy is still first-draft wording;
-- a hard failure remains;
-- the score is below the required threshold;
-- bilingual versions have not passed independently;
-- the copy no longer expresses the Greenlit Treatment.
-
-## Copy Status
-
-Use:
-
-- `Semantic Draft` — meaning only; not publishable;
-- `Candidate Drafts` — alternatives under development;
-- `Selected Draft` — direction chosen, not yet copyedited;
-- `Copyedited` — native-language edit complete;
-- `Alignment-ready` — quality gate passed and integrated into the Script;
-- `Reopened` — ECD or downstream feedback requires revision.
-
-Do not label a first draft `final` because it fills every template field.
-
-## ECD-Facing Output
-
-The ECD-facing Creative Script Proposal should show:
-
-- the final recommended copy;
+- final recommended copy;
 - language and locale;
-- material copy choices or inventions;
-- complete body copy;
+- material language choices or inventions;
+- complete companion copy;
 - concise Copy QA result;
-- any genuinely material alternative only when a decision is needed.
+- a material alternative only when an ECD decision is genuinely required.
 
-Keep candidate lists, line-by-line edit history, scoring worksheets, and book-reference notes backstage unless requested.
+Candidate lists, edit history, and detailed worksheets remain backstage.
 
-## Failure Recovery
+## Feedback recovery
 
-If the ECD says the writing feels awkward, incomplete, uneducated, translated, generic, or badly written:
+When the ECD rejects the writing:
 
-1. do not defend the line by explaining its intended meaning;
-2. identify the first linguistic defect;
-3. reopen the Copy Desk, not the visual stage;
-4. preserve the page's accepted semantic proposition unless that proposition is itself wrong;
-5. produce revised candidates;
-6. run the full language-specific edit and cross-page audit;
-7. submit a new Script version or localized copy revision according to scope.
+1. classify the defect as premise, sequence, semantic proposition, or language craft;
+2. preserve valid page meaning where possible;
+3. reopen the relevant Copy Desk stage;
+4. revise the whole affected language system, not only the quoted line when the defect is systemic;
+5. rerun native-language and cross-page QA;
+6. submit a new Script or copy version.

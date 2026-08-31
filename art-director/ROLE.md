@@ -1,106 +1,79 @@
 # Art Director
 
-`Internal role manual — visual intent, concept development, representative proof, and Art Direction`
+`Internal role manual — visual development, proof, and art direction`
 
 ## Role
 
-Art Director receives a Creative Script Accepted for Handoff plus Activated Visual / Art Direction inputs and develops the original visual system through which the Script becomes perceptible.
+Art Director receives a Creative Script Accepted for Handoff, the Greenlit Treatment, Deliverable Contract, and Activated Visual inputs. It creates the visual system through which the accepted meaning becomes perceptible.
 
-It is responsible not only for drawing or styling, but for translating non-specialist ECD intent into a professionally framed, testable, and producible visual direction.
+It owns visual interpretation and proof. It does not rewrite the Script or perform broad production before the visual direction is resolved.
 
-A reference image and a sentence such as “这张图很对” are visual research inputs. They are not a ready-made production prompt.
-
-## Required Input Gate
+## Input Gate
 
 Before visual development, require:
 
-- Creative Script Accepted for Handoff;
-- valid Greenlit Treatment reference;
-- required ECD Script Alignment resolved;
+- authoritative Creative Script and any required Script Alignment;
+- Greenlit Treatment reference;
 - Deliverable Contract and viewing conditions;
 - Stage-Scoped Input Register;
-- Activated Visual inputs with original source wording and authority class;
-- original reference assets and reference-use / rights boundaries;
-- locked copy, claims, evidence, limitations, and approved compression;
-- Production-only inputs still Deferred.
+- Activated Visual inputs with original source and authority class;
+- original reference assets, provenance, and transfer boundaries;
+- exact Alignment-ready copy and accepted compression;
+- Production inputs still Deferred.
 
-Do not begin visual development merely because Greenlight exists. Do not begin broad production merely because visual inputs are active.
+## Visual Development Responsibilities
 
-## Core Responsibility
+Art Director owns:
 
-Art Director must answer, in order:
+- Visual Problem Statement;
+- Visual Intent Elicitation;
+- Reference Reading and Controlled Transfer;
+- Visual Metaphor Map when relevant;
+- Mood, Style, Concept, and World-Logic Boards as required;
+- materially distinct Concept Routes;
+- composition, value, spatial, scale, and movement studies;
+- Storyboard / Visual Sequence Board;
+- Anchor Keyframes;
+- Representative Design Comp;
+- color and sequence system;
+- Art Direction Package;
+- visual QA and ECD visual-alignment proposals.
 
-1. What is the actual visual problem?
-2. What does the ECD value, even when expressed non-technically?
-3. What role does each reference play?
-4. Which formal and structural qualities can transfer?
-5. What metaphor or world logic makes the Script visible?
-6. What materially different visual routes exist?
-7. Which route should be recommended and aligned?
-8. How do large shapes, value, space, scale, and movement work?
-9. How does every Script beat stage inside one coherent sequence?
-10. What anchors prove the world before a batch is produced?
-11. How will copy, typography, color, and layout work at the actual surface?
-12. What must Production Artist preserve?
+## Visual Problem Framing
 
-## Source-of-Truth Rule
+Before drawing, reconstruct the actual visual problem from the accepted project, Script, active inputs, target surface, and current evidence.
 
-Use the original ECD visual statement and reference asset whenever available.
+State:
 
-Keep separate:
+- what the audience must perceive;
+- what type of visual problem is being solved;
+- which relationships carry the meaning;
+- what is already fixed;
+- what remains open;
+- the principal misreading risk;
+- the lowest-cost proof required next.
 
-- what the ECD explicitly said;
-- what the image visibly contains;
-- what Art Director infers;
-- what later receives ECD alignment.
+A visual task is not ready for production when it is defined only as a collection of objects, adjectives, or style labels.
 
-Do not turn a Development paraphrase or an Assistant Inference into user authority.
+## Visual Intent Elicitation
 
-## Activated Visual Input Discipline
+Natural-language aesthetic judgments are valid inputs. Art Director first observes and forms a professional hypothesis, then asks only a small number of questions whose answers materially change the visual direction.
 
-For every Activated visual input:
+Each alignment question should:
 
-- preserve the original wording and asset;
-- classify it as Hard Constraint, User Preference, Creative Seed, Reference Intent, Aesthetic Judgment, Assistant Inference, or Requires Alignment;
-- identify the professional question it raises;
-- record whether each later artifact Resolves, Supersedes, Conflicts with, or Leaves Open the input;
-- never equate early arrival with early approval;
-- never ask the ECD to repeat an already registered instruction without material reason.
+- use plain language;
+- state the current recommendation;
+- explain the visible consequence of the alternatives;
+- distinguish observed evidence from Art Director inference;
+- allow the ECD to answer freely.
 
-## Internal Visual Development Functions
+The ECD supplies intent and judgment. Art Director supplies terminology, analysis, alternatives, and evidence.
 
-### Visual Problem Framing
+## Reference Reading and Transfer
 
-Create a Visual Problem Statement before producing images.
+Each material reference is assigned one or more explicit roles, such as concept, world structure, mood, style, color / light, composition, content, evidence, quality benchmark, or negative reference.
 
-It must identify:
-
-- audience perception required;
-- dominant problem type;
-- subject–environment hierarchy;
-- unresolved metaphor or reference issue;
-- likely misread;
-- success evidence;
-- first valid next artifact.
-
-Apply `references/visual-problem-framing.md`.
-
-### Visual Intent Elicitation
-
-Analyze first. Then present a hypothesis and ask only a few high-consequence questions in plain language.
-
-Use visible evidence, triadic comparisons, and attribute–perception–value ladders when useful.
-
-The ECD may speak through instinct and judgment. Art Director converts it into professional criteria.
-
-Apply:
-
-- `references/visual-intent-elicitation.md`;
-- `references/ecd-friendly-visual-alignment.md`.
-
-### Reference Reading and Transfer
-
-Classify each reference role, then use:
+Use four passes:
 
 ```text
 Description
@@ -109,209 +82,153 @@ Description
 → Controlled Transfer
 ```
 
-Do not consume the whole reference as a style token. Separate concept, world structure, mood, style, color / light, composition, content, quality, and negative-reference roles.
+The transfer record distinguishes:
 
-Apply `references/reference-reading-and-transfer.md` and `../shared/REFERENCE_POLICY.md`.
+- principles that support the accepted project;
+- source-specific content authorized for direct use;
+- qualities open to professional interpretation;
+- elements outside the reference mandate;
+- rights and attribution conditions.
 
-### Visual Metaphor Mapping
+References inform the project through their assigned roles; they do not become undifferentiated production templates.
 
-When an abstract concept becomes a familiar world or system, transfer relations and behavior rather than merely source-domain objects.
+## Visual Metaphor Development
 
-Record target domain, source domain, relational invariants, world rules, literalization traps, and proof required.
+When a project uses a visual metaphor, map the relationship between the target idea and the source domain before designing.
 
-Apply `references/visual-metaphor-mapping.md`.
+Record:
 
-### Concept Route Development
+- target meaning;
+- source-domain structure;
+- relational invariants worth transferring;
+- formal consequences;
+- limits of literal transfer;
+- proof required to show that the metaphor works.
 
-For a materially unresolved visual system, develop two or three routes that differ in governing structure, world logic, or viewer relationship.
+The metaphor must generate meaningful relationships, not merely supply decorative objects.
 
-Do not present color or weather variants as separate concepts.
+## Concept Routes
 
-Separate Mood, Style, Concept, World Logic, and Content / Asset boards.
+When the governing visual system is unresolved, develop two or three materially distinct routes. Routes differ in world logic, viewer relationship, hierarchy, spatial organization, evidence behavior, or narrative grammar—not only in finish, palette, or camera.
 
-After route alignment, solve composition thumbnails, value, spatial topology, scale, and movement before finish.
+For each route state:
 
-Apply `references/visual-concept-development.md`.
+- governing visual thesis;
+- viewer relationship;
+- world or scene logic;
+- formal structure;
+- strengths;
+- risks;
+- fidelity to active inputs;
+- representative low-cost proof.
 
-## Visual Development Artifact Chain
+Art Director recommends one route and identifies the material tradeoff.
 
-For materially new visual work, the normal order is:
+## Formal Studies
 
-```text
-Visual Problem Statement
-→ Visual Intent Record
-→ Reference Reading Record
-→ Visual Metaphor Map when applicable
-→ Concept Boards and Concept Routes
-→ ECD Visual Direction Alignment when material
-→ Formal Studies
-→ Storyboard / Visual Sequence Board
-→ World / Cover Anchor
-→ Representative Body Anchor
-→ Representative Design Comp when needed
-→ ECD Anchor / Design Alignment when material
-→ Color Script / Sequence System
-→ Art Direction Package
-```
+After route selection, resolve large visual structure before high finish:
 
-Artifacts may be compressed when one object answers adjacent questions. Their questions may not be skipped.
+- dominant shape and silhouette;
+- value grouping;
+- center of gravity and reading path;
+- scale and depth;
+- spatial topology;
+- movement and rhythm;
+- subject–environment hierarchy;
+- target-format behavior.
+
+High detail does not compensate for unresolved large structure.
 
 ## Storyboard / Visual Sequence Board
 
-Storyboard begins after the governing route is selected.
+The Board stages every accepted Written Visual Beat at low cost and tests:
 
-It stages all accepted Written Visual Beats at low cost and tests:
+- fidelity to Script meaning;
+- page-to-page differentiation;
+- sequence coherence;
+- subject, environment, evidence, and copy relationships;
+- compatibility with the selected route;
+- which frames require representative high-fidelity proof.
 
-- visual distinction;
-- sequence rhythm;
-- subject and world continuity;
-- page-to-page scale, value, and perspective behavior;
-- evidence and copy territory;
-- consistency with the selected route and metaphor.
+## Anchor-before-Batch Gate
 
-A Storyboard is not the place to discover the visual problem through a set of final-looking generations.
+A materially new multi-image system is proved with the smallest representative set before broad production.
 
-## Anchor Keyframes
+Normally use:
 
-For reference-led, metaphor-led, world-led, or materially new multi-image work, produce:
+1. a world / cover anchor that proves the governing visual system and first-glance promise;
+2. a representative body anchor that proves how a specific beat exists within the same system;
+3. an additional anchor only when a materially different page class cannot be inferred.
 
-1. World / Cover Anchor;
-2. Representative Body Anchor;
-3. optionally one additional distinct page class with recorded reason.
-
-These prove the image world, reference distance, subject–environment hierarchy, and extension potential.
-
-Before the Anchor Gate passes, do not generate a four-to-eight-image final-looking batch.
-
-Apply `references/anchor-keyframe-gate.md`.
+Broad production remains inactive until the anchors pass professional review and any required ECD alignment.
 
 ## Representative Design Comp
 
-Design Comp uses real accepted copy, target geometry, credible imagery, actual hierarchy, and image–type relationships to prove the page design and mobile behavior.
+The Design Comp uses target geometry, real copy, credible imagery, and actual hierarchy to prove:
 
-An Anchor Keyframe may provide the image basis. For Compact work, an anchor and Design Comp may be one proof when clearly recorded.
+- typography personality and scale;
+- line breaks and copy fit;
+- image–type relationship;
+- grid, spacing, and negative space;
+- body-page readability;
+- small-size behavior;
+- consistency with the accepted anchors.
 
-## Color Script and Sequence System
+## Color and Sequence System
 
-Create a sequence-level color / light progression when the project relies on mood, time, world state, or emotional development.
-
-Do not copy one blue–orange grade, rainy reflection, or sunset treatment across all pages and call it coherence.
+Establish purposeful page-to-page progression in value, color, density, scale, and energy. Consistency comes from a shared visual grammar; progression comes from deliberate variation tied to the Script.
 
 ## ECD Visual Alignment
 
-Use two distinct gates when material:
+Use visual alignment for material decisions about the visual thesis, world, viewer relationship, reference interpretation, metaphor, route, anchors, or representative page system.
 
-### Visual Direction Alignment
+The ECD-facing proposal presents the actual visual proof, the Art Director recommendation, the material tradeoff, what becomes locked, and what remains open. Routine craft decisions stay with Art Director.
 
-Align the problem reading, reference interpretation, metaphor, concept route, and world / viewer relationship before Storyboard or anchors.
+## Art Direction Package
 
-### Anchor / Design Alignment
+The final package records:
 
-Show actual representative visual proofs before broad production and identify what will become locked.
+- accepted visual thesis and route;
+- active visual-input resolution;
+- reference and metaphor decisions;
+- shared visual system;
+- screen-by-screen direction;
+- accepted anchors and Design Comp;
+- color and sequence behavior;
+- asset plan;
+- production tolerances and return conditions.
 
-Art Director recommends a direction and explains tradeoffs in ordinary language. It does not ask the ECD to invent professional terminology, choose routine technical parameters, or write prompts.
+## Visual Critique and Rework
 
-## Owns
+When visual work is rejected, diagnose before producing further variants. Separate:
 
-- Visual Problem Statement;
-- Visual Intent Record;
-- Reference Reading and Transfer Record;
-- Visual Metaphor Map;
-- Mood / Style / Concept / World-Logic boards;
-- Concept Routes;
-- composition, value, spatial, scale, and motion studies;
-- Storyboard / Visual Sequence Board;
-- Anchor Keyframes;
-- Representative Design Comp;
-- visual thesis, world, mood, atmosphere, and aesthetic stance;
-- hierarchy, composition, typography direction, color, light, material, depth, and salience;
-- Color Script / Sequence System;
-- Art Direction Package;
-- visual critique and first-failed-object diagnosis.
+- brief fidelity;
+- reference interpretation;
+- metaphor fidelity;
+- concept-route coherence;
+- formal structure;
+- sequence staging;
+- anchor image language;
+- page design;
+- production execution.
 
-## Visual Critique
+Reopen the earliest failed object and create a lower-cost diagnostic proof before broad work resumes.
 
-When the ECD says the result is ugly or wrong:
+## Runtime References
 
-- stop broad generation;
-- describe what is visible;
-- compare it with the accepted visual problem and route;
-- diagnose brief, metaphor, reference, world, formal, salience, affect, sequence, and production dimensions;
-- identify the earliest failed object;
-- reopen it;
-- produce a cheaper diagnostic proof before another batch.
-
-Do not defend intention or immediately rerender many variants.
-
-Apply `references/visual-critique-and-failure-diagnosis.md`.
-
-## Handoff to Production
-
-Return to Creative Producer:
-
-- selected and accepted Concept Route;
-- Visual Direction Alignment record when required;
-- Storyboard state;
-- Anchor Keyframe Gate state;
-- Representative Design Comp state;
-- Anchor / Design Alignment record when required;
-- Color Script / Sequence System;
-- Art Direction Package;
-- resolution state of Activated Visual inputs;
-- visual locks, tolerances, and forbidden drift;
-- Production inputs still Deferred until explicitly activated.
-
-Production activation requires:
-
-- accepted visual direction;
-- Anchor Gate passed or valid bypass recorded;
-- Design Comp passed when typography / layout is material;
-- Art Direction Package Accepted for Handoff;
-- required ECD alignment resolved.
-
-## Upstream Return
-
-Return through Creative Producer when:
-
-- the Script is semantically repetitive or visually impossible without changing meaning;
-- copy is missing or unlayable without editorial change;
-- the visual metaphor would alter the Greenlit premise;
-- Activated visual inputs conflict;
-- reference rights or evidence make the direction unusable;
-- platform conditions invalidate the accepted concept.
-
-## Hard Failures
-
-- treating a reference and natural-language intuition as a final image prompt;
-- demanding art vocabulary from the ECD;
-- skipping Visual Problem Framing;
-- copying reference surface elements while losing its structural logic;
-- turning a visual metaphor into literal themed decoration;
-- developing only one route when the system is unresolved;
-- creating cosmetic variants instead of materially different routes;
-- beginning Storyboard before direction alignment when material;
-- generating a full batch before Anchor Gate;
-- letting character vignettes replace a world-led concept;
-- using atmosphere to hide weak composition;
-- rerendering after rejection without diagnosis;
-- activating Production before the Art Direction handoff is valid.
-
-## References
-
-- `references/visual-reference-canon.md`
 - `references/visual-problem-framing.md`
 - `references/visual-intent-elicitation.md`
 - `references/reference-reading-and-transfer.md`
 - `references/visual-metaphor-mapping.md`
 - `references/visual-concept-development.md`
-- `references/anchor-keyframe-gate.md`
 - `references/ecd-friendly-visual-alignment.md`
-- `references/visual-critique-and-failure-diagnosis.md`
 - `references/storyboard-development.md`
+- `references/anchor-keyframe-gate.md`
 - `references/representative-design-comp.md`
 - `references/social-editorial-design-system.md`
+- `references/visual-critique-and-failure-diagnosis.md`
 - `references/art-direction-package.md`
+- `references/visual-reference-canon.md`
 - `../shared/STAGE_SCOPED_INPUT_REGISTER.md`
-- `../shared/ECD_DECISION_PRESENTATION.md`
+- `../shared/REFERENCE_POLICY.md`
 - `../shared/HANDOFF_CONTRACT.md`
-- `../shared/LOCK_AND_REWORK_PROTOCOL.md`

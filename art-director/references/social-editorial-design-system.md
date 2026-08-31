@@ -2,293 +2,146 @@
 
 ## Purpose
 
-This document contains the design-only method used by Art Director after an accepted Creative Script exists.
+This document defines the design-only method used after an accepted Creative Script and selected visual route exist.
 
-It does not determine the project premise, communication mode, sequence, written Visual Beats, or final copy. Those belong upstream. Its job is to turn accepted editorial meaning into a strong, mobile-native visual system.
+It translates editorial meaning into a mobile-native visual system. It does not determine premise, sequence, or copy.
 
-## Start From Viewing Conditions
+## Viewing conditions
 
-Before choosing a visual solution, identify:
+Establish:
 
-- aspect ratio and target pixel dimensions;
-- feed thumbnail versus full-screen behavior;
-- swipe, scroll, or static viewing;
+- aspect ratio and pixel dimensions;
+- feed preview versus full-screen behavior;
+- swipe, scroll, or static use;
 - UI overlays and safe areas;
-- expected device and physical viewing width;
-- whether evidence must be inspected;
-- whether companion copy exists outside the image.
+- approximate physical viewing width;
+- evidence-inspection requirements;
+- companion-copy relationship.
 
-A social page is not a print page reduced to phone size.
+## Perceptual hierarchy
 
-## Perceptual Hierarchy
+Design intentional perceptual passes:
 
-Design for three perceptual passes:
+1. first glance — dominant subject, gesture, fact, or visual relationship;
+2. second glance — title or decisive explanation;
+3. third glance — support, evidence, attribution, or limitation.
 
-1. **First glance** — hero, dominant gesture, or decisive fact;
-2. **Second glance** — title or explanatory statement;
-3. **Third glance** — support, evidence, attribution, or limitation.
+Not every screen needs three layers, but the priority remains explicit.
 
-Not every screen needs three layers, but the order must be intentional.
+## Dominant visual action
 
-## One Dominant Gesture
+Each screen has one primary visual action that carries its page function. Secondary elements support rather than compete.
 
-Every screen needs one primary visual act, such as:
+The dominant action may be image-led, type-led, evidence-led, diagram-led, spatial, comparative, or intentionally quiet.
 
-- one hero subject;
-- one enormous word or numeral;
-- one extreme crop;
-- one geometric mass;
-- one visual metaphor;
-- one evidence object;
-- one strong diagonal;
-- one large empty field;
-- one decisive comparison.
+## Scale and salience
 
-Avoid multiple competing focal gestures.
+Use meaningful differences in scale, contrast, position, depth, and density. Evaluate hierarchy in representative proofs rather than treating numeric ratios as fixed rules.
 
-## Scale Hierarchy
+## Typography as visual structure
 
-Use meaningful scale differences rather than adjacent text sizes.
+Typography may establish geometry, rhythm, emphasis, depth, or interaction with imagery when that relationship supports the Script.
 
-Useful starting heuristics, not rigid rules:
+Control:
 
-- dominant title : body size ≈ 6:1 to 12:1;
-- lead line : secondary line ≈ 1.7:1 to 3:1;
-- a feed-first dominant title may occupy roughly 12–30% of canvas height and may be larger when typography is the hero.
+- recognition under crop or overlap;
+- semantic line breaks;
+- scale hierarchy;
+- positive and negative space;
+- depth order;
+- consistency across variants.
 
-Judge actual legibility and composition in the Design Comp rather than treating ratios as compliance targets.
+## Depth and physical presence
 
-## Typography as Image
+Use occlusion, scale, perspective, focus, contact, value, and atmosphere to establish intentional planes.
 
-Typography may become structural imagery when it supports meaning.
+When a subject is meant to feel dimensional, preserve believable volume, perspective, grounding, material response, and edge behavior.
 
-Possible moves:
+## Grid and negative space
 
-- crop letters at canvas edges;
-- split words for shape and rhythm;
-- place type behind a subject;
-- allow controlled overlap;
-- use oversized numerals;
-- rotate secondary information;
-- contrast outline and solid forms;
-- let type establish the underlying geometry.
+Build an underlying grid appropriate to the surface and content. Break it only when the violation strengthens meaning or energy.
 
-When type sits behind a subject, preserve enough letter anatomy for recognition. Overlap should create depth, not accidental obstruction.
+Treat empty space as active structure for focus, pace, hierarchy, evidence isolation, and readability.
 
-Do not default to “title at top, image in middle, caption below.”
+## Text readability
 
-## Depth Model
+Design text and image together. Establish quiet zones, local contrast, line length, scale, and depth relationships before relying on auxiliary containers.
 
-Use two to four intentional planes:
+Any container, label, tag, or module should belong to the concept and information system rather than act as an unplanned repair.
 
-1. background or environment;
-2. large typography or graphic structure;
-3. hero subject or evidence object;
-4. selected foreground text or detail when necessary.
+## Cover and body grammar
 
-Depth may be established through occlusion, scale, perspective, focus, light, contact shadow, and atmospheric separation.
+The cover establishes the opening promise and visual identity at feed speed.
 
-## Preserve Physical Presence
+Body pages preserve the shared grammar while varying image / type emphasis, density, scale, evidence, and spatial behavior according to each beat.
 
-For products, figurines, people, devices, 3D models, or physical objects:
+The ending releases, redirects, or resolves the visual energy according to the Script payoff.
 
-- preserve volume;
-- preserve perspective;
-- preserve realistic shading and material response;
-- preserve contact and depth shadows;
-- preserve meaningful edge quality;
-- avoid turning the subject into a flat sticker cutout unless flatness is the explicit concept.
+## Page archetypes
 
-A dimensional subject must not become visually thin merely because masking or overlap is difficult.
+Choose according to the accepted Written Visual Beat:
 
-## Grid First, Break Deliberately
+- hero statement;
+- question or tension;
+- scene or transformation;
+- annotated evidence;
+- process or flow;
+- comparison;
+- dominant fact;
+- principle or quotation;
+- pause;
+- payoff or conclusion.
 
-Build an underlying grid, then permit controlled violations that add energy.
+Archetypes guide design behavior, not fixed templates.
 
-Useful starting systems:
-
-- 6 columns for simple vertical poster or social pages;
-- 8 or 12 columns for editorial or evidence-dense work;
-- 4–8 modular rows for recurring sequence alignment.
-
-The grid creates coherence. One or two intentional violations create tension. Random misalignment is not experimentation.
-
-## Negative Space
-
-Empty space is active structure. Use it to amplify:
-
-- focus;
-- hierarchy;
-- tension;
-- pace;
-- luxury or restraint;
-- evidence isolation;
-- readability.
-
-Do not fill space reflexively with decorative microcopy, icons, cards, or labels.
-
-## Text Readability Without Automatic Boxes
-
-Do not place opaque rectangles behind text merely because the image is difficult.
-
-Try, in order:
-
-1. reposition text or subject;
-2. change scale, weight, width, or line break;
-3. use a genuine quiet zone in the image;
-4. adjust local exposure or contrast;
-5. change text color;
-6. use subtle shadow, outline, or gradient when compatible;
-7. use a box only when it belongs to the concept, such as a label, ticket, tag, interface, or data module.
-
-A box must be a designed object, not emergency camouflage.
-
-## Cover Visual Modes
-
-Choose after the Creative Script is accepted.
-
-### Poster
-
-One idea, one punch. Use a dominant concept, strong hero, low information density, and immediate feed impact.
-
-### Magazine-Cover Logic
-
-One visual world with multiple meaningful entry points. Use only when secondary lines provide distinct editorial value rather than decorative texture.
-
-### Hybrid
-
-Poster-level focus with selected editorial metadata or secondary hierarchy. Common for product, technology, fashion, culture, and launch stories.
-
-The mode is a visual hierarchy decision, not an alternative editorial premise.
-
-## Body-Page Archetypes
-
-Choose according to each accepted Visual Beat:
-
-- **Hero Statement** — strong image plus one decisive line;
-- **Question / Tension** — one legitimate unresolved issue;
-- **Annotated Evidence** — screenshot, object, output, or document with readable annotation;
-- **Process / Flow** — a few major steps, not a miniature manual;
-- **Before / After** — equivalent comparison and one takeaway;
-- **Data / Number** — one dominant fact with necessary context;
-- **Quote / Principle** — one memorable statement with poster-level scale;
-- **Payoff / Conclusion** — reduced density and clear consequence;
-- **Quiet / Pause** — deliberate visual breath when sequence rhythm requires it.
-
-Do not force every page into the same template.
-
-## Sequence Rhythm
-
-Maintain continuity through:
-
-- type family and hierarchy logic;
-- grid and margins;
-- color relationships;
-- image treatment;
-- recurring identifiers when useful;
-- consistent visual voice.
-
-Create progression through variation in:
-
-- image-led versus type-led pages;
-- density;
-- scale;
-- evidence intensity;
-- spatial depth;
-- composition energy;
-- pause and payoff.
-
-The cover normally has low density and high impact. Explanatory or evidence pages may become denser. The ending should release or redirect energy rather than remain equally loud.
-
-## Evidence Treatment
+## Evidence treatment
 
 When evidence carries the claim:
 
-- make it large enough to inspect;
-- preserve source identity and relevant context;
-- distinguish evidence from decorative UI imitation;
-- place annotations outside critical content when possible;
-- avoid covering the proof with text blocks;
+- preserve authenticity and relevant context;
+- make critical content inspectable;
+- locate annotations without obscuring proof;
 - keep limitations near the evidence they qualify;
-- do not replace a difficult screenshot with a prettier fictional one unless clearly labeled and editorially permitted.
+- distinguish evidence from reconstructed or illustrative material.
 
-## Mobile Readability
+## Sequence rhythm
 
-Mandatory visual checks:
+Create continuity through accepted typography, grid, color relationships, image treatment, and recurring identifiers.
 
-### Thumbnail Test
+Create progression through purposeful changes in:
 
-At feed-preview size, can the viewer identify the hero, dominant line, and basic meaning?
+- density;
+- value;
+- color;
+- scale;
+- depth;
+- viewpoint;
+- image / type balance;
+- evidence intensity;
+- movement and pause.
 
-### Blur / Squint Test
+## Mobile proof
 
-When detail is suppressed, is the hierarchy still obvious?
+Run:
 
-### Actual-Width Test
+- feed-preview recognition;
+- blur / squint hierarchy;
+- actual-width readability;
+- UI-overlay and safe-area review;
+- exact-copy and line-break verification.
 
-At approximate physical mobile width, can required on-screen copy be read comfortably without zooming?
+## Visual quality gate
 
-### UI-Overlay Test
+Evaluate:
 
-Do platform chrome, crop behavior, or safe areas cover essential content?
+- first-glance meaning;
+- hierarchy and reading path;
+- mobile readability;
+- image–type integration;
+- composition and negative space;
+- subject presence and depth;
+- evidence integrity;
+- sequence coherence and differentiation;
+- originality and fidelity to the selected visual route.
 
-Secondary microcopy may recede. The primary message and required limitations may not disappear.
-
-## Quality Gate
-
-Score representative and final visual work out of 100:
-
-- 20 — first visual impact and saliency;
-- 20 — hierarchy and reading path;
-- 15 — mobile readability;
-- 15 — image–type integration and depth;
-- 10 — typography craft;
-- 10 — composition, grid, and negative space;
-- 5 — sequence coherence and differentiation;
-- 5 — originality and concept integrity.
-
-Default target: **85/100**.
-
-A numerical score does not excuse a critical failure. Any of the following requires revision regardless of total:
-
-- primary meaning unreadable at target size;
-- required evidence or limitation hidden;
-- reference scene copied by cosmetic substitution;
-- dimensional subject flattened unintentionally;
-- visual direction contradicting the Script;
-- final text rendered inaccurately.
-
-## Failure Blacklist
-
-Reject or revise designs with:
-
-- timid title isolated in a generic top safe zone;
-- all text at similar scale;
-- excessive centered alignment without conceptual reason;
-- every text block placed on a colored rectangle;
-- decorative microtype too small for mobile;
-- image and typography behaving like unrelated templates;
-- identical page templates repeated across the sequence;
-- paragraphs shrunk instead of edited;
-- multiple visual centers competing on one screen;
-- random crops that damage the subject without adding tension;
-- editorial decoration without editorial hierarchy;
-- gratuitous rounded cards substituting for composition;
-- evidence replaced by cinematic decoration;
-- title–subject overlap that destroys recognition;
-- body pages designed as miniature A4 magazine pages;
-- final image text delegated to generation when exact typography is required.
-
-## Design Comp Gate
-
-Before broad production, use the Representative Design Comp to prove:
-
-- title scale and hierarchy;
-- real copy fit;
-- image–type relationship;
-- subject volume and masking;
-- cover and body grammar;
-- target-device readability;
-- whether the visual system deserves ECD alignment.
-
-Do not claim the visual direction is resolved when these questions exist only in prose.
+A design proceeds when the representative proof clearly expresses the accepted visual premise under target viewing conditions and can be executed without hidden redesign.

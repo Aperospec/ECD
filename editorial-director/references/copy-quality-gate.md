@@ -2,242 +2,117 @@
 
 ## Purpose
 
-This gate determines whether audience-facing Chinese or English copy is ready to enter an ECD-facing Creative Script Proposal.
+This gate determines whether Chinese, English, or bilingual audience copy is ready to appear as the recommended wording in an ECD-facing Creative Script Proposal.
 
-A Script may have correct page architecture and still fail because the language is unfinished, unnatural, generic, translated, or unfaithful to the Greenlit Treatment.
+A structurally complete Script can still fail because its language is inaccurate, incomplete, non-idiomatic, generic, or inconsistent.
 
-Copy quality is therefore a separate professional gate.
+## Gate A — Treatment Fidelity
 
-## Two-Gate Model
+Confirm:
 
-### Gate A — Treatment Fidelity
-
-Before judging style, confirm that the copy still expresses the Greenlit project.
-
-Check:
-
-- governing creative mechanism;
+- governing project mechanism;
 - subject and agency;
 - audience takeaway;
-- factual / speculative boundary;
-- required exclusions;
-- relationship among page examples and the core proposition.
+- factual and speculative boundary;
+- evidence and limitation;
+- relationship between examples and the core proposition.
 
-If the Script has become another project, stop. Do not polish it.
+If the Script is telling a different project, return to Editorial Architecture before language polish.
 
-### Gate B — Language Craft
+## Gate B — Language Craft
 
-After fidelity passes, judge the copy in the target language and locale.
+Judge each target-language version for:
 
-A sentence that is technically understandable but not idiomatic, complete, or publishable fails.
+- semantic precision and completeness;
+- grammar, usage, and punctuation;
+- idiom and collocation;
+- stable subject and reference;
+- specificity and concreteness;
+- copy-layer hierarchy;
+- voice, metaphor, and rhythm;
+- locale consistency;
+- cross-page progression;
+- bilingual parity when applicable.
 
-## Required Status
+## Copy states
 
-Copy may use these states:
+- Semantic Draft
+- Candidate Drafts
+- Selected Draft
+- Copyedited
+- Alignment-ready
+- Reopened
 
-- `Semantic Draft`;
-- `Candidate Drafts`;
-- `Selected Draft`;
-- `Copyedited`;
-- `Alignment-ready`;
-- `Reopened`.
+Only Alignment-ready copy may be presented as the final recommendation for Script Alignment.
 
-Only `Alignment-ready` copy may be presented as the recommended final wording in a Script Alignment request.
+## Scoring rubric
 
-## Hard Failures
+Score each target-language version out of 100:
 
-Any hard failure blocks Alignment regardless of score.
+| Dimension | Weight |
+|---|---:|
+| Treatment fidelity | 20 |
+| Semantic precision and completeness | 15 |
+| Grammar, usage, and mechanics | 15 |
+| Idiom and collocation | 15 |
+| Specificity and concreteness | 10 |
+| Title / Core Line / support hierarchy | 10 |
+| Voice, metaphor, and rhythm | 10 |
+| Project specificity and freshness | 5 |
 
-### Cross-language hard failures
+Passing standard:
 
-- copy changes the Greenlit Treatment's governing mechanism;
-- the main line is grammatically or semantically incomplete by accident;
-- audience copy contains internal strategy or workflow language;
-- subject, agency, certainty, negation, or limitation is wrong;
-- several pages repeat the same proposition with different nouns or examples;
-- title and Core Line contradict or merely duplicate each other;
-- a governing metaphor collides with another metaphor and changes the concept;
-- a key line is generic enough to fit unrelated projects unchanged;
-- first-draft wording is submitted without a native-language edit;
-- an ECD correction is explained away instead of incorporated into a new Script version;
-- the ECD must repair a basic sentence before evaluating the idea.
+- total at least 85;
+- Treatment fidelity at least 17 / 20;
+- idiom and collocation at least 12 / 15;
+- no critical defect.
 
-### Chinese hard failures
+High-impact display lines target 90 or above.
 
-- incomplete conditional, comparison, or judgment;
-- unnatural collocation or semantic category mismatch;
-- unstable pronoun or omitted subject affecting meaning;
-- punctuation used to hide malformed syntax;
-- forced symmetry producing unnatural Chinese;
-- template-like AI phrasing carrying the page's main meaning.
+## Critical defects
 
-### English hard failures
+A critical defect includes:
 
-- unintended fragment, comma splice, malformed conditional, or agreement error;
-- clearly non-idiomatic collocation or translationese in a key line;
-- unclear pronoun antecedent;
-- abstract noun chain replacing the main action;
-- mixed locale mechanics;
-- generic brand cliché carrying the main idea.
+- unintended grammatical or semantic incompleteness;
+- incorrect subject, agency, certainty, negation, evidence, or limitation;
+- clearly non-idiomatic wording in a high-impact line;
+- internal strategy language presented as public copy;
+- several pages repeating the same proposition;
+- title and Core Line contradicting or merely duplicating each other;
+- metaphor drift that changes the project;
+- first-draft wording submitted without native-language copyediting;
+- one bilingual version changing meaning or omitting a material boundary;
+- a line so generic that it no longer expresses the project's distinct mechanism.
 
-### Bilingual hard failures
+## Evaluation procedure
 
-- one version changes agency, promise, or certainty;
-- required limitation appears in only one language;
-- one version is a literal calque rather than idiomatic copy;
-- one language is made shorter by deleting necessary meaning;
-- layout parity is achieved through unreadable type or semantic loss.
+1. Restate intended meaning in plain internal language.
+2. Compare the audience line with that meaning.
+3. Apply the language-specific craft protocol.
+4. Read high-impact lines aloud.
+5. Scan cross-page patterns and metaphor consistency.
+6. Review title, Core Line, support, and body-copy division of labor.
+7. For bilingual work, run native QA separately and parity QA afterward.
+8. Record revisions and status.
 
-## Scoring Rubric
-
-Score each target-language version out of 100.
-
-| Dimension | Weight | Question |
-|---|---:|---|
-| Treatment fidelity | 20 | Is this still the Greenlit project, with correct subject, agency, mechanism, and boundary? |
-| Semantic precision and completeness | 15 | Does every line say a complete, stable, accurate thing? |
-| Grammar, usage, and punctuation | 15 | Is the language mechanically correct for its locale? |
-| Idiomaticity and collocation | 15 | Would an experienced native editor accept the wording as natural? |
-| Specificity and concreteness | 10 | Does the copy use this project's people, actions, relations, and images rather than generic abstractions? |
-| Copy hierarchy | 10 | Do title, Core Line, support, and body copy divide the work effectively? |
-| Voice, metaphor, and rhythm | 10 | Is the language coherent, readable aloud, and consistent in emotional temperature and metaphor? |
-| Freshness and non-template quality | 5 | Does the wording avoid generic AI, brand, and pseudo-literary patterns? |
-
-Passing threshold:
-
-- overall: **85 / 100**;
-- Treatment fidelity: at least **17 / 20**;
-- idiomaticity and collocation: at least **12 / 15**;
-- no hard failure.
-
-For cover lines, page titles, final payoff lines, and platform titles, target **90 / 100**.
-
-## Evaluation Procedure
-
-### 1. Meaning check
-
-Write the intended meaning in plain internal language.
-
-Compare the audience line against it.
-
-### 2. Native-language edit
-
-Apply the Chinese or English craft protocol.
-
-Do not self-certify based on fluency alone.
-
-### 3. Read-aloud check
-
-Read high-impact lines at natural speed.
-
-Record any hesitation, ambiguity, false stress, or translation rhythm.
-
-### 4. Cross-page pattern scan
-
-Count:
-
-- repeated openings;
-- repeated grammatical frames;
-- repeated contrast formulas;
-- repeated abstract nouns;
-- repeated metaphors;
-- repeated claims.
-
-### 5. Substitution test
-
-Replace project nouns with unrelated topics.
-
-If the line remains usable without revision, it is likely generic.
-
-### 6. Bilingual parity check
-
-When applicable, compare both versions by function and meaning rather than word count.
-
-### 7. Final selection
-
-Select one coherent copy system. Do not assemble the final Script from individually clever lines that belong to different voices.
-
-## Copy QA Record
-
-Maintain internally:
+## Gate record
 
 ```markdown
-# Copy QA Record
-
-Project:
-Script version:
 Language / locale:
-Copy Brief reference:
-Treatment fidelity result:
-
-| Line / section | Status | Main issue | Revision | Score | Hard failure |
-|---|---|---|---|---:|---|
-| | | | | | |
-
-Cross-page pattern findings:
-Metaphor consistency:
-Read-aloud result:
-Bilingual parity result:
-Overall score:
-Hard failures remaining:
-Copy status:
-Ready for Script Alignment: [yes / no]
+Treatment fidelity:
+Semantic precision:
+Grammar / mechanics:
+Idiom / collocation:
+Specificity:
+Copy hierarchy:
+Voice / metaphor / rhythm:
+Project specificity:
+Critical defect:
+Total score:
+Status:
+Required revision:
 ```
 
-The worksheet normally remains backstage. The ECD-facing Script includes only a concise Copy QA summary.
+## Feedback recovery
 
-## ECD-Facing Copy QA Summary
-
-Before Script Alignment, disclose:
-
-```text
-Language / locale:
-Copy status: Alignment-ready
-Native-language copy edit: pass
-Treatment fidelity: pass
-Cross-page repetition: pass / note
-Metaphor and voice consistency: pass / note
-Bilingual parity: pass / not applicable
-Material copy invention requiring alignment:
-```
-
-Do not present a numeric score as proof that weak writing is good. The score is a diagnostic and release threshold.
-
-## Reopening Rules
-
-### Localized line defect
-
-When one line has a grammar, collocation, rhythm, or clarity problem but the page proposition is correct:
-
-- reopen Copy Desk only;
-- preserve page architecture and Visual Beat;
-- revise related title / Core Line / support as a unit;
-- re-run cross-page pattern checks.
-
-### Systemic voice defect
-
-When several lines sound generic, translated, pseudo-literary, or inconsistent:
-
-- reopen the Copy Brief and whole copy system;
-- do not patch isolated synonyms;
-- generate new candidate directions;
-- re-edit the full sequence and body copy.
-
-### Treatment-fidelity defect
-
-When language reveals that the Script is telling the wrong project:
-
-- return to Editorial Director's architecture;
-- preserve Greenlit Treatment;
-- rebuild the affected beats before writing new copy.
-
-## Release Standard
-
-Creative Producer must not request `Script Alignment` until:
-
-- the Script passes Treatment Fidelity;
-- every visible line is Copyedited;
-- key lines pass the higher threshold;
-- complete body copy passes the same voice and language standard;
-- bilingual versions pass independently when required;
-- the ECD-facing proposal displays only Alignment-ready recommended copy.
+When the ECD identifies weak writing, withdraw the affected Alignment request, classify the defect, reopen the relevant Copy Desk stage, revise the whole affected language system when necessary, and submit a new version only after the gate passes.

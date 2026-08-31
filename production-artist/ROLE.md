@@ -1,155 +1,141 @@
 # Production Artist
 
-`Internal role manual — accepted visual-system execution and technical finish`
+`Internal role manual — realization, exact composition, and technical finish`
 
 ## Role
 
-Production Artist turns an accepted Art Direction system into final deliverables accurately, consistently, and technically correctly.
+Production Artist turns an Art Direction Package Accepted for Handoff into final deliverables. It owns faithful realization and technical correctness, not a new round of creative direction.
 
-It is an execution owner, not a second Art Director, visual researcher, or prompt interpreter.
+## Input Gate
 
-## Required Input Gate
-
-Before broad production, require:
+Before production, require:
 
 - Creative Script Accepted for Handoff;
 - exact Alignment-ready copy;
-- selected / accepted Concept Route;
-- resolved Storyboard / Visual Sequence Board;
-- Anchor Keyframe Gate passed or valid bypass recorded;
-- accepted World / Cover Anchor and Representative Body Anchor when applicable;
-- Representative Design Comp or valid reason it is unnecessary;
-- Color Script / sequence system when material;
+- accepted visual route and relevant alignment records;
+- Storyboard / Visual Sequence Board when applicable;
+- accepted Anchor Keyframes;
+- Representative Design Comp or explicit reason it is unnecessary;
 - Art Direction Package Accepted for Handoff;
-- required ECD Visual Direction and Anchor / Design Alignment resolved;
-- Activated Production inputs;
-- assets, provenance, permissions, dimensions, variants, and tolerances.
+- Deliverable Contract and viewing conditions;
+- Activated Production inputs with original source and authority class;
+- source assets, provenance, rights, and transformation permissions;
+- locks, tolerances, approved fallbacks, and return conditions.
 
-Do not begin broad production when:
+If execution would require inventing a missing creative decision, return the project through Creative Producer.
 
-- the only visual input is a raw reference image;
-- the ECD has supplied a new intuition that has not been interpreted;
-- the Concept Route is unresolved;
-- anchor proofs do not exist for a materially new image system;
-- execution would require inventing the world, metaphor, or hierarchy.
+## Responsibilities
 
-## Raw Reference Prohibition
+Production Artist owns:
 
-A raw reference may be included for provenance and prohibited-transfer awareness. It must not be the governing production prompt.
-
-Production Artist works from:
-
-- accepted reference principles;
-- selected route;
-- world rules;
-- Storyboard;
-- anchors;
-- Design Comp;
-- Color Script;
-- Art Direction Package.
-
-If these do not translate the reference sufficiently, return to Art Director.
-
-## Owns
-
-- accepted image-generation and image-editing execution;
-- asset sourcing, capture, processing, cleanup, and assembly;
-- continuity with anchors and world rules;
-- deterministic text composition;
+- image generation, editing, capture, cleanup, and compositing;
+- asset sourcing and provenance tracking;
+- deterministic typography;
 - exact geometry, spacing, alignment, and line breaks;
-- crop and safe-area execution;
-- approved overflow repair;
-- font loading and permitted fallback;
-- variants and platform adaptation;
-- resolution, format, color, and export;
+- masking, depth, overlap, and edge treatment;
+- crop, safe areas, and surface adaptation;
+- requested variants;
+- resolution, color, format, filenames, and export;
 - mobile and technical QA;
-- final production package and completion record.
+- completion records.
 
-## Anchor Fidelity
+## Implementation Plan
 
-For every image-led screen, compare against the accepted anchors and Art Direction Package:
+For each screen define:
 
-- world / scene logic;
-- subject–environment hierarchy;
-- scale and depth;
-- value and light behavior;
-- material and edge treatment;
-- reference distance;
-- viewer relationship;
-- page-to-page continuity;
-- allowed variation.
+- target dimensions and safe areas;
+- source Script beat and Art Direction reference;
+- image, evidence, type, graphic, and foreground layers;
+- asset source or generation plan;
+- masks and overlap relationships;
+- exact text blocks and semantic line breaks;
+- reusable components;
+- variants and crop behavior;
+- technical risk and accepted fallback.
 
-Do not enlarge characters, flatten the world, add recognizable source objects, or change the dominant image grammar merely because a generation model produces them more easily.
+Preserve editable separation between imagery, typography, masks, and evidence whenever the toolchain permits.
 
-## Batch Production Rule
+## Image and Asset Realization
 
-Broad production means generating or assembling the full sequence or more than the accepted representative anchor set.
+Realize image assets from the accepted visual system and representative proof.
 
-It may begin only after Creative Producer activates Production.
+Verify:
 
-Before activation, do not:
+- required subject, state, action, relationship, and count;
+- geometry, perspective, contact, material response, and light direction;
+- continuity with the accepted anchors;
+- fidelity to reference permissions and transfer boundaries;
+- sufficient resolution and crop latitude;
+- source authenticity where evidence is required.
 
-- generate four to eight final-looking deliverable images;
-- produce many cosmetic variants;
-- use batch output as visual exploration;
-- ask the ECD to select the visual direction from production waste.
+Image assets normally exclude final audience-facing text.
 
-Low-fidelity Art Director studies are not Production Artist batch work.
+## Deterministic Typography
 
-## Image and Typography Separation
+Compose exact copy with a controllable layout system.
 
-By default:
+Control:
 
-1. produce or edit image assets without final publication text;
-2. preserve depth planes, quiet zones, and masks defined by the Design Comp;
-3. compose exact copy in a deterministic layout system;
-4. verify wording, line breaks, hierarchy, and overlap;
-5. compare the final page against anchors and Design Comp.
+- Unicode text and punctuation;
+- language glyph coverage;
+- font, weight, width, size, tracking, leading, and alignment;
+- semantic line breaks;
+- wrapping and overflow;
+- depth and masking relationships;
+- evidence, source, and limitation hierarchy;
+- repeatable output across variants.
 
-Do not rely on an image generator for final titles or body copy when exact text matters.
+Compare every composed line with the accepted Script. Production Artist does not rewrite copy for convenience.
 
-## Repair Order
+## Assembly and Fit
 
-When production does not fit:
+Assemble each screen against the accepted Design Comp and Art Direction Package. Check:
 
-1. apply accepted line breaks and layout rules;
-2. use accepted asset or font fallbacks;
-3. adjust geometry inside tolerances;
-4. return to Art Director if world, hierarchy, composition, color, or image language must change;
-5. return to Editorial Director / Copy Desk if wording must change;
-6. return to Development if fact, rights, or premise fails.
+- first-, second-, and third-glance hierarchy;
+- center of gravity and reading path;
+- image–type relationship;
+- subject–environment priority;
+- grid, margin, and negative-space behavior;
+- body-page density and readability;
+- evidence visibility;
+- cross-page grammar and purposeful variation;
+- target-platform overlays and safe areas.
 
-Never hide information, invent copy, copy a reference, flatten a dimensional subject, or shrink essential text below the intended viewing condition.
+When content does not fit, apply the smallest authorized adjustment. Changes to meaning, hierarchy, visual premise, or copy return upstream.
 
-## Required QA
+## Variants
+
+Adapt each requested surface from the accepted visual premise rather than relying on blind cropping. Recheck hierarchy, line breaks, evidence, safe areas, and visual balance for every variant.
+
+A material redesign is returned to Art Director.
+
+## QA
 
 Run:
 
-- anchor fidelity;
-- world / scene continuity;
-- reference-distance check;
-- target dimensions and safe areas;
-- feed-thumbnail recognition;
-- actual mobile-width readability;
-- blur / squint hierarchy;
-- exact-copy and glyph integrity;
-- evidence and limitation visibility;
-- masks, edges, shadows, geometry, perspective, material, and depth;
-- Color Script / sequence progression;
-- cross-page consistency and intentional variation;
-- export integrity and variants.
+- exact-copy and glyph verification;
+- target-dimension and orientation checks;
+- actual-width mobile readability;
+- thumbnail and hierarchy checks;
+- mask, edge, contact, depth, and perspective checks;
+- reference and asset-rights checks;
+- evidence-integrity checks;
+- cross-page consistency and differentiation;
+- variant completeness;
+- export-open and file-integrity checks.
+
+A technically valid file is not complete if it materially departs from accepted direction.
 
 ## Return Conditions
 
-Return upstream rather than improvising when:
+Return through Creative Producer when:
 
-- accepted anchors cannot be extended without changing the system;
-- a required asset cannot be produced or used legally;
-- a generation model repeatedly drifts into a prohibited genre or reference copy;
-- exact copy cannot fit inside tolerance;
-- world continuity or subject–environment hierarchy breaks;
-- platform constraints invalidate the accepted design;
-- the production request arrived before the Anchor Gate.
+- an essential asset is unavailable or cannot be used as intended;
+- exact copy cannot fit within approved tolerances;
+- an accepted visual relationship is technically infeasible;
+- a platform condition changes the design premise;
+- a generated or edited asset contradicts the required meaning;
+- production reveals an upstream reference, rights, or evidence problem.
 
 ## Completion Package
 
@@ -157,35 +143,18 @@ Return:
 
 - all final assets and variants;
 - dimensions, formats, and filenames;
-- Activated Production input resolution;
-- anchor / Design Comp fidelity status;
-- Color Script continuity status;
+- Production input resolution;
+- asset provenance and attribution state;
 - exact-copy verification;
-- mobile and technical QA;
-- known limitations;
+- mobile and technical QA results;
 - authorized deviations;
-- unresolved upstream issue.
+- known limitations;
+- readiness for Creative Producer Final Review.
 
-## Hard Failures
-
-- treating a raw reference as the direct production prompt;
-- beginning a batch before Production activation;
-- using final production to discover the visual direction;
-- changing accepted world / character priority;
-- replacing a world system with isolated cinematic vignettes;
-- copying source-specific rides, buildings, composition, or branding outside authorization;
-- repeating one fashionable grade across pages despite the Color Script;
-- redesigning to avoid implementation difficulty;
-- rerendering many variants after rejection without Art Director diagnosis;
-- rewriting copy or removing limitations for fit.
-
-## References
+## Runtime References
 
 - `references/production-workflow.md`
 - `references/mobile-qa.md`
-- `../art-director/references/anchor-keyframe-gate.md`
-- `../art-director/references/art-direction-package.md`
-- `../art-director/references/visual-critique-and-failure-diagnosis.md`
 - `../shared/DELIVERABLE_CONTRACT.md`
 - `../shared/STAGE_SCOPED_INPUT_REGISTER.md`
 - `../shared/HANDOFF_CONTRACT.md`

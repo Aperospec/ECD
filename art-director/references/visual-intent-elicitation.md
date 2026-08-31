@@ -2,201 +2,122 @@
 
 ## Purpose
 
-Visual Intent Elicitation translates an ECD's natural-language intuition, reference choice, approval, discomfort, or aesthetic judgment into professional visual criteria without requiring the ECD to know art-direction vocabulary.
+Visual Intent Elicitation translates natural-language preference, uncertainty, approval, or rejection into professional visual criteria without requiring the ECD to know art-direction terminology.
 
-Statements such as:
+## Responsibility
 
-- “这张图很对”;
-- “我喜欢这个感觉”;
-- “人生档案馆其实就是人生游乐场”;
-- “这六张图很难看”;
+The ECD supplies intent, values, preference, and judgment. Art Director supplies observation, interpretation, alternatives, evidence, and professional translation.
 
-are valid design inputs. They are not complete production specifications, and they must not be ignored merely because they are non-technical.
+## Intake classes
 
-## Core Principle
+Register a visual statement as one or more of:
 
-> The ECD supplies intent, values, preferences, and judgment. Art Director supplies analysis, translation, alternatives, and evidence.
+- Reference Intent;
+- User Preference;
+- Visual Hard Constraint;
+- Creative Seed;
+- Aesthetic Judgment;
+- Requires Alignment;
+- Assistant Inference.
 
-Do not reverse this responsibility by asking the ECD to invent professional terminology or write an image-generation prompt.
+Preserve original wording separately from professional interpretation.
 
-## Intake Classification
+## Elicitation sequence
 
-Register visual statements as one or more of:
+### 1. Observe
 
-- **Reference Intent** — what a reference is meant to contribute;
-- **User Preference** — a preferred quality open to professional interpretation;
-- **Visual Hard Constraint** — an explicit requirement that must survive;
-- **Creative Seed** — a promising visual idea requiring development;
-- **Aesthetic Judgment** — an approval or rejection whose cause must be diagnosed;
-- **Requires Alignment** — a consequential interpretation not yet authoritative;
-- **Assistant Inference** — the studio's hypothesis, never user authority.
+Inspect the accepted project, Script, active inputs, references, and current visual evidence before asking questions.
 
-Use the Stage-Scoped Input Register.
+### 2. Form a hypothesis
 
-## Elicitation Sequence
+State in plain language:
 
-### 1. Observe before asking
+- what appears to matter;
+- the visible evidence supporting that reading;
+- the likely project consequence;
+- the main uncertainty.
 
-Art Director first analyzes the material and forms a hypothesis.
+### 3. Ask discriminating questions
 
-Do not begin with a generic questionnaire such as:
+Ask only questions whose answers materially change the visual route. Frame them as perceptible contrasts rather than specialist vocabulary.
 
-- What style do you want?
-- What colors do you like?
-- Cinematic or illustrative?
-- What camera angle should we use?
+Each question includes:
 
-These questions outsource professional diagnosis.
+- Art Director's current recommendation;
+- the visible consequence of each alternative;
+- why the decision matters;
+- permission to answer outside the offered wording.
 
-### 2. State the current hypothesis
+Use no more than three to five consequential questions at once.
 
-Use accessible language:
+### 4. Use visual evidence
 
-> I think the part you value is not the roller coaster itself. It is that the whole place feels like one complete world: many regions are connected by paths, people can climb, return, pause, and discover. That makes a life feel explorable rather than displayed. Is that the right reading?
+When words are insufficient, compare low-cost thumbnails, crops, boards, or concept routes. The comparison should isolate the decision rather than vary many dimensions at once.
 
-Separate:
+### 5. Translate the response
 
-- observed evidence in the reference;
-- the studio's interpretation;
-- the project consequence.
+Record:
 
-### 3. Ask discriminating questions only
-
-Ask only questions whose answers materially change the visual direction.
-
-Prefer concrete contrasts:
-
-- whole world first **or** character emotion first;
-- structural amusement-world logic **or** recognizable commercial rides;
-- warm, lived-in complexity **or** monumental quiet;
-- one continuous world **or** separate self-contained scenes;
-- conceptual environment **or** cinematic vignette;
-- exploratory density **or** controlled emptiness.
-
-Do not ask the ECD to choose jargon. Translate the consequence of each option.
-
-### 4. Use visible evidence
-
-When possible, compare low-cost visual alternatives, crops, thumbnails, or reference groups.
-
-A visual decision should not rely only on verbal adjectives when a small visual proof can expose the difference more reliably.
-
-### 5. Reflect and convert
-
-After the ECD responds, return a concise professional translation:
-
-```text
+```markdown
 ECD source judgment:
-“A is closer. B is too cold. C looks like a movie still.”
-
-Art-direction translation:
-- select world-led macro composition;
-- retain navigability and layered spatial density;
-- reject institutional abstraction;
-- reject character-led cinematic vignette as the dominant grammar;
-- people remain experiential evidence, not the primary subject.
+Observed preference or rejection:
+Professional translation:
+Selected visual criteria:
+Rejected criteria:
+Authority class:
+Decision state:
+Affected visual objects:
 ```
 
-Record the original wording and the translation separately.
-
-## Three Elicitation Methods
+## Elicitation methods
 
 ### Evidence-based visual inquiry
 
-Use questions such as:
-
-- What do I see that supports this interpretation?
-- Which visible relationship creates the feeling?
-- What disappears if this element is removed?
-
-Art Director should answer first, then invite correction.
+Separate what is visible, what it appears to produce, and why that consequence matters to the project.
 
 ### Triadic comparison
 
-When three materially different references or concept routes exist, ask:
-
-- Which two are closer to the intended project?
-- What quality do they share?
-- Why is the third wrong?
-
-Extract the ECD's own evaluation axis rather than forcing a prewritten adjective list.
+When several materially different routes exist, identify which routes are closer, what they share, and why another route is wrong. Extract the ECD's own evaluation axis.
 
 ### Attribute–perception–value ladder
 
-Move down from an abstract preference to visible evidence and up to project value.
-
-Example:
+Link:
 
 ```text
-Visible attribute:
-Several regions are active at the same time and paths continue beyond the foreground.
-
-Perception:
-The world feels alive and larger than one scene.
-
-Project value:
-The archive is not a dead monument; life is still happening and expanding.
+Visible attribute
+→ viewer perception
+→ project value
 ```
 
-Use this model for words such as:
+Use this to translate broad judgments into actionable visual criteria.
 
-- alive;
-- grand;
-- warm;
-- too commercial;
-- cheap;
-- childish;
-- cold;
-- artificial;
-- ugly.
-
-## Question Budget
-
-For ordinary alignment, ask no more than three to five high-consequence questions at once.
-
-Each question should include:
-
-- the Art Director's current recommendation;
-- the visual consequence of the options;
-- plain-language wording;
-- permission for the ECD to answer freely rather than choosing a letter.
-
-Do not turn alignment into a survey.
-
-## When No Question Is Needed
+## When to proceed without a question
 
 Proceed professionally when:
 
 - the source instruction is already unambiguous;
-- the reference role is clear;
 - the choice is routine craft;
-- a low-cost study can resolve the issue without ECD authority;
-- the direction follows an already accepted visual premise.
+- a low-cost study can resolve it without ECD authority;
+- the decision follows an already aligned visual premise.
 
-Infer first; ask only where the ECD's subjective authority is material.
+## Output
 
-## Failure Conditions
-
-Hard failures include:
-
-- treating the ECD's natural-language intuition as inadequate or unusable;
-- asking the ECD to write the final visual prompt;
-- asking only generic style questions;
-- silently converting “I like this image” into permission to copy all visible attributes;
-- presenting the Art Director's inference as if the ECD said it;
-- producing a batch before confirming a consequential interpretation;
-- responding to “ugly” with immediate rerendering and no diagnosis;
-- repeating questions already answered in the Stage-Scoped Input Register.
-
-## Elicitation Output
-
-When alignment is required, Creative Producer should present:
+When alignment is required, present:
 
 1. current visual reading;
-2. evidence supporting it;
-3. what is transferable and what is not;
-4. the principal risk of misreading;
-5. no more than a few plain-language decision questions;
-6. the next low-cost proof that will follow.
+2. visible evidence;
+3. project consequence;
+4. transferable and non-transferable aspects;
+5. principal risk;
+6. a few plain-language decision questions;
+7. the next low-cost proof.
 
-The result should help the ECD make a visual decision without having to become an Art Director.
+## Quality gate
+
+Elicitation passes when:
+
+- the ECD's language is treated as valid design input;
+- observation, inference, and authority remain distinct;
+- questions are consequential and understandable;
+- the professional translation is recorded;
+- the next proof tests the unresolved decision rather than outsourcing design work to the ECD.

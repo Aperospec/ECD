@@ -2,314 +2,165 @@
 
 ## Purpose
 
-This protocol defines the minimum linguistic and stylistic standard for English audience-facing copy.
+This protocol defines the minimum standard for English audience-facing copy.
 
-The goal is idiomatic, precise, reader-oriented English with controlled rhythm and a clear relationship between headline, image, and body copy.
+The objective is precise, idiomatic, reader-oriented English with controlled rhythm and a clear division of labor among headline, image, support, and body copy.
 
-Use together with:
+## Locale and house style
 
-- `writing-reference-canon.md`;
-- `copy-desk-workflow.md`;
-- `bilingual-transcreation.md` when another language is also required;
-- `copy-quality-gate.md`.
+Establish:
 
-## 1. Establish Locale and House Decisions
-
-Before drafting, identify:
-
-- locale: `en-US`, `en-GB`, or intentionally global English;
-- spelling convention;
-- punctuation convention;
-- title case or sentence case;
+- locale: en-US, en-GB, or intentionally global English;
+- spelling, punctuation, capitalization, and quotation conventions;
+- date and number style;
 - serial-comma decision;
-- date, number, and quotation-mark convention;
-- degree of formality;
-- whether contractions fit the voice.
+- formality and use of contractions.
 
-Do not mix US and UK conventions without a deliberate reason.
+Apply the selected convention consistently.
 
-## 2. Complete the Thought
-
-A headline may be a fragment, but the fragment must be intentional, intelligible, and supported by the design.
+## Sentence integrity
 
 Check:
 
-- whether a conditional has a result;
-- whether a dependent clause is being passed off as a sentence;
-- whether a comparison names what is being compared;
-- whether the reader knows what the line is about without reconstructing omitted grammar.
+- independent and dependent clauses;
+- conditionals and results;
+- comparisons and their terms;
+- subject–verb agreement;
+- transitive verbs and objects;
+- fragments and comma splices;
+- punctuation in relation to syntax.
 
-Weak:
+A fragment may be intentional in display copy only when the surrounding design makes the relation unmistakable.
 
-> If, your whole life became an archive you could walk into.
+## Agents and actions
 
-Possible repairs:
+Make the grammatical spine easy to locate. Prefer visible subjects and active verbs when they clarify responsibility, cause, or movement.
 
-> What if your life became an archive you could walk through?
+Passive voice remains available when the receiver or result is genuinely more important than the actor.
 
-> Turn a lifetime into an archive you can walk through.
+## Idiom and collocation
 
-Choose according to the actual page function. Do not use punctuation to simulate sophistication.
-
-## 3. Put Agents and Actions in View
-
-Prefer clear subjects and active verbs when they make the relation easier to understand.
-
-Weak:
-
-> The preservation of lived experience is enabled through conversational reconstruction.
-
-Stronger:
-
-> You tell the AI what happened. The conversation helps you understand the memory differently.
-
-Passive voice is allowed when the receiver or result matters more than the actor. It is not the default solution for hiding responsibility.
-
-## 4. Keep Subject, Verb, and Object Close
-
-Avoid long abstract openings that delay the sentence's action.
-
-Weak:
-
-> Through the ongoing accumulation of multiple voluntarily shared conversational fragments across time, a personally meaningful archive can gradually be formed.
-
-Stronger:
-
-> Over time, the memories you bring into conversation can form a personal archive.
-
-Preserve necessary qualification, but make the grammatical spine easy to find.
-
-## 5. Prefer Concrete Nouns and Verbs
-
-Abstract language is useful when it names a real concept. It fails when several abstractions replace an observable relation.
-
-Warning clusters:
-
-- preservation, transformation, reconstruction, connection, participation, experience, possibility, identity;
-- meaningful, powerful, immersive, seamless, deeply personal;
-- enable, facilitate, leverage, unlock, redefine, elevate.
-
-Ask what actually happens.
-
-Replace abstract noun chains with people, actions, places, decisions, objects in use, and visible consequences.
-
-## 6. Idiom and Collocation
-
-A grammatically possible phrase may still sound translated or unnatural.
-
-Check:
+Review:
 
 - verb–noun combinations;
 - prepositions;
 - articles;
-- count versus mass nouns;
+- count and mass nouns;
 - phrasal verbs;
 - adjective order;
-- whether a familiar English expression carries an unintended cliché.
+- compound forms;
+- conventional but potentially misleading idioms.
 
-Do not accept a line merely because a grammar checker finds no error.
+Grammatical acceptability is not sufficient when an experienced native editor would choose different wording.
 
-## 7. Pronouns and Reference
+## Pronouns and reference
 
-Every `it`, `this`, `that`, `they`, `these`, and `which` must have a stable antecedent.
+Every pronoun, demonstrative, and relative clause must have a stable antecedent in the actual viewing context. A social card may require a repeated noun that a long paragraph could omit.
 
-On a social card, the line may be read without the previous page. Restore the noun when ambiguity would slow the reader.
+## Modifier placement
 
-Weak:
+Place modifiers next to what they modify. Check introductory phrases, restrictive terms, temporal phrases, stacked relative clauses, and modifiers that could attach to more than one noun or action.
 
-> It becomes part of it, and that changes how you remember it.
+## Parallelism
 
-The sentence is compact but unusable.
+Use compatible grammatical forms for genuinely parallel ideas. Do not force parallelism across concepts that require different syntax.
 
-## 8. Parallelism
+## Concrete language
 
-Parallel ideas should use compatible grammatical forms.
+Prefer project-specific people, actions, places, objects in use, decisions, and consequences when they express the idea more clearly than abstract noun chains.
 
-Weak:
+Abstract terms remain appropriate when they name a precise concept. Nominalization should not hide the main action.
 
-> The archive holds where you went, the people you met, and how loss changed you.
+## Voice and register
 
-Possible repair:
+Maintain a stable relationship with the reader through:
 
-> The archive holds the places you went, the people you met, and the losses that changed you.
-
-Do not force parallelism when the ideas are not genuinely equivalent.
-
-## 9. Modifier Placement
-
-Place modifiers next to what they modify.
-
-Check:
-
-- dangling introductory phrases;
-- ambiguous `only`;
-- stacked relative clauses;
-- adjectives that could attach to two nouns;
-- temporal phrases with unclear scope.
-
-A reader should not need to reread to discover who acted.
-
-## 10. Sentence Stress and End Weight
-
-English readers feel emphasis at the beginning and especially at the end of a sentence.
-
-Put expendable context in the middle and the decisive word or image near the end when appropriate.
-
-Vary sentence length deliberately:
-
-- short for impact;
-- medium for explanation;
-- long only when the syntax remains controlled and the accumulation has a purpose.
-
-Do not make every sentence short. Monotony is not clarity.
-
-## 11. Headline, Core Line, and Support
-
-Use:
-
-- **Headline** — opens the idea, image, tension, or claim;
-- **Core Line** — completes the page's main meaning;
-- **Support** — adds only the context the page needs.
-
-A headline does not need to carry the entire explanation.
-
-Weak headline:
-
-> The Days When Nothing Important Happened Are Here Too
-
-Possible headline/core division:
-
-> The days you almost forgot
-
-> They may have made up most of your life.
-
-The final choice depends on voice and factual precision.
-
-## 12. Avoid Default AI and Brand English
-
-The following are not forbidden, but they require a specific reason:
-
-- Imagine a world where…
-- more than just…
-- not just X, but Y;
-- where X meets Y;
-- unlock the power of…
-- redefine the way…
-- embark on a journey;
-- moments that matter;
-- a new era of…
-- seamless, immersive, transformative, meaningful;
-- at the heart of…
-- in today's fast-paced world;
-- from X to Y and everything in between.
-
-Run a pattern count across the whole sequence. Repetition of these frames is a strong sign that the copy came from a generic language prior rather than the project's idea.
-
-## 13. Remove Throat-Clearing
-
-Cut openings that delay the claim without creating necessary context.
-
-Examples:
-
-- It is important to note that…
-- In many ways…
-- When it comes to…
-- The idea here is that…
-- As we move forward…
-
-If the qualification matters, state it directly.
-
-## 14. Contractions and Register
-
-Contractions can make English sound human, but use them according to voice.
-
-- `it's`, `we're`, and `you've` may fit conversational social copy;
-- avoid contractions when legal, evidentiary, or solemn context requires distance;
-- do not alternate randomly between formal and conversational forms.
+- person and point of view;
+- social distance;
+- emotional temperature;
+- certainty;
+- formality;
+- sentence length and contraction use;
+- degree of rhetorical compression.
 
 Natural English is not synonymous with casual English.
 
-## 15. Punctuation and Capitalization
+## Sentence stress and rhythm
 
-Punctuation should reveal structure, not perform emotion by itself.
+Use order, sentence length, and endings to control emphasis. Read high-impact lines aloud and check:
 
-Avoid:
+- stress placement;
+- breath and clause length;
+- one-hearing comprehension;
+- consonant or function-word congestion;
+- whether the ending lands on the intended idea;
+- whether rhythm sounds translated rather than native.
 
-- comma splices;
-- decorative em dashes in every paragraph;
-- ellipses used as atmosphere;
-- random Title Case;
-- quotation marks used to imply significance without explanation;
-- headline punctuation inconsistent across pages.
+## Title, Core Line, and support
 
-Use the selected locale and house style consistently. For unresolved usage questions, apply the modern copyediting principles in the reference canon rather than invented rules.
+Assign distinct functions:
 
-## 16. Read-Aloud Test
+- **Headline** — opens the image, idea, tension, or claim;
+- **Core Line** — completes the primary meaning;
+- **Support** — adds only necessary context.
 
-Read every high-impact line at natural speed.
+The headline need not carry the entire explanation. Repetition among layers signals weak hierarchy.
 
-Check:
+## Translation-smell check
 
-- whether the stress lands on the intended word;
-- whether a listener understands it once;
-- whether the line contains an unnatural translation rhythm;
-- whether consonant clusters or repeated function words make it clumsy;
-- whether the ending dissipates into a weak abstraction.
+When a source language exists, check whether English has inherited:
 
-## 17. Translation-Smell Test
+- source-language word order;
+- missing or overused articles;
+- topic-comment structure that obscures the English subject;
+- repetitive parallel syntax;
+- abstract nouns where English would prefer verbs;
+- idioms chosen for lexical similarity rather than meaning.
 
-Ask:
+When translation smell remains, return to the shared semantic brief and rewrite natively.
 
-- would an experienced native editor choose this word order;
-- is an article missing because the source language lacks articles;
-- is the sentence carrying Chinese topic-comment structure into English;
-- are abstract nouns replacing verbs because the source used compact Chinese nouns;
-- has a Chinese parallel structure been translated into repetitive English;
-- has an English idiom been chosen because it resembles the source wording rather than the source meaning.
+## Cross-page audit
 
-If the answer is uncertain, rewrite from the semantic brief rather than editing the translation.
+Review:
 
-## 18. Freshness and Specificity
+- repeated openings and sentence frames;
+- repeated rhetorical contrasts;
+- keyword and adjective saturation;
+- tonal shifts;
+- metaphor drift;
+- inconsistent capitalization or mechanics;
+- several pages making the same proposition;
+- relationship between card copy and companion copy.
 
-A line should reveal something particular to this project.
-
-Ask:
-
-- could this appear unchanged in an AI launch, travel campaign, graduation video, or wellness advertisement;
-- is the line memorable because the thought is precise or because the vocabulary sounds expensive;
-- does it say what the image already says;
-- does it earn the reader's next second of attention.
-
-## 19. Required English Copy Edit
-
-For every visible line, record internally:
+## English copy-edit record
 
 ```markdown
 Draft:
 Intended meaning:
-Grammar / completeness: [pass / fail]
-Idiom / collocation: [pass / fail]
-Reference: [pass / fail]
-Concrete enough: [pass / fail]
-Voice / register: [pass / fail]
-Cliché risk: [low / medium / high]
-Read-aloud result:
+Sentence integrity:
+Grammar / mechanics:
+Idiom / collocation:
+Subject / reference:
+Modifier placement:
+Concreteness:
+Voice / register:
+Rhythm / read-aloud:
+Metaphor consistency:
 Revision:
-Final status:
+Status:
 ```
 
-Do not show this worksheet by default.
+The worksheet remains backstage by default.
 
-## English Hard Failures
+## Alignment-ready criteria
 
-A line cannot enter an Alignment-ready Script when it contains:
+A line is Alignment-ready when:
 
-- an unintended fragment, comma splice, or malformed conditional;
-- a subject–verb or pronoun-reference error affecting meaning;
-- clearly non-idiomatic collocation;
-- translationese in a high-impact line;
-- an abstract noun chain carrying the main idea;
-- inconsistent locale mechanics;
-- internal strategy language presented as public copy;
-- a generic advertising cliché carrying the page's main meaning;
-- forced parallelism that distorts the underlying ideas.
+- grammar and punctuation express a complete intended relation;
+- idiom and collocation are natural for the locale;
+- agents, actions, and references are clear;
+- the wording preserves accepted meaning, certainty, and limitation;
+- copy layers divide the work effectively;
+- voice and metaphor remain coherent;
+- the line reads naturally aloud;
+- the expression is specific enough to belong to the project.

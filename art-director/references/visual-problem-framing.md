@@ -2,148 +2,68 @@
 
 ## Purpose
 
-Visual Problem Framing converts an Accepted Creative Script, Activated Visual inputs, reference material, and new ECD visual feedback into the correct design problem before any Storyboard, keyframe, or batch image production begins.
+Visual Problem Framing converts the accepted project, Script, active visual inputs, references, and target surface into a precise design problem before visual production begins.
 
-The first task is not “write a prompt.” It is to determine what the visual system must make perceptible, what is currently unresolved, and what failure would mean the studio solved the wrong problem.
+## Inputs
 
-## Required Inputs
-
-- Greenlit Creative Treatment;
+- Greenlit Treatment;
 - Creative Script Accepted for Handoff;
-- Written Visual Beats and Alignment-ready copy;
-- Activated Visual / Art Direction inputs with original source and authority class;
-- original reference assets and reference-use boundaries;
-- target platform, aspect ratio, and viewing condition;
-- existing visual artifacts and their state;
-- new ECD visual statements, preferences, or criticism.
+- Deliverable Contract and viewing conditions;
+- Activated Visual inputs with original source and authority;
+- reference roles, rights, and transfer boundaries;
+- exact copy and evidence requirements;
+- valid existing visual artifacts.
+
+## Framing questions
+
+Determine:
+
+- what the audience must perceive first, next, and finally;
+- what visual relationship carries the governing meaning;
+- whether the challenge is primarily world, scene, metaphor, information, evidence, identity, sequence, or feasibility-led;
+- what is fixed by upstream decisions;
+- what remains open to Art Direction;
+- what could be misread;
+- which question requires ECD authority;
+- the lowest-cost proof required next.
 
 ## Visual Problem Statement
-
-Before visual production, create:
 
 ```markdown
 # Visual Problem Statement
 
-Project:
-Accepted Treatment / Script references:
-Current visual stage:
-
-## Audience Perception Required
-
-At first glance, the audience must perceive:
-At second glance, the audience must understand:
-Across the sequence, the audience must experience:
-
-## Governing Visual Problem
-
-[One coherent paragraph describing what must be made visually true.]
-
-## Why the Current Inputs Matter
-
-Activated visual inputs:
-Reference contribution:
-New ECD intuition or judgment:
-
-## Unresolved Questions
-
-- world / scene / system question:
-- subject–environment hierarchy:
-- metaphor question:
-- reference-transfer question:
-- formal-structure question:
-- sequence question:
-- typography / image question:
-
-## Principal Misread Risks
-
-- 
-
-## Success Evidence
-
-The direction will be considered proven when:
-- 
-
-## First Valid Next Artifact
-
-[Intent clarification / Reference Reading / Metaphor Map / Concept Routes / Anchor study / other]
+Project and Script reference:
+Target surface / viewing condition:
+Primary audience perception:
+Secondary audience understanding:
+Governing visual relationship:
+Problem type:
+Active visual inputs:
+Fixed upstream decisions:
+Open visual variables:
+Reference roles:
+Evidence / rights conditions:
+Principal misreading risk:
+Required first proof:
+ECD alignment required now:
 ```
 
-## Problem Types
+## Framing principles
 
-Classify the dominant visual problem. More than one may apply, but name the lead problem.
+- Define perception and relationship before listing objects or style labels.
+- Separate project meaning from a proposed visual solution.
+- Preserve the original ECD input and label Art Director interpretation as interpretation.
+- Prefer a problem statement that permits more than one valid concept route.
+- Choose a proof proportionate to the unresolved question.
 
-### World-design problem
+## Quality gate
 
-The project requires a coherent place, system, or environment that can support multiple pages or moments.
+The frame is ready when:
 
-### Scene-design problem
-
-A single event, action, or relationship must be staged clearly.
-
-### Metaphor problem
-
-An abstract idea must become visible without literal illustration or cliché.
-
-### Information-design problem
-
-Evidence, comparison, process, or hierarchy is the principal visual task.
-
-### Identity problem
-
-The work requires a durable visual language or recognizable system.
-
-### Sequence problem
-
-Individual frames may work, but the order lacks progression, contrast, or continuity.
-
-### Reference-translation problem
-
-A supplied image contains useful qualities, but its role and transferable structure are unresolved.
-
-### Production-feasibility problem
-
-The accepted idea is clear, but the required visual relationships may not survive the available toolchain or surface.
-
-## Goal-Reformulation Check
-
-Before accepting the problem statement, compare it with the Treatment and Script.
-
-Ask:
-
-- Has “what the project must mean” been replaced by “what is easiest to generate”?
-- Has a structural metaphor been reduced to a subject category?
-- Has a world-led concept become a character-led vignette?
-- Has a reference's visible object list replaced its underlying visual logic?
-- Has an audience experience been replaced by a fashionable image style?
-- Is the studio solving a tourism, game-map, cinematic-still, or product-promo problem that the ECD did not authorize?
-
-When the answer is yes, revise the visual frame before producing images.
-
-## Example — Life Archive as a Life Amusement World
-
-Weak framing:
-
-> Create several emotional life scenes inside a beautiful mountain amusement park.
-
-This silently changes the project into a themed-location illustration task.
-
-Stronger framing:
-
-> Design a unified, explorable life-world in which paths, height, regions, pauses, returns, and unfinished areas make the structure of a life perceptible. The amusement-park reference contributes navigability, density, wonder, and simultaneous activity; it must not turn the project into a commercial attraction poster or a set of isolated sentimental film stills. The world remains the primary subject, while people prove that its memory regions can be entered and lived through.
-
-## Framing Output Rule
-
-The Visual Problem Statement is an internal professional object. Creative Producer may show a concise, ECD-friendly synthesis when the framing itself requires alignment.
-
-Do not overwhelm the ECD with design terminology. Present:
-
-- what the studio believes the visual idea actually is;
-- what the reference contributes;
-- the most likely wrong turn;
-- the one or two distinctions requiring confirmation.
-
-## Gate
-
-Do not begin Storyboard, Design Comp, anchor-image generation, or batch production when the governing visual problem is still unstated or materially disputed.
-
-A raw visual intuition may be sufficient to begin framing. It is not sufficient to skip framing.
+- the intended audience perception is explicit;
+- the governing relationship is specific;
+- active constraints and open variables are distinguishable;
+- reference roles are clear;
+- the main misreading risk is identified;
+- the next proof can test the frame;
+- broad production is not required to learn whether the frame is correct.
