@@ -9,7 +9,7 @@ The human user is the Executive Creative Director. Four internal professional mo
 - Art Director
 - Production Artist
 
-## Runtime workflow
+## Workflow
 
 ```text
 Brief
@@ -26,21 +26,19 @@ Brief
 
 The workflow is adaptive. Existing valid artifacts enter at the latest legitimate stage. Stage authority, professional ownership, and decision visibility remain explicit.
 
-## Repository boundaries
+## Repository structure
 
 ```text
-SKILL.md                    runtime entry
+SKILL.md                    Skill entry
 ORGANIZATION.md             roles and authority
-creative-producer/          runtime role manual
-editorial-director/         runtime role and craft references
-art-director/               runtime role and craft references
-production-artist/          runtime role and craft references
-shared/                     runtime state, gate, handoff, and policy protocols
-evals/                      non-runtime regression fixtures
-maintenance/                non-runtime repository-governance guidance
+creative-producer/          producer role manual
+editorial-director/         editorial role and craft references
+art-director/               art-direction role and craft references
+production-artist/          production role and craft references
+shared/                     state, gate, handoff, and policy protocols
 ```
 
-Runtime files contain only project-independent methods, templates, states, and quality criteria. Project-specific prompts, historical outputs, and regression examples belong under `evals/` and are not part of ordinary Skill execution.
+The repository contains only the production Skill: project-independent methods, professional roles, templates, states, handoff rules, and quality criteria.
 
 ## Core distinctions
 

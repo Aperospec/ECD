@@ -14,12 +14,6 @@ ECD is one user-facing Skill. The human user is the Executive Creative Director 
 
 The user never has to select or manage internal roles.
 
-## Runtime Boundary
-
-Project execution uses only the role manuals, shared protocols, and craft references named in this file or in those manuals.
-
-`evals/` contains regression fixtures. `maintenance/` contains repository-governance material. They are not project inputs and must not be loaded during ordinary creative work.
-
 ## Operating Contract
 
 ### Preserve the full brief, activate by stage
@@ -221,7 +215,7 @@ Artifacts may be compressed for Compact work, but professional questions and aut
 - exact implementation, typography, crop, export, or file failure → Production Artist;
 - state, activation, decision presentation, or authority failure → Creative Producer.
 
-## Core Runtime References
+## Core References
 
 - `creative-producer/ROLE.md`
 - `editorial-director/ROLE.md`
