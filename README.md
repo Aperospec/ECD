@@ -15,7 +15,7 @@ The human user is the Executive Creative Director. Four internal professional mo
 Brief
 → Creative Treatment
 → Greenlight
-→ Creative Script and Copy
+→ Creative Script, Frame Scripts, and Copy
 → Script Alignment when material
 → Visual Development
 → Visual Alignment when material
@@ -43,11 +43,29 @@ The repository contains only the production Skill: project-independent methods, 
 ## Core distinctions
 
 - A Creative Treatment defines the project; a Creative Script defines how it communicates.
-- A Written Visual Beat is a semantic instruction; a Storyboard is a visual artifact.
+- An Internal Semantic Proposition states what a page means and remains backstage.
+- A Frame Script states what the audience will visibly encounter and is shown to the ECD before visual design.
+- Written Visual Requirements preserve semantic conditions for downstream visual work and normally remain backstage.
+- A Storyboard / Visual Sequence Board is the first actual visual staging created by Art Director.
 - A visual concept route establishes the governing visual system; an Anchor Keyframe proves it.
 - A Representative Design Comp proves typography, hierarchy, geometry, and mobile behavior.
 - Production realizes accepted direction; it does not silently redesign it.
-- Archive files support state and handoff; they do not replace complete ECD-facing decision objects.
+
+## ECD-facing simplicity
+
+Internal artifacts may be detailed. Decision presentations must be professionally synthesized.
+
+Before Script Alignment, the ECD-facing Creative Script normally shows:
+
+```text
+Overall Narrative
+→ for each page: What it says + Frame Script + Page Copy
+→ Complete Body Copy
+→ Alignment Scope and Deferred Visual Scope
+→ Decision Request
+```
+
+The ECD is not required to interpret internal workflow labels, scoring worksheets, input IDs, or editorial bookkeeping in order to judge the proposal.
 
 ## Quality model
 

@@ -1,90 +1,115 @@
-# Visual Beats
+# Written Visual Requirements
 
 ## Purpose
 
-Visual Beats translate sequence logic into written, frame-level communication intent before any Storyboard is created.
+Written Visual Requirements preserve the semantic conditions that later visual work must satisfy.
 
-A Visual Beat is not a visual artifact. It is Editorial Director's semantic instruction for what a screen must communicate or make perceptible.
+They were previously described as Written Visual Beats. The term remains compatible with earlier project records, but this file now distinguishes them clearly from the ECD-facing **Frame Script**.
+
+A Written Visual Requirement is an acceptance criterion. It is not the page's concrete scene description and not a visual artifact.
+
+## Relationship to the Frame Script
+
+```text
+Internal Semantic Proposition
+states what the page means
+
+Frame Script
+states what the audience will visibly encounter
+
+Written Visual Requirements
+state what the later visual interpretation must preserve
+
+Storyboard / Visual Sequence Board
+creates the first actual visual staging
+```
+
+A Creative Script needs both the Frame Script and the Written Visual Requirements.
+
+The Frame Script lets the ECD picture the proposed content. The requirements protect that content during Art Direction and Production.
 
 ## Responsibilities
 
-For each beat, specify only what is necessary to preserve editorial meaning:
+For each page, record only the semantic conditions necessary to preserve editorial meaning, such as:
 
-- primary editorial job;
-- audience change;
-- event, state, transformation, comparison, evidence, object, action, absence, scale, or relationship that must be perceptible;
-- information that must remain visible;
-- what remains open for the next beat;
-- visual meaning that downstream work must not lose.
+- a required subject, object, action, state, or relationship;
+- a transformation that must be visible;
+- an input, handoff, conflict, comparison, or result that must remain legible;
+- evidence that must be shown rather than merely described;
+- continuity across pages;
+- a limitation or qualification that affects interpretation;
+- a required perception of scale, absence, accumulation, isolation, or change;
+- the distinction between several roles or states when that distinction carries the idea.
 
-## Useful Dimensions
+## Boundary
 
-When relevant, describe:
+Written Visual Requirements do not specify routine visual execution such as:
 
-- subject or object required by our content;
-- action or state change;
-- relationship between required elements;
-- before / after or cause / effect equivalence;
-- spatial or temporal condition when semantically necessary;
-- evidence that must be shown rather than described;
-- cognitive or emotional pressure the screen must carry.
-
-## Boundary: Do Not Become Storyboard or Art Direction
-
-Do not specify routine execution such as:
-
-- actual drawn panels or generated frames;
-- exact placement percentages;
-- final camera angle unless the angle itself carries meaning;
-- font family, weight, point size, or line spacing;
-- final palette;
-- exact crop coordinates;
-- decorative texture or effect;
-- layout geometry;
-- image treatment style.
+- exact composition or placement;
+- final camera, lens, or crop;
+- typography, grid, or spacing;
+- final palette, lighting, material, or rendering style;
+- detailed visual metaphor implementation;
+- image-generation prompts;
+- production technique.
 
 Those belong to Art Director or Production Artist.
 
-## Necessary Visual Specificity
+## ECD-Facing Use
 
-Some visual conditions are part of editorial meaning and may be locked in the Script.
+Written Visual Requirements normally remain in the internal Creative Script Package.
 
-Examples:
+Do not display them as a separate field on every page merely to prove process completeness. Surface a requirement to the ECD only when:
 
-- the same object must appear in physical and digital form so a transformation is unmistakable;
-- a failure state must remain visible rather than be replaced by generic success imagery;
-- a before / after comparison must use equivalent evidence;
-- the audience must perceive scale, absence, accumulation, isolation, or transformation;
-- a source screenshot must remain recognizable enough to carry proof.
+- it is a material creative choice;
+- it defines a factual, fictional, evidentiary, or ethical boundary;
+- accepting the Frame Script would otherwise leave the decision ambiguous;
+- it conflicts with another user instruction;
+- it materially limits the later visual direction.
 
-Describe the semantic condition, not the final composition.
+When surfaced, translate it into ordinary language under a brief `Decision note` rather than exposing internal terminology.
 
-## Reference Boundary
+## Requirement Template
 
-Follow `../../shared/REFERENCE_POLICY.md`.
+```markdown
+Page / Beat:
+Source Frame Script:
+Required visible subject / state / relation:
+Required evidence or limitation:
+Continuity requirement:
+Meaning that must survive:
+Variables left to Art Director:
+```
 
-A creative reference is not a source for original Visual Beat content unless its depicted content is separately authorized and intentionally belongs to the project.
+## Evidence-Led Requirements
 
-Derive subjects, objects, scenes, and events from the Greenlit Treatment. Record only the approved reference qualities that Art Director may later apply.
+When screenshots, outputs, documents, interfaces, charts, tests, or comparisons carry proof:
 
-## Evidence-Led Beats
-
-When screenshots, test outputs, source material, diagrams, documents, charts, or comparisons carry proof:
-
-- state the required evidence explicitly;
+- identify the evidence object;
 - preserve context needed for correct interpretation;
-- locate material limitation with the evidence;
-- distinguish actual output, reconstruction, simulation, and speculation;
-- do not replace proof with decorative imagery for cinematic effect.
+- identify the limitation that must remain near the evidence;
+- distinguish actual evidence, reconstruction, simulation, and speculation;
+- require equivalent comparison conditions when a before / after claim depends on them.
 
 ## QA
 
-For every beat confirm:
+For every set of requirements confirm:
 
-- it has a necessary content function;
-- it is not repeating another beat's semantic job;
-- intent comes from our project rather than a style reference;
-- Art Director can create more than one valid visual interpretation;
-- required facts, comparisons, evidence, and limitations remain visible;
-- instruction is specific enough to preserve meaning but open enough to permit Art Direction;
-- no actual Storyboard decision has been hidden in the wording.
+- each requirement protects a necessary meaning rather than a preferred decoration;
+- it derives from the Greenlit Treatment, Activated Editorial inputs, or an authorized editorial decision;
+- it does not repeat the Frame Script in abstract language without adding a preservation condition;
+- it does not perform Art Direction prematurely;
+- Art Director can create more than one valid visual solution;
+- evidence and limitations cannot disappear during visual simplification;
+- the set is concise enough to function as real acceptance criteria.
+
+## Failure Conditions
+
+A Creative Script fails when:
+
+- the Written Visual Requirements are used instead of a concrete Frame Script;
+- the requirements merely say what the audience should understand without identifying what must remain visible;
+- every possible detail is labeled mandatory;
+- later-stage aesthetic preferences are disguised as semantic requirements;
+- the ECD-facing proposal becomes an internal checklist dump;
+- Art Director would need to invent the page's actual content because only abstract requirements were supplied.

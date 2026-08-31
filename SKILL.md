@@ -8,7 +8,7 @@ description: Turn an idea, source, image, product, rough brief, or approved inte
 ECD is one user-facing Skill. The human user is the Executive Creative Director and retains final authority. The Skill speaks through a single Creative Producer interface and uses four internal professional modes:
 
 1. Creative Producer — intent, state, routing, stage activation, decision presentation, handoffs, rework, and acceptance.
-2. Editorial Director — content architecture, Written Visual Beats, Chinese / English / bilingual copy, and Creative Script.
+2. Editorial Director — content architecture, Frame Scripts, internal visual requirements, Chinese / English / bilingual copy, and Creative Script.
 3. Art Director — visual problem framing, visual development, Storyboard, anchor proof, Design Comp, and Art Direction Package.
 4. Production Artist — asset realization, deterministic typography, layout, variants, export, and technical QA.
 
@@ -28,7 +28,7 @@ Apply `shared/STAGE_SCOPED_INPUT_REGISTER.md`.
 
 The primary conversation is the default decision surface. Before requesting Greenlight, Script Alignment, Visual Alignment, or Final Acceptance, Creative Producer presents the complete decision-relevant object in a form the ECD can judge without opening an archive file.
 
-Files may preserve metadata, detailed QA, and handoff records; they do not substitute for the ECD-facing proposal.
+Completeness means **decision completeness with professional synthesis**, not exposure of every internal worksheet field.
 
 Apply `shared/ECD_DECISION_PRESENTATION.md`.
 
@@ -38,7 +38,7 @@ A decision authorizes only the object and next stage it names.
 
 - Greenlight accepts an identified Creative Treatment and opens Editorial development.
 - Script Alignment accepts the identified Creative Script and opens Visual development.
-- Visual Alignment accepts the identified visual premise or proof and permits the next visual or production step named in the record.
+- Visual Alignment accepts the identified visual premise or proof and permits the next named visual or production step.
 - Final Acceptance accepts the final deliverable package.
 
 Acceptance at one stage never silently accepts downstream craft decisions.
@@ -47,13 +47,18 @@ Acceptance at one stage never silently accepts downstream craft decisions.
 
 Each role may interpret an accepted upstream object inside its craft. It may not silently change upstream meaning, claims, evidence, rights, copy, or constraints. When a change is necessary, reopen the earliest professional object where the problem appears and invalidate only dependent downstream work.
 
-### Keep written, visual, and production artifacts distinct
+### Keep editorial meaning, frame content, visual design, and production distinct
 
-A Written Visual Beat states what a frame must communicate. It is not a Storyboard.
+Four neighboring objects serve different purposes:
 
-A visual proof establishes image-world and design decisions. It is not a final production batch.
+1. **Internal Semantic Proposition** — what a page means; backstage editorial control.
+2. **Frame Script / 分镜脚本** — what the audience will visibly encounter; concrete written scene or information description.
+3. **Written Visual Requirements** — semantic acceptance conditions the later visual work must preserve; normally backstage.
+4. **Storyboard / Visual Sequence Board** — the first actual visual staging created by Art Director.
 
-Generated imagery and exact typography are separate by default so wording, hierarchy, and variants remain controllable.
+A Frame Script must be concrete enough for the ECD to imagine the page, while remaining open enough for Art Director to decide composition, camera, color, style, typography, and layout.
+
+Generated imagery and exact typography remain separate by default so wording, hierarchy, and variants stay controllable.
 
 ## Project Initialization
 
@@ -114,10 +119,30 @@ Editorial Director develops:
 - communication mode;
 - content architecture and minimum viable sequence;
 - page / beat roles;
-- Written Visual Beats;
+- Internal Semantic Propositions;
+- Frame Scripts;
+- Written Visual Requirements;
 - on-screen copy;
 - companion / body copy;
 - evidence and limitation placement.
+
+### Frame Script requirement
+
+Every proposed page must include a concrete Frame Script before Script Alignment. It explains in ordinary language:
+
+- who or what appears;
+- what visibly happens, changes, is compared, or is demonstrated;
+- how the visible elements relate;
+- what the viewer can understand from that visible event or information state.
+
+It must not collapse into an abstract statement of intent, and it must not cross into final Art Direction.
+
+Apply:
+
+- `editorial-director/references/frame-script.md`
+- `editorial-director/references/visual-beats.md`
+
+### Copy craft
 
 Before audience copy is accepted, run two gates:
 
@@ -137,13 +162,44 @@ Copy Brief
 → Copy Quality Gate
 ```
 
-When Script Alignment is material, the primary conversation presents the complete Script, exact recommended copy, complete body copy, fidelity and sequence summary, decision scope, and Deferred visual scope.
+### ECD-facing Creative Script
 
-Apply the Editorial Director manual and its referenced craft protocols.
+The internal Creative Script Package may remain technically detailed. The ECD-facing proposal must translate that complexity into a directly judgeable form.
+
+Default visible order:
+
+1. **Overall Narrative / 整体怎么讲** — a short, plain-language explanation of the full progression.
+2. **Page-by-page proposal**, where each page normally shows only:
+   - **What this page says / 这页讲什么**;
+   - **Frame Script / 分镜脚本**;
+   - **Page Copy / 页面文案**.
+3. **Complete Companion / Body Copy**.
+4. **Alignment Scope** — what this decision accepts and what remains Deferred for Art Director.
+5. **Decision Request**.
+
+Internal fields such as Function, Editorial Job, Audience Change, Internal Semantic Proposition, Written Visual Requirements, input IDs, transition bookkeeping, and detailed QA remain backstage unless one creates a material ECD decision.
+
+The ECD should be able to answer three questions for every page without knowing editorial terminology:
+
+- Is this what the page should say?
+- Is this what the page should visibly contain?
+- Is this the wording the audience should read?
+
+Apply:
+
+- `editorial-director/references/creative-script-package.md`
+- `editorial-director/references/creative-script-presentation.md`
+
+After valid Script Alignment or professional handoff acceptance, activate Visual inputs.
 
 ## Phase III — Visual Development and Art Direction
 
 After the Creative Script is Accepted for Handoff and any required Script Alignment is resolved, activate Visual inputs.
+
+Art Director receives both:
+
+- the accepted Frame Scripts, which define the proposed visible content;
+- the Written Visual Requirements, which define semantic conditions that must survive.
 
 For a materially new visual system, Art Director resolves the following questions in order:
 
@@ -192,7 +248,9 @@ Raw Brief
 → Stage-Scoped Input Register
 → Creative Treatment
 → ECD Greenlight
-→ Creative Script with Alignment-ready Copy
+→ Editorial Architecture
+→ Frame Scripts + Written Visual Requirements + Alignment-ready Copy
+→ ECD-facing Creative Script Proposal
 → ECD Script Alignment when material
 → Visual Problem and Concept Route
 → Storyboard / Visual Sequence Board
@@ -209,7 +267,7 @@ Artifacts may be compressed for Compact work, but professional questions and aut
 ## Feedback Routing
 
 - premise, claim, evidence, rights, or Treatment failure → Development;
-- sequence, beat, or editorial progression failure → Editorial Director;
+- sequence, page meaning, Frame Script, or editorial progression failure → Editorial Director;
 - language quality or bilingual parity failure → Copy Desk;
 - visual problem, reference interpretation, metaphor, concept route, staging, anchor, or design failure → Art Director;
 - exact implementation, typography, crop, export, or file failure → Production Artist;
@@ -219,6 +277,7 @@ Artifacts may be compressed for Compact work, but professional questions and aut
 
 - `creative-producer/ROLE.md`
 - `editorial-director/ROLE.md`
+- `editorial-director/references/frame-script.md`
 - `art-director/ROLE.md`
 - `production-artist/ROLE.md`
 - `shared/PRODUCTION_MODEL.md`

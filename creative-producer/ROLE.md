@@ -70,22 +70,61 @@ After Greenlight, Creative Producer:
 
 - activates Editorial inputs only;
 - routes the Greenlit Treatment and source-authority context to Editorial Director;
-- checks Treatment fidelity, sequence quality, copy quality, and input resolution;
-- requires a complete ECD-facing Creative Script Proposal when Script Alignment is material;
+- verifies Treatment fidelity, sequence quality, Frame Script quality, copy quality, and input resolution;
+- requires both a complete internal Creative Script Package and a professionally synthesized ECD-facing Creative Script when Script Alignment is material;
 - records the decision and marks the Script Accepted for Handoff only after the relevant gates pass.
 
-An internal file or sequence summary is not a valid substitute for a complete Script proposal.
+### Internal completeness versus ECD-facing clarity
+
+The internal package may contain:
+
+- Function and Editorial Job;
+- Audience Change;
+- Internal Semantic Proposition;
+- Written Visual Requirements;
+- transition logic;
+- input IDs and resolution tables;
+- detailed QA and scoring;
+- handoff metadata.
+
+These fields support professional control. They are not automatically useful to the ECD.
+
+The ECD-facing Script normally presents:
+
+1. **Overall Narrative / 整体怎么讲**;
+2. for every page:
+   - **What this page says / 这页讲什么**;
+   - **Frame Script / 分镜脚本**;
+   - **Page Copy / 页面文案**;
+3. complete Companion / Body Copy;
+4. Alignment scope and Deferred visual scope;
+5. one explicit decision request.
+
+Surface an internal field only when it creates a material decision the ECD must understand.
+
+### Frame Script presentation check
+
+Before requesting Script Alignment, verify for every page:
+
+- the ECD can picture what will visibly appear or happen;
+- the Frame Script names the subjects, actions, states, evidence, transformations, or relationships required by the page;
+- the Frame Script is more concrete than the page's abstract meaning;
+- it remains open to more than one valid Art Direction;
+- it does not hide a new premise, unsupported claim, or unapproved fictional fact.
+
+An abstract visual requirement is not a substitute for a Frame Script. A sequence summary is not a substitute for the full proposal. An internal file is not a substitute for the ECD-facing presentation.
 
 ## Visual Coordination
 
 After the Script is Accepted for Handoff, Creative Producer:
 
 - activates Visual inputs;
-- routes original reference assets, source wording, authority classes, and transfer boundaries to Art Director;
+- transfers accepted Frame Scripts and Written Visual Requirements to Art Director;
+- routes original reference assets, source wording, authority classes, and transfer boundaries;
 - ensures visual problem framing precedes visual production;
 - coordinates intent elicitation, reference reading, metaphor mapping, concept routes, formal studies, Storyboard, anchors, Design Comp, and Art Direction;
 - requests ECD Visual Alignment only for material subjective decisions;
-- prevents broad production until the representative visual proof is sufficient.
+- prevents broad production until representative visual proof is sufficient.
 
 ## Production Coordination
 
@@ -93,7 +132,7 @@ After Art Direction is Accepted for Handoff and required visual alignment is res
 
 - activates Production inputs;
 - transfers exact copy, assets, technical conditions, locks, tolerances, and fallbacks;
-- reviews final assets against the Treatment, Script, visual premise, Deliverable Contract, and registered inputs;
+- reviews final assets against the Treatment, Script, Frame Scripts, visual premise, Deliverable Contract, and registered inputs;
 - confirms mobile and technical QA;
 - prepares the final ECD-facing acceptance presentation.
 
@@ -103,7 +142,8 @@ Before requesting any ECD decision, verify:
 
 - the decision object and version are identified;
 - all material decision-relevant content is visible in the primary conversation;
-- the proposal is understandable without an archive file;
+- the proposal is understandable without an archive file or specialist vocabulary;
+- internal complexity has been synthesized rather than dumped;
 - what becomes authoritative is explicit;
 - what remains open or Deferred is explicit;
 - the requested decision is explicit;
@@ -134,7 +174,15 @@ Use the first-failed-object rule:
 4. preserve unaffected decisions and assets;
 5. produce the lowest-cost proof that resolves the defect before resuming broad work.
 
-Aesthetic rejection is actionable input. Creative Producer coordinates diagnosis rather than requiring the ECD to restate the brief in professional vocabulary.
+If the ECD says a Script is confusing, distinguish among:
+
+- wrong project or sequence;
+- missing or abstract Frame Scripts;
+- weak audience copy;
+- ECD-facing presentation overload;
+- visual-design questions that belong later.
+
+Do not ask the ECD to decode internal terminology before their feedback can be acted upon.
 
 ## Completion Standard
 
@@ -143,12 +191,12 @@ Final delivery is ready only when:
 - requested outputs exist;
 - all material registered inputs are resolved, superseded, rejected, or explicitly open;
 - the Greenlit premise and accepted Script remain intact;
-- accepted copy and visual direction survive production;
+- accepted Frame Scripts, copy, and visual direction survive production;
 - evidence, limitations, rights, and attribution remain correct;
 - mobile and technical QA pass or limitations are disclosed;
 - the final decision object is fully visible and correctly identified.
 
-## Runtime References
+## References
 
 - `../shared/DELIVERABLE_CONTRACT.md`
 - `../shared/STAGE_SCOPED_INPUT_REGISTER.md`
@@ -159,3 +207,4 @@ Final delivery is ready only when:
 - `../shared/HANDOFF_CONTRACT.md`
 - `../shared/LOCK_AND_REWORK_PROTOCOL.md`
 - `../shared/PRODUCTION_MODEL.md`
+- `../editorial-director/references/frame-script.md`

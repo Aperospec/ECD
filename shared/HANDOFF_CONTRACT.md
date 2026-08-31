@@ -4,7 +4,7 @@
 
 Creative Producer coordinates all authoritative transfers. A receiving owner must have enough information to perform its craft without inventing upstream decisions or activating later-stage inputs.
 
-## Common handoff envelope
+## Common Handoff Envelope
 
 ```markdown
 From:
@@ -28,7 +28,7 @@ Return conditions:
 
 A handoff is invalid when the receiving role must guess whether a statement is binding, optional, inferred, approved, or still Deferred.
 
-## Development handoffs
+## Development Handoffs
 
 ### ECD to Creative Producer
 
@@ -46,7 +46,7 @@ Transfer Active Development inputs, intended use, relevant research result, fact
 
 Present the complete Creative Treatment, exact decision scope, next authorized stage, and Deferred downstream scope. The response ends at the decision request.
 
-## Editorial handoffs
+## Editorial Handoffs
 
 ### Creative Producer to Editorial Director
 
@@ -59,27 +59,41 @@ Transfer:
 - exact names, claims, evidence, and limitations;
 - Visual and Production inputs still Deferred.
 
-Requested output: Creative Script with Alignment-ready copy.
+Requested output: Creative Script with concrete Frame Scripts, Written Visual Requirements, and Alignment-ready copy.
 
 ### Editorial Director to Creative Producer
 
-Return:
+Return the internal Creative Script Package containing:
 
 - Script version and state;
 - communication strategy and complete sequence;
-- Written Visual Beats;
+- Function, Editorial Job, Audience Change, and Internal Semantic Proposition;
+- Frame Script for every page;
+- Written Visual Requirements;
 - exact on-screen and companion copy;
 - evidence and limitation placement;
 - Editorial input resolution;
-- Treatment Fidelity, Sequence, and Copy QA;
+- Treatment Fidelity, Sequence, Frame Script, and Copy QA;
 - material Script Alignment requirement;
 - open visual questions.
 
+The Frame Script and Written Visual Requirements are separate objects. An abstract semantic requirement does not satisfy the Frame Script requirement.
+
 ### Creative Producer to ECD for Script Alignment
 
-Present the complete ECD-facing Script proposal. If alignment passes, mark the Script Accepted for Handoff and activate Visual inputs.
+Present a professionally synthesized ECD-facing Creative Script:
 
-## Visual handoffs
+1. Overall Narrative;
+2. every page using `What this page says`, `Frame Script`, and `Page Copy`;
+3. complete Companion / Body Copy;
+4. Alignment scope and Deferred visual scope;
+5. explicit decision request.
+
+Internal control fields remain backstage unless one creates a material decision.
+
+If alignment passes, mark the Script Accepted for Handoff and activate Visual inputs.
+
+## Visual Handoffs
 
 ### Creative Producer to Art Director
 
@@ -87,6 +101,8 @@ Transfer:
 
 - Script Accepted for Handoff;
 - Greenlit Treatment;
+- accepted Frame Scripts;
+- Written Visual Requirements and semantic locks;
 - Deliverable Contract and viewing conditions;
 - Activated Visual inputs with original source and authority;
 - original reference assets and assigned roles;
@@ -96,21 +112,23 @@ Transfer:
 
 Requested outputs are selected according to visual risk: Visual Problem Statement, intent record, reference reading, metaphor map, boards, concept routes, formal studies, Storyboard, anchors, Design Comp, color / sequence system, and Art Direction Package.
 
+Art Director owns how the Frame Scripts are staged. It does not own the authority to replace their content or meaning silently.
+
 ### Art Director to Creative Producer
 
-Return the material visual objects, active-input resolution, professional recommendation, ECD alignment requirement, accepted locks, tolerances, risks, and next proof.
+Return the material visual objects, Frame Script fidelity, Written Visual Requirement fidelity, active-input resolution, professional recommendation, ECD alignment requirement, accepted locks, tolerances, risks, and next proof.
 
 ### Creative Producer to ECD for Visual Alignment
 
 Present the actual representative visual evidence and decision scope. When alignment and professional gates pass, continue to the next named visual step or accept Art Direction for handoff.
 
-## Production handoffs
+## Production Handoffs
 
 ### Creative Producer to Production Artist
 
 Transfer:
 
-- accepted Script and exact copy;
+- accepted Script, Frame Scripts, and exact copy;
 - selected visual route, Board, anchors, and Design Comp;
 - Art Direction Package Accepted for Handoff;
 - Deliverable Contract;
@@ -124,12 +142,12 @@ Requested output: final assets, variants, QA, and completion record.
 
 Return final files, dimensions, formats, input resolution, provenance, exact-copy verification, mobile and technical QA, authorized deviations, and known limitations.
 
-## Return path
+## Return Path
 
 Return to the earliest affected owner when continuation requires changing:
 
 - premise, claim, evidence, rights, or Greenlight basis → Development;
-- sequence, beat meaning, or copy → Editorial Director / Copy Desk;
+- sequence, page meaning, Frame Script, Written Visual Requirement, or copy → Editorial Director / Copy Desk;
 - visual problem, intent, reference, metaphor, route, Board, anchor, or design → Art Director;
 - exact implementation, layout, variant, or export → Production Artist;
 - state, activation, decision presentation, or authority → Creative Producer.
@@ -142,5 +160,7 @@ A handoff passes when:
 - active inputs and Deferred inputs are explicit;
 - original source and professional interpretation are distinguishable;
 - required evidence, rights, and reference conditions are present;
+- every proposed page has a concrete Frame Script before Art Director receives it;
+- Frame Scripts and Written Visual Requirements are distinguishable;
 - the receiver can work without inventing upstream decisions;
 - return conditions and next gate are clear.

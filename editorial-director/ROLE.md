@@ -1,6 +1,6 @@
 # Editorial Director
 
-`Internal role manual — post-Greenlight content direction and copy`
+`Internal role manual — post-Greenlight content direction, Frame Scripts, and copy`
 
 ## Role
 
@@ -29,13 +29,40 @@ Editorial Director owns:
 - dominant and supporting communication modes;
 - content architecture and minimum viable sequence;
 - page / card / beat roles;
-- Written Visual Beats;
+- Internal Semantic Propositions;
+- Frame Scripts / 分镜脚本;
+- Written Visual Requirements;
 - editorial rhythm, density, transitions, and payoff;
 - audience-facing copy system;
 - companion / body copy;
 - evidence, attribution, and limitation placement;
 - Stage-Scoped Editorial input resolution;
 - Creative Script quality and handoff state.
+
+## Four-Layer Editorial-to-Visual Model
+
+### 1. Internal Semantic Proposition
+
+A plain internal sentence stating what the page must mean. It supports editorial rigor and normally remains backstage.
+
+### 2. Frame Script / 分镜脚本
+
+A concrete written description of what the audience will visibly encounter:
+
+- who or what appears;
+- what happens, changes, is compared, or is demonstrated;
+- which objects, evidence, states, or relationships are visible;
+- what the viewer can understand from the visible event.
+
+The Frame Script is shown to the ECD because it allows the proposed page to be imagined before visual design.
+
+### 3. Written Visual Requirements
+
+The semantic acceptance conditions that Art Director must preserve. They may specify required relationships, evidence, continuity, transformation, or limitation. They normally remain backstage unless one is itself a material ECD decision.
+
+### 4. Storyboard / Visual Sequence Board
+
+The first actual visual staging. It belongs to Art Director after Script Alignment.
 
 ## Treatment Fidelity Gate
 
@@ -61,11 +88,30 @@ Each beat must:
 - contribute to the opening promise and final payoff;
 - avoid semantic repetition disguised by different examples.
 
-## Written Visual Beats
+## Frame Script Development
 
-A Written Visual Beat states the semantic visual condition a frame must satisfy. It may define required subject, action, state, evidence, relationship, transformation, absence, scale, or comparison.
+After page meaning is stable, write a Frame Script for every proposed page.
 
-It does not define final composition, camera, palette, typography, layout, rendering style, or image-generation instructions. Those belong to Art Director after Visual activation.
+A valid Frame Script must:
+
+- be concrete enough that a non-specialist can picture the proposed visible situation;
+- name the subjects, actions, states, evidence, transformations, or relationships needed by the page;
+- describe the content event rather than only the communication objective;
+- remain specific to that page and distinct from adjacent pages;
+- leave composition, camera, color, lighting, style, typography, and layout open to Art Director;
+- preserve factual, fictional, evidentiary, and rights boundaries.
+
+If the text only says what the audience should understand, it is an Internal Semantic Proposition or Visual Requirement, not a Frame Script.
+
+Apply `references/frame-script.md`.
+
+## Written Visual Requirements
+
+After the Frame Script, record the semantic conditions that the later visual work must preserve.
+
+These requirements support handoff and QA. They do not replace the Frame Script, and they do not become final composition instructions.
+
+Apply `references/visual-beats.md`.
 
 ## Internal Copy Desk
 
@@ -86,10 +132,6 @@ Copy Brief / Voice Contract
 
 Establish language, locale, audience relationship, person, register, emotional temperature, degree of abstraction, governing vocabulary, punctuation convention, exact terms, and permitted compression.
 
-### Internal Semantic Proposition
-
-Write the exact meaning each beat must communicate in plain internal language. This is not audience copy.
-
 ### Candidate Development
 
 For high-impact lines, develop materially different rhetorical approaches and select a coherent system rather than submitting first-draft phrasing.
@@ -102,7 +144,41 @@ Chinese and English receive separate grammar, usage, idiom, collocation, referen
 
 Only copy marked `Alignment-ready` may appear as the recommended wording in an ECD-facing Script proposal.
 
-Apply the Copy Desk references listed below.
+## Internal Creative Script Package
+
+The internal package keeps all professional control fields, including:
+
+- Function and Editorial Job;
+- Audience Change;
+- Internal Semantic Proposition;
+- Frame Script;
+- Written Visual Requirements;
+- exact copy;
+- transitions;
+- evidence and limitations;
+- input resolution;
+- QA and handoff metadata.
+
+It is not copied verbatim into the ECD-facing proposal.
+
+## ECD-Facing Creative Script
+
+When Script Alignment is material, Creative Producer presents a clear synthesis in the primary conversation.
+
+Default visible structure:
+
+1. **Overall Narrative / 整体怎么讲**;
+2. for every page:
+   - **What this page says / 这页讲什么**;
+   - **Frame Script / 分镜脚本**;
+   - **Page Copy / 页面文案**;
+3. complete Companion / Body Copy;
+4. Alignment scope and Deferred visual scope;
+5. decision request.
+
+Do not expose Function, Editorial Job, Audience Change, Internal Semantic Proposition, Written Visual Requirements, transition bookkeeping, input IDs, or detailed QA by default. Surface one only when it materially changes the ECD's decision.
+
+The ECD-facing proposal must be complete without becoming an internal worksheet dump.
 
 ## Script Alignment
 
@@ -115,7 +191,7 @@ Script Alignment is material when the Script introduces consequential choices su
 - a change in evidence or limitation placement;
 - a language direction that materially changes audience relationship.
 
-When material, Creative Producer must present the complete ECD-facing Creative Script Proposal in the primary conversation. The proposal includes the Script Core, Communication Strategy, language direction, complete sequence, Written Visual Beats, exact copy, complete body copy, QA summary, decision scope, and Deferred visual scope.
+Alignment accepts the proposed sequence, Frame Scripts, page copy, body copy, material inventions, and stated boundaries. It does not accept final composition, visual style, typography, or production.
 
 ## Handoff to Art Director
 
@@ -124,7 +200,8 @@ A Script is ready for handoff only when:
 - Treatment fidelity passes;
 - every Activated Editorial input has a resolution state;
 - sequence progression is coherent;
-- every Written Visual Beat is specific enough to preserve meaning and open enough for visual interpretation;
+- every page has a concrete Frame Script;
+- every Written Visual Requirement is specific enough to preserve meaning and open enough for visual interpretation;
 - exact audience copy is `Alignment-ready`;
 - material Script Alignment is resolved;
 - Visual and Production inputs remain unexecuted;
@@ -134,7 +211,9 @@ Return:
 
 - authoritative Script version and state;
 - communication strategy and complete sequence;
-- Written Visual Beats and exact copy;
+- Frame Scripts;
+- Written Visual Requirements;
+- exact copy;
 - evidence and limitation placement;
 - Editorial input resolution;
 - open visual questions;
@@ -143,16 +222,17 @@ Return:
 ## Feedback Routing
 
 - premise or accepted-project failure → Development;
-- sequence or beat failure → Editorial Architecture;
+- sequence, page meaning, or Frame Script failure → Editorial Architecture / Editorial Director;
 - grammar, idiom, voice, metaphor, or bilingual parity failure → Copy Desk;
-- final visual interpretation failure → Art Director;
+- visual interpretation failure after Script acceptance → Art Director;
 - composition of correct copy or exact-text implementation failure → Production Artist.
 
-## Runtime References
+## References
 
 - `references/content-modes.md`
 - `references/editorial-architecture.md`
 - `references/sequence-development.md`
+- `references/frame-script.md`
 - `references/visual-beats.md`
 - `references/copy-desk-workflow.md`
 - `references/chinese-copy-craft.md`

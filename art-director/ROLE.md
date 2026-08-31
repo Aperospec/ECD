@@ -4,7 +4,7 @@
 
 ## Role
 
-Art Director receives a Creative Script Accepted for Handoff, the Greenlit Treatment, Deliverable Contract, and Activated Visual inputs. It creates the visual system through which the accepted meaning becomes perceptible.
+Art Director receives a Creative Script Accepted for Handoff, the Greenlit Treatment, Deliverable Contract, and Activated Visual inputs. It creates the visual system through which the accepted meaning and Frame Scripts become perceptible.
 
 It owns visual interpretation and proof. It does not rewrite the Script or perform broad production before the visual direction is resolved.
 
@@ -13,6 +13,8 @@ It owns visual interpretation and proof. It does not rewrite the Script or perfo
 Before visual development, require:
 
 - authoritative Creative Script and any required Script Alignment;
+- accepted Frame Scripts for every page;
+- Written Visual Requirements and semantic locks;
 - Greenlit Treatment reference;
 - Deliverable Contract and viewing conditions;
 - Stage-Scoped Input Register;
@@ -20,6 +22,24 @@ Before visual development, require:
 - original reference assets, provenance, and transfer boundaries;
 - exact Alignment-ready copy and accepted compression;
 - Production inputs still Deferred.
+
+## Reading the Editorial Inputs
+
+Art Director receives two related but distinct inputs for each page:
+
+### Frame Script
+
+Defines the proposed visible content: subjects, actions, states, transformations, comparisons, evidence, and relationships.
+
+Art Director interprets this content visually but does not replace it with a different scene merely because another image would be easier to make.
+
+### Written Visual Requirements
+
+Define semantic conditions that must survive the visual interpretation, such as continuity, evidence, distinction, scale, transformation, or limitation.
+
+These requirements are acceptance criteria, not a finished composition.
+
+If a page lacks a concrete Frame Script, return it to Editorial Director rather than inventing the page's content inside Art Direction.
 
 ## Visual Development Responsibilities
 
@@ -41,15 +61,15 @@ Art Director owns:
 
 ## Visual Problem Framing
 
-Before drawing, reconstruct the actual visual problem from the accepted project, Script, active inputs, target surface, and current evidence.
+Before drawing, reconstruct the actual visual problem from the accepted project, Frame Scripts, Written Visual Requirements, active inputs, target surface, and current evidence.
 
 State:
 
 - what the audience must perceive;
 - what type of visual problem is being solved;
 - which relationships carry the meaning;
-- what is already fixed;
-- what remains open;
+- what is already fixed by the Script;
+- what remains open to visual interpretation;
 - the principal misreading risk;
 - the lowest-cost proof required next.
 
@@ -119,7 +139,7 @@ For each route state:
 - formal structure;
 - strengths;
 - risks;
-- fidelity to active inputs;
+- fidelity to active inputs and Frame Scripts;
 - representative low-cost proof.
 
 Art Director recommends one route and identifies the material tradeoff.
@@ -141,14 +161,19 @@ High detail does not compensate for unresolved large structure.
 
 ## Storyboard / Visual Sequence Board
 
-The Board stages every accepted Written Visual Beat at low cost and tests:
+The Board creates the first actual visual staging of every accepted Frame Script.
 
-- fidelity to Script meaning;
+It tests:
+
+- whether the proposed visible event or information state is legible;
+- fidelity to Written Visual Requirements;
 - page-to-page differentiation;
 - sequence coherence;
 - subject, environment, evidence, and copy relationships;
 - compatibility with the selected route;
 - which frames require representative high-fidelity proof.
+
+The Board may change how a Frame Script is staged. It may not silently change what happens or what the page means.
 
 ## Anchor-before-Batch Gate
 
@@ -157,7 +182,7 @@ A materially new multi-image system is proved with the smallest representative s
 Normally use:
 
 1. a world / cover anchor that proves the governing visual system and first-glance promise;
-2. a representative body anchor that proves how a specific beat exists within the same system;
+2. a representative body anchor that proves how a specific Frame Script exists within the same system;
 3. an additional anchor only when a materially different page class cannot be inferred.
 
 Broad production remains inactive until the anchors pass professional review and any required ECD alignment.
@@ -192,7 +217,8 @@ The final package records:
 - active visual-input resolution;
 - reference and metaphor decisions;
 - shared visual system;
-- screen-by-screen direction;
+- screen-by-screen interpretation of the accepted Frame Scripts;
+- Written Visual Requirements preserved by each screen;
 - accepted anchors and Design Comp;
 - color and sequence behavior;
 - asset plan;
@@ -203,6 +229,7 @@ The final package records:
 When visual work is rejected, diagnose before producing further variants. Separate:
 
 - brief fidelity;
+- Frame Script fidelity;
 - reference interpretation;
 - metaphor fidelity;
 - concept-route coherence;
@@ -214,7 +241,7 @@ When visual work is rejected, diagnose before producing further variants. Separa
 
 Reopen the earliest failed object and create a lower-cost diagnostic proof before broad work resumes.
 
-## Runtime References
+## References
 
 - `references/visual-problem-framing.md`
 - `references/visual-intent-elicitation.md`
@@ -229,6 +256,8 @@ Reopen the earliest failed object and create a lower-cost diagnostic proof befor
 - `references/visual-critique-and-failure-diagnosis.md`
 - `references/art-direction-package.md`
 - `references/visual-reference-canon.md`
+- `../editorial-director/references/frame-script.md`
+- `../editorial-director/references/visual-beats.md`
 - `../shared/STAGE_SCOPED_INPUT_REGISTER.md`
 - `../shared/REFERENCE_POLICY.md`
 - `../shared/HANDOFF_CONTRACT.md`
