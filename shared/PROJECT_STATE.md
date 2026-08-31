@@ -2,17 +2,19 @@
 
 ## Purpose
 
-Project State is the Creative Producer's authoritative record of where the work is, what is valid, what is locked, which user inputs are currently active, which are deferred, and what may happen next.
+Project State is Creative Producer's authoritative record of where the work is, what is valid, what is locked, what inputs are active, and what may happen next.
 
-It prevents role drift, repeated work, forgotten approvals, contradictory artifact versions, premature downstream execution, and loss of early user instructions. Maintain only the level of detail required by the project's complexity profile.
+It prevents role drift, instruction loss, premature production, forgotten approvals, and contradictory artifact versions.
+
+Maintain only the detail required by the project's complexity, but never omit the current gate or authoritative object.
 
 ## Single-Source Principle
 
-At any moment, identify one authoritative version of each active professional artifact and one authoritative `Stage-Scoped Input Register`.
+At any moment, identify one authoritative version of each active professional artifact.
 
-Draft alternatives may exist, but they are not production inputs until their state changes explicitly.
+Drafts and alternatives may exist, but are not downstream inputs until their state changes explicitly.
 
-Never infer that the newest-looking document is authoritative merely because it is more detailed.
+Do not infer authority from detail, recency, polish, image count, or production cost.
 
 ## State Template
 
@@ -26,309 +28,255 @@ Working title:
 ECD / owner:
 Created:
 Last updated:
-Complexity profile: [Compact / Standard / Extended]
+Complexity: [Compact / Standard / Extended]
 
 ## 1. Intake and Route
 
 Original request:
 Intended use:
-Current entry point:
-Why this is the shortest valid route:
+Entry point:
+Shortest valid route:
 Consequential assumptions:
 Material unknowns:
 
 ## 2. Deliverable Contract
 
 Contract reference:
-Target platform / surface:
-Required outputs:
-Count / duration / size constraints:
+Platform / surface:
+Outputs:
+Count / duration / size:
 Language / locale:
 Publication context:
 
-## 3. Stage-Scoped Input State
+## 3. Stage-Scoped Inputs
 
-Register reference / version:
-Current active stage:
+Register reference:
 Active input IDs:
-Deferred Editorial input IDs:
-Deferred Visual / Art Direction input IDs:
-Deferred Production input IDs:
-Conflicts / ambiguities:
-Last activation event:
-Next activation condition:
+Needs-Interpretation input IDs:
+Deferred Editorial / Copy inputs:
+Deferred Visual Research / Intent inputs:
+Deferred Visual Direction inputs:
+Deferred Production inputs:
+Conflicts:
 
 ## 4. Evidence and Reference State
 
-Evidence obligation: [Speculative / Conceptual / Evidence-based Editorial / Product / Commercial Validation]
-Research state: [not required / working / sufficient / blocked]
-Reference intent:
-Rights / attribution state:
+Evidence obligation:
+Research state:
+Reference assets:
+Reference roles established:
+Rights / attribution:
 Material claim limits:
 
 ## 5. Phase and Current Owner
 
-Phase: [Development / Awaiting Greenlight / Editorial / Awaiting Script Alignment / Visual Development / Awaiting Visual Alignment / Art Direction / Production / Final Review / Accepted]
+Phase:
+[Development / Awaiting Greenlight / Editorial Architecture / Copy Desk / Awaiting Script Alignment / Visual Problem / Visual Intent / Reference Reading / Metaphor Mapping / Concept Routes / Awaiting Visual Direction Alignment / Formal Studies / Storyboard / Anchor Keyframes / Representative Design Comp / Awaiting Anchor-Design Alignment / Color Script / Art Direction Package / Production / Final Review / Accepted]
+
 Current professional owner:
 Current objective:
+Current decision object:
 Next valid action:
 
 ## 6. Artifact Register
 
 | Artifact | Version / reference | Owner | State | Authority / notes |
 |---|---|---|---|---|
-| Stage-Scoped Input Register | | Creative Producer | | |
 | Creative Treatment | | Development | | |
-| Greenlight Record | | Creative Producer / ECD | | |
+| Greenlight Record | | Producer / ECD | | |
 | Creative Script | | Editorial Director | | |
+| Copy Brief / Voice Contract | | Copy Desk | | |
+| Visual Problem Statement | | Art Director | | |
+| Visual Intent Record | | Art Director | | |
+| Reference Reading Record | | Art Director | | |
+| Visual Metaphor Map | | Art Director | | |
+| Concept Routes / Boards | | Art Director | | |
+| Visual Direction Alignment | | Producer / ECD | | |
+| Formal Studies | | Art Director | | |
 | Storyboard / Visual Sequence Board | | Art Director | | |
+| World / Cover Anchor | | Art Director | | |
+| Representative Body Anchor | | Art Director | | |
 | Representative Design Comp | | Art Director | | |
+| Anchor / Design Alignment | | Producer / ECD | | |
+| Color Script / Sequence System | | Art Director | | |
 | Art Direction Package | | Art Director | | |
 | Final Assets | | Production Artist | | |
-| Acceptance Record | | Creative Producer / ECD | | |
+| Acceptance Record | | Producer / ECD | | |
 
 ## 7. Active Locks
 
-- premise / angle / proposition:
-- public claim / promise:
-- factual / speculative boundary:
-- exact names / wording:
-- evidence / limitation:
-- reference / rights boundary:
-- user-supplied downstream Hard Constraints currently active:
-- visual premise / Design Comp:
-- technical specification:
+- Treatment / premise:
+- Script / copy:
+- visual problem:
+- concept route / world logic:
+- reference-transfer boundary:
+- visual metaphor:
+- anchor image language:
+- Design Comp / typography / layout:
+- Color Script / sequence:
+- production specification:
 
 ## 8. Unresolved Issues
 
-For each issue:
+For each:
 - issue:
-- first affected owner:
-- material consequence:
-- ECD involvement required: [yes / no]
-- blocking: [yes / no]
+- first affected object:
+- owner:
+- consequence:
+- ECD involvement required:
+- blocking:
 - recommended action:
 
 ## 9. ECD Gate State
 
-Latest ECD Update:
-Pending ECD Alignment:
-Pending ECD Decision:
-Pending ECD Final Acceptance:
-Creative Treatment presented to ECD: [yes / no / prior artifact]
-Treatment version / reference:
-Treatment presentation turn / reference:
-Greenlight request issued: [yes / no]
-Greenlight authorization evidence:
-Greenlight form: [none / explicit response to presented Treatment / identified prior Greenlight / stage-aware supplied-Treatment override]
-Greenlight state: [not requested / awaiting ECD / Greenlit / conditional / reopened / superseded]
-Script alignment state: [not applicable / not required / pending / aligned]
-Visual alignment state: [not applicable / not required / pending / aligned]
+Creative Treatment presented:
+Greenlight evidence:
+Script Proposal presented:
+Script Alignment evidence:
+Visual Direction Proposal presented:
+Visual Direction Alignment evidence:
+Anchor / Design Proposal presented:
+Anchor / Design Alignment evidence:
+Final package presented:
+Final Acceptance evidence:
 
-## 10. Rework Scope
+## 10. Production Authorization
+
+Visual Direction accepted: [yes / no / not required]
+Storyboard sufficient: [yes / no]
+Anchor Keyframe Gate: [not started / working / passed / failed / bypassed with reason]
+Representative Design Comp: [not required / working / passed / failed]
+Art Direction Package Accepted for Handoff: [yes / no]
+Production inputs activated: [yes / no]
+Broad production authorized: [yes / no]
+
+## 11. Rework Scope
 
 Triggering feedback:
-First failed professional object:
+First failed object:
 Artifact reopened:
-Input projections reopened / reclassified:
-Downstream artifacts invalidated:
+Downstream invalidated:
 Artifacts still valid:
+Next diagnostic proof:
 
-## 11. Change and Activation Log
+## 12. Change Log
 
 - date / version / change / authority / consequence
-- date / stage transition / input IDs activated / receiving owner
 ```
 
 ## Compact State
-
-For a Compact project, the Project State may be reduced to:
 
 ```markdown
 Project:
 Deliverable:
 Phase / owner:
-Complexity:
-Evidence obligation:
-Stage Input Register:
-Active input IDs:
-Deferred input IDs by next stage:
-Current authoritative artifact:
-Treatment version:
-Greenlight state and evidence:
-Script / visual alignment state when material:
-Active locks:
+Current authoritative object:
+Active / Deferred inputs:
+Current ECD gate:
+Treatment / Script state:
+Visual route state:
+Anchor Gate state:
+Production authorization:
+Locks:
 Open issue:
 Next action:
-Next input activation condition:
 ```
 
-The record may live inside the Creative Producer's working response or project notes. It does not need to become a separate visible document unless useful.
+A compact record may be short. It must still distinguish visual research from direction, direction from anchors, and anchors from broad production authorization.
 
-A compact record may be short. It still must distinguish `Awaiting Greenlight` from `Greenlit`, identify authorization evidence before Editorial Production, and prevent visual or production inputs from activating prematurely.
-
-## Input Activation Rules
-
-Use `STAGE_SCOPED_INPUT_REGISTER.md` as the controlling source for staged inputs.
-
-### Intake → Development
-
-Activate:
-
-- global / Deliverable Contract projections;
-- Development projections;
-- evidence and reference-boundary questions required to form the Treatment.
-
-Keep Editorial, Visual, and Production projections Deferred.
-
-### Greenlight → Editorial
-
-Requires a valid Greenlight Record tied to the authoritative Treatment.
-
-On transition:
-
-1. lock only accepted Treatment decisions and Greenlight boundaries;
-2. activate Deferred Editorial projections;
-3. preserve Visual and Production projections as Deferred;
-4. log the IDs activated and hand them to Editorial Director;
-5. set next authorized artifact to Creative Script.
-
-Greenlight is not permission to create a Storyboard, Design Comp, Art Direction Package, or deliverable image.
-
-### Creative Script Accepted for Handoff → Visual Development
-
-Requires:
-
-- a valid Script state;
-- all Activated Editorial projections resolved or explicitly superseded;
-- material Script Alignment resolved when required.
-
-On transition:
-
-1. activate Deferred Visual / Art Direction projections;
-2. transfer original source wording, references, authority classes, and prohibited transfer boundaries to Art Director;
-3. keep Production projections Deferred;
-4. log the activation.
-
-### Art Direction Package Accepted for Handoff → Production
-
-Requires:
-
-- accepted visual direction;
-- required ECD Visual Alignment resolved;
-- production assets or acquisition plan, tolerances, and output conditions.
-
-On transition:
-
-1. activate Deferred Production projections;
-2. transfer technical requirements and Hard Constraints to Production Artist;
-3. log the activation.
-
-## Artifact Transition Rules
+## Transition Rules
 
 ### Development → Awaiting Greenlight
 
+Requires a coherent, visible Creative Treatment and sufficient evidence / rights resolution.
+
+### Awaiting Greenlight → Editorial Architecture
+
+Requires valid ECD Greenlight tied to the Treatment.
+
+### Editorial / Copy → Awaiting Script Alignment
+
+Requires Treatment fidelity, coherent sequence, Alignment-ready copy, and complete ECD-facing Script Proposal when alignment is material.
+
+### Script Alignment / Handoff → Visual Problem
+
+Requires Script Accepted for Handoff and activation of Visual Research / Intent inputs.
+
+Do not activate Production.
+
+### Visual Problem → Visual Intent / Reference / Metaphor
+
+Requires a clear account of what must become perceptible and which material inputs need interpretation.
+
+### Visual Intent / Reference / Metaphor → Concept Routes
+
+Requires source / inference separation, controlled reference transfer, and metaphor mapping when relevant.
+
+### Concept Routes → Awaiting Visual Direction Alignment
+
+Requires materially distinct routes or a justified single route, low-cost proof, recommendation, and complete ECD-facing proposal when alignment is material.
+
+### Visual Direction Alignment → Formal Studies / Storyboard
+
+Requires selected route and translated ECD decision.
+
+### Storyboard → Anchor Keyframes
+
+Requires coherent full-sequence staging and identified representative risks.
+
+### Anchor Keyframes / Design Comp → Awaiting Anchor-Design Alignment
+
+Requires actual representative proofs visible in the primary conversation when alignment is material.
+
+### Anchor-Design Alignment → Color Script / Art Direction Package
+
+Requires accepted representative image and page-design relationships.
+
+### Art Direction Package → Production
+
 Requires:
 
-- a coherent Creative Treatment;
-- sufficient resolution of material evidence, rights, and reference obligations;
-- the Treatment presented to the ECD or an explicitly identified supplied equivalent;
-- a clear statement of what Greenlight will authorize;
-- later-stage user inputs preserved as Deferred rather than interpreted into downstream decisions.
-
-After presentation, the next valid action is an ECD decision. No Production artifact may be created while this state is active.
-
-### Awaiting Greenlight → Editorial
-
-Requires a valid Greenlight Record tied to the authoritative Treatment and one of the accepted authorization forms in `GREENLIGHT_RECORD.md`.
-
-A generic request to make, start, design, or directly produce a post does not satisfy this transition when it preceded the Treatment or did not identify the Treatment being accepted.
-
-Complexity profile does not alter this requirement.
-
-The transition activates Editorial inputs only.
-
-### Existing Greenlit Treatment → Editorial
-
-May enter directly only when the Treatment and prior ECD authorization are identifiable, or when the ECD gives a stage-aware supplied-Treatment override.
-
-Reconstruct Deferred Editorial / Visual / Production inputs from the supplied project context rather than losing them.
-
-### Editorial → Awaiting Script Alignment
-
-Use when the Creative Script creates a material sequence, fictional-content, headline, public-position, or communication choice not already resolved by the Treatment and the decision requires ECD authority.
-
-Visual inputs remain Deferred while this state is active.
-
-### Editorial / Awaiting Script Alignment → Visual Development
-
-Requires a Creative Script Accepted for Handoff, complete written Visual Beats and audience-facing copy at the level needed for composition, and any required Script Alignment resolved.
-
-This transition activates Visual / Art Direction inputs.
-
-### Visual Development → Awaiting Visual Alignment
-
-Use when the Storyboard or Representative Design Comp creates a materially subjective visual interpretation requiring ECD alignment.
-
-Production inputs remain Deferred.
-
-### Visual Development / Awaiting Visual Alignment → Art Direction
-
-Requires a coherent Storyboard / Visual Sequence Board and any representative visual question resolved by a Design Comp and alignment where material.
-
-### Art Direction → Production
-
-Requires an Art Direction Package Accepted for Handoff, production assets or acquisition plan, tolerances, and known output conditions.
-
-This transition activates Production inputs.
+- package Accepted for Handoff;
+- Anchor Gate passed or valid bypass;
+- Design Comp passed when material;
+- required visual alignment resolved;
+- Production inputs activated.
 
 ### Production → Final Review
 
-Requires all requested assets, variants, and QA records.
+Requires all requested assets, variants, and QA.
 
 ### Final Review → Accepted
 
-Requires Creative Producer review and ECD Final Acceptance when subjective acceptance or publication authority is required.
+Requires complete visible final package and ECD Final Acceptance when material.
 
-## Deferred Input Integrity
+## Unauthorized / Non-Authoritative Work
 
-A Deferred input is not inactive memory. It is an authoritative future-stage instruction whose execution is intentionally postponed.
+Mark work non-authoritative when it was produced outside the valid sequence, including:
 
-Reject or repair Project State when:
+- Production artifacts before Greenlight;
+- final-looking images before Visual Problem / route alignment;
+- broad image batch before Anchor Gate;
+- Production work before Art Direction handoff.
 
-- a Deferred Hard Constraint disappears before its activation stage;
-- the ECD is asked to repeat a stored instruction without a material reason;
-- an Assistant Inference is recorded as a user instruction;
-- a visual preference is paraphrased so aggressively during Development that its original intent is lost;
-- Greenlight is recorded as approval of Deferred Editorial or Visual output;
-- visual inputs are activated before the Script is Accepted for Handoff;
-- production inputs are activated before Art Direction is Accepted for Handoff.
+Recovery:
 
-## Unauthorized Pre-Greenlight Work
-
-If a Script, Storyboard, Design Comp, generated image, layout, or final asset was created before valid Greenlight:
-
-1. mark it `Unauthorized / Invalid — pre-Greenlight` in the authority notes;
-2. do not promote it to authoritative state;
-3. preserve it only as failure evidence or optional non-authoritative exploration when useful;
-4. return Phase to `Development` or `Awaiting Greenlight`;
-5. present the Treatment and obtain the missing decision.
-
-Do not retroactively manufacture Greenlight to legitimize already-created work.
+1. stop downstream work;
+2. preserve as failure evidence or exploratory material only;
+3. restore the first missing gate;
+4. do not manufacture retrospective approval;
+5. determine whether any fragment remains reusable after the correct direction is accepted.
 
 ## Invalid State Examples
 
-Reject or repair Project State when:
-
-- two different Creative Scripts are both marked authoritative;
-- a downstream artifact points to an obsolete upstream version;
-- a visual direction is called locked without identifying the representative proof;
-- Greenlight is assumed because the user said “做一个帖子”, “开始吧”, or equivalent before seeing the Treatment;
-- Greenlight has no identified Treatment, presentation reference, or authorization evidence;
-- Compact complexity is recorded as the reason Greenlight was skipped;
-- Greenlight is treated as authorization for immediate visual production;
-- a cross-stage brief was flattened into the Treatment instead of registered by stage;
-- final assets are accepted without matching the Deliverable Contract;
-- rework is assigned to the most recent role instead of the first failed owner;
-- a routine professional choice is falsely recorded as an ECD decision;
-- unauthorized pre-Greenlight work is treated as approved merely because it already exists.
+- two authoritative Scripts;
+- Greenlight without identified Treatment;
+- visual reference recorded as a production prompt;
+- ECD Aesthetic Judgment converted directly into palette / camera / batch instructions;
+- Concept Route absent but Storyboard or anchors exist;
+- Visual Direction Alignment recorded without a visible proposal;
+- six final-looking images exist while Anchor Gate is `not started`;
+- Production authorized because the model can generate quickly;
+- raw reference is the governing Production input;
+- final assets accepted without matching anchors, Design Comp, contract, and QA;
+- rework assigned to latest role rather than first failed object.

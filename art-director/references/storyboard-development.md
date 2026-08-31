@@ -2,21 +2,40 @@
 
 ## Purpose
 
-The Storyboard / Visual Sequence Board is Art Director's first low-cost visual translation of an accepted Creative Script.
+The Storyboard / Visual Sequence Board is Art Director's low-cost staging of every accepted Script beat **after the governing visual direction has been framed and selected**.
 
-It makes the full sequence visible early enough to test interpretation, distinction, rhythm, and feasibility before high-fidelity design and broad production.
+It tests whether the full sequence is visually coherent, distinct, faithful, and extendable before anchor keyframes, final page design, and broad production.
 
-It is not final art, not a replacement for the Creative Script, and not the final visual-system lock.
+It is not the first response to a raw reference image. It is not final art. It is not a substitute for Visual Problem Framing, Reference Reading, Metaphor Mapping, or Concept Route Alignment.
+
+## Entry Gate
+
+Before Storyboard begins, require:
+
+- Creative Script Accepted for Handoff;
+- Activated Visual inputs and source authority;
+- Visual Problem Statement;
+- material Reference Reading Records;
+- Visual Metaphor Map when applicable;
+- selected Concept Route;
+- required ECD Visual Direction Alignment resolved;
+- enough composition / value / spatial studies to make staging plausible;
+- target aspect ratio and viewing condition.
+
+If these do not exist, return to the relevant Visual Development object instead of using final-looking panels to discover the direction.
 
 ## Input Fidelity
 
-Every panel must map to an accepted written Visual Beat and preserve:
+Every panel must map to an accepted Written Visual Beat and preserve:
 
 - primary editorial job;
+- audience change;
 - required subject, object, action, state, relationship, evidence, or limitation;
-- exact editorial meaning;
-- locked copy or names when shown;
-- reference-use and rights boundaries.
+- selected world / scene logic;
+- user visual Hard Constraints;
+- reference-transfer boundaries;
+- accepted concept-route principles;
+- copy territory or image–type relationship when material.
 
 Art Director may invent visual solutions, but not new editorial content.
 
@@ -27,98 +46,171 @@ Possible forms:
 - rough sketch;
 - composition thumbnail;
 - grayscale wireframe;
-- low-fidelity generated visual;
-- collage or visual board with explicit reference boundaries;
-- simple scene mockup;
+- value-block panel;
+- spatial diagram;
+- collage with explicit source boundaries;
+- low-fidelity generated concept frame;
 - type–image relationship study;
 - sequence strip.
 
-Use enough detail to answer the current visual question. Do not spend final-production effort on an unproven direction.
+Use enough detail to answer the current question. Rendering quality must not hide unresolved staging.
 
 ## Required Coverage
 
-The Board should normally make the entire required sequence inspectable, even when only selected screens later receive high-fidelity Design Comps.
+The Board should normally make the entire sequence inspectable.
 
-For each panel, identify:
+For each panel identify:
 
-- source beat;
-- primary visual task;
-- subject / evidence role;
-- center of gravity and reading path at a conceptual level;
-- relationship to adjacent screens;
-- open visual question;
-- whether a representative Comp is required.
+```markdown
+### Panel [number]
+
+Script beat / page:
+Primary visual task:
+Audience perception:
+Selected route principle applied:
+Subject–environment hierarchy:
+World / scene continuity:
+Large-shape and value intent:
+Depth / scale / movement intent:
+Copy / evidence territory:
+Reference principle used:
+Reference content prohibited:
+Relationship to adjacent panels:
+Open risk:
+Anchor candidate: [yes / no / why]
+```
 
 ## What the Board Must Test
 
-As relevant:
+### Script fidelity
 
-- fidelity to written Visual Beats;
-- visual differentiation between adjacent screens;
-- cover promise and payoff relationship;
-- subject and environment relationship;
-- scale, depth, absence, accumulation, or transformation;
-- evidence visibility and credibility;
-- image–type relationship;
-- density and pause rhythm;
-- whether the sequence collapses into one repeated template;
-- compatibility with target aspect ratio and viewing behavior;
-- whether approved reference attributes have been abstracted rather than copied.
+- Does every panel perform the accepted beat rather than merely illustrate its nouns?
+- Does the visual sequence preserve the Treatment's governing mechanism?
 
-## Reference DNA
+### World and scene coherence
 
-Follow `../../shared/REFERENCE_POLICY.md`.
+- Do establishing and closer views belong to the same world?
+- Are region, material, scale, route, and light rules continuous?
+- Does a world-led project remain world-led where required?
 
-Treat creative references as attribute sources, not scene templates. Unless separately authorized, do not transfer specific people, characters, buildings, products, props, poses, events, exact camera, exact crop, exact composition, logos, symbols, or distinctive branded treatments.
+### Visual differentiation
+
+- Do adjacent panels differ in scale, viewpoint, value, density, movement, or visual task for an editorial reason?
+- Are different scenes merely repeating the same character pose, weather, grade, or emotional vignette?
+
+### Formal progression
+
+- Is there a controlled progression of large shapes, values, depth, line, motion, and pause?
+- Does the cover promise receive a visual payoff?
+
+### Metaphor fidelity
+
+- Does the selected metaphor organize relationships across panels?
+- Or does each panel use one literal source-domain object as a visual pun?
+
+### Reference distance
+
+- Are only approved structural or formal qualities transferred?
+- Has a source scene, building, character relation, ride layout, camera, or branded device been re-skinned?
+
+### Page-design feasibility
+
+- Is there plausible territory for accepted copy?
+- Can the body pages remain legible without reducing the environment to background wallpaper?
+- Are evidence and limitations visible where required?
+
+## World-led Sequence Rule
+
+For world-led projects:
+
+- establish the whole before repeatedly isolating characters;
+- use characters to prove scale, use, memory, or action—not as default emotional close-ups;
+- maintain navigable relationships between regions;
+- let a body page reveal a part of the world while preserving its larger logic;
+- avoid turning every page into a standalone cinematic still.
+
+## Board vs Concept Route
+
+Concept Route answers:
+
+> What visual system should this project use?
+
+Storyboard answers:
+
+> How does every accepted beat stage inside that selected system?
+
+Do not use Storyboard to compare unresolved routes through a set of polished panels.
+
+## Board vs Anchor Keyframe
+
+Storyboard answers:
+
+> Is the sequence conceptually and formally plausible?
+
+Anchor Keyframes answer:
+
+> Does the representative image world actually work at meaningful fidelity?
+
+After the Board, identify:
+
+1. World / Cover Anchor candidate;
+2. Representative Body Anchor candidate;
+3. any additional distinct page class with recorded reason.
+
+Apply `anchor-keyframe-gate.md`.
 
 ## Board vs Representative Design Comp
 
-The Board answers:
+The Board may reserve copy territory and show conceptual image–type relationships.
 
-> Is the full visual sequence conceptually coherent and faithful?
+The Representative Design Comp must prove actual typography, hierarchy, line breaks, spacing, masking, and mobile readability.
 
-The Representative Design Comp answers:
-
-> Does the intended design actually work at high fidelity with real copy, geometry, typography, imagery, and mobile viewing conditions?
-
-Do not mistake a rough Board for proof of final hierarchy or readability.
-
-After the Board, identify the screens with the highest visual risk. Those screens become Design Comp candidates.
+Do not call a rough Board proof of final page design.
 
 ## Compact Combination
 
-For a one-to-three-screen project, one high-fidelity visual proof may simultaneously act as:
+For one-to-three-screen work, a single representative proof may combine:
 
-- sequence representation;
+- formal study;
 - Storyboard;
+- Anchor Keyframe;
 - Representative Design Comp.
 
-Record which questions it resolves. Combining artifacts should reduce ceremony, not weaken visual proof.
+Record which questions it resolves. Compact does not waive intent, reference, or metaphor analysis when material.
 
-## ECD Visual Alignment
+## ECD Alignment
 
-Use the Board for ECD alignment when the material decision is primarily about:
+Use the Board for ECD alignment when the remaining material question concerns:
 
-- scene concept;
-- visual metaphor;
-- sequence interpretation;
-- mood or world direction visible at low fidelity;
-- treatment of an important reference;
-- subject / environment relationship.
+- sequence staging;
+- world-to-scene relationship;
+- subject–environment hierarchy;
+- interpretation of an accepted metaphor;
+- how a reference principle extends across pages.
 
-Use a Design Comp when the material decision depends on actual typography, hierarchy, spacing, image treatment, or mobile readability.
+Do not request alignment with a prose-only description when a low-cost visual strip can show the issue.
 
-Art Director should recommend a direction and state the main tradeoff. Do not ask ECD to decide routine geometry.
+## Failure Conditions
+
+- Storyboard begins directly from a raw reference and one sentence;
+- the selected Concept Route is absent;
+- every panel uses the same camera, grade, or character pose;
+- a world-led project becomes a montage of isolated emotional scenes;
+- reference objects dominate while reference structure disappears;
+- sequence panels are final-looking enough to pressure acceptance but too unresolved to diagnose;
+- copy territory and viewing conditions are ignored;
+- all panels are sent to Production before anchors pass.
 
 ## QA
 
-Before moving to Design Comp or final Art Direction, confirm:
+Before moving to anchors:
 
 - every required beat is represented;
-- every panel maps to the intended Visual Beat;
+- each panel maps to the intended Written Visual Beat;
+- the selected route remains recognizable;
+- visual distinctions correspond to editorial distinctions;
 - no reference scene was merely re-skinned;
-- adjacent screens differ for a reason;
-- evidence has not been replaced by decoration;
-- target viewing geometry is plausible;
-- high-risk screens have been identified for high-fidelity proof;
-- unresolved problems are correctly routed upstream.
+- world rules remain coherent;
+- high-risk representative frames are identified;
+- unresolved problems are routed to the earliest visual object;
+- Production remains inactive.

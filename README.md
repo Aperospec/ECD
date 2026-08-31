@@ -2,165 +2,153 @@
 
 ECD is a single-entry, AI-native **Social Editorial Creative Studio**.
 
-The human user is the **Executive Creative Director (ECD)** and retains final creative authority. One root `SKILL.md` acts as the user-facing studio entrance. Internally, the Skill uses four professional role manuals rather than exposing four independent Skills:
+The human user is the Executive Creative Director and retains final authority. One root `SKILL.md` acts as the user-facing entrance. Internally, four professional modes collaborate:
 
-- Creative Producer — intent, routing, state, staged input activation, ECD-facing proposals, Greenlight, handoffs, rework, and acceptance;
-- Editorial Director — content architecture, sequence, written Visual Beats, bilingual Copy Desk, on-screen copy, companion copy, and Creative Script;
-- Art Director — Storyboard / Visual Sequence Board, Representative Design Comp, and Art Direction Package;
-- Production Artist — asset realization, deterministic typography, layout, export, and technical QA.
+- Creative Producer — intent, state, stage activation, ECD-facing proposals, gates, handoffs, and rework;
+- Editorial Director — content architecture, Written Visual Beats, bilingual Copy Desk, and Creative Script;
+- Art Director — visual problem framing, intent elicitation, reference analysis, metaphor mapping, concept routes, Storyboard, anchors, Design Comp, color script, and Art Direction;
+- Production Artist — accepted asset realization, deterministic typography, layout, variants, export, and QA.
 
 ## Canonical Workflow
 
 ```text
 ECD Input
 ↓
-Creative Producer
-├─ Deliverable Contract
-├─ Stage-Scoped Input Register
-├─ Project State
-└─ shortest valid route
+Stage-Scoped Intake
 ↓
-Development when required
-↓
-ECD-facing Creative Treatment
+Creative Treatment
 ↓
 ECD Greenlight
 ↓
-Editorial Director
-├─ Editorial Architecture
-├─ Treatment Fidelity Gate
-├─ Chinese / English / Bilingual Copy Desk
-└─ Copy Quality Gate
-↓
-Internal Creative Script Package
+Editorial Architecture + Copy Desk
 ↓
 Complete ECD-facing Creative Script Proposal
 ↓
 ECD Script Alignment when material
 ↓
-Art Director
-├─ Storyboard / Visual Sequence Board
-├─ Representative Design Comp
-└─ Art Direction Package
+Visual Problem + Intent + Reference Reading
 ↓
-ECD Visual Alignment when material
+Visual Metaphor Map when relevant
 ↓
-Production Artist
+Concept Routes
 ↓
-Final Assets and QA
+ECD Visual Direction Alignment when material
+↓
+Formal Studies + Storyboard
+↓
+World / Cover Anchor + Representative Body Anchor
+↓
+Representative Design Comp
+↓
+ECD Anchor / Design Alignment when material
+↓
+Color Script + Art Direction Package
+↓
+Production
+↓
+Final Assets
 ↓
 ECD Final Acceptance
 ```
 
+## Visual Development Principle
+
+A user's natural-language visual judgment and supplied reference are **visual research inputs**, not a final image-generation prompt.
+
+The user may say:
+
+- “这张图很对”;
+- “我喜欢这个感觉”;
+- “人生档案馆就是人生游乐场”;
+- “这些图很难看”.
+
+Art Director must translate that input professionally:
+
+1. reconstruct the visual problem;
+2. state what it believes the user values and why;
+3. classify the reference role;
+4. separate description, formal structure, interpretation, and transferable qualities;
+5. map any visual metaphor at the level of relationships rather than surface objects;
+6. develop materially different concept routes;
+7. ask only a few plain-language, high-consequence alignment questions;
+8. prove the selected system through low-cost studies and representative anchors;
+9. permit broad production only after the Anchor Gate passes.
+
+The ECD does not need to know art terminology or write prompts.
+
+## Anchor-before-Batch Rule
+
+For a new reference-led, metaphor-led, world-led, or multi-image visual system, Art Director normally proves:
+
+- one World / Cover Anchor;
+- one Representative Body Anchor;
+- optionally one additional distinct page class with recorded reason.
+
+Do not generate four to eight final-looking images before these proofs and any required ECD alignment.
+
 ## Decision-Object Rule
 
-Every ECD decision must be attached to a complete, visible, identifiable decision object in the primary conversation.
+Every ECD decision must be attached to a complete, visible, identifiable object in the primary conversation.
 
-A file or attachment may preserve the internal record, state tables, input IDs, detailed QA, or downstream handoff metadata. It may not be the only place containing information the ECD needs to decide.
+Files may preserve internal state and detailed QA, but cannot contain the only material needed for:
 
-This applies to:
-
-- Creative Treatment / Greenlight;
-- Creative Script / Script Alignment;
-- Storyboard or Representative Design Comp / Visual Alignment;
-- Final Assets / Final Acceptance.
-
-A page-title list plus one sentence per page is a sequence summary, not a complete Creative Script Proposal. Before Script Alignment, the primary conversation must show the Communication Strategy, complete page-by-page structure, Written Visual Beats, exact on-screen copy, complete body copy, fidelity, sequence and copy QA, Alignment scope, and what remains Deferred for Art Director.
-
-See:
-
-- `shared/ECD_DECISION_PRESENTATION.md`;
-- `editorial-director/references/creative-script-presentation.md`.
-
-## Bilingual Copy Desk
-
-Editorial Director contains an internal Copy Desk rather than treating copy as a one-pass fill-in task.
-
-The normal method is:
-
-```text
-Greenlit Treatment
-→ Editorial Architecture
-→ Treatment Fidelity Gate
-→ Copy Brief / Voice Contract
-→ Internal Semantic Proposition per page
-→ Candidate Development
-→ Native Chinese or English Drafting
-→ Native-Language Copy Edit
-→ Cross-Page Voice / Metaphor Audit
-→ Bilingual Transcreation when required
-→ Copy Quality Gate
-→ Alignment-ready Copy
-```
-
-The reference canon includes Chinese writing, grammar and rhetoric sources; English clarity, sentence craft and copyediting sources; advertising-copy sources; and the Simplified Chinese punctuation standard. Books are used as method sources, not copied text or author-style imitation.
-
-Chinese and English are written and edited as independent native-language versions from a shared semantic brief. One language is not mechanically translated into the other.
-
-A structurally complete Script still fails when its copy is grammatically incomplete, non-idiomatic, generic, translated, metaphorically confused, or unfaithful to the Greenlit Treatment.
-
-See:
-
-- `editorial-director/references/writing-reference-canon.md`;
-- `editorial-director/references/copy-desk-workflow.md`;
-- `editorial-director/references/chinese-copy-craft.md`;
-- `editorial-director/references/english-copy-craft.md`;
-- `editorial-director/references/bilingual-transcreation.md`;
-- `editorial-director/references/copy-quality-gate.md`.
+- Greenlight;
+- Script Alignment;
+- Visual Direction Alignment;
+- Anchor / Design Alignment;
+- Final Acceptance.
 
 ## Core Boundaries
 
-A written **Visual Beat** is not a Storyboard.
-
-- Editorial Director defines what each screen must communicate in words.
-- Art Director creates the first true visual translation.
-- Production Artist realizes the accepted visual direction technically.
-
-Generated imagery and final typography are separated by default. Image generation produces visual assets; exact audience-facing text is composed deterministically so wording, hierarchy, line breaks, and mobile readability remain controllable.
-
-A natural brief may span multiple stages. The Stage-Scoped Input Register preserves all material instructions while activating only the inputs belonging to the current professional stage.
+- A Written Visual Beat is not a Storyboard.
+- A reference is not a style token.
+- A metaphor is not a list of literal source-domain objects.
+- A polished batch is not evidence that the visual direction was solved.
+- Image generation does not replace problem framing, concept design, formal study, or art direction.
+- Final typography is normally composed deterministically.
 
 ## Repository Structure
 
 ```text
 SKILL.md
-ORGANIZATION.md
 creative-producer/ROLE.md
 editorial-director/ROLE.md
-editorial-director/references/creative-script-package.md
-editorial-director/references/creative-script-presentation.md
-editorial-director/references/social-editorial-copy.md
-editorial-director/references/writing-reference-canon.md
-editorial-director/references/copy-desk-workflow.md
-editorial-director/references/chinese-copy-craft.md
-editorial-director/references/english-copy-craft.md
-editorial-director/references/bilingual-transcreation.md
-editorial-director/references/copy-quality-gate.md
 art-director/ROLE.md
 production-artist/ROLE.md
-shared/ECD_DECISION_PRESENTATION.md
-shared/STAGE_SCOPED_INPUT_REGISTER.md
-shared/CREATIVE_TREATMENT_PRESENTATION.md
-shared/GREENLIGHT_RECORD.md
-shared/HANDOFF_CONTRACT.md
-shared/ARTIFACT_STATES.md
-tests/CREATIVE_SCRIPT_PRESENTATION_REGRESSION.md
-tests/BILINGUAL_COPY_QUALITY_REGRESSION.md
+shared/
+editorial-director/references/
+art-director/references/
+production-artist/references/
+tests/
 ```
 
-## Artifact Chain
+Key visual-development references:
 
 ```text
-Creative Treatment
-→ ECD Greenlight
-→ Creative Script with Alignment-ready Copy
-→ ECD Script Alignment when material
-→ Storyboard / Visual Sequence Board
-→ Representative Design Comp
-→ ECD Visual Alignment when material
-→ Art Direction Package
-→ Final Assets
-→ ECD Final Acceptance
+art-director/references/visual-reference-canon.md
+art-director/references/visual-problem-framing.md
+art-director/references/visual-intent-elicitation.md
+art-director/references/reference-reading-and-transfer.md
+art-director/references/visual-metaphor-mapping.md
+art-director/references/visual-concept-development.md
+art-director/references/anchor-keyframe-gate.md
+art-director/references/ecd-friendly-visual-alignment.md
+art-director/references/visual-critique-and-failure-diagnosis.md
 ```
 
-The studio is adaptive rather than a compulsory waterfall. Valid existing professional artifacts enter at the latest legitimate stage, but no ECD gate may be replaced by an incomplete summary, attachment-only handoff, first-draft copy, or unedited translation.
+## Feedback Routing
+
+- wrong premise → Development;
+- wrong sequence / copy → Editorial Director / Copy Desk;
+- misunderstood visual goal → Visual Problem Framing;
+- misunderstood user intuition → Visual Intent Elicitation;
+- wrong reference transfer → Reference Reading;
+- superficial metaphor → Visual Metaphor Map;
+- wrong world / route → Concept Development;
+- bad composition / value / scale → Formal Studies;
+- wrong page staging → Storyboard;
+- failed representative image language → Anchor Keyframe;
+- failed typography / page hierarchy → Design Comp;
+- correct direction executed badly → Production Artist.
+
+When a result is described as ugly, do not rerender blindly. Diagnose the first failed visual object and return there.

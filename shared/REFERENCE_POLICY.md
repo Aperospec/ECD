@@ -2,238 +2,216 @@
 
 ## Purpose
 
-This is the single authoritative policy for editorial, visual, product, and design references across ECD.
+This is the shared authority and rights policy for editorial, visual, product, and design references across ECD.
 
-References may supply evidence, context, permissions, or abstractable creative qualities. They do not automatically become content to reproduce.
+References may supply evidence, context, permissions, constraints, or abstractable qualities. They do not automatically become content to reproduce, a complete style token, or a production prompt.
 
-Reference handling is also **stage-scoped**. A reference may be received during Development while its detailed visual interpretation remains Deferred until Art Director is activated.
-
-Use together with `STAGE_SCOPED_INPUT_REGISTER.md`.
+Detailed visual analysis is governed by `../art-director/references/reference-reading-and-transfer.md`.
 
 ## First Determine Reference Intent
 
-Creative Producer must identify why the reference was supplied. Possible intents include:
+Possible roles include:
 
-- factual source or evidence;
-- product / interface / repository being discussed;
+- factual source / evidence;
+- product, interface, repository, or object being discussed;
 - asset authorized for direct use;
-- mood or atmosphere reference;
-- lighting or color relationship;
-- materiality or texture;
-- spatial scale or depth;
-- camera feeling or composition temperament;
-- typography character or image–type relationship;
-- workflow or interaction reference;
-- quality benchmark;
-- negative example.
+- Concept Reference;
+- World-Structure Reference;
+- Mood Reference;
+- Style Reference;
+- Color / Light Reference;
+- Composition Reference;
+- Content Reference;
+- Quality Benchmark;
+- Negative Reference;
+- workflow / interaction reference.
 
-Do not assume that everything visible in a reference is intended for transfer.
+One image may serve several roles. Record them separately.
 
-## Stage-Scoped Reference Handling
-
-### During Development
-
-Allowed:
-
-- identify the reference class;
-- preserve the ECD's stated intended use;
-- determine ownership / rights / attribution / direct-use boundaries;
-- record prohibited transfer;
-- identify a Development-level semantic consequence when the reference genuinely affects the project premise;
-- register later visual interpretation as Deferred.
-
-Do not perform detailed Art Direction extraction merely because the reference is available.
-
-If the ECD says:
-
-> “这张图我喜欢它的色调、画风。”
-
-Development should record:
-
-> Reference intent: color and visual style. Detailed extraction deferred to Art Director.
-
-Development should not silently upgrade that into:
-
-> blue-gray + ivory + warm gold, high cool skylight, hand-painted concept-art grain
-
-unless the ECD explicitly supplied those qualities or Development needs one of them for a material premise decision.
-
-### During Editorial
-
-Editorial Director may use a reference only when:
-
-- it is evidence required by the content;
-- its semantic content was explicitly authorized as an Editorial input;
-- a Greenlit meaning depends on it.
-
-Editorial Director must not consume Deferred visual attributes to pre-decide palette, camera, lighting, typography, or composition.
-
-### During Art Direction
-
-After the Creative Script is Accepted for Handoff and Visual inputs are activated, Art Director receives:
-
-- the original reference asset;
-- the original ECD reference instruction;
-- authority class;
-- approved reference intent;
-- prohibited transfer;
-- rights / attribution state.
-
-Art Director may then professionally extract and test the authorized visual attributes.
-
-### During Production
-
-Production Artist uses only assets, transformations, and reference consequences authorized by accepted Art Direction plus Activated Production constraints.
+Do not assume everything visible is intended for transfer.
 
 ## Reference Classes
 
-### A. Source / Evidence
+### Source / Evidence
 
-Use to support factual claims, show observed output, or establish provenance. Preserve date, version, region, and limitation where material.
+Use to support claims or show observed output. Preserve date, version, region, provenance, and limitations when material.
 
-### B. Authorized Content Asset
+### Authorized Content Asset
 
 A supplied image, screenshot, logo, product rendering, or other asset may be reproduced or transformed only to the extent authorized and legally permitted.
 
-Record:
+Record ownership, permitted use, transformation, attribution, prohibited alteration, and publication / commercial limits.
 
-- ownership or source;
-- permitted use;
-- permitted transformation;
-- attribution requirement;
-- prohibited alteration;
-- publication or commercial limits.
-
-### C. Creative Attribute Reference
+### Creative Attribute Reference
 
 May inform abstract qualities such as:
 
-- mood;
-- atmosphere;
-- emotional temperature;
-- lighting behavior;
-- color relationships;
-- materiality;
-- spatial scale;
-- depth;
-- grain and surface behavior;
+- mood and emotional distance;
+- light and color relationships;
+- material and texture;
+- scale and spatial depth;
+- line, shape, value, motion, and rhythm;
 - composition temperament;
 - typography compatibility;
-- rhythm.
+- world structure and navigability.
 
-Unless separately authorized as content, it does not authorize transfer of the specific subject, person, character, building, object, product, pose, prop, event, exact camera, exact crop, exact composition, logo, symbol, or distinctive branded device.
+Unless separately authorized, it does not authorize transfer of specific people, characters, buildings, products, props, rides, poses, events, exact camera, crop, composition, logos, signs, or branded devices.
 
-The list above defines what may be extracted **after the relevant stage activates**. It is not permission for Development to extract every visible attribute immediately.
+### Structural / Interaction Reference
 
-### D. Structural / Interaction Reference
+May inform hierarchy, navigation, information architecture, interaction sequence, route logic, or system behavior. Do not copy proprietary expression or branded interface detail beyond what is necessary and permitted.
 
-May inform information hierarchy, navigation behavior, interaction sequence, or workflow logic. Do not copy proprietary expression, branded interface details, or content beyond what is necessary and permitted.
+### Negative Reference
 
-### E. Negative Reference
+Defines what the work must avoid. Record the exact failure dimension rather than importing unrelated traits.
 
-Defines what the work must avoid. Record the failure dimension precisely rather than importing unrelated traits.
+## Natural-Language Reference Input
+
+Statements such as:
+
+- “这张图很对”;
+- “我只喜欢它的色调”;
+- “我喜欢它的画面内容”;
+- “不要像这张图一样做成人物近景”;
+
+are valid Reference Intent or Aesthetic Judgment inputs.
+
+They require professional interpretation where material. They do not authorize transfer of the whole reference.
 
 ## Governing Creative Relationship
 
 ```text
-OUR GREENLIT TREATMENT
-→ OUR CREATIVE SCRIPT AND WRITTEN VISUAL BEATS
-↓ Script Accepted for Handoff
-ACTIVATE AUTHORIZED VISUAL REFERENCE INPUTS
-+
-ORIGINAL REFERENCE ASSET
-→ ORIGINAL STORYBOARD AND DESIGN COMP
+GREENLIT TREATMENT
++ ACCEPTED CREATIVE SCRIPT
++ ACTIVATED ECD VISUAL INTENT
++ CONTROLLED REFERENCE PRINCIPLES
+→ ORIGINAL VISUAL PROBLEM, CONCEPT ROUTE, STORYBOARD, ANCHORS, AND ART DIRECTION
 ```
 
 Not:
 
 ```text
-RAW REFERENCE
-→ DEVELOPMENT-ERA ART DIRECTION
-→ RE-SKINNED COPY
+REFERENCE IMAGE
++ SHORT NATURAL-LANGUAGE COMMENT
+→ FULL FINAL IMAGE BATCH
 ```
+
+## Reference Analysis Sequence
+
+For material visual references, use:
+
+```text
+Description
+→ Formal Analysis
+→ Interpretation
+→ Controlled Transfer
+```
+
+Separate:
+
+- what is visibly present;
+- how the image is organized;
+- what effect that organization creates;
+- what may transfer to the project;
+- what must remain behind.
 
 ## Reference Intent Record
 
-Use when references materially affect the project:
-
 ```markdown
-Reference:
+Reference ID / asset:
 Source / owner:
-Original ECD instruction:
-Reference class:
-Why it was supplied:
+ECD source statement:
+Reference role(s):
 Authority class:
-Current stage status: [Active Now / Deferred / Activated / Resolved / Superseded / Rejected / Conflict]
-Development-level consequence, if any:
-Detailed visual extraction status: [not active / active / resolved]
-Approved qualities or content after activation:
-Specific elements authorized for direct use:
+Why supplied:
+Observed formal qualities:
+Interpretation hypothesis:
+Approved principles / qualities:
+Direct-use content authorized:
 Required attribution:
 Prohibited transfer:
 Version / date / region limit:
 Commercial-use limit:
 Open rights question:
-Activation condition:
-Receiving owner:
+Downstream consequence:
+ECD alignment required:
 ```
 
 ## Role Responsibilities
 
 ### Creative Producer
 
-Clarifies intended use, preserves the original reference instruction, records stage projection and authority, manages activation, and obtains ECD decisions when rights or creative intent are material.
+Preserves source wording, registers stage projections, obtains rights or material intent decisions, and prevents references from becoming premature production commands.
 
 ### Research Function
 
-Verifies source, claims, ownership, license, attribution, and practical constraints when required. It does not write the Creative Script or perform Art Direction extraction.
+Verifies sources, claims, ownership, licenses, attribution, and practical constraints. It does not choose the visual concept.
 
 ### Editorial Director
 
-Derives content and written Visual Beats from the Greenlit Treatment plus Activated Editorial inputs. It may require evidence from a reference but must not adopt a reference scene or Deferred visual attribute as original content without activation and authorization.
+May rely on a reference for evidence or content only when that role is active. It must not let a visual reference dictate Script content without authority.
 
 ### Art Director
 
-After visual activation, applies only the authorized reference attributes to original visual solutions derived from the Creative Script. It should use the original ECD reference instruction rather than relying on a Development paraphrase.
+Classifies reference roles, performs professional reading and transfer, elicits ECD intent, maps metaphors, and creates original routes and visual proofs.
 
 ### Production Artist
 
-Uses only authorized assets and transformations. It must preserve attribution, logos, UI evidence, or exact source behavior when the Deliverable Contract requires them.
+Works from accepted reference principles, anchors, and Art Direction. It must not use the raw reference as the governing prompt unless direct reproduction is explicitly authorized and professionally appropriate.
 
 ## Similarity and Distinctiveness Check
 
-Before accepting a Storyboard or Design Comp influenced by a creative reference, ask:
+Before accepting a Concept Route, Storyboard, Anchor, or Design Comp, ask:
 
-- Was this reference attribute actually authorized for visual use?
-- Would a reasonable viewer recognize the reference's specific scene, character, object arrangement, branded device, or exact composition?
-- Did the work abstract qualities, or merely replace surface details?
-- Does the original concept still work if the reference is removed?
-- Are protected or distinctive elements essential, or were they copied for convenience?
+- Would a reasonable viewer recognize the reference's distinctive scene, character relation, object arrangement, ride system, building, branded device, or exact composition?
+- Did the work transfer relationships or merely replace surface details?
+- Does the concept still work if the reference image is removed?
+- Are recognizable source objects present because the Script needs them or because they were easy to prompt?
+- Did the reference silently define content, composition, and style despite a narrower intended role?
 
-When similarity risk is material, revise the visual concept rather than relying on disclaimers.
+When similarity or fixation risk is material, revise the visual concept rather than relying on disclaimers.
+
+## Reference Fixation Rule
+
+A strong, detailed reference can narrow exploration prematurely.
+
+To counter fixation:
+
+- separate roles;
+- abstract structure before objects;
+- create multiple Concept Routes;
+- include non-reference-driven formal studies;
+- test whether the target meaning survives without source-specific objects;
+- compare the result with the Visual Problem Statement, not only the source image.
 
 ## Evidence Integrity
 
-When a screenshot, output, chart, document, or comparison carries proof:
+When screenshots, charts, documents, interfaces, or outputs carry proof:
 
-- do not replace it with decorative imagery;
-- do not crop away material limitations;
+- do not replace them with decorative imagery;
+- do not crop away limitations;
 - do not imply independent validation when only a source claim exists;
-- preserve source context required for correct interpretation;
+- preserve context required for correct interpretation;
 - label simulation, reconstruction, or speculative visualization when relevant.
+
+## Stage Rule
+
+During Development, record intended reference role, rights, and prohibited transfer. Do not perform detailed Art Direction unless the detail is itself Development-relevant.
+
+After Script handoff, activate Visual Research / Intent, perform reference reading, and translate accepted principles into Art Direction.
+
+A new material reference introduced later may reopen Visual Problem, Reference Reading, Concept Route, Storyboard, or anchors. It must not be fed directly into a final batch.
 
 ## Reference QA
 
-Before each relevant handoff, confirm:
+Before handoff, confirm:
 
-- intended reference use is explicit;
-- original ECD instruction is preserved;
-- current-stage status is correct;
-- detailed visual extraction did not occur before Visual activation unless explicitly Development-relevant;
-- direct-use assets have known permission status;
+- source and ECD intent are preserved;
+- roles are explicit;
+- direct-use permissions are known;
 - prohibited transfer is recorded;
-- attribution and license obligations are visible downstream;
-- original Visual Beats came from the Treatment and Activated Editorial inputs;
-- Art Director received the original visual reference context;
-- Storyboard and Design Comp do not reproduce a source scene by cosmetic substitution;
-- evidence references remain credible and legible.
+- Art Director inference remains distinguishable from user authority;
+- original Visual Beats come from the Script;
+- routes, Storyboards, and anchors are original;
+- evidence references remain credible and legible;
+- Production receives translated principles rather than an unbounded raw reference.

@@ -4,259 +4,248 @@
 
 Locks protect accepted decisions from silent downstream drift while preserving targeted revision.
 
-Use the canonical artifact states in `ARTIFACT_STATES.md` and the staged input rules in `STAGE_SCOPED_INPUT_REGISTER.md`. Do not use `approved` as an undefined state.
+Use canonical artifact states. Lock only what has been proven and accepted. A reference, polished image, or expensive batch does not create authority by existing.
 
 ## Lock Principle
 
-Lock only the decisions that downstream work must preserve. Record:
+Record:
 
 - artifact and version;
 - authority;
-- protected dimensions;
-- related Stage-Scoped Input IDs when relevant;
+- protected decisions;
 - tolerances;
 - reason for the lock;
-- downstream artifacts depending on it.
+- downstream dependencies.
 
-Prefer decision-level locks over blanket artifact immobility.
-
-A Deferred input is not locked as a downstream artifact merely because its source appeared before Greenlight. Preserve its authority class and activate it later.
+Prefer decision-level locks over blanket immobility.
 
 ## Normal Locks
 
 ### Greenlight Lock
 
-A Greenlight Lock exists only when `GREENLIGHT_RECORD.md` identifies the Treatment and ECD authorization evidence.
-
-It may protect:
+May protect:
 
 - premise;
 - selected angle;
 - core proposition;
 - audience takeaway;
-- material public position or promise;
+- public claim / promise;
 - reality / imagination boundary;
-- claim, evidence, rights, and reference-use limits;
+- rights and reference limits;
 - what the project must not imply or become.
-
-A material change reopens Development and requires ECD re-alignment.
-
-Do not create a Greenlight Lock from generic project-initiation language or merely because Production has already started.
-
-Greenlight does not create a Visual Lock or Production Lock from Deferred inputs in the original brief.
 
 ### Creative Script Lock
 
 May protect:
 
 - sequence and beat purpose;
-- written Visual Beat meaning;
-- exact names and required wording;
+- Written Visual Beat meaning;
+- exact names and wording;
 - evidence and limitation placement;
 - opening promise and payoff;
-- companion-copy position;
-- resolution of Activated Editorial input IDs.
+- body-copy position.
 
-### Visual Lock
+### Visual Direction Lock
 
-The most reliable visual lock is the accepted **Representative Design Comp**, supported by the Board and Art Direction Package.
+Created only after a valid Visual Direction Alignment or professional acceptance.
 
 May protect:
 
-- visual thesis and world;
-- hierarchy and reading path;
-- title scale and typography personality;
-- image–type depth relationship;
-- cover and body-page grammar;
+- Visual Problem Statement;
+- selected Concept Route;
+- world / scene logic;
+- subject–environment hierarchy;
+- relational metaphor;
+- accepted reference principles;
+- prohibited genre or reference drift;
+- viewer relationship and emotional distance.
+
+It does not lock unshown final compositions.
+
+### Anchor Lock
+
+Created after Anchor / Design Alignment.
+
+May protect:
+
+- World / Cover Anchor image language;
+- Representative Body Anchor continuity;
+- scale, space, value, material, light, and reference-distance relationships;
+- image territory for copy;
+- representative page classes.
+
+### Design Comp Lock
+
+May protect:
+
+- typography personality and hierarchy;
+- line breaks;
+- image–type depth;
+- grid / margin behavior;
+- cover and body grammar;
 - evidence treatment;
-- small-size behavior;
-- accepted assets and visual identity;
-- resolution of Activated Visual input IDs.
+- small-size priorities.
 
 ### Production Lock
 
 May protect:
 
 - exact dimensions and formats;
-- crop and safe areas;
 - final text composition;
-- export variants;
-- accepted final files;
-- resolution of Activated Production input IDs.
+- crop and safe areas;
+- variants;
+- accepted final files.
 
-## First-Failed-Owner Rule
+## First-Failed-Object Rule
 
-When quality fails, identify the earliest professional object or state transition where the defect becomes true.
+When quality fails, identify the earliest professional object where the defect became true.
 
-- source, fact, evidence, validation, rights, or reference-boundary failure → Research / Development;
-- premise, insight, angle, proposition, Treatment, or public-promise failure → Development;
-- absent, invalid, or falsely inferred Greenlight → Creative Producer;
-- missing, misclassified, prematurely activated, or lost Stage-Scoped input → Creative Producer / Project State;
-- sequence, written Visual Beat, copy, evidence placement, or content-progression failure → Editorial Director;
-- Storyboard, Design Comp, visual concept, mood, hierarchy, typography direction, reference extraction, or composition failure → Art Director;
-- crop, overflow, dimensions, font implementation, file format, export, or production defect → Production Artist;
-- other state, authority, routing, or lock failure → Creative Producer.
+| Failure | Reopen |
+|---|---|
+| source fact, rights, validation, or premise | Research / Development |
+| sequence, Written Visual Beat, or copy | Editorial Director / Copy Desk |
+| visual goal was reformulated | Visual Problem Statement |
+| ECD intuition was misunderstood or never elicited | Visual Intent Record |
+| reference role or transfer was wrong | Reference Reading / Transfer |
+| metaphor became literal decoration | Visual Metaphor Map |
+| wrong visual world, route, or viewer relationship | Concept Route |
+| large composition, value, scale, or topology was wrong | Formal Studies |
+| page staging or sequence rhythm was wrong | Storyboard |
+| representative image language failed | Anchor Keyframe |
+| typography, hierarchy, or page grammar failed | Representative Design Comp |
+| accepted visual system was implemented incorrectly | Production Artist |
+| state, gate, activation, or authority failure | Creative Producer |
 
-Reopen only that object, affected input projections, and downstream artifacts actually invalidated by the change.
+Reopen only that object and downstream artifacts actually affected.
 
 ## Rework Record
 
 ```markdown
-Triggering feedback:
+Triggering ECD feedback:
 Observed defect:
-First professional object / state transition where the defect appears:
+What the work currently communicates:
+What the accepted project intended:
+First failed object:
 Responsible owner:
-Artifact / decision reopened:
-Stage-Scoped Input IDs affected:
-Input projection state changes:
 Reason:
+Artifact / decision reopened:
 Downstream artifacts invalidated:
-Downstream artifacts still valid:
-Deferred inputs still valid:
+Artifacts still valid:
 ECD involvement required:
-Recommended smallest valid change:
-New state after correction:
+Smallest diagnostic next proof:
+New state:
 ```
 
-## Stage-Activation Failures
+## Pre-Greenlight Violation
 
-These are Project State / Creative Producer failures unless the source input itself was wrong.
+A formal Script, Storyboard, visual route, Design Comp, deliverable image, layout, or final asset created before valid Greenlight is unauthorized.
 
-Examples:
+Stop, invalidate the premature work as authority, restore the Treatment gate, and do not backdate approval.
 
-- the entire raw brief was flattened into the Treatment;
-- a Deferred visual preference was interpreted into final palette / lighting / composition during Development;
-- Greenlight activated visual production instead of Editorial only;
-- Visual inputs activated before the Script was Accepted for Handoff;
-- Production inputs activated before Art Direction was Accepted for Handoff;
-- a Deferred Hard Constraint disappeared before its stage;
-- the ECD was asked to repeat a stored input without a material reason;
-- an Assistant Inference was reclassified as a user Hard Constraint.
+## Pre-Visual-Direction Violation
 
-Recovery procedure:
+When the studio receives a new visual reference or intuition and immediately generates final-looking images before Visual Problem Framing, Reference Reading, and required direction alignment:
 
-1. stop the incorrectly activated stage;
-2. identify the affected source input and projections;
-3. restore the original source and authority class;
-4. return the premature projection to `Deferred` when appropriate;
-5. invalidate only professional artifacts that depended on the premature activation;
-6. restore the correct current stage;
-7. continue from the next valid activation condition.
+1. stop broad generation;
+2. mark the images `Non-authoritative — produced before Visual Direction Gate`;
+3. preserve them only as failure evidence or exploratory material;
+4. register the original ECD input correctly;
+5. create the missing Visual Problem / Intent / Reference / Metaphor objects;
+6. develop concept routes;
+7. return to the ECD with a valid direction proposal.
 
-Do not force the ECD to restate unaffected inputs during recovery.
+Do not ask the ECD to choose among the premature images as a substitute for the missing professional work.
 
-## Pre-Greenlight Production Violation
+## Pre-Anchor Batch Violation
 
-This is a state and authority failure owned by Creative Producer.
-
-A violation has occurred when the studio creates or commissions any of the following before valid Greenlight:
-
-- formal Creative Script;
-- final page sequence or audience-facing production copy;
-- Storyboard / Visual Sequence Board;
-- Representative Design Comp;
-- Art Direction Package;
-- deliverable image generation or editing;
-- layout, render, export, or final asset.
-
-Recovery procedure:
-
-1. stop further Production immediately;
-2. mark the premature artifacts `Unauthorized / Invalid — pre-Greenlight`;
-3. preserve them only as failure evidence or non-authoritative exploration when useful;
-4. do not ask the ECD to accept them merely to repair the state retroactively;
-5. return Project State to Development or Awaiting Greenlight;
-6. restore the Stage-Scoped Input Register so downstream projections are Deferred;
-7. present the Creative Treatment and request the missing decision;
-8. after valid Greenlight, activate Editorial inputs only and determine whether any premature work can be reused without biasing or bypassing the proper downstream owner.
-
-The existence, quality, or cost of premature work does not create authorization.
-
-## Reopening Development
-
-Development must reopen when the proposed correction changes what the project fundamentally is or says.
+A broad visual-production violation occurs when the studio produces a multi-image final-looking set before the Anchor Keyframe Gate passes.
 
 Examples:
 
-- a central claim is disproven;
-- commercial validation makes the promised proposition untenable;
-- ECD changes the core premise or angle;
-- an essential rights or reference foundation becomes unusable;
-- scripting reveals there is no coherent content without changing the Treatment;
-- audience takeaway materially changes.
+- six or eight high-fidelity images generated from a new reference;
+- the full carousel rendered before one cover and one body anchor are aligned;
+- many cosmetic variants used to avoid diagnosing the direction.
 
-Creative Producer records which Production artifacts are superseded and obtains a new Greenlight when required.
+Recovery:
 
-### Re-project inputs rather than discard them all
+1. stop Production;
+2. mark the batch non-authoritative;
+3. diagnose brief, metaphor, reference, world, formal, salience, affect, sequence, and production dimensions;
+4. reopen the earliest failed object;
+5. produce low-cost route / formal proof;
+6. produce revised anchors;
+7. request Anchor / Design Alignment;
+8. activate broad Production only after the gate passes.
 
-When Treatment changes:
+The quality, quantity, cost, or completion of the premature batch does not create authority.
 
-- re-evaluate only source inputs whose Development meaning is affected;
-- preserve unrelated Deferred Editorial / Visual / Production inputs;
-- mark a Deferred input `Conflict` only when the new Treatment actually contradicts it;
-- do not make the ECD re-provide visual or production preferences that remain valid.
+## Visual Feedback Examples
 
-Example:
-
-A revised premise may supersede the Development interpretation of a reference while its original user-stated color preference remains a valid Deferred Visual input.
-
-## Visual Rework Examples
-
-- “Page 2 and Page 3 communicate the same thing.” → Editorial Director, even if their artwork differs.
-- “The written Visual Beat is right, but the depicted scene is wrong.” → Art Director.
-- “The visual world is too cold or commercial, while the premise remains correct.” → Art Director.
-- “The accepted cover relationship was lost during assembly.” → Production Artist if the Comp was correct; Art Director if the Comp itself established the wrong hierarchy.
-- “The body copy was already unreadably small in the Design Comp.” → Art Director.
-- “The Design Comp was readable, but the export reduced it.” → Production Artist.
-- “The studio started generating images immediately after my raw brief.” → Creative Producer; invalidate premature Production and restore the Greenlight gate.
-- “I told you at the beginning that the second reference was only for color/style, but you asked me again after the Script.” → Creative Producer / Stage-Scoped Input Register; restore the stored visual input and continue without re-asking unless a real ambiguity now exists.
-- “You turned my early visual preference into a mandatory Treatment rule.” → Creative Producer / Development; restore the correct authority and Deferred projection, then assess whether the Treatment lock itself needs correction.
+- “这张参考图很对。” → register Aesthetic Judgment / Reference Intent; perform intent and reference analysis before execution.
+- “人生档案馆就是人生游乐场。” → create Visual Metaphor Map; do not simply add rides.
+- “这些图很难看。” → run Visual Failure Diagnosis; do not rerender blindly.
+- “人物太抢，空间没了。” → Concept Route or Anchor depending on first occurrence.
+- “画面像旅游广告。” → Visual Problem / Reference / Concept Route.
+- “六张都像蓝橙色电影剧照。” → Concept Route, Storyboard, and Color Script.
+- “Anchor 是对的，但最终人物比例变大了。” → Production Artist.
+- “Design Comp 里文字本来就太小。” → Art Director / Design Comp.
+- “Comp 可读，导出后缩小了。” → Production Artist.
 
 ## No Downstream Repair by Distortion
 
-A downstream role must not solve its difficulty by:
+A downstream role must not solve difficulty by:
 
-- weakening or rewriting the Greenlit premise;
-- hiding a required limitation;
-- changing locked names, facts, or copy;
-- replacing evidence with decoration;
+- weakening the Greenlit premise;
+- changing Script meaning;
+- hiding limitations;
 - changing reference boundaries;
-- violating an Activated user Hard Constraint for convenience;
-- flattening a dimensional subject because masking is difficult;
-- removing an accepted image–type relationship;
-- shrinking essential information below the intended viewing condition;
-- using text boxes or generic cards to avoid solving composition;
-- regenerating the entire concept when a localized correction is sufficient;
-- inventing or backdating Greenlight to legitimize premature work;
-- consuming a Deferred future-stage input before activation.
+- copying source-specific objects because they are easier to generate;
+- replacing world design with generic character emotion;
+- flattening scale or depth;
+- repeating one grade or composition for consistency;
+- shrinking essential copy;
+- adding generic cards or text boxes;
+- treating a raw reference as a prompt;
+- generating many variants instead of solving the first failed object;
+- inventing or backdating ECD alignment.
 
 ## Propagation Rule
 
-A changed upstream artifact does not automatically invalidate every later artifact or every Deferred input. Determine actual dependency.
+A changed upstream object invalidates only dependent work.
 
 Examples:
 
-- punctuation correction may require only text recomposition;
-- changed page title may affect one Design Comp and its final asset;
-- changed beat purpose invalidates that beat's Board, Comp, Art Direction, and production;
-- changed core proposition normally invalidates the entire Script and downstream visual work;
-- changed core proposition does **not** automatically erase unrelated Deferred visual preferences;
-- changed output dimensions may require Art Director review if hierarchy changes, otherwise Production Artist only;
-- invalid Greenlight makes every artifact depending on that alleged authorization non-authoritative until the gate is restored;
-- corrected input authority may require updating later-stage locks even when the source statement itself remains unchanged.
+- corrected reference role may invalidate Concept Route, Storyboard, anchors, and package while leaving Script valid;
+- revised metaphor mapping may preserve some world studies but invalidate literal object designs;
+- changed Concept Route invalidates Storyboard and anchors but not Treatment or Script;
+- changed Anchor may affect selected page classes and production, not every formal study;
+- corrected typography may require only Design Comp and downstream assets;
+- production crop error leaves Art Direction valid.
 
 ## ECD Gates
 
 Return to the ECD when rework materially changes:
 
-- what the project says or whether it should exist;
-- the Creative Treatment requiring Greenlight;
-- a public claim, promise, or position;
-- material rights or attribution;
-- a material Script interpretation not previously aligned;
-- durable brand or visual identity;
-- material mood, aesthetic, visual world, reference interpretation, or representative visual premise;
+- Treatment or public position;
+- Script architecture or copy;
+- visual problem / metaphor;
+- selected Concept Route;
+- world / viewer relationship;
+- reference interpretation;
+- representative anchors or Design Comp;
+- durable visual identity;
 - material scope, cost, or external action;
 - final subjective acceptance.
 
-Routine craft corrections and restoration of previously supplied non-conflicting inputs remain with the responsible owner. Restoring a missing Greenlight is not routine craft correction.
+Routine craft corrections remain with the responsible owner.
+
+## Quality Standard
+
+Rework is complete only when:
+
+- the first failed object was correctly identified;
+- the ECD's source feedback was preserved;
+- professional diagnosis is distinguishable from subjective interpretation;
+- the next proof is cheaper and more diagnostic than another blind batch;
+- affected state, locks, and downstream authority were updated;
+- no missing gate was repaired retroactively.
