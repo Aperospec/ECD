@@ -1,119 +1,66 @@
-# ECD
+# ECD Studio OS
 
-ECD is a single-entry, stage-gated Social Editorial studio Skill.
+ECD is being rebuilt from a four-generalist-role workflow into a department-based creative studio operating system.
 
-The human user is the Executive Creative Director. Creative Producer is the single accountable project owner and the only user-facing interface. Three specialist roles perform the craft:
+## Branches
 
-- Editorial Director
-- Art Director
-- Production Artist
+- `main` — current public V2 line; unchanged during V3 development.
+- `v2.1-legacy` — frozen V2 snapshot at `cdc48e4eba107dd67a4920d2fd1101058759031b`.
+- `v3-department-architecture` — active V3 development branch.
 
-## Operating model
+## V3 model
 
-```text
-ECD brief or feedback
-→ Creative Producer assignment
-→ specialist execution and self-QA
-→ Producer Review
-→ next authorized internal proof or ECD decision
-→ Creative Producer releases the next action
-```
-
-No formal specialist output may reach the ECD, another specialist, or a dependent downstream action before Producer Review passes.
-
-## Core invariants
-
-1. **No Silent Mutation** — downstream work may elaborate but cannot silently change authoritative upstream decisions.
-2. **No Implicit Authority** — specialist QA, Producer clearance, and ECD approval are distinct.
-3. **No Hidden Decision Object** — every ECD decision is based on a complete visible object and a Producer recommendation.
-4. **No Stage Leakage** — only capabilities belonging to the active stage may operate.
-5. **Minimal Sufficient Process** — complexity changes depth, not authority or fidelity.
-6. **No Unreviewed Release** — Creative Producer independently reviews every formal output and closes feedback before release.
-7. **No Copy-Blind Image Production** — exact copy shapes composition, and the resulting Layout Map passes Producer Review, before any image intended for direct final use is generated or committed.
-
-## Workflow
+The user remains the Executive Creative Director and communicates through one Creative Producer.
 
 ```text
-Brief
-→ Creative Treatment
-→ Producer Review
-→ ECD Greenlight
-→ Creative Script, Frame Scripts, and Exact Copy
-→ Producer Review
-→ ECD Script Alignment
-→ Visual Development and Storyboard
-→ Copy-Aware Layout Maps
-→ Art Director Map Self-QA
-→ Producer Review and Layout Map Clearance
-→ Production-intent Anchors and Design Comp
-→ Type-Fit Proof
-→ Producer Review
-→ required ECD Visual Alignment
-→ Art Direction
-→ Production-intent image realization
-→ Deterministic Typography
-→ Final Type-Fit and QA
-→ Producer Final Review
-→ ECD Final Acceptance
+Executive Creative Director
+          ↕
+  Creative Producer
+          │
+  ┌───────┼─────────┬─────────┐
+  ↓       ↓         ↓         ↓
+Development  Editorial  Visual  Production
+Director     Director   Director Production Director
 ```
 
-Every new Creative Script requires ECD Script Alignment. A new visual system requires ECD Visual Alignment from representative proof before broad Production. Revisions require renewed authority when their decision delta changes an ECD-approved decision.
+Departments contain specialist Skills. Specialists perform craft; Department Directors own professional quality; Creative Producer owns project integration and orchestration; the Executive Creative Director owns consequential creative authority.
 
-## Copy-aware composition
+## Why V3 exists
 
-For each text-bearing Production-intent screen, exact copy is preflighted at target geometry before image generation or selection.
+V2 correctly improved stage gates, Producer review, decision visibility, and copy-aware production. Its remaining structural weakness is that Editorial Director, Art Director, and Production Artist are overloaded generalists rather than leaders of professional departments.
 
-The Copy-Aware Layout Map records:
+V3 separates:
 
-- hierarchy and provisional line behavior;
-- copy footprint and minimum readable scale;
-- image–type relationship and layer order;
-- protected subject, action, interface, and evidence zones;
-- quiet, overlap, occlusion, and local-contrast conditions;
-- crop, variant, mask, and image-generation consequences.
+- organizational accountability from professional method;
+- department review from Producer integrated review;
+- design direction from page design;
+- page design from image making;
+- image making from final production;
+- specialist self-check from independent approval.
 
-The Layout Map is a formal Art Director return. Creative Producer must review and clear it for the named representative proof before Production-intent image work begins. That clearance is not ECD Visual Alignment and does not activate broad Production.
+## Current V3 work
 
-Exploratory image-world studies may test atmosphere or visual language, but they cannot be silently promoted into final-page assets. Required audience text remains separate, editable, and deterministic by default.
+Phase 1 establishes:
 
-After imagery exists, exact copy is recomposed and must pass Type-Fit at target viewing width. A failed fit returns to the earliest affected object rather than being concealed through unreadable text, unauthorized copy changes, hierarchy collapse, or emergency layout repair.
+- the department architecture;
+- a department control loop;
+- a department-based Creative Producer role;
+- Directors for Development, Editorial, Visual, and Production;
+- the Social Editorial profile;
+- the first professional Visual Department Skills, beginning with Editorial Design, Typography, and Design Critique.
 
-See `art-director/references/copy-aware-composition.md`.
+V3 is not production-ready until specialist, department, and end-to-end evaluations pass.
 
-## Responsibility
+## Authoritative V3 documents
 
-- **Specialists** own professional craft quality.
-- **Creative Producer** owns project interpretation, assignments, state, cross-artifact coherence, independent review, feedback closure, recommendation, formal intermediate release, handoff, and stage activation.
-- **Executive Creative Director** owns Greenlight, Script Alignment, governing visual decisions, changes to approved decisions, Final Acceptance, and publication authority.
+- `SKILL.md`
+- `V3_ARCHITECTURE.md`
+- `core/DEPARTMENT_CONTROL_LOOP.md`
+- `core/creative-producer/ROLE.md`
+- `departments/development/DIRECTOR.md`
+- `departments/editorial/DIRECTOR.md`
+- `departments/visual/DIRECTOR.md`
+- `departments/production/DIRECTOR.md`
+- `profiles/social-editorial/PROFILE.md`
 
-## Core control documents
-
-```text
-shared/PRODUCER_CONTROL_LOOP.md
-shared/ARTIFACT_DECISION_CONTRACT.md
-shared/STAGE_CAPABILITY_MATRIX.md
-shared/ARTIFACT_STATES.md
-shared/PROJECT_STATE.md
-shared/ECD_DECISION_PRESENTATION.md
-shared/HANDOFF_CONTRACT.md
-shared/LOCK_AND_REWORK_PROTOCOL.md
-art-director/references/copy-aware-composition.md
-```
-
-## Social Editorial profile
-
-The profile retains the professional distinction among:
-
-- Creative Treatment — what the project is and why it matters;
-- Creative Script — how it communicates;
-- Internal Semantic Proposition — what a page means;
-- Frame Script — what the audience will visibly encounter;
-- Written Visual Requirements — what visual interpretation must preserve;
-- Storyboard — the first actual visual staging;
-- Copy-Aware Layout Map — how exact copy constrains image and layout geometry;
-- Producer-cleared Layout Map — permission for a named Production-intent representative proof;
-- Anchor Keyframe / Design Comp — representative visual and Type-Fit proof;
-- Art Direction Package — the authoritative visual Production system;
-- Final Assets — faithful image realization plus deterministic typography.
-
-Internal records may be detailed. ECD-facing proposals remain complete, concrete, and easy to judge without opening an archive or decoding workflow terminology.
+Files inherited from V2 remain migration sources on the V3 branch. They are not automatically authoritative unless a V3 document explicitly adopts them.
