@@ -4,7 +4,7 @@
 
 A **Frame Script** is the concrete written description of what a proposed page, card, or frame will visibly contain and what will happen inside it.
 
-It sits between editorial meaning and Art Direction:
+It sits between Editorial meaning and Art Direction:
 
 ```text
 Internal Semantic Proposition
@@ -14,24 +14,24 @@ Internal Semantic Proposition
 → Art Direction
 ```
 
-The Frame Script lets the ECD understand the intended picture before visual design begins. It also gives Art Director enough content to stage the frame without forcing Editorial Director to make composition, camera, style, or layout decisions.
+The Frame Script lets the ECD understand intended visible content before visual design begins. It gives Art Director enough content to stage the frame without forcing Editorial Director to make composition, camera, style, typography, or layout decisions.
 
-## What It Answers
+## What it answers
 
-A useful Frame Script answers, in ordinary language:
+A useful Frame Script answers:
 
 - who or what appears;
-- what is happening, changing, being compared, or being demonstrated;
+- what happens, changes, is compared, handed off, or demonstrated;
 - which objects, states, evidence, or relationships must be visible;
-- how multiple subjects or stages relate to one another;
-- what the viewer should be able to infer from the visible action;
-- how this frame continues the sequence when that connection matters.
+- how multiple subjects or stages relate;
+- what the viewer can infer from the visible event;
+- how the frame continues a shared person, object, process, system, world, argument, or evidence chain when continuity matters.
 
 For information-led work, the frame may describe a visualized system, comparison, interface, evidence object, or transformation rather than a literal scene.
 
-## What It Does Not Decide
+## What it does not decide
 
-Unless a choice is itself part of the accepted meaning, a Frame Script does not prescribe:
+Unless a choice is itself part of accepted meaning, a Frame Script does not prescribe:
 
 - exact composition or placement;
 - camera angle, lens, or crop;
@@ -41,13 +41,13 @@ Unless a choice is itself part of the accepted meaning, a Frame Script does not 
 - image-generation prompt syntax;
 - production technique.
 
-Those decisions belong to Art Director and Production Artist at the appropriate stage.
+Those decisions belong to Art Director and Production Artist at the valid stage.
 
-## Distinction From Neighboring Objects
+## Distinction from neighboring objects
 
 ### Internal Semantic Proposition
 
-States what the page means. It is an internal editorial sentence and is not normally shown to the ECD.
+States what the page means. It is an internal Editorial sentence.
 
 ### Frame Script
 
@@ -55,75 +55,91 @@ States what the audience will visibly encounter. It is concrete, readable, and E
 
 ### Written Visual Requirements
 
-State the semantic conditions that downstream visual work must preserve. They function as acceptance criteria and normally remain backstage unless one requires an ECD decision.
+State semantic conditions downstream visual work must preserve. They function as acceptance criteria and normally remain backstage.
 
 ### Storyboard / Visual Sequence Board
 
-Is the first actual visual staging created by Art Director after Script Alignment. It resolves composition, scale, hierarchy, spatial relationships, and route application at low cost.
+The first actual visual staging created by Art Director after ECD Script Alignment. It resolves composition, scale, hierarchy, space, and route application at low cost.
 
-## Writing Standard
+## Writing standard
 
 A Frame Script should be:
 
-- **concrete** — the reader can picture the subjects, actions, states, or evidence;
-- **specific** — it belongs to this page rather than any generic page with the same topic;
-- **complete** — it describes enough of the visible event or system to judge the proposal;
-- **economical** — it does not become a production treatment;
+- **concrete** — the reader can picture subjects, actions, states, evidence, or relationships;
+- **specific** — it belongs to this page;
+- **complete** — enough visible content exists to judge the proposal;
+- **economical** — it does not become a Production treatment;
 - **visually open** — more than one valid Art Direction remains possible;
-- **faithful** — it does not add a new premise, claim, character fact, or public promise without authority;
-- **sequentially useful** — it helps distinguish this page from adjacent pages.
+- **faithful** — it does not add or replace an authoritative premise, claim, relationship, or public promise;
+- **sequentially useful** — it distinguishes this page and supports the relevant continuity.
 
-## Frame Script Template
+## Template
 
 ```markdown
 ### Page / Beat [number]
 
 What this page communicates:
-[Plain-language statement of the page's audience-facing job.]
+[Plain-language audience-facing purpose.]
 
 Frame Script:
-[Concrete prose describing what appears, what happens, how the visible elements relate, and what the viewer can understand from the scene or information state.]
+[Concrete prose describing what appears, what happens, how visible elements relate, and what the viewer can understand.]
 
 Written Visual Requirements — internal:
 - [semantic condition that must survive]
 - [evidence, relationship, limitation, or continuity requirement]
 ```
 
-The ECD-facing proposal normally shows only the first two fields plus the final page copy. The Written Visual Requirements remain in the internal Creative Script Package unless a material constraint needs explicit alignment.
+The ECD-facing proposal normally shows the first two fields plus exact page copy.
 
-## Diagnostic Tests
+## Diagnostic tests
 
-### Picture Test
+### Picture test
 
-After reading the Frame Script, can the ECD describe the intended visible situation in their own words?
+Can a non-specialist describe the intended visible situation after reading it?
 
 If not, the script is too abstract.
 
-### Multiplicity Test
+### Multiplicity test
 
-Could Art Director create more than one valid composition or visual route from the script while preserving its meaning?
+Could Art Director create more than one valid composition while preserving meaning?
 
-If not, the script may have crossed into premature Art Direction.
+If not, the Script may have crossed into premature Art Direction.
 
-### Difference Test
+### Difference test
 
-Would the frame remain meaningfully different if its nouns were replaced with those from an adjacent page?
+Would the frame remain meaningfully distinct from adjacent pages if superficial nouns changed?
 
-If not, the sequence may be repeating one visual event with different labels.
+If not, the sequence may be repeating the same visible event.
 
-### Evidence Test
+### Continuity test
+
+When a shared entity, process, world, system, argument, or evidence chain matters, can the reader understand what persists and what changes?
+
+If not, pages may be individually plausible but collectively incoherent.
+
+### Evidence test
 
 When a claim depends on an output, comparison, interface, object state, or source, does the Frame Script identify what must actually be visible?
 
-If not, the page may substitute explanation for proof.
+If not, explanation may be substituting for proof.
 
-## Quality Gate
+### Authority test
 
-A Creative Script is not ready for ECD Script Alignment when:
+Does the Frame Script preserve inherited authoritative decisions and add only Editorial-stage visible content?
 
-- the proposed pages cannot be pictured from their Frame Scripts;
-- the Frame Script only restates the page's abstract meaning;
-- the visible event, subject, evidence, or relationship is missing;
-- several pages describe the same scene logic with different nouns;
-- the script silently performs Art Direction through unnecessary camera, palette, style, or layout instructions;
-- Art Director would need to invent the page's content rather than interpret its visual form.
+If not, return to the Artifact Decision Contract and earliest affected owner.
+
+## Specialist self-QA
+
+A Creative Script is not ready to return to Creative Producer when:
+
+- pages cannot be pictured;
+- a Frame Script only restates abstract meaning;
+- visible event, subject, evidence, or relationship is missing;
+- several pages use the same scene logic;
+- relevant continuity is absent;
+- the Script silently performs Art Direction;
+- Art Director would need to invent page content;
+- an inherited authoritative decision changed without the correct authority.
+
+After Editorial self-QA, the complete Script returns to Creative Producer. Producer Review and ECD Script Alignment remain required before Visual activation.

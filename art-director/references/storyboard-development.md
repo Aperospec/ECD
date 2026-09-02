@@ -2,15 +2,17 @@
 
 ## Purpose
 
-The Storyboard / Visual Sequence Board is Art Director's low-cost visual staging of an accepted Creative Script inside the selected concept route.
+The Storyboard / Visual Sequence Board is Art Director's low-cost visual staging of an ECD-aligned Creative Script inside the selected concept route.
 
-It is the first actual visual artifact. It converts accepted Frame Scripts into visible arrangements while preserving the Written Visual Requirements.
+It is the first actual visual artifact. It converts accepted Frame Scripts into visible arrangements while preserving Written Visual Requirements.
 
-## Input Gate
+Formal Boards return to Creative Producer for review.
+
+## Input gate
 
 Require:
 
-- Creative Script Accepted for Handoff;
+- ECD-aligned Creative Script;
 - accepted Frame Script for every page;
 - Written Visual Requirements and semantic locks;
 - selected or sufficiently narrowed Concept Route;
@@ -19,42 +21,44 @@ Require:
 - reference and metaphor decisions;
 - relevant formal studies;
 - exact copy and evidence constraints;
-- target geometry.
+- target geometry;
+- authoritative dependencies and Artifact Decision Contracts;
+- Creative Producer assignment.
 
-If a page has only an abstract meaning statement and no concrete Frame Script, return it to Editorial Director rather than inventing its content inside the Board.
+If a page has only abstract meaning and no concrete Frame Script, return it through Creative Producer rather than inventing content inside the Board.
 
 ## Fidelity
 
-Every panel maps to an accepted Frame Script and verifies two things:
+Every panel maps to an accepted Frame Script and verifies:
 
-1. the visible event, subjects, states, evidence, transformation, or relationship proposed by the Script are actually staged;
-2. the Written Visual Requirements survive the staging.
+1. proposed subjects, events, states, evidence, transformations, or relationships are actually staged;
+2. Written Visual Requirements survive the staging.
 
 The Board preserves:
 
-- page meaning;
-- content event described by the Frame Script;
-- required subject, action, state, evidence, relationship, or limitation;
-- continuity with the same process, object, world, or protagonist when relevant;
+- page meaning and Frame Script content;
+- required subjects, actions, states, evidence, relationships, and limitations;
+- relevant continuity;
 - accepted route and viewer relationship;
-- active visual constraints;
-- reference roles and rights boundaries.
+- Activated Visual constraints;
+- reference roles and rights boundaries;
+- exact-copy conditions.
 
-Art Director may reinterpret how the content is staged. It may not silently substitute a different event or page idea.
+Art Director may reinterpret staging. It may not silently substitute a different event or page idea.
 
-## Fidelity Level
+## Fidelity level
 
-Use the lowest fidelity that can answer the current question:
+Use the lowest fidelity that answers the current question:
 
 - thumbnail;
 - rough sketch;
 - grayscale composition;
 - value or spatial study;
-- collage or simple mockup;
-- type–image relationship study;
+- collage or mockup;
+- type–image study;
 - low-fidelity generated visual with explicit status.
 
-## Panel Record
+## Panel record
 
 ```markdown
 ### Panel [number]
@@ -63,62 +67,83 @@ Written Visual Requirements:
 Primary visual task:
 Required first perception:
 Subjects / evidence / information objects:
-Visible action, state, comparison, or transformation:
+Visible action, state, comparison, handoff, or transformation:
 Center of gravity and reading path:
 Scale / depth / spatial relation:
 Connection to selected route:
 Relationship to adjacent panels:
 Copy relationship:
 Open visual question:
-Representative anchor or Design Comp required:
+Representative Anchor or Design Comp required:
 ```
 
-## Sequence Tests
+## Sequence tests
 
 Review:
 
-- fidelity to every accepted Frame Script;
+- fidelity to every Frame Script;
 - preservation of Written Visual Requirements;
-- page-to-page semantic and formal differentiation;
+- semantic and formal page differentiation;
 - opening promise and payoff;
-- shared world / scene / information logic;
+- shared world / process / object / system / evidence continuity when relevant;
 - subject–environment hierarchy;
 - evidence visibility;
 - scale, depth, absence, accumulation, or transformation;
 - composition, value, and energy rhythm;
 - target-format plausibility;
-- compatibility with reference and metaphor decisions;
-- frames requiring Anchor Keyframes or Design Comps.
+- reference and metaphor boundaries;
+- frames requiring representative proof.
 
-## Relationship to Other Objects
+## Artifact Decision Contract
+
+Record Board-level visual decisions, inherited decisions, open variables, relevant delta, dependencies, and authority consequence.
+
+A Board may change how accepted content is staged. It may not change what the page means or contains without reopening the upstream object.
+
+## Relationship to other objects
 
 - Internal Semantic Proposition defines page meaning.
 - Frame Script defines proposed visible content.
 - Written Visual Requirements define semantic acceptance conditions.
-- Visual Problem and Concept Route define the governing visual system.
-- Storyboard stages the entire sequence.
-- Anchor Keyframes prove representative image language.
+- Visual Problem and Concept Route define governing visual logic.
+- Storyboard stages the full sequence.
+- Anchor Keyframes prove image-world language.
 - Design Comp proves page design with real copy and geometry.
 
 A rough Board is not proof of final hierarchy or readability.
 
-## ECD Alignment
+## Specialist return
 
-Use the Board for material decisions about sequence staging, scene concept, visual metaphor, viewer relationship, or route application. Use an Anchor or Design Comp when the decision depends on image-world fidelity, typography, spacing, or finish.
+Return to Creative Producer:
 
-The ECD should not be asked to re-approve the page meaning already accepted in the Script unless the visual staging exposes a genuine conflict.
+- Board and version;
+- visual self-QA;
+- Artifact Decision Contract;
+- Frame Script and requirement fidelity;
+- high-risk frames and proof plan;
+- known limitations;
+- applicable feedback closure;
+- required ECD authority;
+- recommended Producer disposition.
 
-## Quality Gate
+## Producer Review and ECD alignment
 
-The Board is ready when:
+Creative Producer verifies Board completeness, fidelity, sequence coherence, proof sufficiency, delta, and feedback closure.
+
+When the Board establishes or changes a governing visual decision, it is released for ECD Visual Alignment only after Producer clearance.
+
+## Quality gate
+
+Art Director self-QA passes when:
 
 - every accepted Frame Script is represented;
-- every panel visibly demonstrates the page's content event or information relationship;
+- every panel stages its visible content event or information relationship;
 - Written Visual Requirements remain traceable;
 - adjacent panels differ for a meaningful reason;
-- the selected route remains coherent across the sequence;
-- active visual inputs are traceable;
-- reference roles are applied within scope;
-- high-risk frames are identified for representative proof;
-- no unresolved editorial problem is hidden through visual staging;
-- broad production remains inactive.
+- the selected route remains coherent;
+- active visual inputs and references remain within scope;
+- high-risk frames are identified;
+- no Editorial problem is hidden through staging;
+- Artifact Decision Contract is current;
+- broad Production remains inactive;
+- the next action is Specialist Return to Creative Producer.

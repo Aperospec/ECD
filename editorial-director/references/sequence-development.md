@@ -2,21 +2,31 @@
 
 ## Purpose
 
-Sequence Development turns editorial jobs into a progression that changes the audience's understanding from screen to screen.
+Sequence Development turns Editorial jobs into a progression that changes the audience's understanding from screen to screen while preserving the accepted governing project logic.
 
-A sequence is not a stack of related pages. It is an ordered chain of cognitive and emotional movement.
+A sequence is not a stack of related pages and is not automatically a chronological narrative.
 
-## Advancement Test
+## Advancement test
 
 For every transition ask:
 
-> What becomes newly understood, felt, demonstrated, proven, complicated, or possible after this beat?
+> What becomes newly understood, felt, demonstrated, proven, complicated, connected, or possible after this beat?
 
-If the answer is only "the same point is restated differently," merge, remove, or redefine the beat.
+If the answer is only “the same point is restated differently,” merge, remove, or redefine the beat.
 
-## Progression Types
+## Fidelity test
 
-Useful progression patterns include:
+For the complete sequence ask:
+
+> Does this progression still enact the accepted project, or has the sequence replaced it with a different but topically similar mechanism?
+
+The same vocabulary, subject, or visual motif does not prove fidelity.
+
+The sequence must preserve inherited Development decisions recorded in the Artifact Decision Contract.
+
+## Progression types
+
+Useful patterns include:
 
 - **Question → Definition → Mechanism → Consequence → Payoff**
 - **Before → Change → After → Meaning**
@@ -25,27 +35,49 @@ Useful progression patterns include:
 - **Object → Transformation → New use → Larger meaning**
 - **Observation → Pattern → Explanation → Reframe**
 - **Premise → Escalation → Tension → Turn → Aftertaste**
+- **Facet → Facet → Connection → Larger whole**
+- **System state → Handoff → Changed state → Integration**
 
 These are patterns, not templates. Use only what serves the Greenlit Treatment.
 
-## Swipe Contract
+## Continuity
 
-Each screen should do two things:
+When the project depends on a shared person, object, system, world, process, argument, or evidence chain, record how it persists and changes across beats.
 
-1. complete its own editorial job;
-2. leave a legitimate unresolved need that the next screen can answer.
+Avoid sequences in which pages appear individually plausible but do not belong to the same evolving project.
 
-Do not use empty cliffhangers, fake suspense, or "swipe to find out" language when the content itself provides no real continuation pressure.
+Continuity may be:
 
-## Cover / Opening Promise
+- causal;
+- temporal;
+- procedural;
+- spatial;
+- thematic;
+- evidentiary;
+- object-based;
+- character-based;
+- system-state-based.
 
-The opening establishes an expectation. Record that expectation explicitly and identify where the sequence fulfills it.
+Use only the continuity required by the accepted project.
 
-If the sequence cannot pay off the opening promise, change the sequence or return the opening to the responsible editorial owner before Art Direction.
+## Swipe contract
+
+Each screen should:
+
+1. complete its own Editorial job;
+2. create a legitimate reason for the next screen.
+
+Do not use empty cliffhangers or fake suspense when content provides no real continuation pressure.
+
+## Cover / opening promise
+
+Record the opening expectation and identify where the sequence fulfills it.
+
+If the sequence cannot pay off the promise, change the sequence or return the opening to its professional owner before Art Direction.
 
 ## Rhythm
 
-Treat rhythm as variation in:
+Vary:
 
 - information density;
 - conceptual difficulty;
@@ -55,27 +87,32 @@ Treat rhythm as variation in:
 - pause / breath;
 - speed of progression.
 
-Avoid long runs of pages with identical density, identical sentence rhythm, or identical editorial job.
+Avoid long runs of pages with identical density, syntax, visible event, or Editorial job.
 
-## Number of Beats
+## Number of beats
 
-Do not begin by choosing a page count unless the deliverable requires a maximum.
+Do not begin by choosing page count unless the Deliverable Contract requires a maximum.
 
-Derive the minimum viable sequence from the idea:
+Derive the minimum sufficient sequence:
 
 - enough beats to fulfill the Greenlit promise;
-- no beat added solely to make the post feel substantial;
-- no important step compressed merely to hit an arbitrary count.
+- no beat added only to make the work feel substantial;
+- no governing relationship removed merely to hit a count;
+- no page that exists only because a template expects it.
 
-## Sequence QA
+## Sequence self-QA
 
-Before locking a Creative Script, confirm:
+Before Specialist Return confirm:
 
 - every beat advances;
 - every transition has a reason;
-- the sequence can be summarized as a coherent progression rather than a topic list;
+- the sequence has an identifiable Overall Communication Logic;
+- the chosen mode does not distort the accepted project;
+- inherited Development decisions remain intact;
+- relevant continuity is perceptible;
 - no two beats compete for the same role;
 - evidence appears before conclusions that depend on it;
-- speculative material remains marked as speculative;
-- the ending adds consequence, judgment, implication, or aftertaste instead of repeating the cover;
-- the full sequence fulfills the Greenlit Creative Treatment without redefining it.
+- speculative material remains marked;
+- the ending adds consequence, judgment, implication, connection, or aftertaste;
+- the full sequence fulfills the Greenlit Treatment without redefining it;
+- the next action is Producer Review, not direct visual activation.

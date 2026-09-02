@@ -2,7 +2,9 @@
 
 ## Purpose
 
-Locks protect accepted decisions from silent downstream drift. Rework reopens the earliest professional object where a defect becomes true and preserves unaffected work.
+Locks protect authoritative decisions from silent downstream mutation.
+
+Rework returns a defect to the earliest professional object where it becomes true, preserves unaffected work, and closes ECD feedback through Creative Producer.
 
 ## Lock principle
 
@@ -12,24 +14,27 @@ Each lock states:
 
 - artifact and version;
 - decision authority;
-- protected dimension;
-- permitted tolerance;
+- protected decision;
+- permitted interpretation or implementation tolerance;
 - reason;
-- dependent downstream artifacts.
+- dependent downstream artifacts;
+- renewal condition.
+
+Locks are reflected in the Artifact Decision Contract.
 
 ## Normal lock domains
 
-### Greenlight lock
+### Development lock
 
-May protect premise, angle, proposition, audience takeaway, public claim, factual or speculative boundary, rights, reference roles, and semantic guardrails.
+May protect creative core, governing logic or relationship, audience consequence, factual or speculative boundary, rights, reference roles, claim limits, and semantic guardrails.
 
-### Script lock
+### Editorial lock
 
-May protect sequence, beat purpose, Written Visual Beat meaning, exact copy, evidence and limitation placement, opening promise, and payoff.
+May protect Overall Communication Logic, sequence, page purpose, Frame Script content, Written Visual Requirements, exact copy, evidence and limitation placement, opening promise, and payoff.
 
 ### Visual lock
 
-May protect visual thesis, selected route, viewer relationship, world logic, reference transfer, metaphor behavior, subject hierarchy, representative anchors, typography behavior, Design Comp, and sequence system.
+May protect visual thesis, route, viewer relationship, world logic, reference transfer, metaphor behavior, composition principles, subject hierarchy, representative proof, typography behavior, Design Comp, and sequence system.
 
 ### Production lock
 
@@ -37,65 +42,113 @@ May protect final dimensions, exact text composition, approved crop, variants, f
 
 ## First-failed-object rule
 
-Identify the earliest object where the problem is visible:
+Creative Producer identifies the earliest object where the defect becomes true:
 
-- source, evidence, validation, rights, or premise → Development;
-- absent or invalid stage authority → Creative Producer;
-- sequence, beat, or copy → Editorial Director / Copy Desk;
-- visual problem, intent, reference reading, metaphor, concept route, formal study, Storyboard, anchor, or Design Comp → Art Director;
-- exact implementation, asset defect, typography, crop, variant, or export → Production Artist.
+- source, evidence, validation, rights, creative core, governing logic, or Greenlight basis → Development;
+- sequence, page meaning, Frame Script, Written Visual Requirement, or copy → Editorial Director / Copy Desk;
+- visual problem, intent, reference reading, metaphor, route, Storyboard, anchor, Design Comp, or Art Direction → Art Director;
+- exact implementation, asset defect, typography, crop, variant, or export → Production Artist;
+- assignment, state, activation, Producer Review, decision presentation, or feedback closure → Creative Producer.
 
-Reopen that object and only the downstream artifacts that depend on the changed decision.
+The latest visible defect is not automatically the earliest failed object.
 
-## Rework record
+## Rework control loop
+
+```text
+ECD feedback or Producer-detected defect
+→ Creative Producer diagnosis
+→ earliest failed object
+→ focused Rework Brief
+→ specialist correction
+→ specialist self-QA
+→ Producer re-review
+→ renewed ECD authority when approved decisions changed
+→ valid downstream reactivation
+```
+
+## Rework Brief
 
 ```markdown
-Triggering feedback:
+Triggering feedback or review finding:
 Observed defect:
 Earliest failed object:
-Responsible owner:
+Responsible professional owner:
 Artifact / decision reopened:
-Reason:
+Artifact Decision Contract delta:
 Still-valid upstream decisions:
-Downstream artifacts invalidated:
-Reusable downstream material:
-ECD involvement required:
-Lowest-cost proof required next:
-New state after correction:
+Still-valid downstream material:
+Artifacts invalidated:
+Decisions that may not change:
+Acceptance criteria:
+Lowest-cost next proof:
+Required ECD authority:
+Return to: Creative Producer
 ```
+
+Creative Producer does not merely forward the ECD's words. It translates feedback into a professional task and acceptance criteria while preserving the source wording or a faithful summary.
+
+## Feedback closure
+
+For each applicable ECD feedback item, record:
+
+- source wording or faithful summary;
+- affected artifact;
+- Producer diagnosis;
+- assigned owner;
+- acceptance criteria;
+- returned revision;
+- Producer verification;
+- closure state;
+- remaining consequence.
+
+Closure states:
+
+- `Resolved`
+- `Partially Resolved`
+- `Not Resolved`
+- `Conflict`
+- `Superseded`
+- `Open`
+
+A known unresolved defect may not be resubmitted without explicit disclosure and a genuine ECD decision need.
 
 ## Propagation
 
 A changed upstream artifact invalidates only actual dependents.
 
-- local wording correction may require only exact-text recomposition;
-- a changed beat may affect one Board panel, anchor, page design, and final asset;
-- a changed governing proposition usually affects the full Script and visual system;
-- a changed technical surface may remain a production adaptation or become an Art Direction problem depending on whether hierarchy changes.
+- local technical correction may require only recomposition or re-export;
+- a changed page decision may affect one Board panel, anchor, design, and final asset;
+- a changed governing Development decision usually reopens the dependent Script and visual system;
+- a changed target surface may remain Production adaptation or become Art Direction rework depending on whether the governing hierarchy changes.
 
-## Visual rejection
+Use the Artifact Decision Contract to determine actual dependency and delta.
 
-When visual work is rejected:
+## Producer Review after rework
 
-1. stop broad production;
-2. compare the work with the accepted visual problem, route, reference transfer, anchors, and Design Comp;
-3. distinguish conceptual, formal, sequence, and execution defects;
-4. reopen the earliest failed visual object;
-5. preserve valid upstream and cross-page decisions;
-6. create a lower-cost diagnostic proof before broad work resumes.
+Rework is not complete when a specialist states that the change was made.
 
-## Copy rejection
+Creative Producer verifies:
 
-When writing is rejected:
-
-1. identify whether the defect is premise, sequence, semantic proposition, or language craft;
-2. preserve valid page meaning when possible;
-3. reopen the Copy Desk for grammar, idiom, voice, metaphor, rhythm, or bilingual parity defects;
-4. submit a new Script or localized copy version after the relevant quality gate.
+- the original defect is actually resolved;
+- no unauthorized new delta was introduced;
+- unaffected decisions remain intact;
+- all dependent artifacts are current or invalidated;
+- applicable feedback is closed;
+- the revised object is mature enough for release.
 
 ## Stage-authority violation
 
-Work created outside the valid stage sequence is non-authoritative. Restore the missing gate, identify which material can be reused without biasing the correct owner, and record the state explicitly.
+Work created outside the valid stage, Producer Review, or ECD authority sequence is `Unauthorized / Invalid`.
+
+Creative Producer:
+
+1. stops downstream work;
+2. identifies the missing gate or earliest affected object;
+3. preserves only material that does not bias the correct professional owner;
+4. restores the valid sequence;
+5. reruns specialist self-QA and Producer Review;
+6. obtains required ECD authority;
+7. reactivates downstream capabilities explicitly.
 
 ## Rework QA
 
@@ -103,7 +156,9 @@ Rework passes when:
 
 - the earliest failed object is correctly identified;
 - the change is no broader than necessary;
+- the decision delta and authority consequence are explicit;
 - unaffected work remains authoritative;
-- dependent artifacts are updated or invalidated explicitly;
-- the next proof is proportionate to the unresolved question;
-- required ECD authority is requested with a complete decision object.
+- actual dependents are updated or invalidated;
+- applicable ECD feedback is closed or disclosed;
+- specialist self-QA and Producer Review pass;
+- required ECD authority is renewed before downstream activation.

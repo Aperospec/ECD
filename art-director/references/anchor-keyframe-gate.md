@@ -2,36 +2,42 @@
 
 ## Purpose
 
-The Anchor Keyframe Gate proves a new visual system with the smallest representative set before broad production.
+The Anchor Keyframe Gate proves a new visual system with the smallest representative set before broad Production.
+
+Anchors are Art Director artifacts. They require visual self-QA and Producer Review before ECD release or downstream authority.
 
 ## Core rule
 
-A materially new, reference-led, metaphor-led, or world-led multi-image project normally requires:
+A new, reference-led, metaphor-led, world-led, or otherwise unresolved multi-image visual system normally requires:
 
-1. **World / Cover Anchor** — proves the governing visual system, first-glance promise, scale, and viewer relationship.
+1. **World / Cover Anchor** — proves governing visual system, first-glance promise, scale, and viewer relationship.
 2. **Representative Body Anchor** — proves how a specific Script beat exists within the same system.
-3. **Additional Anchor** — only when a materially different page class cannot be inferred from the first two.
+3. **Additional Anchor** — only when a different page class cannot be inferred from the first two.
+
+The proof burden scales with visual novelty and risk, not an arbitrary page count.
 
 ## Relationship to other artifacts
 
-- Concept Route establishes the governing logic.
-- Storyboard stages the full sequence at low cost.
+- Concept Route establishes governing visual logic.
+- Storyboard stages the sequence at low cost.
 - Anchor Keyframes prove representative image-world language.
 - Representative Design Comp proves actual typography, hierarchy, geometry, and mobile behavior.
 
-An Anchor may become the image basis of a Design Comp. Compact work may combine objects when the same proof genuinely resolves both questions.
+Compact work may combine proof objects when one artifact genuinely resolves both questions. Authority and Producer Review remain distinct.
 
 ## Required inputs
 
+- ECD-aligned Script and accepted Frame Scripts;
 - selected Concept Route;
 - Visual Problem Statement;
 - Visual Intent record;
 - Reference Reading / Transfer;
 - Visual Metaphor Map when applicable;
 - formal studies;
-- Storyboard or sufficiently resolved sequence staging;
+- Storyboard or sufficiently resolved staging;
 - target geometry and viewing condition;
-- accepted copy when combined with a Design Comp.
+- accepted copy when combined with a Design Comp;
+- Artifact Decision Contracts and active locks.
 
 ## Anchor record
 
@@ -42,6 +48,7 @@ Project:
 Selected route:
 Script / Storyboard reference:
 Target surface:
+Artifact Decision Contract:
 
 ## Anchor [number]
 Role:
@@ -55,43 +62,49 @@ Formal structure:
 Relationship to other anchors:
 Known risk:
 
-## Review
-Art Director assessment:
+## Art Director Self-QA
+Fidelity:
+Proof result:
 Professional gate: [pass / revise]
-ECD alignment required:
-ECD-facing presentation reference:
-Decision-level locks:
-Variables remaining open:
-Broad production may activate: [yes / no]
+Required ECD authority:
+Known limitation:
+Recommended Producer disposition:
+Return to: Creative Producer
 ```
 
 ## Anchor review criteria
 
-Each anchor must prove:
+Each anchor proves:
 
-- fidelity to the selected route;
+- fidelity to accepted route and upstream decisions;
 - correct first-glance meaning;
 - coherent large shapes and value structure;
 - intended subject–environment or evidence hierarchy;
 - correct reference transfer and sufficient originality;
-- consistency with the full sequence;
-- viability at target aspect ratio;
+- consistency with the sequence;
+- viability at target geometry;
 - ability to generate further pages without changing the governing system.
 
-The representative body anchor additionally proves that a specific beat does not collapse into a generic standalone illustration or unrelated page system.
+The body anchor additionally proves a specific beat does not collapse into a generic standalone illustration or unrelated page system.
 
-## Gate effect
+## Producer Review and gate effect
 
-Before the gate passes, visual output remains limited to the studies and representative proofs required to resolve the visual system.
+Creative Producer independently verifies the proof, delta, feedback closure, and decision readiness.
 
-After the gate passes, Art Director may complete the Design Comp, color / sequence system, and Art Direction Package. Broad Production still requires Art Direction handoff and activated Production inputs.
+Before Producer clearance and required ECD Visual Alignment, visual output remains limited to studies and representative proof.
+
+After required authority:
+
+- Art Director may complete Design Comp, color / sequence system, and Art Direction Package;
+- broad Production still requires Producer Cleared Art Direction and explicit Production activation.
 
 ## Failure recovery
 
 When an anchor fails:
 
-1. identify whether the cause is visual problem, intent, reference, metaphor, route, formal study, or staging;
-2. reopen the earliest failed object;
-3. preserve unaffected route decisions;
+1. identify the earliest failed visual or upstream object;
+2. return through Creative Producer;
+3. preserve unaffected decisions;
 4. revise the minimum representative proof;
-5. rerun the gate before expanding the image set.
+5. rerun Art Director self-QA and Producer Review;
+6. obtain required visual authority before expansion.

@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This workflow turns an Art Direction Package Accepted for Handoff and Activated Production inputs into final social-editorial assets without redefining upstream decisions.
+This workflow turns Producer Cleared Art Direction, required ECD visual authority, and Activated Production inputs into final social-editorial assets without redefining upstream decisions.
 
 ## Stage 0 — Production gate
 
@@ -10,18 +10,23 @@ Require:
 
 - Deliverable Contract;
 - Stage-Scoped Input Register;
-- Activated Production inputs with original source and authority;
-- Creative Script Accepted for Handoff;
-- exact Alignment-ready copy;
-- accepted visual route, Board, Anchor Keyframes, and Design Comp as applicable;
-- Art Direction Package Accepted for Handoff;
-- resolved material ECD Visual Alignment;
+- Activated Production inputs and capabilities;
+- Greenlit Treatment;
+- ECD-aligned Creative Script;
+- accepted Frame Scripts and exact copy;
+- governing visual authority records;
+- accepted visual route, Storyboard, Anchor Keyframes, and Design Comp as applicable;
+- Producer Cleared Art Direction Package;
+- current Artifact Decision Contracts and dependencies;
 - source assets, provenance, rights, and transformation permissions;
-- target dimensions, variants, safe areas, locks, tolerances, and fallbacks.
+- target dimensions, variants, safe areas, locks, tolerances, and fallbacks;
+- Creative Producer assignment and acceptance criteria.
+
+Production does not begin from specialist confidence alone.
 
 ## Stage 1 — Input and asset review
 
-Record production consequences and risks for each active input.
+Record consequences and risks for each active input.
 
 Create an asset inventory:
 
@@ -37,7 +42,7 @@ Distinguish supplied, transformable, evidentiary, generated, edited, sourced, co
 For each screen define:
 
 - final dimensions and safe areas;
-- source Script beat and Art Direction reference;
+- source Script beat, Frame Script, and Art Direction reference;
 - background / environment layer;
 - subject or evidence layer;
 - typography and graphic layer;
@@ -46,20 +51,21 @@ For each screen define:
 - exact text blocks and semantic line breaks;
 - reusable components;
 - variants and crop behavior;
+- inherited decisions and tolerances;
 - technical risk and accepted fallback.
 
 ## Stage 3 — Asset realization
 
-Generate, edit, source, capture, or construct assets from the accepted Art Direction and representative proof.
+Generate, edit, source, capture, or construct assets from accepted Art Direction and proof.
 
 Verify:
 
-- required subject, action, state, relation, and count;
+- required subject, action, state, relationship, and count;
 - geometry, perspective, contact, scale, material, and light;
-- consistency with accepted anchors;
+- consistency with anchors;
 - reference and rights boundaries;
 - sufficient resolution and crop latitude;
-- evidence authenticity and context where applicable.
+- evidence authenticity and context.
 
 Image assets normally exclude final publication text.
 
@@ -79,11 +85,11 @@ Control:
 - source, caption, and limitation hierarchy;
 - repeatability across variants.
 
-Compare every line against the accepted Script.
+Compare every line with the ECD-aligned Script.
 
 ## Stage 5 — Assembly
 
-Assemble each screen against the Art Direction Package and Design Comp.
+Assemble each screen against Art Direction and Design Comp.
 
 Check:
 
@@ -99,17 +105,19 @@ Check:
 
 ## Stage 6 — Fit and overflow
 
-Use the smallest adjustment allowed by the recorded tolerances.
+Use the smallest adjustment allowed by recorded tolerances.
 
-When fit requires a change to meaning, exact copy, hierarchy, visual route, or representative proof, return to the responsible upstream owner.
+When fit requires a change to meaning, exact copy, hierarchy, visual route, or representative proof, stop and return through Creative Producer to the earliest affected owner.
 
 ## Stage 7 — Variants
 
-Adapt each surface from the accepted visual premise. Re-evaluate hierarchy, line breaks, evidence, crop, safe areas, and balance independently for each variant.
+Adapt each surface from the accepted visual premise.
 
-A material redesign returns to Art Director.
+Re-evaluate hierarchy, line breaks, evidence, crop, safe areas, and balance for every variant.
 
-## Stage 8 — QA
+A redesign returns through Creative Producer to Art Director.
+
+## Stage 8 — Production self-QA
 
 Run:
 
@@ -121,7 +129,9 @@ Run:
 - evidence, rights, and attribution checks;
 - cross-page consistency and differentiation;
 - variant completeness;
-- export-open and file-integrity checks.
+- export-open and file-integrity checks;
+- Artifact Decision Contract and implementation-delta check;
+- applicable feedback check.
 
 ## Completion record
 
@@ -133,6 +143,7 @@ Art Direction Package:
 Deliverable Contract:
 Stage-Scoped Input Register:
 Activated Production inputs:
+Artifact Decision Contract:
 
 Final assets:
 - filename / dimensions / format / role
@@ -146,15 +157,39 @@ Exact-copy verification:
 Mobile QA:
 Technical QA:
 Visual-proof fidelity:
+Implementation delta:
 Authorized deviations:
 Known limitations:
+Applicable feedback closure:
 Open upstream issue:
-Ready for Creative Producer Final Review:
+Production self-QA:
+Recommended Producer disposition:
+Ready for Creative Producer Final Review: [yes / no]
 ```
+
+## Specialist return
+
+Production Artist returns the full package to Creative Producer.
+
+It does not release final assets directly to the ECD or declare Final Acceptance.
+
+## Producer Final Review
+
+Creative Producer independently verifies:
+
+- authoritative upstream decisions survived;
+- exact copy and visual direction are preserved;
+- implementation delta is authorized;
+- applicable ECD feedback is closed;
+- assets, variants, rights, evidence, mobile QA, and technical QA are complete;
+- limitations are disclosed;
+- the final decision object is ready.
+
+Defects return internally.
 
 ## Completion standard
 
-Production is complete when:
+Production self-QA passes when:
 
 - every requested asset and variant exists;
 - exact copy is correct;
@@ -162,5 +197,7 @@ Production is complete when:
 - active Production inputs are resolved;
 - files pass mobile and technical QA;
 - evidence, rights, attribution, and limitations remain correct;
-- deviations and limitations are recorded;
-- Creative Producer can review the package without reconstructing production history.
+- decision contract and deviations are recorded;
+- the next action is Specialist Return to Creative Producer.
+
+Final completion requires Producer clearance and explicit ECD Final Acceptance.

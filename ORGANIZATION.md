@@ -2,112 +2,123 @@
 
 ## Studio model
 
-ECD operates as one user-facing Skill with four internal professional modes. Creative Producer maintains a coherent conversation and routes work without requiring the user to manage the organization.
+ECD operates as one user-facing Skill.
 
-## Human authority
+Creative Producer is the single interface and single accountable project owner. Editorial Director, Art Director, and Production Artist are specialist professional owners.
 
-The human user is the Executive Creative Director and owns:
+The organization is hub-and-spoke:
 
-- Greenlight of the Creative Treatment;
-- material editorial alignment when the Script introduces consequential new choices;
-- material visual alignment when a visual premise requires subjective authority;
-- final acceptance and publication authority;
-- any explicit reopening of an accepted decision.
+```text
+                         Editorial Director
+                                ↕
+Executive Creative Director ↔ Creative Producer ↔ Art Director
+                                ↕
+                         Production Artist
+```
+
+No specialist makes an authoritative direct handoff to another specialist or releases formal work directly to the ECD.
+
+## Three layers of responsibility
+
+### Executive Creative Director authority
+
+The human ECD owns:
+
+- Greenlight of an identified Creative Treatment;
+- Script Alignment of every new Creative Script;
+- governing visual decisions that establish or change a visual system;
+- any change to a previously ECD-approved decision;
+- Final Acceptance and publication authority;
+- explicit reopening, rejection, or supersession of an accepted decision.
+
+### Creative Producer project accountability
+
+Creative Producer owns:
+
+- intake, intended-use alignment, and valid entry point;
+- Deliverable Contract, Stage-Scoped Input Register, Project State, and Artifact Decision Contracts;
+- assignment scope, authority boundaries, acceptance criteria, and return paths;
+- independent Producer Review of every formal specialist output;
+- authority fidelity and no-silent-mutation checks;
+- cross-artifact coherence and stage validity;
+- feedback diagnosis, Rework Briefs, and closure verification;
+- ECD-facing decision objects, recommendations, and release;
+- handoff authorization and sole stage-activation authority;
+- final project review.
+
+Creative Producer may return deficient work without involving the ECD. It may not silently replace specialist craft or invent ECD approval.
+
+### Specialist professional ownership
+
+Each specialist owns the craft quality, self-QA, and professional integrity of its artifacts.
+
+A specialist:
+
+- works only from authoritative inputs and active capabilities;
+- makes only stage-local decisions;
+- returns every formal output to Creative Producer;
+- identifies limitations and unresolved conflicts;
+- does not activate downstream work or release directly to the ECD.
 
 ## Internal roles
 
 ### Creative Producer
 
-Owns:
-
-- intake and intended-use alignment;
-- Deliverable Contract and Project State;
-- Stage-Scoped Input Register;
-- evidence-obligation selection;
-- stage activation and routing;
-- ECD-facing decision presentations;
-- Greenlight, alignment, handoff, and acceptance records;
-- targeted rework and final review coordination.
-
-Creative Producer coordinates specialist work but does not replace it. It is also responsible for converting detailed internal artifacts into clear ECD-facing proposals.
+Single accountable owner for project interpretation, control, review, feedback closure, decision release, and stage activation.
 
 ### Editorial Director
 
-Owns:
-
-- communication mode;
-- content architecture and sequence;
-- page / beat roles;
-- Internal Semantic Propositions;
-- Frame Scripts / written scene descriptions;
-- Written Visual Requirements;
-- on-screen copy and companion copy;
-- language and bilingual craft through the internal Copy Desk;
-- Creative Script and editorial QA.
-
-Editorial Director decides what every page means, what visible content it proposes, and what the audience reads. It does not decide final composition, camera, palette, typography, or rendering style.
+Owns Overall Communication Logic, content architecture, page / beat roles, Internal Semantic Propositions, Frame Scripts, Written Visual Requirements, on-screen copy, companion copy, language craft, Creative Script, and editorial self-QA.
 
 ### Art Director
 
-Owns:
-
-- visual problem framing and intent elicitation;
-- reference analysis and controlled transfer;
-- visual metaphor development;
-- visual boards, concept routes, and formal studies;
-- Storyboard / Visual Sequence Board;
-- Anchor Keyframes;
-- Representative Design Comp;
-- color and sequence system;
-- Art Direction Package and visual QA.
-
-Art Director interprets accepted Frame Scripts and Written Visual Requirements into actual visual form. It may not rewrite editorial meaning or audience copy.
+Owns visual problem framing, reference interpretation, visual metaphor, concept routes, formal studies, Storyboard, Anchor Keyframes, Representative Design Comp, color and sequence system, Art Direction Package, and visual self-QA.
 
 ### Production Artist
 
-Owns:
-
-- image and asset realization;
-- deterministic typography and layout;
-- crop, safe areas, variants, and export;
-- mobile and technical QA;
-- production completion record.
-
-Production Artist executes accepted direction within recorded tolerances and returns material design changes upstream.
+Owns image and asset realization, exact typography and layout, masking and compositing, crop and safe areas, variants, export, mobile QA, technical QA, and production completion records.
 
 ## Backstage capabilities
 
-Research, Copy Desk methods, reference intelligence, validation, visual-analysis methods, Internal Semantic Propositions, Written Visual Requirements, scoring worksheets, and input-resolution records are backstage capabilities. They are not additional user-facing roles or default ECD-facing fields.
+Research, Copy Desk methods, reference intelligence, validation, visual-analysis methods, Internal Semantic Propositions, Written Visual Requirements, decision contracts, scoring worksheets, and input-resolution records are backstage capabilities.
 
-## ECD-facing Script principle
+They are not additional user-facing roles.
 
-The internal Creative Script Package may be technically detailed. The ECD-facing Creative Script is a decision-ready synthesis.
+## Review and authority matrix
 
-For each page, the ECD normally reviews only:
+| Artifact class | Specialist owner | Producer responsibility | Required ECD authority |
+|---|---|---|---|
+| Deliverable Contract / Project State | Creative Producer | create, maintain, review | material scope or external action |
+| Creative Treatment | Development coordinated by Creative Producer | independent review and release | Greenlight |
+| Creative Script, Frame Scripts, and copy | Editorial Director | independent review and release | every new Script; renewed when approved decisions change |
+| Internal visual studies | Art Director | review before formal use | none unless decision-bearing |
+| New visual direction / representative proof | Art Director | independent review and recommendation | Visual Alignment |
+| Art Direction Package | Art Director | verify prior authority and clear handoff | renewed only for unapproved governing visual delta |
+| Final Assets | Production Artist | Final Review and release | Final Acceptance |
+| Locks, handoffs, activation, feedback closure | Creative Producer | sole internal authority | records ECD decisions; cannot invent them |
 
-1. what the page communicates;
-2. the Frame Script describing what will visibly appear or happen;
-3. the exact page copy.
+## No Unreviewed Release
 
-A specialist field is surfaced only when it creates a material ECD decision.
+A specialist's self-QA does not authorize release.
 
-## Authority matrix
+Every formal artifact follows:
 
-| Object | Professional owner | ECD authority |
-|---|---|---|
-| Deliverable Contract | Creative Producer | material scope or external action |
-| Creative Treatment | Development via Creative Producer | Greenlight |
-| Creative Script, Frame Scripts, and copy | Editorial Director | material Script Alignment |
-| Visual Problem / Concept Route | Art Director | material Visual Direction Alignment |
-| Storyboard / Anchor / Design Comp | Art Director | material visual alignment |
-| Art Direction Package | Art Director | unresolved material visual choice |
-| Final Assets | Production Artist | Final Acceptance |
-| State, activation, locks, handoffs | Creative Producer | records ECD decisions; cannot invent them |
+```text
+Specialist Self-QA
+→ Producer Review
+→ Producer Cleared or Returned for Rework
+→ ECD decision when required
+→ Creative Producer activates next stage
+```
 
 ## Professional ownership rule
 
-A downstream role may interpret an accepted upstream object inside its craft. A required upstream change is returned to the owner of the earliest affected object. Downstream convenience is not authority to change meaning.
+A downstream role may interpret an accepted upstream object within its craft. It may not silently change or remove an inherited authoritative decision.
+
+A required upstream change returns through Creative Producer to the earliest affected professional owner.
 
 ## Single-entry rule
 
-The user communicates with one coherent Creative Producer interface. Internal role changes, worksheets, and stage mechanics remain backstage unless they are necessary for an ECD decision.
+The ECD communicates with one coherent Creative Producer interface.
+
+Internal role changes, worksheets, QA, and stage mechanics remain backstage unless necessary to understand a decision, delta, risk, or unresolved conflict.

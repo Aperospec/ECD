@@ -2,99 +2,122 @@
 
 ## Purpose
 
-This protocol defines how Creative Producer presents a Creative Script before material Script Alignment.
+This protocol defines how Creative Producer presents a Producer Cleared Creative Script for ECD Script Alignment.
 
-The internal Creative Script Package may contain professional terminology, control fields, input IDs, detailed QA, and handoff records. The ECD-facing proposal must convert that backstage complexity into a clear creative decision object.
+The internal Creative Script Package may contain professional terminology, decision contracts, input IDs, detailed QA, and handoff records.
+
+The ECD-facing proposal converts that backstage complexity into a complete creative decision object.
+
+## Preconditions
+
+Before release:
+
+- Editorial self-QA passed;
+- the complete internal package exists;
+- Artifact Decision Contract and dependencies are current;
+- applicable feedback has closure states;
+- Creative Producer independently reviewed the package;
+- Producer disposition is `Producer Cleared`;
+- Visual capabilities remain inactive.
+
+A failed precondition returns internally.
+
+## Core principle
+
+> Backstage completeness; frontstage clarity; Producer-controlled release.
 
 The ECD should be able to understand:
 
-- how the whole piece will unfold;
+- how the whole piece communicates;
 - what every page is meant to say;
 - what every page is expected to visibly contain;
 - what exact words the audience will read;
-- what this decision accepts and what remains for Art Director.
+- what changed from the last authoritative version;
+- whether prior feedback was resolved;
+- what this decision accepts;
+- what remains for Art Director;
+- what Creative Producer recommends.
 
-No knowledge of internal editorial terminology should be required.
+## Mandatory visible order
 
-## Core Principle
-
-> Backstage completeness; frontstage clarity.
-
-A complete ECD-facing Script is not an internal worksheet dump. It is a professional synthesis of the decisions the ECD actually needs to judge.
-
-## Mandatory Visible Order
-
-1. **Overall Narrative / 整体怎么讲**
+1. **Overall Communication Logic / 整体怎么讲**
 2. **Complete Page-by-Page Proposal**
 3. **Complete Companion / Body Copy**
-4. **Alignment Scope and Deferred Visual Scope**
-5. **Decision Request**
+4. **Relevant Delta and Feedback Closure**
+5. **Alignment Scope and Deferred Visual Scope**
+6. **Producer Recommendation**
+7. **Decision Request**
 
-## 1. Overall Narrative
+## 1. Overall Communication Logic
 
 Begin with a short, connected explanation of the complete progression.
 
-It should tell the ECD:
+Tell the ECD:
 
 - where the audience begins;
-- what sequence of discoveries, events, explanations, comparisons, or transformations follows;
-- where the main payoff occurs;
-- why the proposed number of pages is sufficient.
+- what sequence of discoveries, events, explanations, comparisons, demonstrations, or transformations follows;
+- where the payoff occurs;
+- why the proposed number of pages is sufficient;
+- which communication mode governs the structure when this materially helps judgment.
 
-Use plain language. Communication mode, sequence mechanics, and language direction may be summarized in one or two sentences when they materially help the decision. Do not lead with internal taxonomy.
+Do not call every progression a narrative. Chronology is used only when the accepted meaning depends on time or event sequence.
 
-## 2. Complete Page-by-Page Proposal
+## 2. Complete page-by-page proposal
 
 Present every proposed page in order.
 
-Each page normally contains only three visible sections:
+Each page normally contains three sections:
 
 ```markdown
 ### Page [number] — [plain working label]
 
 What this page says / 这页讲什么
-[One clear paragraph explaining the page's audience-facing purpose.]
+[One clear paragraph explaining the audience-facing purpose.]
 
 Frame Script / 分镜脚本
-[Concrete prose describing who or what appears, what visibly happens or changes, how the elements relate, and what the audience can infer from the visible scene or information state.]
+[Concrete prose describing who or what appears, what visibly happens or changes, how the elements relate, and what the audience can infer.]
 
 Page Copy / 页面文案
-[All exact proposed audience-facing text for this page.]
+[All exact proposed audience-facing text.]
 ```
 
-Add a fourth section only when necessary:
+Add a fourth section only when needed:
 
 ```markdown
 Decision note / 特别需要确认
-[A material invention, factual boundary, fictional choice, evidence requirement, or other decision that the ECD must explicitly understand.]
+[A decision, invention, claim, boundary, delta, or conflict requiring ECD authority.]
 ```
 
-### What This Page Says
+### What this page says
 
-This is the plain-language version of the page's editorial purpose. It should make sense without labels such as Function, Editorial Job, or Audience Change.
+This is the plain-language page purpose. It should make sense without Function, Editorial Job, or Audience Change labels.
 
 ### Frame Script
 
 The Frame Script is mandatory.
 
-It must let the ECD picture the proposed visible content before Art Direction begins. It should describe:
+It must let the ECD picture the proposed visible content before Art Direction begins.
+
+It describes:
 
 - subjects or information objects;
 - actions, changes, handoffs, comparisons, evidence, or relationships;
-- the visible content event that makes the page's meaning perceptible;
-- continuity with the same project, object, process, or protagonist when relevant.
+- the visible event or information state that makes meaning perceptible;
+- continuity with a shared project, object, process, person, system, or world when required.
 
-It must remain open on composition, camera, palette, style, typography, and layout.
+It remains open on composition, camera, palette, style, typography, and layout.
 
-An abstract sentence about what the viewer should understand is not a Frame Script.
+An abstract statement of intended understanding is not a Frame Script.
 
 ### Page Copy
 
-Show the exact proposed wording. Preserve the intended hierarchy when useful, but do not expose Copy Desk worksheets.
+Show the exact proposed wording and meaningful hierarchy.
 
-## Fields That Stay Backstage
+Do not expose Copy Desk worksheets.
 
-Do not show these fields by default on every page:
+## Fields that stay backstage
+
+Do not show these by default on every page:
 
 - Function;
 - Editorial Job;
@@ -102,95 +125,140 @@ Do not show these fields by default on every page:
 - Communication Mode per beat;
 - Internal Semantic Proposition;
 - Written Visual Requirements;
-- Transition bookkeeping;
+- transition bookkeeping;
 - input IDs and authority classes;
+- Artifact Decision Contract;
 - scoring worksheets;
-- detailed QA checklists;
+- detailed QA;
 - handoff metadata.
 
-These fields remain required inside the internal Creative Script Package when relevant. They are surfaced only when one creates a material decision the ECD needs to understand.
-
-For example, a material requirement may be translated into a plain-language `Decision note` rather than displayed under its internal field name.
+Surface one only when it creates a decision the ECD must understand, translated into ordinary language.
 
 ## 3. Companion / Body Copy
 
-When the deliverable requires companion copy, show the complete proposed draft in the primary conversation.
+When required, show the complete proposed draft in the primary conversation.
 
-The ECD should not have to open an archive file to read the publication text.
+The ECD should not need to open an archive to read publication text.
 
-## 4. Alignment Scope
+## 4. Relevant delta and feedback closure
 
-State clearly what Script Alignment will accept, normally including:
+For a first Script, disclose significant inventions, claims, examples, or boundaries that require acceptance.
 
-- the overall progression and page count;
-- what every page communicates;
+For a revision, summarize only decision-relevant delta:
+
+- added;
+- refined;
+- changed;
+- removed;
+- authority consequence.
+
+State whether applicable prior ECD feedback is:
+
+- Resolved;
+- Partially Resolved;
+- Conflict;
+- Superseded;
+- Open.
+
+Do not resubmit a known unresolved defect as if it were closed.
+
+## 5. Alignment scope
+
+State what Script Alignment accepts:
+
+- Overall Communication Logic and page count;
+- page order and meanings;
 - every Frame Script;
 - exact on-screen copy;
 - complete companion / body copy;
-- material invented scenes, examples, claims, or boundaries disclosed in the proposal.
+- disclosed inventions, claims, evidence, limitations, boundaries, and delta.
 
-Then state what remains outside the decision:
+State what remains outside the decision:
 
 - final composition and placement;
 - camera, perspective, crop, and scale treatment;
 - color, lighting, material, and visual style;
 - typography, grid, spacing, and layout;
-- Storyboard / Visual Sequence Board;
+- Storyboard;
 - Anchor Keyframes;
 - Representative Design Comp;
 - Art Direction Package;
 - final image and asset production.
 
-Explain the consequence of acceptance: Creative Producer may mark the Script Accepted for Handoff and activate the registered Visual inputs for Art Director.
+Explain the consequence: Creative Producer may record Script authority and activate Visual inputs only after explicit ECD alignment.
 
-## 5. Decision Request
+## 6. Producer recommendation
+
+Creative Producer states:
+
+- review result: Producer Cleared;
+- recommended decision;
+- main reason;
+- known tradeoff or limitation;
+- whether applicable prior feedback is closed.
+
+The recommendation is not ECD approval.
+
+## 7. Decision request
 
 End with one explicit request:
 
-- Script Alignment;
-- revision, preferably by page or section;
+- align the Script;
+- revise a named page or section;
 - pause;
-- return to Development when the premise itself is wrong.
+- return to Development;
+- reject.
 
-Do not activate Visual inputs or begin visual work in the same response when alignment is pending.
+Do not begin visual work in the same response.
 
-## Internal Package Synchronization
+## Script authority
 
-The internal Creative Script Package and ECD-facing proposal must agree on:
+Every new Creative Script requires explicit ECD Script Alignment.
 
+A revision requires renewed alignment when it changes an ECD-approved decision.
+
+A non-decision technical correction may retain authority only after Creative Producer verifies its delta and tolerance.
+
+## Internal package synchronization
+
+The internal package and ECD-facing proposal must agree on:
+
+- authoritative upstream decisions;
+- Overall Communication Logic;
 - page count and order;
 - page meaning;
 - Frame Scripts;
 - exact audience copy;
 - body copy;
-- material inventions, evidence, and boundaries;
+- material inventions, evidence, limitations, and boundaries;
+- relevant delta;
 - Alignment scope.
-
-Internal metadata and QA detail may remain backstage.
 
 ## Presentation QA
 
-Before requesting Script Alignment, confirm:
+Before release, Creative Producer confirms:
 
-- the Overall Narrative is understandable without workflow terminology;
+- the underlying artifact is Producer Cleared;
+- Overall Communication Logic is understandable without workflow terminology;
 - every proposed page is visible;
-- every page includes `What this page says`, a concrete `Frame Script`, and exact `Page Copy`;
+- every page includes page purpose, concrete Frame Script, and exact copy;
 - the ECD can picture each page before Art Direction;
-- internal fields have not been dumped into the primary conversation;
 - complete body copy is visible when required;
-- material decisions are disclosed in ordinary language;
-- Alignment and Deferred visual scopes are explicit;
+- relevant delta and feedback closure are explicit;
+- Producer recommendation is explicit;
+- Alignment and Deferred Visual scopes are exact;
 - no attachment is required to understand the proposal;
+- Visual capabilities remain inactive;
 - the response ends at the decision request.
 
-## Failure Recovery
+## Failure recovery
 
-If a previous proposal exposed internal fields but still failed to make the intended pages imaginable:
+If a previous proposal was incomplete, abstract, internally cluttered, professionally weak, or released without Producer Review:
 
 1. withdraw the Alignment request;
-2. keep the internal Script Proposed;
-3. write or repair the missing Frame Scripts;
-4. preserve valid sequence and copy work;
-5. synthesize a new ECD-facing presentation using this protocol;
-6. request Script Alignment again;
-7. keep Visual inputs Deferred until a valid decision is recorded.
+2. keep Visual capabilities inactive;
+3. return the earliest failed object for correction;
+4. preserve valid Editorial work;
+5. rerun Editorial self-QA and Producer Review;
+6. synthesize a new presentation version;
+7. request Script Alignment again.

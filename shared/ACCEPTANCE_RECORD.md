@@ -2,61 +2,75 @@
 
 ## Purpose
 
-Acceptance records distinguish professional handoff, ECD alignment of material intermediate decisions, and final ECD acceptance.
+Acceptance records distinguish specialist self-QA, Producer clearance, ECD authority, and stage activation.
+
+No record may use professional completion or Producer clearance as a substitute for ECD approval.
 
 ## Script Alignment record
 
 ```markdown
 Project:
 Creative Script version:
+Editorial self-QA reference:
+Producer Review Record:
+Producer recommendation:
 ECD-facing presentation reference:
-Material choices presented:
+Decision delta:
+Decision scope:
 Items outside the decision:
+Prior feedback closure:
 ECD response:
 Conditions or corrections:
-Resulting Script state:
-Visual inputs activated:
-Recorded by:
+Resulting Script authority state:
+Locks:
+Visual inputs and capabilities activated by Creative Producer:
+Recorded by: Creative Producer
 ```
 
-## Visual Direction Alignment record
+Every new Creative Script requires explicit Script Alignment.
+
+A revision retains prior authority only when Creative Producer verifies that its Artifact Decision Contract does not change an ECD-approved decision.
+
+## Visual Alignment record
 
 ```markdown
 Project:
+Visual artifact / version:
+Art Director self-QA reference:
+Producer Review Record:
+Producer recommendation:
 Visual Problem Statement:
-Reference Reading / Transfer:
-Visual Metaphor Map, if applicable:
-Concept Routes presented:
 Representative proof:
-ECD-facing presentation reference:
-Art Director recommendation:
-Material tradeoff:
+Reference and transfer logic:
+Decision delta:
+Tradeoff or risk:
+Decision scope:
+Variables remaining open:
+Prior feedback closure:
 ECD response:
 Professional translation:
-Selected route:
-Decisions locked:
-Variables remaining open:
-Resulting state:
-Recorded by:
+Accepted governing visual decisions:
+Locks:
+Next visual / production capabilities activated by Creative Producer:
+Recorded by: Creative Producer
 ```
 
-## Anchor / Design Alignment record
+A new visual system, or a revision changing an ECD-approved governing visual decision, requires explicit Visual Alignment.
+
+## Art Direction handoff record
 
 ```markdown
 Project:
-Selected route:
-Storyboard reference:
-Anchor Keyframes:
-Representative Design Comp:
-Questions resolved:
-ECD-facing presentation reference:
-Art Director recommendation:
-ECD response:
-Accepted visual premise:
-Decision-level locks:
-Variables remaining open:
-Resulting state:
-Recorded by:
+Art Direction Package / version:
+Art Director self-QA:
+Producer Review Record:
+Governing visual authority references:
+Unapproved visual delta: [none / describe]
+Dependencies:
+Locks and tolerances:
+Production inputs and capabilities activated:
+Handoff Ready: [yes / no]
+Recorded by: Creative Producer
 ```
 
 ## Final Acceptance record
@@ -68,16 +82,19 @@ Project:
 Date:
 Final asset package / version:
 Deliverable Contract:
-Greenlight and Script references:
-Accepted visual references:
+Greenlight and Script authority references:
+Visual authority references:
 Art Direction Package:
+Production self-QA:
+Producer Final Review Record:
+Producer recommendation:
+Prior feedback closure:
 
 ## Creative Producer Final Review
-- project premise preserved:
-- Script meaning preserved:
+- authoritative Development decisions preserved:
+- Script and Frame Script decisions preserved:
 - exact copy preserved:
-- accepted visual route preserved:
-- representative proof preserved:
+- accepted visual decisions preserved:
 - reference, rights, and evidence conditions preserved:
 - registered inputs resolved:
 - outputs and variants complete:
@@ -91,13 +108,14 @@ Final state: [Final Accepted / accepted with conditions / revise / rejected]
 ECD conditions:
 Publication authority:
 Locked final package:
-Recorded by:
+Recorded by: Creative Producer
 ```
 
 ## Rules
 
-- Creative Producer may mark an object ready for ECD review but cannot assign ECD acceptance.
-- Alignment accepts only the named decision object and scope.
-- Technical completion does not resolve a subjective creative rejection.
-- Final acceptance and publication authority are recorded separately when necessary.
-- Revision returns to the earliest failed professional object.
+- Specialists may declare self-QA passed but cannot clear or release their own formal artifacts.
+- Creative Producer may mark an object Producer Cleared and ready for ECD review but cannot assign ECD authority.
+- An ECD decision accepts only the named object, version, delta, and scope.
+- Technical completion does not resolve a creative rejection.
+- Creative Producer records the decision and alone activates the next stage.
+- Revision returns to the earliest failed professional object and repeats required review and authority.

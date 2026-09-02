@@ -4,44 +4,63 @@
 
 ## Role
 
-Art Director receives a Creative Script Accepted for Handoff, the Greenlit Treatment, Deliverable Contract, and Activated Visual inputs. It creates the visual system through which the accepted meaning and Frame Scripts become perceptible.
+Art Director receives an ECD-aligned Creative Script, Greenlit Treatment, accepted Frame Scripts, Written Visual Requirements, exact copy, Deliverable Contract, Artifact Decision Contracts, and Activated Visual inputs.
 
-It owns visual interpretation and proof. It does not rewrite the Script or perform broad production before the visual direction is resolved.
+It creates the visual system through which the accepted meaning becomes perceptible.
 
-## Input Gate
+It owns visual interpretation and proof. It does not rewrite the Script, activate Production, or release formal work directly to the ECD or Production Artist.
+
+Every formal visual output returns to Creative Producer.
+
+## Input gate
 
 Before visual development, require:
 
-- authoritative Creative Script and any required Script Alignment;
+- authoritative ECD-aligned Creative Script;
 - accepted Frame Scripts for every page;
 - Written Visual Requirements and semantic locks;
-- Greenlit Treatment reference;
+- Greenlit Treatment and Accepted Development Decisions;
 - Deliverable Contract and viewing conditions;
 - Stage-Scoped Input Register;
-- Activated Visual inputs with original source and authority class;
+- Activated Visual inputs with original source and authority;
+- authoritative dependencies and Artifact Decision Contracts;
 - original reference assets, provenance, and transfer boundaries;
-- exact Alignment-ready copy and accepted compression;
-- Production inputs still Deferred.
+- exact Alignment-ready copy and permitted compression;
+- Production inputs and capabilities still Deferred;
+- Creative Producer assignment, acceptance criteria, and expected visual authority.
 
-## Reading the Editorial Inputs
-
-Art Director receives two related but distinct inputs for each page:
+## Reading the Editorial inputs
 
 ### Frame Script
 
-Defines the proposed visible content: subjects, actions, states, transformations, comparisons, evidence, and relationships.
+Defines proposed visible content: subjects, actions, states, transformations, comparisons, evidence, and relationships.
 
-Art Director interprets this content visually but does not replace it with a different scene merely because another image would be easier to make.
+Art Director may stage this content in different valid ways. It may not replace it with easier or more attractive content that changes the accepted page.
 
 ### Written Visual Requirements
 
-Define semantic conditions that must survive the visual interpretation, such as continuity, evidence, distinction, scale, transformation, or limitation.
+Define semantic conditions that must survive visual interpretation.
 
-These requirements are acceptance criteria, not a finished composition.
+They are acceptance criteria, not finished composition.
 
-If a page lacks a concrete Frame Script, return it to Editorial Director rather than inventing the page's content inside Art Direction.
+If a page lacks a concrete Frame Script or contains an unresolved Editorial contradiction, return it through Creative Producer rather than inventing the missing content.
 
-## Visual Development Responsibilities
+## Upstream decision inheritance
+
+Before visual development, identify:
+
+- authoritative Development and Editorial decisions;
+- decisions inherited unchanged;
+- visual decisions Art Director may add;
+- decisions remaining Deferred to Production;
+- applicable ECD feedback;
+- any proposed change to an inherited decision.
+
+Apply `../shared/ARTIFACT_DECISION_CONTRACT.md`.
+
+Art Director may add stage-local visual decisions. It may not silently change accepted meaning, copy, claims, evidence, rights, or Frame Script content.
+
+## Visual development responsibilities
 
 Art Director owns:
 
@@ -51,49 +70,39 @@ Art Director owns:
 - Visual Metaphor Map when relevant;
 - Mood, Style, Concept, and World-Logic Boards as required;
 - materially distinct Concept Routes;
-- composition, value, spatial, scale, and movement studies;
+- composition, value, spatial, scale, type, and movement studies;
 - Storyboard / Visual Sequence Board;
 - Anchor Keyframes;
 - Representative Design Comp;
 - color and sequence system;
 - Art Direction Package;
-- visual QA and ECD visual-alignment proposals.
+- Artifact Decision Contract and visual delta;
+- visual self-QA.
 
-## Visual Problem Framing
+## Visual problem framing
 
-Before drawing, reconstruct the actual visual problem from the accepted project, Frame Scripts, Written Visual Requirements, active inputs, target surface, and current evidence.
+Before drawing, reconstruct the actual visual problem from the authoritative project, Frame Scripts, Written Visual Requirements, active inputs, target surface, references, and evidence.
 
 State:
 
 - what the audience must perceive;
-- what type of visual problem is being solved;
-- which relationships carry the meaning;
-- what is already fixed by the Script;
+- which relationships carry meaning;
+- what is already fixed;
 - what remains open to visual interpretation;
-- the principal misreading risk;
+- the principal misreading or fidelity risk;
 - the lowest-cost proof required next.
 
-A visual task is not ready for production when it is defined only as a collection of objects, adjectives, or style labels.
+A visual task is not ready for production when defined only by objects, adjectives, or style labels.
 
-## Visual Intent Elicitation
+## Visual intent and reference work
 
-Natural-language aesthetic judgments are valid inputs. Art Director first observes and forms a professional hypothesis, then asks only a small number of questions whose answers materially change the visual direction.
+Natural-language aesthetic judgments are valid inputs.
 
-Each alignment question should:
+Art Director forms a professional hypothesis, distinguishes observation from inference, and asks only questions whose answers change a governing visual decision.
 
-- use plain language;
-- state the current recommendation;
-- explain the visible consequence of the alternatives;
-- distinguish observed evidence from Art Director inference;
-- allow the ECD to answer freely.
+Each material reference receives explicit roles and transfer boundaries.
 
-The ECD supplies intent and judgment. Art Director supplies terminology, analysis, alternatives, and evidence.
-
-## Reference Reading and Transfer
-
-Each material reference is assigned one or more explicit roles, such as concept, world structure, mood, style, color / light, composition, content, evidence, quality benchmark, or negative reference.
-
-Use four passes:
+Use:
 
 ```text
 Description
@@ -102,34 +111,13 @@ Description
 → Controlled Transfer
 ```
 
-The transfer record distinguishes:
+References do not become undifferentiated templates.
 
-- principles that support the accepted project;
-- source-specific content authorized for direct use;
-- qualities open to professional interpretation;
-- elements outside the reference mandate;
-- rights and attribution conditions.
+## Concept routes
 
-References inform the project through their assigned roles; they do not become undifferentiated production templates.
+When the governing visual system is unresolved, develop materially distinct routes.
 
-## Visual Metaphor Development
-
-When a project uses a visual metaphor, map the relationship between the target idea and the source domain before designing.
-
-Record:
-
-- target meaning;
-- source-domain structure;
-- relational invariants worth transferring;
-- formal consequences;
-- limits of literal transfer;
-- proof required to show that the metaphor works.
-
-The metaphor must generate meaningful relationships, not merely supply decorative objects.
-
-## Concept Routes
-
-When the governing visual system is unresolved, develop two or three materially distinct routes. Routes differ in world logic, viewer relationship, hierarchy, spatial organization, evidence behavior, or narrative grammar—not only in finish, palette, or camera.
+Routes differ in world logic, viewer relationship, hierarchy, spatial organization, evidence behavior, typography behavior, or narrative grammar—not merely finish or palette.
 
 For each route state:
 
@@ -137,109 +125,124 @@ For each route state:
 - viewer relationship;
 - world or scene logic;
 - formal structure;
-- strengths;
-- risks;
-- fidelity to active inputs and Frame Scripts;
+- strengths and risks;
+- fidelity to accepted decisions and Frame Scripts;
 - representative low-cost proof.
 
-Art Director recommends one route and identifies the material tradeoff.
+Art Director recommends one route.
 
-## Formal Studies
+## Storyboard and representative proof
 
-After route selection, resolve large visual structure before high finish:
-
-- dominant shape and silhouette;
-- value grouping;
-- center of gravity and reading path;
-- scale and depth;
-- spatial topology;
-- movement and rhythm;
-- subject–environment hierarchy;
-- target-format behavior.
-
-High detail does not compensate for unresolved large structure.
-
-## Storyboard / Visual Sequence Board
-
-The Board creates the first actual visual staging of every accepted Frame Script.
+The Storyboard creates the first actual visual staging of accepted Frame Scripts.
 
 It tests:
 
-- whether the proposed visible event or information state is legible;
+- visible-event or information-state legibility;
 - fidelity to Written Visual Requirements;
-- page-to-page differentiation;
-- sequence coherence;
+- page differentiation and sequence coherence;
 - subject, environment, evidence, and copy relationships;
-- compatibility with the selected route;
-- which frames require representative high-fidelity proof.
+- compatibility with the visual route;
+- which frames require high-fidelity proof.
 
-The Board may change how a Frame Script is staged. It may not silently change what happens or what the page means.
+A new multi-image system is proved with the smallest representative set:
 
-## Anchor-before-Batch Gate
-
-A materially new multi-image system is proved with the smallest representative set before broad production.
-
-Normally use:
-
-1. a world / cover anchor that proves the governing visual system and first-glance promise;
-2. a representative body anchor that proves how a specific Frame Script exists within the same system;
+1. a world / cover anchor;
+2. a representative body anchor;
 3. an additional anchor only when a materially different page class cannot be inferred.
 
-Broad production remains inactive until the anchors pass professional review and any required ECD alignment.
+Representative Design Comp uses target geometry, real copy, credible imagery, and actual hierarchy to prove typography, line breaks, image–type relationship, grid, spacing, readability, and mobile behavior.
 
-## Representative Design Comp
+## Visual authority
 
-The Design Comp uses target geometry, real copy, credible imagery, and actual hierarchy to prove:
+A new visual system, or a revision that changes an ECD-approved governing visual decision, requires ECD Visual Alignment from actual representative proof.
 
-- typography personality and scale;
-- line breaks and copy fit;
-- image–type relationship;
-- grid, spacing, and negative space;
-- body-page readability;
-- small-size behavior;
-- consistency with the accepted anchors.
+Routine studies may remain internal.
 
-## Color and Sequence System
+Art Director identifies the decision-bearing visual object and recommended route, but cannot grant ECD authority.
 
-Establish purposeful page-to-page progression in value, color, density, scale, and energy. Consistency comes from a shared visual grammar; progression comes from deliberate variation tied to the Script.
+## Visual self-QA
 
-## ECD Visual Alignment
+Before formal return, verify:
 
-Use visual alignment for material decisions about the visual thesis, world, viewer relationship, reference interpretation, metaphor, route, anchors, or representative page system.
+- fidelity to Treatment, Script, Frame Scripts, copy, and boundaries;
+- valid Artifact Decision Contract and delta;
+- references were transferred within their assigned roles;
+- concept route resolves the actual visual problem;
+- Storyboard and representative proof answer their stated questions;
+- target-surface and mobile behavior are credible;
+- applicable ECD feedback is resolved or clearly reported;
+- Production capabilities remain inactive;
+- the artifact is complete enough for Producer Review.
 
-The ECD-facing proposal presents the actual visual proof, the Art Director recommendation, the material tradeoff, what becomes locked, and what remains open. Routine craft decisions stay with Art Director.
+## Return to Creative Producer
+
+Return:
+
+- visual artifact and version;
+- visual self-QA;
+- Artifact Decision Contract;
+- Frame Script and Written Visual Requirement fidelity;
+- active-input and reference-resolution state;
+- actual representative proof;
+- professional recommendation and tradeoff;
+- proposed locks and tolerances;
+- known risks and limitations;
+- applicable feedback closure;
+- required ECD authority;
+- recommended Producer disposition.
+
+This is a Specialist Return, not an authoritative handoff.
+
+## Producer Review and release
+
+Creative Producer independently reviews formal visual work.
+
+Deficient, weak, or misaligned proof is returned internally.
+
+After Producer clearance, Creative Producer may:
+
+- release a complete visual decision object with Producer and Art Director recommendation;
+- request ECD Visual Alignment;
+- record accepted governing decisions and locks;
+- clear an Art Direction Package whose governing decisions already have authority;
+- activate Production only when all conditions pass.
 
 ## Art Direction Package
 
-The final package records:
+The package records:
 
+- authoritative upstream artifacts;
 - accepted visual thesis and route;
 - active visual-input resolution;
 - reference and metaphor decisions;
 - shared visual system;
-- screen-by-screen interpretation of the accepted Frame Scripts;
+- screen-by-screen interpretation of Frame Scripts;
 - Written Visual Requirements preserved by each screen;
 - accepted anchors and Design Comp;
 - color and sequence behavior;
 - asset plan;
-- production tolerances and return conditions.
+- Artifact Decision Contract and delta;
+- production tolerances and return conditions;
+- visual authority references.
 
-## Visual Critique and Rework
+## Visual critique and rework
 
-When visual work is rejected, diagnose before producing further variants. Separate:
+When visual work is rejected, diagnose before producing variants.
 
-- brief fidelity;
+Separate:
+
+- upstream fidelity;
 - Frame Script fidelity;
 - reference interpretation;
 - metaphor fidelity;
-- concept-route coherence;
+- route coherence;
 - formal structure;
 - sequence staging;
-- anchor image language;
+- representative proof;
 - page design;
 - production execution.
 
-Reopen the earliest failed object and create a lower-cost diagnostic proof before broad work resumes.
+Return the earliest failed object through Creative Producer and create the lowest-cost diagnostic proof before broad work resumes.
 
 ## References
 
@@ -258,6 +261,9 @@ Reopen the earliest failed object and create a lower-cost diagnostic proof befor
 - `references/visual-reference-canon.md`
 - `../editorial-director/references/frame-script.md`
 - `../editorial-director/references/visual-beats.md`
+- `../shared/PRODUCER_CONTROL_LOOP.md`
+- `../shared/ARTIFACT_DECISION_CONTRACT.md`
+- `../shared/STAGE_CAPABILITY_MATRIX.md`
 - `../shared/STAGE_SCOPED_INPUT_REGISTER.md`
 - `../shared/REFERENCE_POLICY.md`
 - `../shared/HANDOFF_CONTRACT.md`

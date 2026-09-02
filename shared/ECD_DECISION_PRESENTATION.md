@@ -2,59 +2,94 @@
 
 ## Purpose
 
-Every ECD decision attaches to a complete, visible, identifiable decision object.
+Every ECD decision attaches to a complete, visible, identifiable, Producer Cleared decision object.
 
-An internal artifact may be complete while its ECD-facing presentation is incomplete or unnecessarily difficult to judge. The primary conversation is the default decision surface unless the ECD explicitly selects another review surface.
+The primary conversation is the default decision surface unless the ECD explicitly selects another review surface.
+
+An internal artifact may be technically complete while the ECD-facing object is incomplete, unclear, or not ready. Creative Producer owns the readiness judgment, recommendation, and release.
+
+## Release prerequisite
+
+Before any ECD decision request:
+
+```text
+Specialist Self-QA
+→ Producer Review
+→ Producer Cleared
+→ ECD-facing decision release
+```
+
+A failed Producer Review returns internally. The ECD is not used to identify defects that the studio can resolve itself.
 
 ## Decision-Object Standard
 
-Before requesting Greenlight, Script Alignment, Visual Alignment, or Final Acceptance, Creative Producer verifies:
+A valid ECD-facing decision object contains:
 
-1. artifact type and version are identified;
-2. all material decision-relevant content is visible;
-3. the proposal is understandable without an archive file;
-4. the proposal is understandable without internal workflow vocabulary;
-5. new choices and material changes are explicit;
-6. what becomes authoritative is explicit;
-7. what remains open or Deferred is explicit;
-8. the requested decision and consequence are explicit;
-9. downstream work remains inactive until the decision is recorded.
+1. **Object identity** — artifact type, version, and decision being requested.
+2. **Producer recommendation** — the proposed decision and why the project is ready for it.
+3. **Complete decision content** — everything the ECD needs to judge the actual proposal.
+4. **Delta** — relevant additions, refinements, changes, or removals from the last authoritative version.
+5. **Feedback closure** — applicable prior ECD feedback and any unresolved consequence.
+6. **Approval scope** — what acceptance will make authoritative.
+7. **Exclusions** — what remains open, Deferred, or outside the decision.
+8. **Consequence** — which stage, capabilities, or locks approval will authorize.
+9. **Explicit request** — approve, revise, choose, pause, return upstream, or reject.
+
+The proposal must be understandable without:
+
+- opening an archive file;
+- decoding internal workflow vocabulary;
+- reconstructing missing creative content;
+- guessing the Producer's recommendation.
 
 Completeness means professional synthesis, not a raw dump of internal IDs, worksheets, role labels, or exhaustive QA.
 
+## Turn boundary
+
+A response that releases a decision object ends at the decision request.
+
+Creative Producer may not execute the next stage, call downstream production capabilities, or present the decision as already accepted in the same response.
+
 ## Frontstage / Backstage Principle
 
-The studio may require complex internal records. The ECD-facing object should expose only what is necessary to understand and judge the proposal.
+The studio may require detailed internal records.
 
-Backstage fields stay backstage unless one creates a material decision.
+Backstage fields remain backstage unless they create a decision, delta, risk, or unresolved conflict the ECD needs to understand.
 
-A presentation fails when it is technically complete but forces the ECD to translate internal terminology before they can understand what is being proposed.
+The ECD-facing object should expose the complete creative proposal and the consequence of accepting it, not the studio's internal bookkeeping.
 
 ## Gate-Specific Minimums
 
 ### Creative Treatment / Greenlight
 
-Present:
+Present in this order:
 
-- One-Sentence Creative Core;
-- complete Creative Treatment narrative;
-- necessary Development context and boundaries;
-- concise Deferred Input Notice when useful;
-- exact Greenlight scope and next authorized stage.
+1. One-Sentence Creative Core;
+2. complete Creative Treatment narrative;
+3. necessary Development context and boundaries;
+4. concise Deferred Input Notice when useful;
+5. Producer recommendation;
+6. relevant delta from a prior Treatment, when applicable;
+7. exact Greenlight scope and next authorized stage;
+8. Decision Request.
+
+A new Treatment requires explicit ECD Greenlight.
 
 ### Creative Script / Script Alignment
 
 Present:
 
-1. **Overall Narrative** — how the complete piece moves from opening to payoff, in plain language.
+1. **Overall Communication Logic** — how the complete piece communicates from opening to payoff, in plain language.
 2. **Every proposed page**, normally using only:
    - **What this page says**;
    - **Frame Script**;
    - **Page Copy**.
 3. **Complete Companion / Body Copy**.
-4. **Alignment Scope** — what acceptance covers.
-5. **Deferred Visual Scope** — what remains for Art Director.
-6. **Decision Request**.
+4. **Relevant Script delta and prior-feedback closure**.
+5. **Alignment Scope**.
+6. **Deferred Visual Scope**.
+7. **Producer recommendation**.
+8. **Decision Request**.
 
 The Frame Script is mandatory and must describe the proposed visible scene, action, transformation, comparison, evidence state, or information relationship concretely enough for the ECD to imagine the page.
 
@@ -67,22 +102,30 @@ The following normally remain backstage:
 - Written Visual Requirements;
 - transition bookkeeping;
 - input IDs;
-- detailed scoring and QA worksheets;
+- detailed QA;
+- Artifact Decision Contract;
 - handoff metadata.
 
-Surface one only when it materially changes the ECD's decision, and translate it into ordinary language.
+Surface one only when it creates a material decision, and translate it into ordinary language.
+
+Every new Creative Script requires explicit ECD Script Alignment.
 
 ### Visual Direction / Visual Alignment
 
-Present the actual representative visual evidence together with:
+When a new or changed governing visual decision requires ECD authority, present actual representative proof together with:
 
-- Visual Problem Statement;
-- reference roles and transfer logic;
-- proposed concept routes or selected route;
-- Art Director recommendation and tradeoff;
+- Visual Problem Statement in plain language;
+- the accepted Script condition the proof must satisfy;
+- reference roles and controlled-transfer logic;
+- concept routes or selected route;
+- Producer and Art Director recommendation;
+- relevant visual delta;
+- main tradeoff or misreading risk;
 - questions the proof resolves;
 - decisions proposed for lock;
-- variables remaining open.
+- variables remaining open;
+- consequence for Art Direction or Production;
+- Decision Request.
 
 When the decision depends on visual relationships, prose alone is insufficient.
 
@@ -91,24 +134,33 @@ When the decision depends on visual relationships, prose alone is insufficient.
 Present final assets or directly accessible previews together with:
 
 - deliverable completeness;
-- accepted upstream references;
-- material deviations;
-- mobile and technical QA results;
+- authoritative upstream references;
+- Producer Final Review result and recommendation;
+- applicable feedback closure;
+- material implementation delta or authorized deviations;
+- mobile and technical QA;
 - known limitations;
 - publication state;
 - exact Final Acceptance request.
 
-## Archive File Role
+## Producer Release Summary
 
-Archive files may preserve:
+Use a concise block when useful:
 
-- artifact metadata and version history;
-- Stage-Scoped Input IDs;
-- detailed QA and scoring;
-- internal alternatives;
-- handoff and production records.
+```markdown
+## Producer Review
 
-They supplement the ECD-facing presentation. Material content required for the decision remains visible in the primary conversation.
+Artifact / version:
+Review result: Producer Cleared
+Producer recommendation:
+Relevant delta:
+Previous ECD feedback:
+Known limitation or unresolved tradeoff:
+Decision requested:
+Consequence if approved:
+```
+
+This summary does not replace the complete decision content.
 
 ## Presentation Record
 
@@ -116,32 +168,40 @@ They supplement the ECD-facing presentation. Material content required for the d
 Decision object:
 Artifact type:
 Version / reference:
+Producer Review Record:
+Producer recommendation:
 ECD-facing presentation reference:
 Archive reference:
 Material decisions presented:
+Relevant delta:
+Prior feedback closure:
 Items outside this decision:
 Decision requested:
 ECD response / evidence:
-Resulting state:
+Resulting authority state:
+Resulting stage activation:
 ```
 
 ## Failure Recovery
 
-When a decision was requested from an incomplete, overly abstract, or internally cluttered presentation:
+When a decision was requested from an object that was incomplete, overly abstract, internally cluttered, professionally weak, or not Producer Cleared:
 
 1. withdraw the request;
-2. keep the artifact Proposed;
-3. identify whether the missing object is content, Frame Script, copy, visual proof, or decision scope;
-4. correct any underlying professional-quality defect;
-5. synthesize a complete ECD-facing object as a new presentation version;
-6. request the decision again;
-7. keep downstream activation pending.
+2. keep downstream capabilities inactive;
+3. identify the missing content, proof, authority, or review;
+4. return the earliest failed professional object for correction;
+5. rerun specialist self-QA and Producer Review;
+6. synthesize a new ECD-facing presentation version;
+7. request the decision again.
 
 ## Quality Gate
 
-A presentation passes when the ECD can judge the complete proposal, understand its consequence, and respond without:
+A decision presentation passes when:
 
-- opening an archive file;
-- decoding internal terminology;
-- reconstructing the page from abstract requirements;
-- asking where the actual scene, copy, or decision object is.
+- the underlying artifact is Producer Cleared;
+- the complete proposal is visible;
+- the Producer recommendation is explicit;
+- relevant delta and feedback status are clear;
+- approval scope, exclusions, and consequence are exact;
+- the ECD can respond without performing studio QA;
+- the response ends at the requested decision.

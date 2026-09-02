@@ -2,9 +2,11 @@
 
 ## Purpose
 
-ECD uses an adaptive two-phase model separated by Greenlight, followed by stage-local editorial, visual, and production authority.
+ECD uses an adaptive, stage-gated production model controlled by Creative Producer.
 
-## Project Initialization
+Every formal stage combines professional ownership, specialist self-QA, independent Producer Review, required ECD authority, and explicit stage activation.
+
+## Project initialization
 
 Creative Producer establishes:
 
@@ -12,19 +14,47 @@ Creative Producer establishes:
 Entry Point
 + Deliverable Contract
 + Stage-Scoped Input Register
-+ Complexity Profile
++ Complexity / Risk Profile
 + Evidence Obligation
 + Project State
-→ Valid Route
++ Authoritative Artifacts
++ Artifact Decision Contracts
++ Active / Deferred Capabilities
+→ Valid Assignment
 ```
 
-Complexity profiles:
+Complexity is assessed through:
 
-- **Compact** — narrow scope or a small number of outputs; artifacts may be combined when one object resolves adjacent questions.
-- **Standard** — ordinary multi-screen social-editorial work.
-- **Extended** — evidence-sensitive, commercial, campaign, multi-format, or complex world-building work.
+- semantic novelty and ambiguity;
+- evidence, rights, and public-claim risk;
+- structural and dependency complexity;
+- visual novelty and proof burden;
+- production scope, surfaces, and variants.
 
-Compression reduces paperwork, not professional questions or authority gates.
+Profiles:
+
+- **Compact** — narrow risk and limited proof burden;
+- **Standard** — ordinary multi-artifact social-editorial work;
+- **Extended** — evidence-sensitive, commercial, multi-format, campaign, or complex world-building work.
+
+Compression reduces documentation and proof volume. It does not remove decision inheritance, specialist self-QA, Producer Review, required ECD authority, or stage boundaries.
+
+## Universal stage loop
+
+```text
+Creative Producer assignment
+→ specialist execution
+→ specialist self-QA
+→ formal return to Creative Producer
+→ Producer Review
+   ├─ Return for Rework
+   ├─ Escalate for ECD Decision
+   └─ Producer Cleared
+→ ECD decision when required
+→ Creative Producer records authority and activates next stage
+```
+
+Apply `PRODUCER_CONTROL_LOOP.md`.
 
 ## Phase I — Development
 
@@ -32,14 +62,17 @@ Compression reduces paperwork, not professional questions or authority gates.
 Raw or unresolved input
 → intended-use and stage-input alignment
 → proportionate research / reference / rights work
-→ premise, angle, proposition, and audience development
+→ premise, angle, proposition, governing logic or relationship, audience consequence, and boundaries
 → Creative Treatment
+→ Development self-QA
+→ Producer Review
+→ Producer Cleared Treatment
 → ECD Greenlight
 ```
 
-The Creative Treatment defines what the project is, why it matters, what it says, and the material factual, speculative, rights, and semantic boundaries.
+The Treatment defines what the project is, why it matters, how its central logic holds, what audience consequence it seeks, and its factual, speculative, rights, reference, claim, and semantic boundaries.
 
-Greenlight attaches to an identified Treatment and opens Editorial development. It does not accept downstream sequence, copy, visual, or production decisions.
+Greenlight accepts only the identified Treatment and authorizes Editorial development. It does not accept sequence, copy, visual direction, Storyboard, layout, or production.
 
 ## Phase II — Editorial
 
@@ -52,93 +85,117 @@ Greenlit Treatment
 → Written Visual Requirements
 → Copy Desk
 → Internal Creative Script Package
-→ ECD-facing Creative Script Proposal
-→ ECD Script Alignment when material
-→ Script Accepted for Handoff
+→ Editorial self-QA
+→ Producer Review
+→ Producer Cleared ECD-facing Creative Script
+→ ECD Script Alignment
 ```
 
-The editorial objects have distinct purposes:
+The editorial objects remain distinct:
 
 - **Internal Semantic Proposition** — what a page means; backstage.
 - **Frame Script** — what the audience will visibly encounter; concrete and ECD-facing.
-- **Written Visual Requirements** — semantic conditions that later visual work must preserve; normally backstage.
+- **Written Visual Requirements** — semantic conditions visual work must preserve; normally backstage.
 - **Page Copy** — exact audience-facing language.
 
-The ECD-facing proposal does not reproduce the internal package field by field. It normally presents the Overall Narrative and, for each page, what it says, its Frame Script, and its exact copy.
+The ECD-facing proposal uses Overall Communication Logic and, for each page, what it says, its Frame Script, and exact copy.
 
-The Creative Script defines communication mode, sequence, page meaning, proposed visible content, semantic visual requirements, exact audience copy, body copy, evidence placement, and payoff.
+Every new Creative Script requires ECD Script Alignment. A revision requires renewed alignment when its Artifact Decision Contract changes an ECD-approved decision.
 
-## Phase III — Visual Development
+Visual capabilities remain inactive until Creative Producer records the required Script authority.
+
+## Phase III — Visual Development and Art Direction
 
 ```text
-Accepted Script
-+ Accepted Frame Scripts
+ECD-aligned Script
++ accepted Frame Scripts
 + Written Visual Requirements
 + Activated Visual inputs
 → Visual Problem Statement
 → Visual Intent Elicitation
 → Reference Reading and Controlled Transfer
 → Visual Metaphor Map when relevant
-→ Visual Boards and Concept Routes
-→ ECD Visual Direction Alignment when material
-→ Formal Studies
+→ Boards, Concept Routes, and Formal Studies
 → Storyboard / Visual Sequence Board
-→ Anchor Keyframes
+→ Representative Anchor Keyframes
 → Representative Design Comp when required
-→ ECD Anchor / Design Alignment when material
+→ Art Director self-QA
+→ Producer Review
+→ required ECD Visual Alignment
 → Color and Sequence System
-→ Art Direction Package
-→ Art Direction Accepted for Handoff
+→ Producer Cleared Art Direction Package
 ```
 
-The Storyboard is the first actual visual staging of the accepted Frame Scripts. Art Director decides how the content is composed, viewed, styled, and organized while preserving the Written Visual Requirements.
+A new visual system, or a revision that changes an ECD-approved governing visual decision, requires ECD Visual Alignment from actual representative proof.
 
-The Art Director proves the visual system before broad production. The amount of proof scales with risk and novelty.
+Routine studies may remain internal. Art Direction may proceed without another ECD gate only when it introduces no unapproved governing visual delta and passes Producer Review.
+
+Broad final production remains inactive until required visual authority is satisfied.
 
 ## Phase IV — Production
 
 ```text
-Accepted Art Direction
+Producer Cleared Art Direction
++ required ECD visual authority
 + Activated Production inputs
 → asset realization
 → deterministic typography and layout
 → variants and export
 → mobile and technical QA
-→ Creative Producer Final Review
+→ Production self-QA
+→ Producer Final Review
+→ Producer Cleared final package
 → ECD Final Acceptance
 ```
 
-Production preserves accepted meaning, Frame Scripts, copy, and visual direction within recorded tolerances.
+Production preserves all authoritative meaning, copy, evidence, visual direction, reference boundaries, and technical conditions within recorded tolerances.
 
-## Artifact Ownership
+Production convenience does not authorize creative change.
 
-- Deliverable Contract, Stage-Scoped Input Register, Project State, decision records, and locks — Creative Producer.
-- Creative Treatment — Development coordinated by Creative Producer; Greenlight authority belongs to ECD.
-- Creative Script, Frame Scripts, Written Visual Requirements, and audience copy — Editorial Director.
-- Visual Problem, Concept Routes, Board, Anchors, Design Comp, and Art Direction — Art Director.
-- Final Assets and production completion record — Production Artist.
-- Final subjective acceptance and publication authority — ECD.
+## Artifact and decision ownership
 
-## Adaptive Entry
+- Deliverable Contract, Stage-Scoped Input Register, Project State, assignments, Producer Review, feedback closure, handoffs, decisions, locks, and activation — Creative Producer.
+- Creative Treatment craft — Development coordinated by Creative Producer; Greenlight authority belongs to ECD.
+- Creative Script, Frame Scripts, Written Visual Requirements, and copy — Editorial Director; every new Script requires ECD alignment.
+- Visual problem, routes, Storyboard, anchors, Design Comp, and Art Direction — Art Director; governing visual authority belongs to ECD when established or changed.
+- Final Assets and production self-QA — Production Artist; Final Acceptance belongs to ECD.
+- Project-wide release readiness — Creative Producer.
 
-Enter at the latest valid artifact:
+## Adaptive entry
 
-- unresolved premise → Development;
+Enter at the latest valid artifact only when:
+
+- artifact and version are identifiable;
+- quality and authority states are valid;
+- Producer Review is traceable;
+- dependencies and Artifact Decision Contract are current;
+- active and Deferred capabilities are explicit;
+- applicable feedback is closed or disclosed.
+
+Routes:
+
+- unresolved premise or governing logic → Development;
 - Greenlit Treatment → Editorial;
-- Script Accepted for Handoff → Visual Development;
-- Art Direction Accepted for Handoff → Production;
-- localized defect → owner of the earliest affected object.
+- ECD-aligned Script → Visual Development;
+- Producer Cleared Art Direction with required visual authority → Production;
+- localized defect → earliest affected professional object.
 
-Existing work is reused only when its artifact, version, authority, and dependencies are identifiable.
+## Final review
 
-## Final Review
+Before Final Acceptance, Creative Producer confirms:
 
-Before Final Acceptance, confirm:
-
-- the Deliverable Contract is complete;
+- Deliverable Contract is complete;
+- all formal outputs passed Producer Review;
+- required ECD authority is present;
 - all material registered inputs are resolved or explicitly open;
-- accepted project meaning, Script, Frame Scripts, copy, and visual direction survived downstream work;
-- reference, evidence, rights, attribution, and limitations remain correct;
+- all applicable feedback items have closure states;
+- authoritative project meaning, Script, Frame Scripts, copy, and visual direction survived downstream work;
+- references, evidence, rights, attribution, and limitations remain correct;
 - requested assets and variants exist;
 - mobile and technical QA pass or limitations are disclosed;
-- deviations were authorized by the correct owner.
+- deviations were authorized by the correct owner;
+- the final decision object is complete and Producer-recommended.
+
+## Runtime authority
+
+Apply `STAGE_CAPABILITY_MATRIX.md` as the single source of truth for allowed capabilities, forbidden actions, and transition preconditions.

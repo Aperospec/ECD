@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Project State is Creative Producer's authoritative record of current phase, valid artifacts, active inputs, locks, open issues, and next valid action.
+Project State is Creative Producer's authoritative record of current phase, active capabilities, valid artifacts, quality state, authority state, Producer Review, feedback closure, locks, open issues, and next valid action.
 
 ## State template
 
@@ -12,10 +12,10 @@ Project State is Creative Producer's authoritative record of current phase, vali
 ## Identity
 Project ID:
 Working title:
-ECD / owner:
+Executive Creative Director:
 Created:
 Last updated:
-Complexity profile:
+Complexity / risk profile:
 
 ## Intake and contract
 Original request / source:
@@ -24,12 +24,15 @@ Deliverable Contract:
 Target language / locale:
 Evidence obligation:
 Entry point:
-Material assumptions:
+Consequential assumptions:
 Material unknowns:
 
-## Phase and owner
-Phase: [Development / Awaiting Greenlight / Editorial / Awaiting Script Alignment / Visual Development / Awaiting Visual Alignment / Art Direction / Production / Final Review / Accepted]
-Current professional owner:
+## Phase and capability state
+Active phase:
+Current specialist owner:
+Current assignment:
+Active capabilities:
+Forbidden / Deferred capabilities:
 Current objective:
 Next valid action:
 
@@ -42,21 +45,55 @@ Deferred Production IDs:
 Conflicts:
 
 ## Artifact register
-| Artifact | Version / reference | Owner | State | Authority / dependency notes |
-|---|---|---|---|---|
-| Creative Treatment | | | | |
-| Greenlight Record | | | | |
-| Creative Script | | | | |
-| Visual Problem Statement | | | | |
-| Reference Reading / Transfer | | | | |
-| Visual Metaphor Map | | | | |
-| Concept Route | | | | |
-| Storyboard / Visual Sequence Board | | | | |
-| Anchor Keyframes | | | | |
-| Representative Design Comp | | | | |
-| Art Direction Package | | | | |
-| Final Assets | | | | |
-| Acceptance Record | | | | |
+| Artifact | Version | Professional owner | Quality state | Authority state | Producer Review | Decision Contract / dependencies | Handoff Ready |
+|---|---|---|---|---|---|---|---|
+| Creative Treatment | | | | | | | |
+| Greenlight Record | | | | | | | |
+| Creative Script | | | | | | | |
+| Visual Problem Statement | | | | | | | |
+| Reference Reading / Transfer | | | | | | | |
+| Visual Metaphor Map | | | | | | | |
+| Concept Route | | | | | | | |
+| Storyboard / Visual Sequence Board | | | | | | | |
+| Anchor Keyframes | | | | | | | |
+| Representative Design Comp | | | | | | | |
+| Art Direction Package | | | | | | | |
+| Final Assets | | | | | | | |
+| Acceptance Record | | | | | | | |
+
+## Current Producer Review
+Artifact / version:
+Specialist self-QA:
+Review status:
+Authority fidelity:
+Artifact delta:
+Stage validity:
+Deliverable completeness:
+Cross-artifact coherence:
+Professional sufficiency:
+Feedback closure:
+Decision readiness:
+Producer disposition:
+Producer recommendation:
+Required rework:
+Next review action:
+
+## ECD gate state
+Pending decision:
+Decision object and version:
+Producer Review Record:
+Producer recommendation:
+ECD-facing presentation reference:
+Decision delta:
+Decision scope:
+Items outside this decision:
+Decision evidence:
+Resulting authority state:
+Resulting stage activation:
+
+## Feedback resolution
+| Feedback ID | Source | Affected artifact | Producer diagnosis | Assigned owner | Acceptance criteria | Status | Remaining consequence |
+|---|---|---|---|---|---|---|---|
 
 ## Active locks
 - Development:
@@ -64,24 +101,19 @@ Conflicts:
 - Visual:
 - Production:
 
-## ECD gate state
-Pending decision:
-Decision object and version:
-ECD-facing presentation reference:
-Decision scope:
-Items outside this decision:
-Decision evidence:
-Resulting state:
-
 ## Open issues
-- issue / first affected owner / consequence / blocking / recommended action
+- issue / earliest affected owner / authority owner / consequence / blocking / recommended action
 
 ## Rework scope
 Triggering feedback:
 Earliest failed object:
+Artifacts reopened:
 Artifacts invalidated:
 Artifacts still valid:
-Next proof:
+Lowest-cost next proof:
+Required authority:
+Return owner:
+Producer re-review condition:
 
 ## Change log
 - date / change / authority / consequence
@@ -92,52 +124,88 @@ Next proof:
 Compact work may use a shorter record containing:
 
 - project and deliverable;
-- current phase and owner;
-- authoritative artifact and version;
+- current phase, assignment, and active capabilities;
+- authoritative artifacts and versions;
+- quality and authority state;
+- Producer Review status and recommendation;
 - active and Deferred inputs;
+- open feedback and issues;
 - current locks;
-- open issue;
-- next action;
-- pending ECD gate.
+- pending ECD gate;
+- next valid action.
 
 ## Transition requirements
 
+### Initialization to Development
+
+Requires a valid route, Deliverable Contract, Stage-Scoped Input Register, Project State, assignment, and explicit active / Deferred capabilities.
+
 ### Development to Awaiting Greenlight
 
-Requires a coherent Creative Treatment, sufficient evidence / rights resolution for the intended promise, complete ECD-facing presentation, and a clear decision request.
+Requires:
+
+- Development self-QA;
+- Producer Cleared Treatment;
+- complete ECD-facing Treatment;
+- Producer recommendation;
+- explicit Greenlight request.
 
 ### Awaiting Greenlight to Editorial
 
-Requires a valid Greenlight Record tied to the identified Treatment. Activate Editorial inputs only.
+Requires explicit ECD Greenlight tied to the identified Treatment, recorded by Creative Producer. Activate Editorial capabilities only.
 
-### Editorial to Visual Development
+### Editorial to Awaiting Script Alignment
 
-Requires a Creative Script Accepted for Handoff, Alignment-ready copy, resolved material Script Alignment, and explicit activation of Visual inputs.
+Requires:
 
-### Visual Development to Art Direction
+- Editorial self-QA;
+- Producer Cleared Creative Script;
+- current Artifact Decision Contract;
+- complete ECD-facing Script;
+- Producer recommendation;
+- explicit Script Alignment request.
 
-Requires a selected visual route, resolved sequence-level questions, representative anchor proof, and required visual alignment.
+### Awaiting Script Alignment to Visual Development
 
-### Art Direction to Production
+Requires explicit ECD alignment of the new Creative Script, recorded by Creative Producer. Activate Visual capabilities only.
 
-Requires an Art Direction Package Accepted for Handoff, resolved material visual decisions, and explicit activation of Production inputs.
+A revision may retain prior authority only when Creative Producer verifies that its delta does not change an ECD-approved decision.
+
+### Visual Development to Art Direction / Production readiness
+
+Requires:
+
+- Art Director self-QA;
+- Producer Cleared visual direction and representative proof;
+- required ECD visual authority for new or changed governing visual decisions;
+- Producer Cleared Art Direction Package;
+- no blocking visual feedback;
+- explicit Production activation by Creative Producer.
 
 ### Production to Final Review
 
-Requires all requested assets, variants, exact-copy checks, and QA records.
+Requires all requested assets and variants, Production self-QA, exact-copy checks, mobile QA, technical QA, current dependencies, and return to Creative Producer.
 
-### Final Review to Accepted
+### Final Review to Awaiting Final Acceptance
 
-Requires complete ECD-facing final presentation and ECD Final Acceptance when applicable.
+Requires Producer Cleared final package, complete feedback closure, complete ECD-facing final presentation, and Producer recommendation.
+
+### Awaiting Final Acceptance to Accepted
+
+Requires explicit ECD Final Acceptance recorded by Creative Producer.
 
 ## State QA
 
 Reject or repair state when:
 
-- more than one version of an artifact is treated as authoritative;
+- active capabilities are not explicit;
+- more than one artifact version is authoritative;
 - a downstream artifact depends on a superseded upstream version;
-- active and Deferred inputs are unclear;
-- an ECD decision lacks an identifiable presentation object;
-- a lock has no protected dimension or authority;
-- broad production is active before representative visual proof;
-- a rework request is assigned to the latest role rather than the earliest failed object.
+- a formal artifact lacks an Artifact Decision Contract;
+- Specialist QA, Producer clearance, and ECD authority are conflated;
+- a Producer Review disposition is missing;
+- applicable ECD feedback lacks closure state;
+- an ECD decision lacks a complete presentation or recommendation;
+- broad production is active before required visual authority;
+- a rework request is assigned to the latest role rather than the earliest failed object;
+- anyone other than Creative Producer activates the next stage.

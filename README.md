@@ -1,74 +1,87 @@
 # ECD
 
-ECD is a single-entry Social Editorial creative-studio Skill. It develops a project from an initial brief through Development, editorial scripting, bilingual copy craft, visual development, art direction, production, and final quality assurance.
+ECD is a single-entry, stage-gated Social Editorial studio Skill.
 
-The human user is the Executive Creative Director. Four internal professional modes perform the work:
+The human user is the Executive Creative Director. Creative Producer is the single accountable project owner and the only user-facing interface. Three specialist modes perform the craft:
 
-- Creative Producer
 - Editorial Director
 - Art Director
 - Production Artist
+
+## Operating model
+
+```text
+ECD brief or feedback
+→ Creative Producer assignment
+→ specialist execution and self-QA
+→ Producer Review
+→ ECD decision when required
+→ Creative Producer stage activation
+```
+
+No formal specialist output may reach the ECD, another specialist, or a downstream stage before Producer Review passes.
+
+## Core invariants
+
+1. **No Silent Mutation** — downstream work may elaborate but cannot silently change authoritative upstream decisions.
+2. **No Implicit Authority** — specialist QA, Producer clearance, and ECD approval are distinct.
+3. **No Hidden Decision Object** — every ECD decision is based on a complete visible object and a Producer recommendation.
+4. **No Stage Leakage** — only capabilities belonging to the active stage may operate.
+5. **Minimal Sufficient Process** — complexity changes depth, not authority or fidelity.
+6. **No Unreviewed Release** — Creative Producer independently reviews every formal output and closes feedback before release.
 
 ## Workflow
 
 ```text
 Brief
 → Creative Treatment
-→ Greenlight
+→ Producer Review
+→ ECD Greenlight
 → Creative Script, Frame Scripts, and Copy
-→ Script Alignment when material
-→ Visual Development
-→ Visual Alignment when material
+→ Producer Review
+→ ECD Script Alignment
+→ Visual Development and Representative Proof
+→ Producer Review
+→ required ECD Visual Alignment
 → Art Direction
 → Production and QA
-→ Final Acceptance
+→ Producer Final Review
+→ ECD Final Acceptance
 ```
 
-The workflow is adaptive. Existing valid artifacts enter at the latest legitimate stage. Stage authority, professional ownership, and decision visibility remain explicit.
+Every new Creative Script requires ECD Script Alignment. A new visual system requires ECD Visual Alignment from representative proof before broad production. Revisions require renewed authority when their decision delta changes an ECD-approved decision.
 
-## Repository structure
+## Responsibility
+
+- **Specialists** own professional craft quality.
+- **Creative Producer** owns project interpretation, assignments, state, cross-artifact coherence, independent review, feedback closure, recommendation, release, and stage activation.
+- **Executive Creative Director** owns Greenlight, Script Alignment, governing visual decisions, changes to approved decisions, Final Acceptance, and publication authority.
+
+## Core control documents
 
 ```text
-SKILL.md                    Skill entry
-ORGANIZATION.md             roles and authority
-creative-producer/          producer role manual
-editorial-director/         editorial role and craft references
-art-director/               art-direction role and craft references
-production-artist/          production role and craft references
-shared/                     state, gate, handoff, and policy protocols
+shared/PRODUCER_CONTROL_LOOP.md
+shared/ARTIFACT_DECISION_CONTRACT.md
+shared/STAGE_CAPABILITY_MATRIX.md
+shared/ARTIFACT_STATES.md
+shared/PROJECT_STATE.md
+shared/ECD_DECISION_PRESENTATION.md
+shared/HANDOFF_CONTRACT.md
+shared/LOCK_AND_REWORK_PROTOCOL.md
 ```
 
-The repository contains only the production Skill: project-independent methods, professional roles, templates, states, handoff rules, and quality criteria.
+## Social Editorial profile
 
-## Core distinctions
+The profile retains the professional distinction among:
 
-- A Creative Treatment defines the project; a Creative Script defines how it communicates.
-- An Internal Semantic Proposition states what a page means and remains backstage.
-- A Frame Script states what the audience will visibly encounter and is shown to the ECD before visual design.
-- Written Visual Requirements preserve semantic conditions for downstream visual work and normally remain backstage.
-- A Storyboard / Visual Sequence Board is the first actual visual staging created by Art Director.
-- A visual concept route establishes the governing visual system; an Anchor Keyframe proves it.
-- A Representative Design Comp proves typography, hierarchy, geometry, and mobile behavior.
-- Production realizes accepted direction; it does not silently redesign it.
+- Creative Treatment — what the project is and why it matters;
+- Creative Script — how it communicates;
+- Internal Semantic Proposition — what a page means;
+- Frame Script — what the audience will visibly encounter;
+- Written Visual Requirements — what visual interpretation must preserve;
+- Storyboard — the first actual visual staging;
+- Anchor Keyframe / Design Comp — representative proof;
+- Art Direction Package — the authoritative visual production system;
+- Final Assets — faithful production outputs.
 
-## ECD-facing simplicity
-
-Internal artifacts may be detailed. Decision presentations must be professionally synthesized.
-
-Before Script Alignment, the ECD-facing Creative Script normally shows:
-
-```text
-Overall Narrative
-→ for each page: What it says + Frame Script + Page Copy
-→ Complete Body Copy
-→ Alignment Scope and Deferred Visual Scope
-→ Decision Request
-```
-
-The ECD is not required to interpret internal workflow labels, scoring worksheets, input IDs, or editorial bookkeeping in order to judge the proposal.
-
-## Quality model
-
-Every stage must pass both a professional quality gate and an authority / presentation gate before downstream activation.
-
-The studio routes feedback to the earliest professional object where the defect becomes true, preserving unaffected work.
+Internal records may be detailed. ECD-facing proposals remain complete, concrete, and easy to judge without opening an archive or decoding workflow terminology.

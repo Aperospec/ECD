@@ -4,21 +4,27 @@
 
 The Art Direction Package converts accepted visual development into an executable system for Production Artist.
 
+It is a formal Art Director output. It requires Art Director self-QA and independent Producer Review before any authoritative handoff.
+
 ## Input gate
 
 Require:
 
-- Creative Script Accepted for Handoff;
+- Greenlit Treatment;
+- ECD-aligned Creative Script;
+- accepted Frame Scripts and Written Visual Requirements;
+- exact copy;
 - selected Concept Route;
 - Stage-Scoped Input Register and Activated Visual inputs;
+- authoritative dependencies and Artifact Decision Contracts;
 - Reference Reading / Transfer and metaphor decisions when applicable;
 - resolved formal studies and Storyboard;
 - accepted Anchor Keyframes;
 - Representative Design Comp when required;
-- resolved material ECD Visual Alignment;
-- Deliverable Contract and target viewing conditions;
-- exact copy and evidence requirements;
-- Production inputs still Deferred.
+- required ECD Visual Alignment for governing visual decisions;
+- Deliverable Contract and viewing conditions;
+- Production inputs and capabilities still Deferred;
+- Creative Producer assignment and acceptance criteria.
 
 ## Package template
 
@@ -27,19 +33,29 @@ Require:
 
 ## Source and State
 Greenlit Treatment:
-Accepted Script:
+ECD-aligned Script:
 Deliverable Contract:
 Stage-Scoped Input Register:
 Activated Visual inputs:
-Deferred Production inputs:
+Deferred Production inputs and capabilities:
 Selected Concept Route:
 Storyboard:
 Anchor Keyframes:
 Representative Design Comp:
-ECD Visual Alignment:
+Visual authority records:
+Creative Producer assignment:
+
+## Artifact Decision Contract
+Authoritative upstream artifacts:
+Inherited decisions:
+Visual decisions introduced:
+Open Production decisions:
+Dependencies:
+Delta from prior Art Direction:
+Authority consequence:
 
 ## Visual Input Resolution
-| Input ID | Source / authority | Art-direction resolution | State | Alignment consequence |
+| Input ID | Source / authority | Art-direction resolution | State | Consequence |
 |---|---|---|---|---|
 
 ## Visual Direction
@@ -79,6 +95,8 @@ Opening-to-payoff relationship:
 
 ### Screen [number]
 Script beat:
+Frame Script:
+Written Visual Requirements:
 Activated Visual inputs served:
 Storyboard / Anchor / Comp reference:
 First glance:
@@ -104,8 +122,9 @@ Technical risks:
 Accepted fallbacks:
 Production inputs ready for activation:
 
-## QA
-Script fidelity:
+## Art Director Self-QA
+Script and Frame Script fidelity:
+Artifact delta:
 Visual Problem fidelity:
 Concept Route fidelity:
 Reference and metaphor fidelity:
@@ -114,28 +133,52 @@ Active-input resolution:
 Sequence progression:
 Mobile readiness:
 Production executability:
+Applicable feedback closure:
+Known limitations:
 
-## Handoff State
-Artifact state:
+## Specialist Return to Creative Producer
+Artifact / version:
+Self-QA result:
+Required ECD authority satisfied:
+Recommended Producer disposition:
 Open issue:
-Production activation condition:
 ```
 
 ## Boundary
 
-Art Direction determines how accepted meaning becomes visual. A change to premise, sequence, evidence, or copy returns upstream.
+Art Direction determines how accepted meaning becomes visual.
 
-Production Artist may adjust within recorded tolerances. A material change to the visual premise returns to Art Director.
+A change to Development decisions, Script, Frame Script content, evidence, or copy returns through Creative Producer to the earliest affected owner.
+
+Production Artist may adjust only within recorded tolerances.
+
+## Producer Review and handoff
+
+Art Director returns the package to Creative Producer.
+
+Creative Producer verifies:
+
+- authoritative upstream fidelity;
+- Artifact Decision Contract and visual delta;
+- required ECD visual authority;
+- representative proof;
+- production completeness and executability;
+- active-input and feedback closure;
+- absence of hidden redesign.
+
+Only a Producer Cleared package with required visual authority can become Handoff Ready and activate Production.
 
 ## Quality gate
 
-The package is ready when:
+Art Director self-QA passes when:
 
 - every active visual input has a resolution state;
 - accepted reference and metaphor logic is explicit;
-- the selected route, anchors, and Design Comp agree;
+- route, Storyboard, anchors, and Design Comp agree;
 - each screen has one clear visual task;
 - sequence progression is intentional;
 - typography supports exact copy;
 - assets, tolerances, fallbacks, and return conditions are actionable;
-- Production Artist can execute without inventing creative logic.
+- Artifact Decision Contract is current;
+- Production Artist can execute without inventing creative logic;
+- the next action is Specialist Return to Creative Producer.

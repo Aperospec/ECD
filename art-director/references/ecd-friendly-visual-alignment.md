@@ -2,26 +2,44 @@
 
 ## Purpose
 
-This protocol enables an ECD without specialist art vocabulary to make material visual decisions from clear evidence and understandable consequences.
+This protocol enables the ECD to make governing visual decisions from clear evidence and understandable consequences without specialist art vocabulary.
+
+Creative Producer controls release. Art Director supplies professional visual analysis, recommendation, and proof.
+
+## Preconditions
+
+Before presentation:
+
+- Art Director self-QA passed;
+- representative proof exists;
+- Artifact Decision Contract and visual delta are current;
+- Creative Producer independently reviewed the artifact;
+- Producer disposition is `Producer Cleared`;
+- the decision establishes or changes a governing visual decision requiring ECD authority;
+- broad Production remains inactive.
 
 ## Alignment standard
 
-Art Director presents a recommendation, not an unmanaged menu of options.
+A valid proposal contains:
 
-A valid alignment proposal contains:
+1. decision object and version;
+2. current visual problem;
+3. accepted Script condition the proof must satisfy;
+4. Art Director's reading of ECD intent;
+5. visible evidence;
+6. materially distinct alternatives when necessary;
+7. Art Director recommendation;
+8. Creative Producer recommendation;
+9. relevant visual delta;
+10. main tradeoff or misreading risk;
+11. representative proof;
+12. a small number of plain-language questions;
+13. what becomes locked and what remains open;
+14. consequence and Decision Request.
 
-1. the current visual problem;
-2. Art Director's reading of the ECD's intent;
-3. visible evidence supporting that reading;
-4. materially different alternatives when necessary;
-5. the recommendation and tradeoff;
-6. representative low-cost proof;
-7. a small number of plain-language decision questions;
-8. what becomes locked and what remains open.
+The presentation is not an unmanaged menu of options.
 
 ## Plain-language translation
-
-Translate specialist criteria into perceptible consequences.
 
 Prefer questions about:
 
@@ -30,32 +48,34 @@ Prefer questions about:
 - whether the system feels unified or fragmented;
 - whether people, environment, evidence, or typography lead;
 - whether the work feels active or still, dense or restrained, direct or interpretive;
-- which form of misreading would most damage the project.
+- which misreading would most damage the accepted project.
 
-The internal record may retain professional terminology after the ECD responds.
+Internal records may retain professional terminology after the ECD responds.
 
 ## Question design
 
 Each question should:
 
 - isolate one consequential axis;
-- include Art Director's recommended position;
-- explain what changes visibly;
-- avoid bundling several unrelated variables;
-- allow a free-form response;
+- include the professional recommendation;
+- explain visible consequences;
+- hold unrelated variables stable;
+- distinguish observation from inference;
+- allow free-form response;
 - require no prompt-writing or software knowledge.
 
 Ask no more than three to five questions at a time.
 
 ## Comparison design
 
-When visual comparison is needed:
+When comparison is needed:
 
-- vary the decision under review while holding unrelated variables stable;
-- label what each proof is intended to test;
-- use low-cost fidelity appropriate to the question;
-- avoid cosmetic variants that do not reveal a real tradeoff;
-- make source observations and Art Director interpretation distinguishable.
+- vary the decision under review;
+- hold unrelated variables stable;
+- label what each proof tests;
+- use the lowest sufficient fidelity;
+- avoid cosmetic variants without a real tradeoff;
+- make source observation, Art Director interpretation, and Producer review distinguishable.
 
 ## Alignment proposal template
 
@@ -63,22 +83,27 @@ When visual comparison is needed:
 # ECD Visual Alignment
 
 Decision object and version:
+Producer Review Record:
+Accepted Script condition:
 Visual problem:
 Current reading of ECD intent:
 Visible evidence:
 Material alternatives:
 Art Director recommendation:
+Creative Producer recommendation:
+Relevant visual delta:
 Main tradeoff / risk:
 Representative proof:
 Questions for ECD:
 What this decision will lock:
 What remains open:
-Next proof or stage after alignment:
+Consequence if approved:
+Decision requested:
 ```
 
 ## Response translation
 
-After the ECD responds, record:
+Creative Producer records:
 
 ```markdown
 ECD source response:
@@ -89,16 +114,37 @@ Accepted route or proof:
 Decision-level locks:
 Open variables:
 Affected artifacts:
-Next action:
+Resulting authority state:
+Next capabilities activated:
+Recorded by: Creative Producer
 ```
+
+Art Director may propose the translation. Creative Producer validates and records it.
+
+## Authority rule
+
+A new visual system requires ECD Visual Alignment before broad Production.
+
+A revision requires renewed alignment when its Artifact Decision Contract changes an ECD-approved governing visual decision.
+
+Routine internal studies do not require separate ECD decisions.
+
+## Turn boundary
+
+The release response ends at the decision request.
+
+No broad Production or downstream activation occurs in the same response.
 
 ## Quality gate
 
-Alignment passes when:
+Alignment presentation passes when:
 
-- the ECD can judge the visual consequence without specialist vocabulary;
-- the proposal shows actual evidence rather than adjectives alone;
-- Art Director's recommendation is explicit;
-- questions concern material subjective authority rather than routine craft;
-- the resulting professional translation is traceable to the ECD response;
-- the next stage is clear.
+- the underlying artifact is Producer Cleared;
+- the ECD can judge visual consequences without specialist vocabulary;
+- actual evidence is shown;
+- accepted Script conditions remain visible;
+- Art Director and Producer recommendations are explicit;
+- relevant delta and feedback closure are clear;
+- questions concern ECD authority rather than unresolved craft;
+- locks, open variables, and next consequence are exact;
+- the response stops at the gate.
