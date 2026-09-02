@@ -41,6 +41,7 @@ Creative Producer owns:
 - independent Producer Review of every formal specialist output;
 - authority fidelity and no-silent-mutation checks;
 - cross-artifact coherence and stage validity;
+- copy-aware composition and Type-Fit readiness checks for text-bearing visual work;
 - feedback diagnosis, Rework Briefs, and closure verification;
 - ECD-facing decision objects, recommendations, and release;
 - handoff authorization and sole stage-activation authority;
@@ -64,23 +65,23 @@ A specialist:
 
 ### Creative Producer
 
-Single accountable owner for project interpretation, control, review, feedback closure, decision release, and stage activation.
+Single accountable owner for project interpretation, control, review, copy-aware readiness, feedback closure, decision release, and stage activation.
 
 ### Editorial Director
 
-Owns Overall Communication Logic, content architecture, page / beat roles, Internal Semantic Propositions, Frame Scripts, Written Visual Requirements, on-screen copy, companion copy, language craft, Creative Script, and editorial self-QA.
+Owns Overall Communication Logic, content architecture, page / beat roles, Internal Semantic Propositions, Frame Scripts, Written Visual Requirements, exact on-screen copy, companion copy, language craft, Creative Script, and editorial self-QA.
 
 ### Art Director
 
-Owns visual problem framing, reference interpretation, visual metaphor, concept routes, formal studies, Storyboard, Anchor Keyframes, Representative Design Comp, color and sequence system, Art Direction Package, and visual self-QA.
+Owns visual problem framing, reference interpretation, visual metaphor, concept routes, formal studies, Storyboard, copy hierarchy, Copy-Aware Layout Maps, image–type relationships, protected visual content, Production-intent Anchor Keyframes, Representative Design Comp, representative Type-Fit, color and sequence system, Art Direction Package, and visual self-QA.
 
 ### Production Artist
 
-Owns image and asset realization, exact typography and layout, masking and compositing, crop and safe areas, variants, export, mobile QA, technical QA, and production completion records.
+Owns Copy-Aware Layout Map implementation, Production-intent image and asset realization, deterministic exact typography and layout, masking and compositing, final Type-Fit, crop and safe areas, variants, export, mobile QA, technical QA, and Production completion records.
 
 ## Backstage capabilities
 
-Research, Copy Desk methods, reference intelligence, validation, visual-analysis methods, Internal Semantic Propositions, Written Visual Requirements, decision contracts, scoring worksheets, and input-resolution records are backstage capabilities.
+Research, Copy Desk methods, reference intelligence, validation, visual-analysis methods, Internal Semantic Propositions, Written Visual Requirements, decision contracts, Copy-Aware Layout Maps, scoring worksheets, and input-resolution records are backstage capabilities.
 
 They are not additional user-facing roles.
 
@@ -90,10 +91,12 @@ They are not additional user-facing roles.
 |---|---|---|---|
 | Deliverable Contract / Project State | Creative Producer | create, maintain, review | material scope or external action |
 | Creative Treatment | Development coordinated by Creative Producer | independent review and release | Greenlight |
-| Creative Script, Frame Scripts, and copy | Editorial Director | independent review and release | every new Script; renewed when approved decisions change |
-| Internal visual studies | Art Director | review before formal use | none unless decision-bearing |
-| New visual direction / representative proof | Art Director | independent review and recommendation | Visual Alignment |
-| Art Direction Package | Art Director | verify prior authority and clear handoff | renewed only for unapproved governing visual delta |
+| Creative Script, Frame Scripts, and exact copy | Editorial Director | independent review and release | every new Script; renewed when approved decisions change |
+| Exploratory visual studies | Art Director | review before formal use; prevent silent promotion | none unless decision-bearing |
+| Copy-Aware Layout Map | Art Director | verify exact-copy geometry and Production readiness | Visual Alignment when it establishes or changes a governing visual decision |
+| New visual direction / Production-intent representative proof | Art Director | independent review and recommendation | Visual Alignment |
+| Art Direction Package | Art Director | verify authority, Layout Map coverage, Type-Fit, and clear handoff | renewed only for unapproved governing visual delta |
+| Production-intent assets and final composition | Production Artist | verify map compliance, exact copy, and final Type-Fit | governed by accepted visual authority unless a decision changes |
 | Final Assets | Production Artist | Final Review and release | Final Acceptance |
 | Locks, handoffs, activation, feedback closure | Creative Producer | sole internal authority | records ECD decisions; cannot invent them |
 
@@ -111,11 +114,15 @@ Specialist Self-QA
 → Creative Producer activates next stage
 ```
 
+For text-bearing Production-intent imagery, Producer clearance additionally requires a valid Copy-Aware Layout Map and representative or final Type-Fit evidence appropriate to the stage.
+
 ## Professional ownership rule
 
 A downstream role may interpret an accepted upstream object within its craft. It may not silently change or remove an inherited authoritative decision.
 
 A required upstream change returns through Creative Producer to the earliest affected professional owner.
+
+Production convenience is not authority to change exact copy, hierarchy, protected visual content, or the accepted image–type relationship.
 
 ## Single-entry rule
 

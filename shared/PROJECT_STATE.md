@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Project State is Creative Producer's authoritative record of current phase, active capabilities, valid artifacts, quality state, authority state, Producer Review, feedback closure, locks, open issues, and next valid action.
+Project State is Creative Producer's authoritative record of current phase, active capabilities, valid artifacts, quality state, authority state, Producer Review, feedback closure, copy-aware readiness, locks, open issues, and next valid action.
 
 ## State template
 
@@ -55,11 +55,29 @@ Conflicts:
 | Visual Metaphor Map | | | | | | | |
 | Concept Route | | | | | | | |
 | Storyboard / Visual Sequence Board | | | | | | | |
+| Copy-Aware Layout Maps | | Art Director | | | | | |
 | Anchor Keyframes | | | | | | | |
 | Representative Design Comp | | | | | | | |
+| Representative Type-Fit Proof | | Art Director | | | | | |
 | Art Direction Package | | | | | | | |
+| Production-intent Image Assets | | Production Artist | | | | | |
+| Final Type-Fit Proof | | Production Artist | | | | | |
 | Final Assets | | | | | | | |
 | Acceptance Record | | | | | | | |
+
+## Copy-aware composition state
+Exact-copy source and version:
+Target geometry:
+Required page classes / screens:
+Layout Map coverage:
+Exploratory image assets:
+Production-intent image assets:
+Representative Type-Fit state:
+Final Type-Fit state:
+Minimum readable thresholds:
+Open copy–image conflict:
+Earliest affected owner:
+Production activation blocker:
 
 ## Current Producer Review
 Artifact / version:
@@ -73,6 +91,7 @@ Cross-artifact coherence:
 Professional sufficiency:
 Feedback closure:
 Decision readiness:
+Copy-aware production readiness:
 Producer disposition:
 Producer recommendation:
 Required rework:
@@ -99,6 +118,7 @@ Resulting stage activation:
 - Development:
 - Editorial / copy:
 - Visual:
+- Copy-aware composition:
 - Production:
 
 ## Open issues
@@ -129,6 +149,7 @@ Compact work may use a shorter record containing:
 - quality and authority state;
 - Producer Review status and recommendation;
 - active and Deferred inputs;
+- exact-copy source and Layout Map / Type-Fit state when applicable;
 - open feedback and issues;
 - current locks;
 - pending ECD gate;
@@ -171,24 +192,46 @@ Requires explicit ECD alignment of the new Creative Script, recorded by Creative
 
 A revision may retain prior authority only when Creative Producer verifies that its delta does not change an ECD-approved decision.
 
-### Visual Development to Art Direction / Production readiness
+### Visual Development to visual proof readiness
 
 Requires:
 
 - Art Director self-QA;
+- exact copy and target geometry;
+- valid Copy-Aware Layout Maps for all Production-intent proof screens;
+- explicit exploratory / Production-intent image classification;
+- representative Anchor / Design Comp as needed;
+- representative Type-Fit evidence;
+- Producer Review.
+
+### Visual Development to Production readiness
+
+Requires:
+
 - Producer Cleared visual direction and representative proof;
 - required ECD visual authority for new or changed governing visual decisions;
 - Producer Cleared Art Direction Package;
-- no blocking visual feedback;
+- valid Layout Map coverage for every Production-intent screen or applicable page class;
+- representative Type-Fit pass;
+- no blocking visual or copy–image feedback;
 - explicit Production activation by Creative Producer.
 
 ### Production to Final Review
 
-Requires all requested assets and variants, Production self-QA, exact-copy checks, mobile QA, technical QA, current dependencies, and return to Creative Producer.
+Requires:
+
+- all requested assets and variants;
+- Production self-QA;
+- traceable Production-intent image compliance;
+- exact-copy checks;
+- final Type-Fit Proof at target conditions;
+- mobile QA and technical QA;
+- current dependencies;
+- return to Creative Producer.
 
 ### Final Review to Awaiting Final Acceptance
 
-Requires Producer Cleared final package, complete feedback closure, complete ECD-facing final presentation, and Producer recommendation.
+Requires Producer Cleared final package, complete feedback closure, valid Layout Map and Type-Fit evidence, complete ECD-facing final presentation, and Producer recommendation.
 
 ### Awaiting Final Acceptance to Accepted
 
@@ -206,6 +249,9 @@ Reject or repair state when:
 - a Producer Review disposition is missing;
 - applicable ECD feedback lacks closure state;
 - an ECD decision lacks a complete presentation or recommendation;
-- broad production is active before required visual authority;
+- a Production-intent image lacks Layout Map coverage;
+- an Exploratory image is treated as final-use without reclassification and proof;
+- exact-copy Type-Fit evidence is missing;
+- broad Production is active before required visual authority and copy-aware readiness;
 - a rework request is assigned to the latest role rather than the earliest failed object;
 - anyone other than Creative Producer activates the next stage.

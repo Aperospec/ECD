@@ -2,237 +2,153 @@
 
 ## Purpose
 
-This matrix is the single runtime authority for which professional capabilities, decisions, artifacts, and tool actions are active at each stage.
+This matrix is the runtime authority for active professional capabilities, decisions, artifacts, and stage transitions. Other stage descriptions must conform to it.
 
-Stage descriptions elsewhere must conform to this matrix.
-
-## Global runtime rules
+## Global rules
 
 1. Creative Producer alone activates a stage.
-2. A specialist may work only from authoritative upstream artifacts and Activated inputs.
-3. A pending ECD decision keeps all downstream capabilities inactive.
-4. A formal specialist output returns to Creative Producer before any release or handoff.
+2. Specialists work only from authoritative artifacts and Activated inputs.
+3. A pending ECD decision keeps downstream capabilities inactive.
+4. Every formal specialist output returns to Creative Producer before release or handoff.
 5. A response presenting an ECD decision object ends at the decision request.
-6. Work created outside the active stage is `Unauthorized / Invalid` until the missing authority sequence is restored.
-7. Complexity may compress artifact depth, but not authority, fidelity, Producer Review, or stage boundaries.
+6. Work created outside the valid sequence is `Unauthorized / Invalid`.
+7. Complexity may reduce record depth, not authority, fidelity, Producer Review, or stage boundaries.
+8. Exact ECD-aligned copy must shape composition before any image intended for direct final use is generated, selected, cropped, extended, or committed.
+9. Exploratory visual studies may not be silently promoted to final-page assets.
+10. Required audience text remains separate, editable, and deterministic by default.
 
 ## Initialization
 
-**Active owner:** Creative Producer
+**Owner:** Creative Producer
 
-**Allowed**
+**Allowed:** inspect inputs and existing work; establish intended use, Deliverable Contract, Stage-Scoped Input Register, risk profile, evidence obligation, Project State, active stage, assignment, and acceptance criteria.
 
-- inspect the brief, source, assets, references, feedback, and existing artifacts;
-- determine intended use and valid entry point;
-- establish Deliverable Contract, Stage-Scoped Input Register, risk / complexity profile, evidence obligation, and Project State;
-- identify consequential unknowns and the shortest valid route.
+**Forbidden:** treating a general request as approval of unseen downstream artifacts; activating several craft stages together.
 
-**Forbidden**
-
-- treating a general request to create or design as approval of an unseen Treatment, Script, visual direction, or final asset;
-- activating multiple craft stages at once.
-
-**Exit condition**
-
-A valid route, active stage, assignment, and acceptance criteria are recorded.
+**Exit:** valid route, assignment, and active / Deferred capabilities.
 
 ## Development
 
-**Authoritative inputs**
+**Authoritative inputs:** brief; Global / Development projections; source, evidence, rights, and Development reference context.
 
-- brief and Global / Development projections;
-- valid source, research, reference-intent, rights, and evidence context;
-- any authoritative Development artifact being revised.
+**Owned decisions:** premise, angle, proposition, governing logic or relationship, audience consequence, and factual / speculative / rights / claim / semantic boundaries.
 
-**Owned decisions**
+**Allowed:** diagnosis, research, verification, Development reference analysis, Creative Treatment, Producer Review, and Greenlight presentation.
 
-- premise;
-- selected angle;
-- core proposition;
-- governing logic or relationship;
-- intended audience consequence;
-- factual, speculative, rights, claim, and semantic boundaries.
+**Forbidden:** formal Script, final copy deck, Storyboard, visual production, layout, or export.
 
-**Allowed artifacts and actions**
-
-- premise diagnosis;
-- proportionate research, verification, and validation;
-- Development-level reference analysis;
-- Creative Treatment and supporting records;
-- Producer Review and ECD Greenlight presentation.
-
-**Forbidden**
-
-- formal Editorial Architecture or Creative Script;
-- final audience copy deck;
-- Storyboard or visual staging;
-- visual concept production, image generation, layout, or export.
-
-**Exit condition**
+**Exit:**
 
 ```text
 Development self-QA
 + Producer Cleared Treatment
 + explicit ECD Greenlight
-→ Creative Producer activates Editorial inputs
+→ Creative Producer activates Editorial
 ```
 
 ## Editorial and Copy
 
-**Authoritative inputs**
+**Authoritative inputs:** Greenlit Treatment, Accepted Development Decisions, Activated Editorial inputs, Deliverable Contract, and target language.
 
-- Greenlit Treatment;
-- Accepted Development Decisions and locks;
-- Activated Editorial inputs;
-- Deliverable Contract and target language / locale.
+**Owned decisions:** communication logic, sequence, page roles, Internal Semantic Propositions, Frame Scripts, Written Visual Requirements, exact on-screen / companion copy, evidence, and limitation placement.
 
-**Owned decisions**
+**Allowed:** Editorial Architecture, Creative Script, copy craft and QA, Producer Review, and Script Alignment presentation.
 
-- communication logic and content mode;
-- sequence, page / beat roles, and transitions;
-- Internal Semantic Propositions;
-- Frame Scripts;
-- Written Visual Requirements;
-- on-screen and companion copy;
-- evidence and limitation placement.
+**Forbidden:** final visual composition, Storyboard panels, image production, typography system, grid, layout, or silent change to Development decisions.
 
-**Allowed artifacts and actions**
-
-- Editorial Architecture;
-- Creative Script Package;
-- copy development and language QA;
-- Producer Review and ECD-facing Creative Script presentation.
-
-**Forbidden**
-
-- final composition, camera, crop, palette, lighting, rendering style, typography system, grid, or layout;
-- Storyboard panels;
-- image-generation prompts or visual production;
-- silent change to Greenlit Development decisions.
-
-**Exit condition for a new Creative Script**
+**Exit for a new Script:**
 
 ```text
 Editorial self-QA
 + Producer Cleared Script
 + explicit ECD Script Alignment
-→ Creative Producer activates Visual inputs
+→ Creative Producer activates Visual
 ```
 
-A revision of an ECD-aligned Script requires renewed alignment when its Artifact Decision Contract changes an ECD-approved decision. Purely non-decision technical correction may retain authority when Creative Producer verifies the delta and tolerance.
+A revision needs renewed alignment when its Decision Contract changes an ECD-approved decision.
 
 ## Visual Development and Art Direction
 
-**Authoritative inputs**
+**Authoritative inputs:** ECD-aligned Script, accepted Frame Scripts and Written Visual Requirements, exact copy, Greenlit Treatment, Activated Visual inputs, references, rights, and viewing conditions.
 
-- ECD-aligned Creative Script;
-- accepted Frame Scripts, Written Visual Requirements, and exact copy;
-- Greenlit Treatment;
-- Activated Visual inputs and reference boundaries;
-- target viewing conditions.
+**Owned decisions:** visual problem and thesis; reference transfer; metaphor and route; composition, camera, crop, space, scale, value, color, light, material, typography, grid, and sequence; copy hierarchy; Copy-Aware Layout Maps; image–type relationship; protected / quiet / overlap zones; Storyboard, Anchors, Design Comp, Type-Fit proof, and Art Direction Package.
 
-**Owned decisions**
+**Allowed:** visual analysis; boards, routes, studies, Storyboard; Layout Maps using exact copy at target geometry; clearly marked exploratory studies; Production-intent representative proofs governed by Layout Maps; Anchors, Design Comp, Type-Fit proof, Producer Review, and visual decision presentation.
 
-- visual problem and governing visual thesis;
-- reference interpretation and controlled transfer;
-- metaphor, world logic, viewer relationship, and concept route;
-- composition, camera, crop, space, scale, value, color, light, material, typography, grid, and sequence behavior;
-- Storyboard, Anchor Keyframes, Representative Design Comp, and Art Direction Package.
+**Forbidden:** rewriting accepted meaning or copy; replacing Frame Script content for convenience; treating generic blank space as copy geometry; committing Production-intent imagery before a valid Layout Map; promoting exploratory studies without the copy-aware gate; relying on image rendering for exact required text; broad final production before required authority.
 
-**Allowed artifacts and actions**
+**Copy-aware gate:**
 
-- visual analysis and intent elicitation;
-- boards, concept routes, formal studies, and Storyboard;
-- representative low-cost proofs;
-- Anchor Keyframes and Design Comp;
-- Producer Review and ECD visual decision presentation.
+```text
+exact copy
++ target geometry
++ provisional line behavior
++ Copy-Aware Layout Map
++ image-class declaration
+→ Production-intent image work may begin
+```
 
-**Forbidden**
+The map defines copy footprint, minimum readable scale, image–type relationship, protected content, quiet / overlap / occlusion zones, local contrast, crop latitude, and asset consequences.
 
-- rewriting accepted page meaning or copy;
-- replacing Frame Script content for production convenience;
-- broad final production before the governing visual direction and representative proof have the required authority.
+A new or changed governing visual system requires ECD Visual Alignment from representative proof. When copy and imagery are interdependent, the proof includes exact copy in a Design Comp.
 
-**Authority condition**
-
-A new visual system, or a revision that changes an ECD-approved governing visual decision, requires ECD Visual Alignment from actual representative proof.
-
-Routine studies may remain internal. An Art Direction Package may proceed without another ECD gate only when it introduces no unapproved governing visual delta and passes Producer Review.
-
-**Exit condition**
+**Exit:**
 
 ```text
 Art Director self-QA
 + Producer Cleared Art Direction
-+ required ECD visual authority satisfied
-→ Creative Producer activates Production inputs
++ valid Layout Map coverage
++ representative Type-Fit proof
++ required ECD visual authority
+→ Creative Producer activates Production
 ```
 
 ## Production
 
-**Authoritative inputs**
+**Authoritative inputs:** ECD-aligned Script and exact copy; Producer Cleared Art Direction; Layout Maps and Type-Fit criteria; representative proof; required visual authority; Activated Production inputs; assets, rights, specifications, locks, and tolerances.
 
-- ECD-aligned Script and exact copy;
-- Producer Cleared Art Direction Package;
-- required ECD visual authority;
-- Activated Production inputs;
-- assets, rights, specifications, locks, tolerances, and fallbacks.
+**Owned decisions:** faithful realization; map-to-asset constraints; implementation geometry; asset processing and compositing; deterministic typography; Type-Fit verification; variants, export, and technical QA.
 
-**Owned decisions**
+**Allowed:** verify maps and image classes; realize Production-intent assets under map constraints; deterministic typography and layout; Type-Fit proof at target geometry and viewing width; variants, QA, completion package, and Producer Final Review.
 
-- faithful realization within accepted tolerances;
-- exact composition parameters;
-- asset processing, masking, cleanup, and compositing;
-- typography implementation;
-- variants, export, and technical QA.
+**Forbidden:** direct-use imagery without Layout Map coverage; silent promotion of exploratory imagery; changes to accepted premise, Script, exact copy, evidence, visual thesis, hierarchy, or references; generated rendering as exact required text; unreadable text reduction or emergency repair outside accepted Art Direction.
 
-**Allowed artifacts and actions**
+**Type-Fit gate:**
 
-- image and asset realization;
-- deterministic typography and layout;
-- surface adaptation and variants;
-- mobile and technical QA;
-- production completion package;
-- Producer Final Review.
+```text
+Production-intent image
++ deterministic exact copy
++ target geometry
+→ Type-Fit Proof
+```
 
-**Forbidden**
+Failure returns to the earliest affected object: copy, hierarchy, Layout Map, image asset, typography implementation, or Deliverable Contract.
 
-- changing accepted premise, Script, copy, evidence, visual thesis, hierarchy, or reference boundaries;
-- treating technical convenience as creative authority.
-
-**Exit condition**
+**Exit:**
 
 ```text
 Production self-QA
++ Layout Map and image-class fidelity
++ exact-copy Type-Fit pass
 + Producer Cleared final package
-→ complete ECD Final Acceptance object
+→ ECD Final Acceptance object
 → explicit ECD Final Acceptance
 ```
 
-## Final Review and Acceptance
+## Final Review
 
-**Active owner:** Creative Producer
+**Owner:** Creative Producer
 
-**Allowed**
+**Allowed:** compare final work with authoritative artifacts, Layout Maps, representative proofs, locks, and feedback; verify image provenance and Type-Fit; disclose deviations and limitations; recommend and request Final Acceptance.
 
-- verify deliverable completeness and feedback closure;
-- compare final work with all authoritative artifacts and locks;
-- disclose authorized deviations and known limitations;
-- present final assets and Producer recommendation;
-- request Final Acceptance.
+**Forbidden:** hiding defects; releasing work without the copy-aware gate or Type-Fit evidence; assigning ECD acceptance internally.
 
-**Forbidden**
+## Violation recovery
 
-- concealing known defects;
-- assigning Final Acceptance on the ECD's behalf;
-- treating technical completion as publication authority.
-
-## Stage violation response
-
-When stage leakage occurs:
+When stage leakage or copy-blind image production occurs:
 
 1. stop downstream work;
-2. mark the unauthorized artifact non-authoritative;
-3. identify the missing authority or earliest affected object;
-4. recover only material that does not bias the correct owner;
-5. restore Specialist QA, Producer Review, ECD authority, and activation in the valid order.
+2. mark the affected artifact non-authoritative;
+3. identify the missing authority, Layout Map, or earliest failed object;
+4. preserve only unbiased reusable material;
+5. restore exact-copy preflight, Specialist QA, Producer Review, ECD authority, and activation in valid order.

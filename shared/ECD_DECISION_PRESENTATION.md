@@ -48,7 +48,7 @@ Completeness means professional synthesis, not a raw dump of internal IDs, works
 
 A response that releases a decision object ends at the decision request.
 
-Creative Producer may not execute the next stage, call downstream production capabilities, or present the decision as already accepted in the same response.
+Creative Producer may not execute the next stage, call downstream Production capabilities, or present the decision as already accepted in the same response.
 
 ## Frontstage / Backstage Principle
 
@@ -58,7 +58,7 @@ Backstage fields remain backstage unless they create a decision, delta, risk, or
 
 The ECD-facing object should expose the complete creative proposal and the consequence of accepting it, not the studio's internal bookkeeping.
 
-## Gate-Specific Minimums
+## Gate-specific minimums
 
 ### Creative Treatment / Greenlight
 
@@ -129,6 +129,21 @@ When a new or changed governing visual decision requires ECD authority, present 
 
 When the decision depends on visual relationships, prose alone is insufficient.
 
+When the work combines required copy with imagery and the image–type relationship is decision-bearing, the representative proof must also show:
+
+- exact ECD-aligned copy in target geometry;
+- the Copy-Aware Layout Map or a plain-language rendering of its consequential decisions;
+- provisional or intended line behavior;
+- copy footprint and minimum readable scale;
+- protected subject, action, interface, or evidence zones;
+- intended quiet, overlap, occlusion, and layer-order behavior;
+- representative Type-Fit and mobile-width result;
+- whether the image is Exploratory or Production-intent.
+
+An isolated attractive image is not a complete visual decision object when final copy fit has not been demonstrated.
+
+Apply `../art-director/references/copy-aware-composition.md`.
+
 ### Final Assets / Final Acceptance
 
 Present final assets or directly accessible previews together with:
@@ -138,7 +153,10 @@ Present final assets or directly accessible previews together with:
 - Producer Final Review result and recommendation;
 - applicable feedback closure;
 - material implementation delta or authorized deviations;
-- mobile and technical QA;
+- Copy-Aware Layout Map coverage;
+- Production-intent image provenance and compliance;
+- exact-copy Type-Fit and mobile evidence;
+- technical QA;
 - known limitations;
 - publication state;
 - exact Final Acceptance request.
@@ -155,6 +173,7 @@ Review result: Producer Cleared
 Producer recommendation:
 Relevant delta:
 Previous ECD feedback:
+Copy-aware / Type-Fit state, when applicable:
 Known limitation or unresolved tradeoff:
 Decision requested:
 Consequence if approved:
@@ -175,6 +194,7 @@ Archive reference:
 Material decisions presented:
 Relevant delta:
 Prior feedback closure:
+Copy-aware proof reference, when applicable:
 Items outside this decision:
 Decision requested:
 ECD response / evidence:
@@ -182,19 +202,19 @@ Resulting authority state:
 Resulting stage activation:
 ```
 
-## Failure Recovery
+## Failure recovery
 
-When a decision was requested from an object that was incomplete, overly abstract, internally cluttered, professionally weak, or not Producer Cleared:
+When a decision was requested from an object that was incomplete, overly abstract, internally cluttered, professionally weak, copy-blind, or not Producer Cleared:
 
 1. withdraw the request;
 2. keep downstream capabilities inactive;
-3. identify the missing content, proof, authority, or review;
+3. identify the missing content, proof, Layout Map, Type-Fit, authority, or review;
 4. return the earliest failed professional object for correction;
 5. rerun specialist self-QA and Producer Review;
 6. synthesize a new ECD-facing presentation version;
 7. request the decision again.
 
-## Quality Gate
+## Quality gate
 
 A decision presentation passes when:
 
@@ -203,5 +223,6 @@ A decision presentation passes when:
 - the Producer recommendation is explicit;
 - relevant delta and feedback status are clear;
 - approval scope, exclusions, and consequence are exact;
+- consequential image–type decisions are shown with exact copy and representative fit;
 - the ECD can respond without performing studio QA;
 - the response ends at the requested decision.

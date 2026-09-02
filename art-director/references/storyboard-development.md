@@ -4,7 +4,7 @@
 
 The Storyboard / Visual Sequence Board is Art Director's low-cost visual staging of an ECD-aligned Creative Script inside the selected concept route.
 
-It is the first actual visual artifact. It converts accepted Frame Scripts into visible arrangements while preserving Written Visual Requirements.
+It is the first actual visual artifact. It converts accepted Frame Scripts into visible arrangements while preserving Written Visual Requirements and preparing copy-aware composition.
 
 Formal Boards return to Creative Producer for review.
 
@@ -15,24 +15,26 @@ Require:
 - ECD-aligned Creative Script;
 - accepted Frame Script for every page;
 - Written Visual Requirements and semantic locks;
+- exact copy and permitted compression;
 - selected or sufficiently narrowed Concept Route;
 - Visual Problem Statement;
 - Activated Visual inputs;
 - reference and metaphor decisions;
 - relevant formal studies;
-- exact copy and evidence constraints;
+- evidence constraints;
 - target geometry;
 - authoritative dependencies and Artifact Decision Contracts;
 - Creative Producer assignment.
 
-If a page has only abstract meaning and no concrete Frame Script, return it through Creative Producer rather than inventing content inside the Board.
+If a page has only abstract meaning, lacks exact copy, or has no concrete Frame Script, return it through Creative Producer rather than inventing content inside the Board.
 
 ## Fidelity
 
 Every panel maps to an accepted Frame Script and verifies:
 
 1. proposed subjects, events, states, evidence, transformations, or relationships are actually staged;
-2. Written Visual Requirements survive the staging.
+2. Written Visual Requirements survive the staging;
+3. exact copy has a plausible hierarchy and spatial relationship to the staged content.
 
 The Board preserves:
 
@@ -55,8 +57,10 @@ Use the lowest fidelity that answers the current question:
 - grayscale composition;
 - value or spatial study;
 - collage or mockup;
-- type–image study;
+- type–image study using exact or metric-faithful copy;
 - low-fidelity generated visual with explicit status.
+
+A placeholder text block may be used for early composition only when it is metrically faithful to the exact copy. Before Production-intent imagery, the actual copy must be tested.
 
 ## Panel record
 
@@ -64,6 +68,7 @@ Use the lowest fidelity that answers the current question:
 ### Panel [number]
 Accepted Frame Script:
 Written Visual Requirements:
+Exact copy reference:
 Primary visual task:
 Required first perception:
 Subjects / evidence / information objects:
@@ -72,10 +77,29 @@ Center of gravity and reading path:
 Scale / depth / spatial relation:
 Connection to selected route:
 Relationship to adjacent panels:
-Copy relationship:
+Copy hierarchy:
+Provisional line behavior:
+Provisional copy footprint:
+Primary image–type relationship:
+Protected visual zones:
+Quiet / overlap / occlusion zones:
 Open visual question:
+Copy-Aware Layout Map required:
 Representative Anchor or Design Comp required:
 ```
+
+## Copy-aware staging
+
+The Board should identify where exact copy materially affects composition.
+
+For every screen expected to use Production-intent imagery, either:
+
+- the panel itself contains a sufficient Copy-Aware Layout Map; or
+- the panel explicitly requires a separate map before image generation, selection, crop, or commitment.
+
+The Board may establish provisional copy geometry. Final Production implementation remains with Production Artist, but image assets must not be developed without knowing the copy footprint and protected content.
+
+Apply `copy-aware-composition.md`.
 
 ## Sequence tests
 
@@ -87,30 +111,33 @@ Review:
 - opening promise and payoff;
 - shared world / process / object / system / evidence continuity when relevant;
 - subject–environment hierarchy;
+- copy hierarchy and screen-to-screen text-density rhythm;
 - evidence visibility;
 - scale, depth, absence, accumulation, or transformation;
 - composition, value, and energy rhythm;
 - target-format plausibility;
 - reference and metaphor boundaries;
-- frames requiring representative proof.
+- frames requiring Copy-Aware Layout Maps and representative proof.
 
 ## Artifact Decision Contract
 
 Record Board-level visual decisions, inherited decisions, open variables, relevant delta, dependencies, and authority consequence.
 
-A Board may change how accepted content is staged. It may not change what the page means or contains without reopening the upstream object.
+A Board may change how accepted content is staged. It may not change what the page means, contains, or says without reopening the upstream object.
 
 ## Relationship to other objects
 
 - Internal Semantic Proposition defines page meaning.
 - Frame Script defines proposed visible content.
 - Written Visual Requirements define semantic acceptance conditions.
+- Exact copy defines authoritative audience language.
 - Visual Problem and Concept Route define governing visual logic.
-- Storyboard stages the full sequence.
+- Storyboard stages the full sequence and identifies copy-aware spatial needs.
+- Copy-Aware Layout Map converts exact copy into image and layout constraints.
 - Anchor Keyframes prove image-world language.
-- Design Comp proves page design with real copy and geometry.
+- Design Comp proves page design with exact copy and target geometry.
 
-A rough Board is not proof of final hierarchy or readability.
+A rough Board is not proof of final hierarchy, copy fit, or readability.
 
 ## Specialist return
 
@@ -119,7 +146,8 @@ Return to Creative Producer:
 - Board and version;
 - visual self-QA;
 - Artifact Decision Contract;
-- Frame Script and requirement fidelity;
+- Frame Script, requirement, and exact-copy fidelity;
+- panels requiring Copy-Aware Layout Maps;
 - high-risk frames and proof plan;
 - known limitations;
 - applicable feedback closure;
@@ -128,7 +156,7 @@ Return to Creative Producer:
 
 ## Producer Review and ECD alignment
 
-Creative Producer verifies Board completeness, fidelity, sequence coherence, proof sufficiency, delta, and feedback closure.
+Creative Producer verifies Board completeness, fidelity, sequence coherence, copy-aware staging, proof sufficiency, delta, and feedback closure.
 
 When the Board establishes or changes a governing visual decision, it is released for ECD Visual Alignment only after Producer clearance.
 
@@ -139,6 +167,8 @@ Art Director self-QA passes when:
 - every accepted Frame Script is represented;
 - every panel stages its visible content event or information relationship;
 - Written Visual Requirements remain traceable;
+- exact copy has a plausible hierarchy and spatial consequence;
+- Production-intent screens have or explicitly require a Layout Map before image generation;
 - adjacent panels differ for a meaningful reason;
 - the selected route remains coherent;
 - active visual inputs and references remain within scope;

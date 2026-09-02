@@ -39,7 +39,7 @@ Before activating specialist work, Creative Producer creates a clear assignment 
 - authoritative upstream artifacts and versions;
 - inherited decisions and active locks;
 - Activated inputs and their original authority;
-- Deferred inputs that remain inactive;
+- Deferred inputs and capabilities that remain inactive;
 - requested artifact;
 - professional decisions owned by the specialist;
 - decisions outside the specialist's authority;
@@ -47,7 +47,15 @@ Before activating specialist work, Creative Producer creates a clear assignment 
 - evidence, rights, reference, asset, language, and technical conditions;
 - expected return path and ECD gate.
 
-The assignment must be sufficient for the specialist to work without inventing upstream decisions.
+For visual and Production assignments involving required copy, also include:
+
+- exact ECD-aligned copy and permitted compression;
+- target geometry and viewing conditions;
+- required Copy-Aware Layout Map coverage;
+- exploratory / Production-intent image-class rules;
+- representative or final Type-Fit acceptance criteria.
+
+The assignment must be sufficient for the specialist to work without inventing upstream decisions or solving copy geometry after the image is already committed.
 
 ## Specialist return
 
@@ -62,6 +70,13 @@ Require:
 - dependencies and known limitations;
 - unresolved conflict or authority request;
 - recommended Producer disposition.
+
+For visual and Production returns, also require when applicable:
+
+- Copy-Aware Layout Maps;
+- exact-copy fidelity;
+- image-class status and Production-intent asset compliance;
+- representative or final Type-Fit evidence.
 
 ## Producer Review Gate
 
@@ -98,12 +113,12 @@ Confirm:
 - the requested object exists in full;
 - all Active inputs are resolved or explicitly open;
 - required evidence, copy, scenes, proof, variants, or QA are present;
-- the decision-relevant content is not hidden in an archive;
+- decision-relevant content is not hidden in an archive;
 - the artifact is not a formal shell with missing substance.
 
 ### Cross-artifact coherence
 
-Compare the artifact with its authoritative dependencies. Treatment, Script, Frame Scripts, copy, visual direction, evidence, rights, and production conditions must remain mutually coherent.
+Compare the artifact with its authoritative dependencies. Treatment, Script, Frame Scripts, exact copy, visual direction, evidence, rights, and Production conditions must remain mutually coherent.
 
 ### Professional sufficiency
 
@@ -117,7 +132,7 @@ Do not release work with known basic defects such as:
 - representative proof that does not answer the visual question;
 - unreadable design;
 - missing assets, variants, or QA;
-- execution that fails the accepted direction.
+- execution that fails accepted direction.
 
 Return these internally with a focused Rework Brief.
 
@@ -138,11 +153,29 @@ Confirm the ECD-facing object includes:
 - consequence and next stage;
 - one explicit decision request.
 
+### Copy-aware production readiness
+
+For text-bearing visual and Production work, confirm:
+
+- exact authoritative copy was used rather than generic placeholder wording;
+- copy hierarchy and provisional line behavior were tested at target geometry;
+- each Production-intent screen or valid page class has a Copy-Aware Layout Map;
+- the map defines copy footprint, minimum readable scale, image–type relationship, protected visual content, quiet / overlap / occlusion zones, local contrast, crop latitude, and asset consequences;
+- image-generation, selection, editing, extension, and masking instructions inherit the map;
+- exploratory imagery was not silently promoted into final-page use;
+- required audience text remains separate, editable, and deterministic by default;
+- representative or final Type-Fit passes at actual target width;
+- fit was not concealed by unauthorized copy changes, unreadable text reduction, hierarchy collapse, obstruction of essential content, or emergency opaque boxes.
+
+An artifact that fails this check is not Producer Cleared.
+
+Apply `../art-director/references/copy-aware-composition.md`.
+
 ## Review dispositions
 
 ### Returned for Rework
 
-Use when the artifact has a correctable professional, fidelity, completeness, stage, or feedback defect.
+Use when the artifact has a correctable professional, fidelity, completeness, stage, feedback, copy-aware, or Type-Fit defect.
 
 Record the earliest failed object, preserve valid work, issue a Rework Brief, and keep downstream capabilities inactive.
 
@@ -183,7 +216,7 @@ After Greenlight, Creative Producer:
 - activates Editorial inputs only;
 - transfers the Greenlit Treatment, Accepted Development Decisions, locks, source authority, and assignment;
 - receives the full Creative Script Package after Editorial self-QA;
-- verifies upstream decision inheritance, communication logic, sequence, Frame Scripts, Written Visual Requirements, copy, evidence, limitations, input resolution, and feedback closure;
+- verifies upstream decision inheritance, communication logic, sequence, Frame Scripts, Written Visual Requirements, exact copy, evidence, limitations, input resolution, and feedback closure;
 - returns deficient Script work internally;
 - synthesizes a complete ECD-facing Creative Script only after Producer clearance;
 - gives a recommendation and requests Script Alignment;
@@ -197,27 +230,33 @@ After an ECD-aligned Script, Creative Producer:
 
 - activates Visual inputs;
 - transfers accepted Frame Scripts, Written Visual Requirements, exact copy, references, rights, locks, and active visual decisions;
-- requires visual problem framing before visual production;
+- requires visual problem framing before visual Production;
+- requires Copy-Aware Layout Maps before any Production-intent image is generated, selected, cropped, extended, or committed;
+- permits exploratory image-world studies only when clearly marked and limited to the question being tested;
 - receives formal visual artifacts after Art Director self-QA;
-- verifies Script fidelity, reference boundaries, visual coherence, representative proof, target-surface behavior, feedback closure, and decision readiness;
-- returns weak or incomplete proof internally;
+- verifies Script fidelity, reference boundaries, copy-aware composition, visual coherence, representative proof, target-surface behavior, feedback closure, and decision readiness;
+- returns weak, incomplete, copy-blind, or unproven work internally;
 - releases a new or changed governing visual direction for ECD Visual Alignment;
-- prevents broad production until required visual authority is recorded.
+- ensures exact copy appears in the proof when image–type interaction is consequential;
+- prevents broad Production until required visual authority, Layout Map coverage, and representative Type-Fit are recorded.
 
-An Art Direction Package may be cleared for Production without another ECD gate only when it introduces no unapproved governing visual delta.
+An Art Direction Package may be cleared for Production without another ECD gate only when it introduces no unapproved governing visual delta and fully satisfies copy-aware handoff conditions.
 
 ## Production coordination
 
-After Producer Cleared Art Direction and required ECD visual authority:
+After Producer Cleared Art Direction and required ECD visual authority, Creative Producer:
 
+- verifies Copy-Aware Layout Map coverage, image-class status, and representative Type-Fit;
 - activates Production inputs;
-- transfers exact copy, assets, technical conditions, locks, tolerances, and fallbacks;
+- transfers exact copy, Layout Maps, asset constraints, technical conditions, locks, tolerances, and fallbacks;
 - receives final outputs after Production self-QA;
-- compares them with all authoritative Treatment, Script, visual, reference, evidence, rights, and deliverable decisions;
-- verifies exact copy, mobile behavior, variants, file integrity, and known limitations;
+- compares them with all authoritative Treatment, Script, visual, reference, evidence, rights, copy-aware, and deliverable decisions;
+- verifies Production-intent image compliance, deterministic exact copy, final Type-Fit, mobile behavior, variants, file integrity, and known limitations;
 - returns defective output internally;
 - releases only a Producer Cleared final package;
 - gives a Final Acceptance recommendation and ends at the ECD decision request.
+
+Production may not rescue a copy-blind image by silently changing copy, reducing required text below accepted readability, abandoning hierarchy, obscuring protected visual content, or adding unapproved repair boxes.
 
 ## Feedback closure
 
@@ -236,7 +275,16 @@ For each material feedback item:
 9. record `Resolved`, `Partially Resolved`, `Not Resolved`, `Conflict`, `Superseded`, or `Open`;
 10. release only after applicable feedback is closed or explicitly disclosed.
 
-Do not merely forward the ECD's words and do not accept “changed” as evidence that the issue is resolved.
+For copy–image fit feedback, distinguish among:
+
+- exact copy or permitted compression;
+- copy hierarchy;
+- Copy-Aware Layout Map;
+- image asset compliance;
+- deterministic typography;
+- target geometry or platform condition.
+
+Do not merely forward the ECD's words, accept “changed” as evidence that the issue is resolved, or default to generating another arbitrary image variant.
 
 ## Handoff and stage activation
 
@@ -249,7 +297,7 @@ Creative Producer is the only internal role allowed to:
 - activate or defer stage inputs and capabilities;
 - mark a next stage valid.
 
-The activation condition is:
+The general activation condition is:
 
 ```text
 Specialist self-QA passed
@@ -257,6 +305,14 @@ Specialist self-QA passed
 + required ECD authority satisfied
 + dependencies current
 = next-stage activation permitted
+```
+
+Production additionally requires:
+
+```text
+valid Copy-Aware Layout Map coverage
++ Production-intent image classification
++ representative Type-Fit pass
 ```
 
 ## Rework
@@ -271,6 +327,8 @@ Use the first-failed-object rule:
 6. rerun specialist self-QA and Producer Review;
 7. obtain renewed ECD authority when an approved decision changed.
 
+A copy–image failure may originate in copy, hierarchy, Layout Map, image asset, typography implementation, or Deliverable Contract. Return to the earliest cause rather than repairing only the final symptom.
+
 ## Completion standard
 
 Final delivery is ready for ECD review only when:
@@ -280,6 +338,9 @@ Final delivery is ready for ECD review only when:
 - all material registered inputs are resolved, superseded, rejected, or explicitly open;
 - authoritative upstream decisions survived downstream work;
 - applicable ECD feedback is closed or disclosed;
+- every Production-intent screen has traceable Layout Map coverage;
+- exploratory assets were not silently promoted;
+- exact copy passes deterministic Type-Fit at target conditions;
 - evidence, limitations, rights, and attribution remain correct;
 - mobile and technical QA pass or limitations are disclosed;
 - the final decision object is complete and visible;
@@ -299,3 +360,4 @@ Final delivery is ready for ECD review only when:
 - `../shared/HANDOFF_CONTRACT.md`
 - `../shared/LOCK_AND_REWORK_PROTOCOL.md`
 - `../shared/PRODUCTION_MODEL.md`
+- `../art-director/references/copy-aware-composition.md`

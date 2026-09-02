@@ -40,14 +40,22 @@ Before specialist work begins, Creative Producer supplies:
 - authoritative upstream artifacts and versions;
 - inherited decisions and active locks;
 - Activated inputs and original authority;
-- Deferred inputs that remain inactive;
+- Deferred inputs and capabilities that remain inactive;
 - requested artifact and professional owner;
 - decisions the specialist may make;
 - decisions the specialist may not make;
 - acceptance criteria;
 - expected return path and ECD gate.
 
-Apply `ARTIFACT_DECISION_CONTRACT.md`, `HANDOFF_CONTRACT.md`, and `STAGE_CAPABILITY_MATRIX.md`.
+For visual and Production assignments involving text-bearing screens, also supply:
+
+- exact ECD-aligned copy and permitted compression;
+- target geometry and viewing conditions;
+- required Copy-Aware Layout Map coverage;
+- image-class rules;
+- Type-Fit acceptance criteria.
+
+Apply `ARTIFACT_DECISION_CONTRACT.md`, `HANDOFF_CONTRACT.md`, `STAGE_CAPABILITY_MATRIX.md`, and `../art-director/references/copy-aware-composition.md`.
 
 ## Specialist return
 
@@ -61,11 +69,18 @@ A specialist return must include:
 - unresolved conflicts;
 - requested Producer disposition.
 
+Visual and Production returns also include, when applicable:
+
+- Copy-Aware Layout Maps;
+- exploratory / Production-intent image classification;
+- representative or final Type-Fit evidence;
+- exact-copy verification.
+
 The return is not an authoritative handoff and is not ECD-facing until Producer Review passes.
 
 ## Producer Review
 
-Creative Producer independently checks eight project-level dimensions.
+Creative Producer independently checks nine project-level dimensions.
 
 ### 1. Authority fidelity
 
@@ -85,7 +100,7 @@ The requested object is actually complete, all Active inputs are resolved or exp
 
 ### 5. Cross-artifact coherence
 
-The artifact agrees with its authoritative dependencies and does not create contradictions among Treatment, Script, visual direction, copy, evidence, rights, and production conditions.
+The artifact agrees with its authoritative dependencies and does not create contradictions among Treatment, Script, Frame Scripts, exact copy, visual direction, evidence, rights, and Production conditions.
 
 ### 6. Professional sufficiency
 
@@ -99,11 +114,26 @@ Every applicable ECD feedback item is resolved, partially resolved, superseded, 
 
 The decision object, recommendation, delta, approval scope, exclusions, consequence, and requested ECD action are clear.
 
+### 9. Copy-aware production readiness
+
+For text-bearing visual work, verify:
+
+- exact copy, rather than generic placeholder text, shaped target geometry;
+- a Copy-Aware Layout Map exists for every Production-intent screen or valid page class;
+- provisional line behavior, copy footprint, minimum readable scale, protected visual content, and image–type relationship are explicit;
+- image-generation, sourcing, editing, crop, and mask instructions inherit the map;
+- exploratory imagery was not silently promoted;
+- required audience text remains separate and deterministic by default;
+- representative or final Type-Fit proof passes at target viewing conditions;
+- failure was not concealed through unreadable text, unauthorized copy change, hierarchy collapse, or emergency opaque boxes.
+
+A visual or Production artifact that fails this dimension is not `Producer Cleared`.
+
 ## Producer dispositions
 
 ### Returned for Rework
 
-Use when a professional, fidelity, completeness, stage, or feedback defect can be corrected without ECD authority.
+Use when a professional, fidelity, completeness, stage, feedback, copy-aware, or Type-Fit defect can be corrected without ECD authority.
 
 Creative Producer supplies a focused Rework Brief and keeps downstream capabilities inactive.
 
@@ -135,6 +165,7 @@ Cross-artifact coherence:
 Professional sufficiency:
 Feedback closure:
 Decision readiness:
+Copy-aware production readiness:
 
 Known limitations:
 Required rework:
@@ -165,6 +196,17 @@ Remaining consequence:
 
 Creative Producer translates feedback into a professional Rework Brief rather than merely forwarding it.
 
+For copy–image fit feedback, diagnose among:
+
+- exact copy or permitted compression;
+- copy hierarchy;
+- Copy-Aware Layout Map;
+- image asset compliance;
+- deterministic typography;
+- target geometry or platform condition.
+
+Do not default to changing copy or asking Production Artist to force another arbitrary image variant.
+
 ## ECD-facing release
 
 Before release, Creative Producer:
@@ -174,6 +216,8 @@ Before release, Creative Producer:
 - gives a clear Producer recommendation;
 - discloses material delta, unresolved tradeoffs, and feedback status;
 - states what approval will authorize and what remains open;
+- includes actual representative visual proof when visual relationships are decision-bearing;
+- includes exact copy in the proof when image–type interaction is consequential;
 - requests one explicit decision;
 - stops at the gate.
 
@@ -182,11 +226,13 @@ Before release, Creative Producer:
 Creative Producer is the only internal role allowed to:
 
 - update authoritative Project State;
-- mark inputs Activated or Deferred;
+- mark inputs and capabilities Activated or Deferred;
 - record Producer clearance;
 - record ECD decisions and locks;
 - authorize an authoritative handoff;
 - activate the next professional stage.
+
+Before Production activation, Creative Producer must additionally verify valid Layout Map coverage and representative Type-Fit evidence for Production-intent screens.
 
 Creative Producer cannot invent ECD approval or override a specialist's professional ownership by silently rewriting their artifact.
 
@@ -198,5 +244,7 @@ A project is complete only when:
 - required ECD decisions are recorded;
 - all material feedback items have explicit closure states;
 - downstream work preserves authoritative upstream decisions;
+- Production-intent imagery has traceable Copy-Aware Layout Map coverage;
+- exact copy passes deterministic Type-Fit at target conditions;
 - deliverables and QA are complete;
 - Creative Producer recommends Final Acceptance from a complete final decision object.

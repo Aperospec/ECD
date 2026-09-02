@@ -28,7 +28,7 @@ Creative Producer identified a defect or incomplete condition and returned the a
 
 ### Producer Cleared
 
-Creative Producer confirmed authority fidelity, valid delta, stage validity, completeness, cross-artifact coherence, professional sufficiency, feedback closure, and decision readiness.
+Creative Producer confirmed authority fidelity, valid delta, stage validity, completeness, cross-artifact coherence, professional sufficiency, feedback closure, decision readiness, and applicable copy-aware readiness.
 
 Producer clearance means the artifact is mature enough for its next valid use. It does not equal ECD approval.
 
@@ -64,7 +64,7 @@ A later authoritative version replaced the artifact or decision.
 
 ### Unauthorized / Invalid
 
-The artifact was created or used outside the valid stage, Producer Review, or ECD authority sequence.
+The artifact was created or used outside the valid stage, Producer Review, ECD authority, or required copy-aware sequence.
 
 It is non-authoritative until the valid sequence is restored and any reusable material is accepted by the correct owner.
 
@@ -79,10 +79,11 @@ Quality state = Producer Cleared
 + required authority state for the artifact class is satisfied
 + authoritative dependencies are current
 + required Active inputs are resolved or explicitly open
++ applicable Copy-Aware Layout Map and Type-Fit requirements are satisfied
 + no blocking feedback or conflict remains
 ```
 
-Legacy use of `Accepted for Handoff` must be interpreted as this complete condition. Producer clearance alone is not sufficient when ECD authority is required.
+Legacy use of `Accepted for Handoff` must be interpreted as this complete condition. Producer clearance alone is not sufficient when ECD authority or copy-aware proof is required.
 
 ## Authority by artifact class
 
@@ -92,17 +93,21 @@ Legacy use of `Accepted for Handoff` must be interpreted as this complete condit
 | Creative Treatment | Producer Cleared | Greenlit |
 | New Creative Script | Producer Cleared | ECD-Aligned |
 | Revision to an ECD-aligned Script | Producer Cleared | renewed alignment only when the Artifact Decision Contract changes an approved decision |
-| Internal visual studies | Producer Cleared when formally used | none unless decision-bearing |
-| New governing visual direction and representative proof | Producer Cleared | ECD-Aligned |
+| Exploratory Image-World Study | Producer Cleared when formally used | none unless decision-bearing; never final-use by default |
+| Copy-Aware Layout Map | Producer Cleared before Production-intent use | ECD-Aligned when it establishes or changes a governing visual decision presented for alignment |
+| New governing visual direction and Production-intent representative proof | Producer Cleared with valid Layout Map and Type-Fit evidence | ECD-Aligned |
 | Revision to an ECD-aligned visual direction | Producer Cleared | renewed alignment when an approved governing visual decision changes |
-| Art Direction Package | Producer Cleared | all governing visual decisions must already have required authority |
-| Final Assets | Producer Cleared final package | Final Accepted for publication / completion |
+| Art Direction Package | Producer Cleared with complete Layout Map coverage | all governing visual decisions must already have required authority |
+| Production-intent image assets | Production self-QA plus Producer clearance in final package | governed by existing visual authority; no independent ECD authority unless they change an approved decision |
+| Final Assets | Producer Cleared final package with exact-copy Type-Fit | Final Accepted for publication / completion |
 
 ## Decision-bearing artifact rule
 
 An artifact is decision-bearing when it establishes, selects, changes, or removes a decision that will constrain downstream work.
 
 The authority requirement follows the artifact class and its delta, not a model's informal judgment that a choice “feels material.”
+
+A Production-intent image cannot obtain final-use authority merely because an Exploratory image was previously viewed or liked. Its copy-aware adaptation, map, and governing visual decisions must be traceable.
 
 ## State record
 
@@ -123,6 +128,9 @@ ECD decision evidence:
 
 Dependencies:
 Artifact Decision Contract:
+Copy-Aware Layout Map, when applicable:
+Image class, when applicable:
+Type-Fit evidence, when applicable:
 Active locks:
 Open feedback:
 Handoff Ready: [yes / no]
@@ -139,6 +147,7 @@ An ECD decision record identifies:
 - Producer Review Record and recommendation;
 - decision scope and delta;
 - items outside the decision;
+- representative copy-aware proof when image–type interaction is consequential;
 - ECD response or authorization evidence;
 - resulting authority state and locks.
 
@@ -152,6 +161,7 @@ Compact work may combine records, but it must still distinguish:
 - Producer clearance;
 - ECD authority;
 - dependencies and delta;
+- Layout Map and Type-Fit requirements when applicable;
 - Handoff Ready condition.
 
 A proposal and its acceptance may never be merged into an inferred state.
@@ -167,4 +177,7 @@ Reject or repair state when:
 - a downstream artifact depends on a superseded version;
 - an unauthorized delta is present;
 - feedback closure is missing;
+- a Production-intent image lacks Layout Map coverage;
+- an Exploratory image is treated as final-use without valid transition;
+- required Type-Fit evidence is missing;
 - a handoff or stage activation occurs before Handoff Ready.

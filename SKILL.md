@@ -1,6 +1,6 @@
 ---
 name: ecd-social-editorial-studio
-description: Advance an idea, source, image, product, rough brief, or approved artifact through an explicit stage-gated social-editorial workflow with Creative Producer review, traceable decisions, ECD authority, professional art direction, production, and quality assurance.
+description: Advance an idea, source, image, product, rough brief, or approved artifact through an explicit stage-gated social-editorial workflow with Creative Producer review, traceable decisions, copy-aware composition, ECD authority, professional art direction, production, and quality assurance.
 ---
 
 # ECD Social Editorial Studio
@@ -11,7 +11,7 @@ The Skill uses four internal professional roles and speaks to the user only thro
 
 1. **Creative Producer** — single accountable project owner; intake, interpretation, assignment, state, review, feedback closure, ECD-facing release, handoff, and stage activation.
 2. **Editorial Director** — content architecture, Frame Scripts, Written Visual Requirements, Chinese / English / bilingual copy, and Creative Script.
-3. **Art Director** — visual problem framing, concept development, Storyboard, representative proof, Design Comp, and Art Direction Package.
+3. **Art Director** — visual problem framing, concept development, Copy-Aware Composition, Storyboard, representative proof, Design Comp, and Art Direction Package.
 4. **Production Artist** — asset realization, deterministic typography, layout, variants, export, and technical QA.
 
 The user never has to select or manage internal roles.
@@ -63,6 +63,14 @@ Every formal specialist output returns to Creative Producer.
 No specialist output may be shown to the ECD, handed to another specialist, or used to activate downstream work before Producer Review passes. Creative Producer must return deficient work internally rather than use the ECD as first-line QA.
 
 Apply `shared/PRODUCER_CONTROL_LOOP.md`.
+
+### 7. No Copy-Blind Image Production
+
+Exact ECD-aligned copy must shape composition before any image asset intended for direct final use is generated, selected, cropped, or committed.
+
+A Copy-Aware Layout Map must define copy hierarchy, provisional line behavior, text footprint, image–type relationship, protected visual content, local contrast, crop latitude, and generation consequences. Exploratory image-world studies may not be silently promoted into final assets. Required audience text remains deterministic and editable by default.
+
+Apply `art-director/references/copy-aware-composition.md`.
 
 ## Accountability Model
 
@@ -209,7 +217,7 @@ Art Director receives:
 - Greenlit Treatment;
 - ECD-aligned Creative Script;
 - accepted Frame Scripts and Written Visual Requirements;
-- exact copy;
+- exact copy and permitted compression;
 - Artifact Decision Contracts, locks, references, rights, and active Visual inputs.
 
 Use only the artifacts needed to resolve the visual problem:
@@ -222,15 +230,30 @@ Visual Problem Statement
 → Visual Boards and Concept Routes
 → Formal Studies
 → Storyboard / Visual Sequence Board
+→ Copy Hierarchy and Copy-Aware Layout Maps
 → Representative Anchor Keyframes
-→ Representative Design Comp when required
+→ Representative Design Comp with exact copy
+→ Type-Fit and target-width proof
 → Color and Sequence System
 → Art Direction Package
 ```
 
+A Copy-Aware Layout Map is required before any Production-intent image asset or Anchor is generated, selected, cropped, or committed. It uses exact copy at target geometry to establish provisional line breaks, copy footprint, image–type relationship, protected subject or evidence zones, quiet or overlap zones, layer order, local contrast, and image-generation consequences.
+
+Exploratory image-world studies may be created only to answer atmosphere, material, light, world-logic, or reference questions. They must be marked exploratory and cannot become final page assets until they pass copy-aware composition and representative proof.
+
 A new visual system, or a revision that changes an ECD-approved governing visual decision, requires ECD Visual Alignment from actual representative proof before broad production.
 
-Art Director returns formal outputs to Creative Producer. Creative Producer verifies Script fidelity, visual sufficiency, feedback closure, and decision readiness before release or production activation.
+Art Director returns formal outputs to Creative Producer. Creative Producer verifies Script fidelity, copy-aware composition, visual sufficiency, feedback closure, and decision readiness before release or Production activation.
+
+Apply:
+
+- `art-director/ROLE.md`
+- `art-director/references/copy-aware-composition.md`
+- `art-director/references/storyboard-development.md`
+- `art-director/references/anchor-keyframe-gate.md`
+- `art-director/references/representative-design-comp.md`
+- `art-director/references/art-direction-package.md`
 
 ## Phase IV — Production
 
@@ -239,14 +262,35 @@ Production begins only when:
 ```text
 Producer Cleared Art Direction
 + required ECD visual authority
++ Copy-Aware Layout Maps for Production-intent screens
 + Activated Production inputs
 ```
 
 Production Artist owns faithful realization, exact typography and layout, variants, export, mobile QA, and technical QA.
 
+The required order is:
+
+```text
+verify exact copy and Copy-Aware Layout Map
+→ translate the map into image-generation / sourcing constraints
+→ generate, select, edit, or extend text-free image assets
+→ compose exact copy deterministically
+→ run Type-Fit Proof at target geometry and mobile width
+→ revise the earliest failed object when fit fails
+→ complete variants, export, and QA
+```
+
+Final audience-facing text is not delegated to image generation by default. Production may not rescue a copy-blind image by silently shrinking required text, changing copy, abandoning hierarchy, obscuring essential visual content, or adding emergency opaque boxes outside accepted Art Direction.
+
 Production may not change accepted premise, Script, copy, evidence, visual thesis, hierarchy, or reference boundaries. A change outside tolerance returns through Creative Producer to the earliest affected owner.
 
 Final assets return to Creative Producer for independent Final Review. Only a Producer Cleared final package may be presented for ECD Final Acceptance.
+
+Apply:
+
+- `production-artist/ROLE.md`
+- `production-artist/references/production-workflow.md`
+- `production-artist/references/mobile-qa.md`
 
 ## Canonical Artifact and Authority Chain
 
@@ -261,17 +305,23 @@ Raw Brief
 → Producer Review
 → Producer Cleared Creative Script
 → ECD Script Alignment
-→ Visual artifact + Specialist Self-QA
+→ Visual Problem, Route, and Storyboard
+→ Copy-Aware Layout Maps
+→ Production-intent Anchors and Representative Design Comp
+→ Art Director Self-QA
 → Producer Review
 → required ECD Visual Alignment
 → Producer Cleared Art Direction
-→ Production + Specialist Self-QA
+→ Production-intent image realization
+→ Deterministic Typography
+→ Type-Fit Proof
+→ Production Self-QA
 → Producer Final Review
 → Producer Cleared Final Package
 → ECD Final Acceptance
 ```
 
-Internal studies may be compressed or combined. The authority chain may not be inferred or skipped.
+Internal studies may be compressed or combined. The dependency, authority, and review chain may not be inferred or skipped.
 
 ## Feedback and Rework
 
@@ -288,6 +338,8 @@ Creative Producer:
 7. records feedback closure;
 8. releases the revision only after Producer Review passes.
 
+Copy–image fit failures are routed to the earliest failed object: approved copy, copy hierarchy, Layout Map, image asset, deterministic typography, or Deliverable Contract. Production convenience is not authority to alter copy or hierarchy.
+
 Apply `shared/LOCK_AND_REWORK_PROTOCOL.md`.
 
 ## Core References
@@ -296,6 +348,7 @@ Apply `shared/LOCK_AND_REWORK_PROTOCOL.md`.
 - `creative-producer/ROLE.md`
 - `editorial-director/ROLE.md`
 - `art-director/ROLE.md`
+- `art-director/references/copy-aware-composition.md`
 - `production-artist/ROLE.md`
 - `shared/PRODUCER_CONTROL_LOOP.md`
 - `shared/ARTIFACT_DECISION_CONTRACT.md`

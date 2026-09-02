@@ -18,6 +18,13 @@ Before presentation:
 - the decision establishes or changes a governing visual decision requiring ECD authority;
 - broad Production remains inactive.
 
+For text-bearing image work, also require:
+
+- exact ECD-aligned copy;
+- a valid Copy-Aware Layout Map for the representative screen;
+- Production-intent image classification;
+- representative Type-Fit at target geometry and viewing width.
+
 ## Alignment standard
 
 A valid proposal contains:
@@ -39,6 +46,23 @@ A valid proposal contains:
 
 The presentation is not an unmanaged menu of options.
 
+## Copy-aware proof
+
+When required copy and imagery share the composition, the representative proof must show the actual relationship rather than present an isolated image plus a verbal promise that text will be added later.
+
+Show or explain in plain language:
+
+- exact copy and hierarchy;
+- provisional or intended line behavior;
+- copy footprint and minimum readable scale;
+- protected subject, action, interface, or evidence zones;
+- intended quiet, overlap, occlusion, and layer-order behavior;
+- local contrast and crop implications;
+- representative Type-Fit and mobile-width result;
+- which visual asset is Exploratory and which is Production-intent.
+
+Apply `copy-aware-composition.md`.
+
 ## Plain-language translation
 
 Prefer questions about:
@@ -48,6 +72,7 @@ Prefer questions about:
 - whether the system feels unified or fragmented;
 - whether people, environment, evidence, or typography lead;
 - whether the work feels active or still, dense or restrained, direct or interpretive;
+- whether copy and imagery support or obstruct each other;
 - which misreading would most damage the accepted project.
 
 Internal records may retain professional terminology after the ECD responds.
@@ -74,6 +99,7 @@ When comparison is needed:
 - hold unrelated variables stable;
 - label what each proof tests;
 - use the lowest sufficient fidelity;
+- use exact or metric-faithful copy when copy geometry is under review;
 - avoid cosmetic variants without a real tradeoff;
 - make source observation, Art Director interpretation, and Producer review distinguishable.
 
@@ -94,6 +120,7 @@ Creative Producer recommendation:
 Relevant visual delta:
 Main tradeoff / risk:
 Representative proof:
+Exact-copy / Layout Map / Type-Fit state, when applicable:
 Questions for ECD:
 What this decision will lock:
 What remains open:
@@ -112,6 +139,7 @@ Selected criteria:
 Rejected criteria:
 Accepted route or proof:
 Decision-level locks:
+Copy-aware composition locks, when applicable:
 Open variables:
 Affected artifacts:
 Resulting authority state:
@@ -129,6 +157,8 @@ A revision requires renewed alignment when its Artifact Decision Contract change
 
 Routine internal studies do not require separate ECD decisions.
 
+An Exploratory image does not acquire Production authority through visual approval unless the presented decision explicitly includes its copy-aware adaptation and Production-intent status.
+
 ## Turn boundary
 
 The release response ends at the decision request.
@@ -143,6 +173,8 @@ Alignment presentation passes when:
 - the ECD can judge visual consequences without specialist vocabulary;
 - actual evidence is shown;
 - accepted Script conditions remain visible;
+- consequential image–type relationships are demonstrated with exact copy;
+- Layout Map and Type-Fit status are clear when applicable;
 - Art Director and Producer recommendations are explicit;
 - relevant delta and feedback closure are clear;
 - questions concern ECD authority rather than unresolved craft;
