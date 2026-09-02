@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This workflow turns Producer Cleared Art Direction, required ECD visual authority, valid Copy-Aware Layout Maps, and Activated Production inputs into final Social Editorial assets without redefining upstream decisions or treating copy as an afterthought.
+This workflow turns Producer Cleared Art Direction, required ECD visual authority, Producer Cleared Copy-Aware Layout Maps, and Activated Production inputs into final Social Editorial assets without redefining upstream decisions or treating copy as an afterthought.
 
 ## Stage 0 — Production gate
 
@@ -16,7 +16,8 @@ Require:
 - accepted Frame Scripts and exact copy;
 - governing visual authority records;
 - accepted visual route, Storyboard, Production-intent Anchor Keyframes, and Design Comp as applicable;
-- Copy-Aware Layout Maps for every Production-intent screen or valid page class;
+- Producer Cleared Copy-Aware Layout Maps for every Production-intent screen or valid page class;
+- Layout Map Producer Review Records and named released actions;
 - representative Type-Fit evidence and acceptance criteria;
 - Producer Cleared Art Direction Package;
 - current Artifact Decision Contracts and dependencies;
@@ -26,7 +27,7 @@ Require:
 
 Production does not begin from specialist confidence alone.
 
-No Production-intent image may be generated, selected, cropped, extended, or committed without valid Layout Map coverage.
+No Production-intent image may be generated, selected, cropped, extended, edited, or committed without Producer Cleared Layout Map coverage for the intended use.
 
 Apply `../../art-director/references/copy-aware-composition.md`.
 
@@ -37,8 +38,8 @@ Record consequences and risks for each active input.
 Create an asset inventory:
 
 ```markdown
-| Asset | Source / owner | Role | Image class | Layout Map | Transformation | Rights / attribution | Resolution | State | Risk |
-|---|---|---|---|---|---|---|---|---|---|
+| Asset | Source / owner | Role | Image class | Layout Map | Map Review | Transformation | Rights / attribution | Resolution | State | Risk |
+|---|---|---|---|---|---|---|---|---|---|---|
 ```
 
 Distinguish supplied, transformable, evidentiary, generated, edited, sourced, constructed, and fallback assets.
@@ -46,7 +47,7 @@ Distinguish supplied, transformable, evidentiary, generated, edited, sourced, co
 Classify visual assets as:
 
 - `Exploratory` — may inform visual language but is not eligible for direct final use;
-- `Production-intent` — eligible for final use and governed by an identified Layout Map.
+- `Production-intent` — eligible for the named proof or final use and governed by a Producer Cleared Layout Map.
 
 An exploratory asset is not silently promoted because it is visually attractive.
 
@@ -66,9 +67,10 @@ For every final text-bearing screen verify:
 - high-detail, low-detail, quiet, overlap, and occlusion zones;
 - local contrast and layer-order requirements;
 - crop, extension, variant, and mask requirements;
-- Type-Fit acceptance criteria.
+- Type-Fit acceptance criteria;
+- Layout Map Producer Review Record and released next use.
 
-If this information is missing or contradictory, stop and return through Creative Producer to Art Director or the earliest affected owner.
+If this information is missing, contradictory, or not Producer Cleared for the intended use, stop and return through Creative Producer to Art Director or the earliest affected owner.
 
 A placeholder may be used only when metrically faithful to the exact copy. The actual copy must be tested before Production-intent imagery is committed.
 
@@ -78,7 +80,7 @@ For each screen define:
 
 - final dimensions and safe areas;
 - source Script beat, Frame Script, and Art Direction reference;
-- Copy-Aware Layout Map reference;
+- Producer Cleared Copy-Aware Layout Map and Review Record;
 - exact copy blocks and hierarchy;
 - background / environment layer;
 - subject or evidence layer;
@@ -92,7 +94,7 @@ For each screen define:
 - inherited decisions and tolerances;
 - technical risk and accepted fallback.
 
-Translate the Layout Map into a Production-intent image brief specifying:
+Translate the cleared Layout Map into a Production-intent image brief specifying:
 
 - subject position, scale, orientation, and focal detail;
 - background complexity and value behavior;
@@ -107,7 +109,7 @@ A generic instruction such as `leave room for text` is insufficient when the act
 
 ## Stage 4 — Asset realization
 
-Generate, edit, source, capture, or construct Production-intent assets from accepted Art Direction and Layout Maps.
+Generate, edit, source, capture, or construct Production-intent assets from accepted Art Direction and Producer Cleared Layout Maps.
 
 Verify:
 
@@ -115,6 +117,7 @@ Verify:
 - geometry, perspective, contact, scale, material, and light;
 - consistency with accepted Anchors;
 - fidelity to copy zones, protected zones, local contrast, and crop requirements;
+- use remains within the action released by Creative Producer;
 - reference and rights boundaries;
 - sufficient resolution and adaptation latitude;
 - evidence authenticity and context where applicable.
@@ -152,7 +155,7 @@ Confirm:
 - protected subject and evidence zones;
 - local contrast without emergency repair;
 - safe areas, crop, and representative variants;
-- fidelity to the Layout Map and Design Comp.
+- fidelity to the cleared Layout Map and Design Comp.
 
 The following fail the gate:
 
@@ -167,7 +170,7 @@ When Type-Fit fails, identify and reopen the earliest failed object rather than 
 
 ## Stage 6 — Assembly and fit
 
-Assemble each screen against Art Direction, Layout Map, Design Comp, and Type-Fit Proof.
+Assemble each screen against Art Direction, the cleared Layout Map, Design Comp, and Type-Fit Proof.
 
 Check:
 
@@ -187,7 +190,7 @@ When fit requires a change to meaning, exact copy, hierarchy, Layout Map, visual
 
 ## Stage 7 — Variants
 
-Adapt each surface from the accepted visual premise and Copy-Aware Layout Map rather than relying on blind cropping.
+Adapt each surface from the accepted visual premise and Producer Cleared Layout Map rather than relying on blind cropping.
 
 For every variant, re-evaluate:
 
@@ -198,13 +201,13 @@ For every variant, re-evaluate:
 - evidence, crop, safe areas, and visual balance;
 - Type-Fit result.
 
-A material redesign returns through Creative Producer to Art Director.
+A material redesign returns through Creative Producer to Art Director and may require a revised map and new Producer clearance.
 
 ## Stage 8 — Production self-QA
 
 Run:
 
-- Copy-Aware Layout Map presence and fidelity;
+- Layout Map clearance, released use, and fidelity;
 - Production-intent image-class verification;
 - exact-copy and glyph verification;
 - Type-Fit Proof;
@@ -231,10 +234,11 @@ Deliverable Contract:
 Stage-Scoped Input Register:
 Activated Production inputs:
 Artifact Decision Contract:
-Copy-Aware Layout Maps:
+Producer Cleared Copy-Aware Layout Maps:
+Layout Map Review Records:
 
 Final assets:
-- filename / dimensions / format / role / image class / Layout Map
+- filename / dimensions / format / role / image class / Layout Map / released use
 
 Variants:
 - 
@@ -269,8 +273,8 @@ Creative Producer independently verifies:
 
 - authoritative upstream decisions survived;
 - exact copy and visual direction are preserved;
-- every Production-intent screen has valid Layout Map coverage;
-- image assets were developed or selected under copy-aware constraints;
+- every Production-intent screen has Producer Cleared Layout Map coverage for its use;
+- image assets were developed or selected under those constraints;
 - Type-Fit passed at target conditions without emergency repair;
 - implementation delta is authorized;
 - applicable ECD feedback is closed;
@@ -285,7 +289,7 @@ Defects return internally.
 Production self-QA passes when:
 
 - every requested asset and variant exists;
-- every Production-intent asset has traceable Layout Map coverage;
+- every Production-intent asset has traceable Producer Cleared Layout Map coverage;
 - exact copy is correct;
 - Type-Fit passes at target viewing conditions;
 - accepted visual relationships survive;

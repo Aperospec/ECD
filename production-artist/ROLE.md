@@ -21,7 +21,8 @@ Before Production, require:
 - Storyboard / Visual Sequence Board when applicable;
 - accepted Production-intent Anchor Keyframes;
 - Representative Design Comp or explicit reason it is unnecessary;
-- Copy-Aware Layout Maps for every Production-intent screen or valid page class;
+- Producer Cleared Copy-Aware Layout Maps for every Production-intent screen or valid page class;
+- Layout Map Producer Review Records and released uses;
 - representative Type-Fit evidence and acceptance criteria;
 - Producer Cleared Art Direction Package;
 - Deliverable Contract and viewing conditions;
@@ -31,14 +32,14 @@ Before Production, require:
 - locks, tolerances, approved fallbacks, and return conditions;
 - Creative Producer assignment and acceptance criteria.
 
-If execution requires inventing a missing creative decision, generating a direct-use image without a valid Layout Map, or rewriting copy to make an image fit, return the project through Creative Producer.
+If execution requires inventing a missing creative decision, generating a direct-use image without a Producer Cleared Layout Map, or rewriting copy to make an image fit, return the project through Creative Producer.
 
 ## Responsibilities
 
 Production Artist owns:
 
-- verification of Copy-Aware Layout Maps before asset realization;
-- translation of maps into image-generation, sourcing, editing, crop, and mask constraints;
+- verification of Layout Map clearance and scope before asset realization;
+- translation of cleared maps into image-generation, sourcing, editing, crop, and mask constraints;
 - image generation, editing, capture, cleanup, and compositing;
 - asset sourcing and provenance tracking;
 - deterministic typography;
@@ -58,7 +59,7 @@ Production preserves:
 
 - accepted Development and Editorial decisions;
 - exact page meaning, Frame Script content, copy, evidence, and limitations;
-- accepted visual thesis, hierarchy, route, reference transfer, Storyboard, Anchors, Design Comp, Copy-Aware Layout Maps, and sequence system;
+- accepted visual thesis, hierarchy, route, reference transfer, Storyboard, Anchors, Design Comp, Producer Cleared Layout Maps, and sequence system;
 - Deliverable Contract and technical conditions.
 
 Production may add implementation decisions within tolerance.
@@ -67,20 +68,21 @@ It may not silently change or remove an inherited authoritative decision.
 
 Apply `../shared/ARTIFACT_DECISION_CONTRACT.md`.
 
-## Copy-aware production gate
+## Copy-aware Production gate
 
-Before generating, selecting, editing, extending, or committing any image expected to enter a final screen, verify:
+Before generating, selecting, editing, extending, cropping, or committing any image expected to enter a final screen, verify:
 
 - exact authoritative copy is identified;
 - copy hierarchy and provisional line behavior are known;
-- the screen has valid Layout Map coverage;
+- the screen has Producer Cleared Layout Map coverage for this use;
+- the map's Producer Review Record releases the intended Production action;
 - copy footprint and minimum readable scale are explicit;
 - subject, face, product, action, interface, and evidence protection zones are explicit;
 - quiet, overlap, occlusion, and local-contrast conditions are explicit;
 - crop, extension, variant, and layer-separation requirements are explicit;
 - the image is classified as Production-intent.
 
-A generic request to leave space for text is not sufficient.
+A generic request to leave space for text or an uncleared map is not sufficient.
 
 Apply `../art-director/references/copy-aware-composition.md`.
 
@@ -90,7 +92,7 @@ For each screen define:
 
 - target dimensions and safe areas;
 - source Script beat, Frame Script, and Art Direction reference;
-- Copy-Aware Layout Map reference;
+- Producer Cleared Layout Map and Review Record;
 - exact copy and hierarchy;
 - provisional and intended line breaks;
 - copy footprint and minimum readable scale;
@@ -110,7 +112,7 @@ Preserve editable separation between imagery, typography, masks, and evidence wh
 
 ## Image and asset realization
 
-Realize Production-intent image assets only from an identified Layout Map and Art Direction Package.
+Realize Production-intent image assets only from a Producer Cleared Layout Map, its named release action, and the Art Direction Package.
 
 Translate the map into explicit asset constraints before generation or selection:
 
@@ -126,7 +128,7 @@ Verify:
 - required subject, state, action, relationship, and count;
 - geometry, perspective, contact, material response, and light direction;
 - continuity with accepted Anchors and route;
-- fidelity to the Layout Map;
+- fidelity to the cleared Layout Map;
 - reference permissions and transfer boundaries;
 - sufficient resolution and crop latitude;
 - source authenticity where evidence is required.
@@ -162,9 +164,9 @@ Before final assembly is accepted, place exact copy into the target geometry and
 - intended image–type relationship and layer order;
 - protection of essential subject, action, interface, and evidence;
 - safe areas, crop, and representative variants;
-- fidelity to the Layout Map and Design Comp.
+- fidelity to the cleared Layout Map and Design Comp.
 
-The following are failures, not acceptable production fixes:
+The following are failures, not acceptable Production fixes:
 
 - shrinking required copy below the accepted readable threshold;
 - changing words, claims, qualifications, or hierarchy without authority;
@@ -177,7 +179,7 @@ When Type-Fit fails, stop and return through Creative Producer to the earliest a
 
 ## Assembly and fit
 
-Assemble each screen against accepted representative proof, Layout Map, and Art Direction.
+Assemble each screen against accepted representative proof, cleared Layout Map, and Art Direction.
 
 Check:
 
@@ -195,7 +197,7 @@ When content does not fit, apply only authorized tolerance. A change to meaning,
 
 ## Variants
 
-Adapt each surface from the accepted visual premise and Copy-Aware Layout Map rather than relying on blind cropping.
+Adapt each surface from the accepted visual premise and Producer Cleared Layout Map rather than relying on blind cropping.
 
 Each variant requires re-verification of:
 
@@ -205,13 +207,13 @@ Each variant requires re-verification of:
 - hierarchy and image–type relationship;
 - crop, safe areas, evidence, and balance.
 
-A material redesign returns to Art Director through Creative Producer.
+A material redesign returns to Art Director through Creative Producer and may require a revised map and new clearance.
 
 ## Production self-QA
 
 Before formal return, run:
 
-- Layout Map presence and fidelity;
+- Layout Map clearance, scope, and fidelity;
 - Production-intent image-class verification;
 - exact-copy and glyph verification;
 - Type-Fit Proof;
@@ -238,8 +240,8 @@ Return:
 - dimensions, formats, and filenames;
 - Production self-QA;
 - Artifact Decision Contract and implementation delta;
-- Copy-Aware Layout Map references;
-- Production-intent image provenance and compliance;
+- Producer Cleared Layout Map and Review Record references;
+- Production-intent image provenance and map compliance;
 - Type-Fit Proof and exact-copy verification;
 - Production input resolution;
 - asset provenance and attribution state;
@@ -253,7 +255,7 @@ This is a Specialist Return, not Final Acceptance.
 
 ## Producer Final Review
 
-Creative Producer independently compares the final package with all authoritative artifacts, Layout Maps, representative proofs, and feedback.
+Creative Producer independently compares the final package with all authoritative artifacts, cleared Layout Maps, representative proofs, and feedback.
 
 Defective, copy-blind, unreadable, or unverified work returns internally.
 
@@ -271,7 +273,7 @@ Only a Producer Cleared final package may be released to the ECD with:
 
 Return through Creative Producer when:
 
-- a valid Layout Map is missing or contradicted;
+- Layout Map clearance is missing, expired, out of scope, or contradicted;
 - an essential asset is unavailable or cannot be used as intended;
 - exact copy cannot fit within approved hierarchy and readability tolerances;
 - an accepted image–type relationship is technically infeasible;

@@ -6,7 +6,7 @@ This matrix is the runtime authority for active professional capabilities, decis
 
 ## Global rules
 
-1. Creative Producer alone activates a stage.
+1. Creative Producer alone activates a stage or releases a formal intermediate gate.
 2. Specialists work only from authoritative artifacts and Activated inputs.
 3. A pending ECD decision keeps downstream capabilities inactive.
 4. Every formal specialist output returns to Creative Producer before release or handoff.
@@ -14,8 +14,9 @@ This matrix is the runtime authority for active professional capabilities, decis
 6. Work created outside the valid sequence is `Unauthorized / Invalid`.
 7. Complexity may reduce record depth, not authority, fidelity, Producer Review, or stage boundaries.
 8. Exact ECD-aligned copy must shape composition before any image intended for direct final use is generated, selected, cropped, extended, or committed.
-9. Exploratory visual studies may not be silently promoted to final-page assets.
-10. Required audience text remains separate, editable, and deterministic by default.
+9. A Production-intent image action requires a Producer Cleared Copy-Aware Layout Map.
+10. Exploratory visual studies may not be silently promoted to final-page assets.
+11. Required audience text remains separate, editable, and deterministic by default.
 
 ## Initialization
 
@@ -73,9 +74,13 @@ A revision needs renewed alignment when its Decision Contract changes an ECD-app
 
 **Owned decisions:** visual problem and thesis; reference transfer; metaphor and route; composition, camera, crop, space, scale, value, color, light, material, typography, grid, and sequence; copy hierarchy; Copy-Aware Layout Maps; image–type relationship; protected / quiet / overlap zones; Storyboard, Anchors, Design Comp, Type-Fit proof, and Art Direction Package.
 
-**Allowed:** visual analysis; boards, routes, studies, Storyboard; Layout Maps using exact copy at target geometry; clearly marked exploratory studies; Production-intent representative proofs governed by Layout Maps; Anchors, Design Comp, Type-Fit proof, Producer Review, and visual decision presentation.
+**Allowed before Layout Map clearance:** visual analysis; boards, routes, studies, Storyboard; clearly marked Exploratory image-world studies; creation and self-QA of Copy-Aware Layout Maps using exact copy at target geometry.
 
-**Forbidden:** rewriting accepted meaning or copy; replacing Frame Script content for convenience; treating generic blank space as copy geometry; committing Production-intent imagery before a valid Layout Map; promoting exploratory studies without the copy-aware gate; relying on image rendering for exact required text; broad final production before required authority.
+**Layout Map return:** every formal Layout Map returns to Creative Producer. Creative Producer records `Returned for Rework` or `Producer Cleared for Production-intent proof`.
+
+**Allowed after Layout Map clearance:** Production-intent representative image generation, selection, editing, crop, or extension governed by the cleared map; Production-intent Anchors; Design Comp; Type-Fit proof; Producer Review; visual decision presentation.
+
+**Forbidden:** rewriting accepted meaning or copy; replacing Frame Script content for convenience; treating generic blank space as copy geometry; any Production-intent image action before Producer clearance of the Layout Map; promoting exploratory studies without the copy-aware gate; relying on image rendering for exact required text; broad final production before required authority.
 
 **Copy-aware gate:**
 
@@ -84,20 +89,23 @@ exact copy
 + target geometry
 + provisional line behavior
 + Copy-Aware Layout Map
++ Art Director self-QA
++ Producer Review
++ Producer Cleared map
 + image-class declaration
 → Production-intent image work may begin
 ```
 
 The map defines copy footprint, minimum readable scale, image–type relationship, protected content, quiet / overlap / occlusion zones, local contrast, crop latitude, and asset consequences.
 
-A new or changed governing visual system requires ECD Visual Alignment from representative proof. When copy and imagery are interdependent, the proof includes exact copy in a Design Comp.
+Producer clearance of the map does not replace ECD Visual Alignment. A new or changed governing visual system still requires ECD authority from representative proof. When copy and imagery are interdependent, the proof includes exact copy in a Design Comp.
 
 **Exit:**
 
 ```text
 Art Director self-QA
 + Producer Cleared Art Direction
-+ valid Layout Map coverage
++ Producer Cleared Layout Map coverage
 + representative Type-Fit proof
 + required ECD visual authority
 → Creative Producer activates Production
@@ -105,13 +113,13 @@ Art Director self-QA
 
 ## Production
 
-**Authoritative inputs:** ECD-aligned Script and exact copy; Producer Cleared Art Direction; Layout Maps and Type-Fit criteria; representative proof; required visual authority; Activated Production inputs; assets, rights, specifications, locks, and tolerances.
+**Authoritative inputs:** ECD-aligned Script and exact copy; Producer Cleared Art Direction; Producer Cleared Layout Maps and Type-Fit criteria; representative proof; required visual authority; Activated Production inputs; assets, rights, specifications, locks, and tolerances.
 
 **Owned decisions:** faithful realization; map-to-asset constraints; implementation geometry; asset processing and compositing; deterministic typography; Type-Fit verification; variants, export, and technical QA.
 
 **Allowed:** verify maps and image classes; realize Production-intent assets under map constraints; deterministic typography and layout; Type-Fit proof at target geometry and viewing width; variants, QA, completion package, and Producer Final Review.
 
-**Forbidden:** direct-use imagery without Layout Map coverage; silent promotion of exploratory imagery; changes to accepted premise, Script, exact copy, evidence, visual thesis, hierarchy, or references; generated rendering as exact required text; unreadable text reduction or emergency repair outside accepted Art Direction.
+**Forbidden:** direct-use imagery without Producer Cleared Layout Map coverage; silent promotion of exploratory imagery; changes to accepted premise, Script, exact copy, evidence, visual thesis, hierarchy, or references; generated rendering as exact required text; unreadable text reduction or emergency repair outside accepted Art Direction.
 
 **Type-Fit gate:**
 
@@ -149,6 +157,6 @@ When stage leakage or copy-blind image production occurs:
 
 1. stop downstream work;
 2. mark the affected artifact non-authoritative;
-3. identify the missing authority, Layout Map, or earliest failed object;
+3. identify the missing authority, Producer-cleared Layout Map, or earliest failed object;
 4. preserve only unbiased reusable material;
 5. restore exact-copy preflight, Specialist QA, Producer Review, ECD authority, and activation in valid order.

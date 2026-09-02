@@ -2,11 +2,11 @@
 
 ## Principle
 
-Creative Producer coordinates every formal transfer.
+Creative Producer coordinates every formal transfer and every formal intermediate release.
 
-A specialist return, Producer clearance, ECD decision, and authoritative handoff are distinct events. No specialist may release formal work directly to the ECD, another specialist, or a downstream stage.
+A specialist return, Producer clearance, ECD decision, and authoritative handoff are distinct events. No specialist may release formal work directly to the ECD, another specialist, or a downstream action.
 
-For text-bearing Social Editorial work, authoritative visual and Production handoffs must preserve exact-copy geometry through Copy-Aware Layout Maps and Type-Fit evidence.
+For text-bearing Social Editorial work, visual and Production handoffs preserve exact-copy geometry through Producer Cleared Copy-Aware Layout Maps and Type-Fit evidence.
 
 ## Transfer types
 
@@ -18,17 +18,23 @@ Creative Producer activates a specialist with authoritative inputs, scope, permi
 
 The specialist submits a formal artifact, self-QA, decision contract, limitations, and unresolved questions to Creative Producer.
 
-It is not yet an authoritative handoff.
+It is not yet an authoritative handoff or permission to continue into a dependent action.
 
 ### Producer Review
 
-Creative Producer independently verifies the artifact and records `Returned for Rework`, `Escalated for ECD Decision`, or `Producer Cleared`.
+Creative Producer independently verifies the artifact and records `Returned for Rework`, `Escalated for ECD Decision`, or `Producer Cleared` for a named next use.
+
+### Formal intermediate release
+
+Creative Producer may clear a formal intermediate object for one named internal action without activating the entire next stage.
+
+Example: a Producer Cleared Copy-Aware Layout Map releases Production-intent representative image proof. It does not grant ECD Visual Alignment or Production activation.
 
 ### ECD-facing release
 
 When ECD authority is required, Creative Producer releases a complete decision object and recommendation after Producer clearance.
 
-### Authoritative Handoff
+### Authoritative handoff
 
 Creative Producer transfers an artifact downstream only after its quality, authority, dependencies, feedback, copy-aware requirements, and activation conditions are satisfied.
 
@@ -80,6 +86,20 @@ Type-Fit evidence, when applicable:
 Known limitations:
 Unresolved conflicts or authority request:
 Recommended Producer disposition:
+Requested next use:
+```
+
+## Common Producer release record
+
+```markdown
+Artifact / version:
+Producer Review Record:
+Producer disposition:
+Released next use:
+Scope of release:
+Actions still forbidden:
+Required later ECD authority:
+Dependencies and expiry condition:
 ```
 
 ## Common authoritative-handoff envelope
@@ -100,7 +120,7 @@ Deferred inputs and capabilities:
 Applicable feedback closure:
 Evidence / rights / reference / asset conditions:
 Exact-copy source, when applicable:
-Copy-Aware Layout Map coverage, when applicable:
+Producer Cleared Copy-Aware Layout Map coverage, when applicable:
 Production-intent asset classification, when applicable:
 Type-Fit acceptance evidence, when applicable:
 Requested downstream output:
@@ -108,7 +128,7 @@ Return conditions:
 Next expected ECD gate:
 ```
 
-A handoff is invalid when the receiver must guess whether a statement is binding, optional, inferred, approved, Deferred, exploratory, or eligible for final use.
+A handoff or intermediate release is invalid when the receiver must guess whether a statement is binding, optional, inferred, approved, Deferred, exploratory, eligible for final use, or cleared only for a limited proof action.
 
 ## Development flow
 
@@ -193,18 +213,48 @@ Transfer:
 - exploratory / Production-intent image-class rule;
 - expected representative proof, Type-Fit evidence, and visual authority.
 
-### Art Director return to Creative Producer
+### Storyboard and Layout Map return
+
+Art Director may complete valid internal studies and exploratory image-world studies within the Visual stage.
+
+Before Production-intent representative imagery, Art Director returns:
+
+- Storyboard or sufficient staging reference;
+- exact-copy fidelity;
+- Copy-Aware Layout Map and version;
+- Art Director map self-QA;
+- copy hierarchy, provisional line behavior, and copy footprint;
+- image–type relationship and protected visual content;
+- quiet / overlap / occlusion / local-contrast conditions;
+- crop, variant, mask, and generation consequences;
+- requested next proof action.
+
+Creative Producer independently reviews the map.
+
+Disposition:
+
+```text
+Returned for Rework
+or
+Producer Cleared for Production-intent proof
+```
+
+No Production-intent image generation, selection, crop, extension, editing, or commitment occurs before this clearance.
+
+### Production-intent representative proof return
+
+After map clearance, Art Director may produce only the representative image proof named in the release record.
 
 Return:
 
-- visual artifact and version;
+- Production-intent Anchor / Design Comp and version;
 - visual self-QA;
 - Frame Script, Written Visual Requirement, and exact-copy fidelity;
 - Artifact Decision Contract and delta;
 - active-input and reference-resolution state;
-- Copy-Aware Layout Maps;
-- image-class status and Production-intent asset consequences;
-- representative proof and Type-Fit evidence;
+- cleared Layout Map reference and compliance;
+- image-class status;
+- representative Type-Fit evidence;
 - professional recommendation;
 - known risks, tolerances, and unresolved authority questions.
 
@@ -222,7 +272,7 @@ Creative Producer activates Production only when:
 Art Director self-QA
 + Producer Cleared Art Direction
 + required ECD visual authority
-+ valid Copy-Aware Layout Map coverage
++ Producer Cleared Copy-Aware Layout Map coverage
 + representative Type-Fit evidence
 + current dependencies and closed blocking feedback
 ```
@@ -237,7 +287,8 @@ Transfer:
 - permitted copy compression and minimum readable thresholds;
 - governing visual decisions and authority records;
 - Storyboard, Production-intent Anchors, Design Comp, and Producer Cleared Art Direction Package;
-- Copy-Aware Layout Maps for every Production-intent screen or valid page class;
+- Producer Cleared Copy-Aware Layout Maps for every Production-intent screen or valid page class;
+- map review records and released uses;
 - image-class records and generation / sourcing / editing consequences;
 - Type-Fit acceptance criteria;
 - Deliverable Contract;
@@ -246,7 +297,7 @@ Transfer:
 - exact technical specifications, locks, tolerances, and fallbacks;
 - acceptance criteria and final QA requirements.
 
-Production Artist may not begin direct-use image realization from a generic brief or an isolated reference image.
+Production Artist may not begin direct-use image realization from a generic brief, an uncleared map, or an isolated reference image.
 
 ### Production Artist return to Creative Producer
 
@@ -256,7 +307,7 @@ Return:
 - Production self-QA;
 - Artifact Decision Contract and implementation delta;
 - input resolution and provenance;
-- Copy-Aware Layout Map references;
+- Producer Cleared Layout Map references;
 - Production-intent image compliance;
 - exact-copy verification and Type-Fit Proof;
 - mobile and technical QA;
@@ -280,16 +331,16 @@ Creative Producer routes rework to the earliest affected object:
 
 ## Handoff QA
 
-An authoritative handoff passes when:
+An authoritative handoff or formal intermediate release passes when:
 
 - artifact, version, quality state, and authority state are identifiable;
-- Producer Review passed;
-- required ECD authority is recorded;
+- Producer Review passed for the named next use;
+- required ECD authority is recorded where applicable;
 - Artifact Decision Contract and dependencies are current;
 - active and Deferred capabilities are explicit;
 - original source and professional interpretation remain distinguishable;
 - applicable ECD feedback is closed or disclosed;
-- text-bearing Production-intent work has valid Layout Map coverage;
+- text-bearing Production-intent work has Producer Cleared Layout Map coverage;
 - exploratory and Production-intent assets are distinguishable;
 - exact-copy Type-Fit evidence exists where required;
 - the receiver can work without inventing upstream decisions or solving copy geometry after the fact;

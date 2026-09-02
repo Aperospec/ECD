@@ -66,9 +66,11 @@ Apply `shared/PRODUCER_CONTROL_LOOP.md`.
 
 ### 7. No Copy-Blind Image Production
 
-Exact ECD-aligned copy must shape composition before any image asset intended for direct final use is generated, selected, cropped, or committed.
+Exact ECD-aligned copy must shape composition before any image asset intended for direct final use is generated, selected, cropped, extended, or committed.
 
-A Copy-Aware Layout Map must define copy hierarchy, provisional line behavior, text footprint, image–type relationship, protected visual content, local contrast, crop latitude, and generation consequences. Exploratory image-world studies may not be silently promoted into final assets. Required audience text remains deterministic and editable by default.
+A Copy-Aware Layout Map must define copy hierarchy, provisional line behavior, text footprint, image–type relationship, protected visual content, local contrast, crop latitude, and generation consequences. The map is a formal Art Director return and must pass Creative Producer review before Production-intent image work begins.
+
+Exploratory image-world studies may not be silently promoted into final assets. Required audience text remains deterministic and editable by default.
 
 Apply `art-director/references/copy-aware-composition.md`.
 
@@ -104,7 +106,7 @@ Use:
 
 ## Producer Control Loop
 
-Every formal stage uses the same control pattern:
+Every formal stage and formal intermediate gate uses the same control pattern:
 
 ```text
 Creative Producer assignment
@@ -115,8 +117,8 @@ Creative Producer assignment
    ├─ Return for Rework
    ├─ Escalate a genuine ECD decision
    └─ Producer Cleared
-→ complete ECD decision object when required
-→ ECD decision
+→ next authorized internal proof or ECD decision object
+→ ECD decision when required
 → Creative Producer records authority and activates the next stage
 ```
 
@@ -231,18 +233,25 @@ Visual Problem Statement
 → Formal Studies
 → Storyboard / Visual Sequence Board
 → Copy Hierarchy and Copy-Aware Layout Maps
-→ Representative Anchor Keyframes
+→ Art Director self-QA of Layout Maps
+→ Creative Producer review and clearance of Layout Maps
+→ Production-intent Anchor Keyframes
 → Representative Design Comp with exact copy
 → Type-Fit and target-width proof
+→ Art Director self-QA
+→ Creative Producer review
+→ required ECD Visual Alignment
 → Color and Sequence System
 → Art Direction Package
 ```
 
-A Copy-Aware Layout Map is required before any Production-intent image asset or Anchor is generated, selected, cropped, or committed. It uses exact copy at target geometry to establish provisional line breaks, copy footprint, image–type relationship, protected subject or evidence zones, quiet or overlap zones, layer order, local contrast, and image-generation consequences.
+A Copy-Aware Layout Map is required before any Production-intent image asset or Anchor is generated, selected, cropped, extended, or committed. It uses exact copy at target geometry to establish provisional line breaks, copy footprint, image–type relationship, protected subject or evidence zones, quiet or overlap zones, layer order, local contrast, and image-generation consequences.
 
-Exploratory image-world studies may be created only to answer atmosphere, material, light, world-logic, or reference questions. They must be marked exploratory and cannot become final page assets until they pass copy-aware composition and representative proof.
+The Layout Map is a formal Art Director return. Creative Producer must independently review and clear it before Production-intent image work begins. Producer clearance of the map authorizes representative image development only; it does not replace required ECD Visual Alignment of the resulting governing visual system.
 
-A new visual system, or a revision that changes an ECD-approved governing visual decision, requires ECD Visual Alignment from actual representative proof before broad production.
+Exploratory image-world studies may be created only to answer atmosphere, material, light, world-logic, or reference questions. They must be marked exploratory and cannot become final page assets until they pass copy-aware composition, Producer Review, and representative proof.
+
+A new visual system, or a revision that changes an ECD-approved governing visual decision, requires ECD Visual Alignment from actual representative proof before broad Production.
 
 Art Director returns formal outputs to Creative Producer. Creative Producer verifies Script fidelity, copy-aware composition, visual sufficiency, feedback closure, and decision readiness before release or Production activation.
 
@@ -262,7 +271,7 @@ Production begins only when:
 ```text
 Producer Cleared Art Direction
 + required ECD visual authority
-+ Copy-Aware Layout Maps for Production-intent screens
++ Producer Cleared Copy-Aware Layout Maps for Production-intent screens
 + Activated Production inputs
 ```
 
@@ -271,7 +280,7 @@ Production Artist owns faithful realization, exact typography and layout, varian
 The required order is:
 
 ```text
-verify exact copy and Copy-Aware Layout Map
+verify exact copy and Producer Cleared Layout Map
 → translate the map into image-generation / sourcing constraints
 → generate, select, edit, or extend text-free image assets
 → compose exact copy deterministically
@@ -306,7 +315,8 @@ Raw Brief
 → Producer Cleared Creative Script
 → ECD Script Alignment
 → Visual Problem, Route, and Storyboard
-→ Copy-Aware Layout Maps
+→ Copy-Aware Layout Maps + Art Director Self-QA
+→ Producer Review and clearance of Layout Maps
 → Production-intent Anchors and Representative Design Comp
 → Art Director Self-QA
 → Producer Review

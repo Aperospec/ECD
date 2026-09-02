@@ -6,7 +6,7 @@ The Art Direction Package converts accepted visual development into an executabl
 
 It is a formal Art Director output. It requires Art Director self-QA and independent Producer Review before any authoritative handoff.
 
-For text-bearing Social Editorial work, it must carry the Copy-Aware Layout Maps and image-generation consequences needed to prevent copy-blind asset production.
+For text-bearing Social Editorial work, it must carry Producer Cleared Copy-Aware Layout Maps and the image-generation consequences needed to prevent copy-blind asset Production.
 
 ## Input gate
 
@@ -23,7 +23,8 @@ Require:
 - resolved formal studies and Storyboard;
 - accepted Production-intent Anchor Keyframes;
 - Representative Design Comp when required;
-- Copy-Aware Layout Maps for every Production-intent screen or valid page class;
+- Producer Cleared Copy-Aware Layout Maps for every Production-intent screen or valid page class;
+- Layout Map Producer Review Records and released next actions;
 - representative Type-Fit evidence;
 - required ECD Visual Alignment for governing visual decisions;
 - Deliverable Contract and viewing conditions;
@@ -46,7 +47,8 @@ Selected Concept Route:
 Storyboard:
 Production-intent Anchor Keyframes:
 Representative Design Comp:
-Copy-Aware Layout Maps:
+Producer Cleared Copy-Aware Layout Maps:
+Layout Map Producer Review Records:
 Type-Fit evidence:
 Visual authority records:
 Creative Producer assignment:
@@ -95,6 +97,7 @@ Copy hierarchy:
 Minimum readable scale:
 Permitted line-break tolerance:
 Page-class Layout Maps:
+Map Producer Review Records:
 Image-class rules:
 Protected visual-content rules:
 Quiet / overlap / occlusion rules:
@@ -121,8 +124,9 @@ Written Visual Requirements:
 Exact copy:
 Activated Visual inputs served:
 Storyboard / Anchor / Comp reference:
-Copy-Aware Layout Map:
-Image class: [Exploratory prohibited / Production-intent]
+Producer Cleared Copy-Aware Layout Map:
+Map Review Record / released use:
+Image class: Production-intent
 First glance:
 Second glance:
 Third glance:
@@ -149,7 +153,8 @@ Return condition:
 ## Production Plan
 Required assets:
 Production-intent image tasks:
-Copy-Aware Layout Map references:
+Producer Cleared Layout Map references:
+Released uses and limits:
 Deterministic typography requirements:
 Type-Fit Proof requirements:
 Crop and safe-area behavior:
@@ -166,7 +171,7 @@ Visual Problem fidelity:
 Concept Route fidelity:
 Reference and metaphor fidelity:
 Storyboard / Anchor / Design Comp fidelity:
-Copy-Aware Layout Map completeness:
+Layout Map clearance and coverage:
 Production-intent image compliance:
 Type-Fit and target-width proof:
 Active-input resolution:
@@ -188,19 +193,19 @@ Open issue:
 
 Every final text-bearing screen must have either:
 
-- its own Copy-Aware Layout Map; or
-- a valid page-class map whose geometry, hierarchy, interaction model, and Production behavior apply without redesign.
+- its own Producer Cleared Copy-Aware Layout Map; or
+- a Producer Cleared page-class map whose geometry, hierarchy, interaction model, and Production behavior apply without redesign.
 
 Exact copy fit must still be verified per screen.
 
-A generic instruction such as `leave space for text` does not satisfy the map requirement.
+A generic instruction such as `leave space for text` or an Art Director-only map without Producer Review does not satisfy the requirement.
 
 ## Image asset classification
 
 The package must distinguish:
 
 - **Exploratory Image-World Studies** — reference or visual-language evidence only; not cleared for final-page use;
-- **Production-intent assets** — eligible for final use and developed under an identified Layout Map.
+- **Production-intent assets** — eligible for the released proof or final use and developed under an identified Producer Cleared Layout Map.
 
 An exploratory image cannot be included in the Production asset plan as though it were already composition-ready.
 
@@ -210,9 +215,9 @@ Art Direction determines how accepted meaning and exact copy become visual.
 
 A change to Development decisions, Script, Frame Script content, evidence, or copy returns through Creative Producer to the earliest affected owner.
 
-Production Artist may adjust only within recorded tolerances.
+Production Artist may adjust only within recorded tolerances and within the use released by Creative Producer.
 
-Production may not rescue an image that ignored the Layout Map by changing copy, shrinking required text below the accepted threshold, abandoning hierarchy, obscuring protected content, or adding emergency opaque boxes outside the accepted visual system.
+Production may not rescue an image that ignored the cleared Layout Map by changing copy, shrinking required text below the accepted threshold, abandoning hierarchy, obscuring protected content, or adding emergency opaque boxes outside the accepted visual system.
 
 ## Producer Review and handoff
 
@@ -224,12 +229,13 @@ Creative Producer verifies:
 - Artifact Decision Contract and visual delta;
 - required ECD visual authority;
 - representative proof;
-- Layout Map coverage for Production-intent screens;
+- Producer Cleared Layout Map coverage for Production-intent screens;
+- map Review Records and released uses;
 - image-class validity and generation constraints;
 - exact-copy Type-Fit evidence;
-- production completeness and executability;
+- Production completeness and executability;
 - active-input and feedback closure;
-- absence of hidden redesign or copy-blind image production.
+- absence of hidden redesign or copy-blind image Production.
 
 Only a Producer Cleared package with required visual authority and valid copy-aware coverage can become Handoff Ready and activate Production.
 
@@ -241,8 +247,8 @@ Art Director self-QA passes when:
 - accepted reference and metaphor logic is explicit;
 - route, Storyboard, Anchors, and Design Comp agree;
 - each screen has one clear visual task;
-- every Production-intent screen has valid Layout Map coverage;
-- Production-intent assets inherit exact-copy geometry, protected zones, and generation consequences;
+- every Production-intent screen has Producer Cleared Layout Map coverage;
+- Production-intent assets were created only after the applicable map clearance and inherit exact-copy geometry, protected zones, and generation consequences;
 - representative Type-Fit passes at target conditions;
 - sequence progression is intentional;
 - typography supports exact copy;

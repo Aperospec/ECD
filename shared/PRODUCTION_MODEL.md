@@ -4,7 +4,7 @@
 
 ECD uses an adaptive, stage-gated production model controlled by Creative Producer.
 
-Every formal stage combines professional ownership, specialist self-QA, independent Producer Review, required ECD authority, and explicit stage activation.
+Every formal stage and formal intermediate gate combines professional ownership, specialist self-QA, independent Producer Review, required ECD authority, and an explicitly released next action.
 
 For text-bearing Social Editorial work, exact copy must shape composition before Production-intent imagery, and deterministic typography must pass Type-Fit before final release.
 
@@ -32,7 +32,7 @@ Complexity is assessed through:
 - structural and dependency complexity;
 - visual novelty and proof burden;
 - copy–image interdependence;
-- production scope, surfaces, and variants.
+- Production scope, surfaces, and variants.
 
 Profiles:
 
@@ -42,7 +42,7 @@ Profiles:
 
 Compression reduces documentation and proof volume. It does not remove decision inheritance, specialist self-QA, Producer Review, required ECD authority, copy-aware composition, or stage boundaries.
 
-## Universal stage loop
+## Universal control loop
 
 ```text
 Creative Producer assignment
@@ -52,10 +52,12 @@ Creative Producer assignment
 → Producer Review
    ├─ Return for Rework
    ├─ Escalate for ECD Decision
-   └─ Producer Cleared
-→ ECD decision when required
-→ Creative Producer records authority and activates next stage
+   └─ Producer Cleared for a named next use
+→ next authorized internal proof or ECD decision
+→ Creative Producer records authority and releases the next action
 ```
+
+Producer clearance must identify what it releases. It does not become a general permission to continue through later gates.
 
 Apply `PRODUCER_CONTROL_LOOP.md`.
 
@@ -75,7 +77,7 @@ Raw or unresolved input
 
 The Treatment defines what the project is, why it matters, how its central logic holds, what audience consequence it seeks, and its factual, speculative, rights, reference, claim, and semantic boundaries.
 
-Greenlight accepts only the identified Treatment and authorizes Editorial development. It does not accept sequence, copy, visual direction, Storyboard, layout, or production.
+Greenlight accepts only the identified Treatment and authorizes Editorial development. It does not accept sequence, copy, visual direction, Storyboard, layout, or Production.
 
 ## Phase II — Editorial
 
@@ -122,10 +124,15 @@ ECD-aligned Script
 → Boards, Concept Routes, and Formal Studies
 → Storyboard / Visual Sequence Board
 → Copy Hierarchy and Copy-Aware Layout Maps
+→ Art Director map self-QA
+→ formal map return to Creative Producer
+→ Producer Review
+   ├─ Return map for Rework
+   └─ Producer Cleared for Production-intent proof
 → Production-intent Anchor Keyframes
 → Representative Design Comp with exact copy
 → Representative Type-Fit and target-width proof
-→ Art Director self-QA
+→ Art Director visual self-QA
 → Producer Review
 → required ECD Visual Alignment
 → Color and Sequence System
@@ -135,6 +142,10 @@ ECD-aligned Script
 A Copy-Aware Layout Map is required before any image expected to enter a final screen is generated, selected, cropped, extended, or committed.
 
 The map uses exact copy at target geometry to define provisional line behavior, copy footprint, minimum readable scale, image–type relationship, protected visual content, quiet / overlap / occlusion zones, local contrast, crop latitude, and image-generation or sourcing consequences.
+
+The map is a formal Art Director return. Production-intent image work remains inactive until Creative Producer independently reviews it and records `Producer Cleared for Production-intent proof`.
+
+Producer clearance of the map authorizes only the representative image work named in the review record. It does not replace ECD Visual Alignment of the governing visual system and does not activate broad Production.
 
 Exploratory Image-World Studies may test atmosphere, material, light, world logic, or reference transfer. They remain explicitly exploratory and cannot be silently promoted into final-page assets.
 
@@ -153,7 +164,7 @@ Apply `../art-director/references/copy-aware-composition.md`.
 ```text
 Producer Cleared Art Direction
 + required ECD visual authority
-+ Copy-Aware Layout Maps
++ Producer Cleared Copy-Aware Layout Maps
 + Activated Production inputs
 → copy-aware preflight
 → Production-intent image realization
@@ -169,11 +180,11 @@ Producer Cleared Art Direction
 
 Production preserves all authoritative meaning, exact copy, evidence, visual direction, reference boundaries, Layout Maps, and technical conditions within recorded tolerances.
 
-Required audience text remains separate and deterministic by default. Image rendering does not satisfy exact-copy production.
+Required audience text remains separate and deterministic by default. Image rendering does not satisfy exact-copy Production.
 
 Production convenience does not authorize:
 
-- direct-use imagery without Layout Map coverage;
+- direct-use imagery without Producer Cleared Layout Map coverage;
 - silent promotion of exploratory imagery;
 - copy changes;
 - unreadable type reduction;
@@ -188,9 +199,9 @@ Type-Fit failure returns to the earliest affected object: copy, hierarchy, Layou
 - Deliverable Contract, Stage-Scoped Input Register, Project State, assignments, Producer Review, feedback closure, handoffs, decisions, locks, and activation — Creative Producer.
 - Creative Treatment craft — Development coordinated by Creative Producer; Greenlight authority belongs to ECD.
 - Creative Script, Frame Scripts, Written Visual Requirements, and exact copy — Editorial Director; every new Script requires ECD alignment.
-- Visual problem, routes, Storyboard, Copy-Aware Layout Maps, Anchors, Design Comp, Type-Fit proof, and Art Direction — Art Director; governing visual authority belongs to ECD when established or changed.
+- Visual problem, routes, Storyboard, Copy-Aware Layout Maps, Anchors, Design Comp, Type-Fit proof, and Art Direction — Art Director; formal visual objects return to Creative Producer; governing visual authority belongs to ECD when established or changed.
 - Final image assets, deterministic typography, final Type-Fit, and Production self-QA — Production Artist; Final Acceptance belongs to ECD.
-- Project-wide release readiness — Creative Producer.
+- Project-wide release readiness and every formally released next action — Creative Producer.
 
 ## Adaptive entry
 
@@ -209,7 +220,8 @@ Routes:
 - unresolved premise or governing logic → Development;
 - Greenlit Treatment → Editorial;
 - ECD-aligned Script → Visual Development;
-- Producer Cleared Art Direction with required visual authority and Layout Map coverage → Production;
+- Producer Cleared Layout Map → named Production-intent representative proof only;
+- Producer Cleared Art Direction with required visual authority and Producer Cleared Layout Map coverage → Production;
 - localized defect → earliest affected professional object.
 
 ## Final review
@@ -217,12 +229,12 @@ Routes:
 Before Final Acceptance, Creative Producer confirms:
 
 - Deliverable Contract is complete;
-- all formal outputs passed Producer Review;
+- all formal outputs and formal intermediate gates passed Producer Review;
 - required ECD authority is present;
 - all material registered inputs are resolved or explicitly open;
 - all applicable feedback items have closure states;
 - authoritative project meaning, Script, Frame Scripts, exact copy, and visual direction survived downstream work;
-- every Production-intent screen has traceable Layout Map coverage;
+- every Production-intent screen has traceable Producer Cleared Layout Map coverage;
 - exploratory and Production-intent assets are correctly classified;
 - exact copy passes Type-Fit at target geometry and actual viewing width;
 - references, evidence, rights, attribution, and limitations remain correct;

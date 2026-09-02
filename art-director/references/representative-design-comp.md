@@ -4,7 +4,7 @@
 
 The Representative Design Comp is Art Director's high-fidelity proof of the page-design system before broad Production.
 
-It uses target geometry, exact ECD-aligned copy, credible Production-intent imagery, intended hierarchy, and a Copy-Aware Layout Map so Production Artist does not infer design decisions from prose or rescue a copy-blind image after generation.
+It uses target geometry, exact ECD-aligned copy, credible Production-intent imagery, intended hierarchy, and a Producer Cleared Copy-Aware Layout Map so Production Artist does not infer design decisions from prose or rescue a copy-blind image after generation.
 
 Formal Comps return to Creative Producer for review.
 
@@ -14,14 +14,15 @@ Formal Comps return to Creative Producer for review.
 - selected Concept Route;
 - accepted Storyboard direction;
 - accepted Production-intent Anchor Keyframes or an explicit reason an Anchor is unnecessary;
-- Copy-Aware Layout Map for every represented screen or page class;
+- Producer Cleared Copy-Aware Layout Map for every represented screen or page class;
+- Layout Map Producer Review Record and released next action;
 - Deliverable Contract and target geometry;
 - Activated Visual inputs;
 - reference and rights boundaries;
 - identified high-risk page classes;
 - Artifact Decision Contracts, locks, and applicable feedback.
 
-An Exploratory Image-World Study cannot serve as the final Comp image without first passing Copy-Aware Composition and being reclassified as Production-intent.
+An Exploratory Image-World Study cannot serve as the final Comp image without first passing Copy-Aware Composition, Producer Review, and reclassification as Production-intent.
 
 ## Coverage
 
@@ -33,8 +34,8 @@ Choose the smallest set that proves the system:
 
 Every unrepresented final screen must either:
 
-- inherit a genuinely equivalent approved page-class map; or
-- receive its own Copy-Aware Layout Map before Production-intent imagery.
+- inherit a genuinely equivalent Producer Cleared page-class map; or
+- receive its own Producer Cleared Copy-Aware Layout Map before Production-intent imagery.
 
 Exact copy fit remains a per-screen requirement even when a page-class map is shared.
 
@@ -50,6 +51,8 @@ Screens represented:
 Questions being resolved:
 Artifact Decision Contract:
 Copy-Aware Layout Map:
+Layout Map Producer Review Record:
+Released next action:
 Image class: Production-intent
 
 ## Visual Premise
@@ -111,7 +114,7 @@ Permitted tolerances:
 
 ## Art Director Self-QA
 Upstream fidelity:
-Layout Map fidelity:
+Layout Map clearance and fidelity:
 Proof result:
 Actual-width mobile test:
 Visual delta:
@@ -149,8 +152,9 @@ Confirm:
 
 Confirm:
 
+- the governing Layout Map passed Art Director self-QA and Producer Review before Production-intent imagery began;
 - exact copy shaped the composition before Production-intent imagery was committed;
-- the Comp agrees with its Layout Map;
+- the Comp agrees with the cleared Layout Map;
 - high-information visual content is protected;
 - intended quiet, overlap, occlusion, wrap, or framing relationships are deliberate;
 - local contrast is sufficient without emergency opaque boxes;
@@ -191,7 +195,7 @@ Creative Producer verifies:
 
 - Script, Frame Script, route, and Anchor fidelity;
 - Artifact Decision Contract and visual delta;
-- Copy-Aware Layout Map and image-class validity;
+- prior Layout Map clearance, current map fidelity, and image-class validity;
 - exact-copy Type-Fit under actual target conditions;
 - absence of emergency repair or hidden redesign;
 - applicable feedback closure;
@@ -226,8 +230,8 @@ Art Director self-QA passes when the Comp:
 - proves identified design questions at target conditions;
 - remains faithful to accepted upstream decisions;
 - uses exact copy;
-- is traceable to a valid Copy-Aware Layout Map;
-- uses Production-intent imagery developed or selected under that map;
+- is traceable to a Producer Cleared Copy-Aware Layout Map;
+- uses Production-intent imagery developed or selected only after map clearance;
 - passes Type-Fit without unauthorized semantic or hierarchy changes;
 - resolves mobile and representative variant behavior credibly;
 - records visual delta and open variables;

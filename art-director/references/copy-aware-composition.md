@@ -4,11 +4,11 @@
 
 Copy-Aware Composition is the required bridge between an ECD-aligned Creative Script and any image asset intended for direct use in a final Social Editorial screen.
 
-The image is not developed as an independent illustration and decorated with text afterward. Exact copy, target geometry, hierarchy, line behavior, protected content, and image–type relationship must shape the composition before production-intent image generation or selection begins.
+The image is not developed as an independent illustration and decorated with text afterward. Exact copy, target geometry, hierarchy, line behavior, protected content, and image–type relationship must shape the composition before Production-intent image generation or selection begins.
 
 ## Core invariant
 
-> Exact authoritative copy must influence composition before any image asset intended for direct final use is generated, selected, cropped, or committed.
+> Exact authoritative copy must influence composition before any image asset intended for direct final use is generated, selected, cropped, extended, or committed.
 
 Text avoidance is only one possible result. The purpose is a coherent image–type system, not a default empty column beside an image.
 
@@ -17,7 +17,7 @@ Text avoidance is only one possible result. The purpose is a coherent image–ty
 - **Editorial Director** owns exact audience copy and any meaning-preserving compression authorized in the Script.
 - **Art Director** owns copy hierarchy, provisional line behavior, spatial allocation, image–type relationship, protected zones, visual interaction, and the Copy-Aware Layout Map.
 - **Production Artist** owns exact typography, geometry, masking, assembly, variant adaptation, and the Type-Fit Proof within accepted Art Direction.
-- **Creative Producer** verifies that the gate passed before visual release, Production activation, and Final Acceptance presentation.
+- **Creative Producer** independently reviews the Layout Map, clears or returns it, and verifies all later copy-aware gates.
 
 No role may change exact copy merely to rescue an image or layout.
 
@@ -36,13 +36,13 @@ It must be clearly marked `Exploratory` and may not be silently promoted into:
 - a final crop;
 - an authoritative page composition.
 
-Before reuse in a final screen, it must pass through a Copy-Aware Layout Map and be re-evaluated, adapted, regenerated, or rejected.
+Before reuse in a final screen, it must pass through a Producer Cleared Copy-Aware Layout Map and be re-evaluated, adapted, regenerated, or rejected.
 
-### Production-Intent Image Asset
+### Production-intent Image Asset
 
-An image generated, selected, extended, or edited with a reasonable expectation that it may appear in a final screen.
+An image generated, selected, extended, cropped, or edited with a reasonable expectation that it may appear in a final screen.
 
-It requires an approved Copy-Aware Layout Map before creation or commitment.
+It requires a Producer Cleared Copy-Aware Layout Map before creation or commitment.
 
 ## Copy-Aware Layout Map
 
@@ -104,15 +104,33 @@ Extension / inpainting latitude:
 Required editable layers or masks:
 Generation / sourcing constraints:
 
-## Proof State
-Storyboard reference:
-Anchor reference:
-Design Comp reference:
-Open question:
+## Gate State
 Art Director self-QA:
-Producer Review state:
+Producer Review Record:
+Producer disposition:
+Cleared for Production-intent image work: [yes / no]
 Required ECD visual authority:
 ```
+
+## Layout Map clearance gate
+
+The Layout Map is a formal Art Director return.
+
+Before Production-intent image work begins:
+
+```text
+Art Director creates Layout Map
+→ Art Director self-QA
+→ return to Creative Producer
+→ Producer Review
+   ├─ Returned for Rework
+   └─ Producer Cleared for Production-intent proof
+→ Production-intent image generation / selection / editing may begin
+```
+
+Producer clearance of the map is project-level release authority. It is not ECD approval of the governing visual system. Required ECD Visual Alignment still occurs from representative proof before broad Production.
+
+No specialist may create the map and immediately bypass Creative Producer to generate a Production-intent image.
 
 ## Image–type relationship modes
 
@@ -136,19 +154,21 @@ ECD-aligned exact copy
 → copy hierarchy
 → provisional line breaks at target geometry
 → Copy-Aware Layout Map
-→ low-cost layout scaffold / Storyboard proof
-→ Production-intent image brief
+→ Art Director self-QA
+→ Producer Review and clearance of the map
+→ low-cost layout scaffold / Production-intent image brief
 → text-free image generation, selection, or editing
 → deterministic typography and masking
 → Type-Fit Proof
+→ Producer Review
 → mobile and variant verification
 ```
 
-The order may be compressed, but the dependency may not be reversed.
+The workflow may be compressed, but neither Producer Review nor the dependency order may be reversed.
 
 ## Production-intent image brief
 
-Before generating or sourcing a Production-intent image, translate the Layout Map into explicit image consequences:
+After the Layout Map is Producer Cleared, translate it into explicit image consequences:
 
 - where the subject and focal detail must sit;
 - which regions must remain quiet, dark, light, extensible, or low-detail;
@@ -205,36 +225,49 @@ When Type-Fit fails, identify the earliest failed object:
 
 Changing approved copy is not the default repair for a copy-blind image.
 
-## Producer Review Gate
+## Producer Review gates
 
-Before clearing visual work or activating Production, Creative Producer verifies:
+### Before Production-intent image work
+
+Creative Producer verifies:
 
 - exact Script copy was used rather than placeholder copy;
-- a Layout Map exists for each Production-intent screen or valid page class;
 - provisional line behavior and copy footprint were tested at target geometry;
 - protected visual content and quiet / overlap zones are explicit;
-- image-generation or sourcing instructions inherit the map;
+- the image–type relationship and asset consequences are actionable;
+- the map is mature enough to guide a representative image without hidden composition decisions.
+
+Only a Producer Cleared map may release Production-intent image work.
+
+### Before visual release or Production activation
+
+Creative Producer verifies:
+
+- Production-intent imagery inherited the cleared map;
 - Exploratory studies were not silently promoted;
-- Production-intent imagery excludes uncontrolled final copy;
+- required audience text remains controlled and separate;
 - representative Type-Fit Proof exists before scale-out;
 - failures were returned to the earliest affected owner rather than repaired by unreadable text or ad hoc boxes.
 
-An artifact that fails this gate is not `Producer Cleared` for visual release or Production handoff.
+An artifact that fails either gate is not `Producer Cleared` for its next use.
 
 ## Compact work
 
 Compact work may combine the Layout Map, Storyboard, Anchor, and Design Comp into one proof when that proof uses exact copy and genuinely resolves the required questions.
 
-It may not omit copy geometry before Production-intent image generation.
+The combined artifact still requires Art Director self-QA and Producer clearance before Production-intent image work.
+
+It may not omit copy geometry or Producer Review.
 
 ## Quality gate
 
 Copy-Aware Composition passes when:
 
 - exact copy visibly shaped the image composition before Production-intent generation or selection;
+- the Layout Map was Producer Cleared before Production-intent image work;
 - the selected image–type relationship is deliberate and appropriate;
 - image assets preserve copy zones and essential visual content;
 - exact deterministic typography fits without unauthorized semantic or hierarchy change;
 - the result passes target-width and variant checks;
-- the map, proof, and authority state are traceable;
+- the map, proof, review, and authority state are traceable;
 - Creative Producer independently cleared the result.

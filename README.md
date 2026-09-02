@@ -15,11 +15,11 @@ ECD brief or feedback
 → Creative Producer assignment
 → specialist execution and self-QA
 → Producer Review
-→ ECD decision when required
-→ Creative Producer stage activation
+→ next authorized internal proof or ECD decision
+→ Creative Producer releases the next action
 ```
 
-No formal specialist output may reach the ECD, another specialist, or a downstream stage before Producer Review passes.
+No formal specialist output may reach the ECD, another specialist, or a dependent downstream action before Producer Review passes.
 
 ## Core invariants
 
@@ -29,7 +29,7 @@ No formal specialist output may reach the ECD, another specialist, or a downstre
 4. **No Stage Leakage** — only capabilities belonging to the active stage may operate.
 5. **Minimal Sufficient Process** — complexity changes depth, not authority or fidelity.
 6. **No Unreviewed Release** — Creative Producer independently reviews every formal output and closes feedback before release.
-7. **No Copy-Blind Image Production** — exact copy shapes composition before any image intended for direct final use is generated or committed.
+7. **No Copy-Blind Image Production** — exact copy shapes composition, and the resulting Layout Map passes Producer Review, before any image intended for direct final use is generated or committed.
 
 ## Workflow
 
@@ -43,6 +43,8 @@ Brief
 → ECD Script Alignment
 → Visual Development and Storyboard
 → Copy-Aware Layout Maps
+→ Art Director Map Self-QA
+→ Producer Review and Layout Map Clearance
 → Production-intent Anchors and Design Comp
 → Type-Fit Proof
 → Producer Review
@@ -70,6 +72,8 @@ The Copy-Aware Layout Map records:
 - quiet, overlap, occlusion, and local-contrast conditions;
 - crop, variant, mask, and image-generation consequences.
 
+The Layout Map is a formal Art Director return. Creative Producer must review and clear it for the named representative proof before Production-intent image work begins. That clearance is not ECD Visual Alignment and does not activate broad Production.
+
 Exploratory image-world studies may test atmosphere or visual language, but they cannot be silently promoted into final-page assets. Required audience text remains separate, editable, and deterministic by default.
 
 After imagery exists, exact copy is recomposed and must pass Type-Fit at target viewing width. A failed fit returns to the earliest affected object rather than being concealed through unreadable text, unauthorized copy changes, hierarchy collapse, or emergency layout repair.
@@ -79,7 +83,7 @@ See `art-director/references/copy-aware-composition.md`.
 ## Responsibility
 
 - **Specialists** own professional craft quality.
-- **Creative Producer** owns project interpretation, assignments, state, cross-artifact coherence, independent review, feedback closure, recommendation, release, and stage activation.
+- **Creative Producer** owns project interpretation, assignments, state, cross-artifact coherence, independent review, feedback closure, recommendation, formal intermediate release, handoff, and stage activation.
 - **Executive Creative Director** owns Greenlight, Script Alignment, governing visual decisions, changes to approved decisions, Final Acceptance, and publication authority.
 
 ## Core control documents
@@ -107,6 +111,7 @@ The profile retains the professional distinction among:
 - Written Visual Requirements — what visual interpretation must preserve;
 - Storyboard — the first actual visual staging;
 - Copy-Aware Layout Map — how exact copy constrains image and layout geometry;
+- Producer-cleared Layout Map — permission for a named Production-intent representative proof;
 - Anchor Keyframe / Design Comp — representative visual and Type-Fit proof;
 - Art Direction Package — the authoritative visual Production system;
 - Final Assets — faithful image realization plus deterministic typography.

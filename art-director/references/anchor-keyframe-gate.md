@@ -26,11 +26,13 @@ It must be marked `Exploratory`. It is not an Anchor eligible for direct final-p
 
 ### Production-intent Anchor
 
-Is generated, selected, edited, or cropped with a reasonable expectation that it may inform or enter a final screen.
+Is generated, selected, edited, cropped, or extended with a reasonable expectation that it may inform or enter a final screen.
 
-It requires a Copy-Aware Layout Map before creation or commitment.
+It requires a Producer Cleared Copy-Aware Layout Map before creation or commitment.
 
 The map must use exact copy and define provisional line behavior, copy footprint, protected visual content, image–type relationship, local contrast, crop latitude, and generation consequences.
+
+Producer clearance of the map authorizes representative image proof only. It does not replace ECD Visual Alignment of the governing visual system.
 
 Apply `copy-aware-composition.md`.
 
@@ -39,10 +41,11 @@ Apply `copy-aware-composition.md`.
 - Concept Route establishes governing visual logic.
 - Storyboard stages the sequence at low cost and identifies copy-aware spatial needs.
 - Copy-Aware Layout Map converts exact copy into visual and image-generation constraints.
+- Producer Review clears the map for its named next use.
 - Anchor Keyframes prove representative image-world language within those constraints.
 - Representative Design Comp proves actual typography, hierarchy, geometry, Type-Fit, and mobile behavior.
 
-Compact work may combine proof objects when one artifact genuinely resolves all required questions. Authority and Producer Review remain distinct.
+Compact work may combine proof objects when one artifact genuinely resolves all required questions. Authority and Producer Review remain distinct and traceable.
 
 ## Required inputs
 
@@ -56,7 +59,8 @@ Compact work may combine proof objects when one artifact genuinely resolves all 
 - Storyboard or sufficiently resolved staging;
 - target geometry and viewing condition;
 - Artifact Decision Contracts and active locks;
-- Copy-Aware Layout Map for every Production-intent Anchor;
+- Producer Cleared Copy-Aware Layout Map for every Production-intent Anchor;
+- Layout Map Producer Review Record and released next action;
 - Creative Producer assignment and proof question.
 
 ## Anchor record
@@ -71,6 +75,8 @@ Target surface:
 Artifact Decision Contract:
 Image class: [Exploratory / Production-intent]
 Copy-Aware Layout Map:
+Layout Map Producer Review Record:
+Released next action:
 
 ## Anchor [number]
 Role:
@@ -114,7 +120,8 @@ Each Anchor must prove:
 
 Each Production-intent Anchor must additionally prove:
 
-- fidelity to its Copy-Aware Layout Map;
+- its Layout Map was Producer Cleared before image work began;
+- fidelity to that cleared map;
 - preservation of text footprint, protected zones, and local contrast;
 - sufficient crop and extension latitude;
 - absence of uncontrolled required audience text;
@@ -124,9 +131,11 @@ The representative body Anchor additionally proves that a specific beat does not
 
 ## Producer Review and gate effect
 
-Creative Producer independently verifies image class, proof, Layout Map fidelity, delta, feedback closure, and decision readiness.
+Creative Producer independently verifies image class, proof, prior Layout Map clearance, map fidelity, delta, feedback closure, and decision readiness.
 
-Before Producer clearance and required ECD Visual Alignment, visual output remains limited to studies and representative proof.
+Before Producer clearance of the Layout Map, Production-intent Anchor work is inactive.
+
+Before Producer clearance of the Anchor and required ECD Visual Alignment, visual output remains limited to representative proof and other valid internal studies.
 
 After required authority:
 
@@ -138,7 +147,7 @@ After required authority:
 
 When an Anchor fails:
 
-1. identify whether the cause is upstream fidelity, copy hierarchy, Layout Map, visual problem, intent, reference, metaphor, route, formal study, staging, or the image asset itself;
+1. identify whether the cause is upstream fidelity, copy hierarchy, Layout Map, missing map clearance, visual problem, intent, reference, metaphor, route, formal study, staging, or the image asset itself;
 2. return through Creative Producer;
 3. preserve unaffected decisions;
 4. revise the minimum representative proof;

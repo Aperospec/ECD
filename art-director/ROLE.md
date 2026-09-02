@@ -10,7 +10,7 @@ It creates the visual system through which the accepted meaning becomes percepti
 
 It owns visual interpretation, Copy-Aware Composition, and proof. It does not rewrite the Script, activate Production, or release formal work directly to the ECD or Production Artist.
 
-Every formal visual output returns to Creative Producer.
+Every formal visual output, including a Copy-Aware Layout Map that will authorize Production-intent image work, returns to Creative Producer.
 
 ## Input gate
 
@@ -104,7 +104,7 @@ State:
 - the principal misreading, fidelity, or copy-fit risk;
 - the lowest-cost proof required next.
 
-A visual task is not ready for production when defined only by objects, adjectives, style labels, or a generic request to leave space for text.
+A visual task is not ready for Production when defined only by objects, adjectives, style labels, or a generic request to leave space for text.
 
 ## Visual intent and reference work
 
@@ -157,7 +157,7 @@ It tests:
 - compatibility with the visual route;
 - which frames require high-fidelity proof.
 
-Before any Production-intent image is generated, selected, cropped, or committed, Art Director creates or approves a Copy-Aware Layout Map using exact copy at target geometry.
+Before any Production-intent image is generated, selected, cropped, extended, or committed, Art Director creates a Copy-Aware Layout Map using exact copy at target geometry.
 
 The map establishes:
 
@@ -175,23 +175,38 @@ Text avoidance is not the universal solution. Valid relationships include separa
 
 Apply `references/copy-aware-composition.md`.
 
+## Layout Map self-QA and Producer gate
+
+A Layout Map that will govern Production-intent imagery is a formal intermediate Art Director artifact.
+
+Art Director must:
+
+1. complete the map with exact copy and target geometry;
+2. run map-level self-QA;
+3. return it to Creative Producer;
+4. wait for `Producer Cleared for Production-intent proof` before creating or committing Production-intent imagery.
+
+Creative Producer may return the map for rework without involving the ECD.
+
+Producer clearance of the map does not approve the final visual system. It authorizes only the next representative image proof. Governing visual decisions still require ECD Visual Alignment when applicable.
+
 ## Exploratory versus Production-intent imagery
 
 An Exploratory Image-World Study may test atmosphere, material, light, world logic, or reference transfer without resolving final copy geometry.
 
 It must be marked `Exploratory` and cannot be silently promoted into a final screen or Production-intent Anchor.
 
-An image reasonably expected to enter a final screen is `Production-intent`. It requires a current Copy-Aware Layout Map before generation or commitment.
+An image reasonably expected to enter a final screen is `Production-intent`. It requires a Producer Cleared Copy-Aware Layout Map before generation or commitment.
 
 ## Representative proof
 
 A new multi-image system is proved with the smallest representative set:
 
-1. a world / cover anchor;
-2. a representative body anchor;
-3. an additional anchor only when a materially different page class cannot be inferred.
+1. a world / cover Anchor;
+2. a representative body Anchor;
+3. an additional Anchor only when a materially different page class cannot be inferred.
 
-A Production-intent Anchor must inherit a Copy-Aware Layout Map. An exploratory image-world study may inform an Anchor but does not become one merely because it is visually strong.
+A Production-intent Anchor must inherit a Producer Cleared Layout Map. An exploratory image-world study may inform an Anchor but does not become one merely because it is visually strong.
 
 Representative Design Comp uses target geometry, exact copy, credible imagery, actual hierarchy, and the Layout Map to prove:
 
@@ -237,7 +252,7 @@ Before formal return, verify:
 - references were transferred within assigned roles;
 - concept route resolves the actual visual problem;
 - Storyboard and representative proof answer their stated questions;
-- every Production-intent screen or valid page class has an identifiable Layout Map;
+- every Production-intent screen or valid page class has an identifiable Producer Cleared Layout Map;
 - Production-intent imagery inherited copy footprint, protected zones, and generation consequences;
 - exploratory imagery was not silently promoted;
 - representative Type-Fit and target-width behavior are credible;
@@ -254,7 +269,7 @@ Return:
 - Artifact Decision Contract;
 - Frame Script and Written Visual Requirement fidelity;
 - exact-copy fidelity;
-- Copy-Aware Layout Maps and image-class status;
+- Copy-Aware Layout Maps, their Producer Review state, and image-class status;
 - active-input and reference-resolution state;
 - actual representative proof and Type-Fit evidence;
 - professional recommendation and tradeoff;
@@ -268,12 +283,13 @@ This is a Specialist Return, not an authoritative handoff.
 
 ## Producer Review and release
 
-Creative Producer independently reviews formal visual work.
+Creative Producer independently reviews formal visual work and formal Layout Map gates.
 
 Deficient, weak, misaligned, copy-blind, or unproven work is returned internally.
 
-After Producer clearance, Creative Producer may:
+After the relevant Producer clearance, Creative Producer may:
 
+- release Production-intent representative image work from a cleared Layout Map;
 - release a complete visual decision object with Producer and Art Director recommendation;
 - request ECD Visual Alignment;
 - record accepted governing decisions and locks;
@@ -291,13 +307,13 @@ The package records:
 - shared visual system;
 - screen-by-screen interpretation of Frame Scripts;
 - Written Visual Requirements preserved by each screen;
-- exact copy hierarchy and Layout Map references;
+- exact copy hierarchy and Producer Cleared Layout Map references;
 - image–type relationship, protected zones, and generation consequences;
-- accepted anchors, Design Comp, and Type-Fit evidence;
+- accepted Anchors, Design Comp, and Type-Fit evidence;
 - color and sequence behavior;
 - asset plan and image-class status;
 - Artifact Decision Contract and delta;
-- production tolerances and return conditions;
+- Production tolerances and return conditions;
 - visual authority references.
 
 ## Visual critique and rework
@@ -310,6 +326,7 @@ Separate:
 - Frame Script fidelity;
 - exact-copy fidelity;
 - copy hierarchy and Layout Map;
+- Layout Map Producer Review state;
 - image asset compliance with the map;
 - reference interpretation;
 - metaphor fidelity;
@@ -318,7 +335,7 @@ Separate:
 - sequence staging;
 - representative proof and Type-Fit;
 - page design;
-- production execution.
+- Production execution.
 
 Return the earliest failed object through Creative Producer and create the lowest-cost diagnostic proof before broad work resumes.
 

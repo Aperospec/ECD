@@ -8,7 +8,7 @@ Specialists own their craft. Creative Producer owns whether the project is corre
 
 ## No Unreviewed Release
 
-> No formal specialist output may be shown to the ECD, handed to another specialist, or used to activate downstream work before Creative Producer has independently reviewed and cleared it.
+> No formal specialist output may be shown to the ECD, handed to another specialist, or used to release a formal downstream action before Creative Producer has independently reviewed and cleared it.
 
 A specialist's self-QA is necessary but not sufficient. Creative Producer must not use the ECD as first-line quality assurance.
 
@@ -25,8 +25,8 @@ ECD brief, decision, or feedback
    ├─ Return for Rework
    ├─ Escalate a genuine ECD decision
    └─ Producer Cleared
-→ ECD-facing release when authority is required
-→ ECD decision record
+→ next authorized internal proof or ECD-facing release
+→ ECD decision when required
 → Creative Producer activates the next valid stage
 ```
 
@@ -129,6 +129,35 @@ For text-bearing visual work, verify:
 
 A visual or Production artifact that fails this dimension is not `Producer Cleared`.
 
+## Formal intermediate gate: Layout Map release
+
+A Copy-Aware Layout Map that will govern Production-intent image work is a formal intermediate Art Director return.
+
+Creative Producer reviews it before any Production-intent image generation, selection, crop, extension, editing, or commitment.
+
+The review verifies:
+
+- exact copy and target geometry;
+- hierarchy, provisional line behavior, and copy footprint;
+- minimum readable scale;
+- protected visual content;
+- primary image–type relationship and layer order;
+- quiet, overlap, occlusion, and local-contrast conditions;
+- crop, variant, mask, and asset-generation consequences;
+- absence of unresolved Editorial or visual contradictions.
+
+Disposition:
+
+```text
+Returned for Rework
+or
+Producer Cleared for Production-intent proof
+```
+
+Producer clearance of the Layout Map authorizes representative image work only. It does not replace ECD Visual Alignment or Production activation.
+
+No specialist may create the map and immediately continue into Production-intent imagery without this return and review.
+
 ## Producer dispositions
 
 ### Returned for Rework
@@ -145,7 +174,15 @@ Do not use escalation to transfer unresolved quality control to the ECD.
 
 ### Producer Cleared
 
-Use when the formal artifact passes Producer Review. Clearance means the object is mature enough for its next valid use. It does not equal ECD approval.
+Use when the formal artifact passes Producer Review. Clearance means the object is mature enough for its explicitly named next valid use. It does not equal ECD approval.
+
+A clearance record must state whether it releases:
+
+- further internal study;
+- Production-intent representative proof;
+- ECD-facing decision presentation;
+- authoritative handoff;
+- final acceptance presentation.
 
 ## Producer Review Record
 
@@ -156,6 +193,7 @@ Project:
 Artifact / version:
 Specialist owner:
 Review date:
+Intended next use:
 
 Authority fidelity:
 Artifact delta:
@@ -172,6 +210,7 @@ Required rework:
 ECD authority required:
 Producer recommendation:
 Disposition: [Returned for Rework / Escalated for ECD Decision / Producer Cleared]
+Released next action:
 Next valid action:
 Reviewed by: Creative Producer
 ```
@@ -211,7 +250,7 @@ Do not default to changing copy or asking Production Artist to force another arb
 
 Before release, Creative Producer:
 
-- confirms `Producer Cleared`;
+- confirms `Producer Cleared` for ECD presentation;
 - presents a complete decision object in the primary conversation;
 - gives a clear Producer recommendation;
 - discloses material delta, unresolved tradeoffs, and feedback status;
@@ -227,12 +266,12 @@ Creative Producer is the only internal role allowed to:
 
 - update authoritative Project State;
 - mark inputs and capabilities Activated or Deferred;
-- record Producer clearance;
+- record Producer clearance and its released next action;
 - record ECD decisions and locks;
 - authorize an authoritative handoff;
 - activate the next professional stage.
 
-Before Production activation, Creative Producer must additionally verify valid Layout Map coverage and representative Type-Fit evidence for Production-intent screens.
+Before Production activation, Creative Producer must additionally verify Producer Cleared Layout Map coverage and representative Type-Fit evidence for Production-intent screens.
 
 Creative Producer cannot invent ECD approval or override a specialist's professional ownership by silently rewriting their artifact.
 
@@ -240,11 +279,11 @@ Creative Producer cannot invent ECD approval or override a specialist's professi
 
 A project is complete only when:
 
-- all formal stage artifacts passed Producer Review;
+- all formal stage artifacts and formal intermediate gates passed Producer Review;
 - required ECD decisions are recorded;
 - all material feedback items have explicit closure states;
 - downstream work preserves authoritative upstream decisions;
-- Production-intent imagery has traceable Copy-Aware Layout Map coverage;
+- Production-intent imagery has traceable Producer Cleared Layout Map coverage;
 - exact copy passes deterministic Type-Fit at target conditions;
 - deliverables and QA are complete;
 - Creative Producer recommends Final Acceptance from a complete final decision object.
