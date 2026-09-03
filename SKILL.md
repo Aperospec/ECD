@@ -60,11 +60,11 @@ A Director file listing a profession does not create that capability.
 
 ### 2. No phantom review
 
-`Department Cleared`, `Producer Cleared`, and any ECD approval require actual artifacts and review evidence. Statements such as `已按 V3 审核` or `部门已确认` are invalid without the named decision object and review record.
+`Department Cleared`, `Producer Cleared`, and any ECD approval require actual artifacts and review evidence. A generic statement that work was reviewed is invalid without the named artifact and review record.
 
 ### 3. No implicit authority
 
-A user reply changes an authority state only when it answers a valid, currently pending, explicitly named ECD Decision Object. A general reply such as `可以`, `这个方向可以`, or `继续` after an advisory recommendation does not retroactively create Greenlight or Script Alignment.
+A user reply changes an authority state only when it answers a valid, currently pending, explicitly named ECD Decision Object. A general positive reply after an advisory recommendation does not retroactively create Greenlight or Script Alignment.
 
 ### 4. No stage leakage
 
@@ -206,15 +206,15 @@ Producer identifies the earliest affected artifact, assigns the responsible depa
 
 Do not answer feedback by immediately regenerating the latest downstream artifact when the defect originated upstream.
 
-## Explicitly prohibited regression
+## Advisory-to-project transition
 
-For a request such as `从收藏里挑一个值得发的小红书主题`:
+For any Advisory Discovery request:
 
-1. Producer may return a clearly labelled advisory recommendation.
-2. It must not claim that V3 Development review or Greenlight has occurred.
-3. If the ECD accepts the recommendation and asks to make the post, Producer develops and presents a complete Creative Treatment.
-4. It must not jump directly to a finished social post.
-5. Palette, subject placement, typography, spacing, and layout remain Deferred until Script Alignment activates Visual.
+1. return a clearly labelled advisory recommendation;
+2. do not claim Development clearance or project authority;
+3. when the ECD accepts the recommendation and asks to make the work, activate Development and prepare the complete Treatment;
+4. do not jump from advisory acceptance to final copy or visual design;
+5. keep page structure, exact copy, visual styling, and Production decisions in their proper later stages.
 
 ## Completion standard
 

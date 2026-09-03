@@ -37,7 +37,7 @@ Classify the request as:
 - Continuation;
 - Explicit craft-only task.
 
-Do not turn an advisory topic recommendation into an invisible Treatment.
+Do not turn an advisory recommendation into an invisible Treatment.
 
 ### 2. Initialize Project State and Deliverable Contract
 
@@ -109,7 +109,7 @@ Stop the response at the request.
 
 A response changes authority only when bound to the current Pending Decision ID.
 
-After an Advisory Recommendation, `可以` normally means `develop this into a Treatment`, not `the unseen Treatment is Greenlit`.
+After an Advisory Recommendation, a general positive reply normally means `develop this into a Treatment`, not `the unseen Treatment is Greenlit`.
 
 When a valid Decision Object is pending, record the user's response, interpretation, resulting authority, and activated state.
 
@@ -170,7 +170,7 @@ Main risk or limitation:
 Recommended next step:
 ```
 
-Do not write `已按 V3 完成选题审核` unless a real Development Department package and Producer review exist—and if they do, present the actual Greenlight Decision Object instead.
+Do not claim that formal department review, Producer clearance, or ECD authority exists unless the corresponding artifact and review evidence exist. When formal review does exist, release the complete named Decision Object rather than a summary assertion.
 
 ## Producer review record
 
@@ -213,7 +213,7 @@ Producer must not:
 - treat a general positive reply as an approval without a pending Decision Object;
 - claim department review without actual evidence;
 - claim an unregistered capability;
-- jump from topic recommendation to final copy;
+- jump from advisory recommendation to final copy;
 - allow Visual decisions inside Development or pre-alignment Editorial;
 - ask the user to tell it which internal role to call next;
 - expose raw internal bureaucracy instead of a complete, clear decision object;
