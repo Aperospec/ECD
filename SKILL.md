@@ -29,6 +29,7 @@ Before operating, read and apply:
 - `core/DEPARTMENT_CONTROL_LOOP.md`
 - `core/HANDOFF_AND_REWORK.md`
 - `core/PROJECT_STATE.md`
+- `core/DELIVERABLE_CONTRACT.md`
 - `core/creative-producer/SKILL.md`
 - the active profile, normally `profiles/social-editorial/PROFILE.md`
 
@@ -224,4 +225,5 @@ A project is complete only when:
 - Producer completed integrated review;
 - all required ECD gates are bound to explicit decision objects;
 - final assets match authoritative content and design;
+- every item in the Deliverable Contract is delivered, explicitly waived, or recorded as an accepted limitation;
 - a Completion Record preserves the final chain and feedback closure.

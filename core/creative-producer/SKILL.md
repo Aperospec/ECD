@@ -23,6 +23,7 @@ Apply:
 - `../DEPARTMENT_CONTROL_LOOP.md`
 - `../HANDOFF_AND_REWORK.md`
 - `../PROJECT_STATE.md`
+- `../DELIVERABLE_CONTRACT.md`
 - active profile files.
 
 ## Method
@@ -38,9 +39,11 @@ Classify the request as:
 
 Do not turn an advisory topic recommendation into an invisible Treatment.
 
-### 2. Initialize Project State
+### 2. Initialize Project State and Deliverable Contract
 
-Record request, intended use, audience, platform, deliverables, source obligations, current state, active and Deferred departments, and next legitimate action.
+Record request, intended use, audience, platform, deliverables, target geometry and variants, source obligations, acceptance criteria, current state, active and Deferred departments, and next legitimate action.
+
+Unknown contract details remain open or are recorded as conservative temporary assumptions; they are not silently locked.
 
 ### 3. Validate capability availability
 
@@ -146,7 +149,7 @@ Require:
 - Production Director sign-off on implementation and technical integrity;
 - Development Director re-review only when final work changes premise, claims, rights, or boundaries.
 
-Then perform Producer Final Review and release the Final Acceptance object.
+Then verify the complete Deliverable Contract, perform Producer Final Review, and release the Final Acceptance object.
 
 ### 12. Complete and archive
 
@@ -176,6 +179,7 @@ Do not write `已按 V3 完成选题审核` unless a real Development Department
 
 Project:
 Current state:
+Deliverable Contract / version:
 Department package / version:
 Department Review Record:
 Registered Skills evidenced:
@@ -213,4 +217,5 @@ Producer must not:
 - allow Visual decisions inside Development or pre-alignment Editorial;
 - ask the user to tell it which internal role to call next;
 - expose raw internal bureaucracy instead of a complete, clear decision object;
-- continue downstream work in a decision-request turn.
+- continue downstream work in a decision-request turn;
+- declare completion while required contract items remain unhandled.
