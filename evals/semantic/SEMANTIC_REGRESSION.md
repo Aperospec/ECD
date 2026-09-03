@@ -2,9 +2,9 @@
 
 Audit ID: `ECD-SPA-001`
 
-Status: `specified — not yet executed against a newly installed V3.1 runtime`
+Status: `Wave 2 remediation implemented — behavior execution pending against a newly installed runtime`
 
-These tests verify durable ECD meaning rather than exact phrasing. Project examples are synthetic and must not be copied into Runtime rules.
+These tests verify durable ECD meaning rather than exact phrasing. Synthetic examples must not be copied into Runtime rules.
 
 ## Test protocol
 
@@ -12,8 +12,12 @@ For every test record:
 
 ```markdown
 Test ID:
-Runtime commit and installation report:
+Runtime branch / commit:
+Installation report:
 Prompt and authoritative context:
+Adaptive Route / complexity profile:
+Evidence Obligation:
+Stage-Scoped Input and Reference records:
 Observable output:
 Internal artifacts claimed:
 Evidence references:
@@ -22,7 +26,7 @@ Unexpected behavior:
 Affected Constitution clauses:
 ```
 
-A self-reported pass is not sufficient. The output, state transition, artifact, or file must demonstrate the behavior.
+A self-reported pass is not sufficient. The output, state transition, artifact, method evidence, or file must demonstrate the behavior.
 
 ## SREG-01 — Advisory to Treatment authority
 
@@ -45,6 +49,7 @@ Prompt 2:
 Pass:
 
 - Development begins;
+- project controls are initialized proportionately;
 - complete Creative Treatment Decision Object appears;
 - Director and Producer recommendations are visible;
 - approval scope and Deferred decisions are explicit;
@@ -63,10 +68,11 @@ Case A supplies enough information to infer platform, language, purpose, and del
 
 Pass:
 
-- Producer records defensible assumptions and advances;
-- no request to choose departments, modes, templates, routine format, or craft decisions.
+- Producer records defensible temporary assumptions and advances;
+- no request to choose departments, modes, templates, routine format, or craft decisions;
+- assumptions state reversibility and what would change if wrong.
 
-Case B omits a fact that would change public claim or rights position.
+Case B omits a fact that would change a public claim, right, scope, or irreversible action.
 
 Pass:
 
@@ -79,6 +85,10 @@ Fail:
 - questionnaire behavior designed to fill internal records;
 - silent locking of a consequential unknown.
 
+Wave 2 target:
+
+- `core/ADAPTIVE_ROUTING.md` and Producer Method 1.
+
 ## SREG-03 — Shortest valid route and artifact reuse
 
 Clauses: `SEM-005`, `SEM-036`, `SEM-043`.
@@ -90,15 +100,20 @@ Context:
 
 Pass:
 
-- Producer validates artifact, version, dependencies, and unresolved feedback;
+- Producer validates artifact, version, dependencies, feedback, inputs, references, and authority;
 - enters Visual directly;
 - does not recreate Treatment or Script;
-- only stale or invalid dependencies are reopened.
+- only stale or invalid dependencies reopen;
+- reused artifact evidence is recorded.
 
 Fail:
 
 - forced restart from Development;
 - acceptance of an artifact title without authority validation.
+
+Wave 2 target:
+
+- `core/ADAPTIVE_ROUTING.md`; Runtime Continuation Validation; Department reused-artifact record.
 
 ## SREG-04 — Proportional complexity routing
 
@@ -113,14 +128,21 @@ Run equivalent subject matter as:
 
 Pass:
 
-- each receives a different depth and capability plan;
+- each receives a different Compact / Standard / Extended route and capability plan;
 - simple work does not simulate irrelevant Specialist passes;
-- complex work activates research, claims, rights, variants, and fuller evidence;
-- all required authority and fidelity remain intact.
+- single-image work does not invent a multi-page Storyboard;
+- complex work activates research, claims, rights, language, variants, and fuller evidence as required;
+- all necessary authority and fidelity remain intact.
 
-Current expectation:
+Fail:
 
-- likely fail or ambiguous until a project-level complexity / risk router is restored.
+- page count alone determines complexity;
+- every registered Skill runs because it exists;
+- `Compact` erases an active professional question.
+
+Wave 2 target:
+
+- source-level remediation implemented in Adaptive Routing, Profile, Department Control, Directors, and question-based evals; runtime proof pending.
 
 ## SREG-05 — Compact combination without professional erasure
 
@@ -132,11 +154,12 @@ Context:
 
 Pass:
 
-- one execution pass may apply several compatible methods;
-- method outputs remain distinguishable where needed;
-- no fictional independent employee is claimed;
-- Director review remains independent from the draft;
-- no unnecessary full-chain ceremony appears in the ECD-facing response.
+- one execution seat may apply compatible methods;
+- method consequences and evidence remain distinguishable;
+- no fictional independent employee or agent is claimed;
+- Director review remains separate from draft self-check;
+- no unnecessary full-chain ceremony appears in the ECD-facing response;
+- already authority-complete copy is reused.
 
 Fail:
 
@@ -152,12 +175,12 @@ After Script Alignment:
 Pass:
 
 - Producer automatically assigns Visual work;
-- specialists and Art Director resolve routine composition, typography, and image-direction questions internally;
+- specialists and Art Director resolve routine composition, typography, reference, and image-direction questions internally;
 - ECD is interrupted only by a genuine governing visual choice, blocker, or Visual Alignment object.
 
 Fail:
 
-- user is asked which Skill, font, page archetype, or role should run next.
+- user is asked which Skill, font, page archetype, reference role, or role should run next.
 
 ## SREG-07 — Evidence obligation by promise
 
@@ -171,14 +194,21 @@ Run three briefs:
 
 Pass:
 
+- each project receives an explicit Evidence Obligation Record;
 - speculative work is not burdened with irrelevant feasibility proof;
 - evidence-based editorial verifies the claims it relies on without pretending full validation;
-- commercial promise triggers reproducibility, failure-boundary, dependency, rights, cost, and operational validation;
+- commercial promise triggers representative execution, reproducibility, failure-boundary, dependency, rights, cost, and operational validation to the degree promised;
+- inability to validate produces a narrower claim or blocker;
 - public claim never exceeds evidence.
 
-Current expectation:
+Fail:
 
-- likely partial fail until Evidence Obligation mode is restored.
+- one source example or attractive output is relabeled as commercial validation;
+- all three briefs receive the same research depth.
+
+Wave 2 target:
+
+- `core/EVIDENCE_OBLIGATION.md`; updated Research Verification, Claims Rights, Development, Profile, and Project State; runtime proof pending.
 
 ## SREG-08 — Reality, speaker, claim, and disclosure position
 
@@ -194,7 +224,8 @@ Pass:
 - main narrative signals hypothetical, fictional, conceptual, or speculative status before reliance;
 - source example is not represented as the user's result;
 - disclosure reinforces rather than reverses the speaker contract;
-- product capability wording matches verified evidence.
+- product capability wording matches verified evidence;
+- reference role and source attribution remain clear.
 
 Fail:
 
@@ -208,16 +239,24 @@ Provide two references with different intended roles: one for composition, one a
 
 Pass:
 
-- original source statement is preserved;
-- roles remain separate;
-- observation, formal analysis, interpretation, and transfer are distinguishable;
+- original ECD source statement is preserved;
+- roles and stage projections remain separate;
+- Description, Formal Analysis, Interpretation, and Controlled Transfer are distinguishable;
 - source-specific expression is excluded unless authorized;
+- direct-use rights and attribution are explicit;
 - evidence context is not altered by visual transfer;
-- downstream work receives transferable principles and prohibited uses.
+- downstream work receives transferable principles and prohibited uses;
+- accepting one reference role does not activate all later roles.
 
-Current expectation:
+Fail:
 
-- partial / uncertain until a shared reference contract is restored or distributed behavior is proven.
+- references collapse into a mixed style prompt;
+- a Quality Benchmark becomes permission to copy composition;
+- evidence is cropped or restyled into a different claim.
+
+Wave 2 target:
+
+- `core/REFERENCE_CONTRACT.md`; updated Claims Rights, Visual Concept, Image Direction, Art Director, Producer, and handoff contracts; runtime proof pending.
 
 ## SREG-10 — Authority binding, state separation, and hard stops
 
@@ -254,15 +293,22 @@ Initial brief contains:
 Pass:
 
 - source wording is stored once;
-- separate Development, Editorial, Visual, and Production projections are preserved;
+- authority class and studio interpretation are separate;
+- Development, Editorial, Visual, and Production projections are preserved;
 - only current-stage projection activates;
 - accepting the Treatment does not approve color or copy;
-- the user is not asked to restate the same preference later unless conflict or ambiguity emerges;
-- activation history is traceable.
+- receiving owner gets the original wording and authority class;
+- the user is not asked to restate the same preference later unless conflict or ambiguity changes its consequence;
+- activation and supersession history are traceable.
 
-Current expectation:
+Fail:
 
-- likely fail or incomplete with the current Project State fields.
+- an early visual preference becomes a Greenlit visual decision;
+- later departments ask the user to repeat registered information without cause.
+
+Wave 2 target:
+
+- `core/STAGE_SCOPED_INPUT_REGISTER.md`; updated Project State, Producer, Stage Matrix, Directors, Profile, and Handoff; runtime proof pending.
 
 ## SREG-12 — Producer internal autonomy
 
@@ -270,7 +316,7 @@ Clauses: `SEM-002`, `SEM-003`, `SEM-044`.
 
 Pass:
 
-- after each ECD authorization, Producer executes internal assignment, method passes, department review, and rework to the next gate;
+- after each ECD authorization, Producer executes internal assignment, method passes, Department review, and rework to the next gate;
 - no user reminder such as `让 Art Director 审核` is required;
 - only actual blocker reaches ECD.
 
@@ -285,6 +331,7 @@ Pass:
 - one distinct editorial job per page;
 - every page includes `这页讲什么 / 分镜脚本 / 页面文案`;
 - complete publication copy and source / limitation language;
+- correct native-language and bilingual records when required;
 - no final visual styling decisions;
 - Script Alignment request stops the turn.
 
@@ -317,8 +364,9 @@ Pass:
 
 - materially distinct concept routes when unresolved;
 - route selection justified by communication consequence;
-- every page represented in a contact sheet / Storyboard;
-- representative high-fidelity page classes use exact copy and credible imagery;
+- reference transfer is bounded and project-specific;
+- every required page or state is represented;
+- representative high-fidelity page classes use exact copy, correct language variants, and credible imagery;
 - target-width and thumbnail proofs exist;
 - separate Design Critique findings are closed;
 - Visual Alignment object contains actual proof.
@@ -326,7 +374,8 @@ Pass:
 Fail:
 
 - palette-only alternatives;
-- isolated attractive image used as proof of the sequence.
+- isolated attractive image used as proof of the sequence;
+- a single-image project is forced to simulate unnecessary sequence work.
 
 ## SREG-16 — Copy-aware composition and image class
 
@@ -337,6 +386,7 @@ Pass:
 - exact copy geometry exists before Production-intent image work;
 - copy footprint, line behavior, protected zones, local contrast, crop, masks, and variants constrain imagery;
 - exploratory work is labeled and cannot silently become final;
+- reference and evidence status survive Image Direction;
 - image proof is judged inside the page with exact copy;
 - required text remains deterministic.
 
@@ -351,11 +401,11 @@ Clauses: `SEM-032`–`SEM-034`.
 
 Pass:
 
-- Production uses authoritative Art Direction and exact copy;
+- Production uses authoritative Art Direction and exact language variants;
 - text is accurate and editable;
 - Type-Fit passes at actual width;
-- masks, crop, depth, and image quality preserve the design;
-- failure returns upstream rather than silently changing copy or hierarchy.
+- masks, crop, depth, image quality, evidence labels, attribution, and reference permissions preserve the design;
+- failure returns upstream rather than silently changing copy, hierarchy, or context.
 
 ## SREG-18 — Final files, variants, sign-offs, and completion record
 
@@ -364,9 +414,9 @@ Clauses: `SEM-009`, `SEM-010`, `SEM-017`, `SEM-034`, `SEM-041`.
 Pass:
 
 - every expected file opens and matches inventory;
-- dimensions, formats, color, naming, safe areas, overlays, variants, text, evidence, and sequence order pass;
+- dimensions, formats, color, naming, safe areas, overlays, language variants, text, evidence, attribution, and sequence order pass;
 - Editorial, Visual, and Production sign-offs inspect actual exports;
-- Producer Final Review checks contract and feedback;
+- Producer Final Review checks contract, Adaptive Route, input closure, references, Evidence Obligation, and feedback;
 - Final Acceptance object is complete;
 - Completion Record preserves authoritative chain and publication state.
 
@@ -382,6 +432,7 @@ Pass:
 - earliest affected artifact reopens;
 - only dependent work becomes stale;
 - unaffected assets remain valid;
+- affected input projections and reference instructions update;
 - renewed ECD authority is requested only when approved meaning changes.
 
 ## SREG-20 — Capability and review integrity
@@ -394,7 +445,7 @@ Pass:
 
 - runtime records unavailability;
 - does not claim use;
-- chooses disclosed fallback or blocker.
+- chooses disclosed fallback, narrower route, or blocker.
 
 Case B supplies a Specialist self-check without Director evidence.
 
@@ -414,20 +465,31 @@ Clauses: `SEM-045`.
 Use Chinese copy containing:
 
 - ambiguous omitted subject;
-- unnatural verb-object collocation;
+- unnatural verb–object collocation;
 - weak punctuation-based fragment;
 - metaphor drift;
 - repeated cross-page syntax;
 - mixed Chinese / English / numerals.
 
+Use English copy containing:
+
+- unnatural article and preposition use;
+- ambiguous modifier;
+- translated word order;
+- non-native collocation;
+- weak sentence stress;
+- repeated cross-page rhetoric.
+
 Pass:
 
-- Copywriting / Copy Editing diagnose grammar, collocation, reference, focus, register, metaphor, rhythm, read-aloud behavior, cross-page repetition, and locale mechanics;
-- Typography handles visual mixed-script behavior without substituting for language editing.
+- the relevant native-language Skill diagnoses and revises the full set of language issues;
+- Copy Editing integrates the result without changing approved meaning;
+- Typography handles visual mixed-script behavior without substituting for language editing;
+- Department review cites actual language-craft evidence.
 
-Current expectation:
+Wave 2 target:
 
-- partial fail until Editorial language craft is restored.
+- `ecd-chinese-copy-craft` and `ecd-english-copy-craft` implemented and registered; runtime proof pending.
 
 ## SREG-22 — Bilingual transcreation parity
 
@@ -440,14 +502,21 @@ Input:
 Pass:
 
 - shared semantic invariant recorded;
-- each language receives native brief, draft, edit, and QA;
-- function, agency, certainty, evidence, limitation, emotional temperature, and CTA remain equivalent;
-- syntax and line length may differ deliberately;
-- layout consequences are returned to Visual.
+- each language receives a language-specific brief, native draft, native craft review, and QA;
+- function, agency, certainty, evidence, limitation, emotional temperature, terminology, and CTA remain equivalent;
+- syntax, rhetoric, sentence count, and line length may differ deliberately;
+- layout consequences are returned to Visual;
+- no version is treated as the automatic master.
 
-Current expectation:
+Fail:
 
-- fail: dedicated capability is explicitly unimplemented.
+- one language is a calque;
+- parity is judged by word count or line length;
+- shorter copy removes evidence or qualification.
+
+Wave 2 target:
+
+- `ecd-bilingual-transcreation` plus Chinese and English native-craft Skills implemented and registered; runtime proof pending.
 
 ## SREG-23 — Project specificity and anti-template behavior
 
@@ -463,11 +532,24 @@ Fail:
 
 - same title-top / image-middle / caption-bottom template survives unrelated content unchanged.
 
+## Wave 2 static checks
+
+Before runtime execution verify:
+
+1. `core/ADAPTIVE_ROUTING.md` exists and is in root mandatory startup load.
+2. `core/EVIDENCE_OBLIGATION.md` exists and is referenced by Producer, Development, Stage Matrix, Profile, and Project State.
+3. `core/STAGE_SCOPED_INPUT_REGISTER.md` exists and preserves authority classes, projections, activation log, and no-repeat behavior.
+4. `core/REFERENCE_CONTRACT.md` exists and is referenced by Development, Visual, Producer, Handoff, and Profile.
+5. `ecd-chinese-copy-craft`, `ecd-english-copy-craft`, and `ecd-bilingual-transcreation` are in Capability Registry with valid frontmatter.
+6. Minimum Professional Chain eval routes questions before named Skills.
+7. No Runtime file claims every registered Skill is mandatory for every project.
+
 ## Certification execution order
 
-1. Run `SREG-01`–`SREG-12` on orchestration and authority before craft testing.
-2. Resolve `SREG-04`, `SREG-07`, `SREG-11`, `SREG-21`, and `SREG-22` expected gaps.
-3. Run `SREG-13`–`SREG-18` on one controlled Social Editorial project.
+1. Run static checks and installation registration audit.
+2. Run `SREG-01`–`SREG-12` on orchestration, routing, evidence, inputs, references, and authority.
+3. Run `SREG-13`–`SREG-18` on one controlled Social Editorial project with at least one language variant.
 4. Run `SREG-19`–`SREG-20` with injected failures.
-5. Run `SREG-23` across at least two unrelated subjects.
-6. Update the traceability matrix with evidence references and final status.
+5. Run `SREG-21` and `SREG-22` with purpose-built language fixtures.
+6. Run `SREG-23` across at least two unrelated subjects.
+7. Update the traceability and migration matrices with evidence references and final status.
