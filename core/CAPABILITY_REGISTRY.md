@@ -29,6 +29,9 @@ A Director may not claim that a Skill was used unless its path is listed here as
 | Frame Script | `ecd-frame-script` | `departments/editorial/skills/frame-script/SKILL.md` | Implemented |
 | Copywriting | `ecd-copywriting` | `departments/editorial/skills/copywriting/SKILL.md` | Implemented |
 | Copy Editing | `ecd-copy-editing` | `departments/editorial/skills/copy-editing/SKILL.md` | Implemented |
+| Chinese Copy Craft | `ecd-chinese-copy-craft` | `departments/editorial/skills/chinese-copy-craft/SKILL.md` | Implemented |
+| English Copy Craft | `ecd-english-copy-craft` | `departments/editorial/skills/english-copy-craft/SKILL.md` | Implemented |
+| Bilingual Transcreation | `ecd-bilingual-transcreation` | `departments/editorial/skills/bilingual-transcreation/SKILL.md` | Implemented |
 | Proofreading | `ecd-proofreading` | `departments/editorial/skills/proofreading/SKILL.md` | Implemented |
 
 ## Visual Department
@@ -57,18 +60,30 @@ A Director may not claim that a Skill was used unless its path is listed here as
 
 The following capabilities are not part of V3.1 and must not be claimed as used:
 
-- dedicated Localization / Transcreation Skill;
 - dedicated Information Design Skill;
 - dedicated Motion / Interaction Direction Skill;
 - dedicated Photography Direction Skill;
 - dedicated Illustration Direction Skill;
 - dedicated Retouch-only Skill;
-- dedicated Asset Management Skill.
+- dedicated Asset Management Skill;
+- native-language craft Skills beyond the registered Chinese and English capabilities.
 
 When one of these is materially required, Producer must either:
 
 1. route the problem through the closest implemented Skill and disclose the limitation; or
 2. stop at a genuine capability blocker rather than pretending the capability exists.
+
+## Capability selection rule
+
+Registration makes a method available. It does not make the method mandatory for every project.
+
+Creative Producer and Department Directors must apply `core/ADAPTIVE_ROUTING.md`:
+
+- route active professional questions before named Skills;
+- reuse authority-complete evidence;
+- omit irrelevant methods;
+- record why a Skill was selected, combined, or omitted;
+- preserve required review and authority even when execution seats are combined.
 
 ## Capability-use record
 
@@ -78,6 +93,7 @@ Every Department Cleared package includes:
 Registered Skills used:
 - name:
   version:
+  professional question:
   task:
   artifact:
   method evidence:
@@ -85,7 +101,12 @@ Registered Skills used:
 
 Skills considered but omitted:
 - name:
+  professional question absent or already resolved:
   reason omitted:
+
+Combined execution seats:
+- methods combined:
+  evidence kept distinct:
 
 Missing capability or limitation:
 ```
