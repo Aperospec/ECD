@@ -1,66 +1,66 @@
-# ECD Studio OS
+# ECD Studio OS V3.1
 
-ECD is being rebuilt from a four-generalist-role workflow into a department-based creative studio operating system.
+ECD V3.1 is a clean, department-based creative studio runtime for ChatGPT.
+
+It preserves one user-facing interface—the Creative Producer—while registering the professional methods required by Development, Editorial, Visual, and Production as real internal Skills.
 
 ## Branches
 
-- `main` — current public V2 line; unchanged during V3 development.
-- `v2.1-legacy` — frozen V2 snapshot at `cdc48e4eba107dd67a4920d2fd1101058759031b`.
-- `v3-department-architecture` — active V3 development branch.
+- `main` — current V2 stable branch until V3 passes testing;
+- `v2.1-legacy` — frozen V2 recovery point;
+- `v3-department-architecture` — V3.1 development and test branch.
 
-## V3 model
+## Install for testing
 
-The user remains the Executive Creative Director and communicates through one Creative Producer.
+Repository:
+
+`https://github.com/Aperospec/ECD`
+
+Branch:
+
+`v3-department-architecture`
+
+Primary entry:
+
+`SKILL.md`
+
+After syncing, verify that the root ECD Skill, four Department Director Skills, and all Skills listed as `Implemented` in `core/CAPABILITY_REGISTRY.md` are registered.
+
+## Runtime sequence
 
 ```text
-Executive Creative Director
-          ↕
-  Creative Producer
-          │
-  ┌───────┼─────────┬─────────┐
-  ↓       ↓         ↓         ↓
-Development  Editorial  Visual  Production
-Director     Director   Director Production Director
+Discovery / Brief
+→ Development
+→ ECD Greenlight
+→ Editorial
+→ ECD Script Alignment
+→ Visual
+→ ECD Visual Alignment when required
+→ Production
+→ ECD Final Acceptance
 ```
 
-Departments contain specialist Skills. Specialists perform craft; Department Directors own professional quality; Creative Producer owns project integration and orchestration; the Executive Creative Director owns consequential creative authority.
+The user does not manage internal skills. Creative Producer selects departments, Department Directors select specialist methods, and all formal work is reviewed before it reaches the user.
 
-## Why V3 exists
+## Key V3.1 corrections
 
-V2 correctly improved stage gates, Producer review, decision visibility, and copy-aware production. Its remaining structural weakness is that Editorial Director, Art Director, and Production Artist are overloaded generalists rather than leaders of professional departments.
+- restores explicit state and authority contracts;
+- prevents a generic positive reply from becoming an unstated approval;
+- distinguishes advisory topic selection from Creative Treatment;
+- prevents final copy and visual decisions from leaking into Development;
+- registers real specialist Skills instead of listing imaginary capabilities;
+- prevents claims of review without inspectable work evidence;
+- removes V2 runtime files from the V3 branch;
+- restores complete ECD-facing Treatment, Script, Visual, and Final decision objects.
 
-V3 separates:
+## Source of truth
 
-- organizational accountability from professional method;
-- department review from Producer integrated review;
-- design direction from page design;
-- page design from image making;
-- image making from final production;
-- specialist self-check from independent approval.
+Runtime rules are limited to:
 
-## Current V3 work
+- root `SKILL.md`;
+- `core/`;
+- registered `departments/**/SKILL.md` files;
+- active `profiles/`;
+- `evals/` for non-runtime conformance tests.
 
-Phase 1 establishes:
-
-- the department architecture;
-- a department control loop;
-- a department-based Creative Producer role;
-- Directors for Development, Editorial, Visual, and Production;
-- the Social Editorial profile;
-- the first professional Visual Department Skills, beginning with Editorial Design, Typography, and Design Critique.
-
-V3 is not production-ready until specialist, department, and end-to-end evaluations pass.
-
-## Authoritative V3 documents
-
-- `SKILL.md`
-- `V3_ARCHITECTURE.md`
-- `core/DEPARTMENT_CONTROL_LOOP.md`
-- `core/creative-producer/ROLE.md`
-- `departments/development/DIRECTOR.md`
-- `departments/editorial/DIRECTOR.md`
-- `departments/visual/DIRECTOR.md`
-- `departments/production/DIRECTOR.md`
-- `profiles/social-editorial/PROFILE.md`
-
-Files inherited from V2 remain migration sources on the V3 branch. They are not automatically authoritative unless a V3 document explicitly adopts them.
+V2 files are available only on `v2.1-legacy`.

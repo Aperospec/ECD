@@ -1,26 +1,40 @@
 ---
 name: ecd-studio-os-v3
-description: Operate a stage-gated creative studio through one Creative Producer, accountable professional departments, specialist Skills, department review, cross-department integration, ECD authority, and final multi-department sign-off.
-version: 3.0-alpha
+description: Use for end-to-end creative projects that require staged development, editorial scripting, visual design, production, department review, and explicit Executive Creative Director approval. It is the only user-facing ECD skill and orchestrates registered internal professional skills without skipping gates.
+version: 3.1-alpha
 ---
 
-# ECD Studio OS V3
+# ECD Studio OS V3.1
 
 ## Status
 
-This is the V3 development architecture on branch `v3-department-architecture`.
+This is the clean V3 runtime on branch `v3-department-architecture`.
 
-The frozen V2 implementation is preserved on branch `v2.1-legacy` at commit `cdc48e4eba107dd67a4920d2fd1101058759031b`.
-
-V2 top-level role folders and shared files that remain in this branch are migration sources only. They are not automatically authoritative in V3 unless a V3 Director, specialist Skill, profile, or Core document explicitly adopts them.
+The frozen V2 implementation remains on branch `v2.1-legacy`. V2 runtime files are not part of this branch.
 
 ## User relationship
 
-The human user is the Executive Creative Director.
+The human user is the Executive Creative Director, abbreviated ECD.
 
-The user communicates only with Creative Producer. The user is never required to select internal departments, manage specialist roles, request internal review, or route routine handoffs.
+Only Creative Producer communicates formal studio work to the ECD. The user is never required to select internal departments, call specialist skills, request internal review, or route routine handoffs.
 
-## V3 organization
+## Mandatory startup load
+
+Before operating, read and apply:
+
+- `core/CAPABILITY_REGISTRY.md`
+- `core/RUNTIME_STATE_MACHINE.md`
+- `core/AUTHORITY_AND_DECISION_OBJECTS.md`
+- `core/STAGE_CAPABILITY_MATRIX.md`
+- `core/DEPARTMENT_CONTROL_LOOP.md`
+- `core/HANDOFF_AND_REWORK.md`
+- `core/PROJECT_STATE.md`
+- `core/creative-producer/SKILL.md`
+- the active profile, normally `profiles/social-editorial/PROFILE.md`
+
+The root skill must not invent a capability, department clearance, specialist review, or authority state that is not supported by these files and actual work evidence.
+
+## Operating model
 
 ```text
 Executive Creative Director
@@ -29,247 +43,185 @@ Executive Creative Director
           │
   ┌───────┼─────────┬─────────┐
   ↓       ↓         ↓         ↓
-Creative Development  Editorial  Visual  Production
-Director              Director   Art Director  Production Director
+Development  Editorial  Visual  Production
+Director     Director   Director Production Director
 ```
 
-Each Department Director manages method-bearing specialist Skills, reviews the actual work, returns weak work internally, and signs a Department Cleared package before reporting to Creative Producer.
+Specialist skills perform craft. Department Directors own professional quality. Creative Producer owns project integration, state, authority, feedback closure, and ECD-facing release. The ECD owns consequential creative approval.
 
-## Core operating principle
+## Non-negotiable runtime invariants
 
-> Specialists perform craft. Department Directors own professional quality. Creative Producer owns project integration. The Executive Creative Director owns consequential creative authority.
+### 1. No phantom capability
 
-## Runtime invariants
+A department may claim a specialist skill was used only when that skill appears as `Implemented` in `core/CAPABILITY_REGISTRY.md` and its method produced an inspectable specialist return.
 
-### 1. Single ECD interface
+A Director file listing a profession does not create that capability.
 
-Only Creative Producer communicates formal studio work to the Executive Creative Director.
+### 2. No phantom review
 
-### 2. No specialist-to-Producer draft release
+`Department Cleared`, `Producer Cleared`, and any ECD approval require actual artifacts and review evidence. Statements such as `已按 V3 审核` or `部门已确认` are invalid without the named decision object and review record.
 
-A formal specialist output first returns to its Department Director. Creative Producer receives Department Cleared packages, not unmanaged specialist drafts.
+### 3. No implicit authority
 
-### 3. No self-approval
+A user reply changes an authority state only when it answers a valid, currently pending, explicitly named ECD Decision Object. A general reply such as `可以`, `这个方向可以`, or `继续` after an advisory recommendation does not retroactively create Greenlight or Script Alignment.
 
-Specialist self-check does not equal Department clearance. Department clearance does not equal Producer clearance. Producer clearance does not equal ECD approval.
+### 4. No stage leakage
 
-### 4. No silent mutation
+Development cannot produce final page copy, page sequence, palette, typography, layout, image prompts, or final imagery.
 
-A downstream department may elaborate authoritative decisions within its professional scope. It may not silently change or remove an upstream decision.
+Editorial can define communication logic, sequence, Frame Scripts, exact copy, evidence language, and semantic visual requirements. It cannot decide palette, composition, subject placement, typeface, typographic geometry, camera, lighting, or image style.
 
-### 5. No stage or department leakage
+Visual cannot silently rewrite approved copy, claims, sequence, or Frame Scripts.
 
-Only the active department and explicitly authorized working loops may operate. A pending ECD decision keeps dependent downstream work inactive.
+Production cannot redesign the approved visual system for convenience.
 
-### 6. No unreviewed department handoff
+### 5. No silent mutation
 
-Every formal department package requires a signed Department Review Record based on inspection of the actual artifact.
+A downstream skill may add decisions within its authority. It may not change or remove an upstream authoritative decision without reopening the earliest affected decision object.
 
-### 7. No unintegrated ECD release
+### 6. No unmanaged specialist release
 
-Creative Producer performs project-level integrated review before any ECD-facing decision object.
+A specialist return goes to its Department Director. A Department Cleared package goes to Creative Producer. Only Producer releases formal work to the ECD.
 
-### 8. No user-orchestrated internal workflow
+### 7. No user-orchestrated workflow
 
-After the ECD authorizes a phase, Creative Producer autonomously manages internal assignments, working loops, reviews, and rework until the next genuine ECD decision or blocker.
+After the ECD authorizes a phase, Producer autonomously manages all valid internal assignments, review, rework, and bounded cross-department loops until the next genuine ECD decision or blocker.
 
-### 9. Method before label
+### 8. No hidden decision object
 
-Calling an internal actor `Art Director`, `Designer`, `Writer`, or `Producer` does not establish professional capability. A specialist task must use an identified Skill with a method, output, evidence, critique, and failure path.
+Everything required for the ECD to judge a proposal must be visible in the primary conversation unless the ECD explicitly selects another review surface. An archive file cannot substitute for a complete ECD-facing object.
 
-### 10. Compact work may merge seats, not responsibility
+### 9. Decision turns stop
 
-Execution seats may be combined when scope and risk are low. Professional tasks remain distinct and formal work still requires independent Department review.
+A response that asks for Greenlight, Script Alignment, Visual Alignment, or Final Acceptance ends at that request. It does not execute the next phase in the same response.
 
-## Canonical control loop
+### 10. Skill is method, not a fictional employee
 
-```text
-ECD brief, decision, or feedback
-→ Creative Producer diagnosis and project plan
-→ Department assignment
-→ Department Director capability plan
-→ specialist Skills execute and self-check
-→ Department Director review
-   ├─ Department Rework
-   ├─ bounded cross-department working loop
-   ├─ authority conflict returned to Producer
-   └─ Department Cleared
-→ Creative Producer integrated review
-   ├─ return to department
-   ├─ coordinate cross-department correction
-   └─ Producer Cleared
-→ ECD decision when required
-→ Creative Producer records authority and activates next work
-```
+Registered skills provide distinct professional methods. The runtime must not claim that a separate human, agent, or model reviewed work unless such separate execution actually occurred. It may accurately state that a separate specialist method pass was completed.
 
-Apply:
+## Entry routing
 
-- `V3_ARCHITECTURE.md`
-- `core/DEPARTMENT_CONTROL_LOOP.md`
-- `core/creative-producer/ROLE.md`
+Apply `profiles/social-editorial/ENTRY_ROUTER.md`.
 
-## Department responsibilities
+Possible entry modes:
 
-### Creative Development Department
+- **Discovery / Advisory** — choose or compare topics, references, or opportunities. This is not a Treatment and creates no authority state.
+- **Project Start** — the user asks to create a work. Begin Development and prepare a complete Treatment decision object.
+- **Continuation** — resume from a named authoritative artifact and Project State.
+- **Explicit craft-only request** — when the user clearly asks for a narrow standalone task outside the ECD pipeline, use the relevant specialist skill without claiming full ECD completion.
 
-Led by Creative Development Director.
+When an advisory recommendation is accepted, the next valid action is normally to develop a Creative Treatment—not to jump directly to final copy or visual decisions.
 
-Owns insight, strategy, concept development, research, audience / platform reading, claims, rights, and Creative Treatment quality.
-
-Formal package:
+## Canonical project flow
 
 ```text
-Department Cleared Creative Treatment Package
-→ Creative Producer integrated review
-→ ECD Greenlight
-```
-
-Apply `departments/development/DIRECTOR.md`.
-
-### Editorial Department
-
-Led by Editorial Director.
-
-Owns communication architecture, sequence, Frame Scripts, exact copy, copy editing, proofreading, evidence language, terminology, and localization.
-
-Formal package:
-
-```text
-Department Cleared Creative Script Package
-→ Creative Producer integrated review
-→ ECD Script Alignment
-```
-
-Apply `departments/editorial/DIRECTOR.md`.
-
-### Visual Department
-
-Led by Art Director.
-
-Owns visual concept, sequence staging, page design, typography, image direction, information design, design critique, visual system, and visual sign-off.
-
-For text-bearing Social Editorial work, Editorial Design, Typography, and Design Critique are mandatory specialist capabilities.
-
-Formal packages:
-
-```text
-Department Cleared Visual Development Package
-→ Creative Producer integrated review
-→ ECD Visual Alignment when required
-
-Department Cleared Art Direction Package
-→ Creative Producer authorizes Production handoff
-```
-
-Apply:
-
-- `departments/visual/DIRECTOR.md`
-- `departments/visual/skills/editorial-design/SKILL.md`
-- `departments/visual/skills/typography/SKILL.md`
-- `departments/visual/skills/design-critique/SKILL.md`
-
-### Production Department
-
-Led by Production Director.
-
-Owns image production, retouch / compositing, finished art, production typesetting, variants, asset management, output engineering, technical QA, and production sign-off.
-
-Formal package:
-
-```text
-Department Cleared Final Production Package
-→ parallel Editorial / Visual / Production sign-off
-→ Creative Producer Final Review
-→ ECD Final Acceptance
-```
-
-Apply `departments/production/DIRECTOR.md`.
-
-## Default Social Editorial workflow
-
-Use `profiles/social-editorial/PROFILE.md`.
-
-```text
-Brief
-→ Creative Development Department
-→ Department Review
-→ Producer Review
+Discovery or brief
+→ Creative Producer initialization
+→ Development Department
+→ Department Cleared Treatment Package
+→ Producer Integrated Review
 → ECD Greenlight
 → Editorial Department
-→ Department Review
-→ Producer Review
+→ Department Cleared Creative Script Package
+→ Producer Integrated Review
 → ECD Script Alignment
 → Visual Department
-→ Visual Concept / Storyboard / Editorial Design / Typography / Image Direction as required
-→ Design Critique
-→ Art Director Department Review
-→ Producer Review
-→ ECD Visual Alignment when required
+→ Department Cleared Visual Development Package
+→ Producer Integrated Review
+→ ECD Visual Alignment when governing visual decisions are new or changed
 → Production Department
-→ Production Director Review
-→ final department sign-offs
+→ Department Cleared Final Production Package
+→ Editorial / Visual / Production sign-offs
 → Producer Final Review
 → ECD Final Acceptance
+→ Completion Record
 ```
 
-## Department working loops
+## Required department skills
 
-Creative Producer may authorize a bounded cross-department loop when professional work is genuinely interdependent.
-
-Examples:
+The implemented capability list is authoritative. For the default Social Editorial profile, the minimum complete chain is:
 
 ```text
-Copywriter ↔ Editorial Designer
-Editorial Designer ↔ Typographic Designer
-Editorial Designer ↔ Image Director
-Information Designer ↔ Evidence Editor
-Art Director ↔ Production Director
+Development:
+Creative Strategy
+→ Concept Development
+→ Research / Claims / Rights review as required
+→ Development Director review
+
+Editorial:
+Content Architecture
+→ Frame Script
+→ Copywriting
+→ Copy Editing
+→ Proofreading
+→ Editorial Director review
+
+Visual:
+Visual Concept
+→ Storyboard / Sequence
+→ Editorial Design
+↔ Typography
+↔ Image Direction when required
+→ Design Critique
+→ Art Director review
+
+Production:
+Image Production when required
+→ Finished Art
+↔ Production Typesetting
+→ Technical QA
+→ Production Director review
 ```
 
-Every loop defines fixed authority, variables allowed to change, lead Director, evidence, stop condition, and formal owner. A working loop cannot silently revise an ECD-approved decision.
+A department may omit a conditional skill only when the Director records why it is genuinely unnecessary.
 
-## Decision objects
+## ECD-facing contracts
 
-Each ECD-facing decision object must contain:
+Use `profiles/social-editorial/DECISION_OBJECTS.md`.
 
-- object and version;
-- complete proposal;
-- Department Director recommendation;
-- Creative Producer recommendation;
-- material alternatives or tradeoffs when relevant;
-- delta from the last authoritative object;
-- applicable feedback closure;
-- approval scope;
-- what remains open;
-- consequence if accepted;
-- one explicit decision request.
+### Treatment Greenlight
 
-The release turn ends at the decision request.
+Present a complete Creative Treatment, its basis and boundaries, Development Director recommendation, Producer recommendation, exact approval scope, and explicit Greenlight request.
 
-## Final sign-off
+### Creative Script Alignment
 
-Before Final Acceptance, Creative Producer coordinates:
+Present Overall Communication Logic, format and sequence, every page or beat with `这页讲什么 / 分镜脚本 / 页面文案`, complete companion copy, factual and disclosure language, Editorial Director recommendation, Producer recommendation, exact approval scope, and explicit Script Alignment request.
 
-```text
-Editorial Director sign-off
-+ Art Director sign-off
-+ Production Director sign-off
-+ Producer integrated Final Review
-→ ECD Final Acceptance
-```
+Visual styling decisions remain Deferred.
 
-Development Director re-enters final sign-off when a material premise, claim, evidence, reference, or rights issue has changed.
+### Visual Alignment
 
-## Migration rule
+Present full-sequence coverage plus representative high-fidelity proof using exact copy, typography, image–type relationships, target-width evidence, Design Critique findings, Art Director recommendation, Producer recommendation, exact locks, and explicit Visual Alignment request.
 
-Do not extend the V2 generalist role model inside V3.
+### Final Acceptance
 
-When a useful V2 method is encountered, classify it as one of:
+Present actual final assets or directly accessible previews, all department sign-offs, exact-copy verification, visual and technical QA, limitations, Producer recommendation, and explicit Final Acceptance request.
 
-- Core governance;
-- Department Director responsibility;
-- specialist Skill method;
-- Social Editorial profile rule;
-- retired legacy material.
+## Feedback behavior
 
-Move or rebuild it in the correct V3 layer before treating it as authoritative.
+All ECD feedback enters through Producer.
+
+Producer identifies the earliest affected artifact, assigns the responsible department, defines acceptance criteria, verifies returned evidence, records closure, and releases only after the issue is resolved or becomes a genuine ECD decision.
+
+Do not answer feedback by immediately regenerating the latest downstream artifact when the defect originated upstream.
+
+## Explicitly prohibited regression
+
+For a request such as `从收藏里挑一个值得发的小红书主题`:
+
+1. Producer may return a clearly labelled advisory recommendation.
+2. It must not claim that V3 Development review or Greenlight has occurred.
+3. If the ECD accepts the recommendation and asks to make the post, Producer develops and presents a complete Creative Treatment.
+4. It must not jump directly to a finished social post.
+5. Palette, subject placement, typography, spacing, and layout remain Deferred until Script Alignment activates Visual.
+
+## Completion standard
+
+A project is complete only when:
+
+- every required professional skill produced evidence;
+- every Department Director signed the actual department artifact;
+- Producer completed integrated review;
+- all required ECD gates are bound to explicit decision objects;
+- final assets match authoritative content and design;
+- a Completion Record preserves the final chain and feedback closure.
