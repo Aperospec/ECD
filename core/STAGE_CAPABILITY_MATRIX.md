@@ -2,15 +2,27 @@
 
 This is the single authority for what each runtime state may produce.
 
+Apply together with:
+
+- `ADAPTIVE_ROUTING.md`;
+- `EVIDENCE_OBLIGATION.md`;
+- `STAGE_SCOPED_INPUT_REGISTER.md`;
+- `REFERENCE_CONTRACT.md`.
+
 ## Universal rules
 
 - Only Creative Producer activates a state or department.
 - Only registered Skills listed in `CAPABILITY_REGISTRY.md` may be claimed as used.
+- Registration makes a Skill available; it does not make the Skill mandatory for every project.
+- Professional questions are routed before named Skills.
 - A pending ECD decision keeps all dependent downstream capabilities inactive.
-- A formal specialist artifact returns to its Department Director.
-- A formal department artifact returns to Producer.
+- A formal Specialist artifact returns to its Department Director.
+- A formal Department artifact returns to Producer.
 - A Decision Object response stops at the decision request.
 - Work created outside the active state is `Invalid / Unauthorized` until the correct authority path is completed.
+- Only current-stage input projections and reference roles may influence current-stage decisions.
+- Evidence and validation depth must match the active Evidence Obligation.
+- Valid authority-complete artifacts are reused; earlier stages are not replayed for ceremony.
 
 ## Advisory Discovery
 
@@ -20,6 +32,7 @@ This is the single authority for what each runtime state may produce.
 - research and compare opportunities;
 - recommend one or more topics;
 - explain relevance, novelty, source, risk, and account fit;
+- identify a provisional Evidence Obligation or reference concern only to explain the recommendation;
 - state the next valid project step.
 
 ### Required label
@@ -37,17 +50,21 @@ This is the single authority for what each runtime state may produce.
 - image generation;
 - Production.
 
-A user may explicitly request a narrow craft-only draft. In that case do not claim it is an ECD project artifact or that later gates have passed.
+A user may explicitly request a narrow Craft-only draft. In that case do not claim it is an ECD project artifact or that later gates have passed.
 
 ## Development
 
 ### Authoritative inputs
 
-- original request;
-- source materials;
-- account / audience / platform context;
+- original request and faithful source wording;
+- Global / Deliverable and Active Development input projections;
+- source materials and provenance;
+- Advisory findings;
+- audience and platform context;
+- Evidence Obligation;
+- active Development reference roles;
 - rights and claim conditions;
-- prior advisory findings;
+- valid existing Development artifacts;
 - ECD feedback.
 
 ### Skills allowed
@@ -58,6 +75,8 @@ A user may explicitly request a narrow craft-only draft. In that case do not cla
 - Research Verification;
 - Claims and Rights Review.
 
+Select only Skills whose professional questions are active.
+
 ### Decisions owned
 
 - communication opportunity;
@@ -65,12 +84,17 @@ A user may explicitly request a narrow craft-only draft. In that case do not cla
 - central proposition;
 - governing creative logic;
 - angle and boundaries;
-- factual / speculative / rights position;
+- Evidence Obligation and public claim ceiling;
+- factual / speculative / validation / rights position;
+- Development-level reference roles and transfer boundaries;
 - Creative Treatment.
 
 ### Artifacts allowed
 
+- Adaptive Route Record;
+- Evidence Obligation Record;
 - source and research record;
+- Reference Records and Development transfer consequences;
 - strategy options;
 - concept options;
 - Creative Treatment;
@@ -92,6 +116,8 @@ A user may explicitly request a narrow craft-only draft. In that case do not cla
 
 Development may mention a broad intended experience or illustrative example only when needed to explain the concept. It must not disguise downstream design as Treatment.
 
+Early Editorial, Visual, and Production inputs remain Deferred in the Stage-Scoped Input Register.
+
 ## Awaiting Greenlight
 
 ### Allowed
@@ -105,16 +131,22 @@ Development may mention a broad intended experience or illustrative example only
 - Editorial drafting;
 - Visual development;
 - Production;
-- pre-emptive downstream work.
+- pre-emptive downstream work;
+- activation of Deferred downstream inputs or reference roles.
 
 ## Editorial
 
 ### Authoritative inputs
 
 - Greenlit Treatment;
-- accepted development decisions and boundaries;
+- accepted Development decisions and boundaries;
+- Evidence Obligation and public claim ceiling;
 - source / claims / rights record;
+- Active Editorial input projections;
+- active Editorial reference roles and evidence context;
+- language, locale, and variant requirements;
 - Deliverable Contract;
+- valid existing Editorial artifacts;
 - ECD feedback.
 
 ### Skills allowed
@@ -124,7 +156,12 @@ Development may mention a broad intended experience or illustrative example only
 - Frame Script;
 - Copywriting;
 - Copy Editing;
+- Chinese Copy Craft;
+- English Copy Craft;
+- Bilingual Transcreation;
 - Proofreading.
+
+Select according to active professional questions and valid existing artifacts.
 
 ### Decisions owned
 
@@ -136,15 +173,21 @@ Development may mention a broad intended experience or illustrative example only
 - exact page copy;
 - companion copy;
 - source, disclosure, evidence, limitation, and attribution language;
+- speaker, reality, and validation position;
+- native-language expression and terminology;
+- bilingual semantic and functional parity;
 - Written Visual Requirements that preserve meaning.
 
 ### Artifacts allowed
 
+- Content Architecture Return;
 - sequence map;
 - Frame Scripts;
 - page copy;
 - companion copy;
-- copy-edit and proofread records;
+- Chinese / English Copy Craft Returns;
+- Bilingual Transcreation Return;
+- Copy Editing and Proofreading records;
 - Creative Script Package;
 - Editorial Department Review Record.
 
@@ -155,7 +198,8 @@ Editorial may state semantic conditions such as:
 - the same object must remain identifiable across pages;
 - the comparison must be visible rather than merely described;
 - the page must show a transition from state A to state B;
-- evidence must remain inspectable.
+- evidence must remain inspectable;
+- a language variant will require different copy density or headline shape.
 
 ### Forbidden visual decisions
 
@@ -170,20 +214,26 @@ Editorial may state semantic conditions such as:
 - image generation;
 - final design production.
 
+Language-craft methods may identify semantic line-break constraints, but final visual line geometry belongs to Visual Typography.
+
 ## Awaiting Script Alignment
 
-Only clarification, ECD response, and state recording are allowed. Visual work remains inactive.
+Only clarification, ECD response, and state recording are allowed. Visual work, Visual reference roles, and Production remain inactive.
 
 ## Visual
 
 ### Authoritative inputs
 
 - Greenlit Treatment;
-- Script Aligned Creative Script;
-- exact copy;
+- Script-Aligned Creative Script;
+- exact copy and language variants;
 - Frame Scripts;
 - Written Visual Requirements;
-- sources, references, rights, evidence, and target conditions.
+- Active Visual input projections;
+- active Visual reference roles and controlled-transfer record;
+- sources, rights, evidence, and public-claim conditions;
+- target geometry and viewing conditions;
+- valid existing Visual artifacts.
 
 ### Skills allowed
 
@@ -194,6 +244,8 @@ Only clarification, ECD response, and state recording are allowed. Visual work r
 - Typography;
 - Image Direction;
 - Design Critique.
+
+Select according to active visual questions, route complexity, and existing authority-complete proof.
 
 ### Decisions owned
 
@@ -207,17 +259,19 @@ Only clarification, ECD response, and state recording are allowed. Visual work r
 - image direction;
 - copy-aware layout;
 - representative visual proof;
+- activated reference transfer;
 - visual locks and tolerances.
 
 ### Artifacts allowed
 
+- Reference Reading and Controlled Transfer Return;
 - visual concept routes;
-- Storyboard / sequence contact sheet;
+- Storyboard / sequence contact sheet when required;
 - thumbnail explorations;
 - typography proofs;
 - image-direction brief and proof;
 - representative design comps;
-- full-sequence coverage;
+- full-sequence coverage when required;
 - Design Critique report;
 - Department Cleared Visual Development Package.
 
@@ -229,24 +283,28 @@ Production-intent representative imagery requires exact-copy-aware layout and Ar
 
 ### Forbidden
 
-- silent changes to copy, claims, sequence, Frame Scripts, or Treatment;
+- silent changes to copy, claims, sequence, Frame Scripts, Evidence Obligation, or Treatment;
+- using a reference outside its activated role or copying source-specific expression without authorization;
+- visual realism that implies a stronger reality or validation status than approved;
 - final bulk asset production before required Visual Alignment;
 - claiming a beautiful isolated image proves the full page or sequence;
 - claiming Design Critique without an actual critique pass on the artifact.
 
 ## Awaiting Visual Alignment
 
-Only clarification, ECD response, and state recording are allowed. Broad Production remains inactive.
+Only clarification, ECD response, and state recording are allowed. Broad Production and Production reference roles remain inactive.
 
 ## Production
 
 ### Authoritative inputs
 
 - all approved Development, Editorial, and Visual artifacts;
-- exact copy;
+- exact copy and language variants;
 - Department Cleared Art Direction;
-- target dimensions and variants;
-- rights, provenance, evidence, and technical requirements.
+- Active Production input projections;
+- authorized direct-use assets and Production reference roles;
+- Evidence Obligation, public claim ceiling, rights, attribution, and evidence-preservation conditions;
+- target dimensions and variants.
 
 ### Skills allowed
 
@@ -255,6 +313,8 @@ Only clarification, ECD response, and state recording are allowed. Broad Product
 - Finished Art;
 - Production Typesetting;
 - Technical QA.
+
+Select only the Production questions that actually exist. Text-bearing final layouts require deterministic typesetting; image generation is conditional.
 
 ### Decisions owned
 
@@ -274,8 +334,10 @@ Only clarification, ECD response, and state recording are allowed. Broad Product
 
 ### Forbidden
 
-- changing premise, sequence, Frame Script, copy, claim, or limitation;
+- changing premise, sequence, Frame Script, copy, claim, limitation, Evidence Obligation, or reality position;
 - changing governing visual thesis, page design, typography system, or image–type relationship;
+- using a reference, asset, quotation, or transformation beyond recorded permission;
+- removing evidence context or attribution that affects interpretation;
 - solving upstream defects through shrinking copy, emergency boxes, generic replacement imagery, or silent redesign;
 - direct release to ECD without Director and Producer review.
 
@@ -285,4 +347,4 @@ Only clarification, ECD response, and state recording are allowed.
 
 ## Completed
 
-Only Completion Record, archival actions, and explicitly requested evaluation are allowed until reopened.
+Only Completion Record, archival actions, explicitly requested evaluation, and publication-status updates are allowed until reopened.
