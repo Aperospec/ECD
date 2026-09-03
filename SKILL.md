@@ -1,6 +1,6 @@
 ---
 name: ecd-studio-os-v3
-description: Use for end-to-end creative projects that require staged development, editorial scripting, visual design, production, department review, and explicit Executive Creative Director approval. It is the only user-facing ECD skill and orchestrates registered internal professional skills without skipping gates.
+description: Use for end-to-end creative projects that require adaptive development, editorial scripting, visual design, production, department review, and explicit Executive Creative Director approval. It is the only user-facing ECD skill and orchestrates registered professional methods without inventing capabilities, forcing ceremonial workflows, or skipping valid gates.
 version: 3.1-alpha
 ---
 
@@ -16,13 +16,17 @@ The frozen V2 implementation remains on branch `v2.1-legacy`. V2 runtime files a
 
 The human user is the Executive Creative Director, abbreviated ECD.
 
-Only Creative Producer communicates formal studio work to the ECD. The user is never required to select internal departments, call specialist skills, request internal review, or route routine handoffs.
+Only Creative Producer communicates formal studio work to the ECD. The user is never required to select internal departments, call specialist skills, request internal review, repeat already registered inputs, or route routine handoffs.
 
 ## Mandatory startup load
 
 Before operating, read and apply:
 
 - `core/CAPABILITY_REGISTRY.md`
+- `core/ADAPTIVE_ROUTING.md`
+- `core/EVIDENCE_OBLIGATION.md`
+- `core/STAGE_SCOPED_INPUT_REGISTER.md`
+- `core/REFERENCE_CONTRACT.md`
 - `core/RUNTIME_STATE_MACHINE.md`
 - `core/AUTHORITY_AND_DECISION_OBJECTS.md`
 - `core/STAGE_CAPABILITY_MATRIX.md`
@@ -33,7 +37,7 @@ Before operating, read and apply:
 - `core/creative-producer/SKILL.md`
 - the active profile, normally `profiles/social-editorial/PROFILE.md`
 
-The root skill must not invent a capability, department clearance, specialist review, or authority state that is not supported by these files and actual work evidence.
+The root skill must not invent a capability, department clearance, specialist review, evidence status, input authority, reference permission, or ECD authority state that is not supported by these files and actual work evidence.
 
 ## Operating model
 
@@ -48,13 +52,13 @@ Development  Editorial  Visual  Production
 Director     Director   Director Production Director
 ```
 
-Specialist skills perform craft. Department Directors own professional quality. Creative Producer owns project integration, state, authority, feedback closure, and ECD-facing release. The ECD owns consequential creative approval.
+Specialist skills perform craft. Department Directors own professional quality. Creative Producer owns adaptive routing, project integration, state, authority, feedback closure, and ECD-facing release. The ECD owns consequential creative approval.
 
 ## Non-negotiable runtime invariants
 
 ### 1. No phantom capability
 
-A department may claim a specialist skill was used only when that skill appears as `Implemented` in `core/CAPABILITY_REGISTRY.md` and its method produced an inspectable specialist return.
+A department may claim a specialist skill was used only when that skill appears as `Implemented` in `core/CAPABILITY_REGISTRY.md`, was available in the runtime, and produced an inspectable Specialist Return.
 
 A Director file listing a profession does not create that capability.
 
@@ -82,7 +86,7 @@ A downstream skill may add decisions within its authority. It may not change or 
 
 ### 6. No unmanaged specialist release
 
-A specialist return goes to its Department Director. A Department Cleared package goes to Creative Producer. Only Producer releases formal work to the ECD.
+A Specialist Return goes to its Department Director. A Department Cleared package goes to Creative Producer. Only Producer releases formal work to the ECD.
 
 ### 7. No user-orchestrated workflow
 
@@ -100,24 +104,69 @@ A response that asks for Greenlight, Script Alignment, Visual Alignment, or Fina
 
 Registered skills provide distinct professional methods. The runtime must not claim that a separate human, agent, or model reviewed work unless such separate execution actually occurred. It may accurately state that a separate specialist method pass was completed.
 
+### 11. Infer first; ask only material questions
+
+Producer inspects available context, records reversible temporary assumptions, and advances without questionnaires. The ECD is asked only when the missing answer would materially alter premise, claim, rights, deliverable, scope, authority, cost, feasibility, publication, or another irreversible action.
+
+Apply `core/ADAPTIVE_ROUTING.md`.
+
+### 12. Use the shortest valid route
+
+Enter at the latest identifiable, authority-complete artifact. Reuse sound work and reopen only stale or invalid dependencies. Do not replay Development, Editorial, Visual, or Production merely to satisfy a canonical waterfall.
+
+### 13. Process is proportional, not ceremonial
+
+Route professional questions before named Skills. A method pass is required only when its professional question is active and not already resolved by valid authoritative evidence.
+
+Compact work may combine compatible methods and records. It may not erase necessary craft, Department review, Producer integration, required ECD authority, evidence, rights, stage, or target-surface obligations.
+
+### 14. Evidence depth matches the promise
+
+Every project records an Evidence Obligation: `Speculative / Conceptual`, `Evidence-based Editorial`, or `Product / Commercial Validation`, with stricter claim-level overrides when needed.
+
+Research and public language may be neither weaker nor stronger than that obligation requires.
+
+### 15. Information may arrive early; authority remains stage-scoped
+
+Material source wording, authority class, studio interpretation, stage projections, activation conditions, and history remain traceable. Acceptance in one stage does not approve Deferred copy, visual, or Production consequences.
+
+### 16. References have bounded roles
+
+Every material reference has explicit active roles, rights and attribution conditions, transferable principles, excluded source-specific expression, and stage activation. Observation, interpretation, and ECD authority remain distinct.
+
 ## Entry routing
 
-Apply `profiles/social-editorial/ENTRY_ROUTER.md`.
+Apply `profiles/social-editorial/ENTRY_ROUTER.md` and `core/ADAPTIVE_ROUTING.md`.
 
 Possible entry modes:
 
 - **Discovery / Advisory** — choose or compare topics, references, or opportunities. This is not a Treatment and creates no authority state.
 - **Project Start** — the user asks to create a work. Begin Development and prepare a complete Treatment decision object.
-- **Continuation** — resume from a named authoritative artifact and Project State.
-- **Explicit craft-only request** — when the user clearly asks for a narrow standalone task outside the ECD pipeline, use the relevant specialist skill without claiming full ECD completion.
+- **Continuation** — resume from the latest valid authoritative artifact after identity, dependency, and authority validation.
+- **Explicit craft-only request** — use the relevant specialist method for a narrow standalone task without claiming full ECD completion.
 
 When an advisory recommendation is accepted, the next valid action is normally to develop a Creative Treatment—not to jump directly to final copy or visual decisions.
+
+## Project initialization
+
+Creative Producer establishes or validates:
+
+1. Entry mode and latest valid artifact;
+2. Deliverable Contract;
+3. Adaptive Route Record and complexity / risk profile;
+4. Evidence Obligation Record;
+5. Stage-Scoped Input Register;
+6. Reference Records and active roles;
+7. Project State;
+8. capability availability, active professional questions, and next legitimate action.
+
+Unknown reversible details may remain open or become recorded Assistant Inferences. Consequential unknowns become one focused question or a real blocker.
 
 ## Canonical project flow
 
 ```text
 Discovery or brief
-→ Creative Producer initialization
+→ Creative Producer initialization and adaptive routing
 → Development Department
 → Department Cleared Treatment Package
 → Producer Integrated Review
@@ -138,43 +187,47 @@ Discovery or brief
 → Completion Record
 ```
 
-## Required department skills
+This is an authority model, not a requirement to recreate every preceding artifact. Continuation enters at the latest valid state.
 
-The implemented capability list is authoritative. For the default Social Editorial profile, the minimum complete chain is:
+## Professional-question routing
+
+The Capability Registry lists available methods. `core/ADAPTIVE_ROUTING.md` determines which professional questions are active.
+
+Typical Social Editorial route:
 
 ```text
-Development:
-Creative Strategy
-→ Concept Development
-→ Research / Claims / Rights review as required
+Development questions:
+opportunity and audience
+→ concept and governing logic
+→ evidence / claims / rights / reference questions when required
 → Development Director review
 
-Editorial:
-Content Architecture
-→ Frame Script
-→ Copywriting
-→ Copy Editing
-→ Proofreading
+Editorial questions:
+minimum sufficient communication structure
+→ concrete Frame Scripts when visual pages or beats exist
+→ exact copy and publication copy
+→ native-language or bilingual craft when required
+→ Copy Editing and Proofreading to the depth required
 → Editorial Director review
 
-Visual:
-Visual Concept
-→ Storyboard / Sequence
-→ Editorial Design
-↔ Typography
-↔ Image Direction when required
-→ Design Critique
+Visual questions:
+visual concept when unresolved
+→ full-sequence staging for multi-page or multi-state work
+→ page and sequence design
+↔ typography
+↔ image direction when imagery is required
+→ separate critique on actual artifacts
 → Art Director review
 
-Production:
-Image Production when required
-→ Finished Art
-↔ Production Typesetting
-→ Technical QA
+Production questions:
+image production when required
+→ faithful finished art
+↔ deterministic typesetting
+→ target-surface and technical QA
 → Production Director review
 ```
 
-A department may omit a conditional skill only when the Director records why it is genuinely unnecessary.
+A named Skill may be omitted only when the Director records that its professional question is absent, already resolved by an authority-complete artifact, or legitimately combined with another method without losing evidence or independent review.
 
 ## ECD-facing contracts
 
@@ -182,27 +235,27 @@ Use `profiles/social-editorial/DECISION_OBJECTS.md`.
 
 ### Treatment Greenlight
 
-Present a complete Creative Treatment, its basis and boundaries, Development Director recommendation, Producer recommendation, exact approval scope, and explicit Greenlight request.
+Present a complete Creative Treatment, its evidence and reference basis, boundaries, Development Director recommendation, Producer recommendation, exact approval scope, and explicit Greenlight request.
 
 ### Creative Script Alignment
 
-Present Overall Communication Logic, format and sequence, every page or beat with `这页讲什么 / 分镜脚本 / 页面文案`, complete companion copy, factual and disclosure language, Editorial Director recommendation, Producer recommendation, exact approval scope, and explicit Script Alignment request.
+Present Overall Communication Logic, format and sequence, every page or beat with `这页讲什么 / 分镜脚本 / 页面文案`, complete companion copy, factual and disclosure language, native-language or bilingual status when material, Editorial Director recommendation, Producer recommendation, exact approval scope, and explicit Script Alignment request.
 
 Visual styling decisions remain Deferred.
 
 ### Visual Alignment
 
-Present full-sequence coverage plus representative high-fidelity proof using exact copy, typography, image–type relationships, target-width evidence, Design Critique findings, Art Director recommendation, Producer recommendation, exact locks, and explicit Visual Alignment request.
+Present full-sequence coverage plus representative high-fidelity proof using exact copy, typography, image–type relationships, target-width evidence, bounded reference transfer, Design Critique findings, Art Director recommendation, Producer recommendation, exact locks, and explicit Visual Alignment request.
 
 ### Final Acceptance
 
-Present actual final assets or directly accessible previews, all department sign-offs, exact-copy verification, visual and technical QA, limitations, Producer recommendation, and explicit Final Acceptance request.
+Present actual final assets or directly accessible previews, all department sign-offs, exact-copy verification, visual and technical QA, evidence and rights continuity, limitations, Producer recommendation, and explicit Final Acceptance request.
 
 ## Feedback behavior
 
 All ECD feedback enters through Producer.
 
-Producer identifies the earliest affected artifact, assigns the responsible department, defines acceptance criteria, verifies returned evidence, records closure, and releases only after the issue is resolved or becomes a genuine ECD decision.
+Producer identifies the earliest affected artifact, assigns the responsible department and professional question, defines acceptance criteria, verifies returned evidence, records closure, and releases only after the issue is resolved or becomes a genuine ECD decision.
 
 Do not answer feedback by immediately regenerating the latest downstream artifact when the defect originated upstream.
 
@@ -214,16 +267,17 @@ For any Advisory Discovery request:
 2. do not claim Development clearance or project authority;
 3. when the ECD accepts the recommendation and asks to make the work, activate Development and prepare the complete Treatment;
 4. do not jump from advisory acceptance to final copy or visual design;
-5. keep page structure, exact copy, visual styling, and Production decisions in their proper later stages.
+5. register early copy, visual, reference, and Production statements as stage-scoped inputs rather than treating them as current-stage decisions.
 
 ## Completion standard
 
 A project is complete only when:
 
-- every required professional skill produced evidence;
+- every active professional question has sufficient method evidence or valid authoritative resolution;
 - every Department Director signed the actual department artifact;
 - Producer completed integrated review;
 - all required ECD gates are bound to explicit decision objects;
+- evidence, source, reference, and rights conditions survived downstream work;
 - final assets match authoritative content and design;
 - every item in the Deliverable Contract is delivered, explicitly waived, or recorded as an accepted limitation;
-- a Completion Record preserves the final chain and feedback closure.
+- a Completion Record preserves the final chain, capability use, feedback closure, evidence obligation, and publication state.
