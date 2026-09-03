@@ -3,24 +3,30 @@
 ## Formal handoff chain
 
 ```text
-Specialist Return
+Specialist Return or validated existing artifact
 → Department Director Review
 → Department Cleared Package
 → Creative Producer Integrated Review
 → Producer Cleared use
 → ECD decision when required
-→ Producer activates next department
+→ Producer activates next department and stage projections
 ```
 
 No other path is authoritative.
+
+Apply `ADAPTIVE_ROUTING.md`, `EVIDENCE_OBLIGATION.md`, `STAGE_SCOPED_INPUT_REGISTER.md`, and `REFERENCE_CONTRACT.md` to every formal handoff.
 
 ## Specialist-to-Director handoff
 
 Required:
 
 - registered Skill identity and version;
+- professional question served;
 - task and authority;
 - actual artifact;
+- Stage-Scoped Input IDs used;
+- Evidence Obligation consequence;
+- Reference roles used and prohibited transfers;
 - method evidence;
 - decisions introduced;
 - unresolved questions;
@@ -29,22 +35,41 @@ Required:
 
 The Specialist cannot mark its work Department Cleared.
 
+## Valid existing artifact handoff
+
+When no new Specialist pass is needed because a valid artifact already answers the question, record:
+
+- artifact and version;
+- quality and authority state;
+- dependency validation;
+- unresolved feedback;
+- current applicability;
+- Stage-Scoped Input and Reference conditions inherited;
+- reason the earlier artifact may be reused.
+
+Artifact title alone is not authority evidence.
+
 ## Director-to-Producer handoff
 
 Required:
 
 - Department Cleared package;
 - signed Department Review Record;
-- all material Specialist Returns;
+- active professional questions and their resolution;
+- selected Specialist Returns;
+- Skills omitted, reused, or combined and reasons;
+- Adaptive Route and complexity profile;
+- Evidence Obligation and public claim ceiling;
 - authoritative dependencies and versions;
+- Stage-Scoped Input IDs resolved, activated, Deferred, conflicted, or superseded;
+- Reference Records, active roles, permissions, evidence context, and prohibited use;
 - decision delta;
-- evidence;
 - feedback closure;
 - limitations and risks;
 - Director recommendation;
 - requested next use.
 
-Producer returns a package that only contains a Director assertion without inspectable evidence.
+Producer returns a package that contains only a Director assertion without inspectable evidence.
 
 ## Producer-to-ECD release
 
@@ -54,21 +79,27 @@ Required:
 - Department Director recommendation;
 - Producer recommendation;
 - relevant alternatives or tradeoff;
+- decision-relevant Evidence Obligation, source, reference, rights, language, or limitation information;
 - approval scope and exclusions;
 - consequence;
 - one explicit request.
 
-The ECD is not asked to inspect raw internal worksheets or perform first-line department QA.
+The ECD is not asked to inspect raw internal worksheets or perform first-line Department QA.
 
 ## Producer-to-Department assignment
 
 Required:
 
 - current Project State;
+- Deliverable Contract;
+- Adaptive Route and complexity profile;
+- Evidence Obligation and claim ceiling;
 - authoritative artifacts and versions;
 - ECD decisions and locks;
-- active and Deferred inputs;
-- requested department outcome;
+- Active and Deferred Stage-Scoped Input IDs with original wording and authority class;
+- active Reference Records, roles, rights, evidence context, and prohibited transfer;
+- professional questions to resolve;
+- requested Department outcome;
 - authority boundary;
 - acceptance criteria;
 - evidence required;
@@ -86,11 +117,31 @@ Every formal artifact records:
 - decisions proposed to change;
 - decisions removed;
 - open decisions;
-- dependencies.
+- dependencies;
+- affected Stage-Scoped Input IDs and Reference conditions.
 
-A downstream department may add and refine within authority.
+A downstream Department may add and refine within authority.
 
 A change or removal of an upstream authoritative decision requires Producer to reopen the earliest affected artifact and invalidate dependent authority until reapproved.
+
+## Stage activation handoff
+
+When authority activates a new stage, Producer records:
+
+```markdown
+Triggering Decision Object / authority:
+New state / department:
+Input IDs activated:
+Original wording / authority classes transferred:
+Reference roles activated:
+Rights / evidence context transferred:
+Deferred IDs remaining:
+Receiving owner:
+Dependencies:
+Activation-log entry:
+```
+
+Acceptance of a Treatment, Script, or visual package does not authorize any still-Deferred projection.
 
 ## Feedback intake
 
@@ -103,7 +154,7 @@ Date / turn:
 Affected outcome:
 Earliest affected artifact:
 Responsible department:
-Responsible registered Skill:
+Responsible registered Skill or professional question:
 Type:
 - misunderstanding
 - craft defect
@@ -111,8 +162,13 @@ Type:
 - scope change
 - authority change
 - factual / rights issue
+- reference-use issue
+- language / localization issue
 - technical issue
 Authoritative decisions still fixed:
+Stage-Scoped Input IDs affected:
+Evidence Obligation affected:
+Reference roles / permissions affected:
 Allowed variables:
 Acceptance criteria:
 Status:
@@ -139,10 +195,15 @@ Return to the earliest object where the defect became true.
 Typical routing:
 
 - weak or wrong opportunity / premise → Creative Strategy or Concept Development;
-- unsupported claim / source / rights problem → Research Verification or Claims Rights;
+- wrong Evidence Obligation, unsupported claim, source, validation, or rights problem → Research Verification or Claims Rights;
+- wrong input authority, projection, or repeated-question behavior → Creative Producer / Stage-Scoped Input Register;
+- reference role, transfer, permission, or evidence-context problem → Reference Contract / Claims Rights / responsible Department;
 - sequence or page-job problem → Content Architecture;
 - abstract or unvisualizable page → Frame Script;
 - weak, misleading, or false-positioned language → Copywriting / Copy Editing;
+- Chinese native-language problem → Chinese Copy Craft;
+- English native-language problem → English Copy Craft;
+- bilingual function or semantic parity problem → Bilingual Transcreation;
 - typo, name, punctuation, exactness → Proofreading;
 - generic or weak visual idea → Visual Concept;
 - sequence staging or repetition → Storyboard / Sequence;
@@ -156,19 +217,23 @@ Typical routing:
 
 ## Rework stop condition
 
-Every Rework Brief must define what evidence will prove closure. Internal iteration stops when:
+Every Rework Brief defines what evidence will prove closure. Internal iteration stops when:
 
 - acceptance criteria are met;
 - a genuine ECD decision is required;
-- a capability, rights, information, or feasibility blocker remains;
-- the department recommends abandoning the route.
+- a capability, rights, information, evidence, validation, scope, or feasibility blocker remains;
+- the Department recommends abandoning the route.
 
 ## No downstream rescue
 
 Do not use:
 
 - disclaimer as a substitute for truthful speaker position;
-- smaller typography as a substitute for editorial compression;
+- source enthusiasm as a substitute for evidence;
+- one demonstration as a substitute for commercial validation;
+- repeated ECD questions as a substitute for carrying registered inputs forward;
+- style imitation as a substitute for controlled reference transfer;
+- smaller typography as a substitute for Editorial compression;
 - opaque cards as a substitute for composition;
 - new imagery as a substitute for a weak Frame Script;
 - final retouch as a substitute for a weak visual concept;
