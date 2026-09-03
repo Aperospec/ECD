@@ -2,7 +2,9 @@
 
 These templates define what the Executive Creative Director sees at each gate.
 
-Use plain language. Keep internal worksheets backstage, but never hide decision content.
+Use plain language. Keep internal worksheets backstage, but never hide decision content, evidence limits, reference consequences, language parity, or approval scope.
+
+The ECD-facing object should remain proportionate. Surface only control information that materially affects the decision.
 
 ## A. Creative Treatment / Greenlight
 
@@ -16,25 +18,31 @@ Current state: Awaiting ECD Greenlight
 [one sentence]
 
 ## 完整创意
-[clear narrative explanation of what the work is, why the idea matters, how it works, and what the audience should understand or feel]
+[clear connected explanation of what the work is, why the idea matters, how it works, and what the audience should understand or feel]
 
 ## 为什么值得做
 [audience, account, platform, novelty, or communication value]
 
-## 素材与依据
-[sources, research, references, and what is verified]
+## 素材、依据与证据边界
+[primary Evidence Obligation; sources and research; what is fact, source claim, observed demonstration, inference, concept, or validation; public claim ceiling]
 
-## 事实、想象与权利边界
-[what is fact, inference, concept, metaphor, demonstration, quotation, or third-party material]
+## 参考资料与使用边界
+[material references, assigned roles, transferable principles, authorized direct-use content, attribution, and prohibited transfer]
+
+## 事实、想象、体验与权利边界
+[reality / speaker position, rights, quotation, screenshot, likeness, attribution, simulation, or commercial-use conditions]
 
 ## 本项目不是什么
 [boundaries that prevent downstream drift]
+
+## 已记录但暂不确认的后续要求
+[material Editorial, Visual, or Production inputs preserved as Deferred; do not dump the full input register]
 
 ## Development Director 建议
 [professional recommendation]
 
 ## Creative Producer 建议
-[integrated recommendation]
+[integrated recommendation, including any material complexity, evidence, or capability limitation]
 
 ## 本次确认范围
 [decisions that become authoritative]
@@ -57,7 +65,7 @@ Decision ID:
 Current state: Awaiting ECD Script Alignment
 
 ## 整体怎么讲
-[Overall Communication Logic and format recommendation]
+[Overall Communication Logic and minimum sufficient format recommendation]
 
 ## 页面 / 节拍 01
 
@@ -75,8 +83,14 @@ Current state: Awaiting ECD Script Alignment
 ## 完整发布正文
 [title, body copy, disclosure, CTA, tags only when part of the project]
 
+## 语言与版本
+[target locale; native-language craft result; bilingual semantic and functional parity when required]
+
 ## 来源、证据、说明与限制
-[exact public language]
+[exact public language consistent with the Evidence Obligation and public claim ceiling]
+
+## 参考与素材约束
+[only decision-relevant source, attribution, reference-role, direct-use, or evidence conditions]
 
 ## Editorial Director 建议
 [professional recommendation]
@@ -85,10 +99,10 @@ Current state: Awaiting ECD Script Alignment
 [integrated recommendation]
 
 ## 本次确认范围
-[format, sequence, page meanings, Frame Scripts, exact copy, publication copy, evidence language]
+[format, sequence, page meanings, Frame Scripts, exact copy, publication copy, language versions, evidence language]
 
 ## 视觉阶段仍未确认
-[palette, composition, typeface, exact text placement, image style, camera, lighting, final image–type relationship]
+[palette, composition, typeface, exact text placement, image style, camera, lighting, final image–type relationship, and Deferred Visual reference roles]
 
 ## 决策请求
 请确认：Script Alignment / 修改 / 退回 Development / 暂停。
@@ -115,22 +129,25 @@ Decision ID:
 Current state: Awaiting ECD Visual Alignment
 
 ## 视觉问题
-[what the design must make perceptible]
+[what the design must make perceptible, including evidence or reality-position risk]
+
+## 参考资料如何被转译
+[assigned roles; Description → Formal Analysis → Interpretation → Controlled Transfer; authorized direct-use content; source-specific expression excluded]
 
 ## 视觉方向与备选路线
-[material alternatives and Art Director recommendation]
+[material alternatives and Art Director recommendation when the governing thesis was unresolved]
 
-## 全序列覆盖
-[contact sheet or equivalent showing every page, copy mass, dominant gesture, differentiation, and rhythm]
+## 全状态 / 全序列覆盖
+[the complete contracted state or contact sheet showing every page, copy mass, dominant gesture, differentiation, and rhythm]
 
 ## 代表性高保真页面
-[cover / body / evidence / payoff page classes as required]
+[the smallest sufficient page-class set]
 
-## 字体与真实文案
-[type roles, line behavior, exact-copy fit, Chinese / mixed-script proof]
+## 字体、语言版本与真实文案
+[type roles, line behavior, exact-copy fit, Chinese / English / mixed-script and bilingual-variant proof]
 
-## 图像方向与图文关系
-[subject, scene, crop, light, image–type relationship, protected and quiet zones]
+## 图像方向、证据状态与图文关系
+[subject, scene, crop, light, image–type relationship, protected and quiet zones, evidence / reconstruction / concept status]
 
 ## 手机与平台验证
 [actual-width, thumbnail, crop, safe area, UI overlay]
@@ -142,10 +159,10 @@ Current state: Awaiting ECD Visual Alignment
 [professional recommendation]
 
 ## Creative Producer 建议
-[integrated recommendation]
+[integrated recommendation and any material limitation]
 
 ## 本次确认范围
-[governing visual thesis, page-class system, typography direction, image direction, sequence grammar, locks and tolerances]
+[governing visual thesis, page-class system, typography direction, image direction, sequence grammar, reference transfer, locks and tolerances]
 
 ## Production 仍需完成
 [final assets, exact implementation, variants, exports, technical QA]
@@ -154,7 +171,7 @@ Current state: Awaiting ECD Visual Alignment
 请确认：Visual Alignment / 选择路线 / 修改 / 退回 Editorial / 暂停。
 ```
 
-A beautiful image without exact copy and page evidence is not a valid Visual Decision Object.
+A beautiful image without exact copy, reference boundaries, and page evidence is not a valid Visual Decision Object.
 
 Stop after the request.
 
@@ -167,22 +184,25 @@ Decision ID:
 Current state: Awaiting ECD Final Acceptance
 
 ## 最终交付物
-[direct previews and file list]
+[direct previews and complete file list]
 
 ## 发布顺序与规格
-[order, dimensions, formats, variants]
+[order, dimensions, formats, language / size / platform variants]
+
+## 证据、来源、参考与权利状态
+[Evidence Obligation completion; public claim ceiling; attribution; direct-use permission; reference-use compliance; known validation limits]
 
 ## Editorial Director 最终签字
-[copy, names, claims, disclosure, sources, punctuation]
+[copy, languages, names, claims, disclosure, sources, punctuation, bilingual parity]
 
 ## Art Director 最终签字
-[visual thesis, design, typography, imagery, sequence]
+[visual thesis, bounded reference transfer, evidence treatment, design, typography, imagery, sequence]
 
 ## Production Director 最终签字
 [implementation, files, variants, technical QA]
 
 ## Creative Producer Final Review
-[contract, cross-department coherence, feedback closure, recommendation]
+[contract, adaptive route, cross-department coherence, input closure, feedback closure, recommendation]
 
 ## 已授权偏差与已知限制
 [transparent record]
@@ -205,4 +225,6 @@ The following do not constitute a valid Decision Object:
 - a file link without the complete proposal in the primary conversation;
 - a Director checklist without actual work;
 - a visual mood description without proof;
+- an evidence or reference claim without its material boundary;
+- a bilingual package with no semantic parity record;
 - final assets released before the Final Acceptance request.
