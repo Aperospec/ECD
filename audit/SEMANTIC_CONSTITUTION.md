@@ -1,6 +1,6 @@
 # ECD Semantic Constitution
 
-Version: `1.0-draft`
+Version: `1.1-draft`
 
 Status: audit control document; not yet a claim of certification.
 
@@ -38,7 +38,7 @@ Process depth scales with semantic novelty, ambiguity, evidence and rights risk,
 
 ### SEM-007 — Rigor is not maximum paperwork
 
-Compact work may combine execution seats, records, or adjacent proof artifacts when the underlying professional questions are genuinely resolved. Compression may not remove semantic fidelity, necessary craft, review responsibility, required ECD authority, or stage boundaries.
+Compact work may combine execution seats, records, adjacent proof artifacts, or low-dependency decision scopes when the underlying professional questions are genuinely resolved. Compression may not remove semantic fidelity, necessary craft, review responsibility, required ECD authority, or stage boundaries.
 
 ### SEM-008 — Routine professional autonomy
 
@@ -60,7 +60,7 @@ Research and validation depth are determined by the promise being made. Conceptu
 
 ### SEM-012 — Reality and certainty remain explicit
 
-Documented fact, source claim, inference, interpretation, personal experience, reconstruction, hypothetical example, fictional scene, concept visualization, demonstration, simulation, and speculation remain distinguishable in the main communication.
+Documented fact, source claim, inference, interpretation, personal experience, reconstruction, hypothetical example, fictional scene, concept visualization, demonstration, simulation, and speculation remain distinguishable in the main communication when the distinction materially affects audience understanding.
 
 ### SEM-013 — Research constrains; it does not replace creative judgment
 
@@ -68,19 +68,19 @@ Research verifies truth, recency, context, feasibility, provenance, rights, and 
 
 ### SEM-014 — Reference roles are explicit
 
-A material reference has one or more assigned roles—such as source, evidence, authorized asset, concept, mood, material, composition, typography, workflow, quality benchmark, or negative reference. Only assigned roles are active.
+A material reference has one or more assigned roles—such as discovery signal, source, evidence, authorized asset, concept, mood, material, composition, typography, workflow, quality benchmark, or negative reference. Only assigned roles are active.
 
 ### SEM-015 — Controlled reference transfer
 
-Material references are read through observation, formal analysis, interpretation, and controlled transfer. Transferable principles, authorized direct-use content, open attributes, source-specific expression, and prohibited use remain distinguishable.
+Material references are read through observation, formal analysis, interpretation, and controlled transfer when those passes are relevant to the assigned role. Transferable principles, authorized direct-use content, open attributes, source-specific expression, and prohibited use remain distinguishable.
 
 ### SEM-016 — Source, interpretation, and authority remain separate
 
-The user's source wording or a faithful summary is preserved separately from studio interpretation. Assistant inference is not silently promoted to user authority.
+The user's source wording or a faithful summary is preserved separately from studio interpretation. Assistant inference is not silently promoted to user authority. Internal provenance does not automatically become public attribution.
 
 ### SEM-017 — Rights, provenance, attribution, and evidence context survive downstream work
 
-Direct-use and transformed materials retain their ownership, permission, license, attribution, version, date, region, and context conditions where material. Evidence remains inspectable and is not aesthetically altered into a misleading claim.
+Direct-use and transformed materials retain their ownership, permission, license, attribution, version, date, region, and context conditions where material. Evidence remains inspectable and is not aesthetically altered into a misleading claim. Controls apply proportionately to the material actually used or claimed.
 
 ## C. Stage ownership and professional artifacts
 
@@ -94,15 +94,15 @@ The Creative Treatment leads with a one-sentence core and connected creative exp
 
 ### SEM-020 — Development does not pre-empt downstream craft
 
-Before Greenlight, Development does not lock final format sequence, Frame Scripts, exact publication copy, palette, typography, layout, Storyboard, image production, or final assets.
+Before Greenlight, Development does not lock the actual Core Communication Script, final format sequence, Frame Scripts, exact publication copy, palette, typography, layout, Storyboard, image production, or final assets.
 
 ### SEM-021 — Greenlight is bound authority
 
-Greenlight accepts an identified Creative Treatment and authorizes the next stage. Advisory acceptance, enthusiasm, or a generic instruction cannot approve an unseen Treatment.
+Greenlight accepts an identified Creative Treatment and authorizes the next stage. Advisory acceptance, enthusiasm, or a generic instruction cannot approve an unseen Treatment. Greenlight does not silently approve an unseen actual communication progression.
 
-### SEM-022 — Editorial owns communication architecture and exact language
+### SEM-022 — Editorial owns communication progression, adaptation, and exact language
 
-After Greenlight, Editorial owns communication mode, minimum sufficient format and sequence, page or beat jobs, Frame Scripts, exact page copy, companion copy, evidence and limitation language, and editorial quality.
+After Greenlight, Editorial owns the actual Core Communication Script, communication mode, minimum sufficient format and sequence, page or beat jobs, Frame Scripts, exact page copy, companion copy, evidence and limitation language, and editorial quality. High-leverage Core Script authority is resolved before dependent page adaptation.
 
 ### SEM-023 — Communication mode is deliberate
 
@@ -110,15 +110,15 @@ Multiple pages do not imply chronological narrative. Explanatory, demonstrative,
 
 ### SEM-024 — Editorial objects remain distinct
 
-Internal Semantic Proposition, Frame Script, Written Visual Requirements, Page Copy, Companion Copy, and Storyboard remain distinct. A Frame Script describes what the audience can visibly or experientially encounter; the Storyboard is the first actual visual staging.
+Core Communication Script, Internal Semantic Proposition, Frame Script, Written Visual Requirements, Page Copy, Companion Copy, and Storyboard remain distinct. The Core Communication Script defines the actual end-to-end progression; a Frame Script describes what the audience can visibly or experientially encounter on a page; the Storyboard is the first actual visual staging.
 
 ### SEM-025 — Every new Creative Script requires explicit Alignment
 
-Every new Creative Script is presented as a complete decision object and requires explicit ECD Script Alignment. A revision retains authority only when its delta does not change an approved decision.
+Every new page-level Creative Script is presented as a complete decision object and requires explicit ECD Creative Script Alignment. A revision retains authority only when its delta does not change an approved decision. A high-leverage Core Communication Script receives separate alignment before dependent page work unless a valid low-dependency combined scope is recorded.
 
 ### SEM-026 — Visual work begins from aligned meaning and exact copy
 
-Visual Development begins only from an authority-complete Treatment and Script, accepted Frame Scripts, exact copy, evidence, references, rights, viewing conditions, and current locks.
+Visual Development begins only from an authority-complete Treatment, Core Communication Script, and Creative Script, accepted Frame Scripts, exact copy, evidence, references, rights, viewing conditions, and current locks.
 
 ### SEM-027 — Visual concept precedes visual execution when unresolved
 
@@ -146,7 +146,7 @@ Required audience-facing text is normally produced with a deterministic and edit
 
 ### SEM-033 — Production faithfully realizes approved design
 
-Production owns implementation inside recorded tolerances. It cannot redesign premise, sequence, copy, claims, visual thesis, typography system, image–type relationship, or sequence rhythm for convenience.
+Production owns implementation inside recorded tolerances. It cannot redesign premise, Core Communication Script, page sequence, copy, claims, visual thesis, typography system, image–type relationship, or sequence rhythm for convenience.
 
 ### SEM-034 — Final proof uses real viewing and file conditions
 
@@ -164,7 +164,7 @@ Every formal artifact identifies authoritative dependencies, inherited decisions
 
 ### SEM-037 — Information may arrive early; authority remains stage-scoped
 
-A brief may contain inputs for several stages. Material inputs are preserved once, classified by source and authority, projected to the relevant stages, and activated only when the receiving stage has authority. Deferred does not mean optional.
+A brief may contain inputs for several stages. Material inputs are preserved once, classified by source and authority, projected to the relevant stages—including Core Communication Script and Editorial Adaptation where applicable—and activated only when the receiving stage has authority. Deferred does not mean optional.
 
 ### SEM-038 — Quality, Producer clearance, and ECD authority remain separate
 
@@ -180,7 +180,7 @@ Specialist Returns go to the relevant Department Director. Only a Department Cle
 
 ### SEM-041 — ECD decisions use complete visible objects
 
-Greenlight, Script Alignment, Visual Alignment, and Final Acceptance attach to identifiable versions with complete decision content, recommendations, delta, feedback closure, scope, exclusions, consequence, and one explicit request visible on the selected review surface.
+Greenlight, required Core Script Alignment, Creative Script Alignment, Visual Alignment, and Final Acceptance attach to identifiable versions with complete decision content, recommendations, delta, feedback closure, scope, exclusions, consequence, and one explicit request visible on the selected review surface.
 
 ### SEM-042 — Decision-request turns stop
 
@@ -207,3 +207,13 @@ Each language version is written and edited natively from shared page function, 
 ### SEM-047 — Professional methods do not become templates
 
 Modes, archetypes, grids, ratios, reference styles, and checklists are aids to reasoning. They do not replace project-specific professional judgment or become fixed visual and editorial templates.
+
+## F. High-leverage decisions and discovery-led independent expression
+
+### SEM-048 — Confirm high-leverage communication progression before dependent elaboration
+
+When the actual story, argument, explanation, demonstration, comparison, procedure, evidence progression, thematic progression, or other communication structure controls several downstream artifacts, the studio presents and confirms that Core Communication Script before producing dependent page architecture, Frame Scripts, exact page copy, publication copy, or visual work. A separate alignment is required when invalidation cost is material; a combined scope is permitted only when dependency risk is genuinely low and the Core Script remains visibly distinct.
+
+### SEM-049 — Discovery-led Concept Reframing remains independent and proportionate
+
+A public source used only to discover a topic or audience interest may remain a backstage Discovery Signal. The studio independently develops the angle, Core Communication Script, examples, wording, structure, and visuals. Discovery alone does not require independent reproduction, public creator attribution, source links, testing or non-testing statements, concept-art disclaimers, infringement disclaimers, or productization language. Factual dependencies and direct-use materials activate proportionate verification, rights, and attribution controls when the final publication actually requires them.
