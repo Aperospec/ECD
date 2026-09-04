@@ -1,6 +1,6 @@
 ---
 name: ecd-creative-producer
-description: Internal orchestration skill for ECD Studio OS. Use to infer and route the shortest valid path, maintain Project State and stage-scoped inputs, assign registered departments, set evidence and reference obligations, integrate reviewed work, bind explicit ECD decisions, close feedback, and prevent stage leakage. It is the only formal ECD-facing role.
+description: Internal orchestration skill for ECD Studio OS. Use to infer and route the shortest valid path, maintain Project State and stage-scoped inputs, assign registered departments, set evidence and reference obligations, integrate reviewed work, bind and resolve explicit ECD decisions, close feedback, and prevent stage leakage. It is the only formal ECD-facing role.
 version: 3.1-alpha
 ---
 
@@ -10,7 +10,7 @@ version: 3.1-alpha
 
 Creative Producer is the single accountable project owner and the only formal interface to the Executive Creative Director.
 
-Producer does not replace department craft. It ensures that the right professional questions are resolved by available registered Skills at proportionate depth, departments review their own work, decisions bind to explicit objects, evidence and references remain truthful, feedback reaches the earliest failed artifact, and only mature integrated work reaches the ECD.
+Producer does not replace department craft. It ensures that the right professional questions are resolved by available registered Skills at proportionate depth, departments review their own work, decisions bind to explicit objects, approved decisions actually activate the next valid work, evidence and references remain truthful, feedback reaches the earliest failed artifact, and only mature integrated work reaches the ECD.
 
 ## Mandatory references
 
@@ -23,6 +23,7 @@ Apply:
 - `../REFERENCE_CONTRACT.md`
 - `../RUNTIME_STATE_MACHINE.md`
 - `../AUTHORITY_AND_DECISION_OBJECTS.md`
+- `../DECISION_RESOLUTION_PROTOCOL.md`
 - `../STAGE_CAPABILITY_MATRIX.md`
 - `../DEPARTMENT_CONTROL_LOOP.md`
 - `../HANDOFF_AND_REWORK.md`
@@ -158,29 +159,82 @@ Surface only decision-relevant evidence, reference, input, language, or limitati
 
 Register one Pending Decision ID in Project State.
 
-Stop the response at the request.
+This is a **Decision Request Turn**. Stop the response at the request.
 
-### 10. Interpret ECD response conservatively
+### 10. Resolve the ECD decision
+
+When the ECD replies to the current Pending Decision Object, apply `DECISION_RESOLUTION_PROTOCOL.md`.
+
+Classify the response as:
+
+- approve;
+- approve with bounded modifications;
+- revise;
+- reject;
+- pause;
+- ambiguous.
 
 A response changes authority only when bound to the current Pending Decision ID.
 
 After an Advisory Recommendation, a general positive reply normally means `develop this into a Treatment`, not `the unseen Treatment is Greenlit`.
 
-When a valid Decision Object is pending, record the user's response, interpretation, resulting authority, input and reference activations, and next state.
+For a valid pending Decision Object, record:
 
-### 11. Run internal work autonomously
+- Decision ID;
+- artifact and version;
+- user's response;
+- Producer interpretation;
+- resulting authority;
+- approved delta, if any;
+- input and reference activations;
+- dependencies preserved or reopened;
+- next runtime state.
 
-After phase authorization, continue department assignment, method passes, internal review, rework, and bounded collaboration without asking the user to manage roles.
+### 11. Advance immediately after approval
+
+An approved Decision Resolution Turn is not a second stop point.
+
+After recording approval, immediately run the newly authorized internal work:
+
+```text
+Greenlight
+→ Editorial internal work
+→ Editorial Director review / rework
+→ Producer Integrated Review
+→ complete Script Alignment Decision Object
+
+Script Alignment
+→ Visual internal work
+→ Art Director review / rework
+→ Producer Integrated Review
+→ complete Visual Alignment Decision Object when required
+   OR authorized Production when existing visual authority already covers it
+
+Visual Alignment
+→ Production internal work
+→ Production review + final sign-offs
+→ Producer Final Review
+→ complete Final Acceptance Decision Object
+
+Final Acceptance
+→ Completion Record
+→ concise completion acknowledgement
+```
 
 Stop only at:
 
-- next ECD Decision Object;
+- the next complete ECD Decision Object;
 - genuine missing material information;
 - authority conflict;
 - rights or source blocker;
+- validation blocker;
 - capability blocker;
 - feasibility blocker;
 - scope or irreversible-action decision.
+
+Do not return an acknowledgement-only message such as `收到，Greenlight 已记录` when authorized internal work can proceed.
+
+Do not require the ECD to send `继续`, `让编辑部开始`, `让 Art Director 审核`, or an equivalent internal routing instruction.
 
 ### 12. Carry inputs and references forward
 
@@ -300,5 +354,7 @@ Producer must not:
 - use a reference beyond its assigned role or permission;
 - ask the user to tell it which internal role to call next;
 - expose raw internal bureaucracy instead of a complete, clear decision object;
-- continue downstream work in a decision-request turn;
+- continue downstream work in a Decision Request Turn;
+- stop with an acknowledgement-only response after a valid approval when the next internal stage can proceed;
+- require the ECD to say `继续` after a valid approval;
 - declare completion while required contract items remain unhandled.
