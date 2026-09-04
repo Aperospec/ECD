@@ -2,7 +2,7 @@
 
 Audit ID: `ECD-SPA-001`
 
-Status: **active — Wave 2 source-level remediation complete; installation and behavioral verification pending; V3.1 is not yet semantically certified**
+Status: **active — V3.2 source-level implementation complete; installation and behavioral verification pending; semantic certification not yet granted**
 
 ## Audited baselines
 
@@ -10,12 +10,12 @@ Status: **active — Wave 2 source-level remediation complete; installation and 
 
 `fb6a694c99b64b2155c8c600eb125d5d3d08e200`
 
-Protects the original ECD operating intent:
+Protects:
 
 - one formal Creative Producer interface;
 - infer-first behavior;
-- shortest valid routing and reuse of valid artifacts;
-- proportionate Compact / Standard / Extended process depth;
+- shortest valid routing and reuse;
+- proportionate process depth;
 - Development, Editorial, Visual, and Production ownership;
 - routine professional autonomy;
 - deterministic typography and target-surface delivery;
@@ -25,39 +25,52 @@ Protects the original ECD operating intent:
 
 `v2.1-legacy @ cdc48e4eba107dd67a4920d2fd1101058759031b`
 
-Protects later validated semantics:
+Protects:
 
 - explicit decision objects and hard stops;
 - Producer review;
-- artifact decision inheritance;
+- artifact inheritance and targeted rework;
 - stage-scoped inputs;
-- mandatory Script Alignment;
+- mandatory Creative Script Alignment;
 - copy-aware composition and image-class separation;
 - Type-Fit and mobile QA;
-- earliest-failed-object rework;
 - final acceptance traceability.
 
 ### Authorized changes
 
 `audit/AUTHORIZED_CHANGE_LEDGER.md`
 
-A difference from an earlier version is not semantic loss when it is recorded as an ECD-authorized supersession, strengthening, or structural translation.
+A difference from an earlier version is not semantic loss when it is recorded as an ECD-authorized strengthening, structural translation, or supersession.
 
-## Wave 2 Runtime candidate
+## Current Runtime candidate
 
-The source-level remediation was completed across the V3 branch through:
+Version:
 
-`7bfa0a2219aa792f510e635bd7270f2c0e18895a`
+`ECD Studio OS V3.2 / 3.2-alpha`
 
-Later commits update audit and eval records without changing the substantive Runtime candidate under review.
+Primary V3.2 Runtime implementation:
+
+`987624e8cd92776aa38bc9658270f4cc595ee914`
+
+Semantic Constitution amendment:
+
+`564ced246022b12878472f1780207ecfc7e47760`
+
+Later audit-document commits do not alter the substantive Runtime unless explicitly stated.
 
 ## Audit artifacts
 
-- `audit/SEMANTIC_CONSTITUTION.md` — 47 stable semantic clauses.
-- `audit/AUTHORIZED_CHANGE_LEDGER.md` — authorized changes and supersessions.
-- `audit/SEMANTIC_TRACEABILITY_MATRIX.md` — baseline → current implementation → test trace.
-- `audit/LEGACY_METHOD_MIGRATION_MATRIX.md` — deleted V2 methods and their V3 destinations.
-- `evals/semantic/SEMANTIC_REGRESSION.md` — behavior tests required for certification.
+- `audit/SEMANTIC_CONSTITUTION.md` — 49 stable semantic clauses;
+- `audit/AUTHORIZED_CHANGE_LEDGER.md` — authorized changes and supersessions;
+- `audit/SEMANTIC_TRACEABILITY_MATRIX.md` — Wave 2 baseline trace;
+- `audit/V3_2_TRACEABILITY_ADDENDUM.md` — V3.2 clause and implementation trace;
+- `audit/LEGACY_METHOD_MIGRATION_MATRIX.md` — V2 method migration dispositions;
+- `audit/WAVE_2_REMEDIATION.md` — Wave 2 restoration record;
+- `audit/WAVE_3_BEHAVIOR_FINDINGS.md` — approval-resolution stall finding;
+- `audit/WAVE_4_CORE_SCRIPT_AND_REFRAMING.md` — V3.2 change record;
+- `evals/semantic/SEMANTIC_REGRESSION.md` — general semantic suite;
+- `evals/semantic/WAVE3_GATE_RESOLUTION.md` — gate-resolution tests;
+- `evals/semantic/WAVE4_CORE_SCRIPT_AND_REFRAMING.md` — V3.2 tests.
 
 ## Status vocabulary
 
@@ -65,158 +78,154 @@ Later commits update audit and eval records without changing the substantive Run
 - **Strengthened** — current implementation retains and makes the principle more enforceable.
 - **Intentionally Superseded** — a later authorized rule replaces an earlier rule.
 - **Distributed / Preserved** — meaning survives across several current files.
-- **Restored** — Wave 2 reintroduced a valid earlier semantic obligation that was weak or absent.
-- **Partially Preserved** — some consequence survives, but a meaningful part is weak or absent.
-- **Missing** — no sufficient current implementation exists.
+- **Restored** — an earlier valid semantic obligation was reintroduced after weakening or omission.
+- **Partially Preserved** — a meaningful part remains weak or absent.
+- **Missing** — no sufficient implementation exists.
 - **Conflict** — current rules pull in incompatible directions.
-- **Pending behavioral equivalence** — source mapping is sufficient, but actual runtime behavior or artifact proof has not yet established equivalence.
+- **Pending behavioral equivalence** — source mapping exists, but installed-runtime behavior or artifact evidence is not yet sufficient.
 
-## Wave 1 findings
+## Audit waves
 
-Wave 1 identified five material deficiencies:
+### Wave 1 — Baseline capture
 
-1. infer-first, shortest-valid-route, and proportional process semantics were weak or conflicting;
-2. project-level Evidence Obligation modes were absent;
-3. Stage-Scoped Input semantics had been reduced to simple Active / Deferred lists;
-4. shared reference governance and controlled transfer were fragmented;
-5. native Chinese / English craft was shallow and Bilingual Transcreation was missing.
+Established:
 
-## Wave 2 remediation completed
+- Semantic Constitution;
+- Authorized Change Ledger;
+- source-level traceability;
+- legacy-method migration matrix;
+- initial regression suite.
 
-### 1. Adaptive routing restored
+Found five material gaps in adaptive routing, evidence obligation, stage-scoped inputs, reference governance, and language craft.
 
-Added `core/ADAPTIVE_ROUTING.md` and integrated it into root, Producer, Runtime, Project State, Department Control, Directors, Profile, and Evals.
-
-Restored:
-
-- infer first and ask only materially consequential questions;
-- latest-valid-artifact entry;
-- valid-artifact reuse;
-- Compact / Standard / Extended complexity and risk profiles;
-- professional-question routing before named Skills;
-- combined execution seats without false independence;
-- routine professional autonomy.
-
-### 2. Evidence Obligation restored
-
-Added `core/EVIDENCE_OBLIGATION.md` and integrated it across Development, Editorial, Visual, Production, Project State, and final decision objects.
+### Wave 2 — Semantic restoration
 
 Restored:
 
-- Speculative / Conceptual;
-- Evidence-based Editorial;
-- Product / Commercial Validation;
-- claim-level stricter overrides;
-- public claim ceilings;
-- practical validation, reproducibility, failure-boundary, dependency, cost, rights, and operational checks when commercial promises require them.
+- Infer First and shortest valid route;
+- Compact / Standard / Extended proportionality;
+- Evidence Obligation modes;
+- Stage-Scoped Input Register;
+- shared Reference Contract;
+- Chinese, English, and bilingual editorial craft.
 
-### 3. Stage-Scoped Input Register restored
+Wave 2 removed source-level Missing and Conflict findings but did not grant behavioral certification.
 
-Added `core/STAGE_SCOPED_INPUT_REGISTER.md`.
+### Wave 3 — Decision-resolution continuation
 
-Restored:
+Live testing showed that the Runtime correctly stopped at a Greenlight request but stopped again after approval instead of advancing internally.
 
-- authority classes;
-- original wording separate from studio interpretation;
-- Global, Development, Editorial, Visual, and Production projections;
-- Active, Deferred, Activated, Resolved, Superseded, Conflict, and stale states;
-- activation and supersession logs;
-- no-repeat behavior;
-- Compact embedded-register option.
+Fixed through:
 
-### 4. Reference governance restored
+- `core/DECISION_RESOLUTION_PROTOCOL.md`;
+- explicit distinction between Decision Request Turn and Decision Resolution Turn;
+- autonomous continuation from an approved gate to the next genuine ECD decision or blocker.
 
-Added `core/REFERENCE_CONTRACT.md` and integrated it into Claims Rights, Visual Concept, Image Direction, Art Director, Production, Handoff, Project State, and Decision Objects.
+### Wave 4 — Core Communication Script and Concept Reframing
 
-Restored:
+Live testing and ECD clarification identified two general defects.
 
-- explicit reference roles;
-- rights, direct-use, attribution, evidence, and prohibited-transfer conditions;
-- Description → Formal Analysis → Interpretation → Controlled Transfer;
-- stage-scoped activation;
-- multi-reference conflict handling;
-- source-specific expression and project-specific originality boundaries.
+#### F-007 — High-leverage communication progression confirmed too late
 
-### 5. Native-language and bilingual craft restored
+V3.2 now:
 
-Added and registered:
+- keeps Greenlight at the Treatment / concept level;
+- creates an actual `Core Communication Script` after Greenlight;
+- uses separate `Core Script Alignment` when changing the progression would invalidate substantial downstream work;
+- allows a combined Core Script + Creative Script scope only for genuinely low-dependency work;
+- keeps page architecture, Frame Scripts, exact copy, publication copy, and Visual inactive before a required Core Script gate;
+- preserves Greenlight when a Core Script is rejected unless Development-level meaning changes.
 
-- `ecd-chinese-copy-craft`;
-- `ecd-english-copy-craft`;
-- `ecd-bilingual-transcreation`.
+#### F-008 — Discovery sources handled too defensively
 
-Integrated them into Editorial routing, Social Editorial Profile, Decision Objects, Project State, and Production sign-off.
+V3.2 now distinguishes:
 
-## Wave 2 source-level verdict
+- Discovery Signal;
+- Factual Dependency;
+- Direct-use Material.
+
+For Discovery Signal Concept Reframing, the studio independently creates the angle, Core Script, examples, copy, and visuals. It does not automatically add creator attribution, source links, inspiration language, testing / non-testing statements, concept-art disclaimers, infringement disclaimers, or future productization language.
+
+Factual verification, rights treatment, and attribution remain active when the final publication actually depends on a fact or directly uses source expression or assets.
+
+## Current source-level verdict
 
 At source level:
 
 - `Missing`: 0;
 - `Conflict`: 0;
-- Wave 1 findings F-001 through F-005: source-level resolved;
-- several Visual and Production legacy methods: still pending behavioral equivalence.
+- Constitution clauses: 49;
+- registered internal capabilities expected: 28;
+- total expected `SKILL.md` entries including the root: 29.
 
 This does **not** constitute semantic certification.
 
 ## Remaining verification work
 
-### Phase A — Static installation verification
+### Phase A — Installation verification
 
-- resync the branch;
-- verify every implemented Skill is registered and readable;
-- verify the four restored Core contracts are in mandatory startup load;
-- verify the new native-language and transcreation Skills are discoverable;
-- verify no V2 Runtime directory has re-entered the branch.
+- resync the V3 branch;
+- verify 29 `SKILL.md` entries;
+- verify `ecd-core-communication-script` is registered;
+- verify `core/HIGH_LEVERAGE_DECISIONS.md` and `profiles/social-editorial/CONCEPT_REFRAMING.md` are readable;
+- verify no V2 Runtime file is active.
 
-### Phase B — Orchestration and semantic control tests
+### Phase B — Wave 4 behavior tests
 
-Execute `SREG-01`–`SREG-12`, including:
+Execute `W4-01` through `W4-12`:
+
+- high-leverage Core Script before page elaboration;
+- targeted Core Script rework;
+- automatic continuation after Core Script approval;
+- low-dependency combined gate;
+- existing Core Script reuse;
+- V3.1 active-project recovery;
+- Discovery Signal Concept Reframing;
+- narrow factual dependency;
+- direct-use material controls;
+- Deferred future productization;
+- absence of defensive public-language defaults;
+- independent editorial and visual expression.
+
+### Phase C — Preserve prior regression coverage
+
+Re-run the relevant Wave 2 and Wave 3 tests to ensure V3.2 has not regressed:
 
 - Advisory → Treatment authority;
-- infer-first threshold;
+- Infer First;
 - shortest valid route;
-- process proportionality;
+- proportional process;
 - Evidence Obligation;
-- Reference Contract;
-- Stage-Scoped Input no-repeat behavior;
-- Producer autonomy.
+- Stage-Scoped Input;
+- reference-role controls;
+- approval-resolution continuation;
+- complete Creative Script, Visual, Production, and Final objects.
 
-### Phase C — Craft and end-to-end tests
+### Phase D — Craft and end-to-end equivalence
 
-Execute `SREG-13`–`SREG-18` on a controlled Social Editorial project, including at least one language variant.
+Continue testing:
 
-### Phase D — Failure injection and language tests
-
-Execute:
-
-- `SREG-19`–`SREG-20` for rework and capability / review integrity;
-- `SREG-21` for Chinese and English native craft;
-- `SREG-22` for bilingual transcreation;
-- `SREG-23` across unrelated subjects for anti-template behavior.
-
-### Phase E — Distributed method equivalence
-
-Close pending behavioral equivalence for:
-
-- Anchor / smallest representative proof;
-- visual metaphor and reference-canon behavior;
-- executable Art Direction handoff;
-- Mobile QA collective coverage;
-- complete Production trace and opened-export inspection.
+- native-language and bilingual craft;
+- Visual concept and full-sequence proof;
+- Copy-Aware Composition and Type-Fit;
+- Art Direction handoff;
+- final exports, variants, opened-file QA, and Department sign-offs;
+- anti-template behavior across unrelated subjects.
 
 ## Certification criteria
 
-V3.1 may be marked `Semantically Certified` only when:
+V3.2 may be marked `Semantically Certified` only when:
 
 1. every Constitution clause is Preserved, Strengthened, Restored, or Intentionally Superseded;
 2. Missing and Conflict counts remain zero;
-3. every pending behavioral equivalence item has passing evidence or an ECD-authorized disposition;
-4. every Constitution clause has a positive test and defined failure condition;
-5. every new hard Runtime constraint traces to an authorized change or general professional invariant;
-6. simple, continuation, multilingual, evidence-based, and commercial-validation projects demonstrate proportionate depth;
-7. the ECD is not required to manage roles, repeat registered inputs, or perform first-line QA;
-8. final assets and project records prove semantic, professional, evidence, rights, reference, language, visual, and technical continuity;
-9. an audit summary is reviewed before V3.1 is promoted to `main`.
+3. every pending behavioral-equivalence item has passing evidence or an ECD-authorized disposition;
+4. every new hard Runtime constraint traces to an authorized change or general professional invariant;
+5. simple, continuation, high-leverage, multilingual, evidence-based, Concept Reframing, direct-use, and commercial-validation cases demonstrate proportionate behavior;
+6. the Core Script gate prevents avoidable downstream invalidation without becoming ceremonial;
+7. Discovery Signal handling avoids unnecessary public explanation without weakening actual factual or rights controls;
+8. the ECD is not required to manage roles, repeat registered inputs, or perform first-line QA;
+9. final assets and project records prove semantic, professional, source, evidence, rights, language, visual, and technical continuity;
+10. an audit summary is reviewed before V3.2 is promoted to `main`.
 
 ## Runtime change rule during audit
 
@@ -229,4 +238,4 @@ Further Runtime remediation must cite:
 - regression test IDs;
 - whether the change is restoration, strengthening, or authorized supersession.
 
-Do not add case-specific rules from individual projects to the Runtime. Cases remain test fixtures in the Eval layer.
+Do not add project-specific content rules to Runtime. Concrete projects remain Eval fixtures and audit evidence.
