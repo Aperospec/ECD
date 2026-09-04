@@ -1,10 +1,10 @@
-# ECD V3.1 Architecture
+# ECD V3.2 Architecture
 
 ## 1. Purpose
 
-ECD is a studio operating system, not one large prompt pretending to be every profession and not a ceremonial chain that invokes every available Skill.
+ECD is a studio operating system, not one large prompt pretending to be every profession.
 
-It combines three separate layers:
+It combines two separate layers:
 
 ```text
 Organizational accountability
@@ -12,12 +12,14 @@ Producer → Department Director → ECD authority
 
 Professional capability
 Registered Specialist Skills with methods and evidence
-
-Semantic control
-Adaptive routing + evidence obligation + stage-scoped inputs + bounded references
 ```
 
-A role defines accountability. A Skill defines how professional work is done. Semantic control defines what may be inferred, reused, activated, claimed, transferred, and approved.
+A role defines accountability. A Skill defines how professional work is actually done.
+
+V3.2 adds two structural protections:
+
+- high-leverage communication progression is confirmed before dependent page elaboration;
+- public social sources used only to discover a topic remain Discovery Signals rather than automatic attribution, evidence, or imitation mandates.
 
 ## 2. Organization
 
@@ -34,33 +36,19 @@ Director     Director   Director Production Director
 
 ### Executive Creative Director
 
-Owns Greenlight, Script Alignment, governing visual approval, changes to previously approved decisions, Final Acceptance, publication authority, and other consequential choices.
+Owns Greenlight, required Core Script Alignment, Creative Script Alignment, governing visual approval, changes to previously approved decisions, Final Acceptance, and publication authority.
 
 ### Creative Producer
 
-Owns:
-
-- infer-first intake;
-- latest-valid-artifact and shortest-route selection;
-- Deliverable Contract;
-- complexity / risk profile;
-- Evidence Obligation;
-- Stage-Scoped Input Register;
-- Reference Records and activation;
-- state, authority binding, and dependencies;
-- Department assignments and cross-department loops;
-- feedback closure;
-- integrated review;
-- ECD-facing release;
-- Completion Record.
+Owns project diagnosis, source posture, adaptive route, high-leverage decision routing, dependencies, state, authority binding, Department assignments, cross-Department loops, feedback closure, integrated review, ECD-facing release, and completion record.
 
 ### Department Director
 
-Owns professional quality in one department. It identifies active professional questions, selects only implemented Specialist Skills that serve them, validates reusable artifacts, reviews actual work, returns weak work, signs a Department Review Record, and reports a Department Cleared package to Producer.
+Owns professional quality in one Department. Selects only implemented Specialist Skills, reviews actual artifacts, returns weak work, signs a Department Review Record, and reports a Department Cleared package to Producer.
 
 ### Specialist Skill
 
-Owns one professional method. It produces an inspectable Specialist Return. It cannot approve itself, activate another phase, or communicate formal work directly to the ECD.
+Owns one professional method. Produces an inspectable Specialist Return. It cannot approve itself, activate another phase, or communicate formal work directly to ECD.
 
 ## 3. Registered capability model
 
@@ -72,89 +60,33 @@ A capability is real only when:
 2. frontmatter contains a unique `name` and usable `description`;
 3. its method, inputs, outputs, self-check, failure routing, and reporting boundary are defined;
 4. the active profile permits its use;
-5. the current Project State activates its professional question.
-
-Registration makes a method available. It does not require every project to use it.
+5. current Project State activates it.
 
 A Director may not claim to have invoked a profession that exists only as a line in an organization chart.
 
-## 4. Adaptive routing model
-
-`core/ADAPTIVE_ROUTING.md` restores the founding ECD principles:
-
-- inspect and infer before asking;
-- ask only materially consequential questions;
-- enter at the latest valid artifact;
-- reuse sound authority-complete work;
-- reopen only stale or invalid dependencies;
-- scale depth through Compact, Standard, or Extended complexity / risk profiles;
-- route professional questions before named Skills.
-
-The canonical flow defines authority order. It is not a reason to restart every project from Development.
-
-## 5. Evidence model
-
-`core/EVIDENCE_OBLIGATION.md` defines three project-level modes:
-
-- Speculative / Conceptual;
-- Evidence-based Editorial;
-- Product / Commercial Validation.
-
-The chosen mode controls research, validation, claim, disclosure, reference, and final-proof depth.
-
-A source demonstration may support a narrow editorial claim without validating a productized workflow. A commercial reliability promise requires stronger evidence than an editorial explanation.
-
-## 6. Input authority model
-
-`core/STAGE_SCOPED_INPUT_REGISTER.md` preserves each material source statement once and separates:
-
-- original wording or faithful summary;
-- source;
-- authority class;
-- studio interpretation;
-- Development, Editorial, Visual, and Production projections;
-- Active, Deferred, Activated, Resolved, Conflict, and Superseded states;
-- activation and supersession history.
-
-Information may arrive early. Authority and execution remain stage-scoped.
-
-## 7. Reference model
-
-`core/REFERENCE_CONTRACT.md` gives every material reference one or more explicit roles.
-
-Only assigned roles activate. Material references are processed through:
-
-```text
-Description
-→ Formal Analysis
-→ Interpretation
-→ Controlled Transfer
-```
-
-Rights, provenance, evidence context, transferable principles, source-specific expression, prohibited use, and stage activation remain traceable.
-
-A reference is never an undifferentiated template.
-
-## 8. Runtime layers
+## 4. Runtime layers
 
 ### Advisory layer
 
 Used for discovery, comparison, topic selection, and opportunity assessment. Advisory outputs do not create authoritative project artifacts.
 
-### Decision-bearing project layer
+### Development layer
 
-Creates authoritative artifacts through explicit ECD gates:
+Creates the Creative Treatment and establishes whether the project deserves further development.
 
-```text
-Creative Treatment
-→ Creative Script
-→ Visual Development Package
-→ Final Production Package
-```
+### Core communication layer
 
-### Craft layer
+After Greenlight, `ecd-core-communication-script` writes the actual end-to-end story, argument, explanation, demonstration, comparison, procedure, evidence progression, thematic progression, or mixed form.
 
-Registered Specialist Skills resolve active professional questions.
+This layer exists before page architecture and exact copy.
+
+### Editorial adaptation layer
+
+Maps the approved Core Communication Script into the minimum sufficient format, pages, Frame Scripts, exact copy, and publication copy.
+
+### Visual and Production layers
+
+Create and realize the approved visual system without rewriting upstream meaning.
 
 ### Review layer
 
@@ -165,11 +97,39 @@ Specialist self-check
 → ECD decision when required
 ```
 
-## 9. Authority and state
+## 5. High-leverage decision model
+
+`core/HIGH_LEVERAGE_DECISIONS.md` determines whether the Core Communication Script requires:
+
+- Separate Core Script Alignment;
+- Combined with Creative Script Alignment;
+- Existing Aligned reuse;
+- Not Applicable.
+
+A separate gate is used when changing the actual communication progression would invalidate substantial dependent page, copy, or visual work.
+
+A combined gate is used only when dependency risk is genuinely low.
+
+The rule protects decisions by invalidation cost, not by fixed page count.
+
+## 6. Authority sequence
+
+```text
+Creative Treatment
+→ ECD Greenlight
+→ Core Communication Script
+→ ECD Core Script Alignment when required
+→ Creative Script / Editorial Adaptation
+→ ECD Creative Script Alignment
+→ Visual Development Package
+→ ECD Visual Alignment when required
+→ Final Production Package
+→ ECD Final Acceptance
+```
 
 Authority is not inferred from enthusiasm or conversational momentum.
 
-A user reply can approve an artifact only when Project State identifies a current pending Decision Object with:
+A user reply can approve an artifact only when Project State identifies a current Pending Decision Object with:
 
 - decision ID;
 - artifact and version;
@@ -180,83 +140,98 @@ A user reply can approve an artifact only when Project State identifies a curren
 - consequence;
 - explicit request.
 
-Otherwise a positive reply is feedback, preference, advisory acceptance, or authorization to prepare the next formal object.
+## 7. Concept Reframing model
 
-## 10. Clean runtime rule
+`profiles/social-editorial/CONCEPT_REFRAMING.md` distinguishes:
 
-V3 does not carry V2 Runtime files in its branch.
+- Discovery Signal;
+- Factual Dependency;
+- Direct-use Material.
 
-V2 remains recoverable from `v2.1-legacy`. V3 preserves a validated V2 principle only by rewriting it into a V3 Core, Director, Specialist, Profile, Audit, or Eval file.
+When another social post is only a Discovery Signal:
 
-## 11. Default Social Editorial authority route
+- engagement informs topic selection;
+- the studio independently develops angle, Core Script, examples, copy, and visuals;
+- no independent reproduction is required unless the current publication claims reproduction or reliability;
+- no public creator attribution, source link, non-testing statement, concept disclaimer, or productization language is added by default;
+- source-specific wording, sequence, examples, assets, and visual expression remain excluded.
+
+Factual Dependency and Direct-use Material activate only the controls actually required by the final publication.
+
+## 8. Default Social Editorial chain
 
 ```text
 Producer Discovery / Initialization
 
 Development Department
-active strategy / concept / evidence / rights questions
+Creative Strategy
+→ Concept Development
+→ Research Verification / Claims Rights only when required
 → Development Director review
 → Producer review
 → ECD Greenlight
 
-Editorial Department
-active architecture / Frame Script / copy / native-language / bilingual / exactness questions
+Editorial Department — Core Communication
+Core Communication Script
 → Editorial Director review
 → Producer review
-→ ECD Script Alignment
+→ ECD Core Script Alignment when high-leverage
+
+Editorial Department — Adaptation
+Content Architecture
+→ Frame Script
+→ Copywriting
+→ native-language / bilingual craft when required
+→ Copy Editing
+→ Proofreading
+→ Editorial Director review
+→ Producer review
+→ ECD Creative Script Alignment
 
 Visual Department
-active concept / sequence / page design / typography / image / reference / critique questions
+Visual Concept
+→ Storyboard / Sequence when required
+→ Editorial Design
+↔ Typography
+↔ Image Direction when required
+→ Design Critique
 → Art Director review
 → Producer review
 → ECD Visual Alignment when required
 
 Production Department
-active image / finished-art / typesetting / export-QA questions
+Image Production when required
+→ Finished Art
+↔ Production Typesetting
+→ Technical QA
 → Production Director review
 → Editorial / Visual / Production sign-offs
 → Producer Final Review
 → ECD Final Acceptance
 ```
 
-The named Skill route varies with professional need and valid existing work.
+## 9. Dynamic scale
 
-## 12. Dynamic scale
+Small projects may combine execution seats and low-dependency decision scopes, but cannot erase professional questions or review responsibility.
 
-Small projects may combine execution seats, records, or adjacent proof artifacts, but cannot erase professional questions or review responsibility.
+For example, one model pass may perform Core Communication Script and Content Architecture methods in a Compact project only when:
 
-One model pass may perform two compatible methods when:
+- the Core Script is still visibly distinguishable;
+- the High-Leverage Decision Record justifies combined approval;
+- the ECD-facing object shows Core Script before page adaptation;
+- Editorial Director reviews the actual result;
+- no false claim of separate people or agents is made.
 
-- each method's consequence remains distinguishable;
-- no false claim of independent people, agents, or executions is made;
-- the Department Director reviews the actual final artifact;
-- the ECD-facing response remains concise;
-- necessary evidence, rights, authority, and target-surface proof survive.
-
-A trivial correction must not simulate the full studio. A high-risk commercial or multilingual project must not hide behind Compact status.
-
-## 13. Language architecture
-
-V3.1 includes:
-
-- `ecd-chinese-copy-craft`;
-- `ecd-english-copy-craft`;
-- `ecd-bilingual-transcreation`.
-
-Native-language craft is separate from visual Typography. Bilingual work begins from a shared semantic invariant and permits different syntax, rhetoric, and line length while preserving function, agency, certainty, evidence, limitation, and audience consequence.
-
-## 14. Evidence standard
+## 10. Evidence standard
 
 Every formal clearance identifies:
 
 - actual artifact reviewed;
-- active professional questions;
 - registered Skills used;
-- Skills omitted, reused, or combined and why;
+- professional questions served;
 - method evidence;
-- Evidence Obligation;
-- Stage-Scoped Input IDs;
-- Reference roles and limits;
+- high-leverage decision status;
+- source posture and reference consequence;
 - defects found;
 - corrections made;
 - unresolved issues;
@@ -265,16 +240,17 @@ Every formal clearance identifies:
 
 A checklist with every box marked `pass` is not evidence by itself.
 
-## 15. Failure behavior
+## 11. Failure behavior
 
 When a downstream defect appears, Producer and Directors identify the earliest artifact where it became true.
 
-Examples by professional object:
+Examples:
 
-- wrong opportunity, premise, evidence obligation, or rights boundary → Development;
-- weak sequence, speaker position, native-language craft, or bilingual parity → Editorial;
-- generic concept, reference misuse, sequence staging, layout, typography, or image direction → Visual;
-- inaccurate image execution, typesetting, file, or variant → Production;
-- ambiguous approval, input activation, or route selection → Producer / Core controls.
+- wrong premise → Development;
+- weak or uninteresting actual communication progression → Core Communication Script;
+- wrong page mapping or exact copy → Editorial Adaptation;
+- generic or source-derivative layout → Visual;
+- inaccurate typesetting or poor composite → Production;
+- ambiguous approval → Authority and Project State.
 
 Rework returns to that earliest owner. Downstream decoration cannot close an upstream defect.

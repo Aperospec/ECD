@@ -1,10 +1,11 @@
-# Stage Capability Matrix — V3.1
+# Stage Capability Matrix — V3.2
 
 This is the single authority for what each runtime state may produce.
 
 Apply together with:
 
 - `ADAPTIVE_ROUTING.md`;
+- `HIGH_LEVERAGE_DECISIONS.md`;
 - `EVIDENCE_OBLIGATION.md`;
 - `STAGE_SCOPED_INPUT_REGISTER.md`;
 - `REFERENCE_CONTRACT.md`.
@@ -21,8 +22,9 @@ Apply together with:
 - A Decision Object response stops at the decision request.
 - Work created outside the active state is `Invalid / Unauthorized` until the correct authority path is completed.
 - Only current-stage input projections and reference roles may influence current-stage decisions.
-- Evidence and validation depth must match the active Evidence Obligation.
+- Evidence and validation depth must match the active Evidence Obligation and source posture.
 - Valid authority-complete artifacts are reused; earlier stages are not replayed for ceremony.
+- A required high-leverage decision must be resolved before dependent elaboration.
 
 ## Advisory Discovery
 
@@ -30,8 +32,9 @@ Apply together with:
 
 - inspect sources and bookmarks;
 - research and compare opportunities;
+- use engagement as a topic-interest signal;
 - recommend one or more topics;
-- explain relevance, novelty, source, risk, and account fit;
+- explain relevance, novelty, source posture, risk, and account fit;
 - identify a provisional Evidence Obligation or reference concern only to explain the recommendation;
 - state the next valid project step.
 
@@ -43,6 +46,7 @@ Apply together with:
 
 - Creative Treatment clearance claims;
 - Greenlight request;
+- Core Communication Script;
 - final post copy;
 - page sequence;
 - Frame Scripts;
@@ -58,10 +62,11 @@ A user may explicitly request a narrow Craft-only draft. In that case do not cla
 
 - original request and faithful source wording;
 - Global / Deliverable and Active Development input projections;
-- source materials and provenance;
+- source materials, Discovery Signals, and provenance;
 - Advisory findings;
 - audience and platform context;
 - Evidence Obligation;
+- Concept Reframing source posture when applicable;
 - active Development reference roles;
 - rights and claim conditions;
 - valid existing Development artifacts;
@@ -81,18 +86,22 @@ Select only Skills whose professional questions are active.
 
 - communication opportunity;
 - target audience and relevance;
-- central proposition;
+- independent central proposition;
 - governing creative logic;
 - angle and boundaries;
+- Discovery Signal / Factual Dependency / Direct-use Material posture;
 - Evidence Obligation and public claim ceiling;
 - factual / speculative / validation / rights position;
 - Development-level reference roles and transfer boundaries;
+- source-specific expression excluded;
 - Creative Treatment.
 
 ### Artifacts allowed
 
 - Adaptive Route Record;
+- High-Leverage Decision preliminary assessment;
 - Evidence Obligation Record;
+- Concept Reframing Record;
 - source and research record;
 - Reference Records and Development transfer consequences;
 - strategy options;
@@ -103,6 +112,7 @@ Select only Skills whose professional questions are active.
 
 ### Forbidden
 
+- actual Core Communication Script as a formal artifact;
 - final page count or page sequence as a binding decision;
 - final Page Copy or companion post copy;
 - Frame Scripts;
@@ -114,7 +124,7 @@ Select only Skills whose professional questions are active.
 - image generation;
 - final asset production.
 
-Development may mention a broad intended experience or illustrative example only when needed to explain the concept. It must not disguise downstream design as Treatment.
+Development may mention a broad intended experience or illustrative example only when needed to explain the concept. It must not disguise the actual downstream script, page adaptation, or visual design as Treatment.
 
 Early Editorial, Visual, and Production inputs remain Deferred in the Stage-Scoped Input Register.
 
@@ -122,25 +132,98 @@ Early Editorial, Visual, and Production inputs remain Deferred in the Stage-Scop
 
 ### Allowed
 
-- present the complete Decision Object;
+- present the complete Treatment Decision Object;
 - answer direct clarification about the object;
 - record ECD response.
 
 ### Forbidden
 
-- Editorial drafting;
+- Core Communication Script development;
+- page adaptation;
+- Frame Scripts or exact copy;
 - Visual development;
 - Production;
 - pre-emptive downstream work;
 - activation of Deferred downstream inputs or reference roles.
 
-## Editorial
+## Editorial — Core Communication Script
 
 ### Authoritative inputs
 
 - Greenlit Treatment;
 - accepted Development decisions and boundaries;
 - Evidence Obligation and public claim ceiling;
+- Concept Reframing Record and source posture;
+- source / claims / rights record;
+- Active Core Script input projections and relevant Editorial references;
+- language, locale, and intended audience relationship;
+- Deliverable Contract;
+- valid existing Core Script artifacts;
+- ECD feedback.
+
+### Skills allowed
+
+- Editorial Director;
+- Core Communication Script;
+- native-language or bilingual craft methods only when needed to evaluate the actual script language at this stage;
+- Copy Editing only when needed to challenge the Core Script itself.
+
+### Decisions owned
+
+- communication form;
+- actual end-to-end story, argument, explanation, demonstration, comparison, procedure, evidence progression, thematic progression, or mixed form;
+- opening;
+- consequential progression;
+- decisive shift, discovery, synthesis, or payoff;
+- speaker and reality position;
+- essential beats and adaptable elements;
+- order constraints;
+- Core Script gate mode recommendation.
+
+### Artifacts allowed
+
+- High-Leverage Decision Record;
+- Core Communication Script Return;
+- limited Core Script edit / language-craft evidence;
+- Department Cleared Core Communication Script Package;
+- ECD Core Script Alignment Decision Object when Separate Alignment is required.
+
+### Forbidden when Separate Alignment is required
+
+- final page count or page mapping;
+- Content Architecture sequence map;
+- Frame Scripts;
+- exact page copy;
+- complete publication copy;
+- Visual styling or production.
+
+The Core Script must reveal the actual communication. A Treatment-level synopsis is insufficient.
+
+## Awaiting Core Script Alignment
+
+Only clarification, ECD response, and state recording are allowed.
+
+Page architecture, Frame Scripts, exact copy, Visual work, and Production remain inactive.
+
+## Editorial — Adaptation
+
+### Entry requirement
+
+One of the following must be recorded:
+
+- Core Script Aligned;
+- valid Combined with Creative Script Alignment mode;
+- Existing Aligned Core Script;
+- Not Applicable for the bounded task.
+
+### Authoritative inputs
+
+- Greenlit Treatment;
+- Core Communication Script and gate mode;
+- Core Script Alignment evidence when separately required;
+- accepted Development decisions and boundaries;
+- Evidence Obligation and public claim ceiling;
+- Concept Reframing / source posture;
 - source / claims / rights record;
 - Active Editorial input projections;
 - active Editorial reference roles and evidence context;
@@ -165,14 +248,14 @@ Select according to active professional questions and valid existing artifacts.
 
 ### Decisions owned
 
-- overall communication logic;
-- recommended format and sequence;
+- minimum sufficient format;
+- approved Core Script beat-to-page mapping;
 - one editorial job per page or beat;
 - Internal Semantic Proposition;
 - concrete Frame Script;
 - exact page copy;
 - companion copy;
-- source, disclosure, evidence, limitation, and attribution language;
+- source, disclosure, evidence, limitation, and attribution language only where materially required;
 - speaker, reality, and validation position;
 - native-language expression and terminology;
 - bilingual semantic and functional parity;
@@ -181,6 +264,7 @@ Select according to active professional questions and valid existing artifacts.
 ### Artifacts allowed
 
 - Content Architecture Return;
+- Core Script beat-to-page map;
 - sequence map;
 - Frame Scripts;
 - page copy;
@@ -214,9 +298,21 @@ Editorial may state semantic conditions such as:
 - image generation;
 - final design production.
 
+### Source-language restraint
+
+For Discovery Signal Concept Reframing, Editorial must not automatically insert:
+
+- original creator name or handle;
+- source link or inspiration line;
+- `我们实测` or `我们没有实测` language;
+- concept-art disclaimer;
+- future productization language.
+
+These appear only when approved or materially required.
+
 Language-craft methods may identify semantic line-break constraints, but final visual line geometry belongs to Visual Typography.
 
-## Awaiting Script Alignment
+## Awaiting Creative Script Alignment
 
 Only clarification, ECD response, and state recording are allowed. Visual work, Visual reference roles, and Production remain inactive.
 
@@ -225,12 +321,14 @@ Only clarification, ECD response, and state recording are allowed. Visual work, 
 ### Authoritative inputs
 
 - Greenlit Treatment;
-- Script-Aligned Creative Script;
+- authority-complete Core Communication Script;
+- Creative Script Aligned page adaptation;
 - exact copy and language variants;
 - Frame Scripts;
 - Written Visual Requirements;
 - Active Visual input projections;
 - active Visual reference roles and controlled-transfer record;
+- Concept Reframing source-specific expression exclusions;
 - sources, rights, evidence, and public-claim conditions;
 - target geometry and viewing conditions;
 - valid existing Visual artifacts.
@@ -265,7 +363,7 @@ Select according to active visual questions, route complexity, and existing auth
 ### Artifacts allowed
 
 - Reference Reading and Controlled Transfer Return;
-- visual concept routes;
+- original visual concept routes;
 - Storyboard / sequence contact sheet when required;
 - thumbnail explorations;
 - typography proofs;
@@ -283,7 +381,8 @@ Production-intent representative imagery requires exact-copy-aware layout and Ar
 
 ### Forbidden
 
-- silent changes to copy, claims, sequence, Frame Scripts, Evidence Obligation, or Treatment;
+- silent changes to Treatment, Core Script, page adaptation, copy, claims, sequence, Frame Scripts, Evidence Obligation, or source posture;
+- using a Discovery Signal as an unapproved visual reference;
 - using a reference outside its activated role or copying source-specific expression without authorization;
 - visual realism that implies a stronger reality or validation status than approved;
 - final bulk asset production before required Visual Alignment;
@@ -298,7 +397,7 @@ Only clarification, ECD response, and state recording are allowed. Broad Product
 
 ### Authoritative inputs
 
-- all approved Development, Editorial, and Visual artifacts;
+- all approved Development, Core Script, Editorial, and Visual artifacts;
 - exact copy and language variants;
 - Department Cleared Art Direction;
 - Active Production input projections;
@@ -334,10 +433,11 @@ Select only the Production questions that actually exist. Text-bearing final lay
 
 ### Forbidden
 
-- changing premise, sequence, Frame Script, copy, claim, limitation, Evidence Obligation, or reality position;
+- changing premise, Core Script, page adaptation, Frame Script, copy, claim, limitation, Evidence Obligation, or reality position;
 - changing governing visual thesis, page design, typography system, or image–type relationship;
-- using a reference, asset, quotation, or transformation beyond recorded permission;
-- removing evidence context or attribution that affects interpretation;
+- using a source, asset, quotation, or transformation beyond recorded permission;
+- removing evidence context or required attribution;
+- adding unapproved source, disclaimer, non-testing, concept-art, or productization language;
 - solving upstream defects through shrinking copy, emergency boxes, generic replacement imagery, or silent redesign;
 - direct release to ECD without Director and Producer review.
 

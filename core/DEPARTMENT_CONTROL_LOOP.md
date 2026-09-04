@@ -1,87 +1,73 @@
-# Department Control Loop — V3.1
+# Department Control Loop — V3.2
 
 ## Purpose
 
-Department Control converts the professional questions active in one stage into an accountable Department package.
+Department Control converts registered specialist methods into one professionally accountable Department package.
 
-A Department Director is not a decorative title and does not perform or commission every available craft task by default. The Director identifies what must actually be solved, selects only implemented methods that serve those questions, inspects real work, returns weak work, integrates accepted results, and signs professional readiness.
-
-Apply:
-
-- `ADAPTIVE_ROUTING.md`;
-- `EVIDENCE_OBLIGATION.md`;
-- `STAGE_SCOPED_INPUT_REGISTER.md`;
-- `REFERENCE_CONTRACT.md`;
-- `CAPABILITY_REGISTRY.md`.
+A Department Director is not a decorative title and does not perform every craft task by default. The Director selects implemented Skills, inspects actual work, returns weak work, protects high-leverage decisions, integrates accepted results, and signs professional readiness.
 
 ## Canonical loop
 
 ```text
 Creative Producer Department Assignment
-→ Director validates authority, state, active inputs, evidence, references, and capabilities
-→ Director identifies active professional questions
-→ Director creates a Capability Plan
-→ selected registered Specialist Skills execute or valid existing artifacts are reused
-→ each executed Skill produces an inspectable Return and self-check
+→ Director validates authority, state, source posture, and available capabilities
+→ Director identifies active professional questions and high-leverage dependencies
+→ Director creates Capability Plan
+→ registered Specialist Skills execute
+→ each Specialist produces an inspectable Return and self-check
 → Director reviews actual artifacts
    ├─ Department Rework
    ├─ bounded internal iteration
    ├─ cross-department issue returned to Producer
-   ├─ capability / evidence / rights blocker returned to Producer
+   ├─ capability / authority blocker returned to Producer
    └─ Department Cleared Package
 → Creative Producer Integrated Review
 ```
 
 ## Capability Plan
 
-Before Specialist work, Director records:
+Before specialist work, Director records:
 
 ```markdown
 Department:
 Active Project State:
 Producer assignment:
-Adaptive Route / complexity profile:
-Evidence Obligation / public claim ceiling:
-Stage-Scoped Input IDs active:
-Reference Records / active roles:
 Authoritative inputs and versions:
 Department outcome:
 Decisions owned:
 Decisions outside authority:
-
 Professional questions active:
 Professional questions already resolved:
-Registered Skills selected:
-Skills omitted and why:
-Skills reused from valid artifacts:
-Combined execution seats, if any:
-Evidence required from each selected Skill:
+High-leverage decisions and dependencies:
+Core Script gate mode, when applicable:
+Concept Reframing / source posture, when applicable:
+Registered Skills required:
+Registered Skills conditional:
+Skills omitted / reused / combined and why:
+Evidence required from each Skill:
 Internal order and dependencies:
 Cross-department loop required:
 Department acceptance criteria:
 Return conditions:
 ```
 
-The Director checks every selected Skill against `CAPABILITY_REGISTRY.md`.
-
-Registration alone is not a reason to use a Skill. Omission is valid only when the professional question is absent, already authority-complete, or legitimately resolved through a combined method with distinct evidence.
+The Director must check every proposed Skill against `CAPABILITY_REGISTRY.md`.
 
 ## Specialist Return standard
 
-Every executed registered Skill returns:
+Every registered Skill returns:
 
 ```markdown
 Skill name and version:
-Professional question served:
 Task:
 Authoritative inputs:
-Stage-Scoped Input IDs used:
-Evidence Obligation consequence:
-Reference roles used:
+Professional question served:
 Method stages completed:
 Artifact produced:
 Alternatives considered when relevant:
 Direct observations / evidence:
+High-leverage dependency respected:
+Source posture / reference consequence, when relevant:
 Decisions introduced:
 Dependencies and constraints:
 Known limitations:
@@ -92,83 +78,61 @@ Recommended Director disposition:
 
 A profession name, role-play statement, or checklist without a real artifact does not count as a Specialist Return.
 
-## Reused artifact record
-
-When an existing artifact resolves a professional question, record:
-
-```markdown
-Professional question:
-Artifact / version:
-Quality and authority state:
-Dependency validation:
-Unresolved feedback:
-Current applicability:
-Reason no new Skill pass is required:
-```
-
-A title or file name alone is not sufficient evidence of validity.
-
 ## Department Review
 
-Director reviews the actual work under intended viewing or use conditions.
+Director reviews the actual work under the intended viewing or use conditions.
 
-The review addresses:
+The review must address:
 
-### 1. Authority and input fidelity
+### 1. Authority fidelity
 
 - Does the work use the latest authoritative inputs?
-- Were source wording and studio interpretation kept separate?
-- Did only Active stage projections influence decisions?
-- Did it stay inside department authority?
+- Did it stay inside Department authority?
 - Did it silently change an upstream decision?
+- Did dependent work begin before a required high-leverage decision was approved?
 
-### 2. Routing proportionality
+### 2. Capability sufficiency
 
-- Were all active professional questions resolved?
-- Were irrelevant Skills omitted?
-- Was valid existing work reused rather than recreated?
-- Did Compact combination preserve distinct evidence and review responsibility?
-- Is the level of exploration, validation, and proof proportionate to the complexity profile?
-
-### 3. Capability sufficiency
-
-- Were selected registered Skills actually used?
-- Was an essential capability omitted?
+- Were the necessary registered Skills actually used?
+- Was an essential professional question omitted?
 - Is a claimed capability unavailable or imaginary?
-- Are any missing capabilities disclosed with a valid fallback or blocker?
+- Was a Skill invoked only because it exists rather than because its question was active?
 
-### 4. Evidence and reference integrity
+### 3. Method evidence
 
-- Does work match the Evidence Obligation and public claim ceiling?
-- Are fact, source claim, inference, concept, demonstration, simulation, and validated result distinguishable?
-- Were references used only within assigned roles?
-- Are rights, attribution, evidence context, and prohibited transfer preserved?
+- Did each Skill perform its method rather than jump to a conclusion?
+- Are explorations, comparisons, scripts, drafts, proofs, or inspections visible where required?
+- For Core Communication Script, can the ECD judge the actual progression rather than a synopsis?
 
-### 5. Method evidence
+### 4. Professional quality
 
-- Did each executed Skill perform its method rather than jump to a conclusion?
-- Are explorations, comparisons, drafts, proofs, or inspections visible where required?
-- Does a combined execution seat still show distinguishable method consequences?
-
-### 6. Professional quality
-
-- Is the work strong enough in the department's craft?
+- Is the work strong enough in the Department's craft?
 - Are defects specific and consequential, not merely stylistic preferences?
 
-### 7. Internal coherence
+### 5. Internal coherence
 
 - Do the Specialist outputs agree with one another?
 - Did one Skill invalidate another Skill's assumptions?
-- Are language, evidence, reference, visual, and Production consequences compatible?
+- Does page adaptation preserve the aligned Core Script?
 
-### 8. Downstream executability
+### 6. Source and Concept Reframing integrity
 
-- Can the next department work without inventing missing decisions?
-- Are locks, open variables, tolerances, input activations, reference limits, and failure conditions clear?
+When applicable:
 
-### 9. Feedback closure
+- Is the source correctly classified as Discovery Signal, Factual Dependency, or Direct-use Material?
+- Is the new work independently written and visualized?
+- Has Discovery Signal remained backstage rather than becoming automatic attribution, disclaimer, factual proof, or visual-reference authority?
+- Are source-specific wording, sequence, examples, and expression excluded unless authorized?
 
-- Did the department address every applicable ECD and Producer feedback item?
+### 7. Downstream executability
+
+- Can the next Department work without inventing missing decisions?
+- Are locks, open variables, tolerances, and failure conditions clear?
+- Are high-leverage decisions authority-complete for the proposed next use?
+
+### 8. Feedback closure
+
+- Did the Department address every applicable ECD and Producer feedback item?
 - Is closure supported by revised evidence rather than assertion?
 
 ## Evidence-backed Department Review Record
@@ -180,23 +144,18 @@ Project:
 Department:
 Director Skill:
 Artifact / version reviewed:
-Adaptive Route / complexity profile:
-Evidence Obligation:
-Stage-Scoped Input IDs reviewed:
-Reference Records / roles reviewed:
-Professional questions reviewed:
 Registered Specialist Returns reviewed:
-Reused authoritative artifacts reviewed:
 Actual evidence inspected:
 Viewing / test conditions:
+High-Leverage Decision Record:
+Concept Reframing / source posture:
 
-Authority and input findings:
-Routing proportionality findings:
+Authority findings:
 Capability findings:
-Evidence / reference findings:
 Method findings:
 Professional findings:
 Cross-skill coherence findings:
+Source / originality findings:
 Downstream readiness findings:
 Feedback closure findings:
 
@@ -208,7 +167,7 @@ Remaining limitations:
 Disposition:
 - Department Rework
 - Return to Producer for cross-department correction
-- Return to Producer for capability / evidence / authority blocker
+- Return to Producer for capability / authority blocker
 - Department Cleared
 
 Director recommendation:
@@ -223,21 +182,20 @@ A Director may not issue `Department Cleared` when this record lacks actual arti
 Artifact to reopen:
 Earliest defect:
 Why it matters:
-Responsible registered Skill or professional question:
+Responsible registered Skill:
 Authoritative decisions that remain fixed:
-Stage-Scoped Input IDs affected:
-Evidence or reference conditions affected:
+High-leverage authority that remains or must reopen:
 Variables allowed to change:
 Required correction:
 Acceptance evidence:
 Stop condition:
 ```
 
-Rework returns to the earliest failed professional object. A downstream Skill must not decorate over an upstream defect.
+Rework returns to the earliest failed Specialist object. A downstream Skill must not decorate over an upstream defect.
 
 ## Cross-department loop
 
-A Director cannot directly change another department's authoritative artifact.
+A Director cannot directly change another Department's authoritative artifact.
 
 When work is interdependent, return to Producer with:
 
@@ -246,10 +204,9 @@ Lead department:
 Partner department:
 Shared problem:
 Fixed authority:
+High-leverage decision involved:
 Allowed variables:
-Stage-Scoped Input IDs:
-Evidence / reference conditions:
-Required professional questions and Skills:
+Required Skills:
 Evidence exchanged:
 Decision owner:
 Stop condition:
@@ -261,16 +218,16 @@ Producer authorizes and records the loop.
 
 A valid package contains:
 
-- department artifact and version;
+- Department artifact and version;
 - Capability Plan;
-- active professional questions and resolution evidence;
 - registered Skills used and Returns;
-- Skills omitted, reused, or combined and reasons;
+- Skills omitted / reused / combined and reasons;
 - Department Review Record;
 - authoritative dependencies;
+- High-Leverage Decision Record and gate mode;
+- source posture and Concept Reframing consequences when applicable;
 - decisions added and delta;
-- Evidence Obligation and reference consequences;
-- Stage-Scoped Input resolution and Deferred handoff;
+- evidence;
 - feedback closure;
 - open variables and limitations;
 - Director recommendation;
@@ -280,15 +237,14 @@ A valid package contains:
 
 ## Compact work
 
-Compact work may combine execution passes, records, or adjacent proof artifacts, but the following remain distinct:
+Compact work may combine execution passes and, when dependency risk is genuinely low, may combine Core Script and Creative Script approval scopes.
 
-- active professional questions;
-- method evidence needed to answer them;
-- Specialist self-check;
+The following remain distinct:
+
+- Specialist method;
+- Specialist Return or valid reused artifact;
 - Director review;
 - Producer integration;
 - ECD authority when required.
 
-The same model may perform multiple registered methods in sequence, but it must not claim a separate person or agent performed them, and it must not use one self-check as the required Director or critique review.
-
-A Compact project fails both when it erases a necessary professional question and when it simulates irrelevant methods for ceremony.
+The same model may perform multiple registered methods in sequence, but it must not claim a separate person or agent performed them, use one self-check as the required Director review, or use `Compact` to hide an unresolved high-leverage decision.

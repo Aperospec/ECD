@@ -1,149 +1,205 @@
-# Social Editorial Profile — V3.1
+# Social Editorial Profile — V3.2
 
 ## Purpose
 
-Configures ECD for mobile-first social posts, covers, carousels, visual essays, explainers, product stories, evidence-led posts, and campaign key visuals.
+Configures ECD for mobile-first social posts, covers, carousels, visual essays, explainers, product stories, evidence-led posts, concept reframing, and campaign key visuals.
 
-This profile defines required professional outcomes and eligible registered Skills. It does not make every eligible Skill mandatory or replace their methods.
+This profile selects registered professional Skills and defines required evidence. It does not replace their methods.
+
+## Entry
 
 Apply:
 
 - `ENTRY_ROUTER.md`;
-- `core/ADAPTIVE_ROUTING.md`;
-- `core/EVIDENCE_OBLIGATION.md`;
-- `core/STAGE_SCOPED_INPUT_REGISTER.md`;
-- `core/REFERENCE_CONTRACT.md`.
-
-## Entry
+- `CONCEPT_REFRAMING.md` when a public source is used mainly to discover a topic;
+- `core/HIGH_LEVERAGE_DECISIONS.md` after Greenlight.
 
 Topic selection, source discovery, and account-fit recommendations are Advisory Discovery unless the user has already commissioned a complete work.
-
-For Project Start or Continuation, Producer validates the latest valid artifact and records a Compact, Standard, or Extended route.
 
 ## Default authority path
 
 ```text
 Development
 → ECD Greenlight
-→ Editorial
-→ ECD Script Alignment
+→ Core Communication Script
+→ ECD Core Script Alignment when high-leverage
+  OR combined Core Script + Creative Script Alignment when low-dependency
+→ Editorial Adaptation
+→ ECD Creative Script Alignment
 → Visual
 → ECD Visual Alignment when required
 → Production
 → ECD Final Acceptance
 ```
 
-This is an authority path, not a requirement to recreate valid earlier work or invoke every available method.
+This is an authority sequence, not a requirement to invoke every available Skill or create an extra gate for low-dependency work.
 
-## Process proportionality
+## Concept Reframing
 
-The project must resolve the professional questions that actually exist.
+Use Concept Reframing when the studio discovers a public topic through a social post but creates a new work with its own:
 
-- **Compact** — limited novelty, risk, sequence, and variants; compatible methods or proof artifacts may be combined.
-- **Standard** — ordinary multi-page or multi-artifact Social Editorial work.
-- **Extended** — evidence-sensitive, rights-sensitive, commercial, multilingual, multi-format, high-novelty, or high-consequence work.
+- editorial angle;
+- proposition;
+- Core Communication Script;
+- examples or scenarios;
+- wording and structure;
+- visual concept, imagery, layout, and typography.
 
-Page count alone does not set complexity.
+Classify the source posture:
 
-Every Department package records:
+### Discovery Signal
 
-- questions active;
-- authority-complete questions already resolved;
-- Skills used;
-- Skills omitted, reused, or combined and why;
-- evidence and review sufficient for the route.
+Used only to identify a topic and audience interest.
+
+Default public behavior:
+
+- no original creator mention;
+- no source link or `灵感来源于` line;
+- no `我们实测` or `我们没有实测` statement;
+- no concept-art or non-reproduction disclaimer;
+- no future-productization language;
+- no reproduction or full validation requirement.
+
+These defaults change only when the actual claim, direct-use material, rights condition, audience interpretation, or explicit ECD instruction requires it.
+
+### Factual Dependency
+
+The publication relies on a specific current fact, demonstration, product behavior, event, or claim.
+
+Verify only the factual units actually used. Public attribution is not automatically required unless source identity is material, direct quotation or evidence is used, a rights / platform condition applies, or the ECD requests it.
+
+### Direct-use Material
+
+The publication directly uses or recognisably transforms source wording, screenshots, images, video, data, or other protected expression.
+
+Apply the Reference Contract and Claims / Rights review. Replace or resolve material that cannot be used.
+
+Engagement metrics indicate topic interest. They do not prove reliability, but they also do not require the studio to reproduce a method when the current post makes no reproduction or reliability claim.
+
+A future idea to sell a related Skill or workflow remains a Deferred project seed until separately commissioned.
 
 ## Development
 
-Required outcome:
+Required professional questions:
 
-- a specific, coherent, Greenlightable Creative Treatment with truthful evidence, source, reference, claim, rights, and downstream boundaries.
+- Is this a worthwhile and sufficiently distinct communication opportunity?
+- What is the independent angle and governing proposition?
+- What is the source posture: Discovery Signal, Factual Dependency, or Direct-use Material?
+- What Evidence Obligation and public claim ceiling apply?
+- What source-specific expression must remain excluded?
+- What should the audience understand or feel?
 
-Eligible Skills:
+Typical Skills:
 
-- `ecd-creative-strategy` when opportunity, audience fit, angle, or alternatives are unresolved;
-- `ecd-concept-development` when governing logic, creative mechanism, or Treatment synthesis is unresolved;
-- `ecd-research-verification` to the depth required by the Evidence Obligation;
-- `ecd-claims-rights` when third-party material, reality position, attribution, rights, implied product result, or public / commercial claim matters.
+- `ecd-creative-strategy`;
+- `ecd-concept-development`;
+- `ecd-research-verification` when material factual dependencies exist;
+- `ecd-claims-rights` when direct use, quotation, likeness, attribution, or rights conditions exist.
 
 Required Department artifact:
 
-- Adaptive Route and complexity profile;
-- Evidence Obligation and public claim ceiling;
 - One-Sentence Creative Core;
 - complete Creative Treatment;
 - audience / platform opportunity;
-- source and research basis;
-- fact / source claim / inference / speculation / concept / validation distinction;
-- Reference Records, active roles, and transfer limits;
-- rights and attribution position;
-- Stage-Scoped Input IDs resolved and Deferred;
-- boundaries;
+- independent concept and angle;
+- source posture and publication dependency;
+- source and research basis only to the depth required;
+- fact / inference / speculation / concept distinction when material;
+- rights and attribution position when material;
+- source-specific expression excluded;
+- project boundaries;
 - Development Review Record;
 - Director recommendation.
 
-## Editorial
+A Concept Reframing Treatment should describe the new work, not summarize the discovery source.
 
-Required outcome:
+## Core Communication Script
 
-- an authority-ready Creative Script whose form, visible beats, exact language, evidence position, and publication copy are complete and native to the target audience.
+After Greenlight, determine the Core Script gate mode under `core/HIGH_LEVERAGE_DECISIONS.md`.
 
-Eligible Skills:
+Use `ecd-core-communication-script` when the actual communication progression is not already authority-complete.
 
-- `ecd-content-architecture` when format, sequence, or page jobs are unresolved;
-- `ecd-frame-script` for every visual page or beat not already authority-complete;
-- `ecd-copywriting` when new exact language is required;
-- `ecd-copy-editing` when a completed draft requires independent challenge;
-- `ecd-chinese-copy-craft` for material Chinese audience-facing copy;
-- `ecd-english-copy-craft` for material English audience-facing copy;
-- `ecd-bilingual-transcreation` for two or more language versions requiring semantic and functional parity;
-- `ecd-proofreading` for final exact text.
+The Core Communication Script must show the real end-to-end narrative, argument, explanation, demonstration, comparison, procedure, evidence progression, thematic progression, or deliberate mixed form.
 
-A typo-only Craft-only request does not need a simulated full Editorial chain. A new end-to-end Script normally requires architecture, Frame Scripts, writing, editing, native-language craft, and exact-text verification to the degree the deliverable demands.
+It must be more concrete than `我们会讲……` or `这篇内容打算讨论……`.
 
-Required Department artifact:
+### Separate Core Script Alignment is normally required when:
 
-- Overall Communication Logic;
-- recommended single-screen or multi-page format;
-- minimum sufficient sequence;
-- one editorial job per page;
-- concrete Frame Script for every page;
+- the ECD has approved only the Treatment-level concept;
+- changing the actual progression would invalidate multiple pages, Frame Scripts, copy units, or visual states;
+- the project's interest depends materially on story, argument, explanation, or payoff;
+- the project is Standard or Extended and the progression remains subjective or unresolved.
+
+Before separate alignment, do not produce:
+
+- page mapping;
+- Frame Scripts;
 - exact page copy;
 - complete publication copy;
-- source, evidence, disclosure, attribution, and limitation language;
-- speaker and reality position;
-- native-language craft record;
-- bilingual semantic invariant and parity record when required;
-- Stage-Scoped Input and Reference consequences;
-- Editorial Review Record;
-- Director recommendation.
+- Visual or Production artifacts.
 
-A concept, metaphor, hypothetical scene, or speculative future must be signaled honestly in the main narrative. A disclaimer at the end cannot repair a body written as a false factual personal experience.
+### Combined alignment is allowed when:
+
+- dependency cost is genuinely low;
+- the work is a narrow single-state communication object;
+- the ECD supplied an authority-complete Core Script;
+- page adaptation would not create meaningful avoidable rework.
+
+The combined Creative Script object must still display the Core Communication Script as a distinct section before page adaptation.
+
+## Editorial Adaptation
+
+After Core Script authority is sufficient, resolve:
+
+- minimum sufficient format;
+- Core Script beat-to-page or beat-to-state mapping;
+- one editorial job per page;
+- concrete Frame Script for every page or state that needs one;
+- exact page copy;
+- complete publication copy;
+- source, evidence, disclosure, attribution, and limitation language only where material;
+- speaker and reality position;
+- native-language or bilingual craft;
+- Editorial Review Record.
+
+Typical Skills:
+
+- `ecd-content-architecture`;
+- `ecd-frame-script`;
+- `ecd-copywriting`;
+- `ecd-copy-editing`;
+- `ecd-chinese-copy-craft` or `ecd-english-copy-craft` as required;
+- `ecd-bilingual-transcreation` when required;
+- `ecd-proofreading`.
 
 Editorial may define what must be visible. It may not decide final palette, typography, layout, object placement, camera, lighting, or image style.
 
+Editorial must not add source, creator, validation, concept-art, or productization language merely because a Discovery Signal existed.
+
 ## Visual
 
-Required outcome:
+Required professional questions for text-bearing work:
 
-- a project-specific visual system proven across the whole sequence and at the smallest sufficient representative fidelity, using exact copy and target viewing conditions.
+- Is the governing visual concept resolved?
+- Does multi-page or multi-state work have full-sequence staging?
+- Does exact copy shape composition before Production-intent imagery?
+- Are typography, image direction, and design critique professionally resolved?
+- Is the result independent of source-specific visual expression?
 
-Eligible Skills:
+Typical Skills:
 
-- `ecd-visual-concept` when the governing visual thesis is unresolved;
-- `ecd-storyboard-sequence` for multi-page or multi-state work whose sequence staging is not already proven;
-- `ecd-editorial-design` for text-bearing page or sequence design;
-- `ecd-typography` when typographic voice, hierarchy, line behavior, or mixed-script craft matters;
-- `ecd-image-direction` when imagery must be created, materially transformed, or coordinated across pages;
-- `ecd-design-critique` as a separate method pass on actual visual artifacts before Department clearance.
-
-For a narrow correction to an authority-complete visual system, route only the affected Visual question and retain valid existing work.
+- `ecd-visual-concept`;
+- `ecd-storyboard-sequence` for multi-page or multi-state work;
+- `ecd-editorial-design`;
+- `ecd-typography`;
+- `ecd-image-direction` when imagery is required;
+- `ecd-design-critique`.
 
 Required Department evidence:
 
-### Full-sequence coverage
+### Full-state / full-sequence coverage
 
-For multi-page or multi-state work, every page or state must be visible at sufficient fidelity to judge:
+Every contracted page or state must be visible at sufficient fidelity to judge:
 
 - dominant gesture;
 - content and copy mass;
@@ -152,11 +208,9 @@ For multi-page or multi-state work, every page or state must be visible at suffi
 - shared grammar;
 - cover-to-payoff progression.
 
-A single-image project requires full coverage of its one final state, not an artificial multi-page Storyboard.
-
 ### Representative fidelity proof
 
-Use exact copy and credible imagery to prove, to the depth required by novelty and risk:
+Use exact copy and credible imagery to prove:
 
 - composition;
 - hierarchy;
@@ -164,28 +218,32 @@ Use exact copy and credible imagery to prove, to the depth required by novelty a
 - typography and line behavior;
 - image–type relationship;
 - evidence treatment;
-- reference transfer;
 - actual mobile readability;
 - production feasibility.
 
+### Original visual expression
+
+For Concept Reframing, the Visual Department establishes its own visual thesis, imagery, composition, and typography. A source used only as Discovery Signal cannot silently become a composition, style, or asset reference.
+
 ### Review
 
-Art Director must inspect actual evidence and close a separate Design Critique method pass before Department clearance. The critique may be concise for Compact work but must remain evidence-based and distinct from the design's own self-check.
+Art Director must inspect actual evidence and close a separate Design Critique pass before Department clearance.
 
 ## Production
 
-Required outcome:
+Required professional questions:
 
-- faithful, exact, opened, and verified final assets for every contracted surface and variant.
+- Must imagery be generated, transformed, or repaired?
+- Can the approved design be assembled faithfully?
+- Does exact typesetting fit target conditions?
+- Do all actual exports and variants work?
 
-Eligible Skills:
+Typical Skills:
 
-- `ecd-image-production` when final imagery must be generated, transformed, extended, or repaired;
-- `ecd-finished-art` for faithful assembly and final visual implementation;
-- `ecd-production-typesetting` for deterministic exact-copy implementation;
-- `ecd-technical-qa` for actual exported files and variants.
-
-A narrow non-text asset correction may not require Production Typesetting. A text-bearing final layout does.
+- `ecd-finished-art`;
+- `ecd-production-typesetting`;
+- `ecd-technical-qa`;
+- `ecd-image-production` when final imagery must be generated, transformed, or repaired.
 
 Required outputs:
 
@@ -193,23 +251,12 @@ Required outputs:
 - editable separation of text and imagery where the toolchain permits;
 - exact text verification;
 - all required variants;
-- evidence, attribution, rights, and disclosure continuity;
 - mobile, thumbnail, safe-area, crop, and UI-overlay proof;
-- technical file QA on opened exports;
+- technical file QA;
 - Production Review Record;
 - final Editorial, Visual, and Production sign-offs.
 
-## Evidence obligation
-
-Producer selects one primary mode:
-
-- Speculative / Conceptual;
-- Evidence-based Editorial;
-- Product / Commercial Validation.
-
-The mode controls research and validation depth, not the visual drama of the content.
-
-A source demonstration may support an evidence-based editorial explanation but does not by itself validate a productized Skill or reliability promise.
+Production does not add unapproved attribution, disclaimer, non-testing, concept-art, or source-facing language.
 
 ## Platform contract
 
@@ -222,25 +269,24 @@ Producer records:
 - caption availability;
 - safe areas and interface overlays;
 - viewing width and duration;
-- language, locale, and variants;
-- publication, evidence, source, reference, and rights constraints.
+- language and variants;
+- publication, source, and rights constraints.
 
-When unspecified, use a conservative reversible mobile-first assumption and record it. Ask only when the missing condition would materially change the work.
+When unspecified, use a conservative mobile-first assumption and record it internally rather than turning routine platform assumptions into an ECD questionnaire.
 
 ## Quality standard
 
-A Social Editorial work must demonstrate, as applicable:
+A Social Editorial work must demonstrate:
 
 - one specific communication proposition;
-- the minimum sufficient format and sequence;
-- honest speaker and reality position;
-- evidence depth matching the promise;
-- bounded and original reference use;
-- native-language or bilingual craft;
+- an actual communication progression that has been confirmed before high-dependency adaptation;
+- a format or sequence where every page earns its place;
+- honest speaker and reality position without unnecessary defensive explanation;
+- independent editorial and visual expression in Concept Reframing;
 - strong, meaningful hierarchy;
 - project-specific visual reasoning;
 - exact-copy-aware composition;
-- professional Chinese, English, or mixed-script typography;
+- professional native-language or mixed-script typography;
 - image and type operating as one system;
 - purposeful rhythm and variation;
 - inspectable evidence when claims depend on it;
@@ -254,22 +300,20 @@ Numeric ratios and scores are diagnostic aids only.
 Return for rework when:
 
 - an Advisory Recommendation is presented as Department Cleared;
-- a positive reply is used as approval without a pending Decision Object;
-- valid existing artifacts are recreated to satisfy a waterfall;
-- every registered Skill is invoked regardless of need;
+- a positive reply is used as approval without a Pending Decision Object;
 - Development jumps directly to publication copy;
-- the Evidence Obligation is absent or weaker than the public promise;
-- early Visual or Production inputs are lost, prematurely activated, or requested again without cause;
-- a reference is used outside its assigned role or source-specific expression is copied without authorization;
+- the actual story or argument first appears only after page architecture and copy have already been produced;
+- a required separate Core Script gate is skipped;
+- the Core Communication Script is only an abstract synopsis;
+- Editorial silently changes an aligned Core Script;
 - Editorial writes exact colors, placement, font, camera, or image style;
-- a concept fantasy is written as a personal factual event;
-- Chinese or English copy remains grammatically possible but non-native;
-- bilingual versions preserve words but not function, agency, certainty, evidence, or limitation;
+- a Discovery Signal is automatically turned into a source credit, non-testing notice, concept disclaimer, or source-centered article;
+- Concept Reframing closely follows source wording, sequence, examples, or visual expression;
 - pages are a paragraph split mechanically;
 - Frame Scripts remain abstract;
 - all pages repeat one template;
 - a beautiful image has no credible place for exact copy;
-- visual review is claimed without actual comps and sequence evidence;
+- visual review is claimed without actual comps and full-state coverage;
 - Production changes copy or design to make implementation easier;
 - the user must remind internal departments what to do next.
 

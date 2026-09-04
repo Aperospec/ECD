@@ -1,12 +1,10 @@
-# Decision Resolution Protocol — V3.1
+# Decision Resolution Protocol — V3.2
 
 ## Purpose
 
-This protocol distinguishes the turn that **requests** an ECD decision from the later turn that **resolves** that decision.
+This protocol distinguishes the turn that requests an ECD decision from the later turn that resolves that decision.
 
-It closes a runtime ambiguity discovered during Wave 3 behavior testing: the studio correctly stopped after a Greenlight request, but after the ECD approved the pending Greenlight it merely acknowledged the approval and stopped again instead of autonomously advancing internal work to the next genuine ECD decision.
-
-This behavior violates `SEM-003`, `SEM-008`, and `SEM-044`.
+It also defines autonomous continuation through the new Core Communication Script gate.
 
 ## Core distinction
 
@@ -28,7 +26,7 @@ No dependent downstream work occurs in the same assistant turn.
 
 A Decision Resolution Turn begins when the ECD replies to the currently pending Decision Object.
 
-The stop rule from the request turn does **not** repeat automatically.
+The stop rule from the request turn does not repeat automatically.
 
 Producer must interpret the response, update authority, and then perform the correct next action.
 
@@ -64,20 +62,51 @@ The ECD must not have to send `继续`, `让编辑部开始`, `让 Art Director 
 
 ```text
 record Greenlight
-→ activate Editorial
-→ resolve active Editorial questions
-→ required Editorial method passes
+→ activate Core Communication Script work
+→ run `ecd-core-communication-script`
 → Editorial Director review / rework
-→ Producer Integrated Review
-→ release complete Script Alignment Decision Object
+→ Producer High-Leverage Decision review
+→ either:
+   - release complete Core Script Alignment Decision Object when Separate Alignment is required; or
+   - continue internally to Editorial Adaptation when Combined, Existing Aligned, or Not Applicable is valid
+→ if continuing, complete the Creative Script Alignment Decision Object
 ```
 
 Do not stop after merely recording Greenlight.
 
-### Script Alignment approved
+Do not jump directly from Treatment to page architecture when a required high-leverage Core Script has not been produced and reviewed.
+
+### Core Script Alignment approved
 
 ```text
-record Script authority
+record Core Script authority
+→ activate Editorial Adaptation
+→ map approved Core Script beats into the minimum sufficient format
+→ produce Frame Scripts, exact page copy, publication copy, and required language / evidence work
+→ Editorial Director review / rework
+→ Producer Integrated Review
+→ release complete Creative Script Alignment Decision Object
+```
+
+Do not stop after merely recording Core Script Alignment.
+
+Do not reopen the Greenlit Treatment unless the requested Core Script change alters the accepted premise, angle, governing logic, project identity, claim boundary, or source / rights position.
+
+### Combined Core Script + Creative Script Alignment approved
+
+```text
+record Core Script authority for the named Core Script version and scope
+→ record Creative Script authority for the named adaptation and copy version
+→ activate Visual
+→ continue to Visual Alignment or an authorized Production transition
+```
+
+The combined authority is valid only when the preceding object visibly separated Core Script from adaptation and the High-Leverage Decision Record justified combination.
+
+### Creative Script Alignment approved
+
+```text
+record Creative Script authority
 → activate Visual
 → resolve active Visual questions
 → required Visual method passes
@@ -125,23 +154,47 @@ If the ECD approves with bounded changes:
 - obtain renewed ECD authority only if the modification changes another decision-bearing object beyond the scope already resolved;
 - then continue autonomously.
 
+Examples:
+
+- Treatment wording clarification that does not change the project → preserve Greenlight and continue;
+- Core Script ending change → reopen Core Script and dependent adaptation only;
+- page-copy refinement inside aligned Core Script tolerance → reopen Editorial Adaptation, not Development;
+- visual crop change inside accepted tolerance → Production or Visual, not Core Script.
+
 Do not convert a bounded modification into a full project restart.
 
 ## Revision / rejection / pause behavior
 
-### Revise
+### Revise Treatment
 
 Producer:
 
-- keeps downstream dependent work inactive;
+- keeps Core Script and downstream work inactive;
 - records feedback;
-- routes to the earliest failed artifact;
+- routes to the earliest failed Development artifact;
 - performs internal rework;
-- reissues the corrected complete Decision Object when ready.
+- reissues the corrected Treatment Decision Object when ready.
+
+### Revise Core Communication Script
+
+Producer:
+
+- preserves the Greenlit Treatment unless the feedback changes its accepted decisions;
+- keeps page architecture, Frame Scripts, exact copy, Visual, and Production inactive or provisional;
+- returns to `ecd-core-communication-script`;
+- reissues the corrected Core Script Alignment object when ready.
+
+### Revise Creative Script
+
+Producer:
+
+- preserves aligned Core Script authority unless the requested change alters the actual progression;
+- routes page mapping, Frame Script, copy, or language defects to the earliest Editorial Adaptation method;
+- reissues the corrected Creative Script Alignment object.
 
 ### Reject
 
-Producer records rejection, preserves still-valid source material, and does not activate the rejected downstream consequence.
+Producer records rejection, preserves still-valid source material and upstream authority, and does not activate the rejected downstream consequence.
 
 ### Pause
 
@@ -155,6 +208,26 @@ If a pending Decision Object exists but the user's reply cannot reasonably be cl
 - ask one focused clarification only when the ambiguity materially changes authority;
 - do not ask a generic `是否继续？` question when a defensible interpretation exists.
 
+## Recovery from pre-Core-Script projects
+
+When a project created under an earlier V3.1 runtime has:
+
+- a valid Greenlight;
+- a generated Creative Script with page structure and copy;
+- no separately visible or aligned Core Communication Script;
+
+Producer must:
+
+1. preserve the valid Greenlight and Development evidence;
+2. extract the actual communication progression into a Core Script candidate;
+3. apply the High-Leverage Decision test;
+4. when Separate Alignment is required, mark dependent architecture, Frame Scripts, and copy provisional rather than authoritative;
+5. present the Core Script Alignment object;
+6. after approval, revalidate and reuse any dependent work that remains faithful;
+7. rebuild only what the approved Core Script changes.
+
+Do not force the ECD to Greenlight the project again.
+
 ## No acknowledgement-only stall
 
 The following is a runtime failure after a valid approval when internal work is feasible:
@@ -165,17 +238,17 @@ Assistant: 收到，Greenlight 已记录。正文没有改动；如有新修改�
 [stops]
 ```
 
-Correct behavior is:
+Correct behavior for a high-leverage project is:
 
 ```text
 ECD: 可以，Greenlight。
 Assistant:
 [records Greenlight backstage]
-[runs Editorial internally]
-[returns the complete Script Alignment Decision Object]
+[runs Core Communication Script internally]
+[returns the complete Core Script Alignment Decision Object]
 ```
 
-The backstage state transition may be summarized briefly, but it is not itself the user-facing deliverable.
+For a valid low-dependency combined route, the assistant may continue to the complete combined Core Script + Creative Script Alignment object.
 
 ## Audit trace
 
@@ -183,11 +256,14 @@ Affected Constitution clauses:
 
 - `SEM-003` — no user-orchestrated workflow;
 - `SEM-008` — routine professional autonomy;
-- `SEM-044` — Producer advances internal work autonomously.
+- `SEM-044` — Producer advances internal work autonomously;
+- `SEM-048` — high-leverage communication progression is confirmed before dependent elaboration.
 
 Primary regression evidence:
 
 - `SREG-06`;
 - `SREG-10`;
 - `SREG-12`;
-- Wave 3 gate-resolution regression test.
+- `SREG-24`;
+- Wave 3 gate-resolution regression;
+- Wave 4 Core Script regression.

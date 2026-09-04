@@ -1,125 +1,133 @@
 ---
 name: ecd-claims-rights
-description: Internal Development specialist skill for reviewing public claims, third-party source use, assigned reference roles, attribution, quotation, screenshots, likenesses, transformations, commercial-use conditions, implied product results, and the distinction between concept, demonstration, validation, and real experience.
-version: 3.1-alpha
+description: Internal Development specialist skill for reviewing only material public claims and third-party uses, including quotation, direct assets, screenshots, likenesses, transformation, implied endorsement, and the distinction between Discovery Signal, factual dependency, concept, demonstration, and real experience.
+version: 3.2-alpha
 ---
 
 # Claims and Rights Review Skill
 
 ## Purpose
 
-This Skill protects the project's factual position, speaker position, attribution, reference use, and third-party material boundaries.
+This Skill protects the project's factual position, speaker position, attribution decisions, and actual use of third-party material.
 
-It applies `core/EVIDENCE_OBLIGATION.md` and `core/REFERENCE_CONTRACT.md`.
+It does not provide legal advice, invent permission, or add defensive attribution and disclaimers to a project that only uses a public source as a Discovery Signal.
 
-It does not provide legal advice, invent permission, or grant a stronger public claim than evidence supports. It identifies the safest supportable creative use and any unresolved risk that must reach Producer or ECD.
+It identifies the safest supportable creative use and any unresolved issue that must reach Producer or ECD.
 
 ## Inputs
 
 - source materials and provenance;
-- Evidence Obligation Record and public claim ceiling;
-- Reference Records, assigned roles, and stage activation;
+- source posture: Discovery Signal, Factual Dependency, or Direct-use Material;
 - proposed concept or Treatment;
-- intended public or commercial claims;
-- quotations, screenshots, images, names, brands, likenesses, demonstrations, repositories, or generated reconstructions;
-- platform, locale, publication, and commercial context;
-- Research Verification Return;
+- intended public claims;
+- quotations, screenshots, images, names, brands, likenesses, or demonstrations actually proposed for use;
+- platform and publication context;
+- Research Verification Return when required;
 - Development Director assignment.
 
 ## Method
 
-### 1. Classify each source and reference use
+### 1. Confirm source posture
 
-Use the shared Reference Contract roles and identify the intended action:
+#### Discovery Signal
 
-- inspiration or concept reference only;
-- source / evidence;
-- authorized content asset;
+The source is used only to discover a broad topic or audience interest.
+
+Default consequence:
+
+- no public attribution requirement created by this Skill;
+- no source link, creator mention, inspiration line, non-testing statement, or concept disclaimer added;
+- source-specific wording, structure, examples, and visuals remain excluded;
+- no further rights review is required unless the project later introduces direct use or a material factual dependency.
+
+#### Factual Dependency
+
+The final communication relies on a specific fact, claim, event, result, or demonstration.
+
+Review the exact dependency and whether source identity is material to accurate presentation.
+
+#### Direct-use Material
+
+The final communication quotes, reproduces, or recognisably transforms source expression or assets.
+
+Review permission, license, attribution, transformation, identity, and platform conditions.
+
+### 2. Classify actual source use
+
+As applicable:
+
+- topic discovery only;
+- factual reference;
 - quotation;
 - screenshot or reproduction;
-- crop, edit, annotation, or transformation;
-- comparison or commentary;
-- parody;
+- transformation;
+- comparison;
 - demonstration;
-- quality benchmark;
+- parody or commentary;
 - creator attribution;
-- implied endorsement, affiliation, or sponsorship risk.
+- implied endorsement or affiliation risk.
 
-A role that is not assigned remains inactive.
+Do not classify a source as direct use merely because the same public topic is independently discussed.
 
-### 2. Classify the project's reality and evidence position
+### 3. Classify the project's reality position
+
+As applicable:
 
 - documented fact;
-- source claim;
 - personal real experience;
 - reconstruction from memory;
 - hypothetical example;
 - fictional scene;
 - concept visualization;
 - speculative future;
-- observed demonstration;
-- studio-validated result;
-- simulation.
+- product demonstration;
+- simulation;
+- independent Concept Reframing.
 
-The main narrative must signal the correct position. A late disclaimer cannot repair a body written to make a fictional, hypothetical, or unvalidated event appear factual or reliable.
+The main communication must not create a materially false belief. At the same time, do not add a disclaimer when the publication does not imply the disputed fact in the first place.
 
-### 3. Review public and commercial claims
+### 4. Review public claims
 
-Check whether wording or imagery implies:
+Check whether wording materially implies:
 
 - a product performed something it did not perform;
-- a capability works generally from one example;
-- a creator endorses, sponsors, or is affiliated with the work;
+- the studio independently reproduced a result when it did not make that claim or perform that reproduction;
+- a creator endorses or is affiliated with the work;
 - generated imagery is documentary evidence;
-- a concept visualization is an actual workflow or result;
 - a future possibility is currently available;
 - a source's example is the user's own result;
-- a productized Skill or workflow has been commercially validated when only a source claim or demonstration exists;
-- a guarantee, safety, compatibility, cost, or reliability promise exceeds evidence.
+- the current post is selling or promising a product when future productization was only a Deferred idea.
 
-### 4. Review direct use, transformation, and identity
+Do not manufacture these issues by reading neutral concept-sharing language as a hidden reliability claim.
 
-Record:
+### 5. Set use and attribution conditions
 
-- ownership and provenance;
-- license or permission state;
-- permitted quotation, screenshot, reproduction, crop, edit, annotation, or transformation;
-- commercial-use and redistribution conditions;
-- attribution, link, citation, watermark, username, brand, and identity treatment;
-- likeness, privacy, and implied endorsement concerns;
-- source-specific expression excluded from transfer;
-- evidence context that must remain visible.
+Record only conditions that actually apply:
 
-When permission is unknown, do not invent it. Recommend a narrower use, replacement source, original reconstruction, or blocker.
+- what may be quoted or paraphrased;
+- what may be reproduced or transformed;
+- what should be linked or attributed;
+- what should not be used;
+- what brand, username, watermark, or identity treatment is required;
+- what permission remains unknown.
 
-### 5. Review reference transfer
+Public attribution is required by this Skill only when direct use, quotation, source-material factual dependency, license, platform rule, or accurate claim context makes it necessary, or when the ECD requests it.
 
-Confirm that:
+An internal source record does not automatically become public attribution.
 
-- only assigned roles influence the current stage;
-- transferable principles are separate from source-specific expression;
-- the project remains original and project-specific;
-- evidence references are not aesthetically transformed into a different claim;
-- later-stage use conditions are explicit and Deferred until activation.
+### 6. Draft only necessary boundary language
 
-### 6. Draft boundary language
+Create public boundary language only when the final communication actually needs it for accurate interpretation.
 
-Create concise language for the Treatment and later public copy.
+Do not insert:
 
-The boundary should be clear before the audience is misled, close to the claim or image it qualifies, and proportionate to the Evidence Obligation.
+- `灵感来源于……`;
+- `我们没有实测……`;
+- `这只是概念创作……`;
+- `画面并非真实运行……`;
+- `如有侵权……`;
 
-### 7. Set the downstream rights and claims record
-
-Provide usable instructions for Editorial, Visual, and Production:
-
-- strongest supportable wording;
-- wording prohibited;
-- attribution and link requirements;
-- direct-use or transformation conditions;
-- evidence labels and context;
-- reference roles and prohibited transfer;
-- commercial-use limitations;
-- issue requiring ECD authority or external legal review.
+merely because a Discovery Signal existed.
 
 ## Output
 
@@ -127,46 +135,39 @@ Provide usable instructions for Editorial, Visual, and Production:
 # Claims and Rights Return
 
 Project:
-Evidence Obligation:
 Materials reviewed:
+Source posture:
 Provenance:
-Reference Records and assigned roles:
-Source-use classification:
-Reality / speaker / validation position:
+Publication dependency:
+Actual source-use classification:
+Reality / speaker position:
 Claims reviewed:
-Implied-result, reliability, endorsement, or affiliation risks:
-Quotation / screenshot / reproduction / transformation conditions:
-Commercial-use / redistribution conditions:
-Likeness / privacy / identity conditions:
-Attribution / link / citation requirements:
-Evidence context to preserve:
-Transferable principles:
+Implied-result or endorsement risks actually present:
+Quotation / screenshot / transformation conditions:
+Public attribution required: [no / yes — reason]
+Public boundary language required: [no / yes — exact reason]
 Source-specific expression excluded:
-Public boundary language:
-Public claim ceiling:
-Claims prohibited pending evidence:
-Unresolved permission or legal risk:
+Unresolved permission or rights risk:
 Effect on concept:
-Downstream instructions by stage:
 Self-check:
 Recommended Director disposition:
 ```
 
 ## Self-check
 
-- Is the project's real, fictional, conceptual, demonstrative, simulated, or validated position honest in the main communication?
-- Are product and AI capabilities described no more strongly than verified?
-- Is third-party work distinguishable from the user's output?
-- Are assigned reference roles, permissions, attribution, and prohibited transfer explicit?
-- Are evidence and context preserved?
-- Do commercial claims match the Product / Commercial Validation evidence actually available?
-- Does any unresolved issue require ECD, legal, or permission review?
+- Is Discovery Signal distinguished from factual dependency and direct use?
+- Is the project's real / fictional / conceptual position accurate in the main communication?
+- Are product and AI capabilities described no more strongly than the publication actually claims and evidence supports?
+- Is third-party expression absent unless authorized?
+- Has the Skill avoided adding unnecessary source, non-testing, concept, or infringement language?
+- Are any genuinely required attribution and transformation conditions usable downstream?
+- Does an unresolved issue require ECD or legal review?
 
 ## Failure routing
 
-- uncertain factual basis or reliability → Research Verification;
-- boundary weakens or changes the concept → Concept Development;
-- reference role or original user intent is ambiguous → Creative Producer / Reference Contract;
-- user intends a higher-risk use → Creative Producer / ECD decision;
-- permission cannot be established → blocker, alternative-source recommendation, or narrower use;
-- later public copy exceeds the claim ceiling → Copywriting / Copy Editing through Editorial Director.
+- uncertain factual dependency → Research Verification;
+- source-specific expression remains in Concept Reframing → Concept Development / Editorial / Visual as appropriate;
+- boundary changes the concept → Concept Development;
+- user intends direct use or a higher-risk current claim → Creative Producer / ECD decision;
+- permission cannot be established for proposed direct use → blocker or replacement-source recommendation;
+- no material claims or direct use exist → close review without inventing public-language requirements.

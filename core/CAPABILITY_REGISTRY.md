@@ -1,4 +1,4 @@
-# Capability Registry — V3.1
+# Capability Registry — V3.2
 
 This file is the only authority for what professional capabilities exist in the V3 runtime.
 
@@ -25,6 +25,7 @@ A Director may not claim that a Skill was used unless its path is listed here as
 | Capability | Registered name | Path | Status |
 |---|---|---|---|
 | Editorial Director | `ecd-editorial-director` | `departments/editorial/SKILL.md` | Implemented |
+| Core Communication Script | `ecd-core-communication-script` | `departments/editorial/skills/core-communication-script/SKILL.md` | Implemented |
 | Content Architecture | `ecd-content-architecture` | `departments/editorial/skills/content-architecture/SKILL.md` | Implemented |
 | Frame Script | `ecd-frame-script` | `departments/editorial/skills/frame-script/SKILL.md` | Implemented |
 | Copywriting | `ecd-copywriting` | `departments/editorial/skills/copywriting/SKILL.md` | Implemented |
@@ -58,7 +59,7 @@ A Director may not claim that a Skill was used unless its path is listed here as
 
 ## Not implemented
 
-The following capabilities are not part of V3.1 and must not be claimed as used:
+The following capabilities are not part of V3.2 and must not be claimed as used:
 
 - dedicated Information Design Skill;
 - dedicated Motion / Interaction Direction Skill;
@@ -77,12 +78,13 @@ When one of these is materially required, Producer must either:
 
 Registration makes a method available. It does not make the method mandatory for every project.
 
-Creative Producer and Department Directors must apply `core/ADAPTIVE_ROUTING.md`:
+Creative Producer and Department Directors must apply `core/ADAPTIVE_ROUTING.md` and `core/HIGH_LEVERAGE_DECISIONS.md`:
 
 - route active professional questions before named Skills;
 - reuse authority-complete evidence;
 - omit irrelevant methods;
-- record why a Skill was selected, combined, or omitted;
+- identify high-leverage decisions before dependent elaboration;
+- record why a Skill was selected, combined, reused, or omitted;
 - preserve required review and authority even when execution seats are combined.
 
 ## Capability-use record
@@ -107,6 +109,11 @@ Skills considered but omitted:
 Combined execution seats:
 - methods combined:
   evidence kept distinct:
+
+High-leverage decision dependencies:
+- decision:
+  gate mode:
+  authority evidence:
 
 Missing capability or limitation:
 ```

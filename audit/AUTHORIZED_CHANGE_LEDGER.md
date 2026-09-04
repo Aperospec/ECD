@@ -8,7 +8,7 @@ This ledger distinguishes intentional evolution from semantic loss. An entry rec
 
 Earlier state:
 
-- early skeletons exposed several role Skills;
+- early skeletons exposed several role Skills.
 
 Authorized state:
 
@@ -53,7 +53,7 @@ Earlier state:
 
 Authorized state:
 
-- every formal department package returns to Producer;
+- every formal Department package returns to Producer;
 - Producer performs integrated review, feedback closure, decision readiness, state updates, and stage activation;
 - Producer must not use the ECD as first-line QA.
 
@@ -65,7 +65,7 @@ Affected clauses:
 
 - `SEM-002`, `SEM-038`, `SEM-040`, `SEM-041`, `SEM-043`, `SEM-044`.
 
-## ACL-004 — Every new Creative Script requires explicit Script Alignment
+## ACL-004 — Every new Creative Script requires explicit Creative Script Alignment
 
 Earlier state:
 
@@ -73,7 +73,7 @@ Earlier state:
 
 Authorized state:
 
-- every newly created Creative Script requires an explicit, complete, bound ECD Script Alignment object;
+- every newly created page-level Creative Script requires an explicit, complete, bound ECD Creative Script Alignment object;
 - only non-semantic technical correction inside an already aligned Script may retain prior authority after delta review.
 
 Authority basis:
@@ -212,7 +212,7 @@ Affected clauses:
 
 - `SEM-028`, `SEM-031`, `SEM-034`.
 
-## ACL-011 — Final acceptance requires department sign-offs and Producer integration
+## ACL-011 — Final acceptance requires Department sign-offs and Producer integration
 
 Earlier state:
 
@@ -220,18 +220,74 @@ Earlier state:
 
 Authorized state:
 
-- Editorial signs final copy and claims;
+- Editorial signs final Core Script, copy, and claims;
 - Art Director signs design fidelity;
 - Production signs implementation and technical integrity;
 - Producer integrates them before ECD Final Acceptance.
 
 Authority basis:
 
-- accepted department-accountability architecture.
+- accepted Department-accountability architecture.
 
 Affected clauses:
 
 - `SEM-010`, `SEM-034`, `SEM-038`, `SEM-040`, `SEM-041`.
+
+## ACL-012 — Core Communication Script is confirmed before high-dependency page elaboration
+
+Earlier state:
+
+- Greenlight approved the Treatment;
+- the first actual end-to-end story, argument, explanation, demonstration, comparison, procedure, or thematic progression often appeared only inside the later Creative Script together with page architecture, Frame Scripts, exact copy, and publication copy;
+- rejecting the underlying progression could therefore invalidate substantial dependent Editorial work.
+
+Authorized state:
+
+- Greenlight remains a decision on project premise, angle, governing proposition, and material boundaries;
+- after Greenlight, Editorial creates a distinct Core Communication Script showing the actual progression from opening to payoff;
+- when changing that progression would materially invalidate downstream work, a separate ECD Core Script Alignment occurs before Content Architecture, Frame Scripts, exact page copy, and publication copy;
+- low-dependency Compact work may combine Core Script and Creative Script scopes only when the High-Leverage Decision Record justifies it and the Core Script remains visibly distinct;
+- a rejected Core Script normally preserves the Greenlit Treatment and returns only dependent work.
+
+Authority basis:
+
+- ECD identified that the prior process asked for judgment only after the story and all dependent page work had already been produced, and delegated the professional placement decision while requiring a distinct script-confirmation mechanism.
+
+Disposition:
+
+- structural strengthening of Editorial decision order; Greenlight remains before script development.
+
+Affected clauses:
+
+- `SEM-005`, `SEM-006`, `SEM-007`, `SEM-025`, `SEM-036`, `SEM-043`, `SEM-048`.
+
+## ACL-013 — Discovery-led Concept Reframing does not require default attribution, reproduction claims, or defensive explanation
+
+Earlier state:
+
+- source, evidence, rights, and reality-position controls could be interpreted as requiring public creator attribution, non-testing statements, concept disclaimers, or reproduction validation whenever a social source inspired a topic.
+
+Authorized state:
+
+- a public social source may be classified as `Discovery Signal` when it is used only to identify a topic and audience interest;
+- the studio independently develops the angle, Core Communication Script, examples, copy, and visuals;
+- engagement is a selection signal, not reliability evidence;
+- independent reproduction is not required when the current publication does not claim reproduction, reliability, or commercial usability;
+- the final publication does not automatically mention the original creator, source link, inspiration, testing / non-testing status, concept-art status, infringement disclaimer, or future productization;
+- public attribution or disclosure appears only when direct use, material factual dependency, rights / platform conditions, audience interpretation, or explicit ECD instruction requires it;
+- future productization remains a Deferred seed until separately commissioned.
+
+Authority basis:
+
+- explicit ECD clarification that the intended workflow is independent discussion of the same public concept using newly written copy and newly created visuals, not tutorial reproduction or a claim of testing; explicit rejection of unnecessary source and disclaimer language.
+
+Disposition:
+
+- correction of over-defensive source handling; does not authorize close paraphrase or direct use without the applicable controls.
+
+Affected clauses:
+
+- `SEM-011`, `SEM-012`, `SEM-014`, `SEM-016`, `SEM-017`, `SEM-047`, `SEM-049`.
 
 ## Ledger maintenance rule
 

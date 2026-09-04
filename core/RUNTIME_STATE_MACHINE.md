@@ -1,4 +1,4 @@
-# Runtime State Machine — V3.1
+# Runtime State Machine — V3.2
 
 ## Purpose
 
@@ -6,9 +6,13 @@ This state machine determines what work may exist, what decision is pending, and
 
 Conversational momentum does not change state. Only Creative Producer may update Project State, and only valid evidence may justify the update.
 
-Apply `ADAPTIVE_ROUTING.md` before choosing a state. The canonical flow defines authority order, not a mandatory waterfall restart.
+Apply:
 
-Apply `DECISION_RESOLUTION_PROTOCOL.md` whenever the ECD replies to a current Pending Decision Object. A decision-request turn stops; an approved decision-resolution turn advances.
+- `ADAPTIVE_ROUTING.md` before choosing a route;
+- `HIGH_LEVERAGE_DECISIONS.md` before dependent elaboration;
+- `DECISION_RESOLUTION_PROTOCOL.md` whenever the ECD replies to a current Pending Decision Object.
+
+A decision-request turn stops; an approved decision-resolution turn advances.
 
 ## States
 
@@ -22,15 +26,18 @@ Allowed:
 - inspect available materials and prior artifacts;
 - infer reversible conditions;
 - determine entry mode and latest valid artifact;
-- identify any materially consequential question.
+- identify materially consequential questions;
+- classify social sources as Discovery Signal, Factual Dependency, or Direct-use Material when applicable.
 
 Before entering a decision-bearing project state, Producer creates or validates:
 
 - Deliverable Contract;
 - Adaptive Route Record and complexity / risk profile;
+- preliminary High-Leverage Decision Record;
 - Evidence Obligation Record;
 - Stage-Scoped Input Register;
-- Reference Records as required;
+- Source / Reference Records;
+- Concept Reframing Record when applicable;
 - Project State.
 
 Next states:
@@ -48,9 +55,10 @@ Allowed:
 
 - research and source inspection;
 - shortlist or one recommendation;
+- engagement-signal reading;
 - concise rationale;
 - account / audience / novelty comparison;
-- provisional risk, Evidence Obligation, or reference note;
+- provisional source posture, Evidence Obligation, or reference note;
 - next valid action.
 
 Forbidden:
@@ -60,6 +68,7 @@ Forbidden:
 - requesting Greenlight;
 - treating a positive reaction as Greenlight;
 - writing the final social post unless explicitly requested as a narrow Craft-only task;
+- writing a formal Core Communication Script;
 - making binding Editorial or Visual decisions.
 
 Output label:
@@ -70,7 +79,7 @@ If the user accepts the recommendation and asks to make the work, Producer initi
 
 ### 2. Continuation Validation
 
-Used when the user supplies or references an existing Treatment, Script, visual direction, final package, or localized correction.
+Used when the user supplies or references an existing Treatment, Core Communication Script, Creative Script, visual direction, final package, or localized correction.
 
 Producer verifies:
 
@@ -79,8 +88,9 @@ Producer verifies:
 - dependencies and stale state;
 - unresolved feedback;
 - active profile and Deliverable Contract;
+- High-Leverage Decision Record and Core Script gate mode;
 - Evidence Obligation;
-- input and reference records;
+- source posture, input, and reference records;
 - correct shortest next state.
 
 Missing authority does not get inferred. Valid existing work is reused. If validation fails, return only to the earliest invalid state.
@@ -88,12 +98,24 @@ Missing authority does not get inferred. Valid existing work is reused. If valid
 Possible next states:
 
 - `Development Active`;
-- `Editorial Active`;
+- `Core Communication Script Active`;
+- `Editorial Adaptation Active`;
 - `Visual Active`;
 - `Production Active`;
 - a bounded Rework state;
 - `Craft-only Task`;
 - `Blocked`.
+
+#### V3.1-to-V3.2 recovery
+
+When a Greenlit project already has a page-level Creative Script but no Core Script authority:
+
+- preserve the Greenlit Treatment and source / evidence work;
+- extract the actual proposed progression into a Core Communication Script candidate;
+- assess dependency and leverage;
+- if Separate Alignment is required, mark page architecture, Frame Scripts, and copy `provisional / dependent on unaligned Core Script`;
+- present the Core Script Alignment object before Visual work;
+- reuse any downstream material that remains valid after Core Script approval rather than discarding it automatically.
 
 ### 3. Craft-only Task
 
@@ -116,16 +138,18 @@ Active department:
 
 Goal:
 
-- resolve the active Development questions and produce a Department Cleared Creative Treatment Package.
+- resolve active Development questions and produce a Department Cleared Creative Treatment Package.
 
 Required controls:
 
 - Adaptive Route;
+- preliminary High-Leverage assessment;
 - Evidence Obligation;
+- Concept Reframing source posture when applicable;
 - Active Development input projections;
 - active Development reference roles.
 
-Downstream Editorial, Visual, and Production capabilities remain inactive.
+Downstream Core Script, Editorial Adaptation, Visual, and Production capabilities remain inactive.
 
 Completion transition:
 
@@ -139,6 +163,7 @@ Producer checks:
 - process proportionality;
 - capability and Department evidence;
 - Treatment completeness;
+- source posture and independent concept position;
 - Evidence Obligation and public claim ceiling;
 - Stage-Scoped Input integrity;
 - Reference Contract, source, claim, and rights state;
@@ -157,9 +182,9 @@ After correction and Department review, return to `Treatment Ready for Producer 
 
 ### 7. Awaiting ECD Greenlight
 
-A complete Greenlight Decision Object is visible and bound to current Project State.
+A complete Treatment Greenlight Decision Object is visible and bound to current Project State.
 
-All downstream work remains inactive **until the ECD resolves this pending object**.
+All downstream work remains inactive until the ECD resolves this pending object.
 
 Valid ECD responses:
 
@@ -169,27 +194,101 @@ Valid ECD responses:
 - reject;
 - pause.
 
-An ambiguous response is interpreted conservatively as feedback, not approval. Producer updates the Treatment or asks one focused decision clarification only when no defensible interpretation exists.
+An ambiguous response is interpreted conservatively as feedback, not approval.
 
 If approved:
 
-- record the authority;
+- record Greenlight;
 - close the Pending Decision ID;
-- activate only Editorial input projections and reference roles;
-- transition to `Editorial Active`;
-- **continue Editorial work immediately in the same assistant response until the next complete ECD Decision Object or a genuine blocker**.
+- activate Core Script input projections and relevant Editorial reference roles;
+- transition to `Core Communication Script Active`;
+- continue internal Core Script work immediately until a required Core Script Alignment object, a valid low-dependency continuation to Editorial Adaptation, or a genuine blocker.
 
-An acknowledgement-only stop after Greenlight is invalid when Editorial work can proceed.
+An acknowledgement-only stop after Greenlight is invalid when Core Script work can proceed.
 
-### 8. Editorial Active
+### 8. Core Communication Script Active
+
+Active department:
+
+- Editorial, limited to the Core Communication Script question.
+
+Goal:
+
+- produce the actual end-to-end communication progression;
+- determine and justify the Core Script gate mode;
+- keep dependent page adaptation inactive when Separate Alignment is required.
+
+Allowed Skills, proportionately:
+
+- Editorial Director;
+- Core Communication Script;
+- Copy Editing or native-language craft only when needed to assess the script itself.
+
+Completion transition:
+
+`Core Script Ready for Producer Review`.
+
+### 9. Core Script Ready for Producer Review
+
+Producer checks:
+
+- fidelity to the Greenlit Treatment;
+- whether the actual progression is directly judgeable;
+- opening, progression, decisive shift, and payoff;
+- speaker / reality / source position;
+- essential versus adaptable beats;
+- source independence in Concept Reframing;
+- dependency fan-out and invalidation risk;
+- gate mode validity;
+- Department evidence.
+
+Possible transitions:
+
+- `Core Script Rework`;
+- `Awaiting ECD Core Script Alignment` when Separate Alignment is required;
+- `Editorial Adaptation Active` when gate mode is Combined, Existing Aligned, or Not Applicable and the route is valid.
+
+### 10. Core Script Rework
+
+Return the actual progression to `ecd-core-communication-script` or another earliest affected Editorial method.
+
+Dependent page architecture, Frame Scripts, exact copy, and Visual work remain inactive when Separate Alignment is required.
+
+After correction and Department review, return to `Core Script Ready for Producer Review`.
+
+### 11. Awaiting ECD Core Script Alignment
+
+A complete Core Script Alignment Decision Object is visible and bound to Project State.
+
+Page architecture, Frame Scripts, exact copy, publication copy, Visual, and Production remain inactive until the ECD resolves the object.
+
+If approved:
+
+- record Core Script authority;
+- close the Pending Decision ID;
+- activate Editorial Adaptation inputs;
+- transition to `Editorial Adaptation Active`;
+- continue immediately to the complete Creative Script Alignment object or a genuine blocker.
+
+An acknowledgement-only stop after Core Script Alignment is invalid when Editorial Adaptation can proceed.
+
+### 12. Editorial Adaptation Active
 
 Active department:
 
 - Editorial.
 
+Entry requires:
+
+- Core Script Aligned;
+- or valid Combined with Creative Script Alignment mode;
+- or Existing Aligned;
+- or Not Applicable for the bounded task.
+
 Goal:
 
-- resolve active Editorial questions and produce a Department Cleared Creative Script Package.
+- map approved Core Script beats into the minimum sufficient format;
+- produce Frame Scripts, exact page copy, publication copy, and a Department Cleared Creative Script Package.
 
 Native-language and bilingual methods activate according to language, locale, and actual need.
 
@@ -197,49 +296,69 @@ Visual styling and Production remain inactive.
 
 Completion transition:
 
-`Script Ready for Producer Review`.
+`Creative Script Ready for Producer Review`.
 
-### 9. Script Ready for Producer Review
+### 13. Creative Script Ready for Producer Review
 
 Producer checks:
 
-- fidelity to Greenlight;
+- fidelity to Greenlight and Core Script;
+- gate mode validity;
+- Core Script beat-to-page mapping;
 - minimum sufficient format and sequence;
 - every required Frame Script;
 - exact page and publication copy;
 - native-language or bilingual evidence;
-- factual, validation, source, attribution, and disclosure language;
+- factual, validation, source, attribution, and disclosure language actually required;
+- absence of unnecessary source / testing / concept disclaimers;
 - input and reference continuity;
 - Department evidence and decision readiness.
 
 Possible transitions:
 
-- `Editorial Rework`;
-- `Awaiting ECD Script Alignment`.
+- `Editorial Adaptation Rework`;
+- `Awaiting ECD Creative Script Alignment`.
 
-### 10. Editorial Rework
+### 14. Editorial Adaptation Rework
 
-Return the earliest failed Editorial object or professional question: architecture, Frame Script, writing, native-language craft, transcreation, copy edit, proofread, or evidence language.
+Return the earliest failed Editorial object or professional question:
 
-After correction and Department review, return to `Script Ready for Producer Review`.
+- Core Script, if the actual progression changed;
+- Content Architecture;
+- Frame Script;
+- writing;
+- native-language craft;
+- transcreation;
+- copy edit;
+- proofread;
+- evidence or source language.
 
-### 11. Awaiting ECD Script Alignment
+After correction and Department review, return to the appropriate Core Script or Creative Script review state.
 
-A complete Script Alignment Decision Object is visible and bound to Project State.
+### 15. Awaiting ECD Creative Script Alignment
 
-Visual and Production remain inactive **until the ECD resolves this pending object**.
+A complete Creative Script Alignment Decision Object is visible and bound to Project State.
+
+Visual and Production remain inactive until the ECD resolves this pending object.
+
+The object must show:
+
+- separately aligned Core Script reference, or the distinct Core Script section included in the combined decision scope;
+- adaptation logic;
+- every page / beat with `这页讲什么 / 分镜脚本 / 页面文案`;
+- complete publication copy.
 
 If approved:
 
-- record Script authority;
+- record Creative Script authority and, for a valid combined route, Core Script authority within the named combined scope;
 - close the Pending Decision ID;
 - activate only Visual input projections and reference roles;
 - transition to `Visual Active`;
-- **continue Visual work immediately in the same assistant response until the next complete ECD Decision Object, an already-authorized Production transition, or a genuine blocker**.
+- continue Visual work immediately until the next complete ECD Decision Object, an already-authorized Production transition, or a genuine blocker.
 
-An acknowledgement-only stop after Script Alignment is invalid when Visual work can proceed.
+An acknowledgement-only stop after Creative Script Alignment is invalid when Visual work can proceed.
 
-### 12. Visual Active
+### 16. Visual Active
 
 Active department:
 
@@ -255,18 +374,18 @@ Representative exploratory or Production-intent proof may be created only under 
 
 Completion transition:
 
-- `Visual Ready for Producer Review`.
+`Visual Ready for Producer Review`.
 
-### 13. Visual Ready for Producer Review
+### 17. Visual Ready for Producer Review
 
 Producer checks:
 
-- Script fidelity;
+- Treatment, Core Script, and Creative Script fidelity;
 - exact-copy use and language variants;
 - full required state / sequence coverage;
 - representative comps;
 - typography and image direction;
-- bounded reference transfer;
+- bounded reference transfer and Concept Reframing independence;
 - Evidence Obligation and evidence integrity;
 - Design Critique closure;
 - target-width evidence;
@@ -278,17 +397,17 @@ Possible transitions:
 - `Awaiting ECD Visual Alignment`;
 - `Production Active` only when no new governing visual decision requires ECD authority and existing authority already covers the package.
 
-### 14. Visual Rework
+### 18. Visual Rework
 
-Return the earliest failed Visual object or professional question: concept, sequence, page design, typography, image direction, reference transfer, evidence treatment, or critique closure.
+Return the earliest failed Visual object or professional question: concept, sequence, page design, typography, image direction, reference transfer, source-specific imitation, evidence treatment, or critique closure.
 
 After correction and Department review, return to `Visual Ready for Producer Review`.
 
-### 15. Awaiting ECD Visual Alignment
+### 19. Awaiting ECD Visual Alignment
 
 A complete Visual Alignment Decision Object is visible and bound to Project State.
 
-Broad final Production remains inactive **until the ECD resolves this pending object**.
+Broad final Production remains inactive until the ECD resolves this pending object.
 
 If approved:
 
@@ -296,11 +415,11 @@ If approved:
 - close the Pending Decision ID;
 - activate only Production input projections, authorized assets, and Production reference roles;
 - transition to `Production Active`;
-- **continue Production work immediately in the same assistant response until the complete Final Acceptance Decision Object or a genuine blocker**.
+- continue Production work immediately until the complete Final Acceptance Decision Object or a genuine blocker.
 
 An acknowledgement-only stop after Visual Alignment is invalid when Production can proceed.
 
-### 16. Production Active
+### 20. Production Active
 
 Active department:
 
@@ -314,14 +433,14 @@ Completion transition:
 
 `Final Package Ready for Sign-off`.
 
-### 17. Final Package Ready for Sign-off
+### 21. Final Package Ready for Sign-off
 
 Required checks, to the depth required by the Deliverable Contract:
 
 - Production Director review;
-- Editorial Director final copy, language, claim, attribution, and evidence sign-off;
-- Art Director final visual, reference-transfer, and evidence-treatment sign-off;
-- Development Director re-review only when premise, Evidence Obligation, rights, or public claim changed;
+- Editorial Director final Core Script, page copy, language, claim, attribution, and evidence sign-off;
+- Art Director final visual, reference-transfer, originality, and evidence-treatment sign-off;
+- Development Director re-review only when premise, Evidence Obligation, rights, source posture, or public claim changed;
 - Producer integrated final review.
 
 Possible transitions:
@@ -330,13 +449,13 @@ Possible transitions:
 - upstream rework if final defects originated earlier;
 - `Awaiting ECD Final Acceptance`.
 
-### 18. Production Rework
+### 22. Production Rework
 
 Return to the earliest failed Production or upstream artifact. Preserve unaffected work.
 
 After correction and required sign-offs, return to `Final Package Ready for Sign-off`.
 
-### 19. Awaiting ECD Final Acceptance
+### 23. Awaiting ECD Final Acceptance
 
 A complete Final Acceptance Decision Object is visible and bound to Project State.
 
@@ -348,14 +467,16 @@ If accepted:
 - create the Completion Record in the same assistant response;
 - return a concise completion acknowledgement and deliverable summary.
 
-### 20. Completed
+### 24. Completed
 
 Producer creates a Completion Record containing:
 
 - final authoritative artifact chain;
 - final assets;
 - Adaptive Route and final complexity profile;
+- High-Leverage Decision Record and Core Script authority;
 - Evidence Obligation and validation state;
+- Concept Reframing / source posture;
 - Stage-Scoped Input closure;
 - Reference Records and final permitted uses;
 - registered Skills actually used and omitted;
@@ -368,15 +489,23 @@ Producer creates a Completion Record containing:
 
 No further work occurs unless the project is reopened.
 
-### 21. Reopened
+### 25. Reopened
 
 A completed or approved artifact has been materially changed.
 
 Producer identifies the earliest affected state and returns there. Later authority dependent on that artifact becomes stale until revalidated.
 
-Update affected input projections, reference roles, Evidence Obligation, and complexity profile when necessary.
+Examples:
 
-### 22. Blocked
+- premise / angle changes → Development;
+- actual communication progression changes → Core Communication Script;
+- page mapping, Frame Script, or exact copy changes → Editorial Adaptation;
+- visual design changes → Visual;
+- implementation-only change → Production.
+
+Update affected input projections, source posture, reference roles, Evidence Obligation, and complexity profile when necessary.
+
+### 26. Blocked
 
 Used only for a genuine missing authority, material information, source, rights, capability, validation, scope, or feasibility condition that cannot be solved internally or through a reversible assumption.
 
@@ -408,7 +537,7 @@ A reply can change authority only if it answers this record.
 
 ## Decision request stop rule
 
-In states 7, 11, 15, and 19, the assistant response that **releases the Decision Object and asks the ECD to decide** ends at the request. No dependent downstream action occurs in that request turn.
+In states 7, 11, 15, 19, and 23, the assistant response that releases the Decision Object and asks the ECD to decide ends at the request. No dependent downstream action occurs in that request turn.
 
 This rule does not authorize a second stop after the ECD resolves the object.
 
@@ -422,4 +551,4 @@ When the ECD later resolves the current Pending Decision Object:
 - pause records a paused state;
 - ambiguous authority-changing replies receive at most one focused clarification.
 
-Except for Final Acceptance, an approved resolution should normally produce the **next genuine ECD Decision Object** in the same assistant response, not an acknowledgement-only message.
+Except for Final Acceptance, an approved resolution should normally produce the next genuine ECD Decision Object in the same assistant response, not an acknowledgement-only message.
