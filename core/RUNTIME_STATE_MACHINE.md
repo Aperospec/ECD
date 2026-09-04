@@ -8,6 +8,8 @@ Conversational momentum does not change state. Only Creative Producer may update
 
 Apply `ADAPTIVE_ROUTING.md` before choosing a state. The canonical flow defines authority order, not a mandatory waterfall restart.
 
+Apply `DECISION_RESOLUTION_PROTOCOL.md` whenever the ECD replies to a current Pending Decision Object. A decision-request turn stops; an approved decision-resolution turn advances.
+
 ## States
 
 ### 0. Uninitialized
@@ -157,7 +159,7 @@ After correction and Department review, return to `Treatment Ready for Producer 
 
 A complete Greenlight Decision Object is visible and bound to current Project State.
 
-All downstream work remains inactive.
+All downstream work remains inactive **until the ECD resolves this pending object**.
 
 Valid ECD responses:
 
@@ -172,8 +174,12 @@ An ambiguous response is interpreted conservatively as feedback, not approval. P
 If approved:
 
 - record the authority;
+- close the Pending Decision ID;
 - activate only Editorial input projections and reference roles;
-- transition to `Editorial Active`.
+- transition to `Editorial Active`;
+- **continue Editorial work immediately in the same assistant response until the next complete ECD Decision Object or a genuine blocker**.
+
+An acknowledgement-only stop after Greenlight is invalid when Editorial work can proceed.
 
 ### 8. Editorial Active
 
@@ -221,13 +227,17 @@ After correction and Department review, return to `Script Ready for Producer Rev
 
 A complete Script Alignment Decision Object is visible and bound to Project State.
 
-Visual and Production remain inactive.
+Visual and Production remain inactive **until the ECD resolves this pending object**.
 
 If approved:
 
 - record Script authority;
+- close the Pending Decision ID;
 - activate only Visual input projections and reference roles;
-- transition to `Visual Active`.
+- transition to `Visual Active`;
+- **continue Visual work immediately in the same assistant response until the next complete ECD Decision Object, an already-authorized Production transition, or a genuine blocker**.
+
+An acknowledgement-only stop after Script Alignment is invalid when Visual work can proceed.
 
 ### 12. Visual Active
 
@@ -278,13 +288,17 @@ After correction and Department review, return to `Visual Ready for Producer Rev
 
 A complete Visual Alignment Decision Object is visible and bound to Project State.
 
-Broad final Production remains inactive.
+Broad final Production remains inactive **until the ECD resolves this pending object**.
 
 If approved:
 
 - record governing visual authority;
+- close the Pending Decision ID;
 - activate only Production input projections, authorized assets, and Production reference roles;
-- transition to `Production Active`.
+- transition to `Production Active`;
+- **continue Production work immediately in the same assistant response until the complete Final Acceptance Decision Object or a genuine blocker**.
+
+An acknowledgement-only stop after Visual Alignment is invalid when Production can proceed.
 
 ### 16. Production Active
 
@@ -326,7 +340,13 @@ After correction and required sign-offs, return to `Final Package Ready for Sign
 
 A complete Final Acceptance Decision Object is visible and bound to Project State.
 
-If accepted, transition to `Completed`.
+If accepted:
+
+- record Final Accepted;
+- close the Pending Decision ID;
+- transition to `Completed`;
+- create the Completion Record in the same assistant response;
+- return a concise completion acknowledgement and deliverable summary.
 
 ### 20. Completed
 
@@ -386,6 +406,20 @@ Status: awaiting ECD response
 
 A reply can change authority only if it answers this record.
 
-## Stop rule
+## Decision request stop rule
 
-In states 7, 11, 15, and 19, the assistant response ends at the ECD request. No downstream action occurs in the same turn.
+In states 7, 11, 15, and 19, the assistant response that **releases the Decision Object and asks the ECD to decide** ends at the request. No dependent downstream action occurs in that request turn.
+
+This rule does not authorize a second stop after the ECD resolves the object.
+
+## Decision resolution continuation rule
+
+When the ECD later resolves the current Pending Decision Object:
+
+- approval or approval-with-bounded-modifications triggers the state transition and autonomous internal continuation defined in `DECISION_RESOLUTION_PROTOCOL.md`;
+- revise triggers targeted rework and re-release of the corrected object;
+- reject prevents the rejected consequence from activating;
+- pause records a paused state;
+- ambiguous authority-changing replies receive at most one focused clarification.
+
+Except for Final Acceptance, an approved resolution should normally produce the **next genuine ECD Decision Object** in the same assistant response, not an acknowledgement-only message.
