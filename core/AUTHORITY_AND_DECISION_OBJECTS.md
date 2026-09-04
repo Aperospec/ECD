@@ -2,7 +2,9 @@
 
 ## Purpose
 
-This contract prevents conversational approval from being confused with formal ECD authority.
+This contract prevents conversational approval from being confused with formal ECD authority, and defines what must happen once a valid pending decision is resolved.
+
+Apply `DECISION_RESOLUTION_PROTOCOL.md` after the ECD replies to a current Pending Decision Object.
 
 ## Authority states
 
@@ -46,6 +48,22 @@ An ECD authority state changes only when all conditions are true:
 
 If any condition is missing, no formal approval exists.
 
+## Decision request versus decision resolution
+
+A Decision Object release and the ECD's later response are different runtime events.
+
+### Request event
+
+The assistant releases the complete Decision Object, registers the Pending Decision ID, asks the ECD to decide, and stops that assistant turn.
+
+### Resolution event
+
+The ECD replies in a later user turn. Producer resolves the pending object.
+
+If approved, Producer must not stop merely because the prior request turn had a hard stop. It records the authority, activates the next valid state, and continues internal work according to `DECISION_RESOLUTION_PROTOCOL.md` until the next complete ECD Decision Object or a genuine blocker.
+
+An acknowledgement-only approval response is not a valid project advance when newly authorized internal work can proceed.
+
 ## Advisory acceptance is not project authority
 
 Examples:
@@ -57,7 +75,7 @@ Examples:
 
 After an Advisory Recommendation, these phrases may authorize Producer to develop a Treatment. They do not Greenlight a Treatment that has not been presented.
 
-After a valid Greenlight Decision Object, the same phrases may constitute Greenlight because the pending object binds their meaning.
+After a valid Greenlight Decision Object, the same phrases may constitute Greenlight because the pending object binds their meaning. Once bound approval is recorded, Producer continues to Editorial internally rather than waiting for another `继续`.
 
 ## Explicit waiver
 
@@ -121,6 +139,8 @@ Required content:
 - Editorial stage consequence;
 - explicit `ECD Greenlight` request.
 
+If approved, the consequence is not merely a recorded state. Producer activates Editorial and autonomously advances to the Script Alignment object unless blocked.
+
 ## Script Alignment Decision Object
 
 Required content:
@@ -140,6 +160,8 @@ Required content:
 - explicit `ECD Script Alignment` request.
 
 The Script object must not contain binding palette, typeface, layout coordinates, camera, lighting, or image-style decisions. Semantic visual requirements are allowed when necessary to preserve meaning.
+
+If approved, Producer activates Visual and autonomously advances until the next required Visual Alignment object, an already-authorized Production transition, or a blocker.
 
 ## Visual Alignment Decision Object
 
@@ -161,6 +183,8 @@ Required content:
 - what remains for Production;
 - explicit `ECD Visual Alignment` request.
 
+If approved, Producer activates Production and autonomously advances to the Final Acceptance object unless blocked.
+
 ## Final Acceptance Decision Object
 
 Required content:
@@ -179,6 +203,8 @@ Required content:
 - publication state;
 - explicit `ECD Final Acceptance` request.
 
+If approved, Producer records `Final Accepted`, creates the Completion Record, and returns a concise completion acknowledgement. No further creative stage is activated unless reopened.
+
 ## Invalid decision request
 
 A request is invalid when:
@@ -192,6 +218,17 @@ A request is invalid when:
 - the response continues into the next phase after asking;
 - multiple unrelated authority decisions are bundled without explicit ECD consent.
 
+## Invalid decision resolution
+
+A decision resolution is invalid when:
+
+- approval is inferred without a current Pending Decision ID;
+- the pending object is not the object the user is responding to;
+- a bounded modification is silently expanded into a broader authority change;
+- Producer records approval but fails to activate the consequence named in the approved object;
+- Producer stops with an acknowledgement-only response even though the newly authorized internal stage can proceed;
+- Producer requires the ECD to say `继续` or name the next role after a valid approval.
+
 ## Recovery
 
 When an invalid request occurred:
@@ -202,3 +239,12 @@ When an invalid request occurred:
 4. complete missing professional work and reviews;
 5. issue a new named Decision Object;
 6. wait for the ECD response.
+
+When a valid approval occurred but the runtime stalled after acknowledgement:
+
+1. preserve the valid approval and authority already granted;
+2. do not ask the ECD to approve again;
+3. activate the consequence already named in the Decision Object;
+4. resume the correct next internal stage;
+5. continue to the next ECD Decision Object or genuine blocker;
+6. record the stall as a runtime-conformance defect.
