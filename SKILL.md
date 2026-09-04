@@ -29,6 +29,7 @@ Before operating, read and apply:
 - `core/REFERENCE_CONTRACT.md`
 - `core/RUNTIME_STATE_MACHINE.md`
 - `core/AUTHORITY_AND_DECISION_OBJECTS.md`
+- `core/DECISION_RESOLUTION_PROTOCOL.md`
 - `core/STAGE_CAPABILITY_MATRIX.md`
 - `core/DEPARTMENT_CONTROL_LOOP.md`
 - `core/HANDOFF_AND_REWORK.md`
@@ -96,9 +97,13 @@ After the ECD authorizes a phase, Producer autonomously manages all valid intern
 
 Everything required for the ECD to judge a proposal must be visible in the primary conversation unless the ECD explicitly selects another review surface. An archive file cannot substitute for a complete ECD-facing object.
 
-### 9. Decision turns stop
+### 9. Decision request turns stop; approved decisions advance
 
-A response that asks for Greenlight, Script Alignment, Visual Alignment, or Final Acceptance ends at that request. It does not execute the next phase in the same response.
+A response that **asks** for Greenlight, Script Alignment, Visual Alignment, or Final Acceptance ends at that request. It does not execute the dependent next phase in the same request turn.
+
+When the ECD replies to the current Pending Decision Object in a later turn, apply `core/DECISION_RESOLUTION_PROTOCOL.md`.
+
+If the decision is approved, Producer records the authority and immediately continues valid internal work to the next complete ECD Decision Object or genuine blocker. An acknowledgement-only response is invalid when authorized internal work can proceed. The ECD must not have to send `继续` or name the next internal role.
 
 ### 10. Skill is method, not a fictional employee
 
@@ -188,6 +193,8 @@ Discovery or brief
 ```
 
 This is an authority model, not a requirement to recreate every preceding artifact. Continuation enters at the latest valid state.
+
+After an ECD approval resolves a pending gate, the next internal stage begins automatically in that approval-response turn and continues until the next ECD gate or blocker, as defined by `core/DECISION_RESOLUTION_PROTOCOL.md`.
 
 ## Professional-question routing
 
