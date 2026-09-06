@@ -8,4 +8,4 @@ Project objectives, audiences, styles, formats, research conclusions, operationa
 
 This first independent edition is an alpha. Structural validation and limited forward tasks establish initial evidence, not comprehensive mastery of every discipline named in its scope.
 
-Earlier ECD studio history is retained in the `v2.1-legacy` and `v3-department-architecture` branches. The main branch contains the independent Executive Creative Director capability.
+Earlier integrated editions remain available in the commit history: [v2.1 snapshot](https://github.com/Aperospec/ECD/tree/cdc48e4eba107dd67a4920d2fd1101058759031b) and [v3 snapshot](https://github.com/Aperospec/ECD/tree/7bc0fcc22b8793736ddf103a8d45b598c85025b5). The legacy branch names have been retired after the split parity audit. The main branch contains the independent Executive Creative Director capability.
