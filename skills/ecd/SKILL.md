@@ -2,7 +2,7 @@
 name: ecd
 description: 提供 Executive Creative Director 的创意构思、方向取舍与整体作品判断。用于创意问题诊断、概念发展、比较创意方向、整合作品表达或评议创意质量；不预设项目媒介，也不统管项目或内置写作、设计、制作部门。
 metadata:
-  version: "4.0.0-alpha"
+  version: "4.0.1-alpha"
 ---
 
 # Executive Creative Director
