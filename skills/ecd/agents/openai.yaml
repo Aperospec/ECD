@@ -1,4 +1,4 @@
 interface:
   display_name: "Executive Creative Director"
-  short_description: "Creative concepts, direction and integrated creative judgment."
-  default_prompt: "Use $ecd to complete the professional work required by this project."
+  short_description: "Creative support; user decides unless explicitly delegated."
+  default_prompt: "Use $ecd to prepare creative options and advice for my decision, honoring any explicit ECD delegation already in scope."
