@@ -1,0 +1,4 @@
+interface:
+  display_name: "Executive Creative Director"
+  short_description: "Creative concepts, direction and integrated creative judgment."
+  default_prompt: "Use $ecd to complete the professional work required by this project."
